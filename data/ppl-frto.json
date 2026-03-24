@@ -1,7 +1,7 @@
 [
   {
     "code": "2.2.2(a)",
-    "topic": "2.2 \u2014 Radio Wave Propagation",
+    "topic": "2.2 — Radio Wave Propagation",
     "syllabus_desc": "VHF/HF range characteristics",
     "concept": "VHF radio operates on frequencies between 118-136.975 MHz and provides line-of-sight communication. The range is limited by the radio horizon, which extends with altitude. An aircraft at 5,000 feet may communicate with ground stations over 40-50 nm away. HF radio operates on frequencies between 3-30 MHz and uses sky wave propagation, bouncing signals off the ionosphere, allowing long-range communication over hundreds of nautical miles. This makes HF essential for oceanic and remote area flights.",
     "exam_tip": "VHF = line-of-sight (altitude-dependent range). HF = sky wave via ionosphere (long-range). Know the frequency bands.",
@@ -18,10 +18,10 @@
   },
   {
     "code": "2.2.2(b)",
-    "topic": "2.2 \u2014 Radio Wave Propagation",
+    "topic": "2.2 — Radio Wave Propagation",
     "syllabus_desc": "Surface interference and terrain effects",
     "concept": "Terrain obstacles create communication 'shadows' where radio signals cannot propagate effectively. In New Zealand, the Southern Alps and other mountainous regions can block VHF signals, requiring aircraft to climb to higher altitudes to establish communication. HF signals are affected by ionospheric conditions, solar activity (sunspot cycles), and atmospheric disturbances like thunderstorms. Line-of-sight blockage is the primary limitation for VHF; propagation delays and static are the main concerns for HF.",
-    "exam_tip": "VHF blocked by terrain\u2014climb higher. HF affected by ionosphere conditions and solar activity.",
+    "exam_tip": "VHF blocked by terrain—climb higher. HF affected by ionosphere conditions and solar activity.",
     "key_facts": [
       "Mountains and terrain create communication shadows",
       "NZ Southern Alps require altitude for VHF coverage",
@@ -35,7 +35,7 @@
   },
   {
     "code": "2.2.2(c)",
-    "topic": "2.2 \u2014 Radio Wave Propagation",
+    "topic": "2.2 — Radio Wave Propagation",
     "syllabus_desc": "Clarity of reception: VHF vs HF",
     "concept": "VHF provides exceptionally clear, static-free reception when operating within range, due to the high frequency and short wavelength. This clarity makes VHF the preferred medium for domestic NZ operations. HF reception is typically noisier, with more background static and interference, but the long-range capability is essential for oceanic flights. NZ uses 25 kHz channel spacing for aviation VHF, giving frequencies like 118.100, 118.125, etc. Some European airspace uses 8.33 kHz spacing for more channels, but this is not used in NZ.",
     "exam_tip": "VHF = clear, static-free. HF = noisier but long-range. NZ uses 25 kHz channel spacing.",
@@ -52,9 +52,9 @@
   },
   {
     "code": "2.4.2(a)",
-    "topic": "2.4 \u2014 Radio Equipment / Transceivers",
+    "topic": "2.4 — Radio Equipment / Transceivers",
     "syllabus_desc": "VHF radio controls: volume, squelch, frequency selection, PTT",
-    "concept": "VHF radio transceivers have essential controls: the volume knob adjusts audio output level, the squelch control silences background noise when no signal is being received (prevents static from being heard), the frequency selector allows tuning to active and standby frequencies (dual VHF radios are standard in NZ aircraft), and the PTT (push-to-talk) button on the control yoke transmits when pressed. Understanding squelch is critical\u2014set too high and weak signals are lost; set too low and background noise is annoying.",
+    "concept": "VHF radio transceivers have essential controls: the volume knob adjusts audio output level, the squelch control silences background noise when no signal is being received (prevents static from being heard), the frequency selector allows tuning to active and standby frequencies (dual VHF radios are standard in NZ aircraft), and the PTT (push-to-talk) button on the control yoke transmits when pressed. Understanding squelch is critical—set too high and weak signals are lost; set too low and background noise is annoying.",
     "exam_tip": "Squelch = silence when no signal. Active frequency for transmit/receive; standby for monitoring. PTT on yoke.",
     "key_facts": [
       "Volume knob controls audio level",
@@ -69,9 +69,9 @@
   },
   {
     "code": "2.4.2(b)",
-    "topic": "2.4 \u2014 Radio Equipment / Transceivers",
+    "topic": "2.4 — Radio Equipment / Transceivers",
     "syllabus_desc": "Intercom systems and audio selector panels",
-    "concept": "Aircraft intercom systems allow crew to communicate internally. Two main types: voice-activated (hot mic) where the microphone is always live, requiring discipline to avoid transmitting private conversations; and PTT intercom where crew press a button to talk on intercom. It is critical to distinguish between intercom PTT and radio PTT\u2014transmitting on radio when intending to use intercom creates embarrassing (and hazardous) situations. Audio selector panels allow switching between COM (communication radio), NAV (navigation radio), and other sources.",
+    "concept": "Aircraft intercom systems allow crew to communicate internally. Two main types: voice-activated (hot mic) where the microphone is always live, requiring discipline to avoid transmitting private conversations; and PTT intercom where crew press a button to talk on intercom. It is critical to distinguish between intercom PTT and radio PTT—transmitting on radio when intending to use intercom creates embarrassing (and hazardous) situations. Audio selector panels allow switching between COM (communication radio), NAV (navigation radio), and other sources.",
     "exam_tip": "Don't confuse intercom PTT with radio PTT. Hot mic requires discipline. Audio selector switches between COM and NAV.",
     "key_facts": [
       "Voice-activated (hot mic) intercom always listens",
@@ -86,7 +86,7 @@
   },
   {
     "code": "2.4.2(c)",
-    "topic": "2.4 \u2014 Radio Equipment / Transceivers",
+    "topic": "2.4 — Radio Equipment / Transceivers",
     "syllabus_desc": "Headset and microphone use",
     "concept": "Aviation headsets consist of two earpieces and a boom microphone. The boom microphone should be positioned so it just touches the pilot's lips, allowing clear transmission without excess background noise. Sidetone is the feedback of your own voice to your ears, confirming that audio is being transmitted. A hand-held microphone serves as backup in case the boom mic fails. Proper headset use is essential for clear communications and fatigue reduction on long flights.",
     "exam_tip": "Boom mic positioned at lips for clarity. Sidetone = your voice in your ears. Hand-held mic is backup.",
@@ -102,10 +102,44 @@
     "verified": true
   },
   {
+    "code": "2.4.4(a)",
+    "topic": "2.4 — Transceivers",
+    "syllabus_desc": "Describe the correct operation of the headset/boom microphone combination",
+    "concept": "The headset/boom microphone is the standard setup in most GA aircraft. The headset provides clear two-way communication while keeping hands free for flight controls. The boom microphone should be positioned 1–2 cm from the mouth corner (not directly in front) to minimize breath noise and maximise clarity. Proper positioning and secure fitting are critical for transmitting intelligible messages to ATC.",
+    "exam_tip": "Remember: boom mic should be 1–2 cm from mouth corner, not directly in front. This reduces breathing noise and wind rumble.",
+    "key_facts": [
+      "Headset provides simultaneous listening and transmitting capability",
+      "Boom microphone positioned 1–2 cm from mouth corner",
+      "Correct positioning reduces breath noise and wind rumble",
+      "Secure fitting prevents microphone movement during flight",
+      "Push-to-talk (PTT) button must be within easy reach"
+    ],
+    "source": "AC 61-3 Rev 25 §2.4.4(a), AIPNZ ENR 1.1",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.4.4(b)",
+    "topic": "2.4 — Transceivers",
+    "syllabus_desc": "Describe the correct operation of the handheld microphone",
+    "concept": "The handheld microphone is an alternative to the headset/boom setup, though less common in GA. It requires one hand to hold and operate, making it impractical during critical flight phases. When used, the microphone should be held 5–10 cm from the mouth at a slight angle (45°) to minimise breath noise. Clear articulation is essential since handheld operation often results in poorer transmission quality than boom microphones.",
+    "exam_tip": "Handheld mics are rare in GA but if used: hold 5–10 cm from mouth at 45° angle. Not practical during critical flight phases.",
+    "key_facts": [
+      "Handheld microphone requires one hand to operate",
+      "Impractical for use during critical flight phases (takeoff, landing, emergency)",
+      "Correct distance: 5–10 cm from mouth",
+      "Hold at 45° angle to minimise breath noise",
+      "Clear articulation critical due to poorer signal quality"
+    ],
+    "source": "AC 61-3 Rev 25 §2.4.4(b), AIPNZ ENR 1.1",
+    "confidence": "high",
+    "verified": true
+  },
+  {
     "code": "2.6.2",
-    "topic": "2.6 \u2014 Transponders",
+    "topic": "2.6 — Transponders",
     "syllabus_desc": "Transponder controls: function selector, code selector, IDENT button",
-    "concept": "Aircraft transponders are radar beacons that enhance visibility on ATC radar. The function selector has four positions: OFF (no transmission), STBY (standby\u2014receiver active, no transmission), ON (continuously transmits selected code), and ALT (altitude\u2014transmits altitude encoding from aircraft altimeter). The four-digit code selector (0-7 range per digit) allows pilots to set their unique transponder code. The IDENT button causes a distinctive blip on radar for 15 seconds, helping ATC positively identify the aircraft.",
+    "concept": "Aircraft transponders are radar beacons that enhance visibility on ATC radar. The function selector has four positions: OFF (no transmission), STBY (standby—receiver active, no transmission), ON (continuously transmits selected code), and ALT (altitude—transmits altitude encoding from aircraft altimeter). The four-digit code selector (0-7 range per digit) allows pilots to set their unique transponder code. The IDENT button causes a distinctive blip on radar for 15 seconds, helping ATC positively identify the aircraft.",
     "exam_tip": "STBY = ready. ON = transmit code. ALT = transmit code + altitude. IDENT = radar blip for 15 sec.",
     "key_facts": [
       "Function selector: OFF, STBY, ON, ALT",
@@ -120,9 +154,9 @@
   },
   {
     "code": "2.6.4(a)",
-    "topic": "2.6 \u2014 Transponders",
+    "topic": "2.6 — Transponders",
     "syllabus_desc": "Emergency transponder code 7700",
-    "concept": "Transponder code 7700 indicates a general emergency\u2014grave and imminent danger where immediate assistance is required. This code alerts ATC immediately and triggers audible warnings in ATC control rooms. Setting code 7700 should be accompanied by radio distress calls (MAYDAY) on the current frequency or 121.5 MHz. ATC will immediately prioritize radar separation and vectors to suitable landing facilities.",
+    "concept": "Transponder code 7700 indicates a general emergency—grave and imminent danger where immediate assistance is required. This code alerts ATC immediately and triggers audible warnings in ATC control rooms. Setting code 7700 should be accompanied by radio distress calls (MAYDAY) on the current frequency or 121.5 MHz. ATC will immediately prioritize radar separation and vectors to suitable landing facilities.",
     "exam_tip": "7700 = General emergency. Always transmit MAYDAY on radio when setting 7700.",
     "key_facts": [
       "Code 7700 indicates general emergency",
@@ -137,7 +171,7 @@
   },
   {
     "code": "2.6.4(b)",
-    "topic": "2.6 \u2014 Transponders",
+    "topic": "2.6 — Transponders",
     "syllabus_desc": "Radio failure code 7600",
     "concept": "Transponder code 7600 indicates radio failure or malfunction. When VHF radio fails, the pilot is unable to communicate with ATC via radio. Setting code 7600 alerts ATC to the radio failure, and ATC will then provide vectors using visual signals or radar. In NZ, if radio fails, maintain conspicuous flight path, stay outside controlled airspace if possible, and set transponder 7600 immediately. Some aircraft have alternative communication methods (mobile phone, secondary HF radio) to contact ATC.",
     "exam_tip": "7600 = Radio failure. Set immediately, comply with ATC radar vectors, try alternate comms.",
@@ -154,7 +188,7 @@
   },
   {
     "code": "2.6.4(c)",
-    "topic": "2.6 \u2014 Transponders",
+    "topic": "2.6 — Transponders",
     "syllabus_desc": "Unlawful interference code 7500",
     "concept": "Transponder code 7500 indicates unlawful interference (hijacking, illegal interference, security threat). This code alerts ATC and military authorities. The pilot should set 7500 and continue flight to nearest suitable aerodrome. Military assistance may be provided. This is a serious emergency code and should only be set if there is genuine unlawful interference aboard the aircraft.",
     "exam_tip": "7500 = Unlawful interference (hijacking). Set 7500 and land at nearest suitable aerodrome.",
@@ -171,7 +205,7 @@
   },
   {
     "code": "2.6.6",
-    "topic": "2.6 \u2014 Transponders",
+    "topic": "2.6 — Transponders",
     "syllabus_desc": "Normal VFR conspicuity code in NZ",
     "concept": "In New Zealand, the standard transponder code for VFR aircraft operating outside controlled airspace is 1200. This code is set by default when the transponder is turned to ALT mode. When operating in controlled airspace or under radar vectors, ATC will assign a specific transponder code. Use mode ALT (altitude reporting) unless specifically instructed otherwise by ATC.",
     "exam_tip": "1200 = Standard NZ VFR code. Use ALT mode to transmit altitude. ATC assigns codes in controlled airspace.",
@@ -187,8 +221,59 @@
     "verified": true
   },
   {
+    "code": "2.6.8",
+    "topic": "2.6 — SSR Transponders",
+    "syllabus_desc": "Demonstrate proficiency in transponder terminology and describe the actions and responses expected from a pilot, following ATC transponder instructions",
+    "concept": "ATC may instruct pilots to select specific transponder codes, change modes (A, C, S), operate in standby, or squawk ident. Pilots must understand transponder terminology and respond appropriately—selecting the assigned code, confirming readiness, and reporting when the function is complete. In NZ airspace, common codes are 1200 (VFR), 7700 (emergency), 7600 (comms failure), and 7500 (unlawful interference). Pilots must verify code selection and respond professionally to all ATC transponder instructions.",
+    "exam_tip": "When ATC says 'squawk 2531', set that code. If they say 'squawk ident', press the ident button. Always read back the assigned code to confirm.",
+    "key_facts": [
+      "Standard NZ transponder codes: 1200 (VFR), 7700 (emergency), 7600 (comms failure), 7500 (hijack)",
+      "Modes: A (aircraft altitude not available), C (altitude data available), S (with special features)",
+      "'Squawk' = select a specific code",
+      "'Squawk ident' = press the ident button to enhance return on radar",
+      "Always read back assigned codes and confirm mode changes"
+    ],
+    "source": "AC 61-3 Rev 25 §2.6.8, AIPNZ ENR 1.1, NZ Civil Aviation Rules Part 91.513",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.6.10",
+    "topic": "2.6 — SSR Transponders",
+    "syllabus_desc": "List the documents that identify transponder mandatory airspace",
+    "concept": "Transponder mandatory airspace in New Zealand is defined in the Aeronautical Information Publication NZ (AIPNZ) and the Aeronautical Chart Legend (ACL). The AIPNZ ENR 1.1 section and visual and instrument charts identify controlled airspace where a serviceable transponder (Mode A minimum) is required. Pilots must consult current AIPNZ and relevant charts to identify transponder mandatory areas before flight planning.",
+    "exam_tip": "Always check AIPNZ ENR 1.1 and current charts for transponder mandatory airspace. It changes—old charts can be misleading.",
+    "key_facts": [
+      "AIPNZ (Aeronautical Information Publication NZ) ENR 1.1 identifies transponder mandatory airspace",
+      "Visual Flight Chart (VFC) and Instrument Flight Chart (IFC) mark transponder mandatory areas",
+      "Aeronautical Chart Legend (ACL) explains chart symbols for mandatory airspace",
+      "Transponder requirements may change—always use current documents",
+      "Mode A minimum is standard; Mode C (altitude reporting) increasingly required"
+    ],
+    "source": "AC 61-3 Rev 25 §2.6.10, AIPNZ ENR 1.1, NZ Visual Flight Chart",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.6.12",
+    "topic": "2.6 — SSR Transponders",
+    "syllabus_desc": "Describe the procedures for operations in transponder mandatory airspace when the aircraft transponder is inoperative",
+    "concept": "If the aircraft transponder becomes inoperative while in or intending to enter transponder mandatory airspace, the pilot must notify ATC immediately and request an alternative clearance or routing outside the mandatory airspace. Operations may continue only with explicit ATC approval and appropriate avoidance of the mandatory zone. If the failure occurs in flight within the mandatory area, the pilot must maintain a listening watch on the assigned frequency, advise ATC of the failure, and await further instructions. Some ATC facilities may grant a special flight permit or reroute the flight to uncontrolled airspace.",
+    "exam_tip": "Transponder inoperative in mandatory airspace = notify ATC immediately. Don't continue into it unless cleared. Outside = notify anyway before you reach it.",
+    "key_facts": [
+      "Transponder inoperative = notify ATC immediately",
+      "Cannot enter transponder mandatory airspace without ATC approval",
+      "Request alternative routing or airspace clearance",
+      "Maintain listening watch and report position regularly",
+      "Some ATC facilities grant special flight permits for inoperative transponders"
+    ],
+    "source": "AC 61-3 Rev 25 §2.6.12, AIPNZ ENR 1.1, NZ Civil Aviation Rules Part 91.513",
+    "confidence": "high",
+    "verified": true
+  },
+  {
     "code": "2.8.2",
-    "topic": "2.8 \u2014 Emergency Locator Transmitter (ELT)",
+    "topic": "2.8 — Emergency Locator Transmitter (ELT)",
     "syllabus_desc": "ELT purpose and frequencies",
     "concept": "The Emergency Locator Transmitter is a radio beacon designed to aid Search and Rescue (SAR) in locating a downed aircraft. When activated (automatically or manually), the ELT transmits a distress signal on 121.5 MHz (aero emergency frequency, continuously monitored) and 406 MHz (satellite-detected frequency). The 121.5 MHz signal is monitored by civil aviation, and the 406 MHz signal reaches international satellite systems (COSPAS-SARSAT), enabling rapid location even in remote areas.",
     "exam_tip": "ELT transmits on 121.5 and 406 MHz. Continuously monitored. Activates automatically on impact or manually.",
@@ -205,7 +290,7 @@
   },
   {
     "code": "2.8.4",
-    "topic": "2.8 \u2014 Emergency Locator Transmitter (ELT)",
+    "topic": "2.8 — Emergency Locator Transmitter (ELT)",
     "syllabus_desc": "NZ ELT carriage and registration requirements",
     "concept": "Under New Zealand Civil Aviation Rules Part 91.529, all aircraft operating more than 20 nautical miles from an airfield, or above 10,000 feet, must carry an operational ELT. The ELT must be registered with Rescue Coordination Centre New Zealand (RCCNZ). The aircraft registration, owner contact details, and emergency contact information are encoded in the ELT's 406 MHz beacon. Regular maintenance and battery replacement (typically every 6 years or per manufacturer specifications) are mandatory.",
     "exam_tip": "CAR 91.529: ELT required for flights >20 nm from airfield or >10,000 ft. Must register with RCCNZ.",
@@ -222,7 +307,7 @@
   },
   {
     "code": "2.8.6(a)",
-    "topic": "2.8 \u2014 Emergency Locator Transmitter (ELT)",
+    "topic": "2.8 — Emergency Locator Transmitter (ELT)",
     "syllabus_desc": "Automatic ELT activation on impact",
     "concept": "Modern ELTs incorporate a G-switch (accelerometer) that automatically detects sudden deceleration forces typical of an aircraft accident. When deceleration exceeds a threshold (typically 5G), the G-switch triggers automatic activation of the ELT transmitter. This is a critical safety feature because injured pilots may be unable to manually activate the ELT. Automatic activation occurs within seconds of impact, ensuring the distress signal reaches rescuers quickly.",
     "exam_tip": "G-switch detects impact (deceleration >5G). Automatically activates ELT. Pilot must then manually turn off after recovery.",
@@ -239,9 +324,9 @@
   },
   {
     "code": "2.8.6(b)",
-    "topic": "2.8 \u2014 Emergency Locator Transmitter (ELT)",
+    "topic": "2.8 — Emergency Locator Transmitter (ELT)",
     "syllabus_desc": "Manual ELT activation methods",
-    "concept": "ELTs can be manually activated in two ways: (1) cockpit remote switch\u2014a small red switch in the cockpit that pilots can activate without leaving the aircraft; (2) direct activation on the ELT unit itself\u2014usually accessed through a small access panel or cover. Manual activation is necessary if the G-switch fails or if the pilot chooses to activate during an in-flight emergency (engine failure, hydraulic loss, fire) before landing. The cockpit switch is preferred as it does not require leaving the cabin.",
+    "concept": "ELTs can be manually activated in two ways: (1) cockpit remote switch—a small red switch in the cockpit that pilots can activate without leaving the aircraft; (2) direct activation on the ELT unit itself—usually accessed through a small access panel or cover. Manual activation is necessary if the G-switch fails or if the pilot chooses to activate during an in-flight emergency (engine failure, hydraulic loss, fire) before landing. The cockpit switch is preferred as it does not require leaving the cabin.",
     "exam_tip": "Manual ELT: cockpit switch (preferred) or direct activation on unit. Use for in-flight emergencies, not just impact.",
     "key_facts": [
       "Cockpit remote switch is primary manual method",
@@ -256,7 +341,7 @@
   },
   {
     "code": "2.8.8",
-    "topic": "2.8 \u2014 Emergency Locator Transmitter (ELT)",
+    "topic": "2.8 — Emergency Locator Transmitter (ELT)",
     "syllabus_desc": "Post-landing ELT procedures",
     "concept": "After a forced landing or accident, if the ELT was activated automatically or manually, the pilot must immediately deactivate it once the aircraft is safely recovered and crew are safe. An active ELT triggers expensive and disruptive Search and Rescue operations. Once safe, transmit on 121.5 MHz or contact ATC/Rescue Coordination Centre New Zealand (RCCNZ) to report the false alarm and allow authorities to cancel the emergency response. Failing to deactivate the ELT after recovery results in wasted SAR resources and potential penalties.",
     "exam_tip": "After landing: turn off ELT immediately. Contact ATC/RCCNZ on 121.5 to cancel alert. Report location, crew condition.",
@@ -273,10 +358,10 @@
   },
   {
     "code": "2.8.10",
-    "topic": "2.8 \u2014 Emergency Locator Transmitter (ELT)",
+    "topic": "2.8 — Emergency Locator Transmitter (ELT)",
     "syllabus_desc": "ELT testing procedures",
     "concept": "ELT testing must be conducted in a controlled manner to avoid triggering false alerts. Testing is restricted to the first 5 minutes of each UTC hour only (not local time). Audio testing (listening to the 121.5 MHz signal) is allowed for up to 3 sweeps of the test tone. Modern 406 MHz ELTs must NOT be tested by activation as this causes the beacon to transmit on satellite frequencies and triggers false alerts. ELT batteries should be checked regularly, and units should be inspected per manufacturer maintenance schedules.",
-    "exam_tip": "Test in first 5 min of hour only. Max 3 audio sweeps. Never activate 406 MHz beacon\u2014use visual/audio checks only.",
+    "exam_tip": "Test in first 5 min of hour only. Max 3 audio sweeps. Never activate 406 MHz beacon—use visual/audio checks only.",
     "key_facts": [
       "Testing restricted to first 5 minutes of UTC hour",
       "Audio testing limited to 3 sweeps",
@@ -290,7 +375,7 @@
   },
   {
     "code": "2.8.12",
-    "topic": "2.8 \u2014 Emergency Locator Transmitter (ELT)",
+    "topic": "2.8 — Emergency Locator Transmitter (ELT)",
     "syllabus_desc": "Inadvertent ELT activation and procedures",
     "concept": "Occasionally an ELT may be activated inadvertently (by accident during maintenance, during G-switch testing, or due to mechanical failure). If the pilot becomes aware of ELT activation, immediate actions are: (1) confirm activation by monitoring 121.5 MHz for the characteristic ELT audio tone; (2) if activated, deactivate the ELT immediately; (3) contact ATC or RCCNZ on 121.5 MHz to report the false alarm; (4) provide aircraft location, registration, and report that the activation was inadvertent. This prevents costly SAR mobilization.",
     "exam_tip": "Inadvertent ELT: listen on 121.5, turn it off immediately, contact ATC/RCCNZ with location and registration.",
@@ -307,10 +392,10 @@
   },
   {
     "code": "2.10.2(a)",
-    "topic": "2.10 \u2014 Practices and Rules",
+    "topic": "2.10 — Practices and Rules",
     "syllabus_desc": "Phonetic alphabet in aviation",
     "concept": "The phonetic alphabet is used in aviation to avoid confusion when spelling aircraft call signs, waypoint names, or other information over radio. Each letter is represented by a word: ALFA, BRAVO, CHARLIE, DELTA, ECHO, FOXTROT, GOLF, HOTEL, INDIA, JULIETT, KILO, LIMA, MIKE, NOVEMBER, OSCAR, PAPA, QUEBEC, ROMEO, SIERRA, TANGO, UNIFORM, VICTOR, WHISKEY, X-RAY, YANKEE, ZULU. Note the unusual pronunciations: ALFA (not ALPHA), JULIETT (double T), and X-RAY (not XRAY).",
-    "exam_tip": "Use phonetic alphabet for letters. Notable: ALFA, JULIETT, X-RAY. 26 standard words\u2014learn them all.",
+    "exam_tip": "Use phonetic alphabet for letters. Notable: ALFA, JULIETT, X-RAY. 26 standard words—learn them all.",
     "key_facts": [
       "ALFA, BRAVO, CHARLIE, DELTA, ECHO, FOXTROT, GOLF, HOTEL, INDIA, JULIETT",
       "KILO, LIMA, MIKE, NOVEMBER, OSCAR, PAPA, QUEBEC, ROMEO, SIERRA, TANGO",
@@ -324,7 +409,7 @@
   },
   {
     "code": "2.10.2(b)",
-    "topic": "2.10 \u2014 Practices and Rules",
+    "topic": "2.10 — Practices and Rules",
     "syllabus_desc": "Standard number and decimal pronunciation",
     "concept": "Numbers in aviation are pronounced in a specific manner to avoid confusion: 0=ZE-RO, 1=WUN, 2=TOO, 3=TREE, 4=FOW-ER, 5=FIFE, 6=SIX, 7=SEV-EN, 8=AIT, 9=NIN-ER. For larger numbers: 100=HUN-DRED, 1000=TOU-SAND. Decimal points are pronounced DAY-SEE-MAL. For example, the altitude 5500 feet is 'FIVE THOUSAND FIVE HUNDRED', or 'FIVE FIFE ZERO ZERO' when phonetically slow. A frequency of 119.15 is 'WUN WUN NIN-ER POINT WUN FIFE' or 'ONE ONE NINER DECIMAL ONE FIVE'.",
     "exam_tip": "0=ZE-RO, 1=WUN, 2=TOO, 3=TREE, 4=FOW-ER, 5=FIFE, 8=AIT, 9=NIN-ER. Decimal=DAY-SEE-MAL.",
@@ -347,7 +432,7 @@
   },
   {
     "code": "2.10.2(c)",
-    "topic": "2.10 \u2014 Practices and Rules",
+    "topic": "2.10 — Practices and Rules",
     "syllabus_desc": "Aircraft call signs in radio communications",
     "concept": "Aircraft identify themselves on radio using their registration or assigned flight plan call sign. For a Cessna with registration ZK-ABC, the call sign is 'ZULU KILO ALPHA BRAVO CHARLIE' or 'ZK ABC' (said as 'Zulu Kilo Alpha Bravo Charlie'). Some aircraft have abbreviated call signs assigned by ATC for efficiency (e.g., 'LION 123'). The aircraft type may be included for recognition purposes (e.g., 'Cessna ZK-ABC'). Registration call signs are preferred for VFR operations and aerodromes without ATC.",
     "exam_tip": "Use registration (ZK-ABC = 'Zulu Kilo Alpha Bravo Charlie') or assigned flight plan call sign. Aircraft type optional.",
@@ -364,7 +449,7 @@
   },
   {
     "code": "2.10.2(d)",
-    "topic": "2.10 \u2014 Practices and Rules",
+    "topic": "2.10 — Practices and Rules",
     "syllabus_desc": "Standard radio procedures outside controlled airspace",
     "concept": "When flying outside controlled airspace (OCTA), pilots must broadcast their position, altitude, and intentions on appropriate frequencies. These frequencies include: the published CTAF for unattended aerodromes, Flight Information Service frequencies (FISCOM) for en-route OCTA operations, Mandatory Broadcast Zone (MBZ) designated frequencies, or Common Frequency Zone (CFZ) frequencies as published in AIPNZ. Broadcasts follow the standard format: 'Auckland Radio, Cessna Zulu Kilo Alpha Bravo Charlie, position [location], altitude [feet], climbing to [altitude], [intentions]'. Regular broadcasts maintain situational awareness for all traffic.",
     "exam_tip": "OCTA broadcasts: use published CTAF, FISCOM, MBZ, or CFZ freq. Transmit position, altitude, intentions regularly.",
@@ -381,7 +466,7 @@
   },
   {
     "code": "2.10.2(e)",
-    "topic": "2.10 \u2014 Practices and Rules",
+    "topic": "2.10 — Practices and Rules",
     "syllabus_desc": "Time transmission and UTC format",
     "concept": "All aviation communications use Coordinated Universal Time (UTC), also called Zulu time (Z). Time is transmitted in UTC format, with each digit spoken separately. Normally, only minutes are transmitted (e.g., 'Minutes two-zero' = :20), unless confusion is possible, in which case the full time is given (e.g., 'WUN TWO ZULU' = 12:00Z). SARTIME (Search and Rescue Time) includes the full hour for emergency communications. The sun-set position report includes time in UTC. All flight logs, ADS-B, and position reports use UTC.",
     "exam_tip": "Use UTC (Zulu). Normally transmit minutes only (e.g., ':20'). Full time (1200Z) if confusion possible.",
@@ -398,7 +483,7 @@
   },
   {
     "code": "2.10.2(f)",
-    "topic": "2.10 \u2014 Practices and Rules",
+    "topic": "2.10 — Practices and Rules",
     "syllabus_desc": "Effective listening techniques",
     "concept": "Effective radio listening is critical for flight safety. Pilots should: (1) listen before transmitting to avoid blocking other transmissions; (2) monitor the frequency for 2-3 minutes before making the first call to understand traffic patterns; (3) build a mental picture of other aircraft, their positions, altitudes, and intentions; (4) recognize when frequency congestion is high and break transmissions into shorter messages; (5) listen for position reports and updates from other aircraft to maintain situational awareness. Poor listening discipline causes missed warnings, frequency blocking, and safety incidents.",
     "exam_tip": "Listen before transmitting. Monitor for 2-3 min before first call. Build mental traffic picture.",
@@ -415,7 +500,7 @@
   },
   {
     "code": "2.10.2(g)",
-    "topic": "2.10 \u2014 Practices and Rules",
+    "topic": "2.10 — Practices and Rules",
     "syllabus_desc": "Four Ws of establishing communication",
     "concept": "When establishing radio contact with an ATC facility, Unicom, or Flight Service, use the Four Ws format to clearly identify yourself and your needs: (1) WHO you are calling (station name, e.g., 'Auckland Tower'); (2) WHO you are (aircraft registration or call sign, e.g., 'Cessna ZK-ABC'); (3) WHERE you are (position relative to aerodrome or navigation aid, e.g., '15 miles north of Auckland'); (4) WHAT you want (request for service, e.g., 'request landing clearance'). Example: 'Auckland Tower, Cessna ZK-ABC, 15 miles north, request landing clearance.'",
     "exam_tip": "Four Ws: Who (station), Who you are (call sign), Where (position), What (request).",
@@ -431,8 +516,112 @@
     "verified": true
   },
   {
+    "code": "2.10.2(h)",
+    "topic": "2.10 — Practices and Rules",
+    "syllabus_desc": "Demonstrate proficiency in transmitting and receiving spoken messages — identification of service",
+    "concept": "When transmitting, always clearly identify which service you are calling (e.g., 'Christchurch Approach', 'Auckland Radio', 'Rangiora Flight Service'). When receiving transmissions, note which service is transmitting so you understand the context and authority of the message. This is especially important in busy airspace where multiple services operate on the same or adjacent frequencies. Clear identification prevents confusion and ensures the correct party is responding.",
+    "exam_tip": "Always say the service name clearly: 'Christchurch Approach, Cessna 221'. Listen for the service name in responses to confirm you're talking to the right people.",
+    "key_facts": [
+      "Identify the service name when calling (Approach, Tower, Flight Service, Radio)",
+      "Services identify themselves in all transmissions",
+      "Prevents confusion in busy airspace",
+      "Listen carefully to confirm which service is responding",
+      "Know the assigned frequency for each service at your destination"
+    ],
+    "source": "AC 61-3 Rev 25 §2.10.2(h), AIPNZ ENR 1.1, AC172-1",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.10.2(i)",
+    "topic": "2.10 — Practices and Rules",
+    "syllabus_desc": "Demonstrate proficiency in transmitting and receiving spoken messages — radiotelephony aircraft callsigns",
+    "concept": "The radiotelephony callsign should be your aircraft's registration with phonetic alphabet letters for clarity. For example, ZK-ABC becomes 'Zulu Kilo Able Baker Charlie'. Use the full registration for initial contact, then after establishment, a shortened callsign may be used (e.g., 'Charlie'). Consistent use of correct callsigns prevents confusion with other aircraft and ensures ATC can track your flight accurately. Always be clear and deliberate when spelling out your registration.",
+    "exam_tip": "Use phonetic alphabet for registration letters: ZK-ABC = 'Zulu Kilo Able Baker Charlie'. After establishment, ATC may clear you to use just 'Charlie'.",
+    "key_facts": [
+      "Full callsign: aircraft registration with phonetic spelling (e.g., ZK-ABC)",
+      "Phonetic alphabet: Able, Baker, Charlie, Delta, Echo, Foxtrot, Golf, Hotel, India, Juliet, Kilo, Lima, Mike, November, Oscar, Papa, Quebec, Romeo, Sierra, Tango, Uniform, Victor, Whiskey, X-ray, Yankee, Zulu",
+      "Use full callsign for initial contact",
+      "Shortened callsign (last letter/number) acceptable after establishment",
+      "Always clear and deliberate pronunciation prevents duplication"
+    ],
+    "source": "AC 61-3 Rev 25 §2.10.2(i), AIPNZ ENR 1.1, AC172-1",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.10.2(j)",
+    "topic": "2.10 — Practices and Rules",
+    "syllabus_desc": "Demonstrate proficiency in transmitting and receiving spoken messages — procedures for exchange of messages",
+    "concept": "Standard message exchange procedures include: initial callout (callsign + service + position/intent), ATC response, pilot readback of instructions, and confirmation of understanding. Keep transmissions brief and clear. Use standard phraseology to reduce misunderstanding. Always pause before transmitting to ensure the frequency is clear. Wait for a response or confirmation before taking further action. If you don't understand an instruction, ask for clarification immediately rather than guessing.",
+    "exam_tip": "Listen before you transmit (check frequency is clear). Give callsign, service, position. Wait for response. Read back all clearances. Confirm understanding.",
+    "key_facts": [
+      "Listen before transmitting to ensure frequency is clear",
+      "Initial transmission: 'Service name, callsign, position, intention'",
+      "Keep transmissions brief and clear",
+      "Use standard phraseology",
+      "Always read back clearances and instructions",
+      "Confirm understanding; ask for clarification if needed"
+    ],
+    "source": "AC 61-3 Rev 25 §2.10.2(j), AIPNZ ENR 1.1, AC172-1",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.10.2(k)",
+    "topic": "2.10 — Practices and Rules",
+    "syllabus_desc": "Demonstrate proficiency in transmitting and receiving spoken messages — corrections and repetition tests",
+    "concept": "If you make an error in transmission or receive garbled/unclear instructions, use standard correction phrases. To correct your own transmission, say 'Say again' or 'Correction' and repeat the correct information. If ATC transmits unclearly, respond with 'Say again all after [last clearly understood word]' or 'I require repetition of [specific item]'. For readability checks, use the readability scale (1–5): 1=unreadable, 2=readable with difficulty, 3=readable with some difficulty, 4=readable, 5=perfectly readable. This ensures both parties confirm message reception quality.",
+    "exam_tip": "Didn't copy that? Say 'Say again all after [last word heard]'. For readability, give a 1–5 scale: '1' is unreadable, '5' is perfect.",
+    "key_facts": [
+      "Use 'Say again' to request repetition of entire message or part",
+      "Use 'Say again all after [word]' to repeat from specific point",
+      "Readability scale: 1=unreadable, 2=readable now and then, 3=readable with difficulty, 4=readable, 5=perfectly readable",
+      "Report readability when asked ('Readability 4')",
+      "Always confirm receipt of critical instructions before acting"
+    ],
+    "source": "AC 61-3 Rev 25 §2.10.2(k), AIPNZ ENR 1.1, AC172-1",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.10.2(l)",
+    "topic": "2.10 — Practices and Rules",
+    "syllabus_desc": "Demonstrate proficiency in transmitting and receiving spoken messages — listening out",
+    "concept": "Listening out means maintaining a passive listening watch on an assigned frequency without transmitting unless required to report or respond to instructions. Pilots must maintain a continuous listening watch on tower, approach, or flight service frequencies throughout their flight. This allows pilots to hear position reports from other aircraft, weather updates, and any urgent broadcasts. Listening watch is a legal requirement under NZ Civil Aviation Rules Part 91.243 and is critical for maintaining situational awareness and safety.",
+    "exam_tip": "Keep listening watch even when not transmitting. You need to hear other aircraft, weather updates, and urgent broadcasts. Part 91.243 requires it.",
+    "key_facts": [
+      "Listening watch = passive monitoring of assigned frequency",
+      "Required at all times on assigned frequency (Part 91.243)",
+      "Allows receipt of position reports, weather, urgent broadcasts",
+      "Maintains situational awareness of other traffic",
+      "Frequency must be kept clear of interference (squelch properly set)"
+    ],
+    "source": "AC 61-3 Rev 25 §2.10.2(l), AIPNZ ENR 1.1, NZ Civil Aviation Rules Part 91.243",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.10.2(m)",
+    "topic": "2.10 — Practices and Rules",
+    "syllabus_desc": "Demonstrate proficiency in transmitting and receiving spoken messages — readability scale",
+    "concept": "The readability scale is a standardised 5-point scale for reporting signal quality. It ranges from 1 (unreadable) to 5 (perfectly readable). When ATC or another aircraft asks for a readability report, respond with a number that accurately reflects the quality of the signal you are receiving. For example, 'Readability 4' means the transmission is clear and easily understood. This information helps both parties adjust microphone levels, antenna positioning, or frequency selection if needed.",
+    "exam_tip": "Readability scale: 1=unreadable, 2=readable now/then, 3=readable with difficulty, 4=readable, 5=perfect. Just give the number: 'Readability 4'.",
+    "key_facts": [
+      "Readability 1: Unreadable",
+      "Readability 2: Readable now and then",
+      "Readability 3: Readable with difficulty",
+      "Readability 4: Readable",
+      "Readability 5: Perfectly readable",
+      "Report readability when requested: 'Readability 4'"
+    ],
+    "source": "AC 61-3 Rev 25 §2.10.2(m), AIPNZ ENR 1.1, AC172-1",
+    "confidence": "high",
+    "verified": true
+  },
+  {
     "code": "2.10.4",
-    "topic": "2.10 \u2014 Practices and Rules",
+    "topic": "2.10 — Practices and Rules",
     "syllabus_desc": "NZ Civil Aviation Rules: Radio comms requirements",
     "concept": "New Zealand Civil Aviation Rules Part 91 establishes radio communication requirements for all aircraft. CAR 91.217 requires aircraft to carry and operate a functioning VHF radio when flying in controlled airspace. CAR 91.243 mandates two-way radio communication with ATC when operating in Class A/B/C/D airspace. CAR 91.245 requires transponder carriage and operation in controlled airspace above 10,000 feet and above 5,000 feet near major aerodromes. CAR 91.247 requires flight plans for certain operations. CAR 91.249 specifies pilot qualifications (including FRTO certification). CAR 91.513 covers aircraft certification and maintenance. CAR 91.515 requires pre-flight checks. CAR 91.529 mandates ELT carriage for flights >20 nm from aerodrome or >10,000 feet.",
     "exam_tip": "Know CAR 91.217 (radio), 91.243 (two-way comms), 91.245 (transponder), 91.529 (ELT), 91.249 (FRTO).",
@@ -448,10 +637,148 @@
     "verified": true
   },
   {
+    "code": "2.10.4(a)",
+    "topic": "2.10 — Practices and Rules",
+    "syllabus_desc": "Demonstrate a good working knowledge of Part 91.217(5)",
+    "concept": "NZ Civil Aviation Rules Part 91.217(5) specifies radio requirements for flight in controlled airspace. All aircraft operating in controlled airspace must carry a serviceable VHF radio capable of transmitting and receiving on the assigned frequency. The radio must be installed and maintained according to manufacturer specifications. Pilots must ensure the radio is operating before entering controlled airspace and must maintain continuous communication with ATC. Failure to comply is a breach of Part 91 and can result in enforcement action.",
+    "exam_tip": "Part 91.217(5): Aircraft in controlled airspace MUST have serviceable VHF radio. Check it works before you go in.",
+    "key_facts": [
+      "Part 91.217(5) requires serviceable VHF radio in controlled airspace",
+      "Radio must be capable of two-way communication",
+      "Radio must be maintained per manufacturer specifications",
+      "Continuous communication with ATC is required",
+      "Failure to carry/use radio is a breach of Part 91"
+    ],
+    "source": "AC 61-3 Rev 25 §2.10.4(a), NZ Civil Aviation Rules Part 91.217(5)",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.10.4(b)",
+    "topic": "2.10 — Practices and Rules",
+    "syllabus_desc": "Demonstrate a good working knowledge of Part 91.243",
+    "concept": "NZ Civil Aviation Rules Part 91.243 requires all pilots to maintain a listening watch on the appropriate frequency whenever the aircraft is operating. This applies whether the aircraft is under ATC control, in controlled or uncontrolled airspace, on the ground, or airborne. The listening watch must be maintained on: tower frequency when on the aerodrome; approach/departure frequency when climbing/descending in controlled airspace; flight service frequency in uncontrolled airspace; and 121.5 MHz (emergency frequency) as backup. This is a legal requirement and critical for safety.",
+    "exam_tip": "Part 91.243: Listen on the assigned frequency at all times. It's a legal requirement and keeps you in the loop.",
+    "key_facts": [
+      "Part 91.243 requires listening watch on assigned frequency",
+      "Applies at all times: on ground, airborne, controlled or uncontrolled airspace",
+      "Tower frequency when on aerodrome",
+      "Approach/departure frequency when climbing/descending",
+      "Flight service frequency in uncontrolled airspace",
+      "121.5 MHz emergency frequency as backup"
+    ],
+    "source": "AC 61-3 Rev 25 §2.10.4(b), NZ Civil Aviation Rules Part 91.243",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.10.4(c)",
+    "topic": "2.10 — Practices and Rules",
+    "syllabus_desc": "Demonstrate a good working knowledge of Part 91.245(b),(c) and (d)",
+    "concept": "NZ Civil Aviation Rules Part 91.245(b), (c), and (d) specify rules for use of radio. Subsection (b) requires that radio transmissions be limited to essential communications and kept as brief as possible. Subsection (c) prohibits the testing of radio equipment on an aerodrome without prior permission from air traffic control or aerodrome management. Subsection (d) requires that radio transmissions must comply with standard phraseology and procedures. These rules ensure that airspace remains clear for critical communications and that all pilots follow consistent procedures.",
+    "exam_tip": "Part 91.245: Keep transmissions brief and essential. Don't test radio on aerodrome without permission. Use standard phraseology.",
+    "key_facts": [
+      "Part 91.245(b): Transmissions must be essential and as brief as possible",
+      "Part 91.245(c): Radio testing on aerodrome requires ATC/aerodrome management permission",
+      "Part 91.245(d): Transmissions must comply with standard phraseology and procedures",
+      "Reduces frequency congestion",
+      "Ensures safety through consistent procedures"
+    ],
+    "source": "AC 61-3 Rev 25 §2.10.4(c), NZ Civil Aviation Rules Part 91.245(b),(c),(d)",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.10.4(d)",
+    "topic": "2.10 — Practices and Rules",
+    "syllabus_desc": "Demonstrate a good working knowledge of Part 91.247",
+    "concept": "NZ Civil Aviation Rules Part 91.247 requires pilots to report their position, altitude, and heading to air traffic services when requested or when prescribed in the flight plan or ATC clearance. Position reports are mandatory in controlled airspace and when flying on a flight plan in uncontrolled airspace. Typical position reports include: aircraft callsign, position (location or distance from a reference point), altitude, heading/track, and any relevant information (weather, equipment serviceability). Accurate position reports are essential for ATC to maintain separation and ensure safety.",
+    "exam_tip": "Part 91.247: Give position reports when asked or as required in your clearance. Include: callsign, position, altitude, heading.",
+    "key_facts": [
+      "Part 91.247 requires position reports when requested by ATC",
+      "Mandatory in controlled airspace",
+      "Mandatory on flight plan in uncontrolled airspace",
+      "Report includes: callsign, position, altitude, heading, relevant information",
+      "Essential for ATC separation and safety"
+    ],
+    "source": "AC 61-3 Rev 25 §2.10.4(d), NZ Civil Aviation Rules Part 91.247",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.10.4(e)",
+    "topic": "2.10 — Practices and Rules",
+    "syllabus_desc": "Demonstrate a good working knowledge of Part 91.249(a) and (b)",
+    "concept": "NZ Civil Aviation Rules Part 91.249(a) and (b) specify rules for ATC communications. Subsection (a) requires that pilots comply with all instructions issued by ATC, except in an emergency or if compliance would create a safety risk. Pilots must acknowledge all instructions and report back when executed. Subsection (b) requires that if a pilot is unable to comply with an ATC instruction, they must immediately inform ATC and provide the reason (e.g., 'Unable to level at flight level 100, turbulence'). This ensures ATC is aware of limitations and can reassign tasks.",
+    "exam_tip": "Part 91.249: Follow all ATC instructions unless safety is at risk. If you can't comply, tell ATC immediately why.",
+    "key_facts": [
+      "Part 91.249(a): Comply with all ATC instructions",
+      "Exception: if compliance creates safety risk or in emergency",
+      "Acknowledge all instructions",
+      "Report back when instruction is executed",
+      "Part 91.249(b): If unable to comply, inform ATC immediately with reason"
+    ],
+    "source": "AC 61-3 Rev 25 §2.10.4(e), NZ Civil Aviation Rules Part 91.249(a),(b)",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.10.4(f)",
+    "topic": "2.10 — Practices and Rules",
+    "syllabus_desc": "Demonstrate a good working knowledge of Part 91.513",
+    "concept": "NZ Civil Aviation Rules Part 91.513 specifies rules for use of aircraft transponders. Aircraft must carry and operate a Mode A or Mode C transponder in transponder mandatory airspace as defined in the AIPNZ. The transponder must be set to the assigned code and mode as directed by ATC. The transponder must not be used in standby mode while in controlled airspace unless directed by ATC. Pilots must understand transponder codes, modes, and the ident function. Failure to comply with transponder requirements can result in enforcement action.",
+    "exam_tip": "Part 91.513: Carry and use transponder in mandatory airspace. Set assigned code. Press ident when asked. Don't use standby in controlled airspace.",
+    "key_facts": [
+      "Part 91.513 requires transponder in mandatory airspace (Mode A minimum)",
+      "Set to assigned code as directed by ATC",
+      "Don't use standby mode in controlled airspace without ATC permission",
+      "Understand transponder modes: A (altitude not available), C (altitude available)",
+      "Use ident function to enhance radar return when requested"
+    ],
+    "source": "AC 61-3 Rev 25 §2.10.4(f), NZ Civil Aviation Rules Part 91.513",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.10.4(g)",
+    "topic": "2.10 — Practices and Rules",
+    "syllabus_desc": "Demonstrate a good working knowledge of Part 91.515",
+    "concept": "NZ Civil Aviation Rules Part 91.515 specifies rules for altitude reporting via Mode C transponder. When operating with Mode C transponder in assigned airspace, the aircraft must report altitude continuously via the transponder. The altitude displayed to ATC must be derived from a calibrated altimeter that meets accuracy standards. Pilots are responsible for ensuring the altimeter is set correctly (QNH for standard pressure) and that the transponder is receiving accurate altitude data. If Mode C altitude reporting is inaccurate or unavailable, pilots must notify ATC immediately.",
+    "exam_tip": "Part 91.515: Mode C transponder must report accurate altitude. Set your altimeter to QNH. If Mode C fails, tell ATC immediately.",
+    "key_facts": [
+      "Part 91.515 requires continuous altitude reporting via Mode C",
+      "Altitude derived from calibrated altimeter",
+      "Altimeter must be set to QNH (not flight level)",
+      "Transponder must receive accurate altitude data",
+      "If Mode C fails or is inaccurate, notify ATC immediately"
+    ],
+    "source": "AC 61-3 Rev 25 §2.10.4(g), NZ Civil Aviation Rules Part 91.515",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.10.4(h)",
+    "topic": "2.10 — Practices and Rules",
+    "syllabus_desc": "Demonstrate a good working knowledge of Part 91.529",
+    "concept": "NZ Civil Aviation Rules Part 91.529 specifies requirements for Emergency Locator Transmitters (ELTs). All aircraft engaged in operations over water or remote terrain must carry a serviceable ELT. The ELT must be in good working condition, with a current battery, and mounted securely. In an emergency (crash, forced landing), the ELT automatically transmits distress signals on 121.5 MHz (aviation emergency frequency) and 406 MHz (satellite frequency). Pilots must know how to activate ELT manually (if auto-activation fails), test it properly (only during designated test windows), and understand its role in search and rescue operations.",
+    "exam_tip": "Part 91.529: ELT required for flights over water/remote terrain. Transmits on 121.5 and 406 MHz. Test only in designated windows.",
+    "key_facts": [
+      "Part 91.529 requires ELT in aircraft operating over water or remote terrain",
+      "ELT must be serviceable with current battery",
+      "Automatic activation upon crash or hard landing",
+      "Transmits on 121.5 MHz (aviation) and 406 MHz (satellite)",
+      "Manual activation available if auto-activation fails",
+      "Test only during designated windows (first 5 mins of hour on 121.5)"
+    ],
+    "source": "AC 61-3 Rev 25 §2.10.4(h), NZ Civil Aviation Rules Part 91.529",
+    "confidence": "high",
+    "verified": true
+  },
+  {
     "code": "2.10.6(a)",
-    "topic": "2.10 \u2014 Practices and Rules",
+    "topic": "2.10 — Practices and Rules",
     "syllabus_desc": "UNICOM: Unattended aerodrome ground communications",
-    "concept": "UNICOM provides non-certificated air-ground communications at aerodromes without ATC or AFIS (Aerodrome Flight Information Service). In New Zealand, UNICOM operates at aerodromes like Ardmore, Whanganui, and smaller strips. UNICOM is staffed by volunteers or commercial operators (not licensed ATC). Services include: weather information, wind direction/speed, QNH (altimeter setting), aerodrome status, and general information. UNICOM does NOT issue clearances or control traffic\u2014pilots are responsible for separation. Frequency is typically 118.25 MHz or as published in AIPNZ Vol 4.",
+    "concept": "UNICOM provides non-certificated air-ground communications at aerodromes without ATC or AFIS (Aerodrome Flight Information Service). In New Zealand, UNICOM operates at aerodromes like Ardmore, Whanganui, and smaller strips. UNICOM is staffed by volunteers or commercial operators (not licensed ATC). Services include: weather information, wind direction/speed, QNH (altimeter setting), aerodrome status, and general information. UNICOM does NOT issue clearances or control traffic—pilots are responsible for separation. Frequency is typically 118.25 MHz or as published in AIPNZ Vol 4.",
     "exam_tip": "UNICOM = non-certificated ground comms. No clearances issued. Weather, wind, QNH only. Pilot responsible for separation.",
     "key_facts": [
       "UNICOM at unattended aerodromes",
@@ -466,7 +793,7 @@
   },
   {
     "code": "2.10.6(b)",
-    "topic": "2.10 \u2014 Practices and Rules",
+    "topic": "2.10 — Practices and Rules",
     "syllabus_desc": "ATIS: Aerodrome Terminal Information Service",
     "concept": "ATIS is an automated, pre-recorded broadcast of essential aerodrome information at controlled aerodromes. ATIS includes: weather (wind direction/speed, visibility, cloud height, temperature, QNH), active runway(s), any significant information (construction, runway closures, equipment failures, special procedures). ATIS is identified by a phonetic letter (e.g., 'ATIS Alpha', 'ATIS Bravo') which changes every update. Pilots must listen to ATIS before contacting Tower to understand current conditions. The ATIS frequency is published on aerodrome charts. Listening to ATIS before calling Tower reduces frequency congestion and improves coordination.",
     "exam_tip": "ATIS = pre-recorded aerodrome info (weather, QNH, runway, conditions). Identified by letter. Listen before Tower call.",
@@ -483,9 +810,9 @@
   },
   {
     "code": "2.10.6(c)",
-    "topic": "2.10 \u2014 Practices and Rules",
+    "topic": "2.10 — Practices and Rules",
     "syllabus_desc": "AFRU: Aerodrome Frequency Response Unit",
-    "concept": "AFRU is an automated system that acknowledges radio transmissions without human operator involvement. Used at some aerodromes, AFRU provides a radio acknowledgement (e.g., 'Roger') confirming that a transmission was received, but does not provide additional services like weather or separation instructions. AFRU is useful at smaller aerodromes with limited staff. The pilot's responsibility for safe operation remains unchanged\u2014AFRU does not replace ATC or AFIS services.",
+    "concept": "AFRU is an automated system that acknowledges radio transmissions without human operator involvement. Used at some aerodromes, AFRU provides a radio acknowledgement (e.g., 'Roger') confirming that a transmission was received, but does not provide additional services like weather or separation instructions. AFRU is useful at smaller aerodromes with limited staff. The pilot's responsibility for safe operation remains unchanged—AFRU does not replace ATC or AFIS services.",
     "exam_tip": "AFRU = automated acknowledgement system. Confirms transmission received but provides no active service.",
     "key_facts": [
       "AFRU provides automated acknowledgement",
@@ -500,7 +827,7 @@
   },
   {
     "code": "2.10.6(d)",
-    "topic": "2.10 \u2014 Practices and Rules",
+    "topic": "2.10 — Practices and Rules",
     "syllabus_desc": "AWIB: Aerodrome Weather Information Broadcast",
     "concept": "AWIB is an automated pre-recorded broadcast of aerodrome and weather information, similar to ATIS but deployed at unattended aerodromes. AWIB provides weather, QNH, wind, and general aerodrome status. The broadcast repeats continuously. AWIB frequency is published on aerodrome charts or in AIPNZ Vol 4. Pilots should listen to AWIB before approaching an unattended aerodrome to obtain current conditions. AWIB may be available on the UNICOM frequency or a dedicated frequency.",
     "exam_tip": "AWIB = automated weather/aerodrome info broadcast at unattended strips. Similar to ATIS but not staffed.",
@@ -517,10 +844,10 @@
   },
   {
     "code": "2.10.8",
-    "topic": "2.10 \u2014 Practices and Rules",
+    "topic": "2.10 — Practices and Rules",
     "syllabus_desc": "VFR phraseology for all flight phases",
     "concept": "Standard VFR phraseology covers all phases of flight: pre-flight (radio check, flight plan filing); departure (taxi clearance, takeoff, climb-out); en-route (position reports, altitude changes); descent (descent planning, approach notification); landing (downwind, base, final, landing); and post-landing (taxi-in, parking). Phraseology is standardized per AC91-9/AC172-1 to ensure consistent communication. Pilots must practice proper phraseology, correct pacing (not too fast), clear pronunciation, and appropriate brevity. Consistent use of standard phrases reduces confusion and improves safety.",
-    "exam_tip": "Use standard VFR phraseology per AC91-9. Taxi, takeoff, climb, descent, approach, landing, parking\u2014each has set calls.",
+    "exam_tip": "Use standard VFR phraseology per AC91-9. Taxi, takeoff, climb, descent, approach, landing, parking—each has set calls.",
     "key_facts": [
       "Standard phraseology per AC91-9/AC172-1",
       "Covers all flight phases",
@@ -534,8 +861,42 @@
     "verified": true
   },
   {
+    "code": "2.10.10(a)",
+    "topic": "2.10 — Practices and Rules",
+    "syllabus_desc": "Demonstrate a good working knowledge of the AIPNZ and AC172-1 with regard to communication services",
+    "concept": "The Aeronautical Information Publication NZ (AIPNZ) ENR 1.1 and Aeronautical Chart Legend (AC172-1) detail all available communication services in New Zealand airspace. These include ATC tower, approach, and departure services at major aerodromes; flight service stations providing weather, NOTAM, and position reports; and UNICOM services at smaller aerodromes. Pilots must understand the purpose of each service, assigned frequencies, operating hours, and how to establish contact. The AIPNZ also lists aerodrome-specific information (runway orientation, lighting, services) essential for flight planning.",
+    "exam_tip": "AIPNZ ENR 1.1 and AC172-1 are your guides: frequencies, service names, operating hours, services available. Always check current versions.",
+    "key_facts": [
+      "AIPNZ ENR 1.1 lists all communication services in NZ airspace",
+      "Tower, Approach, Departure, Flight Service, UNICOM services defined",
+      "AC172-1 provides chart symbols and frequencies",
+      "Services vary by aerodrome and airspace classification",
+      "Operating hours, contact procedures, and services listed for each aerodrome"
+    ],
+    "source": "AC 61-3 Rev 25 §2.10.10(a), AIPNZ ENR 1.1, AC172-1",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.10.10(b)",
+    "topic": "2.10 — Practices and Rules",
+    "syllabus_desc": "Demonstrate a good working knowledge of the AIPNZ and AC172-1 with regard to communication aspects in the Search and Rescue section",
+    "concept": "The AIPNZ and AC172-1 contain dedicated sections on Search and Rescue (SAR) communication procedures. This includes: emergency frequencies (121.5 MHz primary, 406 MHz satellite), ELT information, distress and urgency call procedures, and radio silence rules for non-involved stations. Pilots must know how to declare an emergency ('Mayday' for distress, 'Pan Pan' for urgency), what information to provide, and how ATS and other aircraft will respond. The SAR section also outlines the role of aircraft in assisting with search operations and procedures for transmitting blind if unable to establish contact with ATS.",
+    "exam_tip": "AIPNZ/AC172-1 SAR section: Know 121.5 MHz (emergency), ELT operation, Mayday/Pan Pan procedures, and what to say in emergency.",
+    "key_facts": [
+      "Emergency frequency: 121.5 MHz (aviation), 406 MHz (satellite)",
+      "Mayday = distress (life-threatening), Pan Pan = urgency (serious but not life-threatening)",
+      "ELT transmits on 121.5 and 406 MHz",
+      "All non-involved stations maintain radio silence during emergency",
+      "SAR section outlines ATS emergency response and assisting aircraft roles"
+    ],
+    "source": "AC 61-3 Rev 25 §2.10.10(b), AIPNZ ENR 1.1 SAR, AC172-1",
+    "confidence": "high",
+    "verified": true
+  },
+  {
     "code": "2.12.2",
-    "topic": "2.12 \u2014 Phraseology and Procedures",
+    "topic": "2.12 — Phraseology and Procedures",
     "syllabus_desc": "Standard aviation words and phrases",
     "concept": "Aviation uses standardized phraseology to eliminate ambiguity. Key terms and meanings: ACKNOWLEDGE = confirm you received message; AFFIRM = yes (not 'affirmative'); APPROVED = clearance given; BREAK = pause in transmission; CANCEL = terminate clearance; CLEARED = authorized for action; CONFIRM = verify correctness; CONTACT = call facility; CORRECT = message is accurate; CORRECTION = disregard previous message; DISREGARD = ignore message; MAINTAIN = continue current altitude/heading/speed; MONITOR = listen to frequency; NEGATIVE = no (not 'negative copy'); READ BACK = repeat back what you heard; ROGER = message received; SAY AGAIN = repeat message; STANDBY = wait; UNABLE = cannot comply; WILCO = will comply. Each term has precise meaning per ICAO Annex 10 and AC91-9/AC172-1.",
     "exam_tip": "Learn all standard phrases. Key: AFFIRM (yes), NEGATIVE (no), WILCO (will comply), ROGER (received).",
@@ -566,10 +927,63 @@
     "verified": true
   },
   {
+    "code": "2.12.2(a)",
+    "topic": "2.12 — Phraseology and Procedures",
+    "syllabus_desc": "Demonstrate proficiency in standard radiotelephony phraseologies and procedures for all VFR operations in controlled and uncontrolled airspace",
+    "concept": "VFR operations require pilots to use standardised phraseology for all radio communications. This includes: position reports (location, altitude, heading, flight time to destination), level-offs, altitude changes, turns, and routine communications with ATC. Standard phrases reduce ambiguity and ensure ATC understands pilot intentions clearly. In controlled airspace, pilots must follow ATC clearances and readback procedures strictly. In uncontrolled airspace, pilots maintain listening watch on flight service frequency and report position at designated intervals (typically every 30 minutes or as instructed). Phraseology must be clear, professional, and consistent with AIPNZ and AC172-1 guidelines.",
+    "exam_tip": "VFR phraseology: Position, altitude, heading, intent. Use standard phrases, read back clearances, maintain listening watch. Same rules apply everywhere.",
+    "key_facts": [
+      "Standard phraseology reduces miscommunication",
+      "Position reports: location, altitude, heading, ETA, flight time",
+      "Use 'Level' for altitude changes, 'Descending/climbing to' for new altitude",
+      "Read back all clearances, changes, and headings",
+      "In controlled airspace: follow ATC clearances exactly",
+      "In uncontrolled airspace: position reports every 30 minutes on flight service frequency"
+    ],
+    "source": "AC 61-3 Rev 25 §2.12.2(a), AIPNZ ENR 1.1, AC172-1",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.12.2(b)",
+    "topic": "2.12 — Phraseology and Procedures",
+    "syllabus_desc": "Demonstrate proficiency in standard radiotelephony phraseologies and procedures for taxi, take-off, approach and landing at controlled aerodromes, Flight Service aerodromes, aerodromes served by UNICOM, and uncontrolled aerodromes",
+    "concept": "Each aerodrome type has specific phraseology and procedures. At controlled aerodromes: request taxi clearance, report ready for takeoff, follow tower instructions for landing. At Flight Service aerodromes: report intentions (landing/overhead), request active runway, report on final. At UNICOM aerodromes: self-announce position on UNICOM frequency (e.g., 'Rangiora UNICOM, Cessna 221 on downwind runway 02'). At uncontrolled aerodromes: self-announce on 122.8 MHz (standard NZ uncontrolled frequency) or aerodrome-specific frequency, giving position and intentions. Standard phraseology must be used throughout all phases to ensure safety and reduce confusion.",
+    "exam_tip": "Controlled: ask for taxi, takeoff, landing clearances. Flight Service: report position/intentions. UNICOM: self-announce. Uncontrolled: self-announce on 122.8.",
+    "key_facts": [
+      "Controlled aerodromes: request taxi, takeoff, and landing clearance from tower",
+      "Flight Service aerodromes: report position (overhead, downwind, final) to flight service",
+      "UNICOM aerodromes: self-announce on UNICOM frequency with position and intention",
+      "Uncontrolled aerodromes: self-announce on 122.8 MHz (or aerodrome-specific) with position, altitude, intention",
+      "Standard phraseology for taxi ('holding point ready for takeoff'), takeoff, approach, landing"
+    ],
+    "source": "AC 61-3 Rev 25 §2.12.2(b), AIPNZ ENR 1.1, AC172-1",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.12.2(c)",
+    "topic": "2.12 — Phraseology and Procedures",
+    "syllabus_desc": "Demonstrate proficiency in standard radiotelephony phraseologies and procedures for read-back instructions",
+    "concept": "Read-back is a critical safety procedure where pilots repeat ATC instructions verbatim to confirm understanding and accuracy. All clearances, headings, altitudes, frequencies, and runway assignments must be read back. Example: ATC says 'Climb to flight level 100', pilot responds 'Climbing to flight level 100, Cessna 221'. If the pilot's readback is incorrect, ATC will correct immediately. Read-backs prevent misunderstandings and ensure both parties agree on the instruction before the pilot acts. Pilots must never assume they understand—always read back completely and wait for confirmation.",
+    "exam_tip": "Read back everything: headings, altitudes, frequencies, runway. Say it back exactly as you heard it. Wait for confirmation before acting.",
+    "key_facts": [
+      "Read back all clearances: altitude, heading, frequency, runway, procedure",
+      "Readback must be verbatim from ATC instruction",
+      "Pilot: 'Cleared to land runway 02, Cessna 221'",
+      "ATC corrects if readback is incorrect",
+      "Wait for ATC confirmation before executing instruction",
+      "If you don't understand, ask for clarification instead of guessing"
+    ],
+    "source": "AC 61-3 Rev 25 §2.12.2(c), AIPNZ ENR 1.1, AC172-1",
+    "confidence": "high",
+    "verified": true
+  },
+  {
     "code": "2.12.4(a)",
-    "topic": "2.12 \u2014 Phraseology and Procedures",
+    "topic": "2.12 — Phraseology and Procedures",
     "syllabus_desc": "Prohibited unauthorized transmissions",
-    "concept": "CAA rules prohibit: (1) transmitting on aviation frequencies without proper authority or license (FRTO certification required); (2) making unnecessary transmissions that clog the frequency; (3) transmitting misleading signals or false information that could confuse ATC or other pilots; (4) keying the microphone without intent to communicate (accidentally blocking frequency). Pilots must respect frequency discipline\u2014only transmit when necessary, speak clearly and briefly, and never joke or transmit false information. Violations can result in license suspension or prosecution.",
+    "concept": "CAA rules prohibit: (1) transmitting on aviation frequencies without proper authority or license (FRTO certification required); (2) making unnecessary transmissions that clog the frequency; (3) transmitting misleading signals or false information that could confuse ATC or other pilots; (4) keying the microphone without intent to communicate (accidentally blocking frequency). Pilots must respect frequency discipline—only transmit when necessary, speak clearly and briefly, and never joke or transmit false information. Violations can result in license suspension or prosecution.",
     "exam_tip": "Never transmit without authority. No unnecessary calls. No misleading or false info. No frequency blocking.",
     "key_facts": [
       "FRTO certification required to transmit",
@@ -584,7 +998,7 @@
   },
   {
     "code": "2.12.4(b)",
-    "topic": "2.12 \u2014 Phraseology and Procedures",
+    "topic": "2.12 — Phraseology and Procedures",
     "syllabus_desc": "Secrecy of communications",
     "concept": "All radio communications in aviation (whether intercepted, overheard, or received during flight) must be treated as confidential. Pilots, ground staff, and ATC must not disclose the contents of communications without proper authorization. This protects: (1) security of flight operations; (2) privacy of crews and passengers; (3) confidential operational and emergency information. Improper disclosure of communications could compromise security or assist adversaries. Secrecy is a legal obligation under aviation regulations and must be respected.",
     "exam_tip": "All comms are confidential. Don't disclose what you hear. Applies to ATC, crews, ground staff, everyone.",
@@ -601,7 +1015,7 @@
   },
   {
     "code": "2.12.6",
-    "topic": "2.12 \u2014 Phraseology and Procedures",
+    "topic": "2.12 — Phraseology and Procedures",
     "syllabus_desc": "Controlled aerodrome phraseology",
     "concept": "At controlled aerodromes (with ATC Tower), phraseology follows strict procedures: (1) Initial contact includes ATIS information reception, call sign, position, altitude, intentions; (2) Tower acknowledges and provides clearance (routing, initial altitude); (3) Read back all clearances; (4) Circuit calls include downwind (confirm height, heading), base (confirm descent), final (confirm landing); (5) Tower clears for landing, land, and taxi in; (6) After touchdown, taxi to parking following Tower instructions. All readbacks must confirm: altitude, heading, speed, frequency, transponder code.",
     "exam_tip": "Tower sequence: ATIS listen, initial contact (with ATIS letter), acknowledge/readback, circuit calls, landing, taxi-in.",
@@ -618,9 +1032,9 @@
   },
   {
     "code": "2.12.8",
-    "topic": "2.12 \u2014 Phraseology and Procedures",
+    "topic": "2.12 — Phraseology and Procedures",
     "syllabus_desc": "AFIS aerodrome phraseology",
-    "concept": "At AFIS aerodromes (Flight Service, but not ATC), procedures differ from controlled aerodromes. AFIS does NOT issue clearances\u2014it provides information (weather, QNH, traffic, runway in use). Pilots are responsible for separation decisions. Phraseology: (1) initial contact with AFIS (position, altitude, intentions); (2) AFIS provides information (similar to ATIS) and reports any traffic; (3) pilot makes separation decisions based on information provided; (4) pilot reports downwind, base, final independently; (5) AFIS acknowledges but does not 'clear' for landing\u2014landing is pilot's decision. This places greater responsibility on the pilot.",
+    "concept": "At AFIS aerodromes (Flight Service, but not ATC), procedures differ from controlled aerodromes. AFIS does NOT issue clearances—it provides information (weather, QNH, traffic, runway in use). Pilots are responsible for separation decisions. Phraseology: (1) initial contact with AFIS (position, altitude, intentions); (2) AFIS provides information (similar to ATIS) and reports any traffic; (3) pilot makes separation decisions based on information provided; (4) pilot reports downwind, base, final independently; (5) AFIS acknowledges but does not 'clear' for landing—landing is pilot's decision. This places greater responsibility on the pilot.",
     "exam_tip": "AFIS provides INFO, not clearances. Pilot responsible for separation. Report position (downwind, base, final) for traffic awareness.",
     "key_facts": [
       "AFIS provides information (weather, traffic)",
@@ -635,7 +1049,7 @@
   },
   {
     "code": "2.12.10",
-    "topic": "2.12 \u2014 Phraseology and Procedures",
+    "topic": "2.12 — Phraseology and Procedures",
     "syllabus_desc": "Unattended aerodrome phraseology",
     "concept": "At unattended aerodromes (no ATC or AFIS), pilots broadcast on the published CTAF (Common Traffic Advisory Frequency) to alert other aircraft. Phraseology uses 'TRAFFIC' not the station name (since no station exists). Calls for: taxi ('Cessna ZK-ABC, taxiing runway 06'); rolling ('ZK-ABC, rolling runway 06'); circuit positions using published reporting points ('ZK-ABC, downwind [reporting point], 1000 feet'); landing ('ZK-ABC, final runway 06'); landed ('ZK-ABC, landed runway 06'). Broadcasts maintain 2-3 minute separation information and allow other aircraft to maintain situational awareness. Pilots are fully responsible for separation.",
     "exam_tip": "Unattended = broadcast 'TRAFFIC' not station name. Use published CTAF. Report taxi, rolling, circuit, landing.",
@@ -652,7 +1066,7 @@
   },
   {
     "code": "2.12.12",
-    "topic": "2.12 \u2014 Phraseology and Procedures",
+    "topic": "2.12 — Phraseology and Procedures",
     "syllabus_desc": "MBZ (Mandatory Broadcast Zone) procedures",
     "concept": "Some aerodromes have Mandatory Broadcast Zones (MBZ) where all aircraft must transmit position reports on a designated frequency. MBZ details are published in AIPNZ Vol 4. Pilots must use the specific MBZ frequency (not the CTAF or other frequencies), report position at prescribed intervals (typically 10 nm, 5 nm, and 2 nm before the aerodrome, plus initial contact), include altitude, intentions, and estimate. MBZ reports help ensure traffic separation and aerodrome coordination even without active ATC. Non-compliance with MBZ requirements may result in penalties or denial of landing clearance.",
     "exam_tip": "MBZ uses specific frequency (published in AIPNZ). Report at 10 nm, 5 nm, 2 nm, plus initial contact.",
@@ -669,7 +1083,7 @@
   },
   {
     "code": "2.12.14",
-    "topic": "2.12 \u2014 Phraseology and Procedures",
+    "topic": "2.12 — Phraseology and Procedures",
     "syllabus_desc": "Readback requirements for ATC clearances",
     "concept": "Pilots must read back all ATC clearances to confirm correct understanding. Readback covers: (1) route clearance (airways, waypoints); (2) approach/departure clearance (vectoring, altitude); (3) conditional clearances (e.g., 'cleared to land, wind 270/15'); (4) runway clearance (e.g., 'cleared to land runway 24L'); (5) transponder codes; (6) level/heading/speed instructions; (7) altimeter settings (QNH); (8) frequency changes. Non-readback items (informational only) can be acknowledged with 'ROGER' or 'WILCO' without reading back. Readback must be immediate, exact, and include the aircraft call sign. Readback errors allow ATC to correct before issuing final clearance.",
     "exam_tip": "Read back: routes, clearances, codes, levels, headings, speeds, QNH, frequencies. Use WILCO for non-readback items.",
@@ -689,7 +1103,7 @@
   },
   {
     "code": "2.14.2(a)",
-    "topic": "2.14 \u2014 Distress and Urgency Communications",
+    "topic": "2.14 — Distress and Urgency Communications",
     "syllabus_desc": "MAYDAY distress calls",
     "concept": "MAYDAY is used when an aircraft is in grave and imminent danger and requires immediate assistance. The word 'MAYDAY' should be said three times to ensure recognition over static or noise. MAYDAY is transmitted on the current frequency if ATC is present, or on 121.5 MHz (the international aero emergency frequency) if no ATC. Once MAYDAY is transmitted, all other stations must cease transmissions and listen. The aircraft in distress has absolute priority. MAYDAY must be accompanied by: call sign, nature of emergency, present position, altitude, heading, souls on board, endurance, and any other relevant information.",
     "exam_tip": "MAYDAY MAYDAY MAYDAY = grave and imminent danger. Transmit 3 times. All other stations silence and listen.",
@@ -706,7 +1120,7 @@
   },
   {
     "code": "2.14.2(b)",
-    "topic": "2.14 \u2014 Distress and Urgency Communications",
+    "topic": "2.14 — Distress and Urgency Communications",
     "syllabus_desc": "PAN PAN urgency calls",
     "concept": "PAN PAN is used when an aircraft has an urgent situation but does not require immediate assistance. Examples: engine overheating, persistent electrical failure, persistent radio interference, loss of an engine, structural damage, but aircraft is controllable and capable of reaching an aerodrome. PAN PAN is said three times. Transmit on the current frequency or 121.5 MHz. All other stations should maintain silence until the situation is resolved or no longer urgent. PAN PAN situations still receive priority handling but less urgent than MAYDAY. Aircraft in PAN PAN situations will be vectored to the nearest suitable landing place, but may have slightly longer to land compared to MAYDAY situations.",
     "exam_tip": "PAN PAN (said 3 times) = urgent but not grave danger. Less priority than MAYDAY but priority over routine traffic.",
@@ -723,7 +1137,7 @@
   },
   {
     "code": "2.14.4(a)",
-    "topic": "2.14 \u2014 Distress and Urgency Communications",
+    "topic": "2.14 — Distress and Urgency Communications",
     "syllabus_desc": "Emergency frequencies for MAYDAY/PAN PAN",
     "concept": "When a MAYDAY or PAN PAN is declared, the pilot should transmit on: (1) the current ATC frequency if in contact with ATC; (2) 121.5 MHz if outside ATC coverage or radio failure. The 121.5 MHz emergency frequency is continuously monitored by ATC facilities, AFIS, Flight Information Service, and many aircraft. Using the current frequency allows ATC to provide immediate vectors and separation services. Using 121.5 MHz ensures detection if the current frequency is not monitored. Modern aircraft with satellite/datalink may also transmit emergency messages via satellite systems.",
     "exam_tip": "MAYDAY/PAN PAN: First try current frequency (ATC is listening). Then 121.5 MHz if no response.",
@@ -740,7 +1154,7 @@
   },
   {
     "code": "2.14.4(b)",
-    "topic": "2.14 \u2014 Distress and Urgency Communications",
+    "topic": "2.14 — Distress and Urgency Communications",
     "syllabus_desc": "Stations to call in emergency",
     "concept": "When declaring MAYDAY or PAN PAN, address the call to: (1) the current ATC station (e.g., 'Auckland Tower'); (2) if no response, 'ALL STATIONS' followed by the emergency message; (3) Flight Information Service if no ATC available; (4) Any aircraft monitoring the frequency (by calling 'ALL STATIONS'). Example: 'ALL STATIONS, ALL STATIONS, MAYDAY, Cessna ZK-ABC, engine failure, position...' The first station to hear becomes the primary coordinator and ensures SAR is activated. Multiple stations hearing the call will relay to SAR as needed.",
     "exam_tip": "Address to ATC first. If no response, call 'ALL STATIONS'. Whichever station responds first takes action.",
@@ -757,7 +1171,7 @@
   },
   {
     "code": "2.14.4(c)",
-    "topic": "2.14 \u2014 Distress and Urgency Communications",
+    "topic": "2.14 — Distress and Urgency Communications",
     "syllabus_desc": "MAYDAY message contents",
     "concept": "A complete MAYDAY message includes: (1) 'MAYDAY' (said three times); (2) station addressed (e.g., 'Auckland Tower'); (3) aircraft call sign (repeated twice); (4) nature of emergency (e.g., 'engine failure', 'fire', 'hydraulic loss'); (5) intention (e.g., 'attempting to land', 'ditching in sea', 'staying airborne'); (6) present position (latitude/longitude or distance/direction from navigation aid); (7) flight level/altitude (e.g., '2000 feet'); (8) heading (e.g., '180 degrees'); (9) souls on board (crew + passengers); (10) endurance (fuel time remaining); (11) any other useful information (injuries, structural damage). Example: 'MAYDAY MAYDAY MAYDAY, Auckland Tower, Cessna ZK-ABC ZK-ABC, engine failure, attempting forced landing, 15 nm south of Auckland, 2000 feet, heading 350, 2 souls on board, 20 minutes fuel.'",
     "exam_tip": "MAYDAY contents: nature, intention, position, altitude, heading, souls, endurance, other relevant info.",
@@ -779,9 +1193,9 @@
   },
   {
     "code": "2.14.4(d)",
-    "topic": "2.14 \u2014 Distress and Urgency Communications",
+    "topic": "2.14 — Distress and Urgency Communications",
     "syllabus_desc": "Radio silence in distress situations",
-    "concept": "Once a MAYDAY or PAN PAN is acknowledged by ATC or another station, all other aircraft must maintain RADIO SILENCE on that frequency. This means: (1) no other transmissions except to acknowledge you have heard the distress call; (2) keep the frequency clear for the aircraft in distress and the coordinating station; (3) listen and monitor the frequency; (4) provide assistance only if requested or if you can render aid. Radio silence is terminated by the coordinating station with 'DISTRESS TRAFFIC ENDED' (for MAYDAY) or the equivalent for PAN PAN. This discipline is critical\u2014violations can interfere with lifesaving communications.",
+    "concept": "Once a MAYDAY or PAN PAN is acknowledged by ATC or another station, all other aircraft must maintain RADIO SILENCE on that frequency. This means: (1) no other transmissions except to acknowledge you have heard the distress call; (2) keep the frequency clear for the aircraft in distress and the coordinating station; (3) listen and monitor the frequency; (4) provide assistance only if requested or if you can render aid. Radio silence is terminated by the coordinating station with 'DISTRESS TRAFFIC ENDED' (for MAYDAY) or the equivalent for PAN PAN. This discipline is critical—violations can interfere with lifesaving communications.",
     "exam_tip": "MAYDAY/PAN PAN acknowledged = radio silence for all others. Listen, don't transmit. Wait for 'DISTRESS TRAFFIC ENDED'.",
     "key_facts": [
       "All stations maintain silence except distress station",
@@ -796,10 +1210,64 @@
     "verified": true
   },
   {
+    "code": "2.14.6(a)",
+    "topic": "2.14 — Distress and Urgency Communications",
+    "syllabus_desc": "Describe the actions by stations not involved in the emergency with regard to radio silence",
+    "concept": "When an aircraft declares distress (Mayday) or urgency (Pan Pan), all other stations on the frequency must maintain radio silence to clear the frequency for emergency communications. This means ceasing all non-emergency transmissions immediately. Only ATC, rescue services, and the emergency aircraft may transmit. Even if you have important information to communicate, you must remain silent unless directly requested by ATC or the emergency aircraft. Radio silence is critical because overlapping transmissions could mask the emergency signal or distract ATC from handling the crisis. Silence continues until ATC declares the emergency terminated.",
+    "exam_tip": "Hear Mayday or Pan Pan? Stop all transmissions immediately. Radio silence until ATC says otherwise. Don't interrupt the emergency.",
+    "key_facts": [
+      "All non-involved stations must maintain radio silence during emergency",
+      "No non-emergency transmissions allowed",
+      "Only ATC, rescue services, emergency aircraft transmit",
+      "Radio silence is legally required",
+      "Prevents interference with emergency signal",
+      "Silence continues until ATC declares emergency terminated"
+    ],
+    "source": "AC 61-3 Rev 25 §2.14.6(a), AIPNZ ENR 1.1, ICAO Annex 10",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.14.6(b)",
+    "topic": "2.14 — Distress and Urgency Communications",
+    "syllabus_desc": "Describe the actions by stations not involved in the emergency with regard to provision of assistance",
+    "concept": "While maintaining radio silence, non-involved aircraft and stations should position themselves to provide assistance if needed. This may include: maintaining listening watch and readiness to relay messages if the emergency aircraft cannot contact ATC directly, noting the aircraft's position and direction of travel, preparing to provide position reports or other information if requested, and if equipped, monitoring frequencies 121.5 MHz and 406 MHz (ELT frequencies). If you are the closest aircraft to the emergency, you may be tasked by ATC to assist with position reports, descent monitoring, or other support. Assistance is provided silently unless explicitly requested by ATC or the emergency aircraft.",
+    "exam_tip": "Hear an emergency? Stay silent but stay ready. Listen for ATC to ask you for help (relay, position reports, etc.). Only transmit if asked.",
+    "key_facts": [
+      "Non-involved aircraft remain ready to assist if tasked",
+      "May relay messages if emergency aircraft cannot reach ATC",
+      "May provide position reports or descent monitoring if asked",
+      "Monitor 121.5 MHz and 406 MHz (ELT frequencies) if equipped",
+      "Only transmit assistance if requested by ATC or emergency aircraft",
+      "Assistance provided silently unless explicit transmission requested"
+    ],
+    "source": "AC 61-3 Rev 25 §2.14.6(b), AIPNZ ENR 1.1 SAR, ICAO Annex 10",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.14.8",
+    "topic": "2.14 — Distress and Urgency Communications",
+    "syllabus_desc": "Describe the procedure involved in terminating emergency communications",
+    "concept": "Emergency communications are terminated by ATC only, never by the pilot. Once the emergency is resolved (aircraft lands safely, crisis resolved, or situation no longer life-threatening), ATC will explicitly state 'Emergency terminated' or similar. At that point, radio silence is lifted, normal communications resume, and other aircraft may resume regular transmissions. The emergency aircraft may be assigned a departure frequency or normal operating frequency. A full incident report will typically be filed by ATC and the pilot. Pilots should not declare the emergency over unilaterally; always wait for ATC to confirm termination.",
+    "exam_tip": "Only ATC can end the emergency. Wait for ATC to say 'Emergency terminated' before you consider it over.",
+    "key_facts": [
+      "Only ATC can declare emergency terminated",
+      "Pilot does not unilaterally end emergency",
+      "ATC will state explicitly: 'Emergency terminated' or similar",
+      "Radio silence lifted only after ATC declaration",
+      "Emergency aircraft assigned normal frequency after termination",
+      "Incident report filed by ATC and pilot"
+    ],
+    "source": "AC 61-3 Rev 25 §2.14.8, AIPNZ ENR 1.1 SAR, ICAO Annex 10",
+    "confidence": "high",
+    "verified": true
+  },
+  {
     "code": "2.16.2",
-    "topic": "2.16 \u2014 Loss of Communications",
+    "topic": "2.16 — Loss of Communications",
     "syllabus_desc": "Troubleshooting radio failure",
-    "concept": "If radio communication is lost, immediately troubleshoot: (1) Confirm PTT released (you're not holding it down); (2) Check squelch is set correctly (not too high\u2014weak signals may not open squelch); (3) Verify radio/intercom selector is in correct position (COM 1, 2, or AUX); (4) Confirm correct radio is selected (active, not standby); (5) Check volume is audible; (6) Verify correct frequency is dialed on active radio; (7) Ensure headset jacks fully inserted in receptacles; (8) Check master and avionics switches are ON (battery power); (9) Inspect fuses and circuit breakers for failures; (10) Try spare headset if available; (11) Rotate aircraft 90\u00b0 to change antenna attitude (terrain may block); (12) Climb higher if possible (expands radio horizon); (13) Try alternate radio if available. Systematically work through these checks.",
+    "concept": "If radio communication is lost, immediately troubleshoot: (1) Confirm PTT released (you're not holding it down); (2) Check squelch is set correctly (not too high—weak signals may not open squelch); (3) Verify radio/intercom selector is in correct position (COM 1, 2, or AUX); (4) Confirm correct radio is selected (active, not standby); (5) Check volume is audible; (6) Verify correct frequency is dialed on active radio; (7) Ensure headset jacks fully inserted in receptacles; (8) Check master and avionics switches are ON (battery power); (9) Inspect fuses and circuit breakers for failures; (10) Try spare headset if available; (11) Rotate aircraft 90° to change antenna attitude (terrain may block); (12) Climb higher if possible (expands radio horizon); (13) Try alternate radio if available. Systematically work through these checks.",
     "exam_tip": "Troubleshoot: PTT release, squelch, selector, frequency, volume, jacks, master/avionics, fuses, spare headset, antenna position.",
     "key_facts": [
       "Check PTT is released",
@@ -821,10 +1289,65 @@
     "verified": true
   },
   {
+    "code": "2.16.2(a)",
+    "topic": "2.16 — Loss of Communications — Aircraft Equipment",
+    "syllabus_desc": "Describe the checks when becoming aware of aircraft communication system failure — radio power source",
+    "concept": "When you suspect communication system failure, systematically check the power source first. Verify that the aircraft's electrical system is functioning (check ammeter, vacuum/pressure indicator, and other electrical instruments). Ensure the radio master switch is in the ON position and that the radio power is not inadvertently switched off. Check that the battery is supplying power (ammeter shows charging). If electrical power is lost, the radio will not function. In GA aircraft, a dual-battery system or electrical backup may be available; check and switch if needed. Power source failure is the most common cause of radio loss and should be ruled out first.",
+    "exam_tip": "Radio died? First check: Is the aircraft electrical system working? Master switch ON? Battery charging? Fix power, you fix radio.",
+    "key_facts": [
+      "Check aircraft electrical system status (ammeter, vacuum indicator)",
+      "Verify radio master switch is ON",
+      "Confirm battery is charging (ammeter shows positive charging)",
+      "Check for blown circuit breakers (if accessible)",
+      "Verify radio power switch is ON (separate from master)",
+      "If dual battery system, attempt to switch batteries"
+    ],
+    "source": "AC 61-3 Rev 25 §2.16.2(a), AIPNZ ENR 1.1, AC172-1",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.16.2(b)",
+    "topic": "2.16 — Loss of Communications — Aircraft Equipment",
+    "syllabus_desc": "Describe the checks when becoming aware of aircraft communication system failure — function settings (frequency, squelch and similar)",
+    "concept": "After confirming electrical power, check all radio function settings. Verify the frequency is correctly set and matches the intended frequency (cross-check against chart/NOTAM). Confirm the volume is turned up (not muted) and the squelch setting is appropriate (too high = no weak signals; too low = excessive static). Check that the radio mode is set correctly (VHF, not HF or other mode if dual radio). Ensure the PTT (push-to-talk) button is functioning and not stuck. On some radios, a standby/active switch may be set wrong; verify the active frequency is correct. Incorrect settings are common causes of apparent communication failure.",
+    "exam_tip": "Frequency set right? Volume up? Squelch reasonable? PTT button working? Check all settings before you decide the radio is broken.",
+    "key_facts": [
+      "Verify frequency matches intended frequency (cross-check chart)",
+      "Check volume is turned UP (not muted)",
+      "Squelch set appropriately (not too high, not too low)",
+      "Confirm radio mode is correct (VHF, not HF)",
+      "Test PTT button for responsiveness (not stuck)",
+      "If dual radio, verify correct radio/frequency is selected"
+    ],
+    "source": "AC 61-3 Rev 25 §2.16.2(b), AIPNZ ENR 1.1, AC172-1",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.16.2(c)",
+    "topic": "2.16 — Loss of Communications — Aircraft Equipment",
+    "syllabus_desc": "Describe the checks when becoming aware of aircraft communication system failure — microphone or headset",
+    "concept": "If power and frequency settings are correct, the microphone or headset may be faulty. Check the microphone connector for loose connections or damage. Ensure the headset is seated firmly in the jack. Test headset function: you should hear static or audio when the volume is turned up. If the boom microphone is disconnected or damaged, attempt to use the handheld microphone (if available). Check the PTT button on the microphone for mechanical problems (not depressed, stuck, or damaged). Swap microphones or headsets if spares are available. A loose microphone cable or damaged headset speaker is a common cause of apparent total radio failure.",
+    "exam_tip": "Mic or headset problem? Check connections—both should be plugged in firmly. Try spare mic/headset if available. Or use handheld mic.",
+    "key_facts": [
+      "Verify microphone connector is firmly seated and undamaged",
+      "Check headset connection (should be snug)",
+      "Test headset audio function (should hear static or audio at volume)",
+      "Inspect boom microphone for damage or disconnection",
+      "Test PTT button for mechanical problems",
+      "Swap with spare microphone or headset if available",
+      "Use handheld microphone as backup"
+    ],
+    "source": "AC 61-3 Rev 25 §2.16.2(c), AIPNZ ENR 1.1, AC172-1",
+    "confidence": "high",
+    "verified": true
+  },
+  {
     "code": "2.16.4",
-    "topic": "2.16 \u2014 Loss of Communications",
+    "topic": "2.16 — Loss of Communications",
     "syllabus_desc": "Actions on loss of communications (comms failure)",
-    "concept": "If radio failure is confirmed (cannot transmit or receive after troubleshooting), take these actions: (1) Set transponder 7600 immediately to alert ATC to radio failure; (2) Maintain current altitude and heading (ATC may vector via radar); (3) Try secondary ATS frequencies if available (HF, VHF backup); (4) Monitor ATIS to understand current conditions and runway in use; (5) Transmit 'blind' on current frequency (prefix 'TRANSMITTING BLIND') stating position and intentions\u2014ATC may be able to hear you; (6) Try mobile phone to contact ATC if available; (7) Maintain terrain clearance and stay in visual flight conditions; (8) If VFR: divert to unattended aerodrome and land; (9) If unable to land at intended destination: use 'speechless technique' per AIPNZ ENR 1.15 (squawk 7600, follow radar vectors via turns). NZ CAR 91.217 requires radio carriage; flying with failed radio is a violation.",
+    "concept": "If radio failure is confirmed (cannot transmit or receive after troubleshooting), take these actions: (1) Set transponder 7600 immediately to alert ATC to radio failure; (2) Maintain current altitude and heading (ATC may vector via radar); (3) Try secondary ATS frequencies if available (HF, VHF backup); (4) Monitor ATIS to understand current conditions and runway in use; (5) Transmit 'blind' on current frequency (prefix 'TRANSMITTING BLIND') stating position and intentions—ATC may be able to hear you; (6) Try mobile phone to contact ATC if available; (7) Maintain terrain clearance and stay in visual flight conditions; (8) If VFR: divert to unattended aerodrome and land; (9) If unable to land at intended destination: use 'speechless technique' per AIPNZ ENR 1.15 (squawk 7600, follow radar vectors via turns). NZ CAR 91.217 requires radio carriage; flying with failed radio is a violation.",
     "exam_tip": "Comms failure: 7600 on transponder, maintain altitude/heading, monitor ATIS, transmit blind, try mobile phone, land at unattended field.",
     "key_facts": [
       "Set transponder 7600",
@@ -843,10 +1366,162 @@
     "verified": true
   },
   {
+    "code": "2.16.4(a)",
+    "topic": "2.16 — Loss of Communications — Aircraft Equipment",
+    "syllabus_desc": "Detail the actions to be taken when experiencing loss of communications in controlled airspace",
+    "concept": "Loss of radio communication in controlled airspace is serious. First, try all troubleshooting steps listed in 2.16.2 (power, frequency, settings, microphone). If communication is restored, report the loss to ATC immediately. If communication cannot be restored: Squawk 7600 (communications failure code) on the transponder to alert ATC. Attempt to establish contact on alternate frequencies (e.g., 121.5 MHz emergency frequency, or nearby ATC frequencies). If equipped, try second radio. Listen on all frequencies for ATC instructions via light signals or other guidance. Follow the aircraft's last assigned clearance, altitude, and heading. File a position report in the blind (transmit without expectation of receipt). Descend to circuit altitude and attempt landing at the nearest suitable aerodrome. Land only when safe to do so.",
+    "exam_tip": "Lost comms in controlled airspace? Squawk 7600, try 121.5, listen for light signals. Follow last clearance/altitude. Land at nearest safe aerodrome.",
+    "key_facts": [
+      "Troubleshoot: power, frequency, settings, microphone first",
+      "Squawk 7600 on transponder",
+      "Try 121.5 MHz (emergency frequency)",
+      "Try alternate frequencies or second radio",
+      "Transmit in the blind ('Christchurch Approach, Cessna 221, comms failure')",
+      "Follow last assigned clearance, altitude, heading",
+      "Listen for ATC light signals",
+      "Descend to circuit altitude and land at nearest suitable aerodrome"
+    ],
+    "source": "AC 61-3 Rev 25 §2.16.4(a), AIPNZ ENR 1.1 SAR, NZ Civil Aviation Rules Part 91",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.16.4(b)",
+    "topic": "2.16 — Loss of Communications — Aircraft Equipment",
+    "syllabus_desc": "Detail the actions to be taken when experiencing loss of communications in uncontrolled airspace",
+    "concept": "Loss of communication in uncontrolled airspace is less critical but still requires action. First, troubleshoot: check power, frequency, settings, microphone. Try to establish contact on the flight service frequency or 121.5 MHz. If you have second radio, attempt on alternate frequency. Transmit position reports in the blind (without expectation of receipt) at regular intervals. If equipped with transponder, squawk 1200 (standard VFR code). Continue flight, maintaining visual lookout for other traffic. Proceed to your destination or nearest suitable aerodrome. Upon landing, file a report with the aerodrome operator or flight service explaining the communication loss. Continue visual flight if conditions permit; do not attempt instrument flight without communication.",
+    "exam_tip": "Lost comms in uncontrolled airspace? Try flight service frequency, 121.5, second radio. Transmit in the blind. Keep flying, land at nearest aerodrome. Report loss.",
+    "key_facts": [
+      "Troubleshoot: power, frequency, settings, microphone first",
+      "Try flight service frequency or 121.5 MHz",
+      "Try second radio if available",
+      "Squawk 1200 (VFR code)",
+      "Transmit in the blind at regular intervals",
+      "Maintain visual lookout and flight conditions",
+      "Continue to destination or nearest suitable aerodrome",
+      "File report upon landing"
+    ],
+    "source": "AC 61-3 Rev 25 §2.16.4(b), AIPNZ ENR 1.1, NZ Civil Aviation Rules Part 91",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.16.4(c)",
+    "topic": "2.16 — Loss of Communications — Aircraft Equipment",
+    "syllabus_desc": "Detail the actions to be taken when experiencing loss of communications in special use airspace",
+    "concept": "Special use airspace (e.g., restricted areas, danger areas, training areas) has specific communication requirements and procedures. Loss of communication in special use airspace requires immediate action to avoid violations or collisions. First, troubleshoot as in 2.16.2. If communication cannot be restored, immediately exit the special use airspace if safely possible. Squawk 7600 on transponder. Try 121.5 MHz and any alternate frequencies. Transmit in the blind informing any ATS facility or flight service of communication loss and your position. Comply with any light signals from ATC. If operating under special clearance or for specific operations (e.g., military training), notify the appropriate controlling authority by landing and reporting the loss. Do not continue operations in special use airspace without established communication.",
+    "exam_tip": "Lost comms in special use airspace? Exit immediately if safe. Squawk 7600. Try 121.5. Transmit in the blind. Report to controlling authority.",
+    "key_facts": [
+      "Special use airspace has strict communication requirements",
+      "Loss of comms = immediate action required",
+      "Exit airspace if safely possible",
+      "Squawk 7600",
+      "Try 121.5 MHz and alternate frequencies",
+      "Transmit in the blind",
+      "Listen for light signals",
+      "Report to controlling authority upon landing"
+    ],
+    "source": "AC 61-3 Rev 25 §2.16.4(c), AIPNZ ENR 1.1, NZ Civil Aviation Rules Part 91",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.16.6(a)",
+    "topic": "2.16 — Loss of Communications — Aircraft Equipment",
+    "syllabus_desc": "Describe corrective actions that could be taken, including change of frequency or station",
+    "concept": "If communication is lost or severely degraded, attempt to contact a different ATS facility on an alternate frequency. In New Zealand, major centres have multiple frequencies: Christchurch Approach/Tower use different frequencies; Flight Service provides coverage in uncontrolled airspace. Attempt to switch to the flight service frequency if you lose contact with approach. If you hear other aircraft on a frequency, switch to that frequency and report your communication problem. Try 121.5 MHz (emergency frequency) as a last resort. Changing frequency may restore contact with an adjacent facility and establish communication. Document the frequencies you try and times for later incident reporting.",
+    "exam_tip": "Lost contact? Try another ATS frequency for the same service, or flight service. If that fails, try 121.5. Document what you tried.",
+    "key_facts": [
+      "Switch to alternate ATC frequency for same service (e.g., Approach 1 to Approach 2)",
+      "Try Flight Service frequency if lost contact with Approach",
+      "Try 121.5 MHz (emergency frequency)",
+      "Listen for other aircraft on frequencies; may be able to relay",
+      "Document all frequencies attempted and times",
+      "May restore contact with adjacent ATS facility"
+    ],
+    "source": "AC 61-3 Rev 25 §2.16.6(a), AIPNZ ENR 1.1, NZ Civil Aviation Rules Part 91",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.16.6(b)",
+    "topic": "2.16 — Loss of Communications — Aircraft Equipment",
+    "syllabus_desc": "Describe corrective actions that could be taken, including transmitting blind",
+    "concept": "Transmitting in the blind means sending radio messages without expectation of receiving a response from ATC. If you have lost receiving capability but can still transmit, or if you believe ATC cannot hear you, transmit your position report, intentions, and request on all available frequencies (approach frequency, flight service frequency, 121.5 MHz). Speak clearly and slowly. Provide your aircraft callsign, position, altitude, heading, condition (comms failure), and intentions. Other aircraft may relay your message to ATC. ATS may respond via light signals (from chase aircraft or from ground), or may clear other traffic away from your position. Transmitting in the blind is critical for situational awareness and ATS safety even without confirmation of receipt.",
+    "exam_tip": "Transmitting blind: Say callsign, position, altitude, heading, 'communications failure', and intentions. Speak slowly and clearly. Try all frequencies.",
+    "key_facts": [
+      "Transmitting blind = no expectation of receipt",
+      "Include: callsign, position, altitude, heading, 'communications failure', intentions",
+      "Speak clearly and slowly",
+      "Transmit on approach, flight service, and 121.5 frequencies",
+      "Other aircraft may relay message",
+      "ATS may respond via light signals or by clearing traffic",
+      "Enhances situational awareness even without confirmation"
+    ],
+    "source": "AC 61-3 Rev 25 §2.16.6(b), AIPNZ ENR 1.1 SAR, NZ Civil Aviation Rules Part 91",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.16.6(c)",
+    "topic": "2.16 — Loss of Communications — Aircraft Equipment",
+    "syllabus_desc": "Describe corrective actions that could be taken, including increase in altitude",
+    "concept": "Radio range is limited by line-of-sight; higher altitude extends communication range. If you lose radio contact or signals are weak, climb to increase altitude (within safe limits and current clearance). This raises you above terrain obstacles and extends the radio horizon, potentially restoring contact with distant ATS facilities. For example, climbing from 1,000 ft to 3,000 ft can dramatically improve range. If you have lost contact with Approach, climbing may extend your range to a Flight Service station on high ground or to a distant Approach facility. Altitude increase is particularly helpful in mountainous terrain where valleys block radio propagation. Always ensure altitude increase is safe and complies with your current clearance or visual flight rules.",
+    "exam_tip": "Weak radio or lost contact? Climb higher—better range. You'll see the horizon further, radio will reach further. Use safe altitude limits.",
+    "key_facts": [
+      "Higher altitude = greater radio range (line of sight improves)",
+      "Climb to increase communication horizon",
+      "Typical rule: range (nm) ≈ 1.23 × √(altitude in feet)",
+      "Particularly effective in mountainous terrain",
+      "Always ensure altitude increase is safe",
+      "Comply with current clearance or VFR altitude limits",
+      "May restore contact with distant ATS facility"
+    ],
+    "source": "AC 61-3 Rev 25 §2.16.6(c), AIPNZ ENR 1.1, NZ Civil Aviation Rules Part 91",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.16.8",
+    "topic": "2.16 — Loss of Communications — Aircraft Equipment",
+    "syllabus_desc": "Detail the speechless technique using unmodulated transmissions",
+    "concept": "The speechless (or 'no-modulation') technique is used when you can transmit but cannot receive, or when you can only transmit unmodulated signals (carrier wave only, no voice). The pilot transmits using the PTT button in a series of short and long transmissions to acknowledge ATC instructions or answer yes/no questions. Typically: one short transmission = 'No' or 'I do not understand'; two short transmissions = 'Yes' or 'I understand'. ATC will provide instructions or ask questions in a format that can be answered with this pattern (e.g., 'Is heading 180 acceptable? Two presses if yes'). This technique allows critical communication to continue even when voice transmission is impossible. It is rarely used but essential knowledge for emergency situations.",
+    "exam_tip": "Speechless technique: One key press = No. Two key presses = Yes. ATC will ask yes/no questions. Follow their instructions for the pattern.",
+    "key_facts": [
+      "Speechless technique = no voice transmission, only PTT key",
+      "One key press (short transmission) = 'No'",
+      "Two key presses (two short transmissions) = 'Yes'",
+      "ATC asks yes/no questions; you answer with key presses",
+      "Example: 'Descend to 2,000 feet acceptable? Two presses if yes'",
+      "Rarely used but critical for total voice failure"
+    ],
+    "source": "AC 61-3 Rev 25 §2.16.8, AIPNZ ENR 1.1 SAR, ICAO Annex 10",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.16.10",
+    "topic": "2.16 — Loss of Communications — Aircraft Equipment",
+    "syllabus_desc": "State the meaning of light signals used by ATC",
+    "concept": "When radio communication is lost, ATC may use light signals from a follow-me aircraft, chase aircraft, or from ground control to provide instructions. NZ light signals are standardised: Steady green = 'You are cleared to land' (from ground); Steady red = 'Do not land, give way to other aircraft, go around' (from ground); Green flashes = 'You are cleared to taxi' (on ground); Red flashes = 'Aerodrome unsafe, do not land'; White flashes = 'Return to starting point' (aerodrome). Pilots must know these signals and be prepared to respond with their own light signals (wing rocking, aircraft light flashing) to acknowledge understanding. Light signals are critical fallback communication when radio fails.",
+    "exam_tip": "NZ light signals: Steady green = land. Steady red = go around. Green flashes = taxi. Red flashes = don't land. White flashes = return to start.",
+    "key_facts": [
+      "Steady green light (from ground) = cleared to land",
+      "Steady red light (from ground) = do not land, give way, go around",
+      "Green flashes (from ground) = cleared to taxi",
+      "Red flashes (from ground or air) = aerodrome unsafe, do not land",
+      "White flashes (from ground or air) = return to starting point",
+      "Acknowledge light signals with wing rock or own aircraft light flashing"
+    ],
+    "source": "AC 61-3 Rev 25 §2.16.10, AIPNZ ENR 1.1, NZ Visual Flight Chart",
+    "confidence": "high",
+    "verified": true
+  },
+  {
     "code": "2.18.2",
-    "topic": "2.18 \u2014 TIBA",
+    "topic": "2.18 — TIBA",
     "syllabus_desc": "Traffic Information Broadcasts by Aircraft (TIBA)",
-    "concept": "TIBA (Traffic Information Broadcasts by Aircraft) is an ATS contingency procedure introduced when normal ATS communications are disrupted. Aircraft broadcast their position, altitude, heading, and intentions on a designated frequency (usually the last known frequency or a published contingency frequency). The broadcast includes position relative to navigation aids, type of operation (VFR/IFR), and estimated next position. TIBA allows aircraft to maintain situational awareness and coordinate with each other and any monitoring stations even when normal ATS is unavailable. Per AIPNZ ENR 1.15, pilots must understand and be able to execute TIBA procedures. TIBA is not normal operations\u2014it is a fallback when ATS systems fail.",
+    "concept": "TIBA (Traffic Information Broadcasts by Aircraft) is an ATS contingency procedure introduced when normal ATS communications are disrupted. Aircraft broadcast their position, altitude, heading, and intentions on a designated frequency (usually the last known frequency or a published contingency frequency). The broadcast includes position relative to navigation aids, type of operation (VFR/IFR), and estimated next position. TIBA allows aircraft to maintain situational awareness and coordinate with each other and any monitoring stations even when normal ATS is unavailable. Per AIPNZ ENR 1.15, pilots must understand and be able to execute TIBA procedures. TIBA is not normal operations—it is a fallback when ATS systems fail.",
     "exam_tip": "TIBA = contingency procedure when ATS fails. Aircraft broadcast position, altitude, intentions on designated frequency.",
     "key_facts": [
       "TIBA is ATS contingency procedure",
@@ -857,6 +1532,61 @@
       "Per AIPNZ ENR 1.15"
     ],
     "source": "AIPNZ ENR 1.15, AC91-9/AC172-1 Rev 16",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.18.4(a)",
+    "topic": "2.18 — Loss of Communications — ATS Equipment Failure",
+    "syllabus_desc": "Detail the TIBA procedures with respect to VHF frequencies to be used",
+    "concept": "TIBA (Traffic Information Broadcast by Aircraft) is a procedure used when ATS facilities lose communication capability. When ATS fails and TIBA is activated, pilots broadcast traffic information to other aircraft on designated VHF frequencies. In New Zealand, the primary TIBA frequency is 121.5 MHz (emergency frequency), with backup frequencies depending on the region and time. Pilots tune to the designated TIBA frequency, maintain listening watch, and transmit position reports and traffic information in a standardised format. The AIPNZ details specific TIBA frequencies for each Flight Information Region (FIR) and operating areas. Pilots must consult the AIPNZ and NOTAM for active TIBA procedures and frequencies during ATS facility outages.",
+    "exam_tip": "TIBA = ATS facility failure. Use 121.5 MHz (primary) or backup frequencies listed in AIPNZ. Check NOTAM for active TIBA procedures.",
+    "key_facts": [
+      "TIBA activated when ATS facilities lose communication capability",
+      "Primary TIBA frequency: 121.5 MHz",
+      "Backup frequencies listed in AIPNZ by region",
+      "Pilots maintain listening watch and transmit position reports",
+      "Position reports include: callsign, position, altitude, heading, flight time",
+      "AIPNZ and NOTAM detail active TIBA procedures and frequencies"
+    ],
+    "source": "AC 61-3 Rev 25 §2.18.4(a), AIPNZ ENR 1.1 SAR, AC172-1",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.18.4(b)",
+    "topic": "2.18 — Loss of Communications — ATS Equipment Failure",
+    "syllabus_desc": "Detail the TIBA procedures with respect to listening watch",
+    "concept": "During TIBA operations, maintaining a continuous listening watch on the TIBA frequency is mandatory. All aircraft in the affected Flight Information Region must monitor the designated TIBA frequency and be prepared to receive and relay traffic information. Pilots listen for other aircraft position reports and traffic calls to maintain situational awareness. If you hear a traffic report that applies to your flight (e.g., another aircraft at similar altitude nearby), you must acknowledge receipt and adjust course or altitude if necessary to maintain safe separation. The listening watch must be maintained throughout the flight and cannot be delegated. Electronic systems may have backup frequencies; ensure you're monitoring the correct active TIBA frequency by checking NOTAM.",
+    "exam_tip": "TIBA listening watch: Monitor assigned frequency continuously. Listen for other aircraft, acknowledge traffic reports, maintain separation.",
+    "key_facts": [
+      "Continuous listening watch on TIBA frequency is mandatory",
+      "All aircraft in FIR must monitor and be prepared to receive traffic",
+      "Listen for position reports from other aircraft",
+      "Acknowledge traffic reports that apply to your flight",
+      "Adjust course/altitude if necessary to maintain separation",
+      "Listening watch cannot be delegated or interrupted",
+      "Check NOTAM for correct active TIBA frequency"
+    ],
+    "source": "AC 61-3 Rev 25 §2.18.4(b), AIPNZ ENR 1.1 SAR, AC172-1",
+    "confidence": "high",
+    "verified": true
+  },
+  {
+    "code": "2.18.4(c)",
+    "topic": "2.18 — Loss of Communications — ATS Equipment Failure",
+    "syllabus_desc": "Detail the TIBA procedures with respect to times of broadcasts",
+    "concept": "During TIBA operations, pilots transmit position reports and traffic information on a fixed schedule to reduce congestion and ensure orderly communication. Standard TIBA procedures typically require position reports every 30 minutes or at specified waypoints, depending on the route and airspace. The AIPNZ and active NOTAM specify the broadcast schedule, intervals, and any special reporting requirements. Traffic information (e.g., 'Traffic southbound at 3,000 feet') should be transmitted as soon as observed but without disrupting position report timing. Pilots must time their transmissions to avoid overlapping with other aircraft and ensure the frequency is clear before transmitting. In busy areas, ATC may assign staggered reporting times to prevent frequency congestion.",
+    "exam_tip": "TIBA broadcasts: Position reports every 30 mins (check NOTAM for exact intervals). Traffic info broadcast immediately when observed. Check frequency is clear before transmitting.",
+    "key_facts": [
+      "Position reports transmitted on fixed schedule (typically every 30 minutes)",
+      "AIPNZ and NOTAM specify broadcast times and intervals",
+      "Traffic information transmitted immediately upon observation",
+      "Listen before transmitting to avoid overlapping with other aircraft",
+      "Staggered reporting times may be assigned by ATC to reduce congestion",
+      "Standard position report format: callsign, position, altitude, heading, flight time"
+    ],
+    "source": "AC 61-3 Rev 25 §2.18.4(c), AIPNZ ENR 1.1 SAR, AC172-1",
     "confidence": "high",
     "verified": true
   }
