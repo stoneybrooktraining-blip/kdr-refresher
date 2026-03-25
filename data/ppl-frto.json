@@ -14,7 +14,7 @@
     ],
     "source": "CAA Plane Talking, AC91-9/AC172-1 Rev 16",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.2.2(b)",
@@ -31,7 +31,7 @@
     ],
     "source": "CAA Plane Talking, AC91-9/AC172-1 Rev 16",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.2.2(c)",
@@ -48,7 +48,7 @@
     ],
     "source": "CAA Plane Talking, AC91-9/AC172-1 Rev 16",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.4.2(a)",
@@ -65,7 +65,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, AFM",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.4.2(b)",
@@ -82,7 +82,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, AFM",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.4.2(c)",
@@ -99,7 +99,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, AFM",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.4.4(a)",
@@ -116,7 +116,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.4.4(a), AIPNZ ENR 1.1",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.4.4(b)",
@@ -133,7 +133,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.4.4(b), AIPNZ ENR 1.1",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.6.2",
@@ -150,7 +150,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, AFM",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.6.4(a)",
@@ -167,7 +167,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, CAA FRTO Syllabus",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.6.4(b)",
@@ -184,7 +184,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, CAA FRTO Syllabus",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.6.4(c)",
@@ -201,7 +201,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, CAA FRTO Syllabus",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.6.6",
@@ -218,7 +218,7 @@
     ],
     "source": "AIPNZ, AC91-9/AC172-1 Rev 16",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.6.8",
@@ -235,7 +235,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.6.8, AIPNZ ENR 1.1, NZ Civil Aviation Rules Part 91.513",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.6.10",
@@ -252,7 +252,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.6.10, AIPNZ ENR 1.1, NZ Visual Flight Chart",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.6.12",
@@ -269,7 +269,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.6.12, AIPNZ ENR 1.1, NZ Civil Aviation Rules Part 91.513",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.8.2",
@@ -286,7 +286,7 @@
     ],
     "source": "CAR Part 91.529, AC91-9/AC172-1 Rev 16",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.8.4",
@@ -303,7 +303,7 @@
     ],
     "source": "NZ Civil Aviation Rules Part 91.529",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.8.6(a)",
@@ -320,7 +320,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, ELT Manufacturer Specs",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.8.6(b)",
@@ -337,7 +337,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, ELT Manufacturer Specs",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.8.8",
@@ -354,7 +354,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, RCCNZ Procedures",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.8.10",
@@ -371,7 +371,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, ICAO Annex 10",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.8.12",
@@ -388,7 +388,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, RCCNZ Procedures",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.2(a)",
@@ -405,7 +405,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, ICAO Annex 10",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.2(b)",
@@ -428,7 +428,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, ICAO Annex 10",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.2(c)",
@@ -445,7 +445,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, AIPNZ",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.2(d)",
@@ -462,7 +462,7 @@
     ],
     "source": "AIPNZ, AC91-9/AC172-1 Rev 16",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.2(e)",
@@ -479,7 +479,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, ICAO Annex 10",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.2(f)",
@@ -496,7 +496,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, CAA Safety Guidance",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.2(g)",
@@ -513,7 +513,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.2(h)",
@@ -530,7 +530,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.10.2(h), AIPNZ ENR 1.1, AC172-1",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.2(i)",
@@ -547,7 +547,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.10.2(i), AIPNZ ENR 1.1, AC172-1",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.2(j)",
@@ -565,7 +565,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.10.2(j), AIPNZ ENR 1.1, AC172-1",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.2(k)",
@@ -582,7 +582,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.10.2(k), AIPNZ ENR 1.1, AC172-1",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.2(l)",
@@ -599,7 +599,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.10.2(l), AIPNZ ENR 1.1, NZ Civil Aviation Rules Part 91.243",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.2(m)",
@@ -617,7 +617,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.10.2(m), AIPNZ ENR 1.1, AC172-1",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.4",
@@ -634,7 +634,7 @@
     ],
     "source": "NZ Civil Aviation Rules Part 91",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.4(a)",
@@ -651,7 +651,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.10.4(a), NZ Civil Aviation Rules Part 91.217(5)",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.4(b)",
@@ -669,7 +669,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.10.4(b), NZ Civil Aviation Rules Part 91.243",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.4(c)",
@@ -686,7 +686,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.10.4(c), NZ Civil Aviation Rules Part 91.245(b),(c),(d)",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.4(d)",
@@ -703,7 +703,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.10.4(d), NZ Civil Aviation Rules Part 91.247",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.4(e)",
@@ -720,7 +720,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.10.4(e), NZ Civil Aviation Rules Part 91.249(a),(b)",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.4(f)",
@@ -737,7 +737,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.10.4(f), NZ Civil Aviation Rules Part 91.513",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.4(g)",
@@ -754,7 +754,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.10.4(g), NZ Civil Aviation Rules Part 91.515",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.4(h)",
@@ -772,7 +772,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.10.4(h), NZ Civil Aviation Rules Part 91.529",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.6(a)",
@@ -789,7 +789,7 @@
     ],
     "source": "AIPNZ Vol 4, AC91-9/AC172-1 Rev 16",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.6(b)",
@@ -806,7 +806,7 @@
     ],
     "source": "AIPNZ Vol 4, AC91-9/AC172-1 Rev 16",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.6(c)",
@@ -823,7 +823,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.6(d)",
@@ -840,7 +840,7 @@
     ],
     "source": "AIPNZ Vol 4, AC91-9/AC172-1 Rev 16",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.8",
@@ -858,7 +858,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.10(a)",
@@ -875,7 +875,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.10.10(a), AIPNZ ENR 1.1, AC172-1",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.10.10(b)",
@@ -892,7 +892,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.10.10(b), AIPNZ ENR 1.1 SAR, AC172-1",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.12.2",
@@ -924,7 +924,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, ICAO Annex 10",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.12.2(a)",
@@ -942,7 +942,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.12.2(a), AIPNZ ENR 1.1, AC172-1",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.12.2(b)",
@@ -959,7 +959,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.12.2(b), AIPNZ ENR 1.1, AC172-1",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.12.2(c)",
@@ -977,7 +977,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.12.2(c), AIPNZ ENR 1.1, AC172-1",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.12.4(a)",
@@ -994,7 +994,7 @@
     ],
     "source": "NZ Civil Aviation Rules, AC91-9/AC172-1 Rev 16",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.12.4(b)",
@@ -1011,7 +1011,7 @@
     ],
     "source": "NZ Civil Aviation Rules, AC91-9/AC172-1 Rev 16",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.12.6",
@@ -1028,7 +1028,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, AIPNZ",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.12.8",
@@ -1045,7 +1045,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, AIPNZ",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.12.10",
@@ -1062,7 +1062,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, AIPNZ ENR 1.15",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.12.12",
@@ -1079,7 +1079,7 @@
     ],
     "source": "AIPNZ Vol 4, AC91-9/AC172-1 Rev 16",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.12.14",
@@ -1099,7 +1099,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, ICAO Annex 10",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.14.2(a)",
@@ -1116,7 +1116,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, ICAO Annex 10",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.14.2(b)",
@@ -1133,7 +1133,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, ICAO Annex 10",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.14.4(a)",
@@ -1150,7 +1150,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, ICAO Annex 10",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.14.4(b)",
@@ -1167,7 +1167,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, ICAO Annex 10",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.14.4(c)",
@@ -1189,7 +1189,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, ICAO Annex 10",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.14.4(d)",
@@ -1207,7 +1207,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, ICAO Annex 10",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.14.6(a)",
@@ -1225,7 +1225,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.14.6(a), AIPNZ ENR 1.1, ICAO Annex 10",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.14.6(b)",
@@ -1243,7 +1243,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.14.6(b), AIPNZ ENR 1.1 SAR, ICAO Annex 10",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.14.8",
@@ -1261,7 +1261,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.14.8, AIPNZ ENR 1.1 SAR, ICAO Annex 10",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.16.2",
@@ -1286,7 +1286,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, AFM",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.16.2(a)",
@@ -1304,7 +1304,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.16.2(a), AIPNZ ENR 1.1, AC172-1",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.16.2(b)",
@@ -1322,7 +1322,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.16.2(b), AIPNZ ENR 1.1, AC172-1",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.16.2(c)",
@@ -1341,7 +1341,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.16.2(c), AIPNZ ENR 1.1, AC172-1",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.16.4",
@@ -1363,7 +1363,7 @@
     ],
     "source": "AC91-9/AC172-1 Rev 16, AIPNZ ENR 1.15",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.16.4(a)",
@@ -1383,7 +1383,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.16.4(a), AIPNZ ENR 1.1 SAR, NZ Civil Aviation Rules Part 91",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.16.4(b)",
@@ -1403,7 +1403,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.16.4(b), AIPNZ ENR 1.1, NZ Civil Aviation Rules Part 91",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.16.4(c)",
@@ -1423,7 +1423,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.16.4(c), AIPNZ ENR 1.1, NZ Civil Aviation Rules Part 91",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.16.6(a)",
@@ -1441,7 +1441,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.16.6(a), AIPNZ ENR 1.1, NZ Civil Aviation Rules Part 91",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.16.6(b)",
@@ -1460,7 +1460,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.16.6(b), AIPNZ ENR 1.1 SAR, NZ Civil Aviation Rules Part 91",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.16.6(c)",
@@ -1479,7 +1479,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.16.6(c), AIPNZ ENR 1.1, NZ Civil Aviation Rules Part 91",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.16.8",
@@ -1497,7 +1497,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.16.8, AIPNZ ENR 1.1 SAR, ICAO Annex 10",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.16.10",
@@ -1515,7 +1515,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.16.10, AIPNZ ENR 1.1, NZ Visual Flight Chart",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.18.2",
@@ -1533,7 +1533,7 @@
     ],
     "source": "AIPNZ ENR 1.15, AC91-9/AC172-1 Rev 16",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.18.4(a)",
@@ -1551,7 +1551,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.18.4(a), AIPNZ ENR 1.1 SAR, AC172-1",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.18.4(b)",
@@ -1570,7 +1570,7 @@
     ],
     "source": "AC 61-3 Rev 25 §2.18.4(b), AIPNZ ENR 1.1 SAR, AC172-1",
     "confidence": "high",
-    "verified": true
+    "verified": false
   },
   {
     "code": "2.18.4(c)",
@@ -1588,6 +1588,6 @@
     ],
     "source": "AC 61-3 Rev 25 §2.18.4(c), AIPNZ ENR 1.1 SAR, AC172-1",
     "confidence": "high",
-    "verified": true
+    "verified": false
   }
 ]
