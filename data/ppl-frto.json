@@ -2,7 +2,7 @@
   {
     "code": "2.2.2(a)",
     "topic": "2.2 — Radio Wave Propagation",
-    "syllabus_desc": "VHF/HF range characteristics",
+    "syllabus_desc": "Describe the basic characteristics of High Frequency (HF) and Very High Frequency (VHF) in terms of: Range",
     "concept": "VHF radio operates on frequencies between 118-136.975 MHz and provides line-of-sight communication. The range is limited by the radio horizon, which extends with altitude. An aircraft at 5,000 feet may communicate with ground stations over 40-50 nm away. HF radio operates on frequencies between 3-30 MHz and uses sky wave propagation, bouncing signals off the ionosphere, allowing long-range communication over hundreds of nautical miles. This makes HF essential for oceanic and remote area flights.",
     "exam_tip": "VHF = line-of-sight (altitude-dependent range). HF = sky wave via ionosphere (long-range). Know the frequency bands.",
     "key_facts": [
@@ -19,7 +19,7 @@
   {
     "code": "2.2.2(b)",
     "topic": "2.2 — Radio Wave Propagation",
-    "syllabus_desc": "Surface interference and terrain effects",
+    "syllabus_desc": "Describe the basic characteristics of High Frequency (HF) and Very High Frequency (VHF) in terms of: Surface interference",
     "concept": "Terrain obstacles create communication 'shadows' where radio signals cannot propagate effectively. In New Zealand, the Southern Alps and other mountainous regions can block VHF signals, requiring aircraft to climb to higher altitudes to establish communication. HF signals are affected by ionospheric conditions, solar activity (sunspot cycles), and atmospheric disturbances like thunderstorms. Line-of-sight blockage is the primary limitation for VHF; propagation delays and static are the main concerns for HF.",
     "exam_tip": "VHF blocked by terrain—climb higher. HF affected by ionosphere conditions and solar activity.",
     "key_facts": [
@@ -36,7 +36,7 @@
   {
     "code": "2.2.2(c)",
     "topic": "2.2 — Radio Wave Propagation",
-    "syllabus_desc": "Clarity of reception: VHF vs HF",
+    "syllabus_desc": "Describe the basic characteristics of High Frequency (HF) and Very High Frequency (VHF) in terms of: Clarity of reception",
     "concept": "VHF provides exceptionally clear, static-free reception when operating within range, due to the high frequency and short wavelength. This clarity makes VHF the preferred medium for domestic NZ operations. HF reception is typically noisier, with more background static and interference, but the long-range capability is essential for oceanic flights. NZ uses 25 kHz channel spacing for aviation VHF, giving frequencies like 118.100, 118.125, etc. Some European airspace uses 8.33 kHz spacing for more channels, but this is not used in NZ.",
     "exam_tip": "VHF = clear, static-free. HF = noisier but long-range. NZ uses 25 kHz channel spacing.",
     "key_facts": [
@@ -104,7 +104,7 @@
   {
     "code": "2.4.4(a)",
     "topic": "2.4 — Transceivers",
-    "syllabus_desc": "Describe the correct operation of the headset/boom microphone combination",
+    "syllabus_desc": "Describe the correct operation of: The headset/boom microphone combination;",
     "concept": "The headset/boom microphone is the standard setup in most GA aircraft. The headset provides clear two-way communication while keeping hands free for flight controls. The boom microphone should be positioned 1–2 cm from the mouth corner (not directly in front) to minimize breath noise and maximise clarity. Proper positioning and secure fitting are critical for transmitting intelligible messages to ATC.",
     "exam_tip": "Remember: boom mic should be 1–2 cm from mouth corner, not directly in front. This reduces breathing noise and wind rumble.",
     "key_facts": [
@@ -121,7 +121,7 @@
   {
     "code": "2.4.4(b)",
     "topic": "2.4 — Transceivers",
-    "syllabus_desc": "Describe the correct operation of the handheld microphone",
+    "syllabus_desc": "Describe the correct operation of: The handheld microphone",
     "concept": "The handheld microphone is an alternative to the headset/boom setup, though less common in GA. It requires one hand to hold and operate, making it impractical during critical flight phases. When used, the microphone should be held 5–10 cm from the mouth at a slight angle (45°) to minimise breath noise. Clear articulation is essential since handheld operation often results in poorer transmission quality than boom microphones.",
     "exam_tip": "Handheld mics are rare in GA but if used: hold 5–10 cm from mouth at 45° angle. Not practical during critical flight phases.",
     "key_facts": [
