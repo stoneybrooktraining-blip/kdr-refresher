@@ -2,7 +2,7 @@
   {
     "code": "10.2.2",
     "topic": "10.2 — Airmanship and Responsibility",
-    "syllabus_desc": "Describe key features of good and safe airmanship",
+    "syllabus_desc": "Describe key features of good and safe airmanship.",
     "concept": "Good airmanship encompasses situational awareness, decision-making, risk management, and adherence to standard operating procedures. Safe airmanship requires continuous monitoring of aircraft systems, environmental conditions, and personal fitness. It includes recognizing human factors limitations and maintaining professional standards throughout all flight operations.",
     "exam_tip": "Link airmanship to human factors — examiners expect answers showing how personal discipline and systems thinking prevent incidents.",
     "key_facts": [
@@ -17,7 +17,7 @@
   {
     "code": "10.4.2",
     "topic": "10.4 — Human Factors Models and Programmes",
-    "syllabus_desc": "Define human factors as used in an aviation context",
+    "syllabus_desc": "Define human factors as used in an aviation context.",
     "concept": "Human factors in aviation refers to the science of understanding how people interact with aircraft, systems, and environments to enhance safety and performance. It encompasses physical, cognitive, and organisational elements that affect pilot decision-making, workload management, and error prevention.",
     "exam_tip": "Define human factors as a multidisciplinary science focused on safety and performance — avoid vague definitions. Connect it to error management.",
     "key_facts": [
@@ -32,7 +32,7 @@
   {
     "code": "10.4.4",
     "topic": "10.4 — Human Factors Models and Programmes",
-    "syllabus_desc": "Explain the role of human factors programmes in promoting aviation safety",
+    "syllabus_desc": "Explain the role of human factors programmes in promoting aviation safety.",
     "concept": "Human factors programmes systematically identify, analyse, and mitigate risks stemming from human performance and organisational factors. These programmes use evidence-based training, standardised procedures, and continuous improvement cycles to build a safety culture.",
     "exam_tip": "Explain programmes as proactive risk mitigation tools — emphasise systematic approach and continuous improvement.",
     "key_facts": [
@@ -47,7 +47,7 @@
   {
     "code": "10.6.2",
     "topic": "10.6 — The Atmosphere",
-    "syllabus_desc": "State the gases that make up the atmosphere",
+    "syllabus_desc": "State the gases that make up the atmosphere.",
     "concept": "The atmosphere is composed primarily of nitrogen (78%) and oxygen (21%), with the remaining 1% consisting of argon and trace gases including carbon dioxide. At sea level, total atmospheric pressure is approximately 1013.25 hPa (760 mmHg). The proportion of gases remains constant up to approximately 80,000 feet.",
     "exam_tip": "Memorise 78% nitrogen, 21% oxygen, 1% other gases. These values are critical for oxygen partial pressure calculations.",
     "key_facts": [
@@ -62,7 +62,7 @@
   {
     "code": "10.6.4",
     "topic": "10.6 — The Atmosphere",
-    "syllabus_desc": "Describe the variation of pressure as altitude increases",
+    "syllabus_desc": "Describe the variation of pressure as altitude increases.",
     "concept": "Atmospheric pressure decreases with altitude in an approximately exponential manner. At 18,000 feet pressure is roughly half the sea level value. This reduction directly affects oxygen availability, as the partial pressure of oxygen decreases proportionally. The rate of pressure decrease is greater at lower altitudes.",
     "exam_tip": "Pressure halves at approximately 18,000 ft. The exponential nature means more rapid change at lower altitudes.",
     "key_facts": [
@@ -77,7 +77,7 @@
   {
     "code": "10.8.2",
     "topic": "10.8 — Circulation and Respiratory Systems",
-    "syllabus_desc": "Describe the basic anatomy of the respiratory system",
+    "syllabus_desc": "Describe the basic anatomy of the respiratory system.",
     "concept": "The respiratory system consists of the upper airway (nasal passages, pharynx, larynx), the lower airway (trachea, bronchi, bronchioles), and the lungs containing approximately 300 million alveoli where gas exchange occurs. The diaphragm is the primary breathing muscle.",
     "exam_tip": "Know the pathway of air from nose to alveoli. Examiners often test where gas exchange actually occurs — the answer is always the alveoli.",
     "key_facts": [
@@ -92,7 +92,7 @@
   {
     "code": "10.8.4",
     "topic": "10.8 — Circulation and Respiratory Systems",
-    "syllabus_desc": "Describe the physiology of the respiratory system",
+    "syllabus_desc": "Describe the physiology of the respiratory system.",
     "concept": "Respiration involves external respiration (gas exchange at alveoli) and internal respiration (gas exchange at tissue level). Oxygen diffuses across the alveolar membrane into blood where it binds to haemoglobin. Carbon dioxide is the primary respiratory drive — the brainstem responds to CO2 levels rather than oxygen levels.",
     "exam_tip": "Distinguish external (alveoli) from internal (tissue) respiration. Remember CO2 is the primary breathing stimulus, not oxygen — this explains why hypoxia is insidious.",
     "key_facts": [
@@ -107,7 +107,7 @@
   {
     "code": "10.8.6",
     "topic": "10.8 — Circulation and Respiratory Systems",
-    "syllabus_desc": "Describe the basic anatomy of the circulatory system",
+    "syllabus_desc": "Describe the basic anatomy of the circulatory system.",
     "concept": "The circulatory system consists of the heart (four chambers), arteries (carry oxygenated blood away from heart), capillaries (gas exchange at tissues), and veins (return deoxygenated blood). The pulmonary circuit carries blood to the lungs; the systemic circuit delivers blood to the body.",
     "exam_tip": "Right heart receives deoxygenated blood and pumps to lungs. Left heart receives oxygenated blood and pumps to body. Valves ensure one-way flow.",
     "key_facts": [
@@ -122,7 +122,7 @@
   {
     "code": "10.8.8",
     "topic": "10.8 — Circulation and Respiratory Systems",
-    "syllabus_desc": "Describe the physiology of the circulatory system",
+    "syllabus_desc": "Describe the physiology of the circulatory system.",
     "concept": "The circulatory system delivers oxygenated blood to tissues and removes metabolic waste. Cardiac output depends on heart rate and stroke volume. Tissue oxygen delivery depends on arterial oxygen content, blood flow rate, and tissue extraction efficiency. G-forces and dehydration can impair circulation.",
     "exam_tip": "Link circulation to hypoxia types: anaemic (reduced O2 carrying capacity), stagnant (reduced blood flow). Understand how G-forces impair delivery.",
     "key_facts": [
@@ -137,7 +137,7 @@
   {
     "code": "10.8.10",
     "topic": "10.8 — Circulation and Respiratory Systems",
-    "syllabus_desc": "Describe the role of the lungs in oxygen and carbon dioxide transfer",
+    "syllabus_desc": "Describe the role of the lungs in oxygen and carbon dioxide transfer.",
     "concept": "The lungs enable gas exchange via partial pressure gradients. Oxygen diffuses from alveolar air (higher partial pressure) into pulmonary capillary blood (lower partial pressure). Carbon dioxide diffuses in the opposite direction. At altitude, the reduced atmospheric pressure lowers alveolar oxygen partial pressure, reducing the diffusion gradient and impairing oxygen transfer.",
     "exam_tip": "Gas transfer depends on partial pressure gradients. At altitude, the reduced gradient explains why hypoxic hypoxia occurs — less oxygen crosses into the blood.",
     "key_facts": [
@@ -152,7 +152,7 @@
   {
     "code": "10.10.2",
     "topic": "10.10 — Hypoxia",
-    "syllabus_desc": "Define hypoxia",
+    "syllabus_desc": "Define hypoxia.",
     "concept": "Hypoxia is a condition in which body tissues receive insufficient oxygen to maintain normal function. There are four types: hypoxic (reduced atmospheric O2 at altitude), anaemic (reduced oxygen-carrying capacity from CO poisoning or blood loss), stagnant (poor circulation from G-forces or shock), and histotoxic (cells cannot use O2 due to alcohol or drugs).",
     "exam_tip": "Define hypoxia as 'insufficient oxygen to tissues' — not just 'lack of oxygen.' Know all four types and their causes.",
     "key_facts": [
@@ -167,7 +167,7 @@
   {
     "code": "10.10.4",
     "topic": "10.10 — Hypoxia",
-    "syllabus_desc": "State the partial pressure of oxygen both inside and outside the lungs at sea level",
+    "syllabus_desc": "State the partial pressure of oxygen both inside and outside the lungs at sea level.",
     "concept": "At sea level, atmospheric oxygen partial pressure is approximately 160 mmHg (21% of 760 mmHg). Inside the lungs, alveolar oxygen partial pressure is approximately 100-105 mmHg due to dilution by water vapour and carbon dioxide. This gradient drives oxygen diffusion into blood.",
     "exam_tip": "Memorise both values: ~160 mmHg outside (atmospheric) and ~100 mmHg inside (alveolar). The difference is due to water vapour and CO2.",
     "key_facts": [
@@ -182,7 +182,7 @@
   {
     "code": "10.10.6",
     "topic": "10.10 — Hypoxia",
-    "syllabus_desc": "Explain the mechanical effect of the partial pressure of oxygen on oxygen transfer in the lungs",
+    "syllabus_desc": "Explain the mechanical effect of the partial pressure of oxygen on oxygen transfer in the lungs.",
     "concept": "Oxygen transfer from air to blood is driven by partial pressure gradients — oxygen diffuses from high to low partial pressure. At sea level, the gradient (~60 mmHg) drives efficient transfer. At altitude, reduced atmospheric pressure lowers alveolar O2 partial pressure, shrinking the gradient and slowing transfer. This is the fundamental mechanism of hypoxic hypoxia.",
     "exam_tip": "Steeper gradient = faster O2 transfer. At altitude the gradient shrinks, explaining why hypoxia accelerates above certain altitudes.",
     "key_facts": [
@@ -197,7 +197,7 @@
   {
     "code": "10.10.8",
     "topic": "10.10 — Hypoxia",
-    "syllabus_desc": "Explain the causes of hypoxia",
+    "syllabus_desc": "Explain the causes of hypoxia.",
     "concept": "Hypoxic hypoxia is caused by reduced atmospheric O2 at altitude or inadequate ventilation. Anaemic hypoxia results from CO poisoning, anaemia, or blood donation reducing oxygen-carrying capacity. Stagnant hypoxia occurs from poor circulation due to G-forces, shock, or heart failure. Histotoxic hypoxia occurs when alcohol, drugs, or poisons prevent cells from using available oxygen.",
     "exam_tip": "Classify causes by type: altitude (hypoxic), blood (anaemic), circulation (stagnant), cellular poisoning (histotoxic).",
     "key_facts": [
@@ -212,7 +212,7 @@
   {
     "code": "10.10.10",
     "topic": "10.10 — Hypoxia",
-    "syllabus_desc": "Describe the common symptoms of hypoxia",
+    "syllabus_desc": "Describe the common symptoms of hypoxia.",
     "concept": "Early hypoxia symptoms include euphoria, headache, and reduced attention to detail. Progressive symptoms include impaired judgment, confusion, cyanosis (blue lips/fingertips), tremor, and loss of motor control. Late symptoms include unconsciousness, convulsions, and death. Night vision deteriorates from as low as 4,000 feet.",
     "exam_tip": "Emphasise the insidious progression — euphoria and reduced attention appear first, making self-recognition unlikely. Night vision loss is the earliest indicator.",
     "key_facts": [
@@ -227,7 +227,7 @@
   {
     "code": "10.10.12",
     "topic": "10.10 — Hypoxia",
-    "syllabus_desc": "Explain the reasons hypoxia symptoms are difficult to detect",
+    "syllabus_desc": "Explain the reasons hypoxia symptoms are difficult to detect.",
     "concept": "Hypoxia impairs the very cognitive functions required to recognise it — judgment, self-awareness, and critical thinking deteriorate before obvious symptoms appear. Early symptoms like euphoria are easily mistaken for wellbeing. The absence of pain or obvious distress, combined with individual variation in symptom severity, makes detection unreliable.",
     "exam_tip": "This is a critical concept: hypoxia impairs the recognition of hypoxia. Regulatory altitude limits exist precisely because self-detection is unreliable.",
     "key_facts": [
@@ -242,7 +242,7 @@
   {
     "code": "10.10.14",
     "topic": "10.10 — Hypoxia",
-    "syllabus_desc": "Explain the relationship between hypoxic onset and both vision and cognitive performance",
+    "syllabus_desc": "Explain the relationship between hypoxic onset and both vision and cognitive performance.",
     "concept": "Vision is affected earliest — night vision deteriorates from 4,000 feet due to the high oxygen demand of retinal rod cells. Cognitive performance deteriorates above 10,000-12,000 feet without supplemental oxygen. Time of Useful Consciousness (TUC) decreases dramatically with altitude: 25,000 ft = 3-5 minutes, 30,000 ft = 1-2 minutes, 40,000 ft = 15-20 seconds.",
     "exam_tip": "Memorise TUC values — they define emergency procedure timing. Night vision loss from 4,000 ft is a reliable early indicator of hypoxia.",
     "key_facts": [
@@ -257,7 +257,7 @@
   {
     "code": "10.10.16",
     "topic": "10.10 — Hypoxia",
-    "syllabus_desc": "Describe how hypoxia can be prevented",
+    "syllabus_desc": "Describe how hypoxia can be prevented.",
     "concept": "Hypoxia prevention relies on regulatory oxygen requirements. NZ CAR 91.209 requires supplemental oxygen above 10,000 feet for more than 30 minutes, and at all times above 13,000 feet. Pressurised aircraft maintain lower cabin altitudes. Maintaining fitness, avoiding anaemia, not flying after blood donation (48-hour wait), and avoiding alcohol reduce risk.",
     "exam_tip": "Know the NZ regulatory thresholds: O2 above 10,000 ft for >30 min, above 13,000 ft always. Prevention is regulatory because self-detection is unreliable.",
     "key_facts": [
@@ -272,7 +272,7 @@
   {
     "code": "10.10.18",
     "topic": "10.10 — Hypoxia",
-    "syllabus_desc": "State the factors that affect the likelihood of suffering from hypoxia",
+    "syllabus_desc": "State the factors that affect the likelihood of suffering from hypoxia.",
     "concept": "Factors increasing hypoxia risk include altitude (primary factor), poor physical fitness, anaemia, recent blood donation, smoking (CO reduces O2 capacity), alcohol consumption (histotoxic effect), fatigue, sleep deprivation, cold exposure, dehydration, and pre-existing lung or heart conditions. Multiple risk factors compound danger.",
     "exam_tip": "Categorise into altitude, health, behaviour, and environmental factors. Multiple risk factors are cumulative.",
     "key_facts": [
@@ -287,7 +287,7 @@
   {
     "code": "10.10.20",
     "topic": "10.10 — Hypoxia",
-    "syllabus_desc": "Describe how hypoxia can be treated",
+    "syllabus_desc": "Describe how hypoxia can be treated.",
     "concept": "The primary treatment for hypoxia is immediate administration of supplemental oxygen. In unpressurised aircraft, descent to below 10,000 feet is essential. If oxygen systems fail, immediate descent is critical. Recovery is usually rapid once oxygen is restored, but prolonged hypoxia may require medical attention.",
     "exam_tip": "Treatment is simple: oxygen and descent. Prevention is more effective because treatment options are limited in flight.",
     "key_facts": [
@@ -302,7 +302,7 @@
   {
     "code": "10.12.2",
     "topic": "10.12 — Hyperventilation",
-    "syllabus_desc": "Define hyperventilation",
+    "syllabus_desc": "Define hyperventilation.",
     "concept": "Hyperventilation is excessive breathing that expels more carbon dioxide than the body produces, resulting in reduced arterial CO2 levels (hypocapnia). This causes respiratory alkalosis, cerebral vasoconstriction, and reduced oxygen delivery to the brain despite adequate blood oxygen levels.",
     "exam_tip": "Hyperventilation is too much CO2 loss, not too little oxygen. Treatment is controlled breathing, NOT supplemental oxygen.",
     "key_facts": [
@@ -317,7 +317,7 @@
   {
     "code": "10.12.4",
     "topic": "10.12 — Hyperventilation",
-    "syllabus_desc": "Explain the causes of hyperventilation",
+    "syllabus_desc": "Explain the causes of hyperventilation.",
     "concept": "Hyperventilation is commonly triggered by psychological stress, anxiety, or panic. Aviation triggers include high workload, emergencies, turbulence, and fear. Physical causes include pain, fever, or compensatory response to hypoxia. Pilots under high workload are especially vulnerable.",
     "exam_tip": "Emphasise the psychological component — stress and anxiety are the primary triggers in aviation.",
     "key_facts": [
@@ -332,7 +332,7 @@
   {
     "code": "10.12.6",
     "topic": "10.12 — Hyperventilation",
-    "syllabus_desc": "Describe the symptoms of hyperventilation",
+    "syllabus_desc": "Describe the symptoms of hyperventilation.",
     "concept": "Symptoms include lightheadedness, dizziness, tingling in fingers and lips (paraesthesia), muscle cramps, numbness, and a sensation of breathlessness despite over-breathing. Chest tightness and palpitations may occur. Symptoms create a feedback loop with anxiety.",
     "exam_tip": "Classic triad: lightheadedness, tingling in extremities, and breathlessness despite hyperventilating.",
     "key_facts": [
@@ -347,7 +347,7 @@
   {
     "code": "10.12.8",
     "topic": "10.12 — Hyperventilation",
-    "syllabus_desc": "Describe how hyperventilation can be treated",
+    "syllabus_desc": "Describe how hyperventilation can be treated.",
     "concept": "Treatment focuses on restoring CO2 levels through controlled breathing — deliberately slowing breathing rate and depth. Talking or counting aloud can help regulate breathing rate. Reassurance that the condition is benign is important. Supplemental oxygen is NOT the treatment for hyperventilation.",
     "exam_tip": "Treatment is controlled breathing — NOT oxygen. If in doubt whether symptoms are hypoxia or hyperventilation, administer oxygen AND slow breathing.",
     "key_facts": [
@@ -362,7 +362,7 @@
   {
     "code": "10.12.10",
     "topic": "10.12 — Hyperventilation",
-    "syllabus_desc": "Describe the differences between hyperventilation and hypoxia",
+    "syllabus_desc": "Describe the differences between hyperventilation and hypoxia.",
     "concept": "Hypoxia develops gradually, impairs judgment preventing self-recognition, and requires oxygen/descent. Hyperventilation develops rapidly, preserves judgment (patient is aware), and requires controlled breathing. Hypoxia causes euphoria and cyanosis; hyperventilation causes panic and tingling. Hypoxia is altitude-dependent; hyperventilation is stress-triggered at any altitude.",
     "exam_tip": "Key distinction: hypoxia impairs judgment (can't self-diagnose), hyperventilation preserves judgment (can self-diagnose). If unsure, give oxygen AND slow breathing.",
     "key_facts": [
@@ -377,7 +377,7 @@
   {
     "code": "10.14.2",
     "topic": "10.14 — Entrapped Gases",
-    "syllabus_desc": "Define barotrauma",
+    "syllabus_desc": "Define barotrauma.",
     "concept": "Barotrauma is physical tissue damage caused by pressure changes affecting gas-filled body cavities. As altitude changes, gases in enclosed spaces (sinuses, middle ear, lungs, gastrointestinal tract, teeth) expand or contract according to Boyle's Law. If the cavity cannot equalise, the pressure differential causes pain and tissue damage.",
     "exam_tip": "Barotrauma = pressure-related mechanical damage to body cavities. Governed by Boyle's Law (pressure x volume = constant).",
     "key_facts": [
@@ -392,7 +392,7 @@
   {
     "code": "10.14.4",
     "topic": "10.14 — Entrapped Gases",
-    "syllabus_desc": "Explain the causes of barotrauma",
+    "syllabus_desc": "Explain the causes of barotrauma.",
     "concept": "Barotrauma is caused by failure to equalise pressure during altitude changes. Blocked sinuses (congestion, infection) prevent drainage. Eustachian tube dysfunction (from colds, allergies) prevents ear pressure equalisation. Gas trapped under dental fillings expands. Gastrointestinal gas expands with altitude. The key principle is that blocked or sealed cavities cannot vent expanding gas.",
     "exam_tip": "Don't fly with a cold or congestion — this is the most common cause of barotrauma in GA pilots.",
     "key_facts": [
@@ -407,7 +407,7 @@
   {
     "code": "10.14.6",
     "topic": "10.14 — Entrapped Gases",
-    "syllabus_desc": "Describe the symptoms of barotrauma",
+    "syllabus_desc": "Describe the symptoms of barotrauma.",
     "concept": "Sinus barotrauma causes facial pain and headache. Ear barotrauma causes ear pain, hearing loss, tinnitus, and vertigo. Gastrointestinal barotrauma causes abdominal pain and distension. Barodontalgia causes localised tooth pain. Symptoms typically develop during or immediately after altitude changes.",
     "exam_tip": "Match symptoms to cavities: face = sinus, ear pain = middle ear, abdomen = GI, tooth = barodontalgia.",
     "key_facts": [
@@ -422,7 +422,7 @@
   {
     "code": "10.14.8",
     "topic": "10.14 — Entrapped Gases",
-    "syllabus_desc": "Describe the effects of barotrauma on the various parts of the body",
+    "syllabus_desc": "Describe the effects of barotrauma on the various parts of the body.",
     "concept": "In sinuses: mucosal inflammation, bleeding, potential rupture. In the middle ear: tympanic membrane (eardrum) rupture causing permanent hearing loss. In lungs: alveolar rupture can cause pneumothorax or arterial gas embolism — the most dangerous form. In the GI tract: abdominal distension and pain. In teeth: cracking of dental work.",
     "exam_tip": "Pulmonary barotrauma (air embolism) is the most dangerous — potentially fatal. Ear and sinus barotrauma are usually self-limiting.",
     "key_facts": [
@@ -437,7 +437,7 @@
   {
     "code": "10.16.2",
     "topic": "10.16 — Decompression Sickness",
-    "syllabus_desc": "Define decompression sickness",
+    "syllabus_desc": "Define decompression sickness.",
     "concept": "Decompression sickness (DCS or 'the bends') occurs when dissolved nitrogen forms bubbles in body tissues as ambient pressure decreases rapidly. During diving, nitrogen dissolves in tissues under high pressure. If pressure is reduced too quickly (rapid ascent or flying after diving), nitrogen comes out of solution as bubbles.",
     "exam_tip": "DCS = nitrogen bubble formation. Distinguish from barotrauma (mechanical pressure damage) and hypoxia (oxygen deficiency).",
     "key_facts": [
@@ -452,7 +452,7 @@
   {
     "code": "10.16.4",
     "topic": "10.16 — Decompression Sickness",
-    "syllabus_desc": "Explain the causes of decompression sickness",
+    "syllabus_desc": "Explain the causes of decompression sickness.",
     "concept": "DCS is caused by rapid pressure reduction after exposure to elevated pressure (diving). Compressed air at depth forces extra nitrogen into tissues. If ascent is too fast or flying occurs too soon after diving, dissolved nitrogen cannot be eliminated through normal respiration and forms bubbles in blood and tissues.",
     "exam_tip": "Memorise the 24-hour rule: no flying within 24 hours of any scuba dive.",
     "key_facts": [
@@ -467,7 +467,7 @@
   {
     "code": "10.16.6",
     "topic": "10.16 — Decompression Sickness",
-    "syllabus_desc": "Describe the symptoms of decompression sickness",
+    "syllabus_desc": "Describe the symptoms of decompression sickness.",
     "concept": "Type I DCS (mild): joint pain ('the bends'), skin rashes, itching. Type II DCS (severe): neurological symptoms including paralysis, vision problems, speech difficulty, confusion, unconsciousness. Pulmonary DCS ('the chokes'): chest pain, breathing difficulty. Symptoms typically develop within hours of decompression.",
     "exam_tip": "Type I = joint pain (mild). Type II = neurological (severe, emergency). Any neurological symptoms require emergency treatment.",
     "key_facts": [
@@ -482,7 +482,7 @@
   {
     "code": "10.16.8",
     "topic": "10.16 — Decompression Sickness",
-    "syllabus_desc": "Explain how decompression sickness can be prevented",
+    "syllabus_desc": "Explain how decompression sickness can be prevented.",
     "concept": "Prevention centres on the 24-hour rule: no flying within 24 hours of any scuba dive. Divers should follow safe diving procedures including controlled ascent rates and decompression stops. Pressurised aircraft provide some protection by maintaining higher cabin pressure. Adequate hydration aids nitrogen elimination.",
     "exam_tip": "The 24-hour rule is the key prevention measure for aviators. This allows time for residual nitrogen to be eliminated.",
     "key_facts": [
@@ -497,7 +497,7 @@
   {
     "code": "10.16.10",
     "topic": "10.16 — Decompression Sickness",
-    "syllabus_desc": "Describe how decompression sickness can be treated",
+    "syllabus_desc": "Describe how decompression sickness can be treated.",
     "concept": "Definitive treatment is recompression in a hyperbaric chamber, which forces bubbles back into solution. Immediate treatment includes 100% oxygen (aids nitrogen elimination), keeping the patient supine, and rapid transport to a recompression facility. The sooner treatment begins, the better the outcome.",
     "exam_tip": "Hyperbaric recompression is the only definitive treatment. 100% oxygen and rapid evacuation are the immediate priorities.",
     "key_facts": [
@@ -512,7 +512,7 @@
   {
     "code": "10.16.12",
     "topic": "10.16 — Decompression Sickness",
-    "syllabus_desc": "Explain the dangers of flying after diving",
+    "syllabus_desc": "Explain the dangers of flying after diving.",
     "concept": "Flying after diving creates a double pressure reduction: first from depth to surface, then from surface to altitude. Even small altitude gains can trigger bubble formation if residual nitrogen remains in tissues. Cabin altitude in pressurised aircraft (6,000-8,000 ft equivalent) still reduces ambient pressure. The 24-hour rule minimises this risk.",
     "exam_tip": "Double decompression is the danger: dive + flight. Even pressurised aircraft cabins reduce pressure further. The 24-hour rule exists for this reason.",
     "key_facts": [
@@ -527,7 +527,7 @@
   {
     "code": "10.18.2",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Identify the following eye structure components: lens, cornea, retina, fovea, optic nerve disc, cone cells, rod cells",
+    "syllabus_desc": "Identify the following eye structure components:",
     "concept": "The human eye comprises multiple structural components that work together to focus light and process visual information. The cornea refracts incoming light, while the lens provides fine focus adjustment. The retina contains photoreceptors that convert light into neural signals, with the fovea representing the area of sharpest central vision.",
     "exam_tip": "Be able to describe each component's location and primary function. The cornea provides most refractive power, the lens adjusts focus, and the retina contains light receptors.",
     "key_facts": [
@@ -543,7 +543,7 @@
   {
     "code": "10.18.2(a)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Eye structure component: lens",
+    "syllabus_desc": "Identify the following eye structure components: Lens",
     "concept": "The lens is a transparent, biconvex structure located behind the iris that provides fine-focus adjustment through a process called accommodation. By changing shape, the lens alters its refractive power to focus light precisely on the retina for objects at varying distances.",
     "exam_tip": "Remember the lens enables accommodation—the ability to focus on objects at different distances by changing its curvature.",
     "key_facts": [
@@ -558,7 +558,7 @@
   {
     "code": "10.18.2(b)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Eye structure component: cornea",
+    "syllabus_desc": "Identify the following eye structure components: Cornea",
     "concept": "The cornea is the transparent front surface of the eye that performs the majority of light refraction (bending) needed for vision. It is a fixed-curvature, avascular structure that refracts approximately 70% of the eye's total refractive power.",
     "exam_tip": "The cornea provides the bulk of refractive power and is fixed—accommodation is handled by the lens. Corneal shape disorders affect refractive error.",
     "key_facts": [
@@ -574,7 +574,7 @@
   {
     "code": "10.18.2(c)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Eye structure component: retina",
+    "syllabus_desc": "Identify the following eye structure components: Retina",
     "concept": "The retina is the light-sensitive neural tissue lining the back of the eye that contains photoreceptors (rods and cones) which convert light energy into electrical signals. These signals are processed by layers of neurons and transmitted to the brain via the optic nerve.",
     "exam_tip": "The retina contains two types of photoreceptors with different functions—cones for colour and detail, rods for low-light and peripheral vision.",
     "key_facts": [
@@ -590,7 +590,7 @@
   {
     "code": "10.18.2(d)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Eye structure component: fovea",
+    "syllabus_desc": "Identify the following eye structure components: Fovea",
     "concept": "The fovea is a small, specialized pit-like depression in the centre of the retina that contains exclusively cone cells and represents the area of sharpest, clearest vision. It provides maximum visual acuity when the eye fixates on an object.",
     "exam_tip": "The fovea is the highest acuity area—central vision passes through here. It contains cones only, so night vision at the fovea is poor. This is why you should use off-centre viewing at night.",
     "key_facts": [
@@ -606,7 +606,7 @@
   {
     "code": "10.18.2(e)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Eye structure component: optic nerve disc",
+    "syllabus_desc": "Identify the following eye structure components: Optic nerve disc",
     "concept": "The optic nerve disc is the point where the optic nerve exits the retina, creating a small area completely devoid of photoreceptors. This anatomical feature creates a blind spot in the visual field that the brain typically compensates for through interpolation.",
     "exam_tip": "The optic disc is the physiological blind spot—it has no rods or cones because nerve fibres pass through here. Remember this is a normal anatomical feature, not a pathological condition.",
     "key_facts": [
@@ -622,7 +622,7 @@
   {
     "code": "10.18.2(f)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Eye structure component: cone cells",
+    "syllabus_desc": "Identify the following eye structure components: Cone cells",
     "concept": "Cone cells are photoreceptors concentrated in the central retina (particularly the fovea) that provide colour vision, detailed visual acuity, and daytime vision. They require relatively bright light to function effectively and are less sensitive than rods.",
     "exam_tip": "Cones = daytime vision, colour, detail, central vision. They're less light-sensitive than rods but provide much sharper acuity. This is why night vision is always compromised.",
     "key_facts": [
@@ -639,7 +639,7 @@
   {
     "code": "10.18.2(g)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Eye structure component: rod cells",
+    "syllabus_desc": "Identify the following eye structure components: Rod cells",
     "concept": "Rod cells are photoreceptors distributed throughout the retina (especially peripherally) that are highly sensitive to low light levels but do not detect colour. They are critical for night vision and peripheral vision, though they provide lower spatial resolution than cones.",
     "exam_tip": "Rods = night vision, peripheral vision, movement detection, no colour. They're more sensitive than cones but provide poor acuity. Use rods by looking slightly off-centre at night.",
     "key_facts": [
@@ -656,7 +656,7 @@
   {
     "code": "10.18.4",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Distinguish between rod and cone cell functions and distribution in the retina",
+    "syllabus_desc": "Distinguish between rod and cone cell functions and distribution in the retina.",
     "concept": "Rods and cones are two distinct photoreceptor types with complementary functions and distribution patterns. Cones are concentrated centrally and provide colour, detail, and daytime vision, while rods are distributed peripherally and provide sensitive low-light and peripheral vision without colour information.",
     "exam_tip": "Rods and cones have opposite distributions and opposite strengths. Cones = detail and colour but need light. Rods = sensitivity and peripheral vision but no colour. This is fundamental to understanding all visual limitations in flight.",
     "key_facts": [
@@ -673,7 +673,7 @@
   {
     "code": "10.18.6",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Describe the limitations of the eye in terms of: ability at night, ability in daylight including wires and aircraft, poor lighting, glare, lack of contrast, blind spot, colour perception",
+    "syllabus_desc": "Describe the limitations of the eye in terms of:",
     "concept": "The human eye has multiple fundamental limitations that significantly affect aviation operations across different lighting conditions and visual scenarios. These limitations stem from the characteristics of rods and cones, optical properties of the eye, and neural processing constraints.",
     "exam_tip": "Each limitation has a specific cause and practical implications for flight safety. Know which limitations affect night operations versus daylight operations, and understand why each occurs.",
     "key_facts": [
@@ -692,7 +692,7 @@
   {
     "code": "10.18.6(a)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Eye limitation: ability to discern objects at night",
+    "syllabus_desc": "Describe the limitations of the eye in terms of: The ability to discern objects at night",
     "concept": "Night vision is severely limited because the fovea contains only cones, which are relatively insensitive to low light levels. Although the more light-sensitive rods in the peripheral retina enable some night vision after dark adaptation, the absence of rods in the fovea prevents high-acuity night vision and explains why night operations are inherently more challenging.",
     "exam_tip": "At night, never stare directly at objects—use peripheral (off-centre) vision to engage the more light-sensitive rods. Direct foveal viewing at night is nearly blind because foveal cones are insensitive to low light.",
     "key_facts": [
@@ -709,7 +709,7 @@
   {
     "code": "10.18.6(b)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Eye limitation: ability to discern objects in daylight, including wires and other aircraft",
+    "syllabus_desc": "Describe the limitations of the eye in terms of: The ability to discern objects in daylight, including wires and other aircraft",
     "concept": "Despite apparently good daytime vision, the eye's limited resolving power makes small objects difficult to detect at distance, particularly stationary objects like wires, distant aircraft, or birds. Objects subtending small visual angles may fall within the eye's minimum resolvable angle or blend with background clutter, requiring active visual scanning and awareness.",
     "exam_tip": "Small objects at distance are hard to see—this is why see-and-avoid training emphasizes systematic scanning and checking known high-traffic areas. A distant aircraft may be below your visual resolution threshold until it's dangerously close.",
     "key_facts": [
@@ -726,7 +726,7 @@
   {
     "code": "10.18.6(c)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Eye limitation: ability in poor lighting conditions",
+    "syllabus_desc": "Describe the limitations of the eye in terms of: Poor lighting",
     "concept": "Poor lighting conditions reduce the signal-to-noise ratio in visual perception and prevent adequate stimulation of photoreceptors, degrading both visual acuity and the ability to detect objects. Twilight conditions are particularly challenging because they fall between optimal cone vision (bright light) and optimal rod vision (fully dark adapted).",
     "exam_tip": "Twilight is one of the most challenging lighting conditions in aviation—neither cone nor rod vision is optimized. Pilots should be extra vigilant during dawn and dusk operations.",
     "key_facts": [
@@ -743,7 +743,7 @@
   {
     "code": "10.18.6(d)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Eye limitation: ability in the presence of glare",
+    "syllabus_desc": "Describe the limitations of the eye in terms of: Glare",
     "concept": "Glare occurs when bright light sources create scattered light within the eye and overwhelm photoreceptors, temporarily reducing visual acuity and detection capability. Glare from the sun, runway lights, or other bright sources causes pupil constriction and adaptation disruption, making it difficult to see objects in the surrounding environment.",
     "exam_tip": "Glare causes pupil constriction and temporary adaptation shift, degrading vision in surrounding areas. Use sunglasses with appropriate filtering to manage glare without excessively darkening the visual scene.",
     "key_facts": [
@@ -760,7 +760,7 @@
   {
     "code": "10.18.6(e)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Eye limitation: ability in conditions of lack of contrast",
+    "syllabus_desc": "Describe the limitations of the eye in terms of: Lack of contrast",
     "concept": "The eye's ability to detect objects depends critically on contrast between the object and its background. When contrast is reduced (low-visibility conditions, similar-coloured objects against background, or poor lighting), object detection becomes significantly more difficult even if acuity would otherwise allow resolution of the object.",
     "exam_tip": "An object with poor contrast can be invisible even if it's large enough to be acutely resolved. This explains why some aircraft are difficult to see—dark paint on hazy background provides minimal contrast.",
     "key_facts": [
@@ -777,7 +777,7 @@
   {
     "code": "10.18.6(f)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Eye limitation: the blind spot",
+    "syllabus_desc": "Describe the limitations of the eye in terms of: The blind spot",
     "concept": "The optic nerve disc creates a small but absolute blind spot in the visual field where no photoreceptors exist. Although the brain typically compensates for this blind spot through interpolation, objects can be completely hidden within this area, making systematic scanning techniques essential for flight operations.",
     "exam_tip": "The blind spot is a fixed anatomical feature located approximately 15° nasal to the point of fixation. This is another reason systematic visual scanning is critical—the blind spot could hide a relevant object.",
     "key_facts": [
@@ -794,7 +794,7 @@
   {
     "code": "10.18.6(g)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Eye limitation: colour perception",
+    "syllabus_desc": "Describe the limitations of the eye in terms of: Colour perception",
     "concept": "Colour perception is dependent on adequate light levels and the functionality of cone photoreceptors. As light levels decrease below photopic conditions, colour discrimination progressively disappears—first red perception (long wavelength) diminishes, followed by other colours. In truly dark conditions, colour vision is absent entirely because rod photoreceptors are monochromatic.",
     "exam_tip": "At night, all objects appear as shades of grey because rods cannot perceive colour. This is why colour-coding of instruments and navigation lights becomes less useful in low-light conditions, and why pilots need bright cockpit lighting for colour-dependent tasks.",
     "key_facts": [
@@ -811,7 +811,7 @@
   {
     "code": "10.18.8",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Explain the process of dark adaptation",
+    "syllabus_desc": "Explain the process of dark adaptation.",
     "concept": "Dark adaptation is the physiological process by which the eye becomes progressively more sensitive to light in darkness. Rod photoreceptors regenerate rhodopsin (a light-sensitive pigment) that was bleached in bright light, and the pupil dilates to allow more light to reach the retina. This process requires time and is easily reversed by exposure to bright light.",
     "exam_tip": "Dark adaptation takes approximately 30 minutes for rods to fully regenerate rhodopsin. This is why you should avoid bright lights before night flight. A single exposure to bright light instantly destroys adaptation—use red cockpit lighting to preserve it.",
     "key_facts": [
@@ -829,7 +829,7 @@
   {
     "code": "10.18.10",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "State the normal time for full night vision adaptation",
+    "syllabus_desc": "State the normal time for full night vision adaptation.",
     "concept": "Full dark adaptation, where rod rhodopsin regeneration is complete and maximum sensitivity is achieved, requires approximately 30 minutes of continuous darkness. This timeframe assumes no disruption from bright light exposure during the adaptation period.",
     "exam_tip": "30 minutes is the standard timeline for full dark adaptation. This is clinically important—plan pre-flight activities to maintain night vision for night operations, and avoid white light sources for at least 30 minutes before departure.",
     "key_facts": [
@@ -846,7 +846,7 @@
   {
     "code": "10.18.12",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Identify precautionary actions to protect night vision adaptation",
+    "syllabus_desc": "Identify precautionary actions to protect night vision adaptation.",
     "concept": "Night vision adaptation can be preserved and protected through specific precautionary practices that minimize exposure to bright light and maintain the physiological state necessary for rod sensitivity. Key protective measures include avoiding white light sources, using red cockpit lighting, and managing light exposure in the pre-flight period.",
     "exam_tip": "Red light preserves night vision because rods are relatively insensitive to red wavelengths—red light doesn't bleach rhodopsin. Use red lighting in the cockpit and avoid white flashlights during night operations.",
     "key_facts": [
@@ -864,7 +864,7 @@
   {
     "code": "10.18.14",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Describe the factors associated with the selection of suitable sunglasses for flying",
+    "syllabus_desc": "Describe the factors associated with the selection of suitable sunglasses for flying.",
     "concept": "Suitable sunglasses for aviation must balance glare reduction with the need to maintain adequate visibility and colour discrimination for flight operations. Appropriate sunglasses should filter harmful light wavelengths while preserving sufficient light transmission and colour perception for safe flight.",
     "exam_tip": "Good aviation sunglasses reduce glare without excessively darkening the visual scene or distorting colour perception. Avoid excessively dark glasses that reduce visibility. Look for polarization considerations specific to cockpit light reflections and LCD displays.",
     "key_facts": [
@@ -882,7 +882,7 @@
   {
     "code": "10.18.16",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Describe the visual system resting state focus and its effects on object detection",
+    "syllabus_desc": "Describe the visual system resting state focus and its effects on object detection.",
     "concept": "In the absence of specific focusing cues or objects of interest, the eye naturally assumes a resting focus state at approximately 2 meters distance (empty field myopia). In the featureless visual environment of flying (clear sky without horizon references), this resting focus causes visual accommodation to relax, focusing the eye at distance closer than the aircraft's actual visual targets, degrading detection of distant objects.",
     "exam_tip": "In a featureless sky (clear day, no horizon), your eyes naturally relax and focus at ~2 meters instead of infinity. This is called empty field myopia. You must actively refocus on distant objects to detect other aircraft. This is why systematic visual scanning is essential.",
     "key_facts": [
@@ -900,7 +900,7 @@
   {
     "code": "10.18.18",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Explain effective visual search techniques",
+    "syllabus_desc": "Explain effective visual search techniques.",
     "concept": "Effective visual search in flight requires systematic scanning patterns that move the eyes methodically through different sectors of the visual field, allowing adequate time for the eye to process information at each location. Recommended techniques include dividing the airspace into sectors and examining each sector for 2 seconds per 10-degree segment, using off-centre viewing at night, and maintaining awareness of the eye's limitations.",
     "exam_tip": "Don't stare randomly at the sky. Use systematic sector scanning: divide the windscreen into 10° segments and spend about 2 seconds scanning each segment. At night, use off-centre viewing to employ rod vision. Move your eyes methodically, not randomly.",
     "key_facts": [
@@ -918,7 +918,7 @@
   {
     "code": "10.18.20",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Explain the see and avoid method of avoiding mid-air collisions",
+    "syllabus_desc": "Explain the see and avoid method of avoiding mid-air collisions.",
     "concept": "The see-and-avoid method relies on visual detection and identification of other aircraft in the vicinity, followed by appropriate avoidance manoeuvres. The critical factor is recognizing that an aircraft on a collision course shows constant bearing and decreasing range (no apparent movement in heading while appearing larger/closer), whereas non-threatening aircraft show relative movement (apparent movement across the windscreen).",
     "exam_tip": "Key concept: constant bearing + decreasing range = collision course. If another aircraft stays in the same position in your windscreen but keeps getting larger, it's on a collision course. If it moves across your field of view, it will miss. This is why systematic visual scanning to detect potential threats early is essential.",
     "key_facts": [
@@ -936,7 +936,7 @@
   {
     "code": "10.18.22",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Explain the use of visual cues during landing",
+    "syllabus_desc": "Explain the use of visual cues during landing.",
     "concept": "Landing requires effective use of visual cues to judge approach stability, glide path, and aircraft position relative to the runway. Key visual cues include the runway's apparent size and rate of expansion, the position of the runway in the visual field, approach lights and their intensity, the relative position of the aircraft nose to the runway, and the texture and perspective cues provided by the runway surface.",
     "exam_tip": "Runway appearance communicates approach geometry—expanding runway equals proper glide slope, runway position in windscreen shows lateral alignment, approach light intensity indicates proximity. Recognize illusions caused by runway dimensions, slope, and lighting characteristics.",
     "key_facts": [
@@ -954,7 +954,7 @@
   {
     "code": "10.18.24",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Explain the following visual illusions: autokinesis, stroboscopic illumination illusion/flicker vertigo, the break-off phenomenon, the black hole phenomenon",
+    "syllabus_desc": "Explain the following visual illusions:",
     "concept": "Visual illusions in flight represent systematic perceptual errors that can lead to disorientation and inappropriate control inputs. These illusions result from the eye's interpretation of visual information in unusual conditions such as isolated light sources, strobing illumination, extreme altitude, or absence of visual references. Understanding the mechanisms of these illusions is critical for maintaining spatial orientation and flight safety.",
     "exam_tip": "Each illusion has specific triggering conditions and consequences. Know which illusions occur at night (autokinesis, black hole), which involve motion perception (stroboscopic), and which involve altitude/reference frame illusions (break-off). Prevention often involves recognizing the condition and relying on instruments.",
     "key_facts": [
@@ -972,7 +972,7 @@
   {
     "code": "10.18.24(a)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Visual illusion: autokinesis",
+    "syllabus_desc": "Explain the following visual illusions: Autokinesis",
     "concept": "Autokinesis is an optical illusion where a stationary point of light appears to move when viewed continuously in darkness or featureless visual environment. The apparent motion occurs because the eye lacks reference points and small eye movements are unconsciously interpreted by the brain as movement of the light source, rather than eye movement.",
     "exam_tip": "Autokinesis occurs at night when fixating on a single light (navigation light, ground light) without other references. The light appears to move erratically. Prevention: don't stare fixedly at single lights—use off-centre viewing, reference other visual cues, or check instruments periodically.",
     "key_facts": [
@@ -990,7 +990,7 @@
   {
     "code": "10.18.24(b)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Visual illusion: stroboscopic illumination illusion/flicker vertigo",
+    "syllabus_desc": "Explain the following visual illusions: Stroboscopic illumination illusion/flicker vertigo",
     "concept": "Stroboscopic illumination illusion (flicker vertigo) occurs when strobing or flashing light sources (such as rotating propeller blades or rotor systems in certain lighting conditions) create apparent motion that conflicts with actual aircraft motion, triggering disorientation and vertigo. The strobing light can also trigger photosensitive responses in susceptible individuals, causing nausea and disorientation.",
     "exam_tip": "Flicker vertigo can occur when sunlight strobes through rotating propeller or rotor blades, or when anti-collision lights create strobing effects. Symptoms include disorientation, nausea, and vertigo. Prevention: adjust aircraft attitude to eliminate strobing effect, look away from the strobing source, or dim anti-collision lights if permitted.",
     "key_facts": [
@@ -1008,7 +1008,7 @@
   {
     "code": "10.18.24(c)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Visual illusion: the break-off phenomenon",
+    "syllabus_desc": "Explain the following visual illusions: The break-off phenomenon",
     "concept": "The break-off phenomenon is a disorientation experience occurring at extreme altitude (typically above 7,000-8,000 feet) where lack of clear visual reference points and atmospheric perspective cues creates a perceptual separation from the Earth. Pilots experience an unusual sense of detachment and may feel an urge to leave formation or descend, along with spatial disorientation.",
     "exam_tip": "Break-off typically occurs at high altitude in formation flight when visual cues to the Earth become minimal. Pilots report feeling disconnected from Earth and may experience inappropriate control responses. Prevention: maintain instrument scan, ensure adequate briefing before high-altitude operations, and maintain awareness of the phenomenon.",
     "key_facts": [
@@ -1026,7 +1026,7 @@
   {
     "code": "10.18.24(d)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Visual illusion: the black hole phenomenon",
+    "syllabus_desc": "Explain the following visual illusions: The black hole phenomenon",
     "concept": "The black hole phenomenon occurs on approach to landing in darkness without adequate visual references (featureless terrain, no approach lights, or night conditions). The pilot loses visual reference to the ground and cannot judge descent rate or altitude accurately, typically resulting in a dangerously low approach or loss of spatial orientation.",
     "exam_tip": "Black hole is a dangerous night landing illusion where lack of ground references means the pilot can't judge height or descent. Aircraft descends too low before visual contact. Prevention: use VASIS/PAPI systems to confirm glide path, reference instruments, or delay landing until conditions improve.",
     "key_facts": [
@@ -1044,7 +1044,7 @@
   {
     "code": "10.18.26",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Describe methods of avoiding and/or coping with: autokinesis, stroboscopic illumination illusion/flicker vertigo, the break-off phenomenon, the black hole phenomenon",
+    "syllabus_desc": "Describe methods of avoiding and/or coping with:",
     "concept": "Each visual illusion requires specific recognition and counter-strategies. These include avoiding conditions that trigger the illusion, recognizing early symptoms and symptoms of illusions, establishing reference points or using instruments to validate perceptions, and maintaining awareness of spatial disorientation susceptibility.",
     "exam_tip": "For each illusion, know both prevention (avoid the condition) and coping strategies (what to do if it occurs). In all cases, instrument reference and awareness are key. Flight training for spatial disorientation helps recognize when visual perceptions are unreliable.",
     "key_facts": [
@@ -1062,7 +1062,7 @@
   {
     "code": "10.18.26(a)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Methods of avoiding and/or coping with: autokinesis",
+    "syllabus_desc": "Describe methods of avoiding and/or coping with: Autokinesis",
     "concept": "Autokinesis can be prevented and managed by avoiding the conditions that trigger it (fixating on isolated lights without references) and implementing visual strategies that establish reference points or periodically validate perceptions against instruments. Active visual scanning, off-centre viewing, and brief instrument checks interrupt the fixation pattern that allows autokinesis to develop.",
     "exam_tip": "Don't fixate continuously on a single light at night. Use off-centre viewing, scan other visual cues, and check instruments periodically. These strategies eliminate the conditions that allow autokinesis to occur.",
     "key_facts": [
@@ -1080,7 +1080,7 @@
   {
     "code": "10.18.26(b)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Methods of avoiding and/or coping with: stroboscopic illumination illusion/flicker vertigo",
+    "syllabus_desc": "Describe methods of avoiding and/or coping with: Stroboscopic illumination illusion/flicker vertigo",
     "concept": "Stroboscopic illumination illusion is prevented by avoiding the conditions that create strobing (changing aircraft attitude relative to sun and propeller blade orientation) and managed by discontinuing fixation on the strobing source and orienting away from the strobing light pattern. Dimming anti-collision lights in flight (where permitted) may reduce flicker vertigo risk.",
     "exam_tip": "If flicker vertigo occurs (disorientation, nausea from strobing propeller or lights), change aircraft attitude to eliminate strobing, look away from the strobing source, and continue normal flight by instrument reference. Prevention includes being aware of strobing conditions and managing aircraft attitude.",
     "key_facts": [
@@ -1098,7 +1098,7 @@
   {
     "code": "10.18.26(c)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Methods of avoiding and/or coping with: the break-off phenomenon",
+    "syllabus_desc": "Describe methods of avoiding and/or coping with: The break-off phenomenon",
     "concept": "The break-off phenomenon is managed through awareness and preparation for high-altitude operations, maintaining a disciplined instrument scan, and recognizing that visual disorientation at extreme altitudes is a known phenomenon rather than an actual emergency. Prevention involves adequate briefing before high-altitude flights and understanding that the disorientation sensation is normal at extreme altitude.",
     "exam_tip": "Break-off at high altitude is psychological rather than physical. Recognize it as a known phenomenon, maintain your instrument scan, and resist the urge to leave formation or make abrupt control changes. Awareness and training for spatial disorientation help manage this.",
     "key_facts": [
@@ -1116,7 +1116,7 @@
   {
     "code": "10.18.26(d)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Methods of avoiding and/or coping with: the black hole phenomenon",
+    "syllabus_desc": "Describe methods of avoiding and/or coping with: The black hole phenomenon",
     "concept": "The black hole phenomenon is prevented through proper approach planning, use of visual approach guidance systems (VASIS/PAPI), and instrument reference during approaches in darkness or featureless terrain. When black hole conditions are encountered, reliance on instruments and approach guidance systems provides objective glide path and descent rate information to prevent dangerously low approaches.",
     "exam_tip": "Black hole at night is prevented by using approach guidance systems (VASIS/PAPI) that provide objective glide path reference. If no guidance systems available, delay landing or use radio altimeter and instrument references to maintain safe approach profile. Never rely solely on visual perception in black hole conditions.",
     "key_facts": [
@@ -1134,7 +1134,7 @@
   {
     "code": "10.18.28",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Describe conditions which can lead to the creation of a false horizon",
+    "syllabus_desc": "Describe conditions which can lead to the creation of a false horizon.",
     "concept": "A false horizon is created when visual cues that normally define the true horizon are obscured, ambiguous, or replaced by misleading cues such as sloping cloud layers, ground lights that resemble stars, or patterns on terrain that create the illusion of a horizon line. These conditions lead to perceptual errors in pitch attitude recognition.",
     "exam_tip": "False horizons most commonly occur at night when ground lights can be confused with stars, or when sloping cloud layers create an apparent horizon that doesn't match the true horizon. Spatial disorientation in instrument meteorological conditions often involves false horizon perception.",
     "key_facts": [
@@ -1152,7 +1152,7 @@
   {
     "code": "10.18.30",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Explain the effect of a false horizon on visual perception",
+    "syllabus_desc": "Explain the effect of a false horizon on visual perception.",
     "concept": "A false horizon causes systematic errors in pitch attitude perception because the pilot's brain interprets the false horizon cues as the true horizon and adjusts spatial orientation accordingly. This can result in incorrect pitch attitude, bank angle errors, and inappropriate control inputs. The effect is more pronounced when visual references are poor and the pilot is not cross-referencing instruments.",
     "exam_tip": "A false horizon can cause the pilot to adopt incorrect pitch attitude—flying upside down without realizing it, or in a dangerous nose-down attitude while perceiving level flight. This is spatial disorientation, and it's prevented by instrument reference and awareness that false horizons exist.",
     "key_facts": [
@@ -1170,7 +1170,7 @@
   {
     "code": "10.18.32",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Explain relative motion",
+    "syllabus_desc": "Explain relative motion.",
     "concept": "Relative motion is the apparent movement of objects in the visual field relative to the observer's perspective. An object's apparent motion in the visual field depends on both the object's actual movement and the observer's movement—an object stationary relative to the ground appears to move when the observer moves, and vice versa. Understanding relative motion is critical for aircraft detection and collision avoidance.",
     "exam_tip": "If another aircraft appears stationary in your windscreen while getting larger, it's on a collision course (constant bearing + decreasing range). If it appears to move across the windscreen, it will miss. Your own movement creates relative motion—objects ahead appear to separate, objects to the side appear to move.",
     "key_facts": [
@@ -1188,7 +1188,7 @@
   {
     "code": "10.18.34",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Explain the effect of fog, haze, and/or dust on visual perception",
+    "syllabus_desc": "Explain the effect of fog, haze, and/or dust on visual perception.",
     "concept": "Fog, haze, and dust reduce visual contrast and create atmospheric scattering that degrades object detection and distance perception. These conditions increase the minimum distance at which objects become visible, reduce acuity for distant objects, and create ambiguity about object size and distance. Depth perception cues are diminished, affecting altitude perception and approach stability.",
     "exam_tip": "Fog/haze reduces contrast, making objects less visible and harder to detect. Distance perception becomes unreliable—objects appear closer or farther than they actually are. Altitude perception on approach becomes difficult without instrument reference. Dust similarly reduces contrast and visibility.",
     "key_facts": [
@@ -1206,7 +1206,7 @@
   {
     "code": "10.18.36",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Describe the optical characteristics of the windshield",
+    "syllabus_desc": "Describe the optical characteristics of the windshield.",
     "concept": "Aircraft windshields introduce optical distortions that affect visual perception through the windscreen. These characteristics include non-uniform refractive properties, potential distortion of objects viewed off-axis, reflections from the windscreen surface, and optical properties that may vary with temperature and stress. These factors impact the clarity and accuracy of external visual references.",
     "exam_tip": "The windscreen can distort images, particularly when viewed off-axis (at angles). Bright lights can reflect off the windscreen. Frost or rain on the windscreen severely degrades visibility. Be aware that critical visual tasks (like approach alignment) are most accurate when viewed through the center of the windscreen.",
     "key_facts": [
@@ -1224,7 +1224,7 @@
   {
     "code": "10.18.38",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Explain the effect of sloping terrain on visual perception",
+    "syllabus_desc": "Explain the effect of sloping terrain on visual perception.",
     "concept": "Sloping terrain affects visual perception through several mechanisms: terrain slope can create a false horizon that appears tilted relative to the true horizontal, slopes can create depth cues that mislead altitude perception, and terrain texture variations interact with perspective cues to create systematic illusions about aircraft position and altitude.",
     "exam_tip": "An upsloping terrain feature can create the illusion that the aircraft is higher than it actually is (false horizon illusion), causing the pilot to descend. Downsloping terrain creates the opposite illusion. This is especially dangerous on approach. Recognize these illusions and rely on instruments.",
     "key_facts": [
@@ -1242,7 +1242,7 @@
   {
     "code": "10.18.40",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Explain the effect of the following factors on visual perception during approach situations: steep/shallow approach angles, length and width and texture of the runway, intensity of the approach lights",
+    "syllabus_desc": "Explain the effect of the following factors on visual perception during the following approach situations:",
     "concept": "Multiple visual cues interact during approach to create perceptual feedback about glide path stability and aircraft position. Approach angle (steep vs. shallow) affects the rate of runway expansion and apparent distance; runway dimensions and texture provide perspective cues and depth information; and approach light intensity indicates proximity and descent rate. Mismatches between these cues and actual approach geometry create illusions.",
     "exam_tip": "Narrow runway = appears farther away = pilot flies too shallow/too high. Wide runway = appears closer = pilot flies too steep/too low. Upsloping runway = appears too high, prompts dive. Bright approach lights = perceived as closer than actual = affects descent rate perception. Know these illusions and use instruments to confirm approach stability.",
     "key_facts": [
@@ -1263,7 +1263,7 @@
   {
     "code": "10.18.40(a)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Effect on visual perception during approach: steep vs. shallow approach angles",
+    "syllabus_desc": "Explain the effect of the following factors on visual perception during the following approach situations: Steep/shallow approach angles",
     "concept": "The angle of descent affects the apparent rate of runway expansion and distance cues. A steep approach angle causes rapid runway expansion that may be perceptually interpreted as being closer to touchdown than actual, potentially causing the pilot to reduce descent rate prematurely. A shallow approach angle causes slower runway expansion, potentially creating the perception of being farther from touchdown than actual.",
     "exam_tip": "Steep approach angle creates expanding runway that appears to get closer quickly—pilot may shallow approach prematurely. Shallow approach angle creates slowly expanding runway—pilot may fly unnecessarily high. Approach angle is a critical factor in approach illusions. Reference instruments and approach guidance systems.",
     "key_facts": [
@@ -1281,7 +1281,7 @@
   {
     "code": "10.18.40(b)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Effect on visual perception during approach: runway length, width, and texture",
+    "syllabus_desc": "Explain the effect of the following factors on visual perception during the following approach situations: Length, width and texture of the runway",
     "concept": "Runway dimensions and surface characteristics provide powerful visual cues that influence depth perception and approach stability perception. A narrow runway appears farther away than actual (pilot flies higher than intended), while a wide runway appears closer (pilot flies lower). Short runways enhance the narrow-runway effect, while long runways enhance the wide-runway effect. Textured surfaces (grass, gravel) provide better depth cues than smooth surfaces.",
     "exam_tip": "Narrow/short runway = looks far away = pilot flies too high. Wide/long runway = looks close = pilot flies too low. Rough texture = better depth perception. Smooth surface = worse depth perception. These illusions are why VASIS/PAPI are important at unfamiliar airports.",
     "key_facts": [
@@ -1300,7 +1300,7 @@
   {
     "code": "10.18.40(c)",
     "topic": "10.18 — Vision and Visual Perception",
-    "syllabus_desc": "Effect on visual perception during approach: intensity of the approach lights",
+    "syllabus_desc": "Explain the effect of the following factors on visual perception during the following approach situations: The intensity of the approach lights",
     "concept": "Approach light intensity provides distance and proximity cues during approach. Brighter approach lights are perceived as closer (they provide more visual stimulus), while dimmer lights are perceived as farther. This creates a systematic bias in distance perception that can affect descent rate—pilots approaching lights of unexpected brightness may adjust descent rate based on the perceived distance cue provided by light intensity.",
     "exam_tip": "Bright approach lights suggest the runway is closer than actual—pilots may flatten descent too early. Dim approach lights suggest the runway is farther—pilots may increase descent rate. Varying light intensity at different airports creates systematic approach illusions. Use instruments to maintain consistent descent profile.",
     "key_facts": [
@@ -1318,7 +1318,7 @@
   {
     "code": "10.20.2",
     "topic": "10.20 — Hearing and Balance",
-    "syllabus_desc": "Describe the basic anatomy of the ear",
+    "syllabus_desc": "Describe the basic anatomy of the ear.",
     "concept": "The ear has three sections: outer ear (pinna collects sound, ear canal directs it to eardrum), middle ear (three ossicles — malleus, incus, stapes — amplify vibrations), and inner ear containing the cochlea (spiral organ converting sound to nerve impulses) and the vestibular system (semi-circular canals and otolith organs for balance).",
     "exam_tip": "Three sections: outer (collection), middle (amplification via ossicles), inner (cochlea for hearing, vestibular for balance).",
     "key_facts": [
@@ -1333,7 +1333,7 @@
   {
     "code": "10.20.4",
     "topic": "10.20 — Hearing and Balance",
-    "syllabus_desc": "Describe the physiology of the ear",
+    "syllabus_desc": "Describe the physiology of the ear.",
     "concept": "Sound waves cause the eardrum to vibrate, which is amplified by the ossicle chain and transmitted to the cochlea. Hair cells in the cochlea convert mechanical vibrations into electrical nerve impulses sent to the brain via the auditory nerve. The vestibular system detects head movement and gravity for balance. The Eustachian tube connects the middle ear to the throat to equalise pressure.",
     "exam_tip": "Know the sound pathway: eardrum → ossicles → cochlea → auditory nerve → brain. The Eustachian tube is crucial for pressure equalisation.",
     "key_facts": [
@@ -1348,7 +1348,7 @@
   {
     "code": "10.20.6",
     "topic": "10.20 — Hearing and Balance",
-    "syllabus_desc": "Describe the effect of prolonged noise exposure on hearing",
+    "syllabus_desc": "Describe the effect of prolonged noise exposure on hearing.",
     "concept": "Prolonged exposure to noise above 85 dB causes progressive, irreversible damage to cochlear hair cells, resulting in noise-induced hearing loss (NIHL). Damage accumulates over time. Cockpit noise levels in GA aircraft typically range from 85-95 dB. Without hearing protection, pilots risk permanent hearing loss, particularly in high-frequency ranges important for speech comprehension.",
     "exam_tip": "85 dB is the damage threshold. GA cockpit noise is 85-95 dB — at or above the damage threshold. Hearing protection is essential.",
     "key_facts": [
@@ -1363,7 +1363,7 @@
   {
     "code": "10.20.8",
     "topic": "10.20 — Hearing and Balance",
-    "syllabus_desc": "Describe methods of protecting hearing",
+    "syllabus_desc": "Describe methods of protecting hearing.",
     "concept": "Hearing protection methods include Active Noise Reduction (ANR) headsets (electronically cancel low-frequency noise), passive noise-attenuating headsets (physical barrier), earplugs under headsets for high-noise environments, and limiting noise exposure duration. ANR headsets are particularly effective in aviation as they reduce fatigue-causing low-frequency engine noise while preserving speech clarity.",
     "exam_tip": "ANR headsets are the recommended standard for aviation — they reduce low-frequency noise while preserving speech intelligibility.",
     "key_facts": [
@@ -1378,7 +1378,7 @@
   {
     "code": "10.20.10",
     "topic": "10.20 — Hearing and Balance",
-    "syllabus_desc": "Explain the effects of age induced hearing loss (presbycusis)",
+    "syllabus_desc": "Explain the effects of age induced hearing loss (presbycusis).",
     "concept": "Presbycusis is age-related hearing loss that primarily affects high-frequency hearing. It begins typically in the fifth decade of life and progresses gradually. High-frequency loss impairs speech comprehension, especially in noisy environments like cockpits. Consonant sounds (which carry most speech information) are high-frequency, so presbycusis makes radio communication increasingly difficult.",
     "exam_tip": "Presbycusis = age-related high-frequency hearing loss. Affects speech comprehension in noise. Regular audiometry recommended for older pilots.",
     "key_facts": [
@@ -1393,7 +1393,7 @@
   {
     "code": "10.20.12",
     "topic": "10.20 — Hearing and Balance",
-    "syllabus_desc": "Explain the effects of pressure changes on the middle ear and eustachian tubes",
+    "syllabus_desc": "Explain the effects of pressure changes on the middle ear and eustachian tubes.",
     "concept": "During ascent, expanding middle ear air normally vents through the Eustachian tube passively. During descent, the Eustachian tube must actively open to admit air — this requires swallowing, yawning, or the Valsalva manoeuvre. If the tube is blocked, external pressure exceeds middle ear pressure, causing eardrum retraction and pain. Severe cases can rupture the eardrum.",
     "exam_tip": "Ascent: gas vents passively (usually no problem). Descent: active equalisation needed (Valsalva, swallowing). Problems occur during descent with blocked tubes.",
     "key_facts": [
@@ -1408,7 +1408,7 @@
   {
     "code": "10.20.14",
     "topic": "10.20 — Hearing and Balance",
-    "syllabus_desc": "Explain the effects of colds, hay fever, and/or allergies on the sinuses and eustachian tubes",
+    "syllabus_desc": "Explain the effects of colds; hay fever; and/or allergies on the sinuses and eustachian tubes.",
     "concept": "Colds, hay fever, and allergies cause nasal and Eustachian tube mucosal swelling, blocking pressure equalisation. Sinus drainage is impaired, trapping air that expands/contracts with altitude. This leads to sinus and ear barotrauma during altitude changes. Pilots should not fly with upper respiratory infections, active allergies, or nasal congestion.",
     "exam_tip": "Don't fly with a cold — this is one of the most practical HF rules. Decongestants may help on the ground but can wear off at altitude, causing sudden problems.",
     "key_facts": [
@@ -1423,7 +1423,7 @@
   {
     "code": "10.22.2",
     "topic": "10.22 — Spatial Orientation",
-    "syllabus_desc": "Define spatial orientation",
+    "syllabus_desc": "Define spatial orientation.",
     "concept": "Spatial orientation is the awareness of one's position and movement relative to the earth's surface. In flight, pilots maintain spatial orientation through three sensory systems: visual (primary — horizon, instruments), vestibular (inner ear — motion and gravity), and proprioceptive (body position sensors in muscles and joints).",
     "exam_tip": "Spatial orientation requires integration of visual, vestibular, and proprioceptive inputs. Vision is the dominant and most reliable sense for orientation.",
     "key_facts": [
@@ -1438,7 +1438,7 @@
   {
     "code": "10.22.4",
     "topic": "10.22 — Spatial Orientation",
-    "syllabus_desc": "Define disorientation",
+    "syllabus_desc": "Define disorientation.",
     "concept": "Disorientation is the inability to correctly determine one's position, attitude, or motion relative to the earth. In aviation, spatial disorientation occurs when the brain receives conflicting or insufficient sensory information, most commonly when visual references are lost (cloud, night, poor visibility). Disorientation is a leading cause of fatal GA accidents.",
     "exam_tip": "Disorientation occurs when visual references are lost and the pilot relies on unreliable vestibular senses. Trust instruments, not body sensations.",
     "key_facts": [
@@ -1453,7 +1453,7 @@
   {
     "code": "10.22.6(a)",
     "topic": "10.22 — Spatial Orientation",
-    "syllabus_desc": "Outline the basic anatomy of the semi-circular canals",
+    "syllabus_desc": "Outline the basic anatomy of the motion, orientation and gravitational sensory organs, including: The semi-circular canals",
     "concept": "The semi-circular canals are three fluid-filled tubes oriented at right angles to each other, detecting angular (rotational) acceleration in pitch, roll, and yaw. When the head rotates, fluid (endolymph) lags behind due to inertia, deflecting hair cells (cupula) and sending nerve signals to the brain. After approximately 20 seconds of constant rotation, the fluid catches up and the sensation of turning ceases — this is why prolonged turns are dangerous without visual reference.",
     "exam_tip": "Semi-circular canals detect angular acceleration only — not constant speed rotation. After ~20 seconds of constant turn, the sensation of turning stops. This is the basis for 'the leans.'",
     "key_facts": [
@@ -1468,7 +1468,7 @@
   {
     "code": "10.22.6(b)",
     "topic": "10.22 — Spatial Orientation",
-    "syllabus_desc": "Outline the basic anatomy of the vestibular sac/tubes",
+    "syllabus_desc": "Outline the basic anatomy of the motion, orientation and gravitational sensory organs, including: Vestibular sac/tubes",
     "concept": "The vestibular sacs (utricle and saccule) contain otolith organs — small calcium carbonate crystals (otoconia) resting on hair cells. These organs detect linear acceleration and gravity. The utricle primarily detects horizontal acceleration; the saccule detects vertical acceleration. They cannot distinguish between gravity and linear acceleration, which causes illusions like the somatogravic illusion during takeoff.",
     "exam_tip": "Otolith organs detect linear acceleration and gravity but cannot tell them apart — this is the basis of the somatogravic illusion.",
     "key_facts": [
@@ -1483,7 +1483,7 @@
   {
     "code": "10.22.8(a)",
     "topic": "10.22 — Spatial Orientation",
-    "syllabus_desc": "Outline the physiology of the semi-circular canals",
+    "syllabus_desc": "Outline the physiology of the motion, orientation and gravitational sensory organs, including: The semi-circular canals",
     "concept": "The semi-circular canals function by detecting fluid movement caused by angular acceleration. When rotation begins, endolymph lags behind the canal walls, bending the cupula and stimulating hair cells. This generates a nerve signal indicating rotation. When rotation stops, the fluid continues moving briefly, creating a false sensation of rotation in the opposite direction.",
     "exam_tip": "Key physiology: fluid lags at start of rotation (detects turn), catches up during constant rotation (loses detection), continues after stopping (false reverse sensation).",
     "key_facts": [
@@ -1498,7 +1498,7 @@
   {
     "code": "10.22.8(b)",
     "topic": "10.22 — Spatial Orientation",
-    "syllabus_desc": "Outline the physiology of the vestibular sac/tubes",
+    "syllabus_desc": "Outline the physiology of the motion, orientation and gravitational sensory organs, including: Vestibular sac/tubes",
     "concept": "The otolith organs function by gravitational and inertial force acting on the otoconia crystals. When the head tilts or accelerates linearly, the dense crystals shift position on the hair cells, generating nerve signals indicating tilt or acceleration. At rest, gravity acting on the otoconia provides a constant reference for head position. The brain integrates these signals with visual and proprioceptive information to determine orientation.",
     "exam_tip": "Otoconia shift under gravity or acceleration. The brain needs vision to disambiguate — without visual reference, acceleration and tilt feel identical.",
     "key_facts": [
@@ -1513,7 +1513,7 @@
   {
     "code": "10.22.10",
     "topic": "10.22 — Spatial Orientation",
-    "syllabus_desc": "Explain the interconnection between the visual and kinesthetic senses in maintaining accurate spatial orientation",
+    "syllabus_desc": "Explain the interconnection between the visual and kinasthetic senses in maintaining accurate spatial orientation.",
     "concept": "Accurate spatial orientation requires integration of all three sensory systems — visual, vestibular, and proprioceptive. Vision provides the dominant and most reliable reference. When all three agree, orientation is accurate. When they conflict (such as in cloud), the brain defaults to the sense it trusts most — which in untrained individuals is often the unreliable vestibular system.",
     "exam_tip": "Vision is dominant and reliable. Vestibular and proprioceptive senses can mislead. Instrument flying training teaches pilots to trust visual (instrument) information over body sensations.",
     "key_facts": [
@@ -1528,7 +1528,7 @@
   {
     "code": "10.22.12",
     "topic": "10.22 — Spatial Orientation",
-    "syllabus_desc": "Explain the body's limitations in maintaining spatial orientation when vision is adversely affected",
+    "syllabus_desc": "Explain the body's limitations in maintaining spatial orientation when vision is adversely affected.",
     "concept": "When vision is impaired (cloud, night, poor visibility), the body relies on the vestibular system which is unreliable after approximately 20 seconds of constant motion. The vestibular system cannot detect gradual changes in bank or attitude, leading to false sensations. Without visual reference, pilots cannot maintain straight and level flight — spatial disorientation and loss of control typically follow within minutes.",
     "exam_tip": "Without vision, spatial orientation is lost within about 178 seconds (less than 3 minutes) on average. This is why VFR into IMC is a leading killer in GA.",
     "key_facts": [
@@ -1543,7 +1543,7 @@
   {
     "code": "10.22.14(a)",
     "topic": "10.22 — Spatial Orientation",
-    "syllabus_desc": "Explain the effects of the leans and sub-threshold stimulation",
+    "syllabus_desc": "Explain the effects of the following spatial illusions: The leans and sub-threshold stimulation",
     "concept": "The leans occur when a gradual, sub-threshold roll is not detected by the semi-circular canals. When the pilot notices the bank on instruments and corrects, the correction IS detected, creating a false sensation of banking in the opposite direction. The pilot feels they are banking when they are actually wings-level, creating a strong urge to return to the original (banked) attitude.",
     "exam_tip": "The leans are the most common vestibular illusion. Caused by sub-threshold roll followed by detected correction. Trust instruments, not body sensation.",
     "key_facts": [
@@ -1558,7 +1558,7 @@
   {
     "code": "10.22.14(b)",
     "topic": "10.22 — Spatial Orientation",
-    "syllabus_desc": "Explain the effects of the somatogravic illusion",
+    "syllabus_desc": "Explain the effects of the following spatial illusions: Somatogravic illusion",
     "concept": "The somatogravic illusion occurs during rapid acceleration (takeoff, go-around) when the otolith organs interpret the acceleration force as a backward tilt, creating a false sensation of nose-up pitch. The pilot may instinctively push the nose down, potentially flying into the ground. The reverse occurs during rapid deceleration, creating a false nose-down sensation.",
     "exam_tip": "Somatogravic illusion during takeoff: acceleration feels like pitching up, pilot pushes nose down dangerously. Particularly dangerous at night or in poor visibility.",
     "key_facts": [
@@ -1573,7 +1573,7 @@
   {
     "code": "10.22.14(c)",
     "topic": "10.22 — Spatial Orientation",
-    "syllabus_desc": "Explain the effects of the somatogyral illusion",
+    "syllabus_desc": "Explain the effects of the following spatial illusions: Somatogyral illusion",
     "concept": "The somatogyral illusion occurs when a prolonged constant-rate turn is not detected by the semi-circular canals (fluid catches up after ~20 seconds). The pilot perceives they are flying straight. When the turn is stopped, the fluid continues moving, creating a strong false sensation of turning in the opposite direction. The pilot may re-enter the original turn to relieve the sensation (graveyard spiral).",
     "exam_tip": "Somatogyral illusion leads to the graveyard spiral — the pilot keeps re-entering the turn to relieve the false sensation. Always trust instruments.",
     "key_facts": [
@@ -1588,7 +1588,7 @@
   {
     "code": "10.22.14(d)",
     "topic": "10.22 — Spatial Orientation",
-    "syllabus_desc": "Explain the effects of cross coupled turning (Coriolis effect)",
+    "syllabus_desc": "Explain the effects of the following spatial illusions: Cross coupled turning (Coriolis effect)",
     "concept": "The Coriolis illusion occurs when a pilot makes a head movement (looking down at a chart) during a sustained turn. The head movement stimulates semi-circular canals in a different plane, producing a violent, disorienting tumbling sensation. It is one of the most severe vestibular illusions and can completely incapacitate the pilot with nausea and disorientation.",
     "exam_tip": "Coriolis illusion: head movement during a turn = violent tumbling sensation. Avoid head movements during turns, especially in IMC. One of the most dangerous illusions.",
     "key_facts": [
@@ -1603,7 +1603,7 @@
   {
     "code": "10.22.14(e)",
     "topic": "10.22 — Spatial Orientation",
-    "syllabus_desc": "Explain the effects of pressure vertigo",
+    "syllabus_desc": "Explain the effects of the following spatial illusions: Pressure vertigo",
     "concept": "Pressure vertigo occurs when unequal pressure changes in the two middle ears (e.g., one Eustachian tube blocked) cause asymmetric vestibular stimulation. This creates a sensation of spinning or tilting. It is most common during descent when one ear fails to equalise while the other does. Can cause severe disorientation and nausea.",
     "exam_tip": "Pressure vertigo = unequal ear pressure during altitude changes. Associated with blocked Eustachian tube on one side. Another reason not to fly with a cold.",
     "key_facts": [
@@ -1618,7 +1618,7 @@
   {
     "code": "10.22.16",
     "topic": "10.22 — Spatial Orientation",
-    "syllabus_desc": "Explain how disorientation can be prevented",
+    "syllabus_desc": "Explain how disorientation can be prevented.",
     "concept": "Disorientation prevention requires maintaining visual reference wherever possible — avoiding VFR flight into IMC conditions. In instrument conditions, pilots must trust instruments and ignore body sensations. Avoid head movements during turns (prevents Coriolis). Use autopilot when available in low-visibility conditions. Regular instrument proficiency training builds the habit of trusting instruments over sensations.",
     "exam_tip": "Prevention centres on maintaining visual references and trusting instruments. The golden rule: if in doubt about orientation, trust the instruments, not your body.",
     "key_facts": [
@@ -1633,7 +1633,7 @@
   {
     "code": "10.24.2(a)",
     "topic": "10.24 — Gravitational Forces",
-    "syllabus_desc": "Explain the effects of positive and negative accelerations on the circulatory system",
+    "syllabus_desc": "Explain the effects of positive and negative accelerations on: The circulatory system",
     "concept": "Positive G-forces (+Gz) cause blood to pool in the lower body, reducing blood flow to the brain and heart. The heart must work harder to maintain cerebral blood flow. At approximately +3-4G, blood flow to the eyes is reduced, causing peripheral vision loss (grey-out). At higher G-loads, the heart cannot overcome the G-force, and blood flow to the brain fails.",
     "exam_tip": "Positive G affects the circulatory system by pooling blood in the lower body. The heart struggles to pump blood to the brain against the increased G-force.",
     "key_facts": [
@@ -1648,7 +1648,7 @@
   {
     "code": "10.24.2(b)",
     "topic": "10.24 — Gravitational Forces",
-    "syllabus_desc": "Explain the effects of positive and negative accelerations on vision",
+    "syllabus_desc": "Explain the effects of positive and negative accelerations on: Vision",
     "concept": "Positive G-forces reduce blood flow to the eyes, causing progressive visual symptoms. Grey-out (loss of peripheral vision) occurs at approximately +3-4G as retinal blood flow decreases. Blackout (complete loss of vision with consciousness preserved) occurs at approximately +4-5G. Vision recovers rapidly once G-load is reduced.",
     "exam_tip": "Grey-out at ~4G, blackout at ~5G. These are visual symptoms — consciousness is still preserved at blackout. G-LOC follows if G is maintained.",
     "key_facts": [
@@ -1663,7 +1663,7 @@
   {
     "code": "10.24.2(c)",
     "topic": "10.24 — Gravitational Forces",
-    "syllabus_desc": "Explain the effects of positive and negative accelerations on consciousness",
+    "syllabus_desc": "Explain the effects of positive and negative accelerations on: Consciousness",
     "concept": "If positive G-force is maintained beyond blackout, G-induced Loss of Consciousness (G-LOC) occurs as the brain is completely deprived of blood flow. G-LOC typically occurs above +5G. Recovery after G-LOC takes 15-30 seconds of confusion and disorientation. During this time the aircraft is uncontrolled. G-LOC is potentially fatal.",
     "exam_tip": "G-LOC occurs above ~5G with 15-30 second recovery period of confusion. The aircraft is uncontrolled during this time — potentially fatal.",
     "key_facts": [
@@ -1678,7 +1678,7 @@
   {
     "code": "10.24.4",
     "topic": "10.24 — Gravitational Forces",
-    "syllabus_desc": "Explain the causes and symptoms of black-out",
+    "syllabus_desc": "Explain the causes and symptoms of black-out.",
     "concept": "Blackout is caused by sustained positive G-forces reducing blood flow to the eyes and brain. At approximately +4-5G, arterial pressure at eye level falls below the intraocular pressure, collapsing retinal blood vessels and causing complete vision loss. Consciousness is maintained briefly. Symptoms progress from grey-out to tunnel vision to complete blackout.",
     "exam_tip": "Blackout = total vision loss with consciousness preserved, at approximately +4-5G. Precedes G-LOC if G is maintained.",
     "key_facts": [
@@ -1693,7 +1693,7 @@
   {
     "code": "10.24.6",
     "topic": "10.24 — Gravitational Forces",
-    "syllabus_desc": "Explain the causes and symptoms of red-out",
+    "syllabus_desc": "Explain the causes and symptoms of red-out.",
     "concept": "Red-out is caused by negative G-forces (-Gz, such as during an outside loop or steep pushover) forcing blood into the head and eyes. Increased blood pressure in the head causes engorgement of retinal blood vessels, producing a red visual field. Severe negative G can cause haemorrhagic stroke. Red-out is less common than blackout in normal flight operations.",
     "exam_tip": "Red-out = blood forced into head during negative G. Produces red visual field. Less common than blackout but potentially more dangerous due to stroke risk.",
     "key_facts": [
@@ -1708,7 +1708,7 @@
   {
     "code": "10.26.2",
     "topic": "10.26 — Motion Sickness",
-    "syllabus_desc": "Explain the causes of motion sickness",
+    "syllabus_desc": "Explain the causes of motion sickness.",
     "concept": "Motion sickness is caused by sensory conflict between the visual system, vestibular system, and proprioceptive system. When the brain receives mismatched information (e.g., vestibular system detects motion but eyes see a stationary cockpit interior), it interprets this as potential poisoning and triggers nausea. Turbulence, unusual attitudes, and looking inside the cockpit while manoeuvring are common triggers.",
     "exam_tip": "Motion sickness = sensory mismatch between visual and vestibular systems. Most common in student pilots and passengers. Looking outside helps.",
     "key_facts": [
@@ -1723,7 +1723,7 @@
   {
     "code": "10.26.4",
     "topic": "10.26 — Motion Sickness",
-    "syllabus_desc": "Describe how motion sickness can be prevented",
+    "syllabus_desc": "Describe how motion sickness can be prevented.",
     "concept": "Motion sickness prevention includes looking outside at the horizon (aligns visual and vestibular input), keeping the head still, maintaining a cool cockpit with fresh air, avoiding heavy meals before flight, flying smoothly, and progressive exposure (most people adapt with repeated exposure). For student pilots, short initial flights with gradual increase help build tolerance.",
     "exam_tip": "Key prevention: look outside, keep head still, fresh air, fly smoothly. Most people adapt with repeated exposure.",
     "key_facts": [
@@ -1738,7 +1738,7 @@
   {
     "code": "10.26.6",
     "topic": "10.26 — Motion Sickness",
-    "syllabus_desc": "Describe how motion sickness can be treated",
+    "syllabus_desc": "Describe how motion sickness can be treated.",
     "concept": "If motion sickness develops, the pilot should focus on the horizon, open air vents, avoid head movements, and consider landing if symptoms are severe. Once vomiting begins, the pilot's ability to safely control the aircraft may be compromised. Anti-nausea medication can be used for passengers but most are unsuitable for pilots due to drowsiness side effects.",
     "exam_tip": "Treatment: horizon focus, fresh air, minimise head movement. If severe, consider landing. Most anti-nausea medications cause drowsiness — unsuitable for pilots.",
     "key_facts": [
@@ -1753,7 +1753,7 @@
   {
     "code": "10.28.2",
     "topic": "10.28 — Flight Anxiety",
-    "syllabus_desc": "Explain the causes of flight anxiety",
+    "syllabus_desc": "Explain the causes of flight anxiety.",
     "concept": "Flight anxiety is a stress response triggered by perceived danger or unfamiliarity in the flying environment. Causes include inexperience, previous negative flying experiences, fear of loss of control, fear of mechanical failure, and environmental factors like turbulence or poor weather. Both pilots and passengers can experience flight anxiety.",
     "exam_tip": "Flight anxiety is a normal stress response to perceived danger. It can affect both pilots and passengers. Familiarity and preparation reduce it.",
     "key_facts": [
@@ -1768,7 +1768,7 @@
   {
     "code": "10.28.4",
     "topic": "10.28 — Flight Anxiety",
-    "syllabus_desc": "Recognise the signs of flight anxiety in passengers",
+    "syllabus_desc": "Recognise the signs of flight anxiety in passengers.",
     "concept": "Signs of flight anxiety in passengers include visible tension (gripping armrests, rigid posture), rapid shallow breathing, sweating, pallor, verbal expressions of fear, silence or withdrawal, nausea, and in severe cases panic behaviour. Pilots should monitor passengers and respond calmly with reassurance and information.",
     "exam_tip": "Watch for physical signs: rigid posture, sweating, pallor, rapid breathing. Respond with calm reassurance and explanation.",
     "key_facts": [
@@ -1783,7 +1783,7 @@
   {
     "code": "10.28.6",
     "topic": "10.28 — Flight Anxiety",
-    "syllabus_desc": "Describe how flight anxiety can be prevented",
+    "syllabus_desc": "Describe how flight anxiety can be prevented.",
     "concept": "Flight anxiety prevention includes thorough pre-flight briefing of passengers, maintaining a calm professional demeanour, explaining manoeuvres and sounds, smooth flying technique, progressive exposure for anxious passengers, and creating a comfortable cabin environment. For pilot anxiety, thorough preparation, currency, and proficiency training build confidence.",
     "exam_tip": "Prevention: brief passengers, fly smoothly, explain what's happening. For pilot anxiety: preparation and proficiency build confidence.",
     "key_facts": [
@@ -1798,7 +1798,7 @@
   {
     "code": "10.30.2",
     "topic": "10.30 — Fitness to Fly",
-    "syllabus_desc": "Describe the term fitness to fly",
+    "syllabus_desc": "Describe the term fitness to fly.",
     "concept": "Fitness to fly means the pilot is physically, mentally, and emotionally capable of safely operating an aircraft. It encompasses medical fitness (no illness or incapacitating condition), mental fitness (adequate rest, no significant stress), and regulatory fitness (valid medical certificate, not under the influence of drugs or alcohol).",
     "exam_tip": "Fitness to fly covers physical, mental, and emotional readiness — not just medical certificate validity.",
     "key_facts": [
@@ -1813,7 +1813,7 @@
   {
     "code": "10.30.4",
     "topic": "10.30 — Fitness to Fly",
-    "syllabus_desc": "Explain the responsibilities of pilots towards medical fitness for flight",
+    "syllabus_desc": "Explain the responsibilities of pilots towards medical fitness for flight.",
     "concept": "Pilots have a legal and moral responsibility to ensure they are medically fit before every flight. This goes beyond holding a valid medical certificate — pilots must self-assess before each flight using tools like the IMSAFE checklist. Pilots must not fly if they have any condition that could impair performance, and must consult their DAME if in doubt.",
     "exam_tip": "Fitness to fly is the pilot's responsibility before EVERY flight — not just at medical renewals. Use IMSAFE for self-assessment.",
     "key_facts": [
@@ -1828,7 +1828,7 @@
   {
     "code": "10.30.6",
     "topic": "10.30 — Fitness to Fly",
-    "syllabus_desc": "Identify symptoms and circumstances that would lead you to consult your aviation medical examiner prior to further flight",
+    "syllabus_desc": "Identify symptoms and circumstances that would lead you to consult your aviation medical examiner prior to further flight.",
     "concept": "Circumstances requiring consultation with a DAME include: unexplained symptoms (dizziness, fainting, chest pain), surgery or hospitalisation, starting new medication, loss of consciousness, significant illness, head injury, changes in vision or hearing, and any condition that could cause sudden incapacitation. When in doubt, consult your DAME before flying.",
     "exam_tip": "When in doubt, consult your DAME. Key triggers: unexplained symptoms, new medication, surgery, loss of consciousness, head injury.",
     "key_facts": [
@@ -1843,7 +1843,7 @@
   {
     "code": "10.30.8",
     "topic": "10.30 — Fitness to Fly",
-    "syllabus_desc": "Describe the IMSAFE method of assessing fitness for flight",
+    "syllabus_desc": "Describe the IMSAFE method of assessing fitness for flight.",
     "concept": "IMSAFE is a pre-flight self-assessment checklist: Illness (am I sick?), Medication (am I taking anything that could impair performance?), Stress (am I under significant psychological pressure?), Alcohol (have I consumed alcohol within the required time period?), Fatigue (have I had adequate sleep?), Eating/Emotion (have I eaten properly? Am I emotionally fit?). If any factor is unsatisfactory, the pilot should not fly.",
     "exam_tip": "IMSAFE: Illness, Medication, Stress, Alcohol, Fatigue, Eating/Emotion. Use before every flight. Any 'yes' to a concern means don't fly.",
     "key_facts": [
@@ -1858,7 +1858,7 @@
   {
     "code": "10.30.10",
     "topic": "10.30 — Fitness to Fly",
-    "syllabus_desc": "Describe the problems associated with pregnancy and flying",
+    "syllabus_desc": "Describe the problems associated with pregnancy and flying.",
     "concept": "Pregnancy affects flying through increased susceptibility to hypoxia (increased oxygen demand), nausea and motion sickness, reduced G-tolerance, altered circulation, and the effects of decompression or barotrauma on the foetus. Pregnant pilots should consult their DAME and many aviation authorities restrict flying during later stages of pregnancy.",
     "exam_tip": "Pregnancy increases hypoxia susceptibility, motion sickness, and reduces G-tolerance. Consult DAME for guidance on flying restrictions.",
     "key_facts": [
@@ -1873,7 +1873,7 @@
   {
     "code": "10.30.12(a)",
     "topic": "10.30 — Fitness to Fly",
-    "syllabus_desc": "Describe the effects of arterial disease on pilot performance and methods to minimise/manage",
+    "syllabus_desc": "With regard to the following factors, describe their effects on pilot performance and methods by which they may be minimised/managed: Arterial disease",
     "concept": "Visual acuity is essential for safe pilot operations. NZ CAR 67.05 requires uncorrected visual acuity of at least 6/9 in each eye, correctable to 6/6. Pilots must be able to read aircraft instruments, detect other aircraft, and maintain situational awareness through visual scan. Presbyopia (age-related loss of near focus) is managed through corrective lenses.",
     "exam_tip": "Know the CAR 67.05 visual acuity standards: 6/9 uncorrected, correctable to 6/6. Presbyopia is manageable with appropriate correction.",
     "key_facts": [
@@ -1888,7 +1888,7 @@
   {
     "code": "10.30.12(b)",
     "topic": "10.30 — Fitness to Fly",
-    "syllabus_desc": "Describe the effects of blood pressure on pilot performance and methods to minimise/manage",
+    "syllabus_desc": "With regard to the following factors, describe their effects on pilot performance and methods by which they may be minimised/managed: Blood pressure",
     "concept": "Colour vision is critical for interpreting instrument displays, runway lighting, and traffic signals. NZ requires colour vision competency — pilots must reliably distinguish red and green. Some colour vision deficiencies may be manageable with a special restriction or operational procedure. Complete colour blindness is disqualifying.",
     "exam_tip": "Colour vision is tested as part of medical certification. Some deficiencies allow restricted operations; complete colour blindness disqualifies.",
     "key_facts": [
@@ -1903,7 +1903,7 @@
   {
     "code": "10.30.12(c)",
     "topic": "10.30 — Fitness to Fly",
-    "syllabus_desc": "Describe the effects of diet on pilot performance and methods to minimise/manage",
+    "syllabus_desc": "With regard to the following factors, describe their effects on pilot performance and methods by which they may be minimised/managed: Diet",
     "concept": "Hearing is essential for two-way radio communication and environmental awareness. NZ requires sufficient hearing to conduct safe radio communications on 1600 Hz frequency speech. Mild to moderate hearing loss may be acceptable with clear communication protocols and possibly hearing aids. Severe hearing loss or complete deafness is disqualifying.",
     "exam_tip": "Hearing requirement focuses on ability to conduct radio communications. Hearing protection use is encouraged and does not disqualify.",
     "key_facts": [
@@ -1918,7 +1918,7 @@
   {
     "code": "10.30.12(d)",
     "topic": "10.30 — Fitness to Fly",
-    "syllabus_desc": "Describe the effects of exercise on pilot performance and methods to minimise/manage",
+    "syllabus_desc": "With regard to the following factors, describe their effects on pilot performance and methods by which they may be minimised/managed: Exercise",
     "concept": "Cardiovascular fitness is essential as the heart must respond to the increased oxygen demands of flight, especially during high workload or emergency procedures. Conditions such as hypertension, previous heart attack, arrhythmias, or structural heart disease require medical assessment. Regular exercise, blood pressure monitoring, and management of risk factors maintain cardiovascular fitness.",
     "exam_tip": "Cardiovascular conditions require DAME assessment. Many conditions are manageable with proper medical control and monitoring.",
     "key_facts": [
@@ -1933,7 +1933,7 @@
   {
     "code": "10.30.12(e)",
     "topic": "10.30 — Fitness to Fly",
-    "syllabus_desc": "Describe the effects of obesity on pilot performance and methods to minimise/manage",
+    "syllabus_desc": "With regard to the following factors, describe their effects on pilot performance and methods by which they may be minimised/managed: Obesity",
     "concept": "Respiratory fitness is necessary to maintain adequate oxygenation during all flight phases. Conditions such as asthma, chronic obstructive pulmonary disease (COPD), or sleep apnoea affect oxygen exchange. Sleep apnoea is of particular concern as it causes intermittent oxygen desaturation and daytime fatigue, both dangerous in aviation. Many respiratory conditions require DAME evaluation and possible flight restrictions.",
     "exam_tip": "Respiratory conditions, especially sleep apnoea, require careful assessment. Sleep apnoea causes intermittent hypoxia and fatigue — both hazardous.",
     "key_facts": [
@@ -1948,7 +1948,7 @@
   {
     "code": "10.30.12(f)",
     "topic": "10.30 — Fitness to Fly",
-    "syllabus_desc": "Describe the effects of smoking on pilot performance and methods to minimise/manage",
+    "syllabus_desc": "With regard to the following factors, describe their effects on pilot performance and methods by which they may be minimised/managed: Smoking",
     "concept": "Metabolic fitness relates to conditions like diabetes, thyroid disorders, and obesity. Diabetes must be well-controlled to prevent hypoglycaemia (dangerously low blood sugar causing confusion and disorientation) or hyperglycaemia (high blood sugar impairing cognition). Thyroid disorders affect energy and alertness. Obesity increases cardiovascular strain and may contribute to sleep apnoea.",
     "exam_tip": "Diabetes requires excellent control — hypoglycaemia during flight is dangerous. Thyroid disorders and obesity affect fitness indirectly.",
     "key_facts": [
@@ -1963,7 +1963,7 @@
   {
     "code": "10.30.12(g)",
     "topic": "10.30 — Fitness to Fly",
-    "syllabus_desc": "Describe the effects of respiratory tract infection/allergies on pilot performance and methods to minimise/manage",
+    "syllabus_desc": "With regard to the following factors, describe their effects on pilot performance and methods by which they may be minimised/managed: Respiratory tract infection/allergies (including colds, sinus, hay fever, influenza, asthma)",
     "concept": "Neurological fitness is critical as the nervous system controls decision-making, coordination, and situational awareness. Conditions such as epilepsy, migraines, recurrent syncope (fainting), head injury with loss of consciousness, or neurological degenerative disorders require careful assessment. Even well-controlled epilepsy on medication may be disqualifying due to the risk of sudden seizure in flight.",
     "exam_tip": "Neurological conditions are serious in aviation context. Epilepsy may disqualify despite medication. Head injury with LOC requires DAME assessment.",
     "key_facts": [
@@ -1978,7 +1978,7 @@
   {
     "code": "10.30.12(h)",
     "topic": "10.30 — Fitness to Fly",
-    "syllabus_desc": "Describe the effects of food poisoning and gastroenteritis on pilot performance and methods to minimise/manage",
+    "syllabus_desc": "With regard to the following factors, describe their effects on pilot performance and methods by which they may be minimised/managed: Food poisoning and gastroenteritis",
     "concept": "Psychological fitness involves mental health, stress management, and cognitive function. Conditions such as depression, anxiety, bipolar disorder, or psychotic disorders require assessment. Antidepressant medications vary in their effects — some are safe for flying, others impair judgment or cause drowsiness. Significant stress, recent bereavement, or relationship problems may temporarily affect fitness.",
     "exam_tip": "Mental health conditions require DAME assessment. Many are manageable with appropriate medication. Stress and major life events may temporarily affect fitness.",
     "key_facts": [
@@ -1993,7 +1993,7 @@
   {
     "code": "10.30.12(i)",
     "topic": "10.30 — Fitness to Fly",
-    "syllabus_desc": "Describe the effects of neurological factors on pilot performance and methods to minimise/manage",
+    "syllabus_desc": "With regard to the following factors, describe their effects on pilot performance and methods by which they may be minimised/managed: Neurological factors (including fits/epilepsy, brain injury, fainting, headaches, migraines)",
     "concept": "Substance use and medication effects are critical to flying fitness. Alcohol impairs judgment and coordination — the legal limit is zero for pilots before flight and a minimum 8-hour interval after drinking. Recreational drugs affect cognition and judgment. Many prescription medications (sedatives, antihistamines, beta-blockers) impair flying ability. Cannabis and other drugs remain disqualifying. Always consult the DAME about any medication.",
     "exam_tip": "Eight-hour rule for alcohol is minimum — 'one bottle, one throttle' is safer. Many common medications impair flying; consult DAME before flying.",
     "key_facts": [
@@ -2008,7 +2008,7 @@
   {
     "code": "10.30.12(j)",
     "topic": "10.30 — Fitness to Fly",
-    "syllabus_desc": "Describe the effects of emotional factors on pilot performance and methods to minimise/manage",
+    "syllabus_desc": "With regard to the following factors, describe their effects on pilot performance and methods by which they may be minimised/managed: Emotional factors (including depression and anxiety)",
     "concept": "Musculoskeletal fitness is required to physically control the aircraft. Conditions such as arthritis, back pain, arm weakness, or joint instability must not prevent precise control inputs or emergency manoeuvres. Injuries recovering with physical therapy often allow return to flying once function is restored. Severe or progressive conditions may require restrictions or disqualification.",
     "exam_tip": "Musculoskeletal conditions are assessed based on functional capability to control the aircraft. Recovery from injury often allows return to flying.",
     "key_facts": [
@@ -2023,7 +2023,7 @@
   {
     "code": "10.30.12(k)",
     "topic": "10.30 — Fitness to Fly",
-    "syllabus_desc": "Describe the effects of dehydration on pilot performance and methods to minimise/manage",
+    "syllabus_desc": "With regard to the following factors, describe their effects on pilot performance and methods by which they may be minimised/managed: Dehydration",
     "concept": "Infectious disease considerations include conditions that might cause sudden incapacity (e.g., uncontrolled fever, severe influenza, COVID-19) or conditions contagious and serious in enclosed aircraft environments. Pilots recovering from significant illness should have medical clearance and may need a period of reduced flying to rebuild physical conditioning. Minor colds or minor infections typically do not preclude flying if the pilot is otherwise fit.",
     "exam_tip": "Fever, severe illness, or contagious serious conditions prohibit flying. After illness, assess recovery before returning to flying.",
     "key_facts": [
@@ -2038,7 +2038,7 @@
   {
     "code": "10.32.2",
     "topic": "10.32 — Alcohol and Drugs",
-    "syllabus_desc": "Explain the effects of alcohol on pilot performance",
+    "syllabus_desc": "Explain the effects of alcohol on pilot performance.",
     "concept": "Alcohol is a central nervous system depressant that impairs pilot performance progressively. Judgment and decision-making are impaired first (even at low BAC), followed by reduced coordination, slower reaction times, degraded vision, and impaired spatial orientation. Alcohol also reduces tolerance to hypoxia, increases susceptibility to spatial disorientation, and disrupts sleep quality. Effects persist well beyond the period of intoxication — hangover effects can impair performance for 24+ hours.",
     "exam_tip": "Judgment is impaired FIRST — this is key because the pilot cannot recognise their own impairment. Effects persist well beyond intoxication (hangover). Alcohol compounds hypoxia risk.",
     "key_facts": [
@@ -2053,7 +2053,7 @@
   {
     "code": "10.32.4",
     "topic": "10.32 — Alcohol and Drugs",
-    "syllabus_desc": "Explain the restriction associated with the consumption of alcohol and flying",
+    "syllabus_desc": "Explain the restriction associated with the consumption of alcohol and flying.",
     "concept": "NZ CAR 91.207 requires a minimum 8 hours between consumption of alcohol and flying ('bottle to throttle'). However, 8 hours is a MINIMUM — BAC must also be zero before flying. The 8-hour rule alone may be insufficient after heavy drinking. Pilots must also be free from any after-effects of alcohol (hangover). Some operators and airlines impose longer restrictions (e.g., 12 or 24 hours).",
     "exam_tip": "Know the NZ rule: 8 hours minimum AND zero BAC AND no after-effects. The 8-hour rule alone is insufficient after heavy drinking.",
     "key_facts": [
@@ -2068,7 +2068,7 @@
   {
     "code": "10.32.6",
     "topic": "10.32 — Alcohol and Drugs",
-    "syllabus_desc": "Explain the effects of drugs on pilot performance",
+    "syllabus_desc": "Explain the effects of drugs on pilot performance.",
     "concept": "Drugs (prescription, over-the-counter, and recreational) can impair pilot performance through sedation, reduced reaction time, impaired judgment, visual disturbance, and altered mood. Common aviation-problematic drugs include antihistamines (drowsiness), decongestants (stimulation then rebound fatigue), analgesics (drowsiness, impaired concentration), and anti-anxiety medications (sedation). Even 'non-drowsy' formulations may impair at altitude. All medication use should be discussed with a DAME.",
     "exam_tip": "Any medication can potentially impair flying — always consult DAME. Antihistamines are the most common problematic OTC medication for pilots.",
     "key_facts": [
@@ -2083,7 +2083,7 @@
   {
     "code": "10.32.8",
     "topic": "10.32 — Alcohol and Drugs",
-    "syllabus_desc": "Describe considerations associated with the taking of over the counter medication and flying",
+    "syllabus_desc": "Describe considerations associated with the taking of over the counter medication and flying.",
     "concept": "Over-the-counter medications pose particular risks because pilots may assume they are safe. Common issues include: antihistamines (drowsiness, impaired concentration), decongestants (initially stimulating then rebound sedation), analgesics (some contain codeine causing drowsiness), cough suppressants (may cause drowsiness), and sleep aids (prolonged sedation). The underlying condition requiring medication may itself be a flying risk. Pilots should consult their DAME before taking any OTC medication and flying.",
     "exam_tip": "The underlying condition is often as much a risk as the medication itself. Don't fly with a cold regardless of medication. Always consult DAME.",
     "key_facts": [
@@ -2098,7 +2098,7 @@
   {
     "code": "10.32.10",
     "topic": "10.32 — Alcohol and Drugs",
-    "syllabus_desc": "Explain why illegal/recreational drugs are unacceptable for pilots",
+    "syllabus_desc": "Explain why illegal/recreational drugs are unacceptable for pilots.",
     "concept": "Illegal and recreational drugs are absolutely prohibited for pilots. Cannabis impairs reaction time, judgment, and memory for 24+ hours after use. Cocaine and stimulants cause unpredictable cardiovascular effects and crash fatigue. Opioids impair consciousness and reaction time. All recreational drugs have unpredictable effects, long detection windows, and no safe dose for aviation. Positive drug tests result in licence revocation.",
     "exam_tip": "Zero tolerance for recreational drugs in aviation. Cannabis effects persist 24+ hours. Positive test = licence revocation.",
     "key_facts": [
@@ -2113,7 +2113,7 @@
   {
     "code": "10.34.2",
     "topic": "10.34 — Blood Donation",
-    "syllabus_desc": "Describe the effect on the body of donating blood",
+    "syllabus_desc": "Describe the effect on the body of donating blood.",
     "concept": "Donating whole blood (approximately 450-500 mL) temporarily reduces the body's oxygen-carrying capacity by removing haemoglobin-containing red blood cells. This is equivalent to a form of anaemic hypoxia. The body compensates by increasing heart rate and redistributing blood flow, but full red blood cell replacement takes 4-8 weeks. In the interim, reduced oxygen-carrying capacity makes the pilot more susceptible to the effects of altitude.",
     "exam_tip": "Blood donation = temporary anaemic hypoxia. The pilot is more susceptible to altitude effects until blood volume is fully restored.",
     "key_facts": [
@@ -2128,7 +2128,7 @@
   {
     "code": "10.34.4",
     "topic": "10.34 — Blood Donation",
-    "syllabus_desc": "State the recommended time period between the donation of blood and flying",
+    "syllabus_desc": "State the recommended time period between the donation of blood and flying.",
     "concept": "The recommended minimum waiting period is 48 hours after donating whole blood and 24 hours after donating plasma or platelets before flying. These are minimum periods — individual recovery varies and pilots should assess their fitness using IMSAFE before flying after any donation. Some authorities recommend longer periods for operations at higher altitudes.",
     "exam_tip": "48 hours after whole blood, 24 hours after plasma. These are minimums — use IMSAFE to self-assess.",
     "key_facts": [
@@ -2143,7 +2143,7 @@
   {
     "code": "10.36.2(a)",
     "topic": "10.36 — Environmental Hazards",
-    "syllabus_desc": "Describe the symptoms, effects and immediate treatments for carbon monoxide",
+    "syllabus_desc": "Describe the symptoms, effects and immediate treatments for the following hazards present in the aviation environment: Carbon monoxide",
     "concept": "Carbon monoxide (CO) binds to haemoglobin 200-250 times more readily than oxygen, forming carboxyhaemoglobin and reducing oxygen-carrying capacity (anaemic hypoxia). Symptoms progress from headache and dizziness to nausea, confusion, cherry-red lips/skin, loss of consciousness, and death. Treatment: immediately open all vents and windows, turn off cabin heater, use supplemental oxygen if available, and land as soon as possible. CO exposure at altitude compounds hypoxic effects.",
     "exam_tip": "CO binds 200-250x more readily than O2. Cherry-red lips are a classic sign. Treatment: fresh air + O2 + land ASAP.",
     "key_facts": [
@@ -2158,7 +2158,7 @@
   {
     "code": "10.36.2(b)",
     "topic": "10.36 — Environmental Hazards",
-    "syllabus_desc": "Describe the symptoms, effects and immediate treatments for fuel exposure",
+    "syllabus_desc": "Describe the symptoms, effects and immediate treatments for the following hazards present in the aviation environment: Fuel",
     "concept": "Aviation fuel (avgas, Jet A-1) causes irritation to skin, eyes, and mucous membranes. Prolonged skin contact causes dermatitis. Inhalation of fuel vapour causes headache, dizziness, nausea, and respiratory irritation. High concentrations can cause narcosis and unconsciousness. Treatment: move to fresh air, wash affected skin with soap and water, flush eyes with clean water, and seek medical attention if symptoms persist.",
     "exam_tip": "Fuel is a skin and respiratory irritant. Treatment: fresh air and thorough washing. Avoid prolonged skin contact during refuelling.",
     "key_facts": [
@@ -2173,7 +2173,7 @@
   {
     "code": "10.36.2(c)",
     "topic": "10.36 — Environmental Hazards",
-    "syllabus_desc": "Describe the symptoms, effects and immediate treatments for lubricating oils",
+    "syllabus_desc": "Describe the symptoms, effects and immediate treatments for the following hazards present in the aviation environment: Lubricating oils",
     "concept": "Aviation lubricating oils can cause skin irritation and dermatitis with prolonged or repeated contact. Inhalation of oil mist or fumes (often noticed as a peculiar smell in the cockpit) causes respiratory irritation, headache, and nausea. Hot oil contact causes burns. Treatment: remove contaminated clothing, wash affected skin thoroughly, ventilate cockpit if oil fumes detected, and seek medical attention for burns or persistent symptoms.",
     "exam_tip": "Oil fumes in the cockpit indicate a potential engine or system leak — treat as both a health hazard and a mechanical concern.",
     "key_facts": [
@@ -2188,7 +2188,7 @@
   {
     "code": "10.36.2(d)",
     "topic": "10.36 — Environmental Hazards",
-    "syllabus_desc": "Describe the symptoms, effects and immediate treatments for hydraulic fluids",
+    "syllabus_desc": "Describe the symptoms, effects and immediate treatments for the following hazards present in the aviation environment: Hydraulic fluids",
     "concept": "Hydraulic fluids (such as Skydrol) are highly irritating to skin, eyes, and respiratory tract. Contact causes chemical burns to skin and severe eye damage. Inhalation of mist or vapour causes respiratory distress. Some hydraulic fluids are toxic if ingested. Treatment: immediately flush affected skin and eyes with large amounts of water for at least 15 minutes, remove contaminated clothing, ventilate cockpit, and seek medical attention urgently.",
     "exam_tip": "Hydraulic fluids are MORE hazardous than fuel or oil — they cause chemical burns. Immediate flushing with water is critical.",
     "key_facts": [
@@ -2203,7 +2203,7 @@
   {
     "code": "10.36.4",
     "topic": "10.36 — Environmental Hazards",
-    "syllabus_desc": "State the source of carbon monoxide poisoning in general aviation aircraft",
+    "syllabus_desc": "State the source of carbon monoxide poisoning in general aviation aircraft.",
     "concept": "In general aviation aircraft, the primary source of carbon monoxide is exhaust gases leaking into the cockpit through defects in the exhaust system or cabin heater. Most GA cabin heaters work by passing air over the exhaust manifold — any crack or corrosion in the manifold allows CO to enter the heated air supply. This makes CO poisoning most likely when the cabin heater is in use.",
     "exam_tip": "Cabin heater is the primary CO entry point in GA aircraft — it passes air over the exhaust manifold. CO risk is highest with heater ON.",
     "key_facts": [
@@ -2218,7 +2218,7 @@
   {
     "code": "10.36.6",
     "topic": "10.36 — Environmental Hazards",
-    "syllabus_desc": "Describe reliable methods for the detection of carbon monoxide",
+    "syllabus_desc": "Describe reliable methods for the detection of carbon monoxide.",
     "concept": "Reliable CO detection methods include chemical spot detectors (cards that change colour in the presence of CO — inexpensive, should be mounted near pilot's face), electronic CO detectors (provide audible alarm and digital readout), and awareness of symptoms (headache, nausea during heater use). Chemical detectors should be replaced regularly as they have a limited lifespan. Electronic detectors are more reliable but more expensive.",
     "exam_tip": "Chemical spot detector cards are the minimum standard for GA — mount near the pilot's face and replace regularly.",
     "key_facts": [
@@ -2233,7 +2233,7 @@
   {
     "code": "10.36.8",
     "topic": "10.36 — Environmental Hazards",
-    "syllabus_desc": "Describe methods of eliminating carbon monoxide from the cockpit",
+    "syllabus_desc": "Describe methods of eliminating carbon monoxide from the cockpit.",
     "concept": "To eliminate CO from the cockpit: immediately turn off the cabin heater (primary source), open all air vents and windows to maximise fresh air ventilation, use supplemental oxygen if available (displaces CO from haemoglobin), and land as soon as practicable. After landing, have the exhaust system and heater inspected before further flight. CO has a half-life of 4-6 hours in the body breathing normal air, reduced to 1 hour with 100% oxygen.",
     "exam_tip": "Heater OFF, vents OPEN, O2 on if available, LAND. Have exhaust system inspected before next flight.",
     "key_facts": [
@@ -2248,7 +2248,7 @@
   {
     "code": "10.38.2",
     "topic": "10.38 — Stress Management",
-    "syllabus_desc": "Define stress",
+    "syllabus_desc": "Define stress.",
     "concept": "Stress is the body's physiological and psychological response to demands or perceived threats. It involves activation of the autonomic nervous system (fight-or-flight response) and release of stress hormones (cortisol, adrenaline). Moderate stress enhances performance; excessive stress degrades it. Stress can be caused by environmental factors (noise, heat), physiological factors (fatigue, illness), or psychological factors (workload, personal problems).",
     "exam_tip": "Stress is a RESPONSE to demands, not the demands themselves. Moderate stress helps; excessive stress harms. Know the Yerkes-Dodson curve.",
     "key_facts": [
@@ -2263,7 +2263,7 @@
   {
     "code": "10.38.4",
     "topic": "10.38 — Stress Management",
-    "syllabus_desc": "Describe a simple model of stress",
+    "syllabus_desc": "Describe a simple model of stress.",
     "concept": "The Yerkes-Dodson Law describes an inverted-U relationship between arousal (stress) and performance. At low arousal, performance is poor due to lack of motivation and attention. At moderate arousal, performance peaks — the pilot is alert, focused, and responsive. At high arousal (excessive stress), performance declines rapidly due to anxiety, tunnel vision, and cognitive overload. The optimum arousal level varies by task complexity — complex tasks require lower arousal for peak performance.",
     "exam_tip": "Yerkes-Dodson = inverted U curve. Low stress = poor performance. Moderate = optimal. High = degraded. Complex tasks need lower arousal.",
     "key_facts": [
@@ -2278,7 +2278,7 @@
   {
     "code": "10.38.6",
     "topic": "10.38 — Stress Management",
-    "syllabus_desc": "Define arousal",
+    "syllabus_desc": "Define arousal.",
     "concept": "Arousal is the level of physiological and psychological activation or alertness. It ranges from deep sleep (minimal arousal) through relaxed wakefulness, alert attention, high alertness, to extreme agitation (maximum arousal). In aviation, appropriate arousal ensures pilots are alert and responsive. Arousal is influenced by workload, stress, fatigue, circadian rhythm, and stimulants.",
     "exam_tip": "Arousal = level of activation/alertness. Ranges from sleep to extreme agitation. Moderate arousal is optimal for flying.",
     "key_facts": [
@@ -2293,7 +2293,7 @@
   {
     "code": "10.38.8",
     "topic": "10.38 — Stress Management",
-    "syllabus_desc": "Explain the relationship between stress and arousal",
+    "syllabus_desc": "Explain the relationship between stress and arousal.",
     "concept": "Stress increases arousal through activation of the sympathetic nervous system. The Yerkes-Dodson Law shows that moderate stress produces optimal arousal and peak performance. Insufficient stress leads to boredom and inattention (under-arousal). Excessive stress causes over-arousal with anxiety, tunnel vision, and reduced cognitive capacity. Pilots must manage their arousal level — recognising when they are under-aroused (boring flight, fatigue) or over-aroused (emergency, conflict).",
     "exam_tip": "Stress drives arousal. Under-arousal = boredom/inattention. Over-arousal = anxiety/tunnel vision. Pilots must recognise and manage both states.",
     "key_facts": [
@@ -2308,7 +2308,7 @@
   {
     "code": "10.38.10(a)",
     "topic": "10.38 — Stress Management",
-    "syllabus_desc": "Describe how heat affects pilot performance",
+    "syllabus_desc": "Describe how the following environmental stressors affect pilot performance: Heat",
     "concept": "Physical fitness is the foundation of stress resilience. Regular aerobic exercise (walking, running, cycling, swimming) strengthens the cardiovascular system and improves stress tolerance. Exercise also improves sleep quality and reduces anxiety. Pilots should maintain regular fitness routines as part of professional fitness.",
     "exam_tip": "Regular exercise builds stress resilience and improves sleep. Exercise is one of the most effective stress management tools.",
     "key_facts": [
@@ -2323,7 +2323,7 @@
   {
     "code": "10.38.10(b)",
     "topic": "10.38 — Stress Management",
-    "syllabus_desc": "Describe how cold affects pilot performance",
+    "syllabus_desc": "Describe how the following environmental stressors affect pilot performance: Cold",
     "concept": "Nutrition affects energy levels, mood, and cognitive function. A balanced diet provides steady energy and supports brain function. Skipping meals, excessive caffeine, or sugar crashes reduce resilience to stress. Hydration is critical — even mild dehydration impairs cognition. Pilots should eat regular balanced meals and maintain hydration, especially before challenging flights.",
     "exam_tip": "Good nutrition supports cognitive function and resilience. Skipping meals or excessive caffeine increases stress vulnerability.",
     "key_facts": [
@@ -2339,7 +2339,7 @@
   {
     "code": "10.38.10(c)",
     "topic": "10.38 — Stress Management",
-    "syllabus_desc": "Describe how noise affects pilot performance",
+    "syllabus_desc": "Describe how the following environmental stressors affect pilot performance: Noise",
     "concept": "Relaxation techniques reduce acute stress and promote recovery from chronic stress. Progressive muscle relaxation (systematically tensing and releasing muscle groups) reduces physical tension. Breathing exercises (slow, deep breathing from the diaphragm) activate the parasympathetic nervous system, opposing stress. Meditation or mindfulness promotes mental calm. These techniques can be practised regularly or used during stressful situations.",
     "exam_tip": "Breathing exercises are quick and effective for acute stress. Slow, deep breathing (4 count in, 6 count out) activates the parasympathetic system.",
     "key_facts": [
@@ -2355,7 +2355,7 @@
   {
     "code": "10.38.10(d)",
     "topic": "10.38 — Stress Management",
-    "syllabus_desc": "Describe how vibration affects pilot performance",
+    "syllabus_desc": "Describe how the following environmental stressors affect pilot performance: Vibration",
     "concept": "Time management and planning reduce the time pressure that creates stress. Planning the flight thoroughly before takeoff (weather, route, fuel, alternates) reduces uncertainty and stress in flight. Scheduling realistic flight times with margins for headwinds or delays prevents the stress of time pressure. Breaking tasks into manageable steps makes large projects less overwhelming.",
     "exam_tip": "Thorough pre-flight planning reduces in-flight stress. Realistic schedules with margins prevent time pressure stress.",
     "key_facts": [
@@ -2371,7 +2371,7 @@
   {
     "code": "10.38.10(e)",
     "topic": "10.38 — Stress Management",
-    "syllabus_desc": "Describe how humidity affects pilot performance",
+    "syllabus_desc": "Describe how the following environmental stressors affect pilot performance: Humidity",
     "concept": "Social support from colleagues, family, friends, and professional counsellors provides buffering against stress. Talking with others normalises stress and often leads to practical advice or emotional support. Isolation amplifies stress — pilots with social support handle stress better. Professional counselling or employee assistance programs provide expert help when stress becomes unmanageable.",
     "exam_tip": "Talk about stress — don't isolate. Colleagues and counsellors provide perspective and support. No shame in seeking help.",
     "key_facts": [
@@ -2387,7 +2387,7 @@
   {
     "code": "10.38.12",
     "topic": "10.38 — Stress Management",
-    "syllabus_desc": "Explain methods of identifying stress",
+    "syllabus_desc": "Explain methods of identifying stress.",
     "concept": "Stress can be identified through physical signs (increased heart rate, sweating, muscle tension, headaches, digestive problems), behavioural changes (irritability, withdrawal, increased errors, changed eating/sleeping patterns), and cognitive indicators (difficulty concentrating, poor decision-making, negative thinking). Self-awareness and peer monitoring are important — pilots should regularly assess their stress levels using tools like IMSAFE.",
     "exam_tip": "Look for physical, behavioural, and cognitive signs. Self-awareness and honest self-assessment are key. IMSAFE covers stress explicitly.",
     "key_facts": [
@@ -2402,7 +2402,7 @@
   {
     "code": "10.38.14",
     "topic": "10.38 — Stress Management",
-    "syllabus_desc": "Explain the difference between acute and chronic stress",
+    "syllabus_desc": "Explain the difference between acute and chronic stress.",
     "concept": "Acute stress is a short-term response to a specific event or situation (e.g., engine failure, severe weather encounter). It triggers the fight-or-flight response, enhancing performance temporarily but degrading it if prolonged. Chronic stress develops from ongoing, unresolved pressures over weeks or months (e.g., financial problems, relationship issues, ongoing work pressure). Chronic stress causes sustained cortisol elevation, leading to fatigue, illness, depression, and progressive performance degradation.",
     "exam_tip": "Acute = specific event, short-term, may enhance performance briefly. Chronic = ongoing pressure, long-term, always degrades performance and health.",
     "key_facts": [
@@ -2417,7 +2417,7 @@
   {
     "code": "10.38.16",
     "topic": "10.38 — Stress Management",
-    "syllabus_desc": "Describe the physiological effects of stress",
+    "syllabus_desc": "Describe the physiological effects of stress.",
     "concept": "Physiological effects of stress include increased heart rate and blood pressure, rapid shallow breathing (risk of hyperventilation), muscle tension, sweating, dry mouth, digestive disruption, and suppressed immune function. The sympathetic nervous system activates the fight-or-flight response, releasing adrenaline and cortisol. Chronic stress leads to sustained elevation of these hormones, causing cardiovascular disease, weakened immunity, and chronic fatigue.",
     "exam_tip": "Stress activates fight-or-flight: heart rate up, breathing fast, muscles tense. Chronic stress leads to real health consequences.",
     "key_facts": [
@@ -2432,7 +2432,7 @@
   {
     "code": "10.38.18",
     "topic": "10.38 — Stress Management",
-    "syllabus_desc": "Describe the psychological effects of stress",
+    "syllabus_desc": "Describe the psychological effects of stress.",
     "concept": "Psychological effects of stress include anxiety, irritability, difficulty concentrating, impaired decision-making, reduced situational awareness, tunnel vision (fixation on one aspect), memory impairment, and emotional instability. Under high stress, pilots may revert to well-practised behaviours even when inappropriate, or may freeze and fail to act. Chronic stress leads to depression, burnout, and withdrawal.",
     "exam_tip": "High stress causes tunnel vision and fixation — the pilot focuses on one thing and misses others. This is a major accident factor.",
     "key_facts": [
@@ -2447,7 +2447,7 @@
   {
     "code": "10.38.20",
     "topic": "10.38 — Stress Management",
-    "syllabus_desc": "Describe the factors that improve personal stress tolerance",
+    "syllabus_desc": "Describe the factors that improve personal stress tolerance.",
     "concept": "Fatigue and other human factors are often the root cause of accidents when combined with other stressors. A fatigued pilot with modest weather conditions might make a poor decision that a rested pilot would catch. Fatigue compounds other risks — manage fatigue before it compounds other problems.",
     "exam_tip": "Fatigue rarely causes an accident by itself but often contributes to the cascade of errors leading to accidents. Prevent fatigue.",
     "key_facts": [
@@ -2462,7 +2462,7 @@
   {
     "code": "10.38.22",
     "topic": "10.38 — Stress Management",
-    "syllabus_desc": "Describe the relationship between stress and fatigue",
+    "syllabus_desc": "Describe the relationship between stress and fatigue.",
     "concept": "Stress and fatigue have a bidirectional relationship — stress causes fatigue, and fatigue increases vulnerability to stress. Chronic stress disrupts sleep quality, leading to accumulated fatigue. Fatigued pilots have reduced stress tolerance, making normally manageable situations overwhelming. The combination of stress and fatigue significantly increases error rates and accident risk. Managing both simultaneously requires addressing sleep, workload, and stressor reduction.",
     "exam_tip": "Stress causes fatigue AND fatigue worsens stress — a vicious cycle. The combination dramatically increases error rates.",
     "key_facts": [
@@ -2477,7 +2477,7 @@
   {
     "code": "10.38.24",
     "topic": "10.38 — Stress Management",
-    "syllabus_desc": "Explain methods of managing stress",
+    "syllabus_desc": "Explain methods of managing stress.",
     "concept": "Special considerations for flight instructors include cumulative fatigue from repeated manoeuvres, student-induced stress (fear of student error), and irregular student schedules. Instructors should manage their own fitness, maintain currency through varied flying, and recognize that teaching while fatigued is less effective and less safe.",
     "exam_tip": "Flight instructors experience fatigue from repetition and stress. Maintain fitness and recognize that fatigued teaching is ineffective.",
     "key_facts": [
@@ -2492,7 +2492,7 @@
   {
     "code": "10.40.2",
     "topic": "10.40 — Sleep and Fatigue",
-    "syllabus_desc": "Explain how individuals differ in their requirement for sleep",
+    "syllabus_desc": "Explain how individuals differ in their requirement for sleep.",
     "concept": "Individual sleep requirements vary, but most adults need 7-9 hours of quality sleep per 24-hour period. Some individuals function well on 6 hours; others need 9+. Requirements are genetically influenced and change with age (older adults may need less). Regardless of individual variation, consistently getting less sleep than required accumulates sleep debt, progressively impairing performance. Pilots should know their personal sleep requirement and ensure they meet it before flying.",
     "exam_tip": "Most adults need 7-9 hours. Individual variation exists but consistently less than needed accumulates sleep debt. Know YOUR requirement.",
     "key_facts": [
@@ -2507,7 +2507,7 @@
   {
     "code": "10.40.4(a)",
     "topic": "10.40 — Sleep and Fatigue",
-    "syllabus_desc": "Explain the effects of napping on alertness management",
+    "syllabus_desc": "Explain the effects of the following alertness management techniques: Napping",
     "concept": "Sleep architecture consists of non-REM (NREM) stages 1-3 and REM (rapid eye movement) sleep. NREM stage 1-2 is light sleep; stage 3 is deep sleep. REM sleep, where dreams occur, is crucial for memory consolidation. A full sleep cycle lasts about 90 minutes. Adults need multiple complete cycles nightly. Disrupted sleep (waking, fragmented sleep) prevents completing full cycles and leaves sleep deprived.",
     "exam_tip": "Sleep cycles are 90 minutes. Complete cycles provide restoration. Disrupted sleep is nearly as bad as no sleep.",
     "key_facts": [
@@ -2523,7 +2523,7 @@
   {
     "code": "10.40.4(b)",
     "topic": "10.40 — Sleep and Fatigue",
-    "syllabus_desc": "Explain the effects of caffeine consumption on alertness management",
+    "syllabus_desc": "Explain the effects of the following alertness management techniques: Caffeine consumption",
     "concept": "Circadian rhythm is the body's internal 24-hour cycle regulating sleep-wake, hormone production (cortisol, melatonin), body temperature, and alertness. The circadian rhythm is set by light exposure — morning light advances the rhythm, evening light delays it. The rhythm controls when the body naturally wants to sleep and wake. Disrupting the rhythm through shift work or travel causes circadian fatigue.",
     "exam_tip": "Circadian rhythm is powerful and involuntary. Light exposure shifts it. Jet lag and shift work disrupt it, causing persistent fatigue.",
     "key_facts": [
@@ -2539,7 +2539,7 @@
   {
     "code": "10.40.4(c)",
     "topic": "10.40 — Sleep and Fatigue",
-    "syllabus_desc": "Explain the effects of taking sedatives on alertness management",
+    "syllabus_desc": "Explain the effects of the following alertness management techniques: Taking sedatives",
     "concept": "Sleep hygiene practices promote sleep quality and quantity. Good sleep hygiene includes: consistent sleep schedule (same bedtime and wake time), dark environment, cool temperature (65-68 degrees F), quiet space, avoiding screens 30-60 minutes before bed (blue light suppresses melatonin), avoiding caffeine 4-6 hours before sleep, avoiding alcohol (disrupts sleep architecture), and avoiding heavy meals before bed.",
     "exam_tip": "Sleep hygiene is teachable and effective. Consistent schedule is the most important factor. Dark, cool, quiet, no screens before bed.",
     "key_facts": [
@@ -2555,7 +2555,7 @@
   {
     "code": "10.40.4(d)",
     "topic": "10.40 — Sleep and Fatigue",
-    "syllabus_desc": "Explain the effects of taking stimulants other than caffeine on alertness management",
+    "syllabus_desc": "Explain the effects of the following alertness management techniques: Taking stimulants other than caffeine",
     "concept": "Sleep disorders include insomnia (difficulty falling or staying asleep), sleep apnoea (breathing pauses during sleep causing arousal), restless leg syndrome (uncomfortable sensations in legs during sleep), narcolepsy (sudden sleep episodes), and others. Sleep apnoea is particularly dangerous in pilots as it causes intermittent hypoxia and daytime fatigue. Any suspected sleep disorder should be evaluated by a sleep specialist and reported to the DAME.",
     "exam_tip": "Sleep apnoea is disqualifying until treated. Daytime sleepiness despite sleeping 'enough' suggests a sleep disorder. Consult sleep specialist and DAME.",
     "key_facts": [
@@ -2571,7 +2571,7 @@
   {
     "code": "10.40.6",
     "topic": "10.40 — Sleep and Fatigue",
-    "syllabus_desc": "Describe sleep disorders and their effects on pilot performance",
+    "syllabus_desc": "Describe sleep disorders and their effects on pilot performance.",
     "concept": "Common sleep disorders affecting pilots include obstructive sleep apnoea (repeated breathing interruptions causing poor sleep quality and daytime sleepiness), insomnia (difficulty falling or staying asleep), and circadian rhythm disorders (jet lag, shift work disorder). Sleep apnoea is particularly dangerous as pilots may not realise their sleep is fragmented. These disorders cause chronic fatigue, impaired concentration, and increased accident risk. Medical assessment and treatment are required.",
     "exam_tip": "Sleep apnoea is the most significant sleep disorder for pilots — causes daytime sleepiness without the pilot realising. Requires medical assessment.",
     "key_facts": [
@@ -2586,7 +2586,7 @@
   {
     "code": "10.40.8",
     "topic": "10.40 — Sleep and Fatigue",
-    "syllabus_desc": "Define fatigue",
+    "syllabus_desc": "Define fatigue.",
     "concept": "Fatigue is a state of reduced mental and physical performance resulting from inadequate sleep, prolonged wakefulness, circadian rhythm disruption, or excessive workload. Fatigue impairs attention, reaction time, judgment, decision-making, and motor coordination. It is one of the most significant human factors threats in aviation. Unlike alcohol, there is no objective test for fatigue — self-assessment using IMSAFE is the primary defence.",
     "exam_tip": "Fatigue = reduced performance from inadequate sleep or excessive demand. No objective test exists — self-assessment is critical. One of the biggest HF threats.",
     "key_facts": [
@@ -2601,7 +2601,7 @@
   {
     "code": "10.40.10",
     "topic": "10.40 — Sleep and Fatigue",
-    "syllabus_desc": "Explain the causes of fatigue and its effect on pilot performance",
+    "syllabus_desc": "Explain the causes of fatigue and its effect on pilot performance.",
     "concept": "Fatigue is caused by insufficient sleep, prolonged wakefulness, circadian rhythm disruption (flying during the circadian low 0200-0600), poor sleep quality, accumulated sleep debt, and excessive physical or mental workload. Effects on pilot performance include slower reaction time, reduced attention and concentration, impaired decision-making, increased error rate, reduced situational awareness, microsleeps, and mood disturbance. Fatigue is a leading factor in aviation accidents.",
     "exam_tip": "Key causes: insufficient sleep, circadian disruption, sleep debt. Effects mirror alcohol impairment. Fatigue is a major accident factor.",
     "key_facts": [
@@ -2616,7 +2616,7 @@
   {
     "code": "10.40.12",
     "topic": "10.40 — Sleep and Fatigue",
-    "syllabus_desc": "Describe the symptoms of fatigue",
+    "syllabus_desc": "Describe the symptoms of fatigue.",
     "concept": "Fatigue symptoms include persistent yawning, heavy eyelids, difficulty concentrating, slower reaction times, reduced motivation, irritability, increased errors, memory lapses, and difficulty maintaining altitude or heading. Advanced fatigue can cause microsleeps — brief involuntary sleep episodes lasting seconds where the pilot is unconscious. The insidious nature of fatigue means pilots may not recognise their own impairment.",
     "exam_tip": "Microsleeps are the most dangerous symptom — the pilot is unconscious for seconds without realising. Watch for yawning and difficulty concentrating as early warnings.",
     "key_facts": [
@@ -2631,7 +2631,7 @@
   {
     "code": "10.40.14",
     "topic": "10.40 — Sleep and Fatigue",
-    "syllabus_desc": "Explain the difference between acute and chronic fatigue",
+    "syllabus_desc": "Explain the difference between acute and chronic fatigue.",
     "concept": "Acute fatigue results from a single period of extended wakefulness or demanding work. It is reversible with adequate sleep — typically one or two good nights restore performance. Chronic fatigue results from accumulated sleep debt over days or weeks of insufficient sleep. It is NOT reversible by a single night's sleep — recovery requires sustained adequate sleep over several days. Chronic fatigue is more dangerous because the pilot adapts to feeling tired and may not recognise their impairment.",
     "exam_tip": "Acute = one bad night, fixable with sleep. Chronic = accumulated over weeks, NOT fixable by one night. Chronic fatigue is more dangerous because the pilot doesn't recognise it.",
     "key_facts": [
@@ -2646,7 +2646,7 @@
   {
     "code": "10.42.2",
     "topic": "10.42 — Ageing",
-    "syllabus_desc": "Describe the effects of the normal process of human ageing",
+    "syllabus_desc": "Describe the effects of the normal process of human ageing on:",
     "concept": "Crew Resource Management (CRM) is the effective use of all available human and technical resources to ensure safe flight operations. Resources include crew knowledge and skills, aircraft systems, procedures, communications, and external information (air traffic control, weather). CRM recognises that human error is inevitable but can be managed through systems, procedures, and teamwork.",
     "exam_tip": "CRM = using all available resources effectively. Resources are human (crew skills, knowledge), technical (aircraft systems), and procedural (SOPs).",
     "key_facts": [
@@ -2661,7 +2661,7 @@
   {
     "code": "10.42.2(a)",
     "topic": "10.42 — Ageing",
-    "syllabus_desc": "Describe the effects of ageing on the sensitivity and acuity of the sensory system",
+    "syllabus_desc": "Describe the effects of the normal process of human ageing on: The sensitivity and acuity of the sensory system",
     "concept": "Leadership in CRM involves the pilot in command (captain) providing clear direction and establishing a safe operating environment. Effective leaders make decisions decisively but invite input, listen to crew concerns, and maintain a culture where crew members feel safe voicing concerns. Poor leadership (authoritarian, dismissive of crew input, making hasty decisions) leads to crews that withhold critical information.",
     "exam_tip": "Leadership means listening to crew. Dismissive captains don't hear critical information from crew. Good leaders ask 'What am I missing?'",
     "key_facts": [
@@ -2676,7 +2676,7 @@
   {
     "code": "10.42.2(b)",
     "topic": "10.42 — Ageing",
-    "syllabus_desc": "Describe the effects of ageing on muscular strength",
+    "syllabus_desc": "Describe the effects of the normal process of human ageing on: Muscular strength",
     "concept": "Communication in CRM requires clear, concise information sharing. Pilots must brief crew thoroughly, confirm understanding, speak up if concerned, and listen actively to crew. Common aviation phraseology ensures standardisation. Closed-loop communication (repeat back) confirms understanding. Poor communication (mumbling, unclear instructions, assumptions) leads to misunderstandings and errors.",
     "exam_tip": "Clear communication is fundamental. Use standard phraseology, brief thoroughly, listen actively, and confirm understanding.",
     "key_facts": [
@@ -2691,7 +2691,7 @@
   {
     "code": "10.42.2(c)",
     "topic": "10.42 — Ageing",
-    "syllabus_desc": "Describe the effects of ageing on resilience and reaction times",
+    "syllabus_desc": "Describe the effects of the normal process of human ageing on: Resilience and reaction times",
     "concept": "Teamwork in CRM requires mutual respect and shared commitment to safety. Team members must feel valued and safe voicing concerns. Teamwork includes supporting colleagues, distributing workload, and backing up each other. Cliques, personality conflicts, or hierarchical barriers that prevent information sharing degrade teamwork and safety.",
     "exam_tip": "Teamwork requires psychological safety — crew must feel safe speaking up. Respect all team members equally.",
     "key_facts": [
@@ -2706,7 +2706,7 @@
   {
     "code": "10.42.2(d)",
     "topic": "10.42 — Ageing",
-    "syllabus_desc": "Describe the effects of ageing on sleep/wakefulness patterns",
+    "syllabus_desc": "Describe the effects of the normal process of human ageing on: Sleep/wakefulness patterns",
     "concept": "Workload management in CRM involves recognising when workload exceeds capacity and asking for help before errors occur. The captain should monitor crew workload and adjust task distribution. Crew should speak up when workload is high ('I'm getting behind'). Procedures should be designed to manage workload during critical phases (approach, landing).",
     "exam_tip": "Speak up early: 'I'm getting behind' prevents errors. Captain monitors crew workload and adjusts accordingly.",
     "key_facts": [
@@ -2721,7 +2721,7 @@
   {
     "code": "10.42.2(e)",
     "topic": "10.42 — Ageing",
-    "syllabus_desc": "Describe the effects of ageing on cognitive or mental functioning",
+    "syllabus_desc": "Describe the effects of the normal process of human ageing on: Cognitive or mental functioning",
     "concept": "Decision-making in CRM involves gathering relevant information, assessing options, consulting the crew, and deciding decisively. The captain makes the final decision but benefits from crew input. Crew should provide information ('The engine temperature is rising') and can question decisions ('Captain, is the landing gear down?'). Shared mental model — crew understanding the captain's intent and likely decisions — supports good decision-making.",
     "exam_tip": "Captain decides, but gathers input. Crew can question ('Is the gear down?'). Shared understanding prevents surprises.",
     "key_facts": [
@@ -2736,7 +2736,7 @@
   {
     "code": "10.42.2(f)",
     "topic": "10.42 — Ageing",
-    "syllabus_desc": "Describe the effects of ageing on the acquisition of new information",
+    "syllabus_desc": "Describe the effects of the normal process of human ageing on: The acquisition of new information",
     "concept": "Situation awareness in CRM is shared among the crew — all crew members understand aircraft status, flight progress, and potential threats. Shared situation awareness prevents the situation where the captain believes one thing and first officer observes something different. Briefing thoroughly and communicating changes maintains shared awareness.",
     "exam_tip": "Situation awareness is shared. Everyone should know the plan and status. Changes should be communicated to maintain shared awareness.",
     "key_facts": [
@@ -2751,7 +2751,7 @@
   {
     "code": "10.42.2(g)",
     "topic": "10.42 — Ageing",
-    "syllabus_desc": "Describe the effects of ageing on the retention and retrieval of stored information in memory",
+    "syllabus_desc": "Describe the effects of the normal process of human ageing on: The retention and retrieval of stored information in memory",
     "concept": "Conflict resolution in CRM addresses disagreements about procedures, decisions, or aircraft status without hierarchical conflict suppressing important information. Phrases like 'I'm concerned about...' or 'Can we reconsider...' allow crew to raise concerns without confrontation. Captains should welcome this kind of input. Unresolved conflict reduces performance and safety.",
     "exam_tip": "'I'm concerned' or 'Can we reconsider' allows crew to raise safety issues. Captain should welcome this input, not shut it down.",
     "key_facts": [
@@ -2766,7 +2766,7 @@
   {
     "code": "10.42.2(h)",
     "topic": "10.42 — Ageing",
-    "syllabus_desc": "Describe the effects of ageing on the rate of information processing",
+    "syllabus_desc": "Describe the effects of the normal process of human ageing on: The rate of information processing",
     "concept": "Error management in CRM acknowledges that errors occur and focuses on catching them before they cause harm. Procedures are designed with error traps (checklists, cross-checks). Crew should monitor each other for errors and speak up ('I don't see the landing gear down'). A non-punitive reporting culture encourages reporting of errors so they can be learned from.",
     "exam_tip": "Checklists and cross-checks trap errors. Monitor each other. Non-punitive reporting culture supports safety learning.",
     "key_facts": [
@@ -2781,7 +2781,7 @@
   {
     "code": "10.42.2(i)",
     "topic": "10.42 — Ageing",
-    "syllabus_desc": "Describe the effects of ageing on insight and self-awareness of your individual capabilities",
+    "syllabus_desc": "Describe the effects of the normal process of human ageing on: Insight and self-awareness of your individual capabilities",
     "concept": "CRM training and proficiency should be ongoing. Airlines and training organisations conduct CRM training covering communication, teamwork, decision-making, and error management. Proficiency checks include not just technical flying but also CRM behaviours. Pilots should seek opportunities to fly with experienced crew, observe good CRM, and build their own CRM skills throughout their career.",
     "exam_tip": "CRM is a learnable skill. Training, proficiency checks, and learning from experienced crew all build CRM competence.",
     "key_facts": [
@@ -3404,7 +3404,7 @@
   {
     "code": "10.60.2",
     "topic": "10.60 — Instrumentation, Displays and Alerts",
-    "syllabus_desc": "Describe how information can be presented using display instruments.",
+    "syllabus_desc": "Explain the importance of the following in the design of instrumentation, displays and alerts:",
     "concept": "Display instruments present flight information in various formats to support pilot perception and decision-making. Analog displays use needle position relative to scale markings to show values (altimeter, airspeed). Digital displays show numerical values directly (altitude readouts). Integrated displays present multiple data on a single screen with visual relationships (Primary Flight Display showing attitude, airspeed, altitude, heading in one glance). Trend displays show rate of change (vertical speed indicator). Context matters: analog displays provide good trend and rate information through needle movement but can be misread; digital displays are precise but provide poor trend information; integrated displays reduce pilot scanning but require complex interpretation. Modern aircraft use combinations: analog instruments for backup, digital for precise values, and integrated displays for comprehensive situational awareness. Effective display design reduces pilot workload and error through appropriate information presentation.",
     "exam_tip": "Different display types suit different purposes. Analog shows trends well, digital shows exact values, integrated provides comprehensive SA. Understand the tradeoffs.",
     "key_facts": [
@@ -3420,7 +3420,7 @@
   {
     "code": "10.60.4",
     "topic": "10.60 — Instrumentation, Displays and Alerts",
-    "syllabus_desc": "Explain the limitations of alerting systems.",
+    "syllabus_desc": "Describe parallax error.",
     "concept": "Alerting systems (warnings, cautions, advisories) have inherent limitations: alerts cannot distinguish between actual hazards and false alarms reliably (high false alarm rates reduce credibility and lead to desensitization), alerts may be triggered too late to permit recovery (late warnings are useless), alert thresholds may be set too conservative (excessive nuisance alerts) or too lenient (missed real hazards), alerts do not automatically capture attention if pilots are task-focused (change blindness), and accumulation of simultaneous alerts creates confusion and workload. Pilots may experience alert fatigue if they encounter frequent false alarms, causing them to ignore or minimize alert significance. Additionally, some hazards (loss of airspeed, spatial disorientation) may develop so rapidly that no alert system provides sufficient warning. Effective alerting requires careful threshold setting, pilot training in interpretation, and integration with other information sources. Alerts should guide attention but not replace active monitoring.",
     "exam_tip": "Alerting limitations: false alarms, late warnings, high workload from multiple alerts, and alert fatigue. Understand that alerts support but cannot replace pilot monitoring.",
     "key_facts": [
@@ -3436,7 +3436,7 @@
   {
     "code": "10.60.6",
     "topic": "10.60 — Instrumentation, Displays and Alerts",
-    "syllabus_desc": "Explain common types of instrument reading errors.",
+    "syllabus_desc": "Describe potential errors in the interpretation of three pointer altimeters.",
     "concept": "Common instrument reading errors include: transposition errors (reading 3000 feet as 3000 feet when actually at 5000 feet), decimal errors (reading 150 knots as 1500 knots), reversal errors (reading an inverted indicator backwards), scale misidentification (reading the wrong scale on multi-scale instruments), parallax errors (reading from incorrect viewing angle), fixation errors (reading only one instrument and missing discrepancies), and interpolation errors (guessing values between scale marks incorrectly). Expectancy effects cause pilots to 'see' expected values rather than actual values. Fatigue and workload increase error rates. Instruments vary in error susceptibility: analog instruments are prone to parallax and misidentification, digital displays to transposition of similar-looking digits, and integrated displays to misinterpretation of relationships. Cross-checking instruments and explicit reading protocols (calling out values) reduce errors.",
     "exam_tip": "Common errors: transposition, decimal, reversal, scale mix-up, parallax, fixation, interpolation. Workload and expectancy worsen errors. Cross-checking is primary defense.",
     "key_facts": [
@@ -3452,7 +3452,7 @@
   {
     "code": "10.60.8",
     "topic": "10.60 — Instrumentation, Displays and Alerts",
-    "syllabus_desc": "Explain how instrument interpretation errors can be minimised.",
+    "syllabus_desc": "Describe the basic requirements of alerts.",
     "concept": "Instrument interpretation errors are minimized through several techniques: standardized scanning patterns ensure all critical instruments are checked systematically; explicit verbal or written callouts of instrument values create a secondary check and encode values in memory better than silent reading; cross-checking related instruments (airspeed, altitude, vertical speed, attitude) for consistency catches errors where one instrument is misread; redundant instruments provide backup if one is misread; digital readouts for critical values reduce interpretation errors compared to analog readings; training in common error types increases awareness and selective attention to error-prone instruments; and adequate workload management ensures sufficient attention for accurate reading. Procedures that require verification of critical values (confirming altitude assignments, verifying heading changes) create additional error detection points. In high-workload situations, explicit challenge-response confirmation procedures (pilot says altitude, observer confirms) are especially effective.",
     "exam_tip": "Minimize errors through: systematic scanning, cross-checking, callouts, redundancy, training on common errors, and adequate workload management.",
     "key_facts": [
@@ -3468,7 +3468,7 @@
   {
     "code": "10.60.10",
     "topic": "10.60 — Instrumentation, Displays and Alerts",
-    "syllabus_desc": "Describe the concepts of an ergonomically designed cockpit.",
+    "syllabus_desc": "Describe how colour coding conventions are used in aviation on instruments and displays.",
     "concept": "Ergonomic cockpit design applies human factors principles to cockpit layout and instrument arrangement to minimize error and workload. Key ergonomic concepts include: spatial organization (most frequently used controls and displays positioned for easy access), standardization (consistent control location and operation across aircraft types), logical grouping (related displays and controls positioned together), appropriate sizing and contrast (displays readable from normal viewing distance), glare reduction (display brightness controlled relative to ambient light), and minimizing cognitive load (information presented clearly with appropriate meaning rather than raw data). Ergonomic design considers pilot reach and vision, reduces scanning distance between related instruments, and arranges controls by frequency of use. Modern glass cockpits apply ergonomic principles through customizable displays allowing pilots to arrange information according to task phase. Poor ergonomic design increases scanning workload, raises error rates, and contributes to accidents. Regulatory standards and best practices guide cockpit design.",
     "exam_tip": "Ergonomic design reduces workload and error through proper spatial organization, standardization, appropriate display sizing, and logical information grouping.",
     "key_facts": [
@@ -3484,7 +3484,7 @@
   {
     "code": "10.62.2",
     "topic": "10.62 — Documents and Procedures",
-    "syllabus_desc": "Explain the purpose of checklists.",
+    "syllabus_desc": "Explain the rationale behind consistent and thorough checklist use as opposed to reliance on memory.",
     "concept": "Checklists serve multiple essential purposes in aviation: they externalize memory requirements, preventing omission of critical items through systematic verification; they standardize procedures across pilots and aircraft, ensuring consistency and reducing variability; they serve as cross-checking tools, allowing one pilot to verify another's actions; they document approved procedures, maintaining continuity during crew changes or across operations; and they adapt procedures to specific conditions (normal, abnormal, emergency). Checklists compensate for working memory limitations, fatigue, distraction, and high workload. Studies demonstrate that proper checklist use reduces error rates substantially compared to reliance on memory. Effective checklists are brief, focused on critical items, and structured for challenge-response verification. Checklists are not memory crutches but safety systems that recognize human limitations and design around them.",
     "exam_tip": "Checklists overcome memory limitations through external verification. Proper use means challenge-response completion with item-by-item verification.",
     "key_facts": [
@@ -3532,7 +3532,7 @@
   {
     "code": "10.62.6",
     "topic": "10.62 — Documents and Procedures",
-    "syllabus_desc": "Describe situations where checklists alone are not enough.",
+    "syllabus_desc": "Identify the phases of flight where a checklist plays an important role.",
     "concept": "Checklists, while essential, are insufficient in several situations: checklist-driven operations can lead to over-reliance on procedure compliance without understanding underlying principles, leaving pilots unable to improvise when situations don't fit standard procedures. Unplanned emergencies or combinations of failures may not have matching checklists, requiring problem-solving beyond procedure following. Checklist fixation can occur when pilots focus entirely on completing a checklist item while ignoring a more critical developing emergency (e.g., focusing on a landing checklist while losing engine power). Checklists assume pilots understand what items mean and why they're important; inadequate training can result in checklist completion without actual verification. Novel situations, combination failures, or degraded system states may require judgment and understanding beyond procedure. Additionally, checklists must be maintained and updated; outdated checklists can lead pilots astray. Effective operations require integrating checklist discipline with understanding, flexible thinking, and situational awareness.",
     "exam_tip": "Checklists + judgment and understanding = safety. Checklist-only approach fails with novel situations, unplanned combinations, or fixation.",
     "key_facts": [
@@ -3548,7 +3548,7 @@
   {
     "code": "10.62.8",
     "topic": "10.62 — Documents and Procedures",
-    "syllabus_desc": "Identify typical errors associated with the use of checklists.",
+    "syllabus_desc": "Describe the reasons for checklist complacency.",
     "concept": "Common checklist errors include: omission errors (skipping items due to rushing or distraction), verification errors (checking off items without actually verifying they're complete), sequence errors (completing items in wrong order), continuation errors (stopping checklist prematurely), and selection errors (using wrong checklist for the situation). Memory errors can occur when pilots remember checklist items incorrectly or confuse similar items from different checklists. Checklist misuse includes challenge-response failures (reader and responder not clear on roles), distraction during checklist (interruptions causing loss of place), and checklist manipulation (deliberately circumventing checks to save time). Environmental factors (noise, poor lighting, turbulence) can increase checklist errors. High workload and time pressure increase all error types. Training in proper checklist discipline, explicit procedures for challenge-response, and cultural emphasis on never skipping checklist items are primary defenses.",
     "exam_tip": "Errors: omission, verification failure, sequence errors, distraction, improper role definition. Proper discipline and training prevent most errors.",
     "key_facts": [
@@ -3564,7 +3564,7 @@
   {
     "code": "10.62.10",
     "topic": "10.62 — Documents and Procedures",
-    "syllabus_desc": "Describe the purpose of SOPs (Standard Operating Procedures).",
+    "syllabus_desc": "Describe the possible ramifications of checklist complacency.",
     "concept": "Standard Operating Procedures (SOPs) define how operations will be conducted, providing standardization across the organization, reducing variability, and establishing best practices. SOPs ensure that pilots follow proven, safe methods rather than developing individual techniques. They facilitate training by providing explicit standards pilots must learn. SOPs allow coordination: when all pilots follow the same procedures, crew resource management and multi-pilot operations function more smoothly. SOPs also support regulatory compliance, demonstrating to authorities that the organization operates according to approved standards. SOPs are typically more comprehensive than checklists, covering sequences of actions, decision points, and reasoning. Effective SOPs are based on operational experience, validated through testing and simulation, and regularly updated as equipment or understanding changes. SOPs balance prescription (ensuring safety-critical actions are performed consistently) with flexibility (allowing reasonable adaptation to different circumstances).",
     "exam_tip": "SOPs standardize operations across pilots, facilitate training, enable crew coordination, and ensure regulatory compliance. They provide detailed procedures beyond checklist items.",
     "key_facts": [
@@ -3628,7 +3628,7 @@
   {
     "code": "10.64.4",
     "topic": "10.64 — First Aid",
-    "syllabus_desc": "Explain the importance of carrying a first aid kit on board an aircraft.",
+    "syllabus_desc": "Describe the basic principles of Cardiopulmonary Resuscitation.",
     "concept": "First aid kits on board aircraft serve critical functions in remote area operations where medical care may be hours or days away. A properly equipped first aid kit enables treatment of common injuries and medical emergencies, potentially preventing minor injuries from becoming serious or life-threatening. Kits typically include: bandages and dressings for cuts and wounds, elastic bandages for sprains, antibiotic ointment, pain relievers, medications for common ailments (antacids, antihistamines), sterile gauze and tape, tourniquets, trauma shears, burn treatment supplies, and basic trauma supplies. For remote operations, additional supplies appropriate to the environment (cold weather, tropical, desert) should be considered. The kit is only useful if: contents are regularly checked for expiration and replacement, the pilot knows what's in the kit and how to use items, and the kit is accessible during emergency situations. In survival situations, first aid kit contents may be essential for managing injuries sustained during crash landing or in harsh environments.",
     "exam_tip": "First aid kits are essential for remote operations. Understand basic contents and why they're important: enabling treatment when professional medical care is unavailable.",
     "key_facts": [
@@ -3644,7 +3644,7 @@
   {
     "code": "10.66.2",
     "topic": "10.66 — Survival",
-    "syllabus_desc": "List the priorities of survival in a remote area.",
+    "syllabus_desc": "State the components of a pre-flight passenger briefing by a pilot with respect to aircraft safety features and equipment.",
     "concept": "Survival priorities in remote areas follow a specific sequence that maximizes survival probability: Protection (shelter, clothing, fire) is the first priority—exposure kills faster than hunger or dehydration; Location (signaling, attracting rescue) is the second priority—rescue cannot occur if rescuers cannot find survivors; Water is the third priority—dehydration impairs judgment and physical capability; Food is the last priority—humans can survive weeks without food but only days without water. This priority sequence is counterintuitive (many assume finding food is first) but reflects physiological reality. Immediate actions include: securing shelter from elements, signaling rescuers (mirrors, bright colors, fires), obtaining water, and only then seeking food. The priorities are reflected in survival training and represent hard-won knowledge from survival incidents.",
     "exam_tip": "Survival priorities: Protection (shelter/clothing), Location (signaling), Water, Food. Remember this sequence—protection and location are more critical than immediate food gathering.",
     "key_facts": [
@@ -3660,7 +3660,7 @@
   {
     "code": "10.66.4",
     "topic": "10.66 — Survival",
-    "syllabus_desc": "Explain the importance of adequate preparation for a flight over remote areas.",
+    "syllabus_desc": "Explain the basic steps in post-crash survivor management.",
     "concept": "Flights over remote areas where emergency landing would result in isolation require specific preparation to maximize survival probability. Preparation includes: current weather and terrain knowledge, detailed flight planning with alternate routes and landing sites, aircraft survival equipment (emergency locator transmitter, survival kit, first aid supplies, water, signaling equipment), personal equipment (appropriate clothing, navigation aids, communication devices), fuel planning ensuring adequate reserves for routing changes or diversion, knowledge of terrain and environmental hazards, and contingency plans for various failure scenarios. Pre-flight brief should address: emergency procedures, crew responsibilities during emergency landing, location of survival equipment, and post-landing priorities (signaling, protection, water). Aircraft maintenance must be rigorous because mechanical failure in remote areas creates true survival situations. Recent communication with authorities establishing expected arrival time and procedures for reporting overdue status is essential. Preparation reflects the principle that survival begins before departure and continues through planning and equipment selection.",
     "exam_tip": "Remote area preparation requires: detailed planning, survival equipment, personal gear, fuel reserves, terrain knowledge, and contingency procedures. Survival begins before departure.",
     "key_facts": [
@@ -3676,7 +3676,7 @@
   {
     "code": "10.66.6",
     "topic": "10.66 — Survival",
-    "syllabus_desc": "Describe basic water and food procurement methods.",
+    "syllabus_desc": "List the priorities of survival in order of importance.",
     "concept": "Water procurement in survival situations relies on multiple methods: collection from rainfall through cloths or tarps, finding natural water sources (streams, lakes, seepage areas), extracting moisture from plant sources (cutting vines, squeezing water from broad leaves in tropical areas), and solar stills using transparent plastic and ground moisture in desert areas. Water found in nature should be purified by boiling or chemical treatment to prevent waterborne illness. Food procurement depends on environment and skills: insects and grubs provide protein in most environments, edible plants vary by location (knowledge of local flora is essential), fishing using improvised methods, trapping small animals using snares or deadfalls, and harvesting of eggs or birds if accessible. In survival training emphasis is on realistic food sources available immediately rather than hunting large game. Knowledge of what's edible is essential because many plants are toxic. Caloric intake in survival situations is often inadequate, so rationing available resources and finding sufficient water is more critical than finding abundant food.",
     "exam_tip": "Water: rainfall collection, natural sources, plant extraction, solar stills. Food: insects, edible plants (must know which), fishing, trapping. Water is priority.",
     "key_facts": [
@@ -3692,7 +3692,7 @@
   {
     "code": "10.66.8",
     "topic": "10.66 — Survival",
-    "syllabus_desc": "Describe basic shelter requirements.",
+    "syllabus_desc": "Explain survival items that could be carried on a cross-country flight over bush clad and mountainous terrain in order to manage survival threats.",
     "concept": "Shelter in survival situations must address the primary threat: in cold environments, shelter provides insulation and heat retention; in hot environments, shade and ventilation prevent heat death; in wet environments, protection from rain and ground moisture prevents hypothermia. Basic shelter requirements include: protection from wind and precipitation, insulation from ground (ground contact rapidly drains body heat), maintenance of body temperature (warmth in cold, cooling in heat), and location visibility for rescue. Construction depends on available materials and environment: in forest areas, lean-to structures with branches and leaves; in open areas, use aircraft fuselage for shelter and wind protection; in hot climates, shade structure with air circulation; in water survival, flotation device becomes shelter. Shelter location is critical: visible to rescue aircraft while providing protection, away from hazards (avalanche terrain, flood zones), and near resources (fresh water, firewood). Insulation materials (leaves, grass, bark) should be gathered before darkness falls. In remote survival situations, shelter construction becomes first priority after emergency landing.",
     "exam_tip": "Shelter basics: protection from elements, insulation, heat retention/dissipation depending on climate, visibility for rescue. Build before darkness.",
     "key_facts": [
@@ -3708,7 +3708,7 @@
   {
     "code": "10.66.10",
     "topic": "10.66 — Survival",
-    "syllabus_desc": "Describe signalling methods for attracting rescue services.",
+    "syllabus_desc": "Explain the process of hypothermia.",
     "concept": "Signaling rescuers is essential because rescue cannot occur if survivors cannot be located. Signaling methods vary by situation and available resources: visual signals (bright colors, mirrors reflecting sunlight, smoke from fires) are effective for aircraft or distant observers; audible signals (three 'SOS' blasts on aircraft horn, whistles) help ground rescuers locate survivors nearby; radio communication (emergency locator transmitter, survival radio) provides most reliable signaling for modern rescue; ground-to-air signals using geometric patterns (SOS, X, signal fire) guide rescuers; mirrors can signal aircraft from impressive distances in clear weather; and bright colors (orange, red, yellow) increase visibility of clothing and shelters. Signaling strategy should use multiple methods concurrently: maintain signaling fire, position bright materials for visibility, use radio if operational, and prepare visual signals for aircraft. Location of survival equipment (mirrors, bright materials, signaling devices) must be known before survival situation occurs. The key principle is that rescue depends on being found, which requires active signaling rather than passive waiting.",
     "exam_tip": "Signaling methods: visual (mirrors, bright colors, smoke), audible (three blasts, whistles), radio (ELT, survival radio). Use multiple methods simultaneously.",
     "key_facts": [
