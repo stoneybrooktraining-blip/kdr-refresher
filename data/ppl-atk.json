@@ -2,7 +2,7 @@
   {
     "code": "12.2.2(a)",
     "topic": "12.2 — Definitions, Terminology, Units and Abbreviations",
-    "syllabus_desc": "State the SI and ICAO units used to express distance",
+    "syllabus_desc": "State the International System (SI) and ICAO units used to express: Distance",
     "concept": "The SI base unit for distance (length) is the metre (m). In aviation, horizontal distances are measured in nautical miles (nm). One nautical mile equals 1,852 metres and corresponds to one minute of latitude. Short distances such as runway dimensions and visibility are expressed in metres. Altitude and height are expressed in feet (ft).",
     "exam_tip": "SI unit = metre. Aviation horizontal distance = nautical miles. Runway dimensions and visibility = metres. Altitude = feet. Don't confuse nm (nautical miles) with statute miles.",
     "key_facts": [
@@ -19,7 +19,7 @@
   {
     "code": "12.2.2(b)",
     "topic": "12.2 — Definitions, Terminology, Units and Abbreviations",
-    "syllabus_desc": "State the SI and ICAO units used to express time",
+    "syllabus_desc": "State the International System (SI) and ICAO units used to express: Time",
     "concept": "The SI base unit for time is the second (s). All other time units (minutes, hours) are derived from the second. In aviation operations, ICAO permits the use of hours and minutes for expressing time, using Coordinated Universal Time (UTC), also known as Zulu time. UTC is the time at the Prime Meridian (0° longitude) and does not change for daylight saving. All aviation communications, flight plans, NOTAMs, and ATC operations use UTC.",
     "exam_tip": "Don't confuse SI units with ICAO operational units. The SI base unit for time is the second — but in day-to-day aviation, time is expressed in hours and minutes UTC. Exam questions may test whether you know the difference.",
     "key_facts": [
@@ -35,7 +35,7 @@
   {
     "code": "12.2.2(c)",
     "topic": "12.2 — Definitions, Terminology, Units and Abbreviations",
-    "syllabus_desc": "State the SI and ICAO units used to express velocity",
+    "syllabus_desc": "State the International System (SI) and ICAO units used to express: Velocity",
     "concept": "The SI unit for velocity is metres per second (m/s). However, in aviation, speed is expressed in knots (kt). One knot is one nautical mile per hour (1 nm/h), which equals 1.852 km/h. All aircraft speeds — airspeed indicator readings, cruise speeds, approach speeds — are expressed in knots. This standard ensures precision in flight planning, navigation calculations, and air traffic control coordination.",
     "exam_tip": "The SI unit is m/s, but the aviation (ICAO) unit is the knot. A question asking for the SI unit wants m/s — not km/h, not knots. A question asking for the ICAO or aviation unit wants knots.",
     "key_facts": [
@@ -51,7 +51,7 @@
   {
     "code": "12.2.2(d)",
     "topic": "12.2 — Definitions, Terminology, Units and Abbreviations",
-    "syllabus_desc": "State the SI and ICAO units used to express mass",
+    "syllabus_desc": "State the International System (SI) and ICAO units used to express: Mass",
     "concept": "The SI base unit for mass is the kilogram (kg). In aviation, aircraft weight, payload, fuel load, and baggage are all expressed in kilograms. Fuel may also be measured in litres (volume) or pounds (lb) in some contexts, but the standard unit for weight and balance calculations in NZ/AU is the kilogram.",
     "exam_tip": "Mass is measured in kilograms. Don't confuse mass (kg) with weight (a force, measured in newtons). In everyday aviation, 'weight' is often used loosely to mean mass in kg.",
     "key_facts": [
@@ -67,7 +67,7 @@
   {
     "code": "12.2.2(e)",
     "topic": "12.2 — Definitions, Terminology, Units and Abbreviations",
-    "syllabus_desc": "State the SI and ICAO units used to express volume",
+    "syllabus_desc": "State the International System (SI) and ICAO units used to express: Volume",
     "concept": "The SI unit for volume is the cubic metre (m³). In aviation, fuel volume is measured in litres (L). Fuel flow rate is expressed in litres per hour (L/h). The litre is a derived metric unit equal to 0.001 m³. Fuel quantity may be expressed in either litres (volume) or kilograms (mass), but volume is the standard for fuel gauges and refuelling.",
     "exam_tip": "Volume = litres for fuel. Fuel flow = litres per hour. Remember that fuel volume changes with temperature (expands when hot), so mass (kg) is more accurate for flight planning.",
     "key_facts": [
@@ -83,7 +83,7 @@
   {
     "code": "12.2.2(f)",
     "topic": "12.2 — Definitions, Terminology, Units and Abbreviations",
-    "syllabus_desc": "State the SI and ICAO units used to express temperature",
+    "syllabus_desc": "State the International System (SI) and ICAO units used to express: Temperature",
     "concept": "The SI unit for temperature is the kelvin (K). In aviation, temperature is expressed in degrees Celsius (°C). The ISA standard sea-level temperature is 15°C. Temperature decreases with altitude at approximately 2°C per 1,000 ft in the troposphere. Outside air temperature (OAT) is used for performance calculations and density altitude determination.",
     "exam_tip": "SI unit = kelvin, but aviation uses degrees Celsius. ISA sea level = 15°C. The lapse rate is approximately 2°C per 1,000 ft.",
     "key_facts": [
@@ -99,7 +99,7 @@
   {
     "code": "12.2.2(g)",
     "topic": "12.2 — Definitions, Terminology, Units and Abbreviations",
-    "syllabus_desc": "State the SI and ICAO units used to express altitude",
+    "syllabus_desc": "State the International System (SI) and ICAO units used to express: Altitude",
     "concept": "Altitude is expressed in feet (ft) in aviation. Pressure is expressed in hectopascals (hPa). The altimeter setting (QNH) is given in hPa. ISA standard sea-level pressure is 1013.25 hPa. Vertical speed is expressed in feet per minute (ft/min). Flight levels are expressed in hundreds of feet (e.g. FL150 = 15,000 ft on the standard pressure setting of 1013 hPa).",
     "exam_tip": "Altitude = feet. Pressure = hectopascals (hPa). QNH is in hPa. Standard pressure = 1013.25 hPa. Flight levels are hundreds of feet referenced to 1013 hPa.",
     "key_facts": [
@@ -116,7 +116,7 @@
   {
     "code": "12.2.4(a)",
     "topic": "12.2 — Definitions, Terminology, Units and Abbreviations",
-    "syllabus_desc": "Define mass and weight and state their relationship",
+    "syllabus_desc": "Define and where appropriate show the relevant relationships between: Mass, weight and gravitational force (g)",
     "concept": "Mass is the quantity of matter in an object, measured in kilograms (kg). It does not change with location. Weight is the force exerted on a mass by gravity, measured in newtons (N). Weight = mass × acceleration due to gravity (W = mg, where g ≈ 9.81 m/s²). An object's mass stays the same everywhere, but its weight varies slightly with location (gravity varies with latitude and altitude).",
     "exam_tip": "Mass = amount of matter (kg, doesn't change). Weight = force of gravity on that mass (newtons). W = mg. In everyday aviation, 'weight' is used loosely to mean mass in kg, but the exam may test the technical difference.",
     "key_facts": [
@@ -133,7 +133,7 @@
   {
     "code": "12.2.4(b)",
     "topic": "12.2 — Definitions, Terminology, Units and Abbreviations",
-    "syllabus_desc": "Define inertia",
+    "syllabus_desc": "Define and where appropriate show the relevant relationships between: Inertia",
     "concept": "Inertia is the tendency of an object to resist changes in its state of motion. An object at rest tends to stay at rest, and an object in motion tends to stay in motion at the same speed and in the same direction, unless acted upon by an external force. This is Newton's First Law of Motion. The greater the mass of an object, the greater its inertia.",
     "exam_tip": "Inertia = resistance to change in motion. More mass = more inertia. This is Newton's First Law. In aviation, inertia explains why a heavy aircraft needs more force (thrust) to accelerate and more distance to stop.",
     "key_facts": [
@@ -149,7 +149,7 @@
   {
     "code": "12.2.4(c)",
     "topic": "12.2 — Definitions, Terminology, Units and Abbreviations",
-    "syllabus_desc": "Define equilibrium",
+    "syllabus_desc": "Define and where appropriate show the relevant relationships between: Momentum",
     "concept": "Equilibrium is the state where all forces acting on an object are balanced, resulting in no net force and no acceleration. An object in equilibrium is either stationary or moving at a constant velocity in a straight line. In aviation, an aircraft in straight and level unaccelerated flight is in equilibrium — lift equals weight, and thrust equals drag.",
     "exam_tip": "Equilibrium = all forces balanced = no acceleration. In straight and level flight: lift = weight and thrust = drag. If any force changes, the aircraft accelerates until a new equilibrium is reached.",
     "key_facts": [
@@ -165,7 +165,7 @@
   {
     "code": "12.2.4(d)",
     "topic": "12.2 — Definitions, Terminology, Units and Abbreviations",
-    "syllabus_desc": "Describe force vectors and their resolution",
+    "syllabus_desc": "Define and where appropriate show the relevant relationships between: Equilibrium",
     "concept": "A force vector has both magnitude (size) and direction. Forces can be represented as arrows where the length indicates magnitude and the arrow indicates direction. When multiple forces act on an object, they can be resolved (combined) into a single resultant force using vector addition. Conversely, a single force can be resolved into two perpendicular components. In aviation, the total aerodynamic force on a wing is resolved into lift (perpendicular to relative airflow) and drag (parallel to relative airflow).",
     "exam_tip": "Forces are vectors — they have magnitude AND direction. The total aerodynamic force on a wing is resolved into lift (perpendicular to airflow) and drag (parallel to airflow).",
     "key_facts": [
@@ -181,7 +181,7 @@
   {
     "code": "12.2.4(e)",
     "topic": "12.2 — Definitions, Terminology, Units and Abbreviations",
-    "syllabus_desc": "State Newton's Third Law and its relevance to flight",
+    "syllabus_desc": "Define and where appropriate show the relevant relationships between: Force vectors, couples and components",
     "concept": "Newton's Third Law states that for every action there is an equal and opposite reaction. In aviation, this principle explains how a propeller produces thrust — the propeller accelerates air backwards (action), and the reaction force pushes the aircraft forward (thrust). Similarly, a wing deflects air downward (downwash), and the reaction force is an upward force on the wing (lift).",
     "exam_tip": "Every action has an equal and opposite reaction. Propeller pushes air back → aircraft goes forward. Wing pushes air down → wing gets pushed up (lift).",
     "key_facts": [
@@ -197,7 +197,7 @@
   {
     "code": "12.2.4(f)",
     "topic": "12.2 — Definitions, Terminology, Units and Abbreviations",
-    "syllabus_desc": "Define kinetic energy and state the relevant formula",
+    "syllabus_desc": "Define and where appropriate show the relevant relationships between: Newton's Third Law",
     "concept": "Kinetic energy (KE) is the energy an object possesses due to its motion. The formula is KE = ½ × mass × velocity² (KE = ½mv²). Because velocity is squared, doubling the speed quadruples the kinetic energy. In aviation, an aircraft at high speed has significantly more kinetic energy than at low speed, which affects stopping distance, landing performance, and the energy that must be dissipated during braking.",
     "exam_tip": "KE = ½mv². Velocity is squared, so doubling speed = four times the kinetic energy. This is why landing distance increases dramatically with higher approach speeds.",
     "key_facts": [
@@ -213,7 +213,7 @@
   {
     "code": "12.2.4(g)",
     "topic": "12.2 — Definitions, Terminology, Units and Abbreviations",
-    "syllabus_desc": "Define potential energy and state the relevant formula",
+    "syllabus_desc": "Define and where appropriate show the relevant relationships between: Distance, time, acceleration and velocity",
     "concept": "Potential energy (PE) is the energy an object possesses due to its position (height) in a gravitational field. The formula is PE = mass × gravity × height (PE = mgh). In aviation, an aircraft at altitude has potential energy that can be converted to kinetic energy (speed) by descending. This is the principle behind gliding — trading altitude for airspeed.",
     "exam_tip": "PE = mgh (mass × gravity × height). An aircraft at altitude has stored energy. Descending converts PE to KE (speed). Climbing converts KE to PE (altitude). Total energy = KE + PE.",
     "key_facts": [
@@ -230,7 +230,7 @@
   {
     "code": "12.2.4(h)",
     "topic": "12.2 — Definitions, Terminology, Units and Abbreviations",
-    "syllabus_desc": "Define momentum and show relevant relationships",
+    "syllabus_desc": "Define and where appropriate show the relevant relationships between: Kinetic and potential energy",
     "concept": "Momentum is the product of an object's mass and its velocity. It is a vector quantity, meaning it has both magnitude and direction. In a constant-speed turn, the aircraft's speed (magnitude of velocity) remains the same, but the direction changes continuously. Therefore the momentum vector changes direction while its magnitude stays constant.",
     "exam_tip": "Momentum = mass × velocity. In a constant-speed turn, the magnitude of momentum is unchanged (mass and speed are constant), but the direction of the momentum vector changes continuously because the aircraft is changing heading.",
     "key_facts": [
@@ -246,7 +246,7 @@
   {
     "code": "12.2.4(i)",
     "topic": "12.2 — Definitions, Terminology, Units and Abbreviations",
-    "syllabus_desc": "Define work and state the relevant formula",
+    "syllabus_desc": "Define and where appropriate show the relevant relationships between: Force, work and power",
     "concept": "Work is done when a force moves an object through a distance in the direction of that force. The formula is Work = Force × Distance (W = Fd). Work is measured in joules (J), where 1 joule = 1 newton × 1 metre. If the force and movement are not in the same direction, only the component of force in the direction of movement does work.",
     "exam_tip": "Work = Force × Distance. Measured in joules. If there's no movement, no work is done — no matter how much force is applied.",
     "key_facts": [
@@ -262,7 +262,7 @@
   {
     "code": "12.2.4(j)",
     "topic": "12.2 — Definitions, Terminology, Units and Abbreviations",
-    "syllabus_desc": "Define power and state the relevant formula",
+    "syllabus_desc": "Define and where appropriate show the relevant relationships between: Forces involved in the motion of an object travelling at constant speed",
     "concept": "Power is the rate of doing work — how quickly work is done. The formula is Power = Work ÷ Time (P = W/t), or equivalently, Power = Force × Velocity. Power is measured in watts (W), where 1 watt = 1 joule per second. In aviation, engine power is often expressed in horsepower (hp) or kilowatts (kW). 1 hp ≈ 746 watts.",
     "exam_tip": "Power = Work ÷ Time = Force × Velocity. Measured in watts. 1 hp ≈ 746 W. More power means the engine can do the same work in less time — or more work in the same time.",
     "key_facts": [
@@ -278,7 +278,7 @@
   {
     "code": "12.4.2",
     "topic": "12.4 — The Atmosphere",
-    "syllabus_desc": "State the principal gases in the atmosphere",
+    "syllabus_desc": "Define the following:",
     "concept": "The atmosphere is composed primarily of nitrogen (approximately 78%), oxygen (approximately 21%), and trace gases including argon, carbon dioxide, and water vapour (approximately 1% combined). These proportions remain essentially constant up to about 80,000 ft. Water vapour content varies with location and weather conditions and is the primary driver of weather phenomena.",
     "exam_tip": "Nitrogen 78%, oxygen 21%, other 1%. These proportions are constant with altitude. Water vapour varies and drives weather.",
     "key_facts": [
@@ -295,7 +295,7 @@
   {
     "code": "12.4.4",
     "topic": "12.4 — The Atmosphere",
-    "syllabus_desc": "Define air density",
+    "syllabus_desc": "Describe lift with reference to the following theories:",
     "concept": "Air density is the mass of air per unit volume, typically expressed in kilograms per cubic metre (kg/m³). At ISA sea level, the standard air density is approximately 1.225 kg/m³. Air density is critical to aircraft performance because both engine power output and aerodynamic forces (lift and drag) depend directly on the density of the air.",
     "exam_tip": "Density = mass per unit volume. ISA sea level density ≈ 1.225 kg/m³. Both engine power and wing lift depend on air density — less dense air means less performance.",
     "key_facts": [
@@ -311,7 +311,7 @@
   {
     "code": "12.4.6",
     "topic": "12.4 — The Atmosphere",
-    "syllabus_desc": "Describe how air density varies with altitude",
+    "syllabus_desc": "Describe the following with reference to the aerofoil:",
     "concept": "Air density decreases with increasing altitude. As altitude increases, there are fewer air molecules per unit volume because atmospheric pressure decreases. At higher altitudes, the engine receives less oxygen per cycle (reducing power output), and the wings must work at higher angles of attack or higher speeds to generate the same lift. This is why aircraft performance degrades at high altitude and in hot conditions.",
     "exam_tip": "Density decreases with altitude. Less dense air means: less engine power, less lift at the same speed, and degraded overall performance.",
     "key_facts": [
@@ -327,7 +327,7 @@
   {
     "code": "12.4.8",
     "topic": "12.4 — The Atmosphere",
-    "syllabus_desc": "Describe the relationship between pressure, temperature and density",
+    "syllabus_desc": "Describe how lift and drag vary with angle of attack up to and beyond the stall point.",
     "concept": "Pressure, temperature, and density are interrelated through the gas law. If temperature increases while pressure stays constant, density decreases (hot air is less dense). If pressure increases while temperature stays constant, density increases. In the atmosphere, as altitude increases, both pressure and temperature decrease, causing density to decrease. Hot days at high elevation produce very low air density, significantly degrading aircraft performance.",
     "exam_tip": "Hot air is less dense (pressure constant). High pressure air is more dense (temperature constant). In the atmosphere, all three decrease with altitude. Hot + high = poor performance.",
     "key_facts": [
@@ -343,7 +343,7 @@
   {
     "code": "12.4.10",
     "topic": "12.4 — The Atmosphere",
-    "syllabus_desc": "Describe how pressure, temperature and density normally vary within the atmosphere",
+    "syllabus_desc": "Describe how to use a lift/drag ratio curve.",
     "concept": "In the troposphere (the layer of atmosphere where most aviation occurs), pressure, temperature, and density all decrease with increasing altitude. Temperature decreases at approximately 2°C per 1,000 ft (the lapse rate). As temperature decreases, pressure also decreases because cooler air is less energetic. Density decreases because there are fewer air molecules per unit volume at higher altitudes. In the International Standard Atmosphere (ISA), sea-level conditions are 15°C, 1013.25 hPa.",
     "exam_tip": "All three decrease together in the troposphere. The most common wrong answer is selecting an option where one of the three increases. Remember: as you go up, everything goes down — pressure, temperature, and density.",
     "key_facts": [
@@ -359,7 +359,7 @@
   {
     "code": "12.4.12",
     "topic": "12.4 — The Atmosphere",
-    "syllabus_desc": "State the basis of the International Standard Atmosphere (ISA)",
+    "syllabus_desc": "State the effects of ice, frost, dirt and oil on an aerofoil.",
     "concept": "The ISA is a theoretical model of the atmosphere used as a standard reference for aircraft performance calculations, instrument calibration, and airspace design. It defines standard values of temperature, pressure, and density at various altitudes. The ISA assumes: sea-level temperature of 15°C, sea-level pressure of 1013.25 hPa, a temperature lapse rate of 1.98°C per 1,000 ft (approximately 2°C/1,000 ft) up to the tropopause at 36,090 ft, and standard density of 1.225 kg/m³ at sea level.",
     "exam_tip": "ISA is a theoretical standard — the real atmosphere rarely matches it exactly. It provides a baseline for performance calculations. Know the standard values: 15°C, 1013.25 hPa, lapse rate ~2°C/1,000 ft.",
     "key_facts": [
@@ -375,7 +375,7 @@
   {
     "code": "12.4.14",
     "topic": "12.4 — The Atmosphere",
-    "syllabus_desc": "State the ISA sea-level values for pressure and temperature",
+    "syllabus_desc": "Describe the effect of aspect ratio on lift and drag.",
     "concept": "The ISA standard sea-level conditions are: temperature 15°C (288.15 K) and pressure 1013.25 hPa (29.92 inches of mercury). These values serve as the reference point for all ISA calculations. When actual conditions differ from ISA (e.g. a hot day at 25°C), the difference is expressed as ISA deviation (in this case ISA +10°C).",
     "exam_tip": "15°C and 1013.25 hPa — memorise these. ISA deviation = actual temperature minus ISA temperature at that altitude.",
     "key_facts": [
@@ -407,7 +407,7 @@
   {
     "code": "12.6.2",
     "topic": "12.6 — Basic Aerodynamic Theory",
-    "syllabus_desc": "Define an aerofoil and describe common aerofoil designs",
+    "syllabus_desc": "Describe the purpose of the following:",
     "concept": "An aerofoil is a cross-sectional shape designed to produce an aerodynamic force (primarily lift) when air flows over it. Common designs include: cambered (asymmetric) aerofoils with more curvature on the upper surface than the lower — these produce lift even at zero angle of attack; symmetrical aerofoils with equal curvature above and below the chord line — used for tail surfaces and aerobatic aircraft, producing lift only at positive angles of attack; and supercritical aerofoils designed for higher-speed flight with a flatter upper surface.",
     "exam_tip": "An aerofoil is any shape that produces lift in an airflow. Cambered aerofoils produce lift at zero AoA; symmetrical ones only produce lift at positive AoA.",
     "key_facts": [
@@ -423,7 +423,7 @@
   {
     "code": "12.6.4(a)",
     "topic": "12.6 — Basic Aerodynamic Theory",
-    "syllabus_desc": "Define leading edge",
+    "syllabus_desc": "Describe the aerodynamic and other purposes of the following: Slots",
     "concept": "The leading edge is the foremost point of an aerofoil — the rounded front edge where the airflow first meets the wing. It is typically rounded to allow smooth airflow attachment at varying angles of attack. The shape of the leading edge affects the stall characteristics of the wing.",
     "exam_tip": "Leading edge = the front of the aerofoil. It's rounded to help air attach smoothly.",
     "key_facts": [
@@ -438,7 +438,7 @@
   {
     "code": "12.6.4(b)",
     "topic": "12.6 — Basic Aerodynamic Theory",
-    "syllabus_desc": "Define trailing edge",
+    "syllabus_desc": "Describe the aerodynamic and other purposes of the following: Slats",
     "concept": "The trailing edge is the rearmost point of an aerofoil — the sharp or thin rear edge where the upper and lower surface airflows rejoin. Control surfaces (ailerons, elevators, rudder) and flaps are hinged at or near the trailing edge. The Kutta condition requires smooth airflow departure from the trailing edge for lift to be generated.",
     "exam_tip": "Trailing edge = the back of the aerofoil. Control surfaces and flaps are attached here.",
     "key_facts": [
@@ -453,7 +453,7 @@
   {
     "code": "12.6.4(c)",
     "topic": "12.6 — Basic Aerodynamic Theory",
-    "syllabus_desc": "Define chord and chord line",
+    "syllabus_desc": "Describe the aerodynamic and other purposes of the following: Flaps",
     "concept": "The chord line is the straight line from the leading edge to the trailing edge of an aerofoil. The chord is the length of this line. The chord line is used as the reference for measuring the angle of attack (the angle between the chord line and the relative airflow). It is an imaginary reference line, not a physical feature of the wing.",
     "exam_tip": "Chord line = straight line from leading edge to trailing edge. Chord = the length of that line. The angle of attack is measured between the chord line and the relative airflow.",
     "key_facts": [
@@ -469,7 +469,7 @@
   {
     "code": "12.6.4(d)",
     "topic": "12.6 — Basic Aerodynamic Theory",
-    "syllabus_desc": "Define thickness and thickness-to-chord ratio",
+    "syllabus_desc": "Describe the aerodynamic and other purposes of the following: Spoilers",
     "concept": "Thickness is the maximum distance between the upper and lower surfaces of an aerofoil, measured perpendicular to the chord line. The thickness-to-chord ratio (t/c) expresses the thickness as a percentage of the chord length. A typical light aircraft wing has a t/c ratio of about 12-15%. Thicker aerofoils generally produce more lift but also more drag; thinner aerofoils are used for higher-speed aircraft.",
     "exam_tip": "Thickness = max distance between upper and lower surfaces, measured perpendicular to the chord line. Don't confuse thickness with camber.",
     "key_facts": [
@@ -517,7 +517,7 @@
   {
     "code": "12.6.6",
     "topic": "12.6 — Basic Aerodynamic Theory",
-    "syllabus_desc": "Define relative airflow and angle of attack",
+    "syllabus_desc": "Describe the purpose and effect of the following control surfaces:",
     "concept": "The relative airflow (or relative wind) is the direction from which the air approaches the aerofoil. It is always equal and opposite to the direction of the aircraft's flight path through the air. The angle of attack (AoA) is the angle between the chord line of the aerofoil and the relative airflow. Angle of attack is NOT the same as pitch attitude — an aircraft can have a nose-up pitch attitude but a low angle of attack if it is descending, and vice versa.",
     "exam_tip": "Relative airflow = opposite to flight path direction. AoA = angle between chord line and relative airflow. AoA is NOT pitch attitude — this is a critical distinction that exam questions test.",
     "key_facts": [
@@ -533,7 +533,7 @@
   {
     "code": "12.6.8",
     "topic": "12.6 — Basic Aerodynamic Theory",
-    "syllabus_desc": "State Bernoulli's Theorem and its relevance to lift generation",
+    "syllabus_desc": "Describe the use of trim tabs.",
     "concept": "Bernoulli's Theorem states that in a steady flow of an incompressible fluid, the total pressure (static pressure + dynamic pressure) remains constant along a streamline. When air accelerates over the curved upper surface of an aerofoil, its velocity increases and dynamic pressure increases. To maintain constant total pressure, static pressure must decrease. The resulting lower static pressure on the upper surface compared to the higher static pressure on the lower surface creates the pressure difference that produces lift.",
     "exam_tip": "Total pressure = static + dynamic = constant (along a streamline). Speed up → dynamic pressure up → static pressure down. This pressure difference between upper and lower surfaces produces lift.",
     "key_facts": [
@@ -550,7 +550,7 @@
   {
     "code": "12.6.10",
     "topic": "12.6 — Basic Aerodynamic Theory",
-    "syllabus_desc": "Describe streamline airflow around an aerofoil",
+    "syllabus_desc": "Explain the effect of centre of gravity on aircraft stability and control.",
     "concept": "When streamline (smooth, laminar) airflow passes over an aerofoil at a moderate angle of attack, the air accelerates over the curved upper surface and decelerates over the lower surface. The accelerated flow over the upper surface creates reduced static pressure above the wing, while higher static pressure is maintained below. This pressure difference is the primary mechanism generating lift. At the critical angle of attack (around 15–20° for typical aerofoils), the smooth airflow over the upper surface breaks down, separation occurs, and the wing stalls.",
     "exam_tip": "Streamline airflow means the air flows smoothly over the surface without separating. The key point is that airflow accelerates over the upper surface, resulting in lower static pressure above than below.",
     "key_facts": [
@@ -944,7 +944,7 @@
   {
     "code": "12.10.2",
     "topic": "12.10 — Engines – General Piston Engines",
-    "syllabus_desc": "Describe typical cylinder configurations in light aircraft engines",
+    "syllabus_desc": "Define parasite drag.",
     "concept": "Light aircraft piston engines most commonly use a horizontally opposed (flat or boxer) cylinder configuration, where cylinders are arranged horizontally on either side of the crankshaft. Common examples include Lycoming O-235, O-320, and Continental O-200 series. This configuration provides a compact, low-profile design with good balance and low vibration. Other configurations include inline (cylinders in a single row) and radial (cylinders arranged in a circle around the crankshaft), though these are less common in modern light aircraft.",
     "exam_tip": "Horizontally opposed is the standard for light aircraft — know this. Inline and radial are historical or specialist configurations.",
     "key_facts": [
@@ -1127,7 +1127,7 @@
   {
     "code": "12.10.6",
     "topic": "12.10 — Engines – General Piston Engines",
-    "syllabus_desc": "Describe the principle of the four-stroke internal combustion cycle",
+    "syllabus_desc": "Describe the relationship between parasite and induced drag.",
     "concept": "The four-stroke cycle consists of: (1) Induction — inlet valve opens, piston moves down, drawing fuel/air mixture into the cylinder; (2) Compression — both valves closed, piston moves up, compressing the mixture to increase pressure and temperature; (3) Power — at maximum compression (TDC), spark plug ignites the mixture, high-pressure combustion gases force the piston down — this is the only stroke that produces power; (4) Exhaust — exhaust valve opens, piston moves up, pushing burned gases out. The cycle completes in two full crankshaft revolutions (720°).",
     "exam_tip": "Four strokes: Suck, Squeeze, Bang, Blow. Only the power stroke produces power. The cycle takes two full crankshaft revolutions (720°).",
     "key_facts": [
@@ -1144,7 +1144,7 @@
   {
     "code": "12.10.8",
     "topic": "12.10 — Engines – General Piston Engines",
-    "syllabus_desc": "Describe the correlation between engine RPM and power output",
+    "syllabus_desc": "Describe the effect of the following on induced drag:",
     "concept": "In a normally aspirated piston engine, power output increases with increasing RPM. The throttle controls the flow of fuel/air mixture into the engine — opening it allows more mixture into the cylinders, increasing the fuel burned per cycle, which increases both power and RPM. More revolutions per minute means more power strokes per minute, producing more power. This is a direct, positive relationship.",
     "exam_tip": "More RPM = more power. It is a direct, positive relationship. The most common wrong answer suggests power only increases to 50% RPM then decreases, or that power is inversely proportional to RPM — both are incorrect.",
     "key_facts": [
@@ -1160,7 +1160,7 @@
   {
     "code": "12.10.10",
     "topic": "12.10 — Engines – General Piston Engines",
-    "syllabus_desc": "Explain the need for valve timing (valve lead, lag and overlap)",
+    "syllabus_desc": "Describe the total drag curve and the conditions at which minimum drag occurs.",
     "concept": "Valve timing refers to the precise moments when inlet and exhaust valves open and close relative to piston position. Valve lead means opening a valve slightly before the piston reaches the ideal position — the inlet valve opens slightly before TDC to take advantage of the piston's momentum. Valve lag means closing a valve after the piston has passed the ideal position — the exhaust valve closes slightly after TDC to allow complete scavenging of exhaust gases. Valve overlap is the brief period when both valves are open simultaneously (near TDC between exhaust and induction strokes), which improves cylinder scavenging and helps draw fresh mixture into the cylinder.",
     "exam_tip": "Valve lead = valve opens early. Valve lag = valve closes late. Valve overlap = both open simultaneously. All improve engine efficiency and scavenging.",
     "key_facts": [
@@ -1177,7 +1177,7 @@
   {
     "code": "12.10.12",
     "topic": "12.10 — Engines – General Piston Engines",
-    "syllabus_desc": "Describe the differences between compression ignition and conventional spark ignition",
+    "syllabus_desc": "State the effect of speed on parasite drag.",
     "concept": "Conventional spark ignition (used in most light aircraft) uses spark plugs to ignite a fuel/air mixture at a precisely timed moment. The mixture is ignited externally by the spark. Compression ignition (diesel cycle) compresses air alone to very high pressure and temperature, then injects fuel which ignites spontaneously from the heat of compression — no spark plug is needed. Compression ignition engines are heavier but more fuel-efficient and can burn cheaper fuels (such as jet fuel/AVTUR). They are rare in light aviation but are becoming more common in some modern aircraft.",
     "exam_tip": "Spark ignition = spark plug ignites the mixture (standard in light aircraft). Compression ignition = fuel ignites from compression heat alone (diesel cycle). No spark plug needed for compression ignition.",
     "key_facts": [
@@ -1194,7 +1194,7 @@
   {
     "code": "12.12.2",
     "topic": "12.12 — Carburation",
-    "syllabus_desc": "Describe the principle of carburation",
+    "syllabus_desc": "Define the following terms:",
     "concept": "Carburation is the process of mixing fuel with air in the correct proportions before it enters the engine cylinders. The carburettor meters fuel into the incoming airstream using the pressure drop created by a venturi (a narrowing in the air passage). As air flows through the venturi, it accelerates and static pressure drops, drawing fuel from a float chamber through a discharge nozzle into the airstream. The pilot controls the fuel-to-air ratio using the mixture control.",
     "exam_tip": "Carburation = mixing fuel and air in the right proportions. The venturi creates a pressure drop that draws fuel into the airstream. The pilot fine-tunes with the mixture control.",
     "key_facts": [
@@ -1210,7 +1210,7 @@
   {
     "code": "12.12.4",
     "topic": "12.12 — Carburation",
-    "syllabus_desc": "Describe the operation of a simple float-type carburettor",
+    "syllabus_desc": "Describe the factors that contribute to longitudinal static stability:",
     "concept": "A float-type carburettor maintains a constant fuel level in a float chamber using a float connected to a needle valve. As fuel is consumed, the float drops, opening the needle valve to admit more fuel. As the fuel level rises, the float rises and closes the valve. Air enters through the air intake, passes through the venturi where it accelerates and pressure drops, drawing fuel from the float chamber through the main jet and discharge nozzle. The throttle butterfly valve controls the volume of fuel/air mixture entering the engine. The mixture control adjusts the fuel-to-air ratio.",
     "exam_tip": "Float chamber maintains constant fuel level via float and needle valve. Venturi draws fuel from float chamber. Throttle controls airflow volume. Mixture control adjusts the ratio.",
     "key_facts": [
@@ -1227,7 +1227,7 @@
   {
     "code": "12.12.6(a)",
     "topic": "12.12 — Carburation",
-    "syllabus_desc": "Describe the atomisation function of the carburettor",
+    "syllabus_desc": "Describe the effect of centre of gravity position on the following: Aircraft trim",
     "concept": "Atomisation is the process of breaking liquid fuel into a fine mist of tiny droplets as it enters the airstream in the carburettor. This greatly increases the surface area of the fuel exposed to air, allowing more efficient mixing and vaporisation. Better atomisation results in more complete combustion, improved power output, and lower fuel consumption. The discharge nozzle and venturi airflow work together to atomise the fuel.",
     "exam_tip": "Atomisation = breaking fuel into tiny droplets for better mixing and combustion. Fine mist = more surface area = more efficient burning.",
     "key_facts": [
@@ -1243,7 +1243,7 @@
   {
     "code": "12.12.6(b)",
     "topic": "12.12 — Carburation",
-    "syllabus_desc": "Describe the diffusion function of the carburettor",
+    "syllabus_desc": "Describe the effect of centre of gravity position on the following: Control authority",
     "concept": "Diffusion is the process of distributing the atomised fuel vapour evenly throughout the incoming airstream. Uniform distribution ensures that each cylinder receives a consistent fuel/air mixture, resulting in even combustion across all cylinders. Poor diffusion can cause some cylinders to run rich and others to run lean, leading to uneven power output, rough running, and potential engine damage.",
     "exam_tip": "Diffusion = even distribution of fuel throughout the airstream. All cylinders should receive the same mixture strength for smooth, even running.",
     "key_facts": [
@@ -1259,7 +1259,7 @@
   {
     "code": "12.12.6(c)",
     "topic": "12.12 — Carburation",
-    "syllabus_desc": "Describe the function of the acceleration enrichment system in the carburettor",
+    "syllabus_desc": "Describe the effect of centre of gravity position on the following: Stall characteristics",
     "concept": "The accelerator pump provides a brief, extra squirt of fuel when the throttle is opened rapidly. During a rapid throttle opening, the sudden increase in airflow would temporarily lean the mixture (air responds faster than fuel metering). The accelerator pump compensates by mechanically injecting additional fuel into the venturi, preventing a momentary lean condition and associated engine hesitation or stumble. On some aircraft (e.g. PA-28), cycling the throttle uses the accelerator pump to prime the engine for starting.",
     "exam_tip": "The accelerator pump gives a quick shot of fuel when you open the throttle rapidly, preventing a lean stumble. On some aircraft it also works as a primer for engine starting.",
     "key_facts": [
@@ -1324,7 +1324,7 @@
   {
     "code": "12.12.8",
     "topic": "12.12 — Carburation",
-    "syllabus_desc": "Describe the function of the manual mixture control and idle cut-off",
+    "syllabus_desc": "Describe the factors that contribute to lateral static stability:",
     "concept": "The mixture control adjusts the fuel-to-air ratio by moving a needle valve in the carburettor. Two primary functions: (1) Power management — at altitude, the pilot leans the mixture to maintain the correct fuel/air ratio as air density decreases, optimising fuel burn and engine performance; (2) Engine shutdown — moving the mixture to the idle cut-off position cuts fuel flow, starving the engine for a controlled shutdown. The mixture control has a range from full rich (maximum fuel) through various lean positions to idle cut-off (no fuel).",
     "exam_tip": "Mixture control does two jobs: adjust the fuel/air ratio for altitude (lean as you climb), and shut down the engine (idle cut-off). Full rich for takeoff and low altitude; progressively leaner as altitude increases.",
     "key_facts": [
@@ -1341,7 +1341,7 @@
   {
     "code": "12.12.10",
     "topic": "12.12 — Carburation",
-    "syllabus_desc": "Explain the correct operational use of a manual mixture control and idle cut-off",
+    "syllabus_desc": "Describe the factors that contribute to directional static stability.",
     "concept": "The mixture control adjusts the fuel-to-air ratio. At sea level, the engine runs best with a mixture near stoichiometric (approximately 15 parts air to 1 part fuel by weight). As altitude increases, the air becomes thinner, so the pilot must progressively lean the mixture to maintain the correct fuel-to-air ratio. Failure to lean at altitude results in an over-rich mixture. For engine shutdown, the mixture is moved to the idle cut-off position, which starves the engine of fuel for a controlled shutdown.",
     "exam_tip": "As altitude increases, lean the mixture to maintain the correct ratio. The correct shutdown procedure is mixture to idle cut-off (not magnetos off first).",
     "key_facts": [
@@ -1357,7 +1357,7 @@
   {
     "code": "12.12.12(a)",
     "topic": "12.12 — Carburation",
-    "syllabus_desc": "Explain the consequences of operating with over-rich mixture settings",
+    "syllabus_desc": "Explain the meaning of the following: Dutch roll",
     "concept": "An over-rich mixture means excess fuel that cannot be completely burned. Consequences include: reduced power output (incomplete combustion), increased fuel consumption (fuel is wasted), possible spark plug fouling (carbon deposits from unburned fuel accumulate on the spark plugs), black exhaust smoke, and lower cylinder head temperatures (excess fuel has a cooling effect). Prolonged operation with an excessively rich mixture wastes fuel and degrades engine performance.",
     "exam_tip": "Over-rich = excess fuel = incomplete combustion = fouled plugs, wasted fuel, reduced power. Note that CHT tends to be lower (not higher) with a rich mixture because the excess fuel absorbs heat.",
     "key_facts": [
@@ -1374,7 +1374,7 @@
   {
     "code": "12.12.12(b)",
     "topic": "12.12 — Carburation",
-    "syllabus_desc": "Explain the consequences of operating with over-lean mixture settings",
+    "syllabus_desc": "Explain the meaning of the following: Spiral instability",
     "concept": "An over-lean mixture means insufficient fuel relative to the air entering the engine. Consequences include: engine overheating (insufficient fuel for cooling effect), increased risk of detonation and pre-ignition, rough running and loss of power, potential engine damage from excessively high cylinder head temperatures, and in extreme cases, engine failure. Lean mixtures are particularly dangerous at high power settings where the engine is already running hot.",
     "exam_tip": "Over-lean = not enough fuel = overheating, detonation risk, rough running, potential engine damage. Especially dangerous at high power settings.",
     "key_facts": [
@@ -1509,7 +1509,7 @@
   {
     "code": "12.14.2",
     "topic": "12.14 — Fuel Injection",
-    "syllabus_desc": "State the advantages and disadvantages of fuel injection compared to carburettor systems",
+    "syllabus_desc": "Describe the aerodynamic characteristics and hazards of the following manoeuvres:",
     "concept": "Advantages of fuel injection: more uniform fuel distribution to each cylinder (each has its own injector), no carburettor icing risk (no venturi for ice to form on), better mixture control, improved fuel efficiency, and better cold-start characteristics. Disadvantages: more complex and expensive to maintain, harder to detect vapour lock (fuel vaporises in the fuel lines on hot days, disrupting fuel flow), and hot-start difficulties on some fuel-injected engines (fuel vaporises in the lines when engine is hot). Note: while carburettor icing is eliminated, the air intake can still ice over.",
     "exam_tip": "Advantages: better fuel distribution, no carb icing, better efficiency. Disadvantages: more complex, vapour lock risk on hot days, hot-start difficulties. Remember: intake icing is still possible.",
     "key_facts": [
@@ -1560,7 +1560,7 @@
   {
     "code": "12.14.6",
     "topic": "12.14 — Fuel Injection",
-    "syllabus_desc": "Explain the operating principle of a simple fuel injection system",
+    "syllabus_desc": "Describe the effect of downwash on following aircraft in formation.",
     "concept": "In a continuous-flow fuel injection system (common in Lycoming and Continental engines), fuel flows continuously through individual nozzles at each cylinder's intake port. An engine-driven fuel pump pressurises fuel from the tanks. A fuel control unit meters the flow rate based on throttle position and mixture setting. The metered fuel is distributed to individual nozzle lines, one per cylinder, providing even fuel delivery. Unlike a carburettor where fuel is atomised in a venturi, the fuel injection system sprays fuel directly at each cylinder's intake.",
     "exam_tip": "Continuous-flow means fuel is always flowing through the nozzles — it is not pulsed or timed to individual strokes. The fuel control unit meters the flow; individual nozzles distribute it evenly.",
     "key_facts": [
