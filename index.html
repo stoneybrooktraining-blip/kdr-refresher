@@ -618,7 +618,6 @@
             <!-- Action Buttons -->
             <div class="action-buttons">
                 <button id="downloadBtn" class="btn btn-primary">Download PDF Report</button>
-                <button id="emailBtn" class="btn btn-secondary">Email to Self</button>
                 <button id="resetBtn" class="btn btn-reset">Start New</button>
             </div>
         </div>
@@ -626,7 +625,7 @@
 
     <!-- FOOTER -->
     <footer>
-        <p>© 2025 Stoneybrook Training · <a href="https://stoneybrooktraining-blip.github.io/exam-feedback/">Question Survey</a></p>
+        <p>© <script>document.write(new Date().getFullYear())</script> Stoneybrook Training · <a href="https://stoneybrooktraining-blip.github.io/exam-feedback/">Question Survey</a></p>
     </footer>
 
     <script>
@@ -670,7 +669,6 @@
         const uploadSection = document.getElementById('uploadSection');
         const resultsSection = document.getElementById('resultsSection');
         const downloadBtn = document.getElementById('downloadBtn');
-        const emailBtn = document.getElementById('emailBtn');
         const resetBtn = document.getElementById('resetBtn');
 
         // ===== TOAST NOTIFICATIONS =====
@@ -1096,23 +1094,6 @@
             doc.save(`KDR-Refresher-${subjectShort}-${dateStr}.pdf`);
             showToast('PDF downloaded successfully!');
         }
-
-        // ===== EMAIL HANDLER =====
-        emailBtn.addEventListener('click', () => {
-            // Download the PDF first so they can attach it
-            generatePdf();
-            const subjectTitle = appState.detectedSubject.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
-            const subject = `My KDR Refresher — ${appState.detectedExam} ${subjectTitle}`;
-            const body = `Hi,\n\nAttached is my KDR Refresher Module for ${appState.detectedExam} ${subjectTitle}.\n\nI had ${appState.extractedCodes.length} knowledge deficiencies identified.\n\nCheers`;
-            setTimeout(() => {
-                const a = document.createElement('a');
-                a.href = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-                document.body.appendChild(a);
-                a.click();
-                document.body.removeChild(a);
-            }, 600);
-            showToast('PDF downloaded — attach it to the email that just opened');
-        });
 
         // ===== RESET =====
         resetBtn.addEventListener('click', resetUpload);
