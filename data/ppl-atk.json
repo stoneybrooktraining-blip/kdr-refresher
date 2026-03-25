@@ -12,9 +12,10 @@
       "Runway dimensions and visibility: metres",
       "Altitude and height: feet (ft)"
     ],
-    "source": "Stoneybrook AU Module 1.1 (Section 2: Distance and Speed), AC 61-3 Rev 31 §12.2.2(a)",
+    "source": "Stoneybrook AU Module 1.1 (Section 2: Distance and Speed), NZ CAA AC 61-3 Rev 25 §12.2.2(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.2.2(b)",
@@ -28,9 +29,10 @@
       "UTC = Zulu time = time at the Prime Meridian",
       "UTC does not change for daylight saving"
     ],
-    "source": "Stoneybrook AU Module 1.1 (Section 3: Time), AC 61-3 Rev 31 §12.2.2(b)",
+    "source": "Stoneybrook AU Module 1.1 (Section 3: Time), NZ CAA AC 61-3 Rev 25 §12.2.2(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.2.2(c)",
@@ -44,9 +46,10 @@
       "1 knot = 1 nautical mile per hour = 1.852 km/h",
       "All aircraft speeds are expressed in knots"
     ],
-    "source": "Stoneybrook AU Module 1.1 (Section 2.2: Speed), AC 61-3 Rev 31 §12.2.2(c)",
+    "source": "Stoneybrook AU Module 1.1 (Section 2.2: Speed), NZ CAA AC 61-3 Rev 25 §12.2.2(c)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.2.2(d)",
@@ -60,9 +63,10 @@
       "Fuel may also be expressed in litres (volume)",
       "Weight and balance calculations use kg in NZ/AU"
     ],
-    "source": "Stoneybrook AU Module 1.1 (Section on units), AC 61-3 Rev 31 §12.2.2(d)",
+    "source": "Stoneybrook AU Module 1.1 (Section on units), NZ CAA AC 61-3 Rev 25 §12.2.2(d)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.2.2(e)",
@@ -76,9 +80,10 @@
       "Fuel flow rate: litres per hour (L/h)",
       "1 litre = 0.001 m³"
     ],
-    "source": "Stoneybrook AU Module 1.1 (Section on units), AC 61-3 Rev 31 §12.2.2(e)",
+    "source": "Stoneybrook AU Module 1.1 (Section on units), NZ CAA AC 61-3 Rev 25 §12.2.2(e)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.2.2(f)",
@@ -92,9 +97,10 @@
       "ISA sea-level temperature: 15°C",
       "Temperature lapse rate: ~2°C per 1,000 ft"
     ],
-    "source": "Stoneybrook AU Module 1.1, Module 1.3 (ISA), AC 61-3 Rev 31 §12.2.2(f)",
+    "source": "Stoneybrook AU Module 1.1, Module 1.3 (ISA), NZ CAA AC 61-3 Rev 25 §12.2.2(f)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.2.2(g)",
@@ -109,9 +115,10 @@
       "Vertical speed: feet per minute (ft/min)",
       "Flight levels: hundreds of feet on 1013 hPa"
     ],
-    "source": "Stoneybrook AU Module 1.1 (Section 4: Vertical Measurement), AC 61-3 Rev 31 §12.2.2(g)",
+    "source": "Stoneybrook AU Module 1.1 (Section 4: Vertical Measurement), NZ CAA AC 61-3 Rev 25 §12.2.2(g)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.2.4(a)",
@@ -126,9 +133,10 @@
       "g ≈ 9.81 m/s²",
       "Mass is constant; weight varies with gravity"
     ],
-    "source": "Stoneybrook AU Module 1.1 (Section 5: Energy), AC 61-3 Rev 31 §12.2.4(a)",
+    "source": "Stoneybrook AU Module 1.1 (Section 5: Energy), NZ CAA AC 61-3 Rev 25 §12.2.4(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.2.4(b)",
@@ -142,9 +150,10 @@
       "Greater mass = greater inertia",
       "Applies to acceleration, deceleration, and direction change"
     ],
-    "source": "Stoneybrook AU Module 1.1 (Section 5: Energy), AC 61-3 Rev 31 §12.2.4(b)",
+    "source": "Stoneybrook AU Module 1.1 (Section 5: Energy), NZ CAA AC 61-3 Rev 25 §12.2.4(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.2.4(c)",
@@ -158,9 +167,10 @@
       "In level flight: lift = weight, thrust = drag",
       "Unbalanced forces cause acceleration"
     ],
-    "source": "Stoneybrook AU Module 1.1 (Section 5), AC 61-3 Rev 31 §12.2.4(c)",
+    "source": "Stoneybrook AU Module 1.1 (Section 5), NZ CAA AC 61-3 Rev 25 §12.2.4(c)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.2.4(d)",
@@ -174,9 +184,10 @@
       "A single force can be resolved into perpendicular components",
       "Total aerodynamic force resolves into lift and drag"
     ],
-    "source": "Stoneybrook AU Module 1.1 (Section 5), Module 1.5 (force resolution), AC 61-3 Rev 31 §12.2.4(d)",
+    "source": "Stoneybrook AU Module 1.1 (Section 5), Module 1.5 (force resolution), NZ CAA AC 61-3 Rev 25 §12.2.4(d)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.2.4(e)",
@@ -190,9 +201,10 @@
       "Wing deflects air downward → lift upward",
       "Newton's Third Law of Motion"
     ],
-    "source": "Stoneybrook AU Module 1.1 (Section 5), AC 61-3 Rev 31 §12.2.4(e)",
+    "source": "Stoneybrook AU Module 1.1 (Section 5), NZ CAA AC 61-3 Rev 25 §12.2.4(e)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.2.4(f)",
@@ -206,9 +218,10 @@
       "Higher KE means longer stopping distance",
       "Affects landing performance and braking"
     ],
-    "source": "Stoneybrook AU Module 1.1 (Section 5: Energy), AC 61-3 Rev 31 §12.2.4(f)",
+    "source": "Stoneybrook AU Module 1.1 (Section 5: Energy), NZ CAA AC 61-3 Rev 25 §12.2.4(f)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.2.4(g)",
@@ -223,9 +236,10 @@
       "Climbing converts KE to PE",
       "Total energy = KE + PE (conservation of energy)"
     ],
-    "source": "Stoneybrook AU Module 1.1 (Section 5: Energy), AC 61-3 Rev 31 §12.2.4(g)",
+    "source": "Stoneybrook AU Module 1.1 (Section 5: Energy), NZ CAA AC 61-3 Rev 25 §12.2.4(g)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.2.4(h)",
@@ -239,9 +253,10 @@
       "In a constant-speed turn: magnitude unchanged, direction changes",
       "Momentum changes whenever either mass, speed, or direction changes"
     ],
-    "source": "Stoneybrook AU Module 1.1 (Section 5: Energy), AC 61-3 Rev 31 §12.2.4(h)",
+    "source": "Stoneybrook AU Module 1.1 (Section 5: Energy), NZ CAA AC 61-3 Rev 25 §12.2.4(h)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.2.4(i)",
@@ -255,9 +270,10 @@
       "1 joule = 1 newton × 1 metre",
       "Only the force component in the direction of movement counts"
     ],
-    "source": "Stoneybrook AU Module 1.1 (Section 5: Energy), AC 61-3 Rev 31 §12.2.4(i)",
+    "source": "Stoneybrook AU Module 1.1 (Section 5: Energy), NZ CAA AC 61-3 Rev 25 §12.2.4(i)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.2.4(j)",
@@ -271,9 +287,10 @@
       "Measured in watts (W) or horsepower (hp)",
       "1 hp ≈ 746 watts"
     ],
-    "source": "Stoneybrook AU Module 1.1 (Section 5: Energy), AC 61-3 Rev 31 §12.2.4(j)",
+    "source": "Stoneybrook AU Module 1.1 (Section 5: Energy), NZ CAA AC 61-3 Rev 25 §12.2.4(j)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.4.2",
@@ -288,9 +305,10 @@
       "Proportions constant up to ~80,000 ft",
       "Water vapour content varies with conditions"
     ],
-    "source": "Stoneybrook AU Module 1.3 (atmospheric composition), AC 61-3 Rev 31 §12.4.2",
+    "source": "Stoneybrook AU Module 1.3 (atmospheric composition), NZ CAA AC 61-3 Rev 25 §12.4.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.4.4",
@@ -304,9 +322,10 @@
       "Affects engine power output",
       "Affects aerodynamic forces (lift and drag)"
     ],
-    "source": "Stoneybrook AU Module 1.3 (density), AC 61-3 Rev 31 §12.4.4",
+    "source": "Stoneybrook AU Module 1.3 (density), NZ CAA AC 61-3 Rev 25 §12.4.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.4.6",
@@ -320,9 +339,10 @@
       "Engine receives less oxygen → less power",
       "Wings must work harder to produce the same lift"
     ],
-    "source": "Stoneybrook AU Module 1.3 (altitude effects on density), AC 61-3 Rev 31 §12.4.6",
+    "source": "Stoneybrook AU Module 1.3 (altitude effects on density), NZ CAA AC 61-3 Rev 25 §12.4.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.4.8",
@@ -336,9 +356,10 @@
       "All three decrease with altitude in the troposphere",
       "Hot days at high elevation = very low density = poor performance"
     ],
-    "source": "Stoneybrook AU Module 1.3 (gas relationships), AC 61-3 Rev 31 §12.4.8",
+    "source": "Stoneybrook AU Module 1.3 (gas relationships), NZ CAA AC 61-3 Rev 25 §12.4.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.4.10",
@@ -352,9 +373,10 @@
       "Density decreases with altitude",
       "ISA sea level: 15°C, 1013.25 hPa"
     ],
-    "source": "Stoneybrook AU Module 1.2 (atmospheric density discussion), Stoneybrook AU Module 1.3 (altitude effects), AC 61-3 Rev 31 §12.4.10",
+    "source": "Stoneybrook AU Module 1.2 (atmospheric density discussion), Stoneybrook AU Module 1.3 (altitude effects), NZ CAA AC 61-3 Rev 25 §12.4.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.4.12",
@@ -368,9 +390,10 @@
       "Assumes constant lapse rate up to the tropopause",
       "Tropopause at 36,090 ft in ISA"
     ],
-    "source": "Stoneybrook AU Module 1.3 (ISA), AC 61-3 Rev 31 §12.4.12",
+    "source": "Stoneybrook AU Module 1.3 (ISA), NZ CAA AC 61-3 Rev 25 §12.4.12",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.4.14",
@@ -383,9 +406,10 @@
       "ISA sea-level pressure: 1013.25 hPa (29.92 inHg)",
       "ISA deviation = actual temp minus ISA temp at altitude"
     ],
-    "source": "Stoneybrook AU Module 1.3 (ISA values), AC 61-3 Rev 31 §12.4.14",
+    "source": "Stoneybrook AU Module 1.3 (ISA values), NZ CAA AC 61-3 Rev 25 §12.4.14",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.4.16",
@@ -400,9 +424,10 @@
       "Temperature at tropopause: -56.5°C",
       "Temperature constant above tropopause (stratosphere)"
     ],
-    "source": "Stoneybrook AU Module 1.3 (ISA lapse rate), AC 61-3 Rev 31 §12.4.16",
+    "source": "Stoneybrook AU Module 1.3 (ISA lapse rate), NZ CAA AC 61-3 Rev 25 §12.4.16",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.2",
@@ -416,9 +441,10 @@
       "Symmetrical: lift only at positive AoA",
       "Used for wings, tail surfaces, propeller blades"
     ],
-    "source": "Stoneybrook AU Module 1.5 (aerofoil definitions), AC 61-3 Rev 31 §12.6.2",
+    "source": "Stoneybrook AU Module 1.5 (aerofoil definitions), NZ CAA AC 61-3 Rev 25 §12.6.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.4(a)",
@@ -431,9 +457,10 @@
       "Typically rounded for smooth airflow attachment",
       "Shape affects stall characteristics"
     ],
-    "source": "Stoneybrook AU Module 1.5 (aerofoil terminology), AC 61-3 Rev 31 §12.6.4(a)",
+    "source": "Stoneybrook AU Module 1.5 (aerofoil terminology), NZ CAA AC 61-3 Rev 25 §12.6.4(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.4(b)",
@@ -446,9 +473,10 @@
       "Where upper and lower airflows rejoin",
       "Control surfaces and flaps hinged here"
     ],
-    "source": "Stoneybrook AU Module 1.5 (aerofoil terminology), AC 61-3 Rev 31 §12.6.4(b)",
+    "source": "Stoneybrook AU Module 1.5 (aerofoil terminology), NZ CAA AC 61-3 Rev 25 §12.6.4(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.4(c)",
@@ -462,9 +490,10 @@
       "Used as reference for measuring angle of attack",
       "An imaginary reference line"
     ],
-    "source": "Stoneybrook AU Module 1.5 (aerofoil terminology), AC 61-3 Rev 31 §12.6.4(c)",
+    "source": "Stoneybrook AU Module 1.5 (aerofoil terminology), NZ CAA AC 61-3 Rev 25 §12.6.4(c)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.4(d)",
@@ -478,9 +507,10 @@
       "Typical light aircraft wing: 12-15% t/c ratio",
       "Thicker aerofoils: more lift, more drag"
     ],
-    "source": "Stoneybrook AU Module 1.5 (aerofoil terminology), AC 61-3 Rev 31 §12.6.4(d)",
+    "source": "Stoneybrook AU Module 1.5 (aerofoil terminology), NZ CAA AC 61-3 Rev 25 §12.6.4(d)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.4(e)",
@@ -494,9 +524,10 @@
       "Cambered aerofoil: camber line curves above chord line",
       "Maximum distance from camber line to chord line = camber"
     ],
-    "source": "Stoneybrook AU Module 1.5 (aerofoil terminology), AC 61-3 Rev 31 §12.6.4(e)",
+    "source": "Stoneybrook AU Module 1.5 (aerofoil terminology), NZ CAA AC 61-3 Rev 25 §12.6.4(e)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.4(f)",
@@ -510,9 +541,10 @@
       "Positive camber: more curvature on upper surface",
       "Symmetrical aerofoil: equal camber above and below"
     ],
-    "source": "Stoneybrook AU Module 1.5 (aerofoil definitions), AC 61-3 Rev 31 §12.6.4(f)",
+    "source": "Stoneybrook AU Module 1.5 (aerofoil definitions), NZ CAA AC 61-3 Rev 25 §12.6.4(f)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.6",
@@ -526,9 +558,10 @@
       "Angle of attack: angle between chord line and relative airflow",
       "AoA is NOT the same as pitch attitude"
     ],
-    "source": "Stoneybrook AU Module 1.5 (relative airflow, AoA), AC 61-3 Rev 31 §12.6.6",
+    "source": "Stoneybrook AU Module 1.5 (relative airflow, AoA), NZ CAA AC 61-3 Rev 25 §12.6.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.8",
@@ -543,9 +576,10 @@
       "Pressure difference = lift",
       "Applies to incompressible, steady flow"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Bernoulli, lift generation), AC 61-3 Rev 31 §12.6.8",
+    "source": "Stoneybrook AU Module 1.5 (Bernoulli, lift generation), NZ CAA AC 61-3 Rev 25 §12.6.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.10",
@@ -559,9 +593,10 @@
       "Pressure difference produces lift",
       "Smooth flow breaks down at the critical angle of attack (stall)"
     ],
-    "source": "Stoneybrook AU Module 1.5 (streamline flow, lift generation), AC 61-3 Rev 31 §12.6.10",
+    "source": "Stoneybrook AU Module 1.5 (streamline flow, lift generation), NZ CAA AC 61-3 Rev 25 §12.6.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.12(a)",
@@ -575,9 +610,10 @@
       "Increased airflow speed: static pressure decreases",
       "This is Bernoulli's principle"
     ],
-    "source": "Stoneybrook AU Module 1.5 (lift generation, pressure relationships), AC 61-3 Rev 31 §12.6.12(a)",
+    "source": "Stoneybrook AU Module 1.5 (lift generation, pressure relationships), NZ CAA AC 61-3 Rev 25 §12.6.12(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.12(b)",
@@ -592,9 +628,10 @@
       "Pressure differential creates net upward force (lift)",
       "Magnitude depends on AoA and aerofoil shape"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Pressure distribution and lift), Kermode Mechanics of Flight, AC 61-3 Rev 31 §12.6.12",
+    "source": "Stoneybrook AU Module 1.5 (Pressure distribution and lift), Kermode Mechanics of Flight, NZ CAA AC 61-3 Rev 25 §12.6.12",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.14(a)",
@@ -609,9 +646,10 @@
       "Carburettor uses venturi effect to draw fuel",
       "Relates to airflow acceleration over a wing"
     ],
-    "source": "Stoneybrook AU Module 1.5 (venturi, Bernoulli), Module 1.2 (carburettor venturi), AC 61-3 Rev 31 §12.6.14(a)",
+    "source": "Stoneybrook AU Module 1.5 (venturi, Bernoulli), Module 1.2 (carburettor venturi), NZ CAA AC 61-3 Rev 25 §12.6.14(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.14(b)",
@@ -625,9 +663,10 @@
       "Higher pressure on lower surface relative to upper",
       "Net pressure difference produces the total aerodynamic force"
     ],
-    "source": "Stoneybrook AU Module 1.5 (pressure distribution, lift), AC 61-3 Rev 31 §12.6.14(b)",
+    "source": "Stoneybrook AU Module 1.5 (pressure distribution, lift), NZ CAA AC 61-3 Rev 25 §12.6.14(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.16(a)",
@@ -641,9 +680,10 @@
       "Resolved into lift (perpendicular to relative airflow) and drag (parallel)",
       "Acts through the centre of pressure"
     ],
-    "source": "Stoneybrook AU Module 1.5 (total reaction), AC 61-3 Rev 31 §12.6.16(a)",
+    "source": "Stoneybrook AU Module 1.5 (total reaction), NZ CAA AC 61-3 Rev 25 §12.6.16(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.16(b)",
@@ -656,9 +696,10 @@
       "It is the resultant of all pressure forces on the aerofoil",
       "CP position moves with changes in angle of attack"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Section 2.4: Centre of Pressure and Centre of Gravity), AC 61-3 Rev 31 §12.6.16(b)",
+    "source": "Stoneybrook AU Module 1.5 (Section 2.4: Centre of Pressure and Centre of Gravity), NZ CAA AC 61-3 Rev 25 §12.6.16(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.18",
@@ -672,9 +713,10 @@
       "Forward CP movement is destabilising (nose-up tendency)",
       "Beyond stall: TR decreases, CP moves rearward"
     ],
-    "source": "Stoneybrook AU Module 1.5 (CP movement, AoA effects), Kermode — Mechanics of Flight, AC 61-3 Rev 31 §12.6.18",
+    "source": "Stoneybrook AU Module 1.5 (CP movement, AoA effects), Kermode — Mechanics of Flight, NZ CAA AC 61-3 Rev 25 §12.6.18",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.20",
@@ -688,9 +730,10 @@
       "Symmetrical aerofoil: CP remains at approximately the quarter-chord point",
       "CP movement affects longitudinal stability"
     ],
-    "source": "Kermode — Mechanics of Flight (Ch. on aerofoil characteristics), Stoneybrook AU Module 1.5, AC 61-3 Rev 31 §12.6.20",
+    "source": "Kermode — Mechanics of Flight (Ch. on aerofoil characteristics), Stoneybrook AU Module 1.5, NZ CAA AC 61-3 Rev 25 §12.6.20",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.22",
@@ -705,9 +748,10 @@
       "Both increase with AoA (below stall)",
       "At stall: lift drops, drag increases"
     ],
-    "source": "Stoneybrook AU Module 1.5 (lift and drag components), AC 61-3 Rev 31 §12.6.22",
+    "source": "Stoneybrook AU Module 1.5 (lift and drag components), NZ CAA AC 61-3 Rev 25 §12.6.22",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.24(a)",
@@ -723,9 +767,10 @@
       "V = true airspeed (m/s); note V²",
       "S = wing planform area (m²)"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Lift formula), Kermode Mechanics of Flight Chapter 2, AC 61-3 Rev 31 §12.6.24",
+    "source": "Stoneybrook AU Module 1.5 (Lift formula), Kermode Mechanics of Flight Chapter 2, NZ CAA AC 61-3 Rev 25 §12.6.24",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.24(b)",
@@ -740,9 +785,10 @@
       "Wing area (S): fixed for given aircraft",
       "Pilot controls AoA and IAS to manage lift"
     ],
-    "source": "Stoneybrook AU Module 1.5, 1.6 (Lift factors), Kermode Mechanics of Flight, AC 61-3 Rev 31 §12.6.24",
+    "source": "Stoneybrook AU Module 1.5, 1.6 (Lift factors), Kermode Mechanics of Flight, NZ CAA AC 61-3 Rev 25 §12.6.24",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.26",
@@ -756,9 +802,10 @@
       "CL increases linearly with AoA up to the stall",
       "Airspeed and wing area affect lift force, not CL itself"
     ],
-    "source": "Stoneybrook AU Module 1.5 (lift factors, AoA relationship), AC 61-3 Rev 31 §12.6.26",
+    "source": "Stoneybrook AU Module 1.5 (lift factors, AoA relationship), NZ CAA AC 61-3 Rev 25 §12.6.26",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.28",
@@ -773,9 +820,10 @@
       "Cambered aerofoil: positive CL at zero AoA",
       "Symmetrical aerofoil: zero CL at zero AoA"
     ],
-    "source": "Stoneybrook AU Module 1.5 (CL curve), Module 1.6 (stall angle), AC 61-3 Rev 31 §12.6.28",
+    "source": "Stoneybrook AU Module 1.5 (CL curve), Module 1.6 (stall angle), NZ CAA AC 61-3 Rev 25 §12.6.28",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.30",
@@ -789,9 +837,10 @@
       "Critical angle is constant for a given aerofoil shape",
       "Stall speed changes with weight, load factor, configuration — but critical angle does not"
     ],
-    "source": "Stoneybrook AU Module 1.5 (stall), Module 1.6 (critical angle), AC 61-3 Rev 31 §12.6.30",
+    "source": "Stoneybrook AU Module 1.5 (stall), Module 1.6 (critical angle), NZ CAA AC 61-3 Rev 25 §12.6.30",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.32",
@@ -806,9 +855,10 @@
       "Remove all frost, ice, snow, dirt before flight",
       "Even a thin layer of frost is dangerous"
     ],
-    "source": "Stoneybrook AU Module 1.6 (contamination effects), AC 61-3 Rev 31 §12.6.32",
+    "source": "Stoneybrook AU Module 1.6 (contamination effects), NZ CAA AC 61-3 Rev 25 §12.6.32",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.34",
@@ -822,9 +872,10 @@
       "Profile drag: form drag + skin friction drag of the aerofoil",
       "Induced drag decreases with speed; parasitic drag increases with speed²"
     ],
-    "source": "Stoneybrook AU Module 1.5 (drag types), AC 61-3 Rev 31 §12.6.34",
+    "source": "Stoneybrook AU Module 1.5 (drag types), NZ CAA AC 61-3 Rev 25 §12.6.34",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.36",
@@ -838,9 +889,10 @@
       "Skin friction drag: caused by air rubbing on surface; reduced by smooth surfaces",
       "Profile drag increases with airspeed"
     ],
-    "source": "Stoneybrook AU Module 1.5 (profile drag), AC 61-3 Rev 31 §12.6.36",
+    "source": "Stoneybrook AU Module 1.5 (profile drag), NZ CAA AC 61-3 Rev 25 §12.6.36",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.38",
@@ -854,9 +906,10 @@
       "Form drag: caused by bluff shapes",
       "Interference drag: airflow disruption at component junctions"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Section 4.1: Parasite Drag), AC 61-3 Rev 31 §12.6.38",
+    "source": "Stoneybrook AU Module 1.5 (Section 4.1: Parasite Drag), NZ CAA AC 61-3 Rev 25 §12.6.38",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.40(a)",
@@ -870,9 +923,10 @@
       "High at slow speeds (high AoA), low at high speeds (low AoA)",
       "Greater lift production = stronger vortices = more induced drag"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Section 4.2: Induced Drag), AC 61-3 Rev 31 §12.6.40(a)",
+    "source": "Stoneybrook AU Module 1.5 (Section 4.2: Induced Drag), NZ CAA AC 61-3 Rev 25 §12.6.40(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.40(b)",
@@ -887,9 +941,10 @@
       "Low aspect ratio (short/wide): more induced drag",
       "Gliders use high aspect ratio to minimise induced drag"
     ],
-    "source": "Stoneybrook AU Module 1.5 (induced drag, aspect ratio), Kermode — Mechanics of Flight, AC 61-3 Rev 31 §12.6.40(b)",
+    "source": "Stoneybrook AU Module 1.5 (induced drag, aspect ratio), Kermode — Mechanics of Flight, NZ CAA AC 61-3 Rev 25 §12.6.40(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.42",
@@ -904,9 +959,10 @@
       "Minimum total drag: where induced drag = parasite drag",
       "Below min drag speed: induced dominates. Above: parasite dominates"
     ],
-    "source": "Stoneybrook AU Module 1.5 (drag curves), Module 1.6 (total drag), AC 61-3 Rev 31 §12.6.42",
+    "source": "Stoneybrook AU Module 1.5 (drag curves), Module 1.6 (total drag), NZ CAA AC 61-3 Rev 25 §12.6.42",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.44",
@@ -921,9 +977,10 @@
       "Related to best range speed in powered flight",
       "L/D decreases at speeds above or below the optimum"
     ],
-    "source": "Stoneybrook AU Module 1.5 (L/D ratio), Module 1.6 (range, glide), AC 61-3 Rev 31 §12.6.44",
+    "source": "Stoneybrook AU Module 1.5 (L/D ratio), Module 1.6 (range, glide), NZ CAA AC 61-3 Rev 25 §12.6.44",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.6.46",
@@ -937,9 +994,10 @@
       "Below this AoA: inefficient lift production",
       "Above this AoA: induced drag increases rapidly"
     ],
-    "source": "Stoneybrook AU Module 1.5 (best L/D), AC 61-3 Rev 31 §12.6.46",
+    "source": "Stoneybrook AU Module 1.5 (best L/D), NZ CAA AC 61-3 Rev 25 §12.6.46",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.10.2",
@@ -953,9 +1011,10 @@
       "Low vibration, compact design",
       "Common engines: Lycoming O-235/O-320, Continental O-200"
     ],
-    "source": "Stoneybrook AU Module 1.2 (engine configurations), AC 61-3 Rev 31 §12.10.2",
+    "source": "Stoneybrook AU Module 1.2 (engine configurations), NZ CAA AC 61-3 Rev 25 §12.10.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.10.4(a)",
@@ -969,9 +1028,10 @@
       "Withstand high temperatures and pressures",
       "Cooling fins for heat dissipation (air-cooled engines)"
     ],
-    "source": "Stoneybrook AU Module 1.2 (four-stroke components), AC 61-3 Rev 31 §12.10.4(a)",
+    "source": "Stoneybrook AU Module 1.2 (four-stroke components), NZ CAA AC 61-3 Rev 25 §12.10.4(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.10.4(b)",
@@ -986,9 +1046,10 @@
       "Forms part of the combustion chamber",
       "Has cooling fins (air-cooled engines)"
     ],
-    "source": "Stoneybrook AU Module 1.2 (four-stroke cycle, spark plugs in cylinder head), AC 61-3 Rev 31 §12.10.4(b)",
+    "source": "Stoneybrook AU Module 1.2 (four-stroke cycle, spark plugs in cylinder head), NZ CAA AC 61-3 Rev 25 §12.10.4(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.10.4(c)",
@@ -1002,9 +1063,10 @@
       "Driven down by combustion gases on power stroke",
       "Piston rings (2-3) seal between piston and cylinder wall"
     ],
-    "source": "Stoneybrook AU Module 1.2 (piston function), AC 61-3 Rev 31 §12.10.4(c)",
+    "source": "Stoneybrook AU Module 1.2 (piston function), NZ CAA AC 61-3 Rev 25 §12.10.4(c)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.10.4(d)",
@@ -1018,9 +1080,10 @@
       "Small end attaches to piston; big end attaches to crankshaft",
       "Must withstand high forces during power stroke"
     ],
-    "source": "Stoneybrook AU Module 1.2 (connecting rods), AC 61-3 Rev 31 §12.10.4(d)",
+    "source": "Stoneybrook AU Module 1.2 (connecting rods), NZ CAA AC 61-3 Rev 25 §12.10.4(d)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.10.4(e)",
@@ -1035,9 +1098,10 @@
       "Supported by main bearings in the crankcase",
       "Counterweights for vibration reduction"
     ],
-    "source": "Stoneybrook AU Module 1.2 (crankshaft), AC 61-3 Rev 31 §12.10.4(e)",
+    "source": "Stoneybrook AU Module 1.2 (crankshaft), NZ CAA AC 61-3 Rev 25 §12.10.4(e)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.10.4(f)",
@@ -1052,9 +1116,10 @@
       "Opened by camshaft; closed by valve springs",
       "Precise timing is critical for efficiency"
     ],
-    "source": "Stoneybrook AU Module 1.2 (valve function), AC 61-3 Rev 31 §12.10.4(f)",
+    "source": "Stoneybrook AU Module 1.2 (valve function), NZ CAA AC 61-3 Rev 25 §12.10.4(f)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.10.4(g)",
@@ -1069,9 +1134,10 @@
       "Cam lobes determine valve lift and duration",
       "Ensures correct valve timing relative to piston position"
     ],
-    "source": "Stoneybrook AU Module 1.2 (camshaft), AC 61-3 Rev 31 §12.10.4(g)",
+    "source": "Stoneybrook AU Module 1.2 (camshaft), NZ CAA AC 61-3 Rev 25 §12.10.4(g)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.10.4(h)",
@@ -1086,9 +1152,10 @@
       "One rotation per two crankshaft revolutions",
       "Necessary for precise valve timing in four-stroke cycle"
     ],
-    "source": "Stoneybrook AU Module 1.2 (Engine components), ATC Aircraft General Knowledge, AC 61-3 Rev 31 §12.10.4",
+    "source": "Stoneybrook AU Module 1.2 (Engine components), ATC Aircraft General Knowledge, NZ CAA AC 61-3 Rev 25 §12.10.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.10.4(i)",
@@ -1103,9 +1170,10 @@
       "Fired by magneto ignition system",
       "Fire at precise moment near top dead centre"
     ],
-    "source": "Stoneybrook AU Module 1.2 (Ignition systems), ATC Aircraft General Knowledge, AC 61-3 Rev 31 §12.10.4",
+    "source": "Stoneybrook AU Module 1.2 (Ignition systems), ATC Aircraft General Knowledge, NZ CAA AC 61-3 Rev 25 §12.10.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.10.4(j)",
@@ -1120,9 +1188,10 @@
       "Better fuel distribution among cylinders",
       "Improve cold-start and high-altitude performance"
     ],
-    "source": "Stoneybrook AU Module 1.3 (Fuel injection systems), ATC Aircraft General Knowledge, AC 61-3 Rev 31 §12.10.4",
+    "source": "Stoneybrook AU Module 1.3 (Fuel injection systems), ATC Aircraft General Knowledge, NZ CAA AC 61-3 Rev 25 §12.10.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.10.6",
@@ -1137,9 +1206,10 @@
       "Exhaust: burned gases expelled (exhaust valve open, piston up)",
       "Complete cycle = 2 crankshaft revolutions (720°)"
     ],
-    "source": "Stoneybrook AU Module 1.2 (four-stroke cycle), AC 61-3 Rev 31 §12.10.6",
+    "source": "Stoneybrook AU Module 1.2 (four-stroke cycle), NZ CAA AC 61-3 Rev 25 §12.10.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.10.8",
@@ -1153,9 +1223,10 @@
       "More RPM = more power strokes per minute = more power",
       "Applies to normally aspirated piston engines"
     ],
-    "source": "Stoneybrook AU Module 1.2 (engine power and throttle control), AC 61-3 Rev 31 §12.10.8",
+    "source": "Stoneybrook AU Module 1.2 (engine power and throttle control), NZ CAA AC 61-3 Rev 25 §12.10.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.10.10",
@@ -1170,9 +1241,10 @@
       "Overlap improves cylinder scavenging (exhaust gas removal)",
       "All improve engine breathing efficiency"
     ],
-    "source": "Stoneybrook AU Module 1.2 (valve timing), AC 61-3 Rev 31 §12.10.10",
+    "source": "Stoneybrook AU Module 1.2 (valve timing), NZ CAA AC 61-3 Rev 25 §12.10.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.10.12",
@@ -1187,9 +1259,10 @@
       "Compression ignition: heavier but more fuel-efficient",
       "Compression ignition can use jet fuel (AVTUR)"
     ],
-    "source": "Stoneybrook AU Module 1.2 (ignition types), AC 61-3 Rev 31 §12.10.12",
+    "source": "Stoneybrook AU Module 1.2 (ignition types), NZ CAA AC 61-3 Rev 25 §12.10.12",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.12.2",
@@ -1203,9 +1276,10 @@
       "Fuel enters via discharge nozzle into airstream",
       "Pilot adjusts fuel/air ratio with mixture control"
     ],
-    "source": "Stoneybrook AU Module 1.2 (carburation principle), AC 61-3 Rev 31 §12.12.2",
+    "source": "Stoneybrook AU Module 1.2 (carburation principle), NZ CAA AC 61-3 Rev 25 §12.12.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.12.4",
@@ -1220,9 +1294,10 @@
       "Mixture control adjusts fuel-to-air ratio",
       "Main jet and discharge nozzle deliver fuel into airstream"
     ],
-    "source": "Stoneybrook AU Module 1.2 (float-type carburettor), AC 61-3 Rev 31 §12.12.4",
+    "source": "Stoneybrook AU Module 1.2 (float-type carburettor), NZ CAA AC 61-3 Rev 25 §12.12.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.12.6(a)",
@@ -1236,9 +1311,10 @@
       "Results in better mixing and vaporisation",
       "Improves combustion efficiency and power output"
     ],
-    "source": "Stoneybrook AU Module 1.2 (carburettor functions), AC 61-3 Rev 31 §12.12.6(a)",
+    "source": "Stoneybrook AU Module 1.2 (carburettor functions), NZ CAA AC 61-3 Rev 25 §12.12.6(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.12.6(b)",
@@ -1252,9 +1328,10 @@
       "Poor diffusion: uneven running, some cylinders rich, others lean",
       "Good diffusion: smooth, even power output"
     ],
-    "source": "Stoneybrook AU Module 1.2 (carburettor functions), AC 61-3 Rev 31 §12.12.6(b)",
+    "source": "Stoneybrook AU Module 1.2 (carburettor functions), NZ CAA AC 61-3 Rev 25 §12.12.6(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.12.6(c)",
@@ -1268,9 +1345,10 @@
       "Compensates for air responding faster than fuel metering",
       "On some aircraft (PA-28), used for engine priming"
     ],
-    "source": "Stoneybrook AU Module 1.2 (accelerator pump), ATC AGK (Ch. 4: priming via accelerator pump), AC 61-3 Rev 31 §12.12.6(c)",
+    "source": "Stoneybrook AU Module 1.2 (accelerator pump), ATC AGK (Ch. 4: priming via accelerator pump), NZ CAA AC 61-3 Rev 25 §12.12.6(c)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.12.6(d)",
@@ -1284,9 +1362,10 @@
       "Spring-loaded valve that opens at high throttle settings",
       "Also called the enrichment valve or power enrichment circuit"
     ],
-    "source": "ATC Aircraft General Knowledge (Ch. 4 Carburation: enrichment valve), AC 61-3 Rev 31 §12.12.6(d)",
+    "source": "ATC Aircraft General Knowledge (Ch. 4 Carburation: enrichment valve), NZ CAA AC 61-3 Rev 25 §12.12.6(d)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.12.6(e)",
@@ -1300,9 +1379,10 @@
       "Clears fuel from the induction system (reduces fire risk)",
       "Preferred over switching off magnetos"
     ],
-    "source": "ATC Aircraft General Knowledge (Ch. 4: idle cut-off), AC 61-3 Rev 31 §12.12.6(e)",
+    "source": "ATC Aircraft General Knowledge (Ch. 4: idle cut-off), NZ CAA AC 61-3 Rev 25 §12.12.6(e)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.12.6(f)",
@@ -1317,9 +1397,10 @@
       "Causes engine to stop running",
       "May be part of fuel selector valve or separate control"
     ],
-    "source": "Stoneybrook AU Module 1.3 (Fuel systems), ATC Aircraft General Knowledge, AC 61-3 Rev 31 §12.12.6",
+    "source": "Stoneybrook AU Module 1.3 (Fuel systems), ATC Aircraft General Knowledge, NZ CAA AC 61-3 Rev 25 §12.12.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.12.8",
@@ -1334,9 +1415,10 @@
       "Idle cut-off: stops all fuel for engine shutdown",
       "Range: full rich → lean → idle cut-off"
     ],
-    "source": "Stoneybrook AU Module 1.2 (mixture control), ATC AGK (Ch. 4), AC 61-3 Rev 31 §12.12.8",
+    "source": "Stoneybrook AU Module 1.2 (mixture control), ATC AGK (Ch. 4), NZ CAA AC 61-3 Rev 25 §12.12.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.12.10",
@@ -1350,9 +1432,10 @@
       "Lean the mixture as altitude increases",
       "Idle cut-off position for engine shutdown"
     ],
-    "source": "Stoneybrook AU Module 1.2 (mixture control at altitude), AC 61-3 Rev 31 §12.12.10",
+    "source": "Stoneybrook AU Module 1.2 (mixture control at altitude), NZ CAA AC 61-3 Rev 25 §12.12.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.12.12(a)",
@@ -1367,9 +1450,10 @@
       "Black exhaust smoke",
       "Lower cylinder head temperatures"
     ],
-    "source": "Stoneybrook AU Module 1.2 (rich mixture effects, CHT discussion), AC 61-3 Rev 31 §12.12.12(a)",
+    "source": "Stoneybrook AU Module 1.2 (rich mixture effects, CHT discussion), NZ CAA AC 61-3 Rev 25 §12.12.12(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.12.12(b)",
@@ -1384,9 +1468,10 @@
       "High cylinder head temperatures",
       "Potential engine damage or failure at extreme lean settings"
     ],
-    "source": "Stoneybrook AU Module 1.2 (lean mixture effects), AC 61-3 Rev 31 §12.12.12(b)",
+    "source": "Stoneybrook AU Module 1.2 (lean mixture effects), NZ CAA AC 61-3 Rev 25 §12.12.12(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.12.14",
@@ -1401,9 +1486,10 @@
       "Pre-ignition caused by carbon deposits, overheated plugs",
       "Both cause severe engine damage"
     ],
-    "source": "Stoneybrook AU Module 1.2 (detonation and pre-ignition sections), AC 61-3 Rev 31 §12.12.14",
+    "source": "Stoneybrook AU Module 1.2 (detonation and pre-ignition sections), NZ CAA AC 61-3 Rev 25 §12.12.14",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.12.16",
@@ -1419,9 +1505,10 @@
       "Monitor CHT; reduce power if excessive",
       "Regular maintenance to prevent carbon buildup"
     ],
-    "source": "Stoneybrook AU Module 1.2 (detonation/pre-ignition causes and avoidance), AC 61-3 Rev 31 §12.12.16",
+    "source": "Stoneybrook AU Module 1.2 (detonation/pre-ignition causes and avoidance), NZ CAA AC 61-3 Rev 25 §12.12.16",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.12.18",
@@ -1436,9 +1523,10 @@
       "Refrigeration ice most common and insidious (forms at 0-20°C in humid air)",
       "Throttle ice most common at low power (throttle partially closed)"
     ],
-    "source": "Stoneybrook AU Module 1.2 (carburettor ice types), AC 61-3 Rev 31 §12.12.18",
+    "source": "Stoneybrook AU Module 1.2 (carburettor ice types), NZ CAA AC 61-3 Rev 25 §12.12.18",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.12.20(a)",
@@ -1453,9 +1541,10 @@
       "Fuel evaporation can cause up to 30°C temperature drop",
       "Descending flight at low power is high risk"
     ],
-    "source": "Stoneybrook AU Module 1.2 (carb ice conditions), AC 61-3 Rev 31 §12.12.20(a)",
+    "source": "Stoneybrook AU Module 1.2 (carb ice conditions), NZ CAA AC 61-3 Rev 25 §12.12.20(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.12.20(b)",
@@ -1469,9 +1558,10 @@
       "Apply carb heat pre-emptively when in icing range",
       "Provides early warning before ice forms"
     ],
-    "source": "Stoneybrook AU Module 1.2 (CAT gauge), AC 61-3 Rev 31 §12.12.20(b)",
+    "source": "Stoneybrook AU Module 1.2 (CAT gauge), NZ CAA AC 61-3 Rev 25 §12.12.20(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.12.20(c)",
@@ -1486,9 +1576,10 @@
       "RPM should recover as ice melts",
       "If no recovery, descend to warmer air"
     ],
-    "source": "Stoneybrook AU Module 1.2 (carburettor ice symptoms), Stoneybrook AU Module 1.7 (carb heat procedure), AC 61-3 Rev 31 §12.12.20(c)",
+    "source": "Stoneybrook AU Module 1.2 (carburettor ice symptoms), Stoneybrook AU Module 1.7 (carb heat procedure), NZ CAA AC 61-3 Rev 25 §12.12.20(c)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.12.22",
@@ -1502,9 +1593,10 @@
       "Smooth internal surface to minimise fuel condensation",
       "Manifold pressure (MAP) measured here as power indicator"
     ],
-    "source": "Stoneybrook AU Module 1.2 (inlet manifold), AC 61-3 Rev 31 §12.12.22",
+    "source": "Stoneybrook AU Module 1.2 (inlet manifold), NZ CAA AC 61-3 Rev 25 §12.12.22",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.14.2",
@@ -1521,9 +1613,10 @@
       "Disadvantage: hot-start difficulties",
       "Note: air intake icing still possible"
     ],
-    "source": "Stoneybrook AU Module 1.2 (injection vs carburettor), Module 1.7 (vapour lock), AC 61-3 Rev 31 §12.14.2",
+    "source": "Stoneybrook AU Module 1.2 (injection vs carburettor), Module 1.7 (vapour lock), NZ CAA AC 61-3 Rev 25 §12.14.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.14.4(a)",
@@ -1537,9 +1630,10 @@
       "No carburettor icing risk (but intake icing still possible)",
       "Better mixture control and cold-start characteristics"
     ],
-    "source": "Stoneybrook AU Module 1.2 (carburettor vs direct injection), Stoneybrook AU Module 1.7 (fuel injection and carb ice immunity), AC 61-3 Rev 31 §12.14.4(a)",
+    "source": "Stoneybrook AU Module 1.2 (carburettor vs direct injection), Stoneybrook AU Module 1.7 (fuel injection and carb ice immunity), NZ CAA AC 61-3 Rev 25 §12.14.4(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.14.4(b)",
@@ -1553,9 +1647,10 @@
       "Most light aircraft use indirect/port injection",
       "Direct injection more common in automotive and diesel aviation engines"
     ],
-    "source": "Stoneybrook AU Module 1.2 (injection types), AC 61-3 Rev 31 §12.14.4(b)",
+    "source": "Stoneybrook AU Module 1.2 (injection types), NZ CAA AC 61-3 Rev 25 §12.14.4(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.14.6",
@@ -1569,9 +1664,10 @@
       "Fuel control unit meters flow based on throttle and mixture",
       "Individual nozzle at each cylinder's intake port"
     ],
-    "source": "Stoneybrook AU Module 1.2 (fuel injection principles), AC 61-3 Rev 31 §12.14.6",
+    "source": "Stoneybrook AU Module 1.2 (fuel injection principles), NZ CAA AC 61-3 Rev 25 §12.14.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.14.8(a)",
@@ -1585,9 +1681,10 @@
       "Maintains consistent pressure regardless of conditions",
       "Electric boost pump provides backup during takeoff/landing"
     ],
-    "source": "Stoneybrook AU Module 1.7 (fuel pump and boost pump), AC 61-3 Rev 31 §12.14.8(a)",
+    "source": "Stoneybrook AU Module 1.7 (fuel pump and boost pump), NZ CAA AC 61-3 Rev 25 §12.14.8(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.14.8(b)",
@@ -1601,9 +1698,10 @@
       "Equal distribution prevents uneven running",
       "Unequal distribution causes rough running and uneven CHT"
     ],
-    "source": "Stoneybrook AU Module 1.2 (fuel distribution), AC 61-3 Rev 31 §12.14.8(b)",
+    "source": "Stoneybrook AU Module 1.2 (fuel distribution), NZ CAA AC 61-3 Rev 25 §12.14.8(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.14.8(c)",
@@ -1617,9 +1715,10 @@
       "Calibrated orifice size controls fuel delivery",
       "Blocked nozzle: lean running on that cylinder, rough engine"
     ],
-    "source": "Stoneybrook AU Module 1.2 (injector function), AC 61-3 Rev 31 §12.14.8(c)",
+    "source": "Stoneybrook AU Module 1.2 (injector function), NZ CAA AC 61-3 Rev 25 §12.14.8(c)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.16.2",
@@ -1634,9 +1733,10 @@
       "Always check fuel colour during refuelling",
       "Wrong fuel type can cause immediate engine failure"
     ],
-    "source": "Stoneybrook AU Module 1.2 (fuel types and colours), AC 61-3 Rev 31 §12.16.2",
+    "source": "Stoneybrook AU Module 1.2 (fuel types and colours), NZ CAA AC 61-3 Rev 25 §12.16.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.16.4",
@@ -1651,9 +1751,10 @@
       "Never use AVTUR in a piston engine",
       "Never use MOGAS without STC approval"
     ],
-    "source": "Stoneybrook AU Module 1.2 (fuel characteristics), AC 61-3 Rev 31 §12.16.4",
+    "source": "Stoneybrook AU Module 1.2 (fuel characteristics), NZ CAA AC 61-3 Rev 25 §12.16.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.16.6",
@@ -1668,9 +1769,10 @@
       "May contain ethanol (damaging to some fuel system components)",
       "Shorter shelf life than AVGAS; do not mix with AVGAS"
     ],
-    "source": "ATC Aircraft General Knowledge (Glossary: MOGAS definition), Stoneybrook AU Module 1.2 (fuel types), AC 61-3 Rev 31 §12.16.6",
+    "source": "ATC Aircraft General Knowledge (Glossary: MOGAS definition), Stoneybrook AU Module 1.2 (fuel types), NZ CAA AC 61-3 Rev 25 §12.16.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.16.8",
@@ -1686,9 +1788,10 @@
       "Clear/slightly hazy fuel = acceptable",
       "Brown or visible water droplets = unserviceable"
     ],
-    "source": "Stoneybrook AU Module 1.2 (fuel contamination), AC 61-3 Rev 31 §12.16.8",
+    "source": "Stoneybrook AU Module 1.2 (fuel contamination), NZ CAA AC 61-3 Rev 25 §12.16.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.18.2",
@@ -1702,9 +1805,10 @@
       "Designed to minimise backpressure",
       "Often provides heat source for cabin heating and carb heat"
     ],
-    "source": "Stoneybrook AU Module 1.2 (exhaust manifold), AC 61-3 Rev 31 §12.18.2",
+    "source": "Stoneybrook AU Module 1.2 (exhaust manifold), NZ CAA AC 61-3 Rev 25 §12.18.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.18.4",
@@ -1719,9 +1823,10 @@
       "Especially critical near cabin heating shroud",
       "Regular inspection of exhaust integrity required"
     ],
-    "source": "Stoneybrook AU Module 1.2 (exhaust sealing), AC 61-3 Rev 31 §12.18.4",
+    "source": "Stoneybrook AU Module 1.2 (exhaust sealing), NZ CAA AC 61-3 Rev 25 §12.18.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.18.6",
@@ -1737,9 +1842,10 @@
       "Action: ventilate cabin, turn off cabin heat, land ASAP",
       "CO detector patches change colour as warning"
     ],
-    "source": "Stoneybrook AU Module 1.2 (carbon monoxide), AC 61-3 Rev 31 §12.18.6",
+    "source": "Stoneybrook AU Module 1.2 (carbon monoxide), NZ CAA AC 61-3 Rev 25 §12.18.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.20.2",
@@ -1754,9 +1860,10 @@
       "Independent of the aircraft electrical system",
       "Provides redundancy and improved combustion efficiency"
     ],
-    "source": "Stoneybrook AU Module 1.2, Module 1.7, AC 61-3 Rev 31 §12.20.2",
+    "source": "Stoneybrook AU Module 1.2, Module 1.7, NZ CAA AC 61-3 Rev 25 §12.20.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.20.4",
@@ -1770,9 +1877,10 @@
       "Mechanical device fitted to the magneto",
       "Disengages once the engine reaches normal operating RPM"
     ],
-    "source": "ATC Aircraft General Knowledge (Glossary and Ch. 15: impulse coupling functions), Stoneybrook AU Module 1.2, AC 61-3 Rev 31 §12.20.4",
+    "source": "ATC Aircraft General Knowledge (Glossary and Ch. 15: impulse coupling functions), Stoneybrook AU Module 1.2, NZ CAA AC 61-3 Rev 25 §12.20.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.20.6",
@@ -1787,9 +1895,10 @@
       "Starter warning light: illuminates during cranking",
       "If light stays on after start: starter not disengaged — shut down"
     ],
-    "source": "Stoneybrook AU Module 1.7 (ignition switches), AC 61-3 Rev 31 §12.20.6",
+    "source": "Stoneybrook AU Module 1.7 (ignition switches), NZ CAA AC 61-3 Rev 25 §12.20.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.20.8",
@@ -1804,9 +1913,10 @@
       "Expected: small RPM drop on each (typically <150 RPM)",
       "No drop = potential fault; excessive drop = magneto/plug problem"
     ],
-    "source": "Stoneybrook AU Module 1.2, Module 1.7, AC 61-3 Rev 31 §12.20.8",
+    "source": "Stoneybrook AU Module 1.2, Module 1.7, NZ CAA AC 61-3 Rev 25 §12.20.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.20.10",
@@ -1822,9 +1932,10 @@
       "Magnetos off until ready to start",
       "Step clear immediately after swinging blade downward"
     ],
-    "source": "Stoneybrook AU Module 1.7 (hand-swinging), AC 61-3 Rev 31 §12.20.10",
+    "source": "Stoneybrook AU Module 1.7 (hand-swinging), NZ CAA AC 61-3 Rev 25 §12.20.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.22.2",
@@ -1838,9 +1949,10 @@
       "Some systems have dual channels for redundancy",
       "No contact points to wear or burn"
     ],
-    "source": "Stoneybrook AU Module 1.7 (solid state ignition), AC 61-3 Rev 31 §12.22.2",
+    "source": "Stoneybrook AU Module 1.7 (solid state ignition), NZ CAA AC 61-3 Rev 25 §12.22.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.22.4",
@@ -1856,9 +1968,10 @@
       "Disadvantage: may depend on aircraft electrical system",
       "Disadvantage: requires specialist electronic repair"
     ],
-    "source": "Stoneybrook AU Module 1.7 (solid state advantages), AC 61-3 Rev 31 §12.22.4",
+    "source": "Stoneybrook AU Module 1.7 (solid state advantages), NZ CAA AC 61-3 Rev 25 §12.22.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.22.6",
@@ -1873,9 +1986,10 @@
       "Check that no warning lights or fault indicators are illuminated",
       "Some systems have built-in test (BIT) functions"
     ],
-    "source": "Stoneybrook AU Module 1.7 (ignition checks), AC 61-3 Rev 31 §12.22.6",
+    "source": "Stoneybrook AU Module 1.7 (ignition checks), NZ CAA AC 61-3 Rev 25 §12.22.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.22.8",
@@ -1890,9 +2004,10 @@
       "May include key-operated lock for security",
       "Some systems use separate electronic ignition master switch"
     ],
-    "source": "Stoneybrook AU Module 1.7 (ignition switch operation), AC 61-3 Rev 31 §12.22.8",
+    "source": "Stoneybrook AU Module 1.7 (ignition switch operation), NZ CAA AC 61-3 Rev 25 §12.22.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.24.2",
@@ -1908,9 +2023,10 @@
       "Check oil pressure rises to green arc within 30 seconds",
       "No oil pressure = shut down immediately"
     ],
-    "source": "Stoneybrook AU Module 1.3 (starting safety), AC 61-3 Rev 31 §12.24.2",
+    "source": "Stoneybrook AU Module 1.3 (starting safety), NZ CAA AC 61-3 Rev 25 §12.24.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.24.4(a)",
@@ -1927,9 +2043,10 @@
       "Engage starter",
       "Monitor oil pressure and temperature"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Engine starting), POH (Pilot's Operating Handbook), AC 61-3 Rev 31 §12.24.4",
+    "source": "Stoneybrook AU Module 1.4 (Engine starting), POH (Pilot's Operating Handbook), NZ CAA AC 61-3 Rev 25 §12.24.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.24.4(b)",
@@ -1945,9 +2062,10 @@
       "Set mixture back to RICH",
       "Engage starter to start engine normally"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Starting procedures), POH (Pilot's Operating Handbook), AC 61-3 Rev 31 §12.24.4",
+    "source": "Stoneybrook AU Module 1.4 (Starting procedures), POH (Pilot's Operating Handbook), NZ CAA AC 61-3 Rev 25 §12.24.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.24.4(c)",
@@ -1963,9 +2081,10 @@
       "Magnetos to BOTH, engage starter",
       "If no start: suspect vapour lock; use boost pump, lean mixture"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Hot engine starting, vapour lock), POH, AC 61-3 Rev 31 §12.24.4",
+    "source": "Stoneybrook AU Module 1.4 (Hot engine starting, vapour lock), POH, NZ CAA AC 61-3 Rev 25 §12.24.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.24.4(d)",
@@ -1982,9 +2101,10 @@
       "EVACUATE aircraft immediately",
       "Call emergency services; do not fight fire manually"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Emergency procedures), POH emergency section, AC 61-3 Rev 31 §12.24.4",
+    "source": "Stoneybrook AU Module 1.4 (Emergency procedures), POH emergency section, NZ CAA AC 61-3 Rev 25 §12.24.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.24.4(e)",
@@ -2000,9 +2120,10 @@
       "Zero or red pressure: STOP engine immediately",
       "Do not taxi or advance power until pressure stable and green"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Engine monitoring), POH (normal procedures), AC 61-3 Rev 31 §12.24.4",
+    "source": "Stoneybrook AU Module 1.4 (Engine monitoring), POH (normal procedures), NZ CAA AC 61-3 Rev 25 §12.24.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.24.4(f)",
@@ -2018,9 +2139,10 @@
       "Turn master electrical switch to OFF",
       "Verify all systems secured (flaps, trim, controls)"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Engine shutdown), POH (normal procedures), AC 61-3 Rev 31 §12.24.4",
+    "source": "Stoneybrook AU Module 1.4 (Engine shutdown), POH (normal procedures), NZ CAA AC 61-3 Rev 25 §12.24.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.24.6",
@@ -2034,9 +2156,10 @@
       "Propeller may overspeed with sudden power increase (fine pitch)",
       "Smooth, gradual changes protect the engine"
     ],
-    "source": "Stoneybrook AU Module 1.2, Module 1.4, AC 61-3 Rev 31 §12.24.6",
+    "source": "Stoneybrook AU Module 1.2, Module 1.4, NZ CAA AC 61-3 Rev 25 §12.24.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.24.8",
@@ -2051,9 +2174,10 @@
       "High CHT = detonation risk — reduce power, enrich mixture",
       "Any abnormal reading requires investigation and action"
     ],
-    "source": "Stoneybrook AU Module 1.3 (instrument monitoring), Module 1.7, AC 61-3 Rev 31 §12.24.8",
+    "source": "Stoneybrook AU Module 1.3 (instrument monitoring), Module 1.7, NZ CAA AC 61-3 Rev 25 §12.24.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.24.10",
@@ -2070,9 +2194,10 @@
       "Damaged propeller (vibration)",
       "Loose engine mounts"
     ],
-    "source": "Stoneybrook AU Module 1.3 (rough running), AC 61-3 Rev 31 §12.24.10",
+    "source": "Stoneybrook AU Module 1.3 (rough running), NZ CAA AC 61-3 Rev 25 §12.24.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.24.12",
@@ -2088,9 +2213,10 @@
       "If propeller vibration: reduce power, check for damage",
       "If unresolved: divert to nearest suitable airfield"
     ],
-    "source": "Stoneybrook AU Module 1.3 (troubleshooting), AC 61-3 Rev 31 §12.24.12",
+    "source": "Stoneybrook AU Module 1.3 (troubleshooting), NZ CAA AC 61-3 Rev 25 §12.24.12",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.24.14",
@@ -2107,9 +2233,10 @@
       "Check: fuel selector, mixture, carb heat, magnetos, primer",
       "Attempt restart; if fails, forced landing and declare emergency"
     ],
-    "source": "Stoneybrook AU Module 1.3 (engine failure), AC 61-3 Rev 31 §12.24.14",
+    "source": "Stoneybrook AU Module 1.3 (engine failure), NZ CAA AC 61-3 Rev 25 §12.24.14",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.26.2",
@@ -2125,9 +2252,10 @@
       "Distributed via bus bar, protected by circuit breakers",
       "Magneto ignition is NOT dependent on the electrical system"
     ],
-    "source": "Stoneybrook AU Module 1.2, Module 1.7, AC 61-3 Rev 31 §12.26.2",
+    "source": "Stoneybrook AU Module 1.2, Module 1.7, NZ CAA AC 61-3 Rev 25 §12.26.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.26.4(a)",
@@ -2143,9 +2271,10 @@
       "Lead-acid construction most common",
       "Must be correct voltage for aircraft system"
     ],
-    "source": "Stoneybrook AU Module 1.7 (Electrical systems), ATC Aircraft General Knowledge, AC 61-3 Rev 31 §12.26.4",
+    "source": "Stoneybrook AU Module 1.7 (Electrical systems), ATC Aircraft General Knowledge, NZ CAA AC 61-3 Rev 25 §12.26.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.26.4(b)",
@@ -2161,9 +2290,10 @@
       "Belt-driven from engine crankshaft",
       "Voltage regulator maintains constant output voltage"
     ],
-    "source": "Stoneybrook AU Module 1.7 (Alternator/generator), ATC Aircraft General Knowledge, AC 61-3 Rev 31 §12.26.4",
+    "source": "Stoneybrook AU Module 1.7 (Alternator/generator), ATC Aircraft General Knowledge, NZ CAA AC 61-3 Rev 25 §12.26.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.26.4(c)",
@@ -2179,9 +2309,10 @@
       "Typically one or more bus bars in larger aircraft",
       "Protected by main breaker or fuses upstream"
     ],
-    "source": "Stoneybrook AU Module 1.7 (Electrical systems architecture), ATC Aircraft General Knowledge, AC 61-3 Rev 31 §12.26.4",
+    "source": "Stoneybrook AU Module 1.7 (Electrical systems architecture), ATC Aircraft General Knowledge, NZ CAA AC 61-3 Rev 25 §12.26.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.26.4(d)",
@@ -2197,9 +2328,10 @@
       "Normal range: green arc on voltmeter",
       "OV light: illuminates if voltage exceeds safe limit (regulator failure warning)"
     ],
-    "source": "Stoneybrook AU Module 1.7 (Electrical system components), POH, AC 61-3 Rev 31 §12.26.4",
+    "source": "Stoneybrook AU Module 1.7 (Electrical system components), POH, NZ CAA AC 61-3 Rev 25 §12.26.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.26.4(e)",
@@ -2215,9 +2347,10 @@
       "Normal cruise: small positive charge rate",
       "Negative discharge during cruise: indicates alternator failure"
     ],
-    "source": "Stoneybrook AU Module 1.7 (Electrical monitoring), POH, AC 61-3 Rev 31 §12.26.4",
+    "source": "Stoneybrook AU Module 1.7 (Electrical monitoring), POH, NZ CAA AC 61-3 Rev 25 §12.26.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.26.4(f)",
@@ -2233,9 +2366,10 @@
       "Battery/alternator switch: isolates alternator if failed",
       "Battery-only allows continued power for essential systems"
     ],
-    "source": "Stoneybrook AU Module 1.7 (Master switch control), POH, AC 61-3 Rev 31 §12.26.4",
+    "source": "Stoneybrook AU Module 1.7 (Master switch control), POH, NZ CAA AC 61-3 Rev 25 §12.26.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.26.4(g)",
@@ -2251,9 +2385,10 @@
       "Pilot can reset tripped breaker (if safe)",
       "Never substitute higher-rated fuse; use correct amperage rating"
     ],
-    "source": "Stoneybrook AU Module 1.7 (Circuit protection), POH, AC 61-3 Rev 31 §12.26.4",
+    "source": "Stoneybrook AU Module 1.7 (Circuit protection), POH, NZ CAA AC 61-3 Rev 25 §12.26.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.26.6(a)",
@@ -2269,9 +2404,10 @@
       "Increases spark plug fouling in cold conditions",
       "Start at idle, allow warmup before advancing power"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Engine ground operation), POH, AC 61-3 Rev 31 §12.26.6",
+    "source": "Stoneybrook AU Module 1.4 (Engine ground operation), POH, NZ CAA AC 61-3 Rev 25 §12.26.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.26.6(b)",
@@ -2287,9 +2423,10 @@
       "Turn radios on after engine stable at cruise RPM",
       "Reserves battery power for starter and essential starting systems"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Starting procedures), POH, AC 61-3 Rev 31 §12.26.6",
+    "source": "Stoneybrook AU Module 1.4 (Starting procedures), POH, NZ CAA AC 61-3 Rev 25 §12.26.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.26.6(c)",
@@ -2305,9 +2442,10 @@
       "If no start: stop, wait 30 seconds to cool, retry",
       "Never attempt continuous cranking for >30 seconds"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Starting procedures), POH, AC 61-3 Rev 31 §12.26.6",
+    "source": "Stoneybrook AU Module 1.4 (Starting procedures), POH, NZ CAA AC 61-3 Rev 25 §12.26.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.26.6(d)",
@@ -2323,9 +2461,10 @@
       "Rapidly damages starter motor and flywheel ring gear",
       "Can create dangerous vibration and mechanical damage"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Starting procedures), POH, AC 61-3 Rev 31 §12.26.6",
+    "source": "Stoneybrook AU Module 1.4 (Starting procedures), POH, NZ CAA AC 61-3 Rev 25 §12.26.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.26.6(e)",
@@ -2341,9 +2480,10 @@
       "Monitor ammeter and voltmeter continuously in flight",
       "Negative ammeter in cruise = alternator failure; reduce load, divert"
     ],
-    "source": "Stoneybrook AU Module 1.4 (In-flight monitoring), POH, AC 61-3 Rev 31 §12.26.6",
+    "source": "Stoneybrook AU Module 1.4 (In-flight monitoring), POH, NZ CAA AC 61-3 Rev 25 §12.26.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.26.6(f)",
@@ -2359,9 +2499,10 @@
       "Battery must supply all power after generator stops",
       "Prevents unnecessary battery discharge during shutdown"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Engine shutdown), POH, AC 61-3 Rev 31 §12.26.6",
+    "source": "Stoneybrook AU Module 1.4 (Engine shutdown), POH, NZ CAA AC 61-3 Rev 25 §12.26.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.26.6(g)",
@@ -2377,9 +2518,10 @@
       "Discharged battery may not start engine next flight",
       "Protects battery from lead sulphate crystal buildup"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Post-flight procedures), POH, AC 61-3 Rev 31 §12.26.6",
+    "source": "Stoneybrook AU Module 1.4 (Post-flight procedures), POH, NZ CAA AC 61-3 Rev 25 §12.26.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.26.8(a)",
@@ -2395,9 +2537,10 @@
       "Possible burning smell from electrical system",
       "Battery may appear to boil or steam"
     ],
-    "source": "Stoneybrook AU Module 1.7 (Electrical system faults), POH troubleshooting, AC 61-3 Rev 31 §12.26.8",
+    "source": "Stoneybrook AU Module 1.7 (Electrical system faults), POH troubleshooting, NZ CAA AC 61-3 Rev 25 §12.26.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.26.8(b)",
@@ -2413,9 +2556,10 @@
       "Battery gradually discharges",
       "Causes: alternator failure, broken belt, loose connection, or regulator failure"
     ],
-    "source": "Stoneybrook AU Module 1.7 (Electrical system faults), POH troubleshooting, AC 61-3 Rev 31 §12.26.8",
+    "source": "Stoneybrook AU Module 1.7 (Electrical system faults), POH troubleshooting, NZ CAA AC 61-3 Rev 25 §12.26.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.26.8(c)",
@@ -2431,9 +2575,10 @@
       "May attempt to reset breaker once",
       "Replace blown fuse with correct amperage rating only"
     ],
-    "source": "Stoneybrook AU Module 1.7 (Electrical circuit protection), POH troubleshooting, AC 61-3 Rev 31 §12.26.8",
+    "source": "Stoneybrook AU Module 1.7 (Electrical circuit protection), POH troubleshooting, NZ CAA AC 61-3 Rev 25 §12.26.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.26.10(a)",
@@ -2449,9 +2594,10 @@
       "Monitor voltmeter and ammeter continuously",
       "Divert to nearest aerodrome without delay"
     ],
-    "source": "Stoneybrook AU Module 1.7 (In-flight electrical faults), POH emergency procedures, AC 61-3 Rev 31 §12.26.10",
+    "source": "Stoneybrook AU Module 1.7 (In-flight electrical faults), POH emergency procedures, NZ CAA AC 61-3 Rev 25 §12.26.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.26.10(b)",
@@ -2467,9 +2613,10 @@
       "Monitor ammeter for improvement",
       "If negative persists, alternator has failed; divert immediately"
     ],
-    "source": "Stoneybrook AU Module 1.7 (In-flight electrical faults), POH emergency procedures, AC 61-3 Rev 31 §12.26.10",
+    "source": "Stoneybrook AU Module 1.7 (In-flight electrical faults), POH emergency procedures, NZ CAA AC 61-3 Rev 25 §12.26.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.26.10(c)",
@@ -2485,9 +2632,10 @@
       "If breaker pops again: do not reset further",
       "Fuse: replace with identical amperage rating only"
     ],
-    "source": "Stoneybrook AU Module 1.7 (In-flight electrical faults), POH emergency procedures, AC 61-3 Rev 31 §12.26.10",
+    "source": "Stoneybrook AU Module 1.7 (In-flight electrical faults), POH emergency procedures, NZ CAA AC 61-3 Rev 25 §12.26.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.28.2(a)",
@@ -2503,9 +2651,10 @@
       "Strainer drain: lowest point, allows sediment/water drainage",
       "Drain check is critical preflight action"
     ],
-    "source": "Stoneybrook AU Module 1.3 (Fuel system components), POH preflight procedures, AC 61-3 Rev 31 §12.28.2",
+    "source": "Stoneybrook AU Module 1.3 (Fuel system components), POH preflight procedures, NZ CAA AC 61-3 Rev 25 §12.28.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.28.2(b)",
@@ -2521,9 +2670,10 @@
       "Supplements pressure during high-demand conditions",
       "Often mandatory for fuel-injected engines; required for takeoff/climb"
     ],
-    "source": "Stoneybrook AU Module 1.3 (Fuel pumps), POH normal procedures, AC 61-3 Rev 31 §12.28.2",
+    "source": "Stoneybrook AU Module 1.3 (Fuel pumps), POH normal procedures, NZ CAA AC 61-3 Rev 25 §12.28.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.28.4",
@@ -2539,9 +2689,10 @@
       "Use boost pump during takeoff and landing",
       "Never select an empty tank in flight"
     ],
-    "source": "Stoneybrook AU Module 1.4 (fuel management), AC 61-3 Rev 31 §12.28.4",
+    "source": "Stoneybrook AU Module 1.4 (fuel management), NZ CAA AC 61-3 Rev 25 §12.28.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.30.2(a)",
@@ -2557,9 +2708,10 @@
       "Vents: allow air entry as fuel consumed (prevent vacuum)",
       "Overflow drain: safely releases excess fuel or pressure"
     ],
-    "source": "Stoneybrook AU Module 1.3 (Fuel tank design), POH preflight procedures, AC 61-3 Rev 31 §12.30.2",
+    "source": "Stoneybrook AU Module 1.3 (Fuel tank design), POH preflight procedures, NZ CAA AC 61-3 Rev 25 §12.30.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.30.2(b)",
@@ -2575,9 +2727,10 @@
       "Not primary fuel check; visual inspection is primary",
       "Cross-check with flight time and fuel flow throughout flight"
     ],
-    "source": "Stoneybrook AU Module 1.3 (Fuel quantity measurement), POH normal procedures, AC 61-3 Rev 31 §12.30.2",
+    "source": "Stoneybrook AU Module 1.3 (Fuel quantity measurement), POH normal procedures, NZ CAA AC 61-3 Rev 25 §12.30.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.30.2(c)",
@@ -2594,9 +2747,10 @@
       "Correct fuel type required; some fuels attack seals or resins",
       "Tank shape affects fuel quantity gauge linearity"
     ],
-    "source": "Stoneybrook AU Module 1.3 (Fuel tank design and limitations), POH fuel specifications, AC 61-3 Rev 31 §12.30.2",
+    "source": "Stoneybrook AU Module 1.3 (Fuel tank design and limitations), POH fuel specifications, NZ CAA AC 61-3 Rev 25 §12.30.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.30.4",
@@ -2612,9 +2766,10 @@
       "Check for sediment or discolouration",
       "Continue draining until clean; persistent = unserviceable"
     ],
-    "source": "Stoneybrook AU Module 1.4 (fuel drain), AC 61-3 Rev 31 §12.30.4",
+    "source": "Stoneybrook AU Module 1.4 (fuel drain), NZ CAA AC 61-3 Rev 25 §12.30.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.30.6",
@@ -2631,9 +2786,10 @@
       "Avoid plastic containers (static risk)",
       "Fill tanks after last flight to prevent condensation"
     ],
-    "source": "Stoneybrook AU Module 1.4 (fuelling rules), AC 61-3 Rev 31 §12.30.6",
+    "source": "Stoneybrook AU Module 1.4 (fuelling rules), NZ CAA AC 61-3 Rev 25 §12.30.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.30.8",
@@ -2648,9 +2804,10 @@
       "Connect bonding wire BEFORE opening fuel cap",
       "Keep connected until cap replaced and refuelling complete"
     ],
-    "source": "Stoneybrook AU Module 1.4 (earthing), AC 61-3 Rev 31 §12.30.8",
+    "source": "Stoneybrook AU Module 1.4 (earthing), NZ CAA AC 61-3 Rev 25 §12.30.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.32.2",
@@ -2665,9 +2822,10 @@
       "Corrosion protection: coats metal surfaces",
       "Cleaning: carries wear debris to oil filter"
     ],
-    "source": "Stoneybrook AU Module 1.4 (lubrication functions), AC 61-3 Rev 31 §12.32.2",
+    "source": "Stoneybrook AU Module 1.4 (lubrication functions), NZ CAA AC 61-3 Rev 25 §12.32.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.32.4",
@@ -2682,9 +2840,10 @@
       "Viscosity decreases as temperature increases",
       "Multi-grade oils maintain viscosity across wider temp range"
     ],
-    "source": "Stoneybrook AU Module 1.4 (viscosity), AC 61-3 Rev 31 §12.32.4",
+    "source": "Stoneybrook AU Module 1.4 (viscosity), NZ CAA AC 61-3 Rev 25 §12.32.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.32.6",
@@ -2699,9 +2858,10 @@
       "Correct oil grade for operating temperature is essential",
       "Cold starts: oil may be too thick for adequate lubrication"
     ],
-    "source": "Stoneybrook AU Module 1.4 (temperature effects on oil), AC 61-3 Rev 31 §12.32.6",
+    "source": "Stoneybrook AU Module 1.4 (temperature effects on oil), NZ CAA AC 61-3 Rev 25 §12.32.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.32.8(a)",
@@ -2717,9 +2877,10 @@
       "Dry sump: separate external oil tank",
       "Scavenge pump returns oil from engine to tank"
     ],
-    "source": "Stoneybrook AU Module 1.2 (Oil system design), ATC Aircraft General Knowledge, AC 61-3 Rev 31 §12.32.8",
+    "source": "Stoneybrook AU Module 1.2 (Oil system design), ATC Aircraft General Knowledge, NZ CAA AC 61-3 Rev 25 §12.32.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.32.8(b)",
@@ -2735,9 +2896,10 @@
       "Improved heat dissipation via larger surface area",
       "Internal baffles separate hot and supply oil for cooling"
     ],
-    "source": "Stoneybrook AU Module 1.2 (Dry sump design), ATC Aircraft General Knowledge, AC 61-3 Rev 31 §12.32.8",
+    "source": "Stoneybrook AU Module 1.2 (Dry sump design), ATC Aircraft General Knowledge, NZ CAA AC 61-3 Rev 25 §12.32.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.32.8(c)",
@@ -2753,9 +2915,10 @@
       "Pressure relief valve: spring-loaded, prevents overpressure",
       "Opens at specific pressure (typically ~100 psi)"
     ],
-    "source": "Stoneybrook AU Module 1.2 (Oil circulation), ATC Aircraft General Knowledge, AC 61-3 Rev 31 §12.32.8",
+    "source": "Stoneybrook AU Module 1.2 (Oil circulation), ATC Aircraft General Knowledge, NZ CAA AC 61-3 Rev 25 §12.32.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.32.8(d)",
@@ -2771,9 +2934,10 @@
       "Galleries: large channels in engine distributing oil",
       "Main gallery runs along crankshaft to main bearings"
     ],
-    "source": "Stoneybrook AU Module 1.2 (Oil distribution system), ATC Aircraft General Knowledge, AC 61-3 Rev 31 §12.32.8",
+    "source": "Stoneybrook AU Module 1.2 (Oil distribution system), ATC Aircraft General Knowledge, NZ CAA AC 61-3 Rev 25 §12.32.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.32.8(e)",
@@ -2789,9 +2953,10 @@
       "Filter: removes wear debris and sludge",
       "Filter bypass allows cold oil flow on cold starts"
     ],
-    "source": "Stoneybrook AU Module 1.2 (Oil cooling and filtration), POH, AC 61-3 Rev 31 §12.32.8",
+    "source": "Stoneybrook AU Module 1.2 (Oil cooling and filtration), POH, NZ CAA AC 61-3 Rev 25 §12.32.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.32.8(f)",
@@ -2807,9 +2972,10 @@
       "Oil temperature gauge: displays oil temperature (°C or °F)",
       "Normal: 50–100°C; high temp indicates cooling problem"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Engine monitoring instruments), POH, AC 61-3 Rev 31 §12.32.8",
+    "source": "Stoneybrook AU Module 1.4 (Engine monitoring instruments), POH, NZ CAA AC 61-3 Rev 25 §12.32.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.32.10(a)",
@@ -2825,9 +2991,10 @@
       "NEVER use automotive oil (forms sludge, damages engine)",
       "POH specifies required type and grade; strictly observe"
     ],
-    "source": "Stoneybrook AU Module 1.2 (Oil specifications), POH fuel and oil sections, AC 61-3 Rev 31 §12.32.10",
+    "source": "Stoneybrook AU Module 1.2 (Oil specifications), POH fuel and oil sections, NZ CAA AC 61-3 Rev 25 §12.32.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.32.10(b)",
@@ -2844,9 +3011,10 @@
       "Never overfill; overfilling causes seal leaks",
       "Add correct oil type/grade if below MIN"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Preflight checks), POH preflight section, AC 61-3 Rev 31 §12.32.10",
+    "source": "Stoneybrook AU Module 1.4 (Preflight checks), POH preflight section, NZ CAA AC 61-3 Rev 25 §12.32.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.32.12(a)",
@@ -2862,9 +3030,10 @@
       "Reduce power, declare emergency, divert to nearest aerodrome",
       "Risk of rapid bearing wear and complete engine failure"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Emergency procedures), POH emergency section, AC 61-3 Rev 31 §12.32.12",
+    "source": "Stoneybrook AU Module 1.4 (Emergency procedures), POH emergency section, NZ CAA AC 61-3 Rev 25 §12.32.12",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.32.12(b)",
@@ -2880,9 +3049,10 @@
       "Reduce power to lower pressure",
       "Check oil grade against POH; change if incorrect"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Engine monitoring), POH troubleshooting, AC 61-3 Rev 31 §12.32.12",
+    "source": "Stoneybrook AU Module 1.4 (Engine monitoring), POH troubleshooting, NZ CAA AC 61-3 Rev 25 §12.32.12",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.32.12(c)",
@@ -2898,9 +3068,10 @@
       "Indicates potential starvation or air in system",
       "Divert to nearest aerodrome; do not continue to distant airfield"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Engine monitoring), POH troubleshooting, AC 61-3 Rev 31 §12.32.12",
+    "source": "Stoneybrook AU Module 1.4 (Engine monitoring), POH troubleshooting, NZ CAA AC 61-3 Rev 25 §12.32.12",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.32.12(d)",
@@ -2916,9 +3087,10 @@
       "Close cowl flaps if needed to promote warming",
       "Monitor in flight; persistently low temperature indicates cooler issue"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Warmup procedures), POH normal procedures, AC 61-3 Rev 31 §12.32.12",
+    "source": "Stoneybrook AU Module 1.4 (Warmup procedures), POH normal procedures, NZ CAA AC 61-3 Rev 25 §12.32.12",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.32.12(e)",
@@ -2934,9 +3106,10 @@
       "Divert to nearest suitable aerodrome",
       "High-temperature operation risks oil breakdown and engine damage"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Emergency procedures), POH emergency section, AC 61-3 Rev 31 §12.32.12",
+    "source": "Stoneybrook AU Module 1.4 (Emergency procedures), POH emergency section, NZ CAA AC 61-3 Rev 25 §12.32.12",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.32.14(a)",
@@ -2952,9 +3125,10 @@
       "Declare Mayday on ATC or broadcast frequency",
       "Land without delay; allow engine to cool before inspection"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Emergency procedures), POH emergency section, AC 61-3 Rev 31 §12.32.14",
+    "source": "Stoneybrook AU Module 1.4 (Emergency procedures), POH emergency section, NZ CAA AC 61-3 Rev 25 §12.32.14",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.32.14(b)",
@@ -2970,9 +3144,10 @@
       "If pressure persists at reduced power: divert to nearest aerodrome",
       "Risk: high pressure stresses lines and seals, risks ruptures"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Engine monitoring), POH troubleshooting, AC 61-3 Rev 31 §12.32.14",
+    "source": "Stoneybrook AU Module 1.4 (Engine monitoring), POH troubleshooting, NZ CAA AC 61-3 Rev 25 §12.32.14",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.32.14(c)",
@@ -2988,9 +3163,10 @@
       "Declare emergency, plan descent to nearest aerodrome",
       "Once landed: check oil level, inspect for air leaks"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Emergency procedures), POH emergency section, AC 61-3 Rev 31 §12.32.14",
+    "source": "Stoneybrook AU Module 1.4 (Emergency procedures), POH emergency section, NZ CAA AC 61-3 Rev 25 §12.32.14",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.32.14(d)",
@@ -3006,9 +3182,10 @@
       "Adjust cowl flaps as appropriate",
       "Persistent low temperature: cooler bypass investigation post-flight"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Engine monitoring), POH troubleshooting, AC 61-3 Rev 31 §12.32.14",
+    "source": "Stoneybrook AU Module 1.4 (Engine monitoring), POH troubleshooting, NZ CAA AC 61-3 Rev 25 §12.32.14",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.32.14(e)",
@@ -3024,9 +3201,10 @@
       "Monitor temperature trend",
       "Red arc or rising temp: Mayday, descend to nearest aerodrome immediately"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Emergency procedures), POH emergency section, AC 61-3 Rev 31 §12.32.14",
+    "source": "Stoneybrook AU Module 1.4 (Emergency procedures), POH emergency section, NZ CAA AC 61-3 Rev 25 §12.32.14",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.32.16",
@@ -3043,9 +3221,10 @@
       "Record addition in technical log",
       "Report unusually high consumption to maintenance"
     ],
-    "source": "Stoneybrook AU Module 1.4 (oil replenishment), AC 61-3 Rev 31 §12.32.16",
+    "source": "Stoneybrook AU Module 1.4 (oil replenishment), NZ CAA AC 61-3 Rev 25 §12.32.16",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.34.2(a)",
@@ -3061,9 +3240,10 @@
       "Exceeding red line causes vibration, engine stress, failure risk",
       "Used for power management and engine health monitoring"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Engine instruments), POH normal procedures, AC 61-3 Rev 31 §12.34.2",
+    "source": "Stoneybrook AU Module 1.4 (Engine instruments), POH normal procedures, NZ CAA AC 61-3 Rev 25 §12.34.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.34.2(b)",
@@ -3079,9 +3259,10 @@
       "Used to set cruise power (reduce for lean cruise)",
       "Boost gauge: supercharged engines, measures boost pressure above atmospheric"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Engine instruments), POH normal procedures, AC 61-3 Rev 31 §12.34.2",
+    "source": "Stoneybrook AU Module 1.4 (Engine instruments), POH normal procedures, NZ CAA AC 61-3 Rev 25 §12.34.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.34.2(c)",
@@ -3097,9 +3278,10 @@
       "Pressure must rise within 15–30 seconds of start",
       "Pressure varies with RPM and oil viscosity"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Engine instruments), POH normal procedures, AC 61-3 Rev 31 §12.34.2",
+    "source": "Stoneybrook AU Module 1.4 (Engine instruments), POH normal procedures, NZ CAA AC 61-3 Rev 25 §12.34.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.34.2(d)",
@@ -3115,9 +3297,10 @@
       "Instrument vacuum: requires 4–5 in. Hg for reliable operation",
       "Modern aircraft increasingly electric instruments; vacuum becoming less critical"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Engine instruments), POH normal procedures, AC 61-3 Rev 31 §12.34.2",
+    "source": "Stoneybrook AU Module 1.4 (Engine instruments), POH normal procedures, NZ CAA AC 61-3 Rev 25 §12.34.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.34.2(e)",
@@ -3133,9 +3316,10 @@
       "Used to calculate true airspeed (TAS)",
       "Heated probe reduces temperature measurement errors at high speed"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Engine and environmental instruments), POH, AC 61-3 Rev 31 §12.34.2",
+    "source": "Stoneybrook AU Module 1.4 (Engine and environmental instruments), POH, NZ CAA AC 61-3 Rev 25 §12.34.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.34.2(f)",
@@ -3151,9 +3335,10 @@
       "Visual preflight inspection is primary fuel check",
       "Cross-check with flight time and fuel flow during flight"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Engine instruments), POH normal procedures, AC 61-3 Rev 31 §12.34.2",
+    "source": "Stoneybrook AU Module 1.4 (Engine instruments), POH normal procedures, NZ CAA AC 61-3 Rev 25 §12.34.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.36.2",
@@ -3167,9 +3352,10 @@
       "Vertical speed indicator (VSI): uses static pressure only",
       "All depend on pitot-static system integrity"
     ],
-    "source": "Stoneybrook AU Module 1.7 (pressure instruments), AC 61-3 Rev 31 §12.36.2",
+    "source": "Stoneybrook AU Module 1.7 (pressure instruments), NZ CAA AC 61-3 Rev 25 §12.36.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.36.4",
@@ -3185,9 +3371,10 @@
       "Static ports measure static pressure",
       "ASI reads the difference (dynamic pressure)"
     ],
-    "source": "Stoneybrook AU Module 1.7 (pitot-static pressures), AC 61-3 Rev 31 §12.36.4",
+    "source": "Stoneybrook AU Module 1.7 (pitot-static pressures), NZ CAA AC 61-3 Rev 25 §12.36.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.36.6(a)",
@@ -3203,9 +3390,10 @@
       "Blockage: instruments freeze or become unreliable",
       "Multiple vents reduce pressure errors with aircraft attitude"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Pitot-static systems), POH preflight procedures, AC 61-3 Rev 31 §12.36.6",
+    "source": "Stoneybrook AU Module 1.5 (Pitot-static systems), POH preflight procedures, NZ CAA AC 61-3 Rev 25 §12.36.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.36.6(b)",
@@ -3221,9 +3409,10 @@
       "Drain holes prevent water accumulation",
       "Blockage is safety critical: airspeed becomes unreliable"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Pitot-static systems), POH preflight procedures, AC 61-3 Rev 31 §12.36.6",
+    "source": "Stoneybrook AU Module 1.5 (Pitot-static systems), POH preflight procedures, NZ CAA AC 61-3 Rev 25 §12.36.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.36.6(c)",
@@ -3239,9 +3428,10 @@
       "More susceptible to errors in slips or unusual attitudes",
       "Blockage of either function renders instruments unreliable"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Pitot-static systems), POH, AC 61-3 Rev 31 §12.36.6",
+    "source": "Stoneybrook AU Module 1.5 (Pitot-static systems), POH, NZ CAA AC 61-3 Rev 25 §12.36.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.36.6(d)",
@@ -3257,9 +3447,10 @@
       "Pitot cover: protective foam cover for parked aircraft",
       "Cover MUST be removed before flight (critical)"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Pitot-static systems), POH preflight and equipment, AC 61-3 Rev 31 §12.36.6",
+    "source": "Stoneybrook AU Module 1.5 (Pitot-static systems), POH preflight and equipment, NZ CAA AC 61-3 Rev 25 §12.36.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.36.6(e)",
@@ -3275,9 +3466,10 @@
       "May introduce small altitude/airspeed errors",
       "Better than frozen instruments from blocked primary vent"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Pitot-static system redundancy), POH, AC 61-3 Rev 31 §12.36.6",
+    "source": "Stoneybrook AU Module 1.5 (Pitot-static system redundancy), POH, NZ CAA AC 61-3 Rev 25 §12.36.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.36.8(a)",
@@ -3293,9 +3485,10 @@
       "Check static vents unobstructed",
       "In flight: verify needle moves smoothly and values are reasonable"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Air data instruments), POH preflight procedures, AC 61-3 Rev 31 §12.36.8",
+    "source": "Stoneybrook AU Module 1.5 (Air data instruments), POH preflight procedures, NZ CAA AC 61-3 Rev 25 §12.36.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.36.8(b)",
@@ -3311,9 +3504,10 @@
       "VNE (red line): never exceed speed",
       "Yellow arc: between VNO and VNE (caution range)"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Airspeed limits), AC 61-3 §12.1, AC 61-3 Rev 31 §12.36.8",
+    "source": "Stoneybrook AU Module 1.5 (Airspeed limits), AC 61-3 §12.1, NZ CAA AC 61-3 Rev 25 §12.36.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.36.8(c)",
@@ -3329,9 +3523,10 @@
       "Use IAS for flight control (stall speeds, limits)",
       "Use TAS/GS for flight planning and navigation"
     ],
-    "source": "Stoneybrook AU Module 1.6 (Airspeed relationships), AC 61-3 Rev 31 §12.36.8",
+    "source": "Stoneybrook AU Module 1.6 (Airspeed relationships), NZ CAA AC 61-3 Rev 25 §12.36.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.36.8(d)",
@@ -3347,9 +3542,10 @@
       "Static blockage: airspeed reads zero or oscillates",
       "Position error correction: table or curve in POH"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Airspeed errors), POH, AC 61-3 Rev 31 §12.36.8",
+    "source": "Stoneybrook AU Module 1.5 (Airspeed errors), POH, NZ CAA AC 61-3 Rev 25 §12.36.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.36.10(a)",
@@ -3365,9 +3561,10 @@
       "Preflight: set subscale (Kollsman window) to QNH",
       "Field elevation check: altimeter should read ±100 ft"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Altitude measurement), POH preflight procedures, AC 61-3 Rev 31 §12.36.10",
+    "source": "Stoneybrook AU Module 1.5 (Altitude measurement), POH preflight procedures, NZ CAA AC 61-3 Rev 25 §12.36.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.36.10(b)",
@@ -3383,9 +3580,10 @@
       "Setting to QFE: altimeter reads height above aerodrome",
       "Obtain current QNH from ATIS or ATC before flight"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Altitude reference), CAA NZ flight operations procedures, AC 61-3 Rev 31 §12.36.10",
+    "source": "Stoneybrook AU Module 1.5 (Altitude reference), CAA NZ flight operations procedures, NZ CAA AC 61-3 Rev 25 §12.36.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.36.10(c)",
@@ -3401,9 +3599,10 @@
       "Hysteresis error: climb vs descent to same altitude reads differently",
       "Instrument error: mechanical wear causes lag or inaccuracy"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Altitude errors), AC 61-3 Rev 31 §12.36.10",
+    "source": "Stoneybrook AU Module 1.5 (Altitude errors), NZ CAA AC 61-3 Rev 25 §12.36.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.36.12(a)",
@@ -3419,9 +3618,10 @@
       "Initial trend error: momentary false reading at start of climb/descent",
       "Requires static pressure reference"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Vertical speed indication), POH, AC 61-3 Rev 31 §12.36.12",
+    "source": "Stoneybrook AU Module 1.5 (Vertical speed indication), POH, NZ CAA AC 61-3 Rev 25 §12.36.12",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.36.12(b)",
@@ -3437,9 +3637,10 @@
       "High altitude: aneroid less responsive",
       "Use VSI as trend indicator; cross-check with altimeter"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Vertical speed errors), AC 61-3 Rev 31 §12.36.12",
+    "source": "Stoneybrook AU Module 1.5 (Vertical speed errors), NZ CAA AC 61-3 Rev 25 §12.36.12",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.36.14",
@@ -3456,9 +3657,10 @@
       "In-flight: VSI should read zero in level flight",
       "Select alternate static if readings are suspect"
     ],
-    "source": "Stoneybrook AU Module 1.7 (pitot-static checks), AC 61-3 Rev 31 §12.36.14",
+    "source": "Stoneybrook AU Module 1.7 (pitot-static checks), NZ CAA AC 61-3 Rev 25 §12.36.14",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.36.16(a)",
@@ -3474,9 +3676,10 @@
       "Preflight: visually check pitot, remove cover",
       "In flight: cross-check with attitude; land for investigation"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Pitot-static failures), POH, AC 61-3 Rev 31 §12.36.16",
+    "source": "Stoneybrook AU Module 1.5 (Pitot-static failures), POH, NZ CAA AC 61-3 Rev 25 §12.36.16",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.36.16(b)",
@@ -3492,9 +3695,10 @@
       "All three instruments fail simultaneously",
       "Select alternate static if available; declare emergency; divert to nearest aerodrome"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Pitot-static failures), POH emergency procedures, AC 61-3 Rev 31 §12.36.16",
+    "source": "Stoneybrook AU Module 1.5 (Pitot-static failures), POH emergency procedures, NZ CAA AC 61-3 Rev 25 §12.36.16",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.38.2",
@@ -3509,9 +3713,10 @@
       "Apply correction to find compass heading to steer",
       "Regularly updated during compass swing maintenance"
     ],
-    "source": "Stoneybrook AU Module 1.7 (deviation), AC 61-3 Rev 31 §12.38.2",
+    "source": "Stoneybrook AU Module 1.7 (deviation), NZ CAA AC 61-3 Rev 25 §12.38.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.38.4(a)",
@@ -3527,9 +3732,10 @@
       "Liquid provides damping and buoyancy",
       "Lubber line: fixed line pointing forward (shows heading)"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Navigation instruments), POH, AC 61-3 Rev 31 §12.38.4",
+    "source": "Stoneybrook AU Module 1.5 (Navigation instruments), POH, NZ CAA AC 61-3 Rev 25 §12.38.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.38.4(b)",
@@ -3545,9 +3751,10 @@
       "Essential for reading compass in aircraft reference frame",
       "Remains fixed as aircraft and compass card rotate"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Magnetic compass design), AC 61-3 Rev 31 §12.38.4",
+    "source": "Stoneybrook AU Module 1.5 (Magnetic compass design), NZ CAA AC 61-3 Rev 25 §12.38.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.38.4(c)",
@@ -3563,9 +3770,10 @@
       "Rubber diaphragm accommodates expansion",
       "Prevents corrosion of magnets and components"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Magnetic compass design), AC 61-3 Rev 31 §12.38.4",
+    "source": "Stoneybrook AU Module 1.5 (Magnetic compass design), NZ CAA AC 61-3 Rev 25 §12.38.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.38.6(a)",
@@ -3581,9 +3789,10 @@
       "Compensating magnets mounted in compass bowl",
       "Counteract dip; maintain horizontal effective field"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Magnetic compass compensation), POH, AC 61-3 Rev 31 §12.38.6",
+    "source": "Stoneybrook AU Module 1.5 (Magnetic compass compensation), POH, NZ CAA AC 61-3 Rev 25 §12.38.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.38.6(b)",
@@ -3599,9 +3808,10 @@
       "Compensation is latitude-specific",
       "Aircraft operating far from original latitude may need recalibration"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Magnetic compass compensation), POH, AC 61-3 Rev 31 §12.38.6",
+    "source": "Stoneybrook AU Module 1.5 (Magnetic compass compensation), POH, NZ CAA AC 61-3 Rev 25 §12.38.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.38.6(c)",
@@ -3617,9 +3827,10 @@
       "Bank error: steeper banks cause larger errors",
       "Management: use heading indicator during turns, allow compass to settle"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Magnetic compass errors), AC 61-3 Rev 31 §12.38.6",
+    "source": "Stoneybrook AU Module 1.5 (Magnetic compass errors), NZ CAA AC 61-3 Rev 25 §12.38.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.38.8(a)",
@@ -3635,9 +3846,10 @@
       "Transient effect: disappears once speed is constant",
       "Do not overcontrol; use heading indicator during speed changes"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Magnetic compass errors), AC 61-3 Rev 31 §12.38.8",
+    "source": "Stoneybrook AU Module 1.5 (Magnetic compass errors), NZ CAA AC 61-3 Rev 25 §12.38.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.38.8(b)",
@@ -3653,9 +3865,10 @@
       "Toward east/west: minimal error",
       "Steeper banks cause larger errors"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Magnetic compass errors), AC 61-3 Rev 31 §12.38.8",
+    "source": "Stoneybrook AU Module 1.5 (Magnetic compass errors), NZ CAA AC 61-3 Rev 25 §12.38.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.38.10",
@@ -3672,9 +3885,10 @@
       "Mobile phones, tablets, tools can cause deviation",
       "Ensure deviation card is current"
     ],
-    "source": "Stoneybrook AU Module 1.7 (compass checks), AC 61-3 Rev 31 §12.38.10",
+    "source": "Stoneybrook AU Module 1.7 (compass checks), NZ CAA AC 61-3 Rev 25 §12.38.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.40.2",
@@ -3690,9 +3904,10 @@
       "Suction gauge monitors vacuum system health",
       "Low suction = pump failure, gyros become unreliable"
     ],
-    "source": "Stoneybrook AU Module 1.7 (vacuum system), AC 61-3 Rev 31 §12.40.2",
+    "source": "Stoneybrook AU Module 1.7 (vacuum system), NZ CAA AC 61-3 Rev 25 §12.40.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.40.4",
@@ -3708,9 +3923,10 @@
       "Unreliable within 5-10 minutes",
       "In IMC: declare emergency, divert to VFR immediately"
     ],
-    "source": "Stoneybrook AU Module 1.7 (vacuum failure), AC 61-3 Rev 31 §12.40.4",
+    "source": "Stoneybrook AU Module 1.7 (vacuum failure), NZ CAA AC 61-3 Rev 25 §12.40.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.40.6(a)",
@@ -3726,9 +3942,10 @@
       "Attitude indicator: horizontal-spin rotor maintains pitch/bank reference",
       "Essential for stable flight instrument reference"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Gyroscopic principles), AC 61-3 Rev 31 §12.40.6",
+    "source": "Stoneybrook AU Module 1.5 (Gyroscopic principles), NZ CAA AC 61-3 Rev 25 §12.40.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.40.6(b)",
@@ -3744,9 +3961,10 @@
       "Lag provides damping (reduces oscillations)",
       "High-speed turns may exceed precession rate (lag error)"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Gyroscopic principles), AC 61-3 Rev 31 §12.40.6",
+    "source": "Stoneybrook AU Module 1.5 (Gyroscopic principles), NZ CAA AC 61-3 Rev 25 §12.40.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.40.8(a)",
@@ -3762,9 +3980,10 @@
       "Typical range: 0–3 degrees per second",
       "Useful for IMC when horizon not visible"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Turn indicator design), AC 61-3 Rev 31 §12.40.8",
+    "source": "Stoneybrook AU Module 1.5 (Turn indicator design), NZ CAA AC 61-3 Rev 25 §12.40.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.40.8(b)",
@@ -3780,9 +3999,10 @@
       "Coordinated turn: no slip/skid, rate of roll matches turn rate",
       "Turn coordinator more informative; used in modern light aircraft"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Turn instruments), AC 61-3 Rev 31 §12.40.8",
+    "source": "Stoneybrook AU Module 1.5 (Turn instruments), NZ CAA AC 61-3 Rev 25 §12.40.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.40.8(c)",
@@ -3798,9 +4018,10 @@
       "Rolls toward outside (high): skid (excessive bank)",
       "Pilot adjusts bank angle to centre ball"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Turn coordinator design), AC 61-3 Rev 31 §12.40.8",
+    "source": "Stoneybrook AU Module 1.5 (Turn coordinator design), NZ CAA AC 61-3 Rev 25 §12.40.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.40.10(a)",
@@ -3816,9 +4037,10 @@
       "Roll motion: bank angle line shows aircraft tilt",
       "Provides stable pitch and bank reference"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Attitude indicator design), AC 61-3 Rev 31 §12.40.10",
+    "source": "Stoneybrook AU Module 1.5 (Attitude indicator design), NZ CAA AC 61-3 Rev 25 §12.40.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.40.10(b)",
@@ -3834,9 +4056,10 @@
       "Bank angle: line or pointer tilt from vertical",
       "Bank graduations: 10°, 20°, 30°, 60° marks"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Attitude indicator display), AC 61-3 Rev 31 §12.40.10",
+    "source": "Stoneybrook AU Module 1.5 (Attitude indicator display), NZ CAA AC 61-3 Rev 25 §12.40.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.40.10(c)",
@@ -3852,9 +4075,10 @@
       "In flight: monitor for erratic display or tumbling",
       "Failed indicator in IMC: serious; declare emergency, prepare to descend to VMC"
     ],
-    "source": "Stoneybrook AU Module 1.4 (Preflight and in-flight checks), POH normal and emergency procedures, AC 61-3 Rev 31 §12.40.10",
+    "source": "Stoneybrook AU Module 1.4 (Preflight and in-flight checks), POH normal and emergency procedures, NZ CAA AC 61-3 Rev 25 §12.40.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.40.12(a)",
@@ -3870,9 +4094,10 @@
       "Ideal for level flight and heading maintenance",
       "Requires power; periodically synchronized with compass"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Heading indicator), AC 61-3 Rev 31 §12.40.12",
+    "source": "Stoneybrook AU Module 1.5 (Heading indicator), NZ CAA AC 61-3 Rev 25 §12.40.12",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.40.12(b)",
@@ -3888,9 +4113,10 @@
       "Allow compass to settle before reading",
       "Re-synchronize every 15–30 minutes"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Heading indicator operation), POH normal procedures, AC 61-3 Rev 31 §12.40.12",
+    "source": "Stoneybrook AU Module 1.5 (Heading indicator operation), POH normal procedures, NZ CAA AC 61-3 Rev 25 §12.40.12",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.40.12(c)",
@@ -3906,9 +4132,10 @@
       "Monitor for tumble: if excessive, gyro failing",
       "Re-synchronize every 15–30 minutes"
     ],
-    "source": "Stoneybrook AU Module 1.4 (In-flight instrument checks), POH normal and emergency procedures, AC 61-3 Rev 31 §12.40.12",
+    "source": "Stoneybrook AU Module 1.4 (In-flight instrument checks), POH normal and emergency procedures, NZ CAA AC 61-3 Rev 25 §12.40.12",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.40.14(a)",
@@ -3924,9 +4151,10 @@
       "Causes: low vacuum/power, bearing wear, lubrication failure",
       "Management: check vacuum/power, prepare for emergency"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Gyroscope operation), POH, AC 61-3 Rev 31 §12.40.14",
+    "source": "Stoneybrook AU Module 1.5 (Gyroscope operation), POH, NZ CAA AC 61-3 Rev 25 §12.40.14",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.40.14(b)",
@@ -3942,9 +4170,10 @@
       "Check electrical system: ammeter, voltmeter, circuit breaker",
       "If power lost and unreplaceable: prepare to descend to VMC"
     ],
-    "source": "Stoneybrook AU Module 1.5 (Gyroscope electrical failure), POH emergency procedures, AC 61-3 Rev 31 §12.40.14",
+    "source": "Stoneybrook AU Module 1.5 (Gyroscope electrical failure), POH emergency procedures, NZ CAA AC 61-3 Rev 25 §12.40.14",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.40.16",
@@ -3960,9 +4189,10 @@
       "Cannot trust instrument until re-erected",
       "Avoid extreme manoeuvres when relying on gyro instruments"
     ],
-    "source": "Stoneybrook AU Module 1.7 (gyro toppling), AC 61-3 Rev 31 §12.40.16",
+    "source": "Stoneybrook AU Module 1.7 (gyro toppling), NZ CAA AC 61-3 Rev 25 §12.40.16",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.42.2",
@@ -3977,9 +4207,10 @@
       "Ground augmentation systems",
       "Accuracy 5-10m civilian"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.42.2",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.42.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.42.4",
@@ -3995,9 +4226,10 @@
       "Loss of signal indication",
       "Receiver integrity warning"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.42.4",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.42.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.44.2",
@@ -4013,9 +4245,10 @@
       "Closure rate calculation",
       "Vertical avoidance only"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.44.2",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.44.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.46.2",
@@ -4031,9 +4264,10 @@
       "Display in cockpit",
       "Can be terrain-referenced approach"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.46.2",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.46.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.48.2",
@@ -4049,9 +4283,10 @@
       "Built-in redundancy",
       "Configuration flexibility"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.48.2",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.48.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.48.4(a)",
@@ -4067,9 +4302,10 @@
       "Calculates Mach number",
       "Central source of air data for EFIS"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.48.4(a)",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.48.4(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.48.4(b)",
@@ -4084,9 +4320,10 @@
       "Interface between compass and display system",
       "Accuracy depends on compass accuracy"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.48.4(b)",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.48.4(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.48.4(c)",
@@ -4104,9 +4341,10 @@
       "Angle-of-attack sensor (some systems)",
       "Data integration and cross-checking"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.48.4(c)",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.48.4(c)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.48.6",
@@ -4122,9 +4360,10 @@
       "Continuous operation",
       "±2-5° accuracy typical"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.48.6",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.48.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.50.2",
@@ -4140,9 +4379,10 @@
       "Registration data in 406 signal",
       "Satellite detection system"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.50.2",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.50.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.52.2",
@@ -4158,9 +4398,10 @@
       "Coolant pump operation",
       "Overflow tank capacity"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.52.2",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.52.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.52.4(a)",
@@ -4178,9 +4419,10 @@
       "Overheating leads to detonation",
       "Cylinder head temperature limits are critical"
     ],
-    "source": "Stoneybrook AU Module 1.3, AC 61-3 Rev 25 §12.52.4(a)",
+    "source": "Stoneybrook AU Module 1.3, NZ CAA AC 61-3 Rev 25 §12.52.4(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.52.4(b)",
@@ -4198,9 +4440,10 @@
       "Increased engine wear and friction",
       "Inefficient engine operation"
     ],
-    "source": "Stoneybrook AU Module 1.3, AC 61-3 Rev 25 §12.52.4(b)",
+    "source": "Stoneybrook AU Module 1.3, NZ CAA AC 61-3 Rev 25 §12.52.4(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.52.6",
@@ -4216,9 +4459,10 @@
       "Drag reduction when closed",
       "Position indicator reading"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.52.6",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.52.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.54.2",
@@ -4234,9 +4478,10 @@
       "Ground loop risk (tail wheel)",
       "Takeoff view differences"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.54.2",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.54.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.54.4",
@@ -4252,9 +4497,10 @@
       "Brake pressure indication",
       "Parking brake system"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.54.4",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.54.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.54.6",
@@ -4270,9 +4516,10 @@
       "Crosswind taxi techniques",
       "Speed control importance"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.54.6",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.54.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.56.2",
@@ -4288,9 +4535,10 @@
       "Elevator changes angle of attack",
       "Aileron roll coupling effects"
     ],
-    "source": "Stoneybrook AU Module 1.5, AC 61-3 Rev 25 §12.56.2",
+    "source": "Stoneybrook AU Module 1.5, NZ CAA AC 61-3 Rev 25 §12.56.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.58.2",
@@ -4305,9 +4553,10 @@
       "Center of gravity intersection point",
       "Three-axis rotation system"
     ],
-    "source": "Stoneybrook AU Module 1.5, AC 61-3 Rev 25 §12.58.2",
+    "source": "Stoneybrook AU Module 1.5, NZ CAA AC 61-3 Rev 25 §12.58.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.58.4",
@@ -4322,9 +4571,10 @@
       "Control column and pedal inputs",
       "Trim tab operation"
     ],
-    "source": "Stoneybrook AU Module 1.5, AC 61-3 Rev 25 §12.58.4",
+    "source": "Stoneybrook AU Module 1.5, NZ CAA AC 61-3 Rev 25 §12.58.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.58.6(a)",
@@ -4341,9 +4591,10 @@
       "Critical for aircraft control",
       "Used with bank angle for 3-D aircraft orientation"
     ],
-    "source": "Stoneybrook AU Module 1.2, AC 61-3 Rev 25 §12.58.6(a)",
+    "source": "Stoneybrook AU Module 1.2, NZ CAA AC 61-3 Rev 25 §12.58.6(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.58.6(b)",
@@ -4361,9 +4612,10 @@
       "Independent of pitch attitude",
       "Critical reference for turns and level flight"
     ],
-    "source": "Stoneybrook AU Module 1.2, AC 61-3 Rev 25 §12.58.6(b)",
+    "source": "Stoneybrook AU Module 1.2, NZ CAA AC 61-3 Rev 25 §12.58.6(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.58.6(c)",
@@ -4381,9 +4633,10 @@
       "Critical for coordinated flight",
       "Separate from bank/turn indicator"
     ],
-    "source": "Stoneybrook AU Module 1.2, AC 61-3 Rev 25 §12.58.6(c)",
+    "source": "Stoneybrook AU Module 1.2, NZ CAA AC 61-3 Rev 25 §12.58.6(c)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.58.8",
@@ -4399,9 +4652,10 @@
       "Cross-axis coupling effects",
       "Coordination requirement"
     ],
-    "source": "Stoneybrook AU Module 1.5, AC 61-3 Rev 25 §12.58.8",
+    "source": "Stoneybrook AU Module 1.5, NZ CAA AC 61-3 Rev 25 §12.58.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.58.10",
@@ -4417,9 +4671,10 @@
       "Speed stability coupling",
       "Angle of attack adjustment"
     ],
-    "source": "Stoneybrook AU Module 1.5, AC 61-3 Rev 25 §12.58.10",
+    "source": "Stoneybrook AU Module 1.5, NZ CAA AC 61-3 Rev 25 §12.58.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.58.12",
@@ -4435,9 +4690,10 @@
       "Airspeed trim adjustment",
       "Configuration trim changes"
     ],
-    "source": "Stoneybrook AU Module 1.5, AC 61-3 Rev 25 §12.58.12",
+    "source": "Stoneybrook AU Module 1.5, NZ CAA AC 61-3 Rev 25 §12.58.12",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.58.14",
@@ -4453,9 +4709,10 @@
       "Balance tab function",
       "Control force reduction"
     ],
-    "source": "Stoneybrook AU Module 1.5, AC 61-3 Rev 25 §12.58.14",
+    "source": "Stoneybrook AU Module 1.5, NZ CAA AC 61-3 Rev 25 §12.58.14",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.58.16",
@@ -4471,9 +4728,10 @@
       "Normal trim range check",
       "Pre-configuration reset"
     ],
-    "source": "Stoneybrook AU Module 1.5, AC 61-3 Rev 25 §12.58.16",
+    "source": "Stoneybrook AU Module 1.5, NZ CAA AC 61-3 Rev 25 §12.58.16",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.58.18",
@@ -4489,9 +4747,10 @@
       "Force reduction purpose",
       "Combined balance methods"
     ],
-    "source": "Stoneybrook AU Module 1.5, AC 61-3 Rev 25 §12.58.18",
+    "source": "Stoneybrook AU Module 1.5, NZ CAA AC 61-3 Rev 25 §12.58.18",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.58.20",
@@ -4507,9 +4766,10 @@
       "Flutter prevention method",
       "Speed range force consistency"
     ],
-    "source": "Stoneybrook AU Module 1.5, AC 61-3 Rev 25 §12.58.20",
+    "source": "Stoneybrook AU Module 1.5, NZ CAA AC 61-3 Rev 25 §12.58.20",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.58.22",
@@ -4525,9 +4785,10 @@
       "Fixed relationship maintenance",
       "Speed-dependent force response"
     ],
-    "source": "Stoneybrook AU Module 1.5, AC 61-3 Rev 25 §12.58.22",
+    "source": "Stoneybrook AU Module 1.5, NZ CAA AC 61-3 Rev 25 §12.58.22",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.58.24",
@@ -4543,9 +4804,10 @@
       "Takeoff distance reduction",
       "Landing distance reduction"
     ],
-    "source": "Stoneybrook AU Module 1.5, AC 61-3 Rev 25 §12.58.24",
+    "source": "Stoneybrook AU Module 1.5, NZ CAA AC 61-3 Rev 25 §12.58.24",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.58.26",
@@ -4561,9 +4823,10 @@
       "Hydraulic or electric actuation",
       "Wing area increase"
     ],
-    "source": "Stoneybrook AU Module 1.5, AC 61-3 Rev 25 §12.58.26",
+    "source": "Stoneybrook AU Module 1.5, NZ CAA AC 61-3 Rev 25 §12.58.26",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.60.2",
@@ -4579,9 +4842,10 @@
       "Equilibrium in level flight",
       "Force balance requirement"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.60.2",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.60.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.60.4",
@@ -4597,9 +4861,10 @@
       "Power required curve",
       "Thrust available limit"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.60.4",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.60.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.60.6",
@@ -4615,9 +4880,10 @@
       "Damping oscillation",
       "CG envelope limits"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.60.6",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.60.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.60.8(a)",
@@ -4635,9 +4901,10 @@
       "Graph shows power vs airspeed relationship",
       "Critical for cruise planning"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.5, AC 61-3 Rev 25 §12.60.8(a)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.5, NZ CAA AC 61-3 Rev 25 §12.60.8(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.60.8(b)",
@@ -4655,9 +4922,10 @@
       "Different from maximum-rate-of-climb speed",
       "Critical for flight planning and fuel economy"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.5, AC 61-3 Rev 25 §12.60.8(b)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.5, NZ CAA AC 61-3 Rev 25 §12.60.8(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.60.8(c)",
@@ -4675,9 +4943,10 @@
       "Different from maximum-range speed",
       "Critical for flight planning under fuel constraints"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.5, AC 61-3 Rev 25 §12.60.8(c)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.5, NZ CAA AC 61-3 Rev 25 §12.60.8(c)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.60.10",
@@ -4693,9 +4962,10 @@
       "Power setting economy",
       "Fuel reserve consideration"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.60.10",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.60.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.62.2",
@@ -4711,9 +4981,10 @@
       "Excess vertical force creates climb",
       "Climb angle gradient"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.62.2",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.62.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.62.4(a)",
@@ -4731,9 +5002,10 @@
       "Graph: maximum separation between PA and PR curves",
       "Trade-off: slow airspeed, high climb angle"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.5, AC 61-3 Rev 25 §12.62.4(a)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.5, NZ CAA AC 61-3 Rev 25 §12.62.4(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.62.4(b)",
@@ -4751,9 +5023,10 @@
       "Graph: maximum vertical distance between PA and PR",
       "Trade-off: faster airspeed, lower climb angle"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.5, AC 61-3 Rev 25 §12.62.4(b)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.5, NZ CAA AC 61-3 Rev 25 §12.62.4(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.62.4(c)",
@@ -4771,9 +5044,10 @@
       "Better visibility than steep climbs",
       "Practical choice for routine operations"
     ],
-    "source": "Stoneybrook AU Module 1.5, AC 61-3 Rev 25 §12.62.4(c)",
+    "source": "Stoneybrook AU Module 1.5, NZ CAA AC 61-3 Rev 25 §12.62.4(c)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.62.6",
@@ -4789,9 +5063,10 @@
       "Obstacle clearance application",
       "Climb performance optimization"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.62.6",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.62.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.62.8",
@@ -4807,9 +5082,10 @@
       "Power increase effect",
       "Airspeed optimization"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.62.8",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.62.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.62.10",
@@ -4825,9 +5101,10 @@
       "Speed optimization",
       "Engine temperature limit"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.62.10",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.62.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.64.2",
@@ -4843,9 +5120,10 @@
       "L/D determines glide angle",
       "Descent rate relationship"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.64.2",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.64.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.64.4",
@@ -4861,9 +5139,10 @@
       "Pitch controls airspeed",
       "Constant speed descent"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.64.4",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.64.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.64.6",
@@ -4879,9 +5158,10 @@
       "Maximum L/D efficiency point",
       "Distance from altitude calculation"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.64.6",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.64.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.64.8",
@@ -4897,9 +5177,10 @@
       "Retract flaps for distance",
       "Glide angle is fixed ratio"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.64.8",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.64.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.66.2",
@@ -4915,9 +5196,10 @@
       "Load factor relationship",
       "Turn geometry dependence"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.66.2",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.66.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.66.4(a)",
@@ -4935,9 +5217,10 @@
       "Provides centripetal acceleration",
       "Critical for coordinated flight"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.66.4(a)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.66.4(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.66.4(b)",
@@ -4955,9 +5238,10 @@
       "Stall speed increases in turns",
       "Critical for level-turn performance"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.66.4(b)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.66.4(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.66.6",
@@ -4973,9 +5257,10 @@
       "Stall speed increases √g",
       "Structural limits typical"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.66.6",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.66.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.66.8",
@@ -4991,9 +5276,10 @@
       "Power requirement increases",
       "Stall speed increases √g"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.66.8",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.66.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.66.10(a)",
@@ -5011,9 +5297,10 @@
       "Critical for air traffic control procedures",
       "Fundamental to coordinated flight"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.66.10(a)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.66.10(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.66.10(b)",
@@ -5031,9 +5318,10 @@
       "Practical limit ~25–30° for normal operations",
       "Critical for ATC procedure compliance"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.66.10(b)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.66.10(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.66.12",
@@ -5049,9 +5337,10 @@
       "Instrument turn coordination",
       "Standard rate definition"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.66.12",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.66.12",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.66.14",
@@ -5067,9 +5356,10 @@
       "Overbanking descent risk",
       "Bank angle climb effect"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.66.14",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.66.14",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.66.16",
@@ -5085,9 +5375,10 @@
       "Underbanking descent reduction",
       "Bank effect on descent"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.66.16",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.66.16",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.68.2(a)",
@@ -5105,9 +5396,10 @@
       "Critical angle of attack ~15–20° (typical wing)",
       "Occurs on upper surface first, then lower"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.68.2(a)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.68.2(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.68.2(b)",
@@ -5125,9 +5417,10 @@
       "Occurs suddenly beyond critical angle of attack",
       "Recovery requires reduction of angle of attack"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.68.2(b)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.68.2(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.68.4",
@@ -5144,9 +5437,10 @@
       "Increased descent rate",
       "Airspeed approaching limit"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.68.4",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.68.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.68.6(a)",
@@ -5164,9 +5458,10 @@
       "Angle of attack is the critical variable",
       "Airspeed is not a reliable stall indicator"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.68.6(a)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.68.6(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.68.6(b)",
@@ -5184,9 +5479,10 @@
       "Power is secondary to AOA reduction",
       "Recovery results in altitude loss"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.68.6(b)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.68.6(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.68.8(a)",
@@ -5204,9 +5500,10 @@
       "Aggressive maneuvers increase stall speed",
       "Critical safety consideration"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.68.8(a)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.68.8(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.68.8(b)",
@@ -5224,9 +5521,10 @@
       "Affects approach and landing speeds",
       "Full fuel increases weight and stall speed"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.68.8(b)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.68.8(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.68.8(c)",
@@ -5244,9 +5542,10 @@
       "Published stall speeds are IAS",
       "Practical effect is minor for small aircraft"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.68.8(c)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.68.8(c)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.68.8(d)",
@@ -5264,9 +5563,10 @@
       "Power affects angle of attack needed",
       "Critical for takeoff and landing operations"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.68.8(d)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.68.8(d)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.68.8(e)",
@@ -5284,9 +5584,10 @@
       "Used for approach and landing",
       "Improves low-speed handling"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.68.8(e)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.68.8(e)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.68.8(f)",
@@ -5304,9 +5605,10 @@
       "Wing damage (wrinkles, dents) increases stall speed",
       "Aircraft unairworthy if wing contaminated"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.68.8(f)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.68.8(f)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.68.10",
@@ -5322,9 +5624,10 @@
       "Spin induction risk",
       "Recovery procedure neutral aileron"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.68.10",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.68.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.68.12",
@@ -5340,9 +5643,10 @@
       "Spin development risk",
       "Prevention through neutral controls"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.68.12",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.68.12",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.68.14(a)",
@@ -5360,9 +5664,10 @@
       "Not a spiral dive (different recovery)",
       "Altitude loss accelerates in spin"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.68.14(a)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.68.14(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.68.14(b)",
@@ -5380,9 +5685,10 @@
       "Aircraft descends steeply while rotating",
       "Makes recovery maneuver essential"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.68.14(b)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.68.14(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.68.14(c)",
@@ -5400,9 +5706,10 @@
       "Recovery becomes more difficult deeper in spin",
       "Prevention (never stall turning) critical"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.68.14(c)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.68.14(c)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.68.14(d)",
@@ -5420,9 +5727,10 @@
       "Spin: both wings not generating full lift",
       "Spiral: both wings generating full lift"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.68.14(d)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.68.14(d)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.68.16",
@@ -5439,9 +5747,10 @@
       "No cross-control inputs",
       "Forward stick recovery"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.68.16",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.68.16",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.68.18",
@@ -5457,9 +5766,10 @@
       "Neutralize rudder after rotation stops",
       "Gradual recovery to level flight"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.68.18",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.68.18",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.70.2",
@@ -5475,9 +5785,10 @@
       "Engine provides thrust",
       "Control systems operate surfaces"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.70.2",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.70.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.70.4(a)",
@@ -5495,9 +5806,10 @@
       "Fuselage carries wing-to-fuselage loads",
       "Torsion and bending stresses critical"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.70.4(a)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.70.4(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.70.4(b)",
@@ -5515,9 +5827,10 @@
       "Reduces required spar thickness/weight",
       "Critical for high-G maneuvers"
     ],
-    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.70.4(b)",
+    "source": "Kermode Mechanics of Flight, Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.70.4(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.70.6(a)",
@@ -5535,9 +5848,10 @@
       "Avoid galvanic corrosion (dissimilar metals)",
       "Proper drainage and ventilation essential"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.70.6(a)",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.70.6(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.70.6(b)",
@@ -5555,9 +5869,10 @@
       "BVID (barely-visible impact damage) critical",
       "Proper sealing and coatings essential"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.70.6(b)",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.70.6(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.70.6(c)",
@@ -5575,9 +5890,10 @@
       "Extreme temperature causes cracking",
       "Internal rot may not be visible"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.70.6(c)",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.70.6(c)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.70.8(a)",
@@ -5595,9 +5911,10 @@
       "Enlarged fastener holes",
       "Separated panels or joints"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.70.8(a)",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.70.8(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.70.8(b)",
@@ -5615,9 +5932,10 @@
       "Loss of rigidity",
       "Barely-visible impact damage"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.70.8(b)",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.70.8(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.70.8(c)",
@@ -5635,9 +5953,10 @@
       "Failed glue joints",
       "Pinhole perforations"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.70.8(c)",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.70.8(c)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.70.10",
@@ -5653,9 +5972,10 @@
       "Control locks if equipped",
       "Pitot cover protection"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.70.10",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.70.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.72.2(a)",
@@ -5673,9 +5993,10 @@
       "Used for performance analysis",
       "Different sections have different forces"
     ],
-    "source": "Stoneybrook AU Module 1.7, AC 61-3 Rev 25 §12.72.2(a)",
+    "source": "Stoneybrook AU Module 1.7, NZ CAA AC 61-3 Rev 25 §12.72.2(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.72.2(b)",
@@ -5693,9 +6014,10 @@
       "Larger angle = steeper pitch, higher AOA",
       "Key design and performance parameter"
     ],
-    "source": "Stoneybrook AU Module 1.7, AC 61-3 Rev 25 §12.72.2(b)",
+    "source": "Stoneybrook AU Module 1.7, NZ CAA AC 61-3 Rev 25 §12.72.2(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.72.2(c)",
@@ -5713,9 +6035,10 @@
       "Root has lower helix angle than tip",
       "Critical for pitch concept understanding"
     ],
-    "source": "Stoneybrook AU Module 1.7, AC 61-3 Rev 25 §12.72.2(c)",
+    "source": "Stoneybrook AU Module 1.7, NZ CAA AC 61-3 Rev 25 §12.72.2(c)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.72.2(d)",
@@ -5733,9 +6056,10 @@
       "AOA varies with airspeed and RPM",
       "Efficient operation requires proper AOA"
     ],
-    "source": "Stoneybrook AU Module 1.7, AC 61-3 Rev 25 §12.72.2(d)",
+    "source": "Stoneybrook AU Module 1.7, NZ CAA AC 61-3 Rev 25 §12.72.2(d)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.72.4",
@@ -5751,9 +6075,10 @@
       "Thrust optimization",
       "Blade efficiency maintenance"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.72.4",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.72.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.72.6(a)",
@@ -5771,9 +6096,10 @@
       "Design and aerodynamic parameter",
       "Different at root and tip but same direction"
     ],
-    "source": "Stoneybrook AU Module 1.7, AC 61-3 Rev 25 §12.72.6(a)",
+    "source": "Stoneybrook AU Module 1.7, NZ CAA AC 61-3 Rev 25 §12.72.6(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.72.6(b)",
@@ -5791,9 +6117,10 @@
       "Direction perpendicular to blade chord ideally",
       "Critical for understanding blade forces"
     ],
-    "source": "Stoneybrook AU Module 1.7, AC 61-3 Rev 25 §12.72.6(b)",
+    "source": "Stoneybrook AU Module 1.7, NZ CAA AC 61-3 Rev 25 §12.72.6(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.72.6(c)",
@@ -5811,9 +6138,10 @@
       "Magnitude depends on relative wind speed",
       "Direction changes with airspeed/RPM"
     ],
-    "source": "Stoneybrook AU Module 1.7, AC 61-3 Rev 25 §12.72.6(c)",
+    "source": "Stoneybrook AU Module 1.7, NZ CAA AC 61-3 Rev 25 §12.72.6(c)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.72.6(d)",
@@ -5831,9 +6159,10 @@
       "Engine must overcome torque",
       "Torque increases with power demand"
     ],
-    "source": "Stoneybrook AU Module 1.7, AC 61-3 Rev 25 §12.72.6(d)",
+    "source": "Stoneybrook AU Module 1.7, NZ CAA AC 61-3 Rev 25 §12.72.6(d)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.72.8",
@@ -5849,9 +6178,10 @@
       "Power absorption change",
       "Efficiency dependency"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.72.8",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.72.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.72.10",
@@ -5867,9 +6197,10 @@
       "Diameter thrust relationship",
       "Density altitude impact"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.72.10",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.72.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.72.12",
@@ -5885,9 +6216,10 @@
       "Pitch angle variation",
       "Coarse vs fine blade angle"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.72.12",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.72.12",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.72.14",
@@ -5903,9 +6235,10 @@
       "Pilot flexibility",
       "Cost-complexity tradeoff"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.72.14",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.72.14",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.72.16",
@@ -5921,9 +6254,10 @@
       "Noise reduction benefit",
       "Epicyclic gear design"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.72.16",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.72.16",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.76.2(a)",
@@ -5941,9 +6275,10 @@
       "Mechanical advantage reduces pilot force",
       "Maintains control sensitivity"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25 §12.76.2(a)",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25 §12.76.2(a)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.76.2(b)",
@@ -5961,9 +6296,10 @@
       "Essential for cruise efficiency",
       "Requires different technique per phase"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25 §12.76.2(b)",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25 §12.76.2(b)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.76.2(c)",
@@ -5981,9 +6317,10 @@
       "Speed limits for deployment",
       "Essential for approach and landing"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25 §12.76.2(c)",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25 §12.76.2(c)",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.76.4",
@@ -5999,9 +6336,10 @@
       "Free and correct movement check",
       "Flight impossibility if locked"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.76.4",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.76.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.76.6",
@@ -6017,9 +6355,10 @@
       "Drag increase benefits",
       "Lift increase benefits"
     ],
-    "source": "Stoneybrook AU Module 1.4, AC 61-3 Rev 25 §12.76.6",
+    "source": "Stoneybrook AU Module 1.4, NZ CAA AC 61-3 Rev 25 §12.76.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.100.2",
@@ -6035,9 +6374,10 @@
       "Takeoff and landing distances increase",
       "Service ceiling: altitude where rate of climb = 100 ft/min"
     ],
-    "source": "Stoneybrook AU Module 1.6 (performance), AC 61-3 Rev 25 §12.100.2",
+    "source": "Stoneybrook AU Module 1.6 (performance), NZ CAA AC 61-3 Rev 25 §12.100.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.100.4",
@@ -6052,9 +6392,10 @@
       "Does not represent true height above sea level",
       "Standard datum: 1013.25 hPa / 29.92 inHg"
     ],
-    "source": "Stoneybrook AU Module 1.3 (ISA), Module 1.6, AC 61-3 Rev 25 §12.100.4",
+    "source": "Stoneybrook AU Module 1.3 (ISA), Module 1.6, NZ CAA AC 61-3 Rev 25 §12.100.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.100.6",
@@ -6069,9 +6410,10 @@
       "QNH above 1013 → PA lower than elevation",
       "Used to enter performance charts"
     ],
-    "source": "Stoneybrook AU Module 1.3, Module 1.6, AC 61-3 Rev 25 §12.100.6",
+    "source": "Stoneybrook AU Module 1.3, Module 1.6, NZ CAA AC 61-3 Rev 25 §12.100.6",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.100.8",
@@ -6086,9 +6428,10 @@
       "Works both on the ground and in flight",
       "Quick cockpit method for performance chart entry"
     ],
-    "source": "Stoneybrook AU Module 1.7 (instruments), AC 61-3 Rev 25 §12.100.8",
+    "source": "Stoneybrook AU Module 1.7 (instruments), NZ CAA AC 61-3 Rev 25 §12.100.8",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.100.10",
@@ -6104,9 +6447,10 @@
       "Temperature above ISA = worse than standard performance",
       "Temperature below ISA = better than standard performance"
     ],
-    "source": "Stoneybrook AU Module 1.3, Module 1.6, AC 61-3 Rev 25 §12.100.10",
+    "source": "Stoneybrook AU Module 1.3, Module 1.6, NZ CAA AC 61-3 Rev 25 §12.100.10",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.100.12",
@@ -6121,9 +6465,10 @@
       "High DA = poor performance (hot, high, humid)",
       "DA is the best single indicator of aircraft performance"
     ],
-    "source": "Stoneybrook AU Module 1.3, Module 1.6, AC 61-3 Rev 25 §12.100.12",
+    "source": "Stoneybrook AU Module 1.3, Module 1.6, NZ CAA AC 61-3 Rev 25 §12.100.12",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.100.14(a)",
@@ -6138,10 +6483,10 @@
       "Positive ISA deviation = warmer than standard = higher density altitude",
       "Negative ISA deviation = cooler than standard = lower density altitude"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282406"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.100.14(b)",
@@ -6156,10 +6501,10 @@
       "Hot, high-altitude airfields produce very high density altitudes",
       "At sea level in standard conditions, density altitude = 0 ft"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282463"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.100.16(a)",
@@ -6174,10 +6519,10 @@
       "Landing distance increases with weight due to increased inertia and landing speed",
       "Performance charts account for specific weight configurations"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282465"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.100.16(b)",
@@ -6192,10 +6537,10 @@
       "Performance charts are indexed by density altitude, not pressure altitude",
       "Temperature effect on performance is greater at higher altitudes"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282466"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.100.16(c)",
@@ -6210,10 +6555,10 @@
       "Humidity is rarely the primary limiting factor for takeoff or landing",
       "Very dry conditions provide marginally better performance"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282468"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.100.16(d)",
@@ -6228,10 +6573,10 @@
       "Downslope reduces LDR (gravity assists landing deceleration)",
       "Effect magnitude depends on slope angle and aircraft type"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282469"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.100.16(e)",
@@ -6246,10 +6591,10 @@
       "Gravel, snow, or slush can dramatically increase required distance",
       "Surface contamination reduces tyre grip and increases stopping distance"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282470"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.100.16(f)",
@@ -6264,10 +6609,10 @@
       "Tailwind increases LDR (reduces braking effectiveness)",
       "Wind component calculated as headwind/tailwind along runway heading"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282471"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.100.16(g)",
@@ -6282,10 +6627,10 @@
       "Insufficient landing flap increases landing distance substantially",
       "Flap misuse (asymmetric, partial deployment, or damage) degrades performance"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282472"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.100.16(h)",
@@ -6300,10 +6645,10 @@
       "Engine condition, fuel system contamination, and carburetor ice reduce power",
       "Power must be verified as adequate before committing to takeoff"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282473"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.100.16(i)",
@@ -6318,10 +6663,10 @@
       "Surface damage (dents, wrinkles, tears) increases parasite drag",
       "Even light contamination can reduce climb performance by 10-30%"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282474"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.100.18",
@@ -6337,9 +6682,10 @@
       "Recovery: full power, maintain attitude, go-around",
       "Limited energy margin near the ground makes recovery difficult"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.100.18",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.100.18",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.102.2",
@@ -6355,9 +6701,10 @@
       "Always use conservative figures",
       "Round PA and temp up, headwind down"
     ],
-    "source": "Stoneybrook AU Module 1.6 (performance charts), AC 61-3 Rev 25 §12.102.2",
+    "source": "Stoneybrook AU Module 1.6 (performance charts), NZ CAA AC 61-3 Rev 25 §12.102.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.102.4",
@@ -6373,9 +6720,10 @@
       "Clearway: obstacle-free area beyond runway end",
       "If TODR > TODA, reduce weight or wait for better conditions"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.102.4",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.102.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.104.2",
@@ -6391,9 +6739,10 @@
       "Actual distances often exceed published figures",
       "Be conservative — pilot technique affects landing distance"
     ],
-    "source": "Stoneybrook AU Module 1.6 (performance), AC 61-3 Rev 25 §12.104.2",
+    "source": "Stoneybrook AU Module 1.6 (performance), NZ CAA AC 61-3 Rev 25 §12.104.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.104.4",
@@ -6409,9 +6758,10 @@
       "Displaced threshold reduces LDA",
       "Wet or slippery surfaces increase LDR significantly"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.104.4",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.104.4",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.106.2(a)",
@@ -6426,10 +6776,10 @@
       "Moment = Weight × Arm",
       "Different aircraft components have different arms listed in loading schedules"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282474"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.106.2(b)",
@@ -6444,10 +6794,10 @@
       "Datum is typically at or near the nose or firewall",
       "Datum location is constant for a given aircraft type"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282475"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.106.2(c)",
@@ -6462,10 +6812,10 @@
       "Negative moment = force causing nose-down rotation (aft of datum)",
       "Total aircraft moment = sum of all component moments"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282476"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.106.2(d)",
@@ -6481,10 +6831,10 @@
       "Forward C of G = more stable, requires more tail force, longer takeoff",
       "Aft C of G = less stable, requires less tail force, shorter takeoff"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282477"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.106.2(e)",
@@ -6499,10 +6849,10 @@
       "Operating outside range: aircraft is unairworthy and unsafe",
       "Range is typically expressed as two values: forward and aft limits"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282478"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.106.2(f)",
@@ -6517,10 +6867,10 @@
       "Major stations: engine(s), cockpit, cabin, fuel tanks, tail",
       "Loading schedules reference station numbers for arm values"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282479"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.106.2(g)",
@@ -6535,10 +6885,10 @@
       "BEW excludes crew, usable fuel, and cargo",
       "BEW is the baseline for calculating loaded weight"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282480"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.106.2(h)",
@@ -6553,10 +6903,10 @@
       "Maximum fuel load = Gross Weight Limit − ZFW",
       "ZFW must be within aircraft limits for each loading configuration"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282481"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.106.2(i)",
@@ -6571,10 +6921,10 @@
       "Operating above gross weight limit is prohibited and dangerous",
       "Gross weight affects performance and controllability"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282482"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.106.2(j)",
@@ -6589,10 +6939,10 @@
       "Operating above MCTOW is illegal and unsafe",
       "Different from AUW or Gross Weight (which may be lower)"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282483"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.108.2(a)",
@@ -6607,10 +6957,10 @@
       "Total moment = sum of all component moments",
       "Result must be within aircraft C of G limits"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282484"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.108.2(b)",
@@ -6625,10 +6975,10 @@
       "Point outside envelope = unacceptable C of G",
       "Graph method is faster than calculation method"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282485"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.108.2(c)",
@@ -6643,10 +6993,10 @@
       "Maintains same accuracy as moment calculation",
       "Some aircraft use index graphs for direct CG determination"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282485"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.110.2",
@@ -6662,9 +7012,10 @@
       "Ensures predictable stall and spin characteristics",
       "Flying outside limits may make aircraft uncontrollable"
     ],
-    "source": "Stoneybrook AU Module 1.6, AC 61-3 Rev 25 §12.110.2",
+    "source": "Stoneybrook AU Module 1.6, NZ CAA AC 61-3 Rev 25 §12.110.2",
     "confidence": "high",
-    "verified": false
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.110.4(a)",
@@ -6680,10 +7031,10 @@
       "Forward CG increases landing distance",
       "Forward CG reduces stall tendency (more stable margin)"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282486"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   },
   {
     "code": "12.110.4(b)",
@@ -6699,9 +7050,9 @@
       "Aft CG decreases landing distance",
       "Aft CG reduces stall margin (increases stall danger)"
     ],
-    "source": "Stoneybrook AU Module 1.1, AC 61-3 Rev 25",
+    "source": "Stoneybrook AU Module 1.1, NZ CAA AC 61-3 Rev 25",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-17T13:13:16.282487"
+    "verified": true,
+    "created": "2026-03-25T00:00:00.000000"
   }
 ]
