@@ -557,7 +557,7 @@
         <div id="uploadSection">
             <div class="upload-card">
                 <div class="upload-zone" id="uploadZone">
-                    <div class="upload-zone-icon">📄</div>
+                    <div class="upload-zone-icon">ð</div>
                     <h3>Upload Your ASPEQ Result Slip</h3>
                     <p>Drag and drop your PDF here or click to browse</p>
                     <button class="upload-btn">Choose PDF</button>
@@ -583,11 +583,11 @@
             <div class="summary-panel">
                 <div class="summary-grid">
                     <div class="summary-item">
-                        <span class="summary-value" id="summaryExam">—</span>
+                        <span class="summary-value" id="summaryExam">â</span>
                         <span class="summary-label">Exam Type</span>
                     </div>
                     <div class="summary-item">
-                        <span class="summary-value" id="summarySubject">—</span>
+                        <span class="summary-value" id="summarySubject">â</span>
                         <span class="summary-label">Subject</span>
                     </div>
                     <div class="summary-item">
@@ -612,7 +612,7 @@
             <div class="survey-card">
                 <h3>Help Us Improve!</h3>
                 <p>Which questions tripped you up? Share your feedback to help other students.</p>
-                <a href="https://stoneybrooktraining-blip.github.io/exam-feedback/" target="_blank" class="btn">Take the Question Survey →</a>
+                <a href="https://stoneybrooktraining-blip.github.io/exam-feedback/" target="_blank" class="btn">Take the Question Survey â</a>
             </div>
 
             <!-- Action Buttons -->
@@ -625,7 +625,7 @@
 
     <!-- FOOTER -->
     <footer>
-        <p>© <script>document.write(new Date().getFullYear())</script> Stoneybrook Training · <a href="https://stoneybrooktraining-blip.github.io/exam-feedback/">Question Survey</a></p>
+        <p>Â© <script>document.write(new Date().getFullYear())</script> Stoneybrook Training Â· <a href="https://stoneybrooktraining-blip.github.io/exam-feedback/">Question Survey</a></p>
     </footer>
 
     <script>
@@ -762,7 +762,7 @@
                 }
             }
 
-            // Subject aliases — ASPEQ KDRs use abbreviations and varying wording
+            // Subject aliases â ASPEQ KDRs use abbreviations and varying wording
             const subjectAliases = {
                 'flight radiotelephony': ['frto', 'radiotelephony', 'radio telephony', 'flight radio'],
                 'aircraft technical knowledge': ['atk', 'aircraft technical', 'technical knowledge'],
@@ -772,7 +772,7 @@
                 'human factors': ['human factors', 'human factor', 'hf ']
             };
 
-            // Detect subject — check full name first, then aliases
+            // Detect subject â check full name first, then aliases
             for (const [subject, mapping] of Object.entries(CONFIG.subjectMapping)) {
                 if (lowerText.includes(subject)) {
                     appState.detectedSubject = subject;
@@ -818,12 +818,12 @@
             appState.extractedCodes = [...new Set(found)];
 
             showToast(
-                `Detected: ${appState.detectedExam} ${appState.detectedSubject} — ${appState.extractedCodes.length} KDR codes extracted`
+                `Detected: ${appState.detectedExam} ${appState.detectedSubject} â ${appState.extractedCodes.length} KDR codes extracted`
             );
         }
 
         // ===== CONTENT LOADING =====
-        function loadContentData() {
+        async function loadContentData() {
             try {
                 showToast('Loading content database...');
 
@@ -882,7 +882,7 @@
 
             let details = `Generated on ${new Date().toLocaleDateString()}`;
             if (unmatched > 0) {
-                details += ` • ${unmatched} code(s) not yet in database`;
+                details += ` â¢ ${unmatched} code(s) not yet in database`;
             }
             document.getElementById('summaryDetails').textContent = details;
 
@@ -986,7 +986,7 @@
             doc.setFontSize(12);
             doc.setFont(undefined, 'normal');
             const pdfSubjectTitle = appState.detectedSubject.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
-            doc.text(`${appState.detectedExam} — ${pdfSubjectTitle}`, margin, 33);
+            doc.text(`${appState.detectedExam} â ${pdfSubjectTitle}`, margin, 33);
 
             yPos = 50;
 
@@ -1045,7 +1045,7 @@
                     doc.setTextColor(31, 37, 40);
                     doc.setFontSize(11);
                     doc.setFont(undefined, 'bold');
-                    const titleLines = doc.splitTextToSize(`${item.code} — ${item.syllabus_desc || ''}`, pageWidth - 2 * margin);
+                    const titleLines = doc.splitTextToSize(`${item.code} â ${item.syllabus_desc || ''}`, pageWidth - 2 * margin);
                     doc.text(titleLines, margin, yPos);
                     yPos += titleLines.length * 5 + 3;
 
@@ -1093,7 +1093,7 @@
                         doc.setTextColor(70, 70, 70);
                         for (const fact of item.key_facts) {
                             checkPage(5);
-                            const factLines = doc.splitTextToSize(`• ${fact}`, pageWidth - 2 * margin - 4);
+                            const factLines = doc.splitTextToSize(`â¢ ${fact}`, pageWidth - 2 * margin - 4);
                             for (const line of factLines) {
                                 checkPage(4);
                                 doc.text(line, margin + 3, yPos);
@@ -1113,7 +1113,7 @@
                 doc.setPage(i);
                 doc.setTextColor(31, 37, 40);
                 doc.setFontSize(8);
-                doc.text(`Stoneybrook Training — KDR Refresher Module`, margin, pageHeight - 10);
+                doc.text(`Stoneybrook Training â KDR Refresher Module`, margin, pageHeight - 10);
                 doc.text(`Page ${i} of ${totalPages}`, pageWidth - margin - 15, pageHeight - 10);
             }
 
