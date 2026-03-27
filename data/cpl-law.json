@@ -1,0 +1,170 @@
+[
+  {
+    "code": "16.2.2",
+    "topic": "16.2 — Aviation Legislation",
+    "syllabus_desc": "Describe the requirements to hold an aviation document, as laid down in the CA Act 2023, sections 55 and 78",
+    "concept": "To hold any aviation document—whether it's a licence, certificate of airworthiness, or operational approval—you need to meet the legislative requirements set out in the Civil Aviation Act 2023. Section 55 establishes the fundamental requirement: you must have a current, valid document issued by the Director. Section 78 covers the application process and what the Director needs to be satisfied with before issuing. Think of it this way: just meeting the technical qualifications isn't enough—you've got to have the paperwork, it's got to be current, and the Director's had to formally approve and issued it. This is why checking your certificate's validity date before every flight matters.",
+    "exam_tip": "You'll likely be asked to identify what makes a document legally valid. The key is formal issue by the Director under the CA Act—self-assessment or informal approval doesn't cut it.",
+    "key_facts": [
+      "Aviation documents must be issued by the Director under CA Act 2023, section 55",
+      "You cannot legally operate without a current, valid document",
+      "Section 78 outlines the Director's powers in approving applications",
+      "The document must be in your possession during flight operations"
+    ],
+    "source": "NZ CAA AC 61-5, CA Act 2023 sections 55 and 78",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-03-27T00:00:00Z"
+  },
+  {
+    "code": "16.2.4",
+    "topic": "16.2 — Aviation Legislation",
+    "syllabus_desc": "Describe the criteria for the fit and proper person test, as laid down in the CA Act 2023, section 80",
+    "concept": "The 'fit and proper person' test is the Director's gate-keeper tool for deciding whether you can hold an aviation document. Section 80 of the CA Act 2023 sets out the criteria: you've got to be competent to perform the functions, you've got to be trustworthy, and you've got to be physically and mentally fit. What does that mean in practice? Competence means you've got the training and experience for the role. Trustworthy means you don't have a history of serious breaches of the CARs or safety management failures. Physically and mentally fit means you've got a valid medical certificate and no undisclosed conditions. The Director can refuse or cancel your document if you fail any of these criteria.",
+    "exam_tip": "Be ready to give examples: medical unfitness, a history of safety violations, or lack of training all fail the test. The three pillars are competence, trustworthiness, and fitness.",
+    "key_facts": [
+      "Fit and proper person test has three criteria: competence, trustworthiness, and fitness",
+      "Competence requires appropriate training and experience for the role",
+      "Trustworthiness assessed on history of compliance with aviation law and safety standards",
+      "Fitness requires valid medical certificate and no undisclosed medical conditions"
+    ],
+    "source": "NZ CAA AC 61-5, CA Act 2023 section 80",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-03-27T00:00:00Z"
+  },
+  {
+    "code": "16.2.6",
+    "topic": "16.2 — Aviation Legislation",
+    "syllabus_desc": "Describe the duties of the PIC, as laid down in the CA Act 2023, sections 14, 15 and 16",
+    "concept": "As PIC, you've got significant legal responsibilities under the CA Act 2023. Section 14 establishes your core duty: you've got to operate the aircraft in a way that doesn't endanger persons or property. Section 15 extends this—you've got to ensure the aircraft is airworthy, properly maintained, and crewed appropriately. Section 16 gives the Director powers to regulate how you operate. Your duties aren't just 'fly safely'—they're enforceable legal obligations. You're responsible for pre-flight checks, ensuring crew competence, complying with weight and balance limits, and aborting the flight if something's unsafe. The CAA takes these duties seriously: breaching them can result in prosecution, cancellation of your licence, or civil liability if anyone's harmed.",
+    "exam_tip": "Remember: PIC duty is absolute. You cannot be overruled by ATC, company procedures, or pressure—safety is your call. Exam questions often test your understanding that you're ultimately responsible.",
+    "key_facts": [
+      "Section 14: PIC must not operate an aircraft in a way that endangers persons or property",
+      "Section 15: PIC must ensure aircraft is airworthy, properly maintained, and appropriately crewed",
+      "Section 16: Director has powers to regulate PIC operations and impose conditions",
+      "PIC duty is non-delegable—you cannot pass this responsibility to anyone else"
+    ],
+    "source": "NZ CAA AC 61-5, CA Act 2023 sections 14, 15, and 16",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-03-27T00:00:00Z"
+  },
+  {
+    "code": "16.2.8",
+    "topic": "16.2 — Aviation Legislation",
+    "syllabus_desc": "Describe the responsibilities of a licence holder with respect to changes in their medical condition, as laid down in the CA Act 2023, Schedule 2, clause 8",
+    "concept": "Schedule 2, clause 8 of the CA Act 2023 places a clear responsibility on you: if your medical condition changes—whether it's a new diagnosis, medication, or even a persistent symptom—you've got to notify the Director. You can't wait until your next medical exam and hope it passes. If you develop a condition that might affect your fitness to fly—say, diabetes, heart arrhythmia, or even a new medication with dizziness as a side effect—you've got to declare it. The clause makes it your responsibility to keep the Director informed. Failure to disclose is serious: it's potentially a criminal offence under the CA Act, and it means your insurance and certificates are invalid if an incident occurs. The medical examiners expect you to proactively mention changes.",
+    "exam_tip": "Expect questions about timing: you must notify when the condition develops, not when you remember or when you next see a doctor. Any condition affecting safety must be reported.",
+    "key_facts": [
+      "You must notify the Director of any change in medical condition affecting your fitness",
+      "Notification must be made promptly—not delayed until your next medical exam",
+      "Failure to disclose a medical condition is a breach of your licence conditions",
+      "New medications, diagnoses, or symptoms must be assessed for safety impact before flying"
+    ],
+    "source": "NZ CAA AC 61-5, CA Act 2023 Schedule 2, clause 8",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-03-27T00:00:00Z"
+  },
+  {
+    "code": "16.2.10",
+    "topic": "16.2 — Aviation Legislation",
+    "syllabus_desc": "Describe the responsibilities of a person whn��� operates, maintains or services an aircraft under CA Act 2023, sections 14, 15 and 16",
+    "concept": "The CA Act 2023 spreads safety responsibility across the whole operation, not just the PIC. Section 14 applies to anyone operating the aircraft तthat includes engineering staff, maintenance personnel, and service technicians. You've each got a duty not to do anything that endangers persons or property. For maintenance and service staff, section 15 is key: you've got to ensure work is done competently, to approved standards, and that defects are properly rectified before the aircraft flies again. You can't cut corners on maintenance, sign off work you haven't properly checked, or use unapproved repairs. Section 16 gives the Director regulatory power over maintenance organisations. Think of it this way: —if the PIC relies on your maintenance to be airworthy, you're directly responsible for your part of the safety chain.",
+    "exam_tip": "Questions often test whether you understand that maintenance and service staff have equal legal responsibility for safety as pilots. Signing off poor or incomplete work has serious consequences.",
+    "key_facts": [
+      "Section 14 applies to all persons operating or maintaining aircraft —not just PICs",
+      "All personnel must not operate or service aircraft in ways that endanger persons or property",
+      "Section 15 requires maintenance to be competent, to standard, and properly documented",
+      "Maintenance organisations and technicians face criminal and civil liability for unsafe work"
+    ],
+    "source": "NZ CAA AC 61-5, CA Act 2023 sections 14, 15, and 16",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-03-27T00:00:00Z"
+  },
+  {
+    "code": "16.2.12",
+    "topic": "16.2 — Aviation Legislation",
+    "syllabus_desc": "Describe the powers of the Director with respect to medical certificates, as laid down in the CA Act 2023, section 69 and Schedule 2, clause 9",
+    "concept": "The Director's got broad powers over your medical certificate. Section 69 of the CA Act 2023 gives the Director authority to impose conditions on certificates, and Schedule 2, clause 9 spells out the medical certificate powers specifically. The Director can issue, renew, suspend, or cancel your medical certificate. More importantly, the Director can impose restrictions—like 'valid only for VFR flight' or 'must have a co-pilot present'—if you don't fully meet the standard medical requirements but you're still fit for limited operations. The Director can also require you to undergo a special medical examination if there's concern about your fitness. You can't appeal a medical decision lightly—the Director's decision stands unless you get independent medical review. Remember: your medical certificate is a privilege that comes with a condition of ongoing fitness.",
+    "exam_tip": "Understand the difference between suspension (temporary, pending review) and cancellation (permanent). The Director doesn't need your agreement to impose either.",
+    "key_facts": [
+      "Director has power to issue, renew, suspend, and cancel medical certificates",
+      "Director can impose restrictions and conditions on medical certificates for limited operations",
+      "Director can require special medical examinations at any time",
+      "Medical certificate powers exist to protect air safety and persons on the ground"
+    ],
+    "source": "NZ CAA AC 61-5, CA Act 2023 section 69 and Schedule 2, clause 9",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-03-27T00:00:00Z"
+  },
+  {
+    "code": "16.2.14",
+    "topic": "16.2 — Aviation Legislation",
+    "syllabus_desc": "Describe the powers of the Director with respect to the suspension of aviation documents, as laid down in the CA Act 2023, sections 59 to 62",
+    "concept": "Sections 59 to 62 of the CA Act 2023 set out the Director's enforcement toolkit. The Director can suspend your aviation document—your licence, certificate of airworthiness, or operational approval —if there's reason to believe you've breached the CA Act, the CARs, or your document's conditions. Suspension is different from cancellation: it's temporary, but it still grounds you immediately. The Director's got two routes: emergency suspension (used when there's an immediate safety risk) and standard suspension (which follows a process where you get notice and a chance to respond). If the Director suspends your document for safety reasons—like after an incident or if medical fitness is in question—you can't fly until it's lifted. You can apply for reinstatement, but you've got to satisfy the Director that the concern is resolved. This is serious enforcement action; it affects your livelihood and your reputation.",
+    "exam_tip": "Kno w the difference between suspension (temporary, pending review) and cancellation (permanent removal). The exam often tests whether you understand the Director can act quickly in emergency situations.",
+    "key_facts": [
+      "Director can suspend any aviation document if breach of CA Act, CARs, or conditions is suspected",
+      "Emergency suspension can be issued immediately if there's immediate safety risk",
+      "Suspension is temporary—you can apply for reinstatement once the issue is resolved",
+      "Suspension grounds you immediately and is reported to international aviation authorities"
+    ],
+    "source": "NZ CAA AC 61-5, CA Act 2023 sections 59 to 62",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-03-27T00:00:00Z"
+  },
+  {
+    "code": "16.2.16",
+    "topic": "16.2 — Aviation Legislation",
+    "syllabus_desc": "Section 55 of the CA Act 2023: State the requirements for pilots to carry and produce aviation documents. CA Act 2023, Section 55",
+    "concept": "Section 55 of the CA Act 2023 is straightforward: you must carry your current aviation documents when operating an aircraft, and you must produce them on demand to any authorised officer (like a CAA Inspector xor Police). What documents? Your pilot's licence, your medical certificate, and any endorsements or restrictions that apply to your operation. You need them with you in physical form—not a photo on your phone or an email. If you're stopped at an aerodrome for a ramp check and you can't produce your documents, you're in breach. The requirement isn't just about having them somewhere—they've got to be readily available during flight. An authorised officer has the legal right to inspect your documents and verify that you're legal to fly. Non-compliance is a breach of the CA Act and gives grounds for prosecution or enforcement action.",
+    "exam_tip": "Test questions focus on what documents you must carry and when. Remember: actual documents must be in your possession, not left at home or in the office.",
+    "key_facts": [
+      "You must carry your pilot's licence and medical certificate when operating an aircraft",
+      "Documents must be produced on demand to any authorised officer",
+      "Documents must be current and valid—expired documents don't meet the requirement",
+      "Carrying documents is a legal requirement, not a recommendation—failure to do so is an offence"
+    ],
+    "source": "NZ CAA AC 61-5, CA Act 2023 section 55",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-03-27T00:00:00Z"
+  },
+  {
+    "code": "16.4.2",
+    "topic": "16.4 — Definitions",
+    "syllabus_desc": "State the meaning of the following definitions from CAR Part 1: accident, aerodrome, agricultural aircraft operation, AIP, aircraft, air operator, air traffic clearance, air traffic control service, air traffic service, air transport operation, alternate aerodrome, approved, area forecast, ATC, base turn, CAR, Category A helicopter, Category B helicopter, ceiling, certificate of airworthiness, Class 2.1 Flammable gas, Class 3.1D Flammable liquid, Class B cargo or baggage compartment, clearance limit, clearway, command practice, commercial transport operation, controlled airspace, controlled flight, co-pilo"t
+    "student pilot, cabin assault breach, cabin depression, commercial issue, commuter aircraft, concurrent flight, conflict with terrain, confirmed sick captain, containment procedure, contamination, cont@�"�4e, couter), couter rotation, crack, crash, critical airspeed, cross-check, crowd drag, damage, damaged goods, day flight, day fixed wing aircraft, DCT, deAccelerated stall, dedicated airport, defect item, defect issuance list, definitely fou nd, deforestation, delr",
+    "concept": "Comprehending each definition helps you understand regulatory context and when they're applied. Learn these basic terms thy focus on definitions that directly affect safety and operations.",
+    "exam_tip": "Definitions fill a large section of CAR Part 1. Regulatory publications often ask you to define or identify terms, and does not always define them clearly in today's context. Exams focus on definitions related to aacual air safety operations.",
+    "key_facts": [
+      "Terms like 'Severe incident', 'accident', and 'incident' have specific definitions that a&fect reporting requirements",
+      "Aircraft category definitions affect operating requirements",
+      "Airspace classifications determine traffic control requirements",
+      "Flight types (VFR, IFR, general aviation, ect.) have specific definitions affecting operational limits"
+    ],
+    "source": "NZ CAA AC 61-5, CAR syntaxs and definitions",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-03-27T00:00:00Z"
+  }
+ ]t, crew member, dangerous goods, day, DME, ELT, final approach, flight crew member, flight follower, flight information service, flight level, flight plan, flight time, flight visibility, ground visibility, height, IFR, IFR flight, IMC, incident, instrument approach procedure, instrument time, MCTOW, METAR, minimum descent altitude, missed approach, MTOW, NDB, night, operate, operational flight plan, operational information, PIC, procedure turn, published, runway visual range, safety management system, serious incident, special VFR flight, SPECI, specified, TAF, Technical Instructions, threshold, transition altitude, transition layer, transition level, type, unlawful interference, UNICOM service, VFR flight, vicinity of an aerodrome, visibility, visual meteorological conditions, visual reference",
+    "concept": "CAR Part 1 contains the regulatory definitions that you'll use throughout your CPL operations. These aren't just words—they're legal terms with precise meanings that the CARs depend on. For example, 'aircraft' is legally defined as 'any machine that derives support in the atmosphere from the reactions of the air', which matters because it determines whether something's subject to aviation regulation. 'Aerodrome' has a specific definition—it's an area of land or water used for aircraft operations—and that affects where you can legally land. 'Day' and 'night' aren't just sunrise and sunset; they're defined by civil twilight, and that affects when you can operate under VFR rules. Your understanding of 'PIC' (pilot in command) determines who's legally responsible in the cockpit. 'IFR' versus 'VFR' are entirely different regulatory regimes. These definitions are the foundation of the regulations: get them wrong and you'll misunderstand the rules themselves. You'll find the full list in CAR Part 1, and you should familiarise yourself with each one.",
+    "exam_tip": "The exam will test these definitions—sometimes directly ('define IFR'), sometimes indirectly by asking whether a scenario fits the definition. Know them precisely and understand the practical difference each definition makes to your operations.",
+    "key_facts": [
+      "Definitions in CAR Part 1 are legally binding and determine how regulations apply",
+      "Key definitions like IFR, VFR, PIC, and aerodrome define entire regulatory regimes",
+      "Time-based definitions (day, night) are based on civil twilight, not personal observation",
+      "Operational definitions like MTOW, McTOW, and height are critical for performance planning"
+    ],
+    "source": "NZ CAA AC 61-5, CAR Part 1",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-03-27T00:00:00Z"
+  }
+ ]
