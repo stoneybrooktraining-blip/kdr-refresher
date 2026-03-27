@@ -687,9 +687,8 @@
             return parts;
         }
 
-        function naturalSortCodes(a, b) {
-            const partsA = parseCode(a.code || '');
-            const partsB = parseCode(b.code || '');
+        // Compare two parsed code arrays numerically
+        function compareParsedCodes(partsA, partsB) {
             const len = Math.max(partsA.length, partsB.length);
             for (let i = 0; i < len; i++) {
                 const pa = partsA[i];
@@ -706,6 +705,19 @@
                 }
             }
             return 0;
+        }
+
+        function naturalSortCodes(a, b) {
+            return compareParsedCodes(parseCode(a.code || ''), parseCode(b.code || ''));
+        }
+
+        // Sort topic group keys by the first code in each group
+        function sortTopicKeys(groupedByTopic) {
+            return Object.keys(groupedByTopic).sort((a, b) => {
+                const firstCodeA = groupedByTopic[a][0] ? groupedByTopic[a][0].code : '';
+                const firstCodeB = groupedByTopic[b][0] ? groupedByTopic[b][0].code : '';
+                return compareParsedCodes(parseCode(firstCodeA), parseCode(firstCodeB));
+            });
         }
 
         // ===== STATE =====
@@ -967,8 +979,12 @@
                 groupedByTopic[topic].sort(naturalSortCodes);
             }
 
-            // Render grouped content
-            for (const [topic, items] of Object.entries(groupedByTopic)) {
+            // Sort topic groups by their leading code number (e.g. "12.2" before "12.100")
+            const sortedTopics = sortTopicKeys(groupedByTopic);
+
+            // Render grouped content in sorted topic order
+            for (const topic of sortedTopics) {
+                const items = groupedByTopic[topic];
                 const groupDiv = document.createElement('div');
                 groupDiv.className = 'content-group';
 
@@ -1077,7 +1093,11 @@
                 groupedByTopic[topic].sort(naturalSortCodes);
             }
 
-            for (const [topic, items] of Object.entries(groupedByTopic)) {
+            // Sort topic groups by their leading code number
+            const sortedTopics = sortTopicKeys(groupedByTopic);
+
+            for (const topic of sortedTopics) {
+                const items = groupedByTopic[topic];
                 // Topic heading
                 if (yPos > pageHeight - 60) {
                     doc.addPage();
