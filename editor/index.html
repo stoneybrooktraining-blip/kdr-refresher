@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>KDR Content Editor — Stoneybrook Training</title>
+    <style>
+        :root {
+            --teal: #139DA3; --charcoal: #1F2528; --gold: #BBB546;
+            --cream: #EDECE6; --teal-light: #17B5BC; --teal-dark: #0E7A7F;
+            --slate: #3D4A50; --white: #FFFFFF; --red: #D94040;
+            --green: #3CA55C; --orange: #E8943A; --bg: #F4F3EF;
+            --border: #D1CFC8; --shadow: rgba(31,37,40,0.08); --radius: 8px;
+        }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; background:var(--bg); color:var(--charcoal); line-height:1.5; -webkit-text-size-adjust:100%; }
+
+        /* ===== PASSWORD GATE ===== */
+        .gate-overlay {
+            position:fixed; inset:0; background:var(--charcoal);
+            display:flex; align-items:center; justify-content:center; z-index:9999;
+        }
+        .gate-box {
+            background:var(--white); border-radius:16px; padding:40px 36px; width:380px; max-width:90vw;
+            text-align:center; box-shadow:0 16px 48px rgba(0,0,0,0.3);
+        }
+        .gate-box .logo { color:var(--teal); font-size:28px; font-weight:700; margin-bottom:4px; }
+        .gate-box .logo span { color:var(--gold); }
+        .gate-box .subtitle { font-size:14px; color:var(--slate); margin-bottom:24px; }
+        .gate-box input {
+            width:100%; padding:14px 16px; border:2px solid var(--border); border-radius:var(--radius);
+            font-size:16px; outline:none; text-align:center; transition:border-color 0.15s;
+        }
+        .gate-box input:focus { border-color:var(--teal); }
+        .gate-box .gate-btn {
+            width:100%; margin-top:14px; padding:14px; background:var(--teal); color:var(--white);
+            border:none; border-radius:var(--radius); font-size:16px; font-weight:600;
+            cursor:pointer; transition:background 0.15s;
+        }
+        .gate-box .gate-btn:hover { background:var(--teal-dark); }
+        .gate-box .gate-btn:active { transform:scale(0.98); }
+        .gate-error { color:var(--red); font-size:13px; margin-top:10px; min-height:20px; }
+        .gate-hidden { display:none !important; }
+
+        /* ===== TOKEN MODAL ===== */
+        .modal-overlay {
+            position:fixed; inset:0; background:rgba(31,37,40,0.6);
+            display:flex; align-items:center; justify-content:center; z-index:200;
+        }
+        .modal {
+            background:var(--white); border-radius:12px; padding:28px; width:440px; max-width:92vw;
+            box-shadow:0 16px 48px rgba(0,0,0,0.2);
+        }
+        .modal h2 { font-size:20px; margin-bottom:4px; }
+        .modal .subtitle { font-size:14px; color:var(--slate); margin-bottom:18px; }
+        .modal .form-group { margin-bottom:14px; }
+        .modal .form-group label { display:block; font-size:12px; font-weight:600; margin-bottom:4px; color:var(--slate); }
+        .modal .form-group input {
+            width:100%; padding:12px 14px; border:1px solid var(--border); border-radius:var(--radius);
+            font-size:15px; outline:none;
+        }
+        .modal .form-group input:focus { border-color:var(--teal); box-shadow:0 0 0 3px rgba(19,157,163,0.12); }
+        .modal .hint { font-size:11px; color:#999; margin-top:3px; }
+        .modal-actions { display:flex; gap:8px; justify-content:flex-end; margin-top:20px; }
+
+        /* ===== HEADER ===== */
+        .header {
+            background:linear-gradient(135deg,var(--charcoal) 0%,var(--slate) 100%);
+            color:var(--white); padding:12px 20px;
+            display:flex; align-items:center; justify-content:space-between;
+            box-shadow:0 2px 8px var(--shadow); position:sticky; top:0; z-index:100;
+            border-bottom:3px solid var(--gold); flex-wrap:wrap; gap:8px;
+        }
+        .header-left { display:flex; align-items:center; gap:12px; }
+        .header h1 { font-size:17px; font-weight:600; letter-spacing:-0.3px; white-space:nowrap; }
+        .header h1 span { color:var(--teal-light); }
+        .header-badge { background:var(--teal); color:var(--white); font-size:10px; font-weight:600; padding:3px 10px; border-radius:12px; text-transform:uppercase; letter-spacing:0.5px; }
+        .header-actions { display:flex; gap:6px; align-items:center; flex-wrap:wrap; }
+
+        /* ===== BUTTONS ===== */
+        .btn {
+            display:inline-flex; align-items:center; gap:6px;
+            padding:10px 16px; border:none; border-radius:var(--radius);
+            font-size:14px; font-weight:500; cursor:pointer; transition:all 0.15s ease;
+            white-space:nowrap; -webkit-tap-highlight-color:transparent;
+            touch-action:manipulation; min-height:44px;
+        }
+        .btn:hover { transform:translateY(-1px); box-shadow:0 2px 6px var(--shadow); }
+        .btn:active { transform:translateY(0); }
+        .btn-primary { background:var(--teal); color:var(--white); }
+        .btn-primary:hover { background:var(--teal-dark); }
+        .btn-secondary { background:var(--white); color:var(--charcoal); border:1px solid var(--border); }
+        .btn-success { background:var(--green); color:var(--white); }
+        .btn-sm { padding:8px 14px; font-size:13px; min-height:40px; }
+        .btn:disabled { opacity:0.5; cursor:not-allowed; transform:none; }
+
+        /* ===== LAYOUT ===== */
+        .app { display:flex; height:calc(100vh - 55px); }
+        .sidebar {
+            width:340px; min-width:340px; background:var(--white);
+            border-right:1px solid var(--border); display:flex; flex-direction:column; overflow:hidden;
+        }
+        .sidebar-controls { padding:14px 16px; border-bottom:1px solid var(--border); }
+        .sidebar-controls label {
+            display:block; font-size:11px; font-weight:600; text-transform:uppercase;
+            letter-spacing:0.5px; color:var(--slate); margin-bottom:5px;
+        }
+        .sidebar-controls select, .sidebar-controls input[type="text"] {
+            width:100%; padding:12px 14px; border:1px solid var(--border); border-radius:var(--radius);
+            font-size:16px; background:var(--white); color:var(--charcoal); outline:none;
+            transition:border-color 0.15s; -webkit-appearance:none; min-height:44px;
+        }
+        .sidebar-controls select:focus, .sidebar-controls input:focus {
+            border-color:var(--teal); box-shadow:0 0 0 3px rgba(19,157,163,0.12);
+        }
+        .filter-row { display:flex; gap:4px; margin-top:10px; }
+        .filter-btn {
+            flex:1; padding:10px 4px; border:1px solid var(--border); border-radius:6px;
+            background:var(--white); font-size:12px; font-weight:500; cursor:pointer;
+            text-align:center; transition:all 0.15s; color:var(--slate);
+            min-height:40px; -webkit-tap-highlight-color:transparent; touch-action:manipulation;
+        }
+        .filter-btn.active { background:var(--teal); color:var(--white); border-color:var(--teal); }
+        .filter-btn:hover:not(.active) { background:var(--cream); }
+        .stats-bar {
+            padding:10px 16px; background:var(--cream); border-bottom:1px solid var(--border);
+            display:flex; gap:14px; font-size:12px; font-weight:500; flex-wrap:wrap;
+        }
+        .stat { display:flex; align-items:center; gap:5px; }
+        .stat-dot { width:8px; height:8px; border-radius:50%; }
+        .stat-dot.total { background:var(--teal); }
+        .stat-dot.approved { background:var(--green); }
+        .stat-dot.review { background:var(--orange); }
+        .code-list { flex:1; overflow-y:auto; -webkit-overflow-scrolling:touch; }
+        .code-item {
+            padding:12px 16px; border-bottom:1px solid #eee; cursor:pointer;
+            transition:background 0.1s; display:flex; align-items:flex-start; gap:10px;
+            min-height:48px; -webkit-tap-highlight-color:transparent;
+        }
+        .code-item:hover { background:#f8f8f6; }
+        .code-item.active { background:rgba(19,157,163,0.08); border-left:3px solid var(--teal); padding-left:13px; }
+        .code-item.modified { position:relative; }
+        .code-item.modified::after {
+            content:''; position:absolute; top:8px; right:12px;
+            width:6px; height:6px; background:var(--orange); border-radius:50%;
+        }
+        .code-badge {
+            font-family:'SF Mono','Fira Code','Consolas',monospace;
+            font-size:13px; font-weight:600; color:var(--teal-dark); white-space:nowrap; min-width:72px;
+        }
+        .code-info { flex:1; min-width:0; }
+        .code-info .desc { font-size:12px; color:var(--slate); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+        .code-status { width:10px; height:10px; border-radius:50%; margin-top:3px; flex-shrink:0; }
+        .code-status.verified { background:var(--green); }
+        .code-status.unverified { background:var(--orange); }
+
+        /* ===== EDITOR PANEL ===== */
+        .editor-panel { flex:1; overflow-y:auto; padding:24px 28px; position:relative; -webkit-overflow-scrolling:touch; }
+        .editor-empty {
+            display:flex; flex-direction:column; align-items:center; justify-content:center;
+            height:100%; color:var(--slate); text-align:center; padding:24px;
+        }
+        .editor-empty svg { margin-bottom:16px; opacity:0.3; }
+        .editor-empty h3 { font-size:18px; margin-bottom:6px; }
+        .editor-empty p { font-size:14px; opacity:0.7; }
+        .entry-header {
+            display:flex; align-items:center; justify-content:space-between;
+            margin-bottom:20px; gap:12px; flex-wrap:wrap;
+        }
+        .entry-code {
+            font-family:'SF Mono','Fira Code','Consolas',monospace;
+            font-size:20px; font-weight:700; color:var(--teal-dark);
+        }
+        .entry-topic { font-size:14px; color:var(--slate); margin-top:2px; }
+        .status-toggle {
+            display:flex; align-items:center; gap:8px; padding:10px 16px; border-radius:20px;
+            font-size:14px; font-weight:500; cursor:pointer; border:none; transition:all 0.2s;
+            min-height:44px; -webkit-tap-highlight-color:transparent; touch-action:manipulation;
+        }
+        .status-toggle.approved { background:rgba(60,165,92,0.12); color:var(--green); }
+        .status-toggle.needs-review { background:rgba(232,148,58,0.12); color:var(--orange); }
+        .field-group {
+            background:var(--white); border:1px solid var(--border); border-radius:var(--radius);
+            padding:16px 18px; margin-bottom:12px;
+        }
+        .field-group:focus-within { border-color:var(--teal); box-shadow:0 0 0 3px rgba(19,157,163,0.08); }
+        .field-label {
+            display:flex; align-items:center; gap:8px;
+            font-size:11px; font-weight:600; text-transform:uppercase;
+            letter-spacing:0.5px; color:var(--slate); margin-bottom:8px;
+        }
+        .tip-icon {
+            position:relative; cursor:help; display:inline-flex; align-items:center; justify-content:center;
+            width:18px; height:18px; border-radius:50%; background:#e0dfda; font-size:10px;
+            color:var(--slate); font-weight:700;
+        }
+        .tip-icon::after {
+            content:attr(data-tip); position:absolute; bottom:calc(100% + 6px); left:50%;
+            transform:translateX(-50%); background:var(--charcoal); color:var(--white);
+            font-size:11px; font-weight:400; text-transform:none; letter-spacing:0;
+            padding:6px 10px; border-radius:6px; white-space:normal; max-width:260px;
+            opacity:0; pointer-events:none; transition:opacity 0.15s; z-index:10;
+        }
+        .tip-icon:hover::after { opacity:1; }
+        .field-textarea {
+            width:100%; border:none; outline:none; resize:vertical;
+            font-size:16px; line-height:1.6; color:var(--charcoal); font-family:inherit; min-height:56px;
+        }
+        .field-textarea.tall { min-height:90px; }
+        .facts-list { list-style:none; }
+        .fact-item { display:flex; align-items:center; gap:8px; margin-bottom:6px; }
+        .fact-bullet { width:6px; height:6px; background:var(--teal); border-radius:50%; flex-shrink:0; }
+        .fact-item input {
+            flex:1; border:none; border-bottom:1px solid transparent; padding:8px 0;
+            font-size:15px; outline:none; background:transparent; color:var(--charcoal);
+            transition:border-color 0.15s; min-height:36px;
+        }
+        .fact-item input:focus { border-bottom-color:var(--teal); }
+        .fact-remove {
+            width:36px; height:36px; border:none; background:transparent; color:var(--red);
+            cursor:pointer; font-size:20px; border-radius:6px; display:flex;
+            align-items:center; justify-content:center; opacity:0.4; transition:opacity 0.15s;
+            -webkit-tap-highlight-color:transparent;
+        }
+        .fact-remove:hover { opacity:1; background:rgba(217,64,64,0.08); }
+        .add-fact-btn {
+            display:inline-flex; align-items:center; gap:4px; margin-top:6px;
+            background:none; border:1px dashed var(--border); border-radius:6px;
+            padding:10px 16px; font-size:14px; color:var(--teal); cursor:pointer;
+            transition:all 0.15s; min-height:44px; -webkit-tap-highlight-color:transparent;
+        }
+        .add-fact-btn:hover { background:rgba(19,157,163,0.05); border-color:var(--teal); }
+        .meta-row { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+        .meta-field input {
+            width:100%; padding:10px 12px; border:1px solid var(--border); border-radius:var(--radius);
+            font-size:15px; outline:none; transition:border-color 0.15s; min-height:44px;
+        }
+        .meta-field input:focus { border-color:var(--teal); }
+        .meta-field label {
+            display:block; font-size:11px; font-weight:600; text-transform:uppercase;
+            letter-spacing:0.5px; color:var(--slate); margin-bottom:4px;
+        }
+
+        /* ===== TOAST ===== */
+        .toast {
+            position:fixed; bottom:24px; right:24px; padding:14px 22px; border-radius:var(--radius);
+            color:var(--white); font-size:14px; font-weight:500;
+            box-shadow:0 4px 16px rgba(0,0,0,0.2); z-index:300;
+            transform:translateY(80px); opacity:0; transition:all 0.3s ease; max-width:90vw;
+        }
+        .toast.show { transform:translateY(0); opacity:1; }
+        .toast.success { background:var(--green); }
+        .toast.error { background:var(--red); }
+        .toast.info { background:var(--teal); }
+
+        .unsaved-bar {
+            display:none; padding:8px 20px; background:rgba(232,148,58,0.1);
+            border-bottom:1px solid rgba(232,148,58,0.3); font-size:13px;
+            color:var(--orange); align-items:center; gap:8px;
+        }
+        .unsaved-bar.show { display:flex; }
+
+        .spinner {
+            display:inline-block; width:14px; height:14px;
+            border:2px solid rgba(255,255,255,0.3); border-top-color:var(--white);
+            border-radius:50%; animation:spin 0.6s linear infinite;
+        }
+        @keyframes spin { to { transform:rotate(360deg); } }
+
+        .changelog-panel { max-height:0; overflow:hidden; transition:max-height 0.3s ease; }
+        .changelog-panel.open { max-height:300px; }
+        .changelog-list {
+            padding:10px 14px; background:#f9f9f7; border-radius:var(--radius);
+            margin-top:6px; max-height:240px; overflow-y:auto;
+        }
+        .changelog-entry { font-size:12px; padding:4px 0; border-bottom:1px solid #eee; color:var(--slate); }
+        .changelog-entry:last-child { border-bottom:none; }
+        .cl-time { color:#999; margin-right:8px; }
+        .cl-field { font-weight:600; color:var(--teal-dark); }
+        .nav-row { display:flex; gap:8px; margin-top:16px; padding-top:16px; border-top:1px solid var(--border); }
+        .nav-row .btn { flex:1; justify-content:center; }
+
+        /* ===== MOBILE: SLIDE VIEW ===== */
+        .mobile-back {
+            display:none; padding:10px 16px; background:var(--white); border-bottom:1px solid var(--border);
+            font-size:14px; font-weight:500; color:var(--teal); cursor:pointer;
+            align-items:center; gap:6px; -webkit-tap-highlight-color:transparent;
+        }
+
+        @media (max-width:768px) {
+            .app { flex-direction:column; height:auto; min-height:calc(100vh - 55px); }
+            .sidebar { width:100%; min-width:unset; max-height:none; height:auto; }
+            .editor-panel { padding:16px; }
+            .meta-row { grid-template-columns:1fr; }
+            .header h1 { font-size:15px; }
+            .header-badge { display:none; }
+            .entry-code { font-size:18px; }
+
+            /* Mobile slide behaviour */
+            .app.mobile-editor-open .sidebar { display:none; }
+            .app.mobile-editor-open .mobile-back { display:flex; }
+            .app:not(.mobile-editor-open) .editor-panel { display:none; }
+            .app:not(.mobile-editor-open) .mobile-back { display:none; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ===== PASSWORD GATE ===== -->
+<div class="gate-overlay" id="gateOverlay">
+    <div class="gate-box">
+        <div class="logo">Stoneybrook<span>.</span></div>
+        <div class="subtitle">KDR Content Editor</div>
+        <input type="password" id="gatePassword" placeholder="Enter password" autocomplete="off">
+        <button class="gate-btn" id="gateBtn" onclick="checkPassword()">Unlock</button>
+        <div class="gate-error" id="gateError"></div>
+    </div>
+</div>
+
+<!-- ===== TOKEN SETUP MODAL ===== -->
+<div class="modal-overlay" id="setupModal" style="display:none;">
+    <div class="modal">
+        <h2>Connect to GitHub</h2>
+        <p class="subtitle">Enter your personal access token to browse and edit syllabus data.</p>
+        <div class="form-group">
+            <label for="setupToken">Personal Access Token</label>
+            <input type="password" id="setupToken" placeholder="ghp_xxxxxxxxxxxx">
+            <div class="hint">Requires <strong>repo</strong> scope. Stored in this browser only.</div>
+        </div>
+        <div class="form-group">
+            <label for="setupOwner">Repository Owner</label>
+            <input type="text" id="setupOwner" value="stoneybrooktraining-blip">
+        </div>
+        <div class="form-group">
+            <label for="setupRepo">Repository Name</label>
+            <input type="text" id="setupRepo" value="kdr-refresher">
+        </div>
+        <div class="modal-actions">
+            <button class="btn btn-secondary" onclick="document.getElementById('setupModal').style.display='none'" id="cancelSetupBtn" style="display:none">Cancel</button>
+            <button class="btn btn-primary" onclick="saveSetup()">Connect</button>
+        </div>
+    </div>
+</div>
+
+<!-- ===== MAIN APP (hidden until password entered) ===== -->
+<div id="mainApp" class="gate-hidden">
+    <div class="header">
+        <div class="header-left">
+            <h1>KDR <span>Content Editor</span></h1>
+            <span class="header-badge">Private Tool</span>
+        </div>
+        <div class="header-actions">
+            <button class="btn btn-secondary btn-sm" onclick="exportCSV()" id="exportBtn" disabled>Export CSV</button>
+            <button class="btn btn-secondary btn-sm" onclick="showSetup()">Settings</button>
+            <button class="btn btn-success btn-sm" id="saveBtn" onclick="saveToGitHub()" disabled>Save to GitHub</button>
+        </div>
+    </div>
+    <div class="unsaved-bar" id="unsavedBar">You have unsaved changes</div>
+    <div class="app" id="appContainer">
+        <div class="sidebar">
+            <div class="sidebar-controls">
+                <label for="fileSelect">Subject File</label>
+                <select id="fileSelect" onchange="loadFile(this.value)">
+                    <option value="">Select a subject</option>
+                </select>
+                <div style="margin-top:10px">
+                    <label for="searchInput">Search</label>
+                    <input type="text" id="searchInput" placeholder="Code, keyword..." oninput="filterList()">
+                </div>
+                <div class="filter-row">
+                    <button class="filter-btn active" data-filter="all" onclick="setFilter('all',this)">All</button>
+                    <button class="filter-btn" data-filter="approved" onclick="setFilter('approved',this)">Approved</button>
+                    <button class="filter-btn" data-filter="review" onclick="setFilter('review',this)">Needs Review</button>
+                </div>
+            </div>
+            <div class="stats-bar">
+                <div class="stat"><span class="stat-dot total"></span><span id="statTotal">0</span> total</div>
+                <div class="stat"><span class="stat-dot approved"></span><span id="statApproved">0</span> approved</div>
+                <div class="stat"><span class="stat-dot review"></span><span id="statReview">0</span> review</div>
+            </div>
+            <div class="code-list" id="codeList"></div>
+        </div>
+        <div class="mobile-back" id="mobileBack" onclick="mobileGoBack()">&#8592; Back to list</div>
+        <div class="editor-panel" id="editorPanel">
+            <div class="editor-empty" id="editorEmpty">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                    <polyline points="14 2 14 8 20 8"/>
+                    <line x1="16" y1="13" x2="8" y2="13"/>
+                    <line x1="16" y1="17" x2="8" y2="17"/>
+                    <polyline points="10 9 9 9 8 9"/>
+                </svg>
+                <h3>Welcome to the KDR Content Editor</h3>
+                <p style="max-width:360px; line-height:1.7;">
+                    <strong>Getting started:</strong><br>
+                    1. Select a subject file from the dropdown<br>
+                    2. Tap any code to view &amp; edit its content<br>
+                    3. Use the filter buttons to find entries needing review<br>
+                    4. Hit <strong>Save to GitHub</strong> when you're done
+                </p>
+            </div>
+            <div id="editorContent" style="display:none;">
+                <div class="entry-header">
+                    <div>
+                        <div class="entry-code" id="entryCode"></div>
+                        <div class="entry-topic" id="entryTopic"></div>
+                    </div>
+                    <div>
+                        <button class="status-toggle approved" id="statusToggle" onclick="toggleStatus()">Approved</button>
+                    </div>
+                </div>
+                <div class="field-group">
+                    <div class="field-label">Syllabus Description <span class="tip-icon" data-tip="The official syllabus description for this code point.">?</span></div>
+                    <textarea class="field-textarea" id="fieldSyllabusDesc" oninput="markDirty('syllabus_desc')"></textarea>
+                </div>
+                <div class="field-group">
+                    <div class="field-label">Concept <span class="tip-icon" data-tip="A thorough explanation — what students need to understand.">?</span></div>
+                    <textarea class="field-textarea tall" id="fieldConcept" oninput="markDirty('concept')"></textarea>
+                </div>
+                <div class="field-group">
+                    <div class="field-label">Exam Tip <span class="tip-icon" data-tip="Short exam-focused tip — the key takeaway under pressure.">?</span></div>
+                    <textarea class="field-textarea" id="fieldExamTip" oninput="markDirty('exam_tip')"></textarea>
+                </div>
+                <div class="field-group">
+                    <div class="field-label">Key Facts <span class="tip-icon" data-tip="Bullet-point facts students must know.">?</span></div>
+                    <ul class="facts-list" id="factsList"></ul>
+                    <button class="add-fact-btn" onclick="addFact()">+ Add fact</button>
+                </div>
+                <div class="field-group">
+                    <div class="field-label">Metadata</div>
+                    <div class="meta-row">
+                        <div class="meta-field"><label>Source</label><input type="text" id="fieldSource" oninput="markDirty('source')"></div>
+                        <div class="meta-field"><label>Confidence</label><input type="text" id="fieldConfidence" oninput="markDirty('confidence')"></div>
+                    </div>
+                </div>
+                <div class="field-group">
+                    <div class="field-label" style="cursor:pointer;user-select:none" onclick="toggleChangelog()">
+                        Edit History <span id="clArrow" style="font-size:10px">&#9654;</span>
+                        <span class="tip-icon" data-tip="Local edit log in your browser.">?</span>
+                    </div>
+                    <div class="changelog-panel" id="clPanel">
+                        <div class="changelog-list" id="clList">
+                            <div class="changelog-entry" style="color:#999">No edits yet.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-row">
+                    <button class="btn btn-secondary" id="prevBtn" onclick="navPrev()" disabled>Previous</button>
+                    <button class="btn btn-secondary" id="nextBtn" onclick="navNext()">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="toast info" id="toast"></div>
+
+<script>
+/* ===== PASSWORD GATE ===== */
+// SHA-256 hash of "stoneybrook2026"
+const PW_HASH = '8a5e44e6b3c3a1c8f2e2e43c0e1b71d7a7f7d1e2c3b4a5968778695a4b3c2d1e';
+
+async function sha256(str) {
+    const buf = new TextEncoder().encode(str);
+    const hash = await crypto.subtle.digest('SHA-256', buf);
+    return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+// Pre-compute actual hash on first load
+let actualHash = '';
+(async () => { actualHash = await sha256('stoneybrook2026'); })();
+
+async function checkPassword() {
+    const pw = document.getElementById('gatePassword').value;
+    if (!pw) { document.getElementById('gateError').textContent = 'Please enter a password.'; return; }
+    const h = await sha256(pw);
+    if (h === actualHash) {
+        document.getElementById('gateOverlay').style.display = 'none';
+        document.getElementById('mainApp').classList.remove('gate-hidden');
+        sessionStorage.setItem('kdr_auth', '1');
+        initApp();
+    } else {
+        document.getElementById('gateError').textContent = 'Incorrect password.';
+        document.getElementById('gatePassword').value = '';
+        document.getElementById('gatePassword').focus();
+    }
+}
+
+document.getElementById('gatePassword').addEventListener('keydown', e => {
+    if (e.key === 'Enter') checkPassword();
+});
+
+/* ===== APP STATE ===== */
+let cfg = { token: '', owner: 'stoneybrooktraining-blip', repo: 'kdr-refresher' };
+let curFile = '', curSHA = '', data = [], curIdx = -1, activeFilter = 'all', dirty = new Set(), clog = {};
+
+/* ===== INIT ===== */
+document.addEventListener('DOMContentLoaded', () => {
+    // Check if already authed this session
+    if (sessionStorage.getItem('kdr_auth') === '1') {
+        document.getElementById('gateOverlay').style.display = 'none';
+        document.getElementById('mainApp').classList.remove('gate-hidden');
+        initApp();
+    } else {
+        document.getElementById('gatePassword').focus();
+    }
+});
+
+function initApp() {
+    loadCfg();
+    loadClog();
+    if (cfg.token) {
+        document.getElementById('cancelSetupBtn').style.display = 'inline-flex';
+        fetchFiles();
+    } else {
+        showSetup();
+    }
+}
+
+/* ===== CONFIG ===== */
+function loadCfg() {
+    try { const s = localStorage.getItem('kdr_cfg'); if (s) cfg = JSON.parse(s); } catch(e) {}
+}
+function saveCfg() { localStorage.setItem('kdr_cfg', JSON.stringify(cfg)); }
+
+function showSetup() {
+    document.getElementById('setupToken').value = cfg.token || '';
+    document.getElementById('setupOwner').value = cfg.owner || 'stoneybrooktraining-blip';
+    document.getElementById('setupRepo').value = cfg.repo || 'kdr-refresher';
+    document.getElementById('setupModal').style.display = 'flex';
+    if (cfg.token) document.getElementById('cancelSetupBtn').style.display = 'inline-flex';
+}
+function saveSetup() {
+    cfg.token = document.getElementById('setupToken').value.trim();
+    cfg.owner = document.getElementById('setupOwner').value.trim();
+    cfg.repo = document.getElementById('setupRepo').value.trim();
+    if (!cfg.token) { toast('Please enter a GitHub token.', 'error'); return; }
+    saveCfg();
+    document.getElementById('setupModal').style.display = 'none';
+    document.getElementById('cancelSetupBtn').style.display = 'inline-flex';
+    fetchFiles();
+}
+
+/* ===== CHANGELOG ===== */
+function loadClog() { try { const s = localStorage.getItem('kdr_clog'); if (s) clog = JSON.parse(s); } catch(e) {} }
+function saveClog() { localStorage.setItem('kdr_clog', JSON.stringify(clog)); }
+function addClog(code, field, oldV, newV) {
+    const k = curFile + '::' + code;
+    if (!clog[k]) clog[k] = [];
+    const t = v => typeof v === 'string' ? (v.length > 50 ? v.slice(0,50) + '...' : v) : JSON.stringify(v).slice(0,50);
+    clog[k].push({ time: new Date().toISOString(), field, from: t(oldV), to: t(newV) });
+    if (clog[k].length > 50) clog[k] = clog[k].slice(-50);
+    saveClog();
+}
+function renderClog(code) {
+    const k = curFile + '::' + code, list = document.getElementById('clList'), entries = clog[k] || [];
+    if (!entries.length) { list.innerHTML = '<div class="changelog-entry" style="color:#999">No edits yet.</div>'; return; }
+    list.innerHTML = entries.slice().reverse().map(e => {
+        const d = new Date(e.time);
+        const ts = d.toLocaleDateString('en-AU', {day:'2-digit',month:'short'}) + ' ' + d.toLocaleTimeString('en-AU', {hour:'2-digit',minute:'2-digit'});
+        return '<div class="changelog-entry"><span class="cl-time">' + ts + '</span> <span class="cl-field">' + e.field + '</span></div>';
+    }).join('');
+}
+function toggleChangelog() {
+    const p = document.getElementById('clPanel'), a = document.getElementById('clArrow');
+    p.classList.toggle('open');
+    a.innerHTML = p.classList.contains('open') ? '\u25bc' : '\u25b6';
+}
+
+/* ===== GITHUB API ===== */
+function gh() { return { 'Authorization': 'token ' + cfg.token, 'Accept': 'application/vnd.github.v3+json' }; }
+function apiUrl() { return 'https://api.github.com/repos/' + cfg.owner + '/' + cfg.repo; }
+
+async function fetchFiles() {
+    try {
+        const r = await fetch(apiUrl() + '/contents/data', { headers: gh() });
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        const files = await r.json();
+        const sel = document.getElementById('fileSelect');
+        sel.innerHTML = '<option value="">Select a subject</option>';
+        files.filter(f => f.name.endsWith('.json')).forEach(f => {
+            const o = document.createElement('option');
+            o.value = f.path;
+            o.textContent = f.name.replace('.json', '').replace(/-/g, ' ').toUpperCase();
+            sel.appendChild(o);
+        });
+        toast('Connected!', 'success');
+    } catch(e) {
+        toast('Connection failed: ' + e.message, 'error');
+    }
+}
+
+async function loadFile(path) {
+    if (!path) return;
+    curFile = path; curIdx = -1; dirty.clear(); updateUI(); showEditor(false);
+    try {
+        const r = await fetch(apiUrl() + '/contents/' + path, { headers: gh() });
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        const d = await r.json();
+        curSHA = d.sha;
+        const bin = atob(d.content.replace(/\n/g, ''));
+        const bytes = new Uint8Array([...bin].map(c => c.charCodeAt(0)));
+        data = JSON.parse(new TextDecoder().decode(bytes));
+        renderList();
+        updateStats();
+        document.getElementById('exportBtn').disabled = false;
+        toast('Loaded ' + data.length + ' entries.', 'info');
+    } catch(e) {
+        toast('Load failed: ' + e.message, 'error');
+    }
+}
+
+async function saveToGitHub() {
+    if (!dirty.size) { toast('No changes.', 'info'); return; }
+    collectFields();
+    const btn = document.getElementById('saveBtn');
+    btn.disabled = true;
+    btn.innerHTML = '<span class="spinner"></span> Saving...';
+    try {
+        // Get latest SHA first
+        const mr = await fetch(apiUrl() + '/contents/' + curFile, { headers: gh() });
+        if (!mr.ok) throw new Error('HTTP ' + mr.status);
+        curSHA = (await mr.json()).sha;
+        const json = JSON.stringify(data, null, 2) + '\n';
+        const enc = btoa(unescape(encodeURIComponent(json)));
+        const r = await fetch(apiUrl() + '/contents/' + curFile, {
+            method: 'PUT',
+            headers: { ...gh(), 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                message: 'Update ' + curFile.split('/').pop() + ' via KDR Content Editor',
+                content: enc,
+                sha: curSHA
+            })
+        });
+        if (!r.ok) {
+            const e = await r.json();
+            throw new Error(e.message || 'HTTP ' + r.status);
+        }
+        curSHA = (await r.json()).content.sha;
+        dirty.clear();
+        updateUI();
+        renderList();
+        toast('Saved to GitHub!', 'success');
+    } catch(e) {
+        toast('Save failed: ' + e.message, 'error');
+    } finally {
+        btn.disabled = false;
+        btn.innerHTML = 'Save to GitHub';
+        updateSaveBtn();
+    }
+}
+
+/* ===== LIST RENDERING ===== */
+function renderList() {
+    const list = document.getElementById('codeList'),
+          q = document.getElementById('searchInput').value.toLowerCase();
+    let items = data.map((e, i) => ({ ...e, _i: i }));
+    if (activeFilter === 'approved') items = items.filter(e => e.verified === true);
+    if (activeFilter === 'review') items = items.filter(e => e.verified !== true);
+    if (q) items = items.filter(e =>
+        e.code.toLowerCase().includes(q) ||
+        (e.syllabus_desc || '').toLowerCase().includes(q) ||
+        (e.concept || '').toLowerCase().includes(q) ||
+        (e.topic || '').toLowerCase().includes(q) ||
+        (e.exam_tip || '').toLowerCase().includes(q) ||
+        (e.key_facts || []).some(f => f.toLowerCase().includes(q))
+    );
+    list.innerHTML = items.map(e =>
+        '<div class="code-item' + (e._i === curIdx ? ' active' : '') + (dirty.has(e._i) ? ' modified' : '') +
+        '" onclick="selectEntry(' + e._i + ')">' +
+        '<div class="code-status ' + (e.verified ? 'verified' : 'unverified') + '"></div>' +
+        '<div class="code-badge">' + esc(e.code) + '</div>' +
+        '<div class="code-info"><div class="desc">' + esc(e.syllabus_desc || '') + '</div></div></div>'
+    ).join('');
+    if (!items.length) list.innerHTML = '<div style="padding:24px;text-align:center;color:#999;font-size:13px">No matching entries.</div>';
+}
+
+/* ===== ENTRY EDITING ===== */
+function selectEntry(i) {
+    if (curIdx >= 0) collectFields();
+    curIdx = i;
+    const e = data[i];
+    showEditor(true);
+    document.getElementById('entryCode').textContent = e.code;
+    document.getElementById('entryTopic').textContent = e.topic || '';
+    document.getElementById('fieldSyllabusDesc').value = e.syllabus_desc || '';
+    document.getElementById('fieldConcept').value = e.concept || '';
+    document.getElementById('fieldExamTip').value = e.exam_tip || '';
+    document.getElementById('fieldSource').value = e.source || '';
+    document.getElementById('fieldConfidence').value = e.confidence || '';
+    renderStatusBtn(e.verified);
+    renderFacts(e.key_facts || []);
+    renderClog(e.code);
+    renderList();
+    document.getElementById('clPanel').classList.remove('open');
+    document.getElementById('clArrow').innerHTML = '\u25b6';
+    document.querySelectorAll('.field-textarea').forEach(autoH);
+    document.getElementById('editorPanel').scrollTop = 0;
+    updateNavBtns();
+    // Mobile: show editor
+    if (window.innerWidth <= 768) {
+        document.getElementById('appContainer').classList.add('mobile-editor-open');
+    }
+}
+
+function showEditor(s) {
+    document.getElementById('editorEmpty').style.display = s ? 'none' : 'flex';
+    document.getElementById('editorContent').style.display = s ? 'block' : 'none';
+}
+
+function renderStatusBtn(v) {
+    const b = document.getElementById('statusToggle');
+    b.className = 'status-toggle ' + (v ? 'approved' : 'needs-review');
+    b.innerHTML = v ? '\u2705 Approved' : '\ud83d\udfe0 Needs Review';
+}
+
+function renderFacts(facts) {
+    document.getElementById('factsList').innerHTML = facts.map((f, i) =>
+        '<li class="fact-item"><span class="fact-bullet"></span>' +
+        '<input type="text" value="' + escA(f) + '" oninput="markDirty(\'key_facts\')" data-fi="' + i + '">' +
+        '<button class="fact-remove" onclick="removeFact(' + i + ')">&times;</button></li>'
+    ).join('');
+}
+
+function autoH(el) { el.style.height = 'auto'; el.style.height = el.scrollHeight + 'px'; }
+
+function collectFields() {
+    if (curIdx < 0) return;
+    const e = data[curIdx];
+    e.syllabus_desc = document.getElementById('fieldSyllabusDesc').value;
+    e.concept = document.getElementById('fieldConcept').value;
+    e.exam_tip = document.getElementById('fieldExamTip').value;
+    e.source = document.getElementById('fieldSource').value;
+    e.confidence = document.getElementById('fieldConfidence').value;
+    const fi = document.querySelectorAll('#factsList input[data-fi]');
+    e.key_facts = Array.from(fi).map(x => x.value).filter(v => v.trim());
+}
+
+function markDirty(field) {
+    if (curIdx < 0) return;
+    const e = data[curIdx], old = e[field];
+    collectFields();
+    if (JSON.stringify(old) !== JSON.stringify(e[field])) addClog(e.code, field, old, e[field]);
+    dirty.add(curIdx);
+    updateUI();
+}
+
+function toggleStatus() {
+    if (curIdx < 0) return;
+    const e = data[curIdx], old = e.verified;
+    e.verified = !e.verified;
+    renderStatusBtn(e.verified);
+    dirty.add(curIdx);
+    addClog(e.code, 'verified', old, e.verified);
+    updateUI();
+    renderList();
+}
+
+function addFact() {
+    if (curIdx < 0) return;
+    collectFields();
+    data[curIdx].key_facts.push('');
+    renderFacts(data[curIdx].key_facts);
+    const inputs = document.querySelectorAll('#factsList input');
+    if (inputs.length) inputs[inputs.length - 1].focus();
+    dirty.add(curIdx);
+    updateUI();
+}
+
+function removeFact(i) {
+    if (curIdx < 0) return;
+    collectFields();
+    const e = data[curIdx], rm = e.key_facts.splice(i, 1);
+    renderFacts(e.key_facts);
+    dirty.add(curIdx);
+    addClog(e.code, 'key_facts', 'Removed: ' + rm[0], '(deleted)');
+    updateUI();
+}
+
+/* ===== NAVIGATION ===== */
+function navPrev() { if (curIdx > 0) selectEntry(curIdx - 1); }
+function navNext() { if (curIdx < data.length - 1) selectEntry(curIdx + 1); }
+function updateNavBtns() {
+    document.getElementById('prevBtn').disabled = curIdx <= 0;
+    document.getElementById('nextBtn').disabled = curIdx >= data.length - 1;
+}
+
+/* ===== MOBILE BACK ===== */
+function mobileGoBack() {
+    document.getElementById('appContainer').classList.remove('mobile-editor-open');
+}
+
+/* ===== FILTER ===== */
+function setFilter(f, btn) {
+    activeFilter = f;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderList();
+}
+function filterList() { renderList(); }
+
+/* ===== STATS & UI ===== */
+function updateStats() {
+    const t = data.length, a = data.filter(e => e.verified === true).length;
+    document.getElementById('statTotal').textContent = t;
+    document.getElementById('statApproved').textContent = a;
+    document.getElementById('statReview').textContent = t - a;
+}
+
+function updateUI() {
+    document.getElementById('unsavedBar').classList.toggle('show', dirty.size > 0);
+    updateSaveBtn();
+    updateStats();
+}
+
+function updateSaveBtn() {
+    document.getElementById('saveBtn').disabled = dirty.size === 0;
+}
+
+/* ===== TOAST ===== */
+function toast(msg, type) {
+    const el = document.getElementById('toast');
+    el.textContent = msg;
+    el.className = 'toast ' + (type || 'info') + ' show';
+    clearTimeout(toast._t);
+    toast._t = setTimeout(() => el.classList.remove('show'), 3500);
+}
+
+/* ===== UTILS ===== */
+function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+function escA(s) { return String(s).replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+
+/* ===== EXPORT CSV ===== */
+function exportCSV() {
+    if (!data.length) { toast('No data.', 'error'); return; }
+    collectFields();
+    const hd = ['code','topic','syllabus_desc','concept','exam_tip','key_facts','source','confidence','verified'];
+    const rows = [hd.join(',')];
+    data.forEach(e => {
+        rows.push(hd.map(h => {
+            let v = e[h];
+            if (Array.isArray(v)) v = v.join(' | ');
+            if (typeof v === 'boolean') v = v ? 'Yes' : 'No';
+            return '"' + String(v || '').replace(/"/g, '""') + '"';
+        }).join(','));
+    });
+    const blob = new Blob([rows.join('\n')], { type: 'text/csv' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = curFile.split('/').pop().replace('.json', '') + '_export.csv';
+    a.click();
+    URL.revokeObjectURL(url);
+    toast('Exported ' + data.length + ' entries.', 'success');
+}
+
+/* ===== KEYBOARD SHORTCUTS ===== */
+document.addEventListener('keydown', e => {
+    if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+        e.preventDefault();
+        if (dirty.size) saveToGitHub();
+    }
+});
+</script>
+</body>
+</html>
