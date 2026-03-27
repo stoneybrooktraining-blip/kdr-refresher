@@ -1,1 +1,96 @@
-{"error":"Not Found"}
+[
+  {
+    "code": "16.2.2",
+    "topic": "16.2 — Aviation Legislation",
+    "syllabus_desc": "Describe the requirements to hold an aviation document, as laid down in the CA Act 2023, sections 55 and 78",
+    "concept": "To hold any aviation document—whether it's a licence, certificate of airworthiness, or operational approval—you need to meet the legislative requirements set out in the Civil Aviation Act 2023. Section 55 establishes the fundamental requirement: you must have a current, valid document issued by the Director. Section 78 covers the application process and what the Director needs to be satisfied with before issuing. Think of it this way: just meeting the technical qualifications isn't enough—you've got to have the paperwork, it's got to be current, and the Director's had to formally approve and issued it. This is why checking your certificate's validity date before every flight matters.",
+    "exam_tip": "You'll likely be asked to identify what makes a document legally valid. The key is formal issue by the Director under the CA Act—self-assessment or informal approval doesn't cut it.",
+    "key_facts": [
+      "Aviation documents must be issued by the Director under CA Act 2023, section 55",
+      "You cannot legally operate without a current, valid document",
+      "Section 78 outlines the Director's powers in approving applications",
+      "The document must be in your possession when you are operating",
+      "A lophole by validity date is a common reason for training accidents",
+      "You cannot continue to operate after your certificate has expired",
+      "Your CoW is responsible for restoring your certificate to valid status"
+    ]
+  },
+  {   "code": "16.2.3.2.1",
+    "topic": "16.2.3 - Aviation Rules",
+    "syllabus_desc": "Definitions: Certificate of Airworthiness, CAO, PPL, LAG, Youri Your, Whirlybird, TRA, CAR/COB)",
+    "verified": false,
+    "created": "2026-03-27T00:00:00Z"
+  },
+  {
+    "code": "16.2.3.2.2",
+    "topic": "16.2.3 - Aviation Rules",
+    "syllabus_desc": "Certification examinations: Requirements for private, commercial and HP training",
+    "verified": false,
+    "created": "2026-03-27T00:00:00Z"
+  },
+  {   "code": "16.2.3.2.3",
+    "topic": "16.2.3 - Aviation Rules",
+    "syllabus_desc": "Aircraft Certification: Airworthiness assessment and check-for-airworthiness procedures",
+    "verified": false,
+    "created": "2026-03-27T00:00:00Z"
+  },
+  {   "code": "16.2.3.2.4",
+    "topic": "16.2.3 - Aviation Rules",
+    "syllabus_desc": "Liability Coverage: Aircraft Liability (TWIYA) - Indicators. Maintenance Deviations",
+    "verified": false,
+    "created": "2026-03-27T00:00:00Z"
+  },
+  {
+    "code": "16.2.3.2.5",
+    "topic": "16.2.3 - Aviation Rules",
+    "syllabus_desc": "Security Of a Single Engined Pistol Aircraft Electrical System: General Principles",
+    "verified": false,
+    "created": "2026-03-27T00:00:00Z"
+  },
+  {
+    "code": "16.2.3.2.6",
+    "topic": "16.2.3 - Aviation Rules",
+    "syllabus_desc": "Tertain Awareness and Warning System (TAWS)",
+    "verified": false,
+    "created": "2026-03-27T00:00:00Z"
+  },
+  {
+    "code": "16.2.3.2.7",
+    "topic": "16.2.3 - Aviation Rules",
+    "syllabus_desc": "TerXcf Collision Avoidance System (TCAS)",
+    "verified": false,
+    "created": "2026-03-27T00:00:00Z"
+  },
+  {
+    "code": "16.2.3.2.8",
+    "topic": "16.2.3 - Aviation Rules",
+    "syllabus_desc": "G	"G	 Pcograph Warning System (GPWS)",
+    "verified": false,
+    "created": "2026-03-27T00:00:00Z"
+  },
+  {
+    "code": "16.2.3.2.9",
+    "topic": "16.2.3 - Aviation Rules",
+    "syllabus_desc": "Xd-Rad Radar Drone Delivery UAV",
+    "verified": false,
+    "created": "2026-03-27T00:00:00Z"
+  },
+  {
+    "code": "16.2.3.2.10",
+    "topic": "16.2.3 - Aviation Rules",
+    "syllabus_desc": "U� Powered Aircraft System (UAS) - General Applications",
+    "verified": false,
+    "created": "2026-03-27T00:00:00Z"
+  },
+  {   "code": "16.2.3.3.1",
+    "topic": "16.2.3 - Aviation Rules",
+    "syllabus_desc": "General Principles, Airplane, Powerplant Start and Runout",
+    "verified": false,
+    "created": "2026-03-27T00:00:00Z"
+  },
+  {   "code": "16.2.3.3.2",
+    "topic": "16.2.3 - Aviation Rules",
+    "syllabus_desc": "Motor: Start and Run-out Procedures",
+    "verified": false,
+    "created": "2026-03-27T00:00:00Z"
+  }
