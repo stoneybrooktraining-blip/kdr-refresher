@@ -1,10 +1,10 @@
 [
   {
     "code": "16.2.2",
-    "topic": "16.2 — Aviation Legislation",
+    "topic": "16.2  -  Aviation Legislation",
     "syllabus_desc": "Describe the requirements to hold an aviation document, as laid down in the CA Act 2023, sections 55 and 78",
-    "concept": "To hold any aviation document—whether it's a licence, certificate of airworthiness, or operational approval—you need to meet the legislative requirements set out in the Civil Aviation Act 2023. Section 55 establishes the fundamental requirement: you must have a current, valid document issued by the Director. Section 78 covers the application process and what the Director needs to be satisfied with before issuing. Think of it this way: just meeting the technical qualifications isn't enough—you've got to have the paperwork, it's got to be current, and the Director's had to formally approve and issued it. This is why checking your certificate's validity date before every flight matters.",
-    "exam_tip": "You'll likely be asked to identify what makes a document legally valid. The key is formal issue by the Director under the CA Act—self-assessment or informal approval doesn't cut it.",
+    "concept": "To hold any aviation document - whether it's a licence, certificate of airworthiness, or operational approval - you need to meet the legislative requirements set out in the Civil Aviation Act 2023. Section 55 establishes the fundamental requirement: you must have a current, valid document issued by the Director. Section 78 covers the application process and what the Director needs to be satisfied with before issuing. Think of it this way: just meeting the technical qualifications isn't enough - you've got to have the paperwork, it's got to be current, and the Director's had to formally approve and issued it. This is why checking your certificate's validity date before every flight matters.",
+    "exam_tip": "You'll likely be asked to identify what makes a document legally valid. The key is formal issue by the Director under the CA Act - self-assessment or informal approval doesn't cut it.",
     "key_facts": [
       "Aviation documents must be issued by the Director under CA Act 2023, section 55",
       "You cannot legally operate without a current, valid document",
@@ -64,7 +64,7 @@
   {
     "code": "16.2.3.2.8",
     "topic": "16.2.3 - Aviation Rules",
-    "syllabus_desc": "G	"G	 Pcograph Warning System (GPWS)",
+    "syllabus_desc": "Ground Proximity Warning System (GPWS)",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
   },
@@ -78,7 +78,7 @@
   {
     "code": "16.2.3.2.10",
     "topic": "16.2.3 - Aviation Rules",
-    "syllabus_desc": "U� Powered Aircraft System (UAS) - General Applications",
+    "syllabus_desc": "Unpowered Aircraft System (UAS) - General Applications",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
   },
@@ -101,3 +101,4 @@
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
   }
+]

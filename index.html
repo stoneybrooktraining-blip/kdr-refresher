@@ -577,7 +577,7 @@
         <div id="uploadSection">
             <div class="upload-card">
                 <div class="upload-zone" id="uploadZone">
-                    <div class="upload-zone-icon">ð</div>
+                    <div class="upload-zone-icon">📄</div>
                     <h3>Upload Your ASPEQ Result Slip</h3>
                     <p>Drag and drop your PDF here or click to browse</p>
                     <button class="upload-btn">Choose PDF</button>
@@ -603,11 +603,11 @@
             <div class="summary-panel">
                 <div class="summary-grid">
                     <div class="summary-item">
-                        <span class="summary-value" id="summaryExam">Ã¢ÂÂ</span>
+                        <span class="summary-value" id="summaryExam">--</span>
                         <span class="summary-label">Exam Type</span>
                     </div>
                     <div class="summary-item">
-                        <span class="summary-value" id="summarySubject">Ã¢ÂÂ</span>
+                        <span class="summary-value" id="summarySubject">--</span>
                         <span class="summary-label">Subject</span>
                     </div>
                     <div class="summary-item">
@@ -632,7 +632,7 @@
             <div class="survey-card">
                 <h3>Help Us Improve!</h3>
                 <p>Which questions tripped you up? Share your feedback to help other students.</p>
-                <a href="https://stoneybrooktraining-blip.github.io/exam-feedback/" target="_blank" class="btn">Take the Question Survey Ã¢ÂÂ</a>
+                <a href="https://stoneybrooktraining-blip.github.io/exam-feedback/" target="_blank" class="btn">Take the Question Survey &#8594;</a>
             </div>
 
             <!-- Action Buttons -->
@@ -673,6 +673,40 @@
             },
             examTypes: ['PPL', 'CPL', 'ATPL', 'IR']
         };
+
+        // ===== NATURAL SORT FOR SYLLABUS CODES =====
+        // Splits a code like "12.2.4(a)" into parts [12, 2, 4, "a"] for numeric comparison
+        function parseCode(code) {
+            const parts = [];
+            const regex = /(\d+)|([a-z]+)/gi;
+            let m;
+            while ((m = regex.exec(code)) !== null) {
+                if (m[1]) parts.push(parseInt(m[1], 10));
+                else if (m[2]) parts.push(m[2].toLowerCase());
+            }
+            return parts;
+        }
+
+        function naturalSortCodes(a, b) {
+            const partsA = parseCode(a.code || '');
+            const partsB = parseCode(b.code || '');
+            const len = Math.max(partsA.length, partsB.length);
+            for (let i = 0; i < len; i++) {
+                const pa = partsA[i];
+                const pb = partsB[i];
+                if (pa === undefined) return -1;
+                if (pb === undefined) return 1;
+                if (typeof pa === 'number' && typeof pb === 'number') {
+                    if (pa !== pb) return pa - pb;
+                } else if (typeof pa === 'string' && typeof pb === 'string') {
+                    if (pa !== pb) return pa < pb ? -1 : 1;
+                } else {
+                    // number before string
+                    return typeof pa === 'number' ? -1 : 1;
+                }
+            }
+            return 0;
+        }
 
         // ===== STATE =====
         let appState = {
@@ -785,7 +819,7 @@
                 }
             }
 
-            // Subject aliases Ã¢ÂÂ ASPEQ KDRs use abbreviations and varying wording
+            // Subject aliases -- ASPEQ KDRs use abbreviations and varying wording
             const subjectAliases = {
                 'flight radiotelephony': ['frto', 'radiotelephony', 'radio telephony', 'flight radio'],
                 'aircraft technical knowledge': ['atk', 'aircraft technical', 'technical knowledge'],
@@ -795,7 +829,7 @@
                 'human factors': ['human factors', 'human factor', 'hf ']
             };
 
-            // Detect subject Ã¢ÂÂ check full name first, then aliases
+            // Detect subject -- check full name first, then aliases
             for (const [subject, mapping] of Object.entries(CONFIG.subjectMapping)) {
                 if (lowerText.includes(subject)) {
                     appState.detectedSubject = subject;
@@ -841,7 +875,7 @@
             appState.extractedCodes = [...new Set(found)];
 
             showToast(
-                `Detected: ${appState.detectedExam} ${appState.detectedSubject} Ã¢ÂÂ ${appState.extractedCodes.length} KDR codes extracted`
+                `Detected: ${appState.detectedExam} ${appState.detectedSubject} \u2014 ${appState.extractedCodes.length} KDR codes extracted`
             );
         }
 
@@ -905,7 +939,7 @@
 
             let details = `Generated on ${new Date().toLocaleDateString()}`;
             if (unmatched > 0) {
-                details += ` Ã¢ÂÂ¢ ${unmatched} code(s) not yet in database`;
+                details += ` \u2022 ${unmatched} code(s) not yet in database`;
             }
             document.getElementById('summaryDetails').textContent = details;
 
@@ -927,6 +961,11 @@
                 if (!groupedByTopic[topic]) groupedByTopic[topic] = [];
                 groupedByTopic[topic].push(item);
             });
+
+            // Sort items within each group by code (natural sort)
+            for (const topic of Object.keys(groupedByTopic)) {
+                groupedByTopic[topic].sort(naturalSortCodes);
+            }
 
             // Render grouped content
             for (const [topic, items] of Object.entries(groupedByTopic)) {
@@ -1009,7 +1048,7 @@
             doc.setFontSize(12);
             doc.setFont(undefined, 'normal');
             const pdfSubjectTitle = appState.detectedSubject.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
-            doc.text(`${appState.detectedExam} Ã¢ÂÂ ${pdfSubjectTitle}`, margin, 33);
+            doc.text(`${appState.detectedExam} \u2014 ${pdfSubjectTitle}`, margin, 33);
 
             yPos = 50;
 
@@ -1032,6 +1071,11 @@
                 if (!groupedByTopic[topic]) groupedByTopic[topic] = [];
                 groupedByTopic[topic].push(item);
             });
+
+            // Sort items within each group by code (natural sort)
+            for (const topic of Object.keys(groupedByTopic)) {
+                groupedByTopic[topic].sort(naturalSortCodes);
+            }
 
             for (const [topic, items] of Object.entries(groupedByTopic)) {
                 // Topic heading
@@ -1068,7 +1112,7 @@
                     doc.setTextColor(31, 37, 40);
                     doc.setFontSize(11);
                     doc.setFont(undefined, 'bold');
-                    const titleLines = doc.splitTextToSize(`${item.code} Ã¢ÂÂ ${item.syllabus_desc || ''}`, pageWidth - 2 * margin);
+                    const titleLines = doc.splitTextToSize(`${item.code} \u2014 ${item.syllabus_desc || ''}`, pageWidth - 2 * margin);
                     doc.text(titleLines, margin, yPos);
                     yPos += titleLines.length * 5 + 3;
 
@@ -1116,7 +1160,7 @@
                         doc.setTextColor(70, 70, 70);
                         for (const fact of item.key_facts) {
                             checkPage(5);
-                            const factLines = doc.splitTextToSize(`Ã¢ÂÂ¢ ${fact}`, pageWidth - 2 * margin - 4);
+                            const factLines = doc.splitTextToSize(`\u2022 ${fact}`, pageWidth - 2 * margin - 4);
                             for (const line of factLines) {
                                 checkPage(4);
                                 doc.text(line, margin + 3, yPos);
@@ -1136,7 +1180,7 @@
                 doc.setPage(i);
                 doc.setTextColor(31, 37, 40);
                 doc.setFontSize(8);
-                doc.text(`Stoneybrook Training Ã¢ÂÂ KDR Refresher Module`, margin, pageHeight - 10);
+                doc.text(`Stoneybrook Training \u2014 KDR Refresher Module`, margin, pageHeight - 10);
                 doc.text(`Page ${i} of ${totalPages}`, pageWidth - margin - 15, pageHeight - 10);
             }
 
