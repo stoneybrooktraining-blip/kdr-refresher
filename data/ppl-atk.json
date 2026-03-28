@@ -4,7 +4,7 @@
     "topic": "12.2  -  Definitions, Terminology, Units and Abbreviations",
     "syllabus_desc": "State the International System (SI) and ICAO units used to express: Distance",
     "concept": "The SI base unit for distance (length) is the metre (m). In aviation, horizontal distances are measured in nautical miles (nm). One nautical mile equals 1,852 metres and corresponds to one minute of latitude. Short distances such as runway dimensions and visibility are expressed in metres. Altitude and height are expressed in feet (ft).",
-    "exam_tip": "SI unit = metre. Aviation horizontal distance = nautical miles. Runway dimensions and visibility = metres. Altitude = feet. Don't confuse nm (nautical miles) with statute miles.",
+    "exam_tip": "SI unit = metre. Aviation horizontal distance = nautical miles. Runway dimensions and visibility = metres. Altitude = feet. Don't confuse nautical miles with land miles. 1 nm = 1,852 m.",
     "key_facts": [
       "SI base unit of distance: the metre (m)",
       "ICAO horizontal distance: nautical miles (nm)",
@@ -159,13 +159,14 @@
     "code": "12.2.4(c)",
     "topic": "12.2  -  Definitions, Terminology, Units and Abbreviations",
     "syllabus_desc": "Define and where appropriate show the relevant relationships between: Momentum",
-    "concept": "Equilibrium is the state where all forces acting on an object are balanced, resulting in no net force and no acceleration. An object in equilibrium is either stationary or moving at a constant velocity in a straight line. In aviation, an aircraft in straight and level unaccelerated flight is in equilibrium  -  lift equals weight, and thrust equals drag.",
-    "exam_tip": "Equilibrium = all forces balanced = no acceleration. In straight and level flight: lift = weight and thrust = drag. If any force changes, the aircraft accelerates until a new equilibrium is reached.",
+    "concept": "Momentum is the product of an object's mass and velocity (p = m × v). It's a vector quantity — it has both magnitude and direction. In flying terms, think about a heavy aircraft at high speed versus a light one: the heavier, faster aeroplane has far more momentum and needs much more force (and distance) to stop or change direction. That's why your landing roll is longer when you're heavy and fast. Conservation of momentum means the total momentum in a closed system stays constant — it's the same principle that explains why a propeller pushes air backwards and the aeroplane moves forwards.",
+    "exam_tip": "Momentum = mass × velocity. It's a vector. Heavier and faster means more momentum. Conservation of momentum often comes up in questions about propeller thrust and jet propulsion.",
     "key_facts": [
-      "Equilibrium: all forces balanced, no net force",
-      "Object is stationary or moving at constant velocity",
-      "In level flight: lift = weight, thrust = drag",
-      "Unbalanced forces cause acceleration"
+      "Momentum = mass × velocity (p = m × v)",
+      "Vector quantity — has both magnitude and direction",
+      "Greater mass or velocity means greater momentum",
+      "Conservation of momentum: total momentum in a closed system is constant",
+      "Heavier/faster aircraft need more force and distance to change direction or stop"
     ],
     "source": "Stoneybrook AU Module 1.1 (Section 5), NZ CAA AC 61-3 Rev 25 §12.2.4(c)",
     "confidence": "high",
@@ -176,13 +177,14 @@
     "code": "12.2.4(d)",
     "topic": "12.2  -  Definitions, Terminology, Units and Abbreviations",
     "syllabus_desc": "Define and where appropriate show the relevant relationships between: Equilibrium",
-    "concept": "A force vector has both magnitude (size) and direction. Forces can be represented as arrows where the length indicates magnitude and the arrow indicates direction. When multiple forces act on an object, they can be resolved (combined) into a single resultant force using vector addition. Conversely, a single force can be resolved into two perpendicular components. In aviation, the total aerodynamic force on a wing is resolved into lift (perpendicular to relative airflow) and drag (parallel to relative airflow).",
-    "exam_tip": "Forces are vectors  -  they have magnitude AND direction. The total aerodynamic force on a wing is resolved into lift (perpendicular to airflow) and drag (parallel to airflow).",
+    "concept": "Equilibrium is the state where all forces acting on an object are balanced — there's no net force, so no acceleration. In straight and level flight at constant speed, you're in equilibrium: lift equals weight, thrust equals drag. There are two types. Static equilibrium means the object is at rest or moving at constant velocity with all forces balanced. Dynamic equilibrium means the object is moving at constant velocity — still no net force, but there's motion. If any force changes (say you add power), the equilibrium is disturbed and the aeroplane accelerates until a new equilibrium is reached.",
+    "exam_tip": "Equilibrium = balanced forces = no acceleration. Straight-and-level unaccelerated flight is the classic aviation example. If they ask 'when is an aircraft in equilibrium?' — constant speed, constant altitude, wings level.",
     "key_facts": [
-      "Force vectors have magnitude and direction",
-      "Multiple forces combine into a resultant (vector addition)",
-      "A single force can be resolved into perpendicular components",
-      "Total aerodynamic force resolves into lift and drag"
+      "Equilibrium: all forces balanced, no net force, no acceleration",
+      "In level flight: lift = weight, thrust = drag",
+      "Static equilibrium: object at rest with balanced forces",
+      "Dynamic equilibrium: object moving at constant velocity with balanced forces",
+      "Disturbing equilibrium causes acceleration until new balance is reached"
     ],
     "source": "Stoneybrook AU Module 1.1 (Section 5), Module 1.5 (force resolution), NZ CAA AC 61-3 Rev 25 §12.2.4(d)",
     "confidence": "high",
@@ -193,13 +195,14 @@
     "code": "12.2.4(e)",
     "topic": "12.2  -  Definitions, Terminology, Units and Abbreviations",
     "syllabus_desc": "Define and where appropriate show the relevant relationships between: Force vectors, couples and components",
-    "concept": "Newton's Third Law states that for every action there is an equal and opposite reaction. In aviation, this principle explains how a propeller produces thrust  -  the propeller accelerates air backwards (action), and the reaction force pushes the aircraft forward (thrust). Similarly, a wing deflects air downward (downwash), and the reaction force is an upward force on the wing (lift).",
-    "exam_tip": "Every action has an equal and opposite reaction. Propeller pushes air back → aircraft goes forward. Wing pushes air down → wing gets pushed up (lift).",
+    "concept": "A force vector has both magnitude (size) and direction, represented as an arrow. Two equal and opposite forces acting along different parallel lines create a couple, which produces rotation (think of the forces on a propeller blade creating torque). Component forces are what you get when you break a single force into two perpendicular parts — for example, resolving the total aerodynamic reaction into lift (perpendicular to relative airflow) and drag (parallel to it). The resultant is the single force that has the same effect as two or more forces acting together. You find it using the parallelogram of forces or by adding the components.",
+    "exam_tip": "Remember the difference: a couple produces pure rotation (no translation), while a resultant is the net effect of multiple forces. Breaking lift/drag out of total reaction is the classic example of resolving into components.",
     "key_facts": [
-      "For every action there is an equal and opposite reaction",
-      "Propeller accelerates air backward → thrust forward",
-      "Wing deflects air downward → lift upward",
-      "Newton's Third Law of Motion"
+      "Force vector: has magnitude (size) and direction",
+      "Couple: two equal, opposite, parallel forces producing rotation",
+      "Components: a single force resolved into two perpendicular parts",
+      "Resultant: single force equivalent to two or more forces combined",
+      "Parallelogram of forces: graphical method to find the resultant"
     ],
     "source": "Stoneybrook AU Module 1.1 (Section 5), NZ CAA AC 61-3 Rev 25 §12.2.4(e)",
     "confidence": "high",
@@ -210,13 +213,14 @@
     "code": "12.2.4(f)",
     "topic": "12.2  -  Definitions, Terminology, Units and Abbreviations",
     "syllabus_desc": "Define and where appropriate show the relevant relationships between: Newton's Third Law",
-    "concept": "Kinetic energy (KE) is the energy an object possesses due to its motion. The formula is KE = ½ × mass × velocity² (KE = ½mv²). Because velocity is squared, doubling the speed quadruples the kinetic energy. In aviation, an aircraft at high speed has significantly more kinetic energy than at low speed, which affects stopping distance, landing performance, and the energy that must be dissipated during braking.",
-    "exam_tip": "KE = ½mv². Velocity is squared, so doubling speed = four times the kinetic energy. This is why landing distance increases dramatically with higher approach speeds.",
+    "concept": "Newton's Third Law says for every action there is an equal and opposite reaction. In aviation this is everywhere. The propeller pushes air backwards (action), and the air pushes the aeroplane forwards (reaction) — that's thrust. The wing deflects air downwards (action) and the air pushes the wing upwards (reaction) — that's part of how lift works. On the ground, the aircraft's weight pushes down on the runway and the runway pushes back up with an equal force. It's also why a helicopter rotor spinning one way makes the fuselage want to spin the other way — you need a tail rotor to counteract that reaction.",
+    "exam_tip": "Newton's Third Law explains thrust (propeller action/reaction) and contributes to lift theory (air deflection). Every force has an equal and opposite reaction — look for it in propulsion and aerodynamics questions.",
     "key_facts": [
-      "KE = ½ × mass × velocity²",
-      "Velocity is squared  -  doubling speed quadruples KE",
-      "Higher KE means longer stopping distance",
-      "Affects landing performance and braking"
+      "Newton's Third Law: every action has an equal and opposite reaction",
+      "Propeller: pushes air back, air pushes aircraft forward (thrust)",
+      "Wing: deflects air down, air pushes wing up (contributes to lift)",
+      "Ground reaction: weight pushes down, runway pushes up equally",
+      "Helicopter torque reaction: rotor spins one way, fuselage wants to spin the other"
     ],
     "source": "Stoneybrook AU Module 1.1 (Section 5: Energy), NZ CAA AC 61-3 Rev 25 §12.2.4(f)",
     "confidence": "high",
@@ -227,14 +231,14 @@
     "code": "12.2.4(g)",
     "topic": "12.2  -  Definitions, Terminology, Units and Abbreviations",
     "syllabus_desc": "Define and where appropriate show the relevant relationships between: Distance, time, acceleration and velocity",
-    "concept": "Potential energy (PE) is the energy an object possesses due to its position (height) in a gravitational field. The formula is PE = mass × gravity × height (PE = mgh). In aviation, an aircraft at altitude has potential energy that can be converted to kinetic energy (speed) by descending. This is the principle behind gliding  -  trading altitude for airspeed.",
-    "exam_tip": "PE = mgh (mass × gravity × height). An aircraft at altitude has stored energy. Descending converts PE to KE (speed). Climbing converts KE to PE (altitude). Total energy = KE + PE.",
+    "concept": "Distance is how far an object travels (metres or nautical miles). Time is measured in seconds. Velocity is the rate of change of position — distance divided by time, with a direction (m/s or knots). Speed is the same thing without the direction component. Acceleration is the rate of change of velocity — if your speed increases from 50 to 60 knots in 10 seconds, your acceleration is 1 knot per second. The key relationships: distance = velocity × time (d = v × t), and velocity = initial velocity + (acceleration × time). These are the basic equations of motion you'll use when thinking about takeoff rolls, approach speeds, and deceleration during landing.",
+    "exam_tip": "Distance = speed × time. Acceleration = change in velocity ÷ time. Know the difference between speed (scalar) and velocity (vector). These relationships underpin takeoff and landing distance calculations.",
     "key_facts": [
-      "PE = mass × gravity × height (PE = mgh)",
-      "Higher altitude = more potential energy",
-      "Descending converts PE to KE",
-      "Climbing converts KE to PE",
-      "Total energy = KE + PE (conservation of energy)"
+      "Distance = velocity × time (d = v × t)",
+      "Velocity = distance ÷ time (with direction)",
+      "Acceleration = change in velocity ÷ time (a = Δv / t)",
+      "Final velocity = initial velocity + (acceleration × time)",
+      "Speed is scalar (magnitude only); velocity is vector (magnitude + direction)"
     ],
     "source": "Stoneybrook AU Module 1.1 (Section 5: Energy), NZ CAA AC 61-3 Rev 25 §12.2.4(g)",
     "confidence": "high",
@@ -245,13 +249,14 @@
     "code": "12.2.4(h)",
     "topic": "12.2  -  Definitions, Terminology, Units and Abbreviations",
     "syllabus_desc": "Define and where appropriate show the relevant relationships between: Kinetic and potential energy",
-    "concept": "Momentum is the product of an object's mass and its velocity. It is a vector quantity, meaning it has both magnitude and direction. In a constant-speed turn, the aircraft's speed (magnitude of velocity) remains the same, but the direction changes continuously. Therefore the momentum vector changes direction while its magnitude stays constant.",
-    "exam_tip": "Momentum = mass × velocity. In a constant-speed turn, the magnitude of momentum is unchanged (mass and speed are constant), but the direction of the momentum vector changes continuously because the aircraft is changing heading.",
+    "concept": "Kinetic energy (KE) is the energy of motion: KE = ½ × mass × velocity² (½mv²). The velocity-squared part is critical — double your speed and you've got four times the kinetic energy. That's why stopping distance increases dramatically with speed. Potential energy (PE) is stored energy due to position (height): PE = mass × gravity × height (mgh). An aircraft at altitude has potential energy that can be converted to kinetic energy in a descent — trading height for speed. In a glide, you're converting PE to KE and using it to overcome drag. Energy is conserved: the total of kinetic plus potential energy stays constant (ignoring losses like drag), which is why an aircraft that dives gains speed and one that climbs loses speed.",
+    "exam_tip": "KE = ½mv² — the velocity SQUARED is the key. Double the speed, quadruple the energy and stopping distance. PE = mgh. In a glide, you trade height for speed. Energy conservation links altitude and airspeed.",
     "key_facts": [
-      "Momentum = mass × velocity",
-      "Momentum is a vector (has magnitude and direction)",
-      "In a constant-speed turn: magnitude unchanged, direction changes",
-      "Momentum changes whenever either mass, speed, or direction changes"
+      "Kinetic energy: KE = ½mv² (energy of motion)",
+      "Double speed = four times the kinetic energy (velocity squared)",
+      "Potential energy: PE = mgh (energy of position/height)",
+      "Total energy conserved: KE + PE = constant (ignoring drag)",
+      "Gliding converts PE (height) to KE (speed) to overcome drag"
     ],
     "source": "Stoneybrook AU Module 1.1 (Section 5: Energy), NZ CAA AC 61-3 Rev 25 §12.2.4(h)",
     "confidence": "high",
@@ -279,13 +284,14 @@
     "code": "12.2.4(j)",
     "topic": "12.2  -  Definitions, Terminology, Units and Abbreviations",
     "syllabus_desc": "Define and where appropriate show the relevant relationships between: Forces involved in the motion of an object travelling in a circular path",
-    "concept": "Power is the rate of doing work  -  how quickly work is done. The formula is Power = Work ÷ Time (P = W/t), or equivalently, Power = Force × Velocity. Power is measured in watts (W), where 1 watt = 1 joule per second. In aviation, engine power is often expressed in horsepower (hp) or kilowatts (kW). 1 hp ≈ 746 watts.",
-    "exam_tip": "Power = Work ÷ Time = Force × Velocity. Measured in watts. 1 hp ≈ 746 W. More power means the engine can do the same work in less time  -  or more work in the same time.",
+    "concept": "When an object moves in a circular path (like an aircraft in a turn), it needs a force directed towards the centre of the circle — this is centripetal force. Without it, the object would fly off in a straight line (Newton's First Law). In a banked turn, the horizontal component of lift provides the centripetal force. The tighter the turn (smaller radius) or the faster the speed, the more centripetal force you need. The formula is F = mv²/r, where m is mass, v is velocity, and r is the radius. This is why steeper bank angles are needed for tighter turns — you need more of that horizontal lift component pulling you towards the centre.",
+    "exam_tip": "Centripetal force = mv²/r. In a turn, it's the horizontal component of lift. More bank = more centripetal force = tighter turn. Don't confuse centripetal (towards centre) with centrifugal (apparent outward force felt by the pilot).",
     "key_facts": [
-      "Power = Work ÷ Time (P = W/t)",
-      "Also: Power = Force × Velocity",
-      "Measured in watts (W) or horsepower (hp)",
-      "1 hp ≈ 746 watts"
+      "Centripetal force: directed toward the centre of the circular path",
+      "In a turn, horizontal component of lift provides centripetal force",
+      "Without centripetal force, object continues in a straight line",
+      "Centripetal force: F = mv²/r (increases with mass, speed², decreases with radius)",
+      "Steeper bank = more horizontal lift component = tighter turn possible"
     ],
     "source": "Stoneybrook AU Module 1.1 (Section 5: Energy), NZ CAA AC 61-3 Rev 25 §12.2.4(j)",
     "confidence": "high",
@@ -399,11 +405,11 @@
     "code": "12.4.14",
     "topic": "12.4  -  The Atmosphere",
     "syllabus_desc": "State the ISA sea level pressure and temperature conditions.",
-    "concept": "The ISA standard sea-level conditions are: temperature 15°C (288.15 K) and pressure 1013.25 hPa (29.92 inches of mercury). These values serve as the reference point for all ISA calculations. When actual conditions differ from ISA (e.g. a hot day at 25°C), the difference is expressed as ISA deviation (in this case ISA +10°C).",
+    "concept": "The ISA standard sea-level conditions are: temperature 15°C (288.15 K) and pressure 1013.25 hPa (1013.25 inches of mercury). These values serve as the reference point for all ISA calculations. When actual conditions differ from ISA (e.g. a hot day at 25°C), the difference is expressed as ISA deviation (in this case ISA +10°C).",
     "exam_tip": "15°C and 1013.25 hPa  -  memorise these. ISA deviation = actual temperature minus ISA temperature at that altitude.",
     "key_facts": [
       "ISA sea-level temperature: 15°C (288.15 K)",
-      "ISA sea-level pressure: 1013.25 hPa (29.92 inHg)",
+      "ISA sea-level pressure: 1013.25 hPa (1013.25 hPa)",
       "ISA deviation = actual temp minus ISA temp at altitude"
     ],
     "source": "Stoneybrook AU Module 1.3 (ISA values), NZ CAA AC 61-3 Rev 25 §12.4.14",
@@ -1303,13 +1309,15 @@
     "code": "12.12.6(a)",
     "topic": "12.12  -  Carburation",
     "syllabus_desc": "State the function and/or purpose of the following within the carburettor: Atomisation and diffusion",
-    "concept": "Atomisation is the process of breaking liquid fuel into a fine mist of tiny droplets as it enters the airstream in the carburettor. This greatly increases the surface area of the fuel exposed to air, allowing more efficient mixing and vaporisation. Better atomisation results in more complete combustion, improved power output, and lower fuel consumption. The discharge nozzle and venturi airflow work together to atomise the fuel.",
+    "concept": "Atomisation is the process of breaking liquid fuel into a fine mist of tiny droplets as it enters the airstream in the carburettor. This greatly increases the surface area of the fuel exposed to air, allowing more efficient mixing and vaporisation. Better atomisation results in more complete combustion, improved power output, and lower fuel consumption. The discharge nozzle and venturi airflow work together to atomise the fuel. Diffusion is the second stage of this process — once the fuel is atomised into fine droplets, it spreads (diffuses) evenly throughout the incoming airstream. Good diffusion ensures uniform fuel-air mixture reaches all cylinders, which is critical for smooth, even combustion across the engine.",
     "exam_tip": "Atomisation = breaking fuel into tiny droplets for better mixing and combustion. Fine mist = more surface area = more efficient burning.",
     "key_facts": [
       "Atomisation: breaking fuel into fine droplets",
       "Increases fuel surface area exposed to air",
       "Results in better mixing and vaporisation",
-      "Improves combustion efficiency and power output"
+      "Improves combustion efficiency and power output",
+      "Diffusion: even distribution of atomised fuel throughout the airstream",
+      "Good diffusion ensures uniform mixture to all cylinders"
     ],
     "source": "Stoneybrook AU Module 1.2 (carburettor functions), NZ CAA AC 61-3 Rev 25 §12.12.6(a)",
     "confidence": "high",
@@ -1320,13 +1328,14 @@
     "code": "12.12.6(b)",
     "topic": "12.12  -  Carburation",
     "syllabus_desc": "State the function and/or purpose of the following within the carburettor: Idling circuit",
-    "concept": "Diffusion is the process of distributing the atomised fuel vapour evenly throughout the incoming airstream. Uniform distribution ensures that each cylinder receives a consistent fuel/air mixture, resulting in even combustion across all cylinders. Poor diffusion can cause some cylinders to run rich and others to run lean, leading to uneven power output, rough running, and potential engine damage.",
-    "exam_tip": "Diffusion = even distribution of fuel throughout the airstream. All cylinders should receive the same mixture strength for smooth, even running.",
+    "concept": "The idling circuit (also called the slow-running circuit) provides fuel when the throttle is nearly closed and the engine is at idle. At idle, airflow through the main venturi is too slow to draw fuel through the main jet. Instead, the idling circuit has its own small fuel passage and jet positioned downstream of the throttle butterfly. The slight vacuum created by the nearly-closed butterfly draws fuel through this circuit. It has an idle mixture adjusting screw to set the correct fuel-air ratio at idle, and an idle speed adjusting screw to set the idle RPM. Getting these right is part of a good engine tune.",
+    "exam_tip": "The idling circuit works because of the vacuum created by the nearly-closed throttle butterfly. It has its own separate fuel passage — the main jet doesn't work at idle because airflow through the venturi is too slow.",
     "key_facts": [
-      "Diffusion: distributing fuel evenly throughout airstream",
-      "Ensures consistent mixture to all cylinders",
-      "Poor diffusion: uneven running, some cylinders rich, others lean",
-      "Good diffusion: smooth, even power output"
+      "Provides fuel when throttle is nearly closed (idle/taxi)",
+      "Main venturi airflow too slow at idle to meter fuel through main jet",
+      "Has its own fuel passage and jet downstream of the throttle butterfly",
+      "Idle mixture screw: adjusts fuel-air ratio at idle",
+      "Idle speed screw: adjusts idle RPM"
     ],
     "source": "Stoneybrook AU Module 1.2 (carburettor functions), NZ CAA AC 61-3 Rev 25 §12.12.6(b)",
     "confidence": "high",
@@ -1371,13 +1380,14 @@
     "code": "12.12.6(e)",
     "topic": "12.12  -  Carburation",
     "syllabus_desc": "State the function and/or purpose of the following within the carburettor: Mixture control",
-    "concept": "The idle cut-off is the position on the mixture control that completely stops fuel flow to the engine. It cuts fuel between the float chamber and the venturi. The engine continues to run briefly, burning all remaining mixture in the inlet manifold and cylinders until there is no combustible fuel/air mixture anywhere in the system. This is the preferred method of engine shutdown because it reduces the risk of fire and prevents an accidental engine start if the propeller is moved.",
-    "exam_tip": "Idle cut-off shuts off fuel for a controlled shutdown. It is preferred over switching off magnetos because it clears fuel from the induction system, making an inadvertent start less likely.",
+    "concept": "The mixture control lets the pilot adjust the fuel-to-air ratio to suit different conditions. At sea level, full rich gives the correct ratio. As you climb, the air gets thinner but the carburettor still meters the same amount of fuel — so the mixture becomes progressively richer (too much fuel for the available air). Leaning the mixture restores the correct ratio, giving better fuel economy and cleaner combustion. The mixture control typically works by restricting fuel flow to the main jet. You lean for cruise flight and enrichen for climb and descent. The correct leaning technique depends on your aircraft — usually lean until you find peak EGT, then enrichen slightly, or lean for maximum RPM on a fixed-pitch prop.",
+    "exam_tip": "Mixture control adjusts fuel-air ratio. As you climb, mixture goes rich because air thins out. Lean for cruise, full rich for takeoff/climb/landing. Leaning improves fuel economy and engine efficiency at altitude.",
     "key_facts": [
-      "Stops all fuel flow to the engine",
-      "Used for controlled engine shutdown",
-      "Clears fuel from the induction system (reduces fire risk)",
-      "Preferred over switching off magnetos"
+      "Controls fuel-to-air ratio for different altitudes and power settings",
+      "At altitude, air is thinner but fuel flow stays same — mixture goes rich",
+      "Leaning restores correct ratio: better economy and cleaner combustion",
+      "Full rich for takeoff, climb, and landing; lean for cruise",
+      "Works by restricting fuel flow to the main jet"
     ],
     "source": "ATC Aircraft General Knowledge (Ch. 4: idle cut-off), NZ CAA AC 61-3 Rev 25 §12.12.6(e)",
     "confidence": "high",
@@ -1388,14 +1398,14 @@
     "code": "12.12.6(f)",
     "topic": "12.12  -  Fuel Systems",
     "syllabus_desc": "State the function and/or purpose of the following within the carburettor: Idle cut-off",
-    "concept": "The idle cut-off control (also called the fuel selector or mixture control in some contexts) allows the pilot to stop fuel flow to the engine for engine shutdown. Moving the control to the idle cut-off position closes a fuel valve, stopping all fuel delivery to the engine. This causes the engine to cease combustion and stop running. The idle cut-off control is used before shutdown and also in emergency situations (e.g., engine fire) to stop fuel flow immediately. Some aircraft use a dedicated fuel selector valve for this function; others integrate it into the main fuel system control.",
-    "exam_tip": "Idle cut-off stops fuel flow to shut down the engine. Used before normal shutdown and in emergencies to stop fuel delivery.",
+    "concept": "Idle cut-off is the position on the mixture control that completely stops fuel flow to the engine. It's the standard method for shutting down a piston engine — you pull the mixture to idle cut-off, which starves the engine of fuel. This is safer than switching off the ignition because it ensures there's no unburned fuel-air mixture in the cylinders that could ignite if the propeller is moved. With fuel cut off, the engine simply stops when it runs out of the last bit of fuel in the system. It also prevents 'dieseling' (the engine continuing to run from hot spots in the combustion chamber after the ignition is turned off).",
+    "exam_tip": "Idle cut-off = no fuel flow = engine shutdown. Always shut down by pulling mixture to idle cut-off, NOT by turning off the ignition. This prevents fuel-air mixture remaining in the cylinders and possible kickback if the prop is turned.",
     "key_facts": [
-      "Stops fuel flow to the engine",
-      "Used before engine shutdown",
-      "Can be used in emergencies (e.g. engine fire)",
-      "Causes engine to stop running",
-      "May be part of fuel selector valve or separate control"
+      "Idle cut-off: mixture control position that stops all fuel flow",
+      "Standard method for shutting down a piston engine",
+      "Safer than switching off ignition — no unburned fuel left in cylinders",
+      "Prevents 'dieseling' (engine running on after ignition off)",
+      "Engine stops when last fuel in system is consumed"
     ],
     "source": "Stoneybrook AU Module 1.3 (Fuel systems), ATC Aircraft General Knowledge, NZ CAA AC 61-3 Rev 25 §12.12.6",
     "confidence": "high",
@@ -3895,7 +3905,7 @@
     "topic": "12.40  -  Gyroscopic Instruments",
     "syllabus_desc": "Outline the basic principle of operation of the vacuum system.",
     "concept": "The vacuum system provides suction to spin the gyroscopes in the attitude indicator, heading indicator, and (in some aircraft) the turn coordinator. An engine-driven vacuum pump creates suction (typically 3-4.5 inches of mercury) that draws filtered air through the instrument cases, spinning the gyro rotors at high speed. The suction gauge in the cockpit indicates vacuum system pressure  -  a reading below the green arc indicates pump failure or leak, and gyro instruments will become unreliable.",
-    "exam_tip": "Vacuum pump spins the gyros. Normal suction: 3-4.5 inHg. Low suction = pump failure = gyros will slowly become unreliable.",
+    "exam_tip": "Vacuum pump spins the gyros. Normal suction: 3-4.5 hPa. Low suction = pump failure = gyros will slowly become unreliable.",
     "key_facts": [
       "Engine-driven vacuum pump creates suction",
       "Normal suction: 3-4.5 inches of mercury",
@@ -4196,7 +4206,7 @@
   },
   {
     "code": "12.42.2",
-    "topic": "GNSS Instruments",
+    "topic": "12.42  -  GNSS Instruments",
     "syllabus_desc": "Describe the basic principles and operation of a GNSS (Global Navigation Satellite System).",
     "concept": "GNSS uses signals from orbiting satellites to determine precise position, velocity and time. At least 24 satellites are distributed in six orbital planes at 20,200 km altitude. The receiver calculates position by measuring signal travel time from multiple satellites (trilateration). GPS, GLONASS, Galileo and BeiDou are GNSS systems. Accuracy typically 5-10m in civilian mode.",
     "exam_tip": "GNSS needs minimum 4 satellites for 3D position fix (3 for 2D).",
@@ -4214,7 +4224,7 @@
   },
   {
     "code": "12.42.4",
-    "topic": "GNSS Instruments",
+    "topic": "12.42  -  GNSS Instruments",
     "syllabus_desc": "Describe the limitations and failure indications of a GNSS system.",
     "concept": "GNSS limitations include: signal blockage in tunnels/under trees, multipath errors from signal reflection, atmospheric ionospheric delays, poor satellite geometry (high dilution of precision/DOP), and intentional signal degradation. Failure indications: loss of signal, jumping position fixes, high DOP values, no GPS fix when previously locked, and integrity warnings. Cold start initialization takes 30+ seconds; warm start 15 seconds.",
     "exam_tip": "High DOP indicates poor satellite geometry; avoid flying under poor DOP conditions.",
@@ -4233,7 +4243,7 @@
   },
   {
     "code": "12.44.2",
-    "topic": "TCAS",
+    "topic": "12.44  -  TCAS",
     "syllabus_desc": "Briefly describe the basic function and operation of TCAS.",
     "concept": "Traffic Collision Avoidance System uses aircraft transponders to detect nearby aircraft and predict collision. TCAS I provides Traffic Advisories (TA) to increase crew awareness. TCAS II adds Resolution Advisories (RA) commanding vertical maneuvers to avoid collision. Range up to 40 nautical miles. System uses distance, altitude and closure rate to determine threat level. Operates independently of ground control.",
     "exam_tip": "TCAS II provides climb/descend commands (RA); TCAS I only warns.",
@@ -4252,7 +4262,7 @@
   },
   {
     "code": "12.46.2",
-    "topic": "TAWS Systems",
+    "topic": "12.46  -  TAWS Systems",
     "syllabus_desc": "Briefly describe the basic function and operation of TAWS (Terrain Awareness and Warning System).",
     "concept": "TAWS prevents controlled flight into terrain (CFIT) using terrain database, GPS altitude, barometric altitude, aircraft attitude and radio altimeter. System displays terrain on cockpit display and provides aural warnings when aircraft approaches high terrain or descends below safe altitude for location. Modes include enveloping, display and combined modes. Forward-looking capability predicts terrain hazard.",
     "exam_tip": "TAWS warns of terrain ahead; don't ignore aural warnings.",
@@ -4271,7 +4281,7 @@
   },
   {
     "code": "12.48.2",
-    "topic": "EFIS Instrument Displays",
+    "topic": "12.48  -  EFIS Instrument Displays",
     "syllabus_desc": "Describe the function and operation of a typical EFIS cockpit display system.",
     "concept": "Electronic Flight Instrument System replaces mechanical instruments with integrated digital displays. Primary Flight Display (PFD) shows attitude, airspeed, altitude, heading and vertical speed. Navigation Display (ND) shows flight plan, position, navigation sources. EFIS integrates data from multiple sensors and provides redundancy. Displays use LCD or CRT technology. System can be configured for single or dual pilot operation.",
     "exam_tip": "EFIS shows PFD and ND; cross-check with standby instruments.",
@@ -4290,7 +4300,7 @@
   },
   {
     "code": "12.48.4(a)",
-    "topic": "EFIS Instrument Displays",
+    "topic": "12.48  -  EFIS Instrument Displays",
     "syllabus_desc": "Describe the function of the: Air data computer",
     "concept": "The Air Data Computer (ADC) receives pitot and static pressure inputs from the pitot-static probe and processes these to calculate and output airspeed (IAS/CAS/TAS), altitude (QFE/QNH), vertical speed (rate of climb/descent), outside air temperature (OAT), and Mach number. The ADC is the primary source of air data information for the EFIS display system.",
     "exam_tip": "ADC converts static and pitot pressure inputs to airspeed, altitude, and vertical speed. Understand the difference between IAS, CAS, and TAS.",
@@ -4309,7 +4319,7 @@
   },
   {
     "code": "12.48.4(b)",
-    "topic": "EFIS Instrument Displays",
+    "topic": "12.48  -  EFIS Instrument Displays",
     "syllabus_desc": "Describe the function of the: Signal generator",
     "concept": "The Signal Generator (SG) receives magnetic heading input from the aircraft's compass system and converts this analog compass heading signal into a digital output signal for display on the EFIS flight display. The SG acts as an interface between the compass and the digital EFIS system.",
     "exam_tip": "Signal Generator converts compass heading to EFIS display format. Don't confuse with other heading sources (inertial, GPS).",
@@ -4327,7 +4337,7 @@
   },
   {
     "code": "12.48.4(c)",
-    "topic": "EFIS Instrument Displays",
+    "topic": "12.48  -  EFIS Instrument Displays",
     "syllabus_desc": "Describe the function of the: Input data sources to a typical basic EFIS flight display system",
     "concept": "A typical basic EFIS flight display system integrates multiple data sources: pitot-static probe (airspeed and altitude via ADC), magnetic compass (heading via Signal Generator), inertial reference system (attitude and rate information), GPS receiver (position and ground track), radio altimeter (height above ground), engine sensors (power and performance parameters), and sometimes angle-of-attack sensor. This multi-source integration provides redundancy and cross-checking of critical flight data.",
     "exam_tip": "Know the main input sources: pitot-static, compass, inertial, GPS, radio altimeter, and engine sensors. Understand redundancy.",
@@ -4348,7 +4358,7 @@
   },
   {
     "code": "12.48.6",
-    "topic": "EFIS Instrument Displays",
+    "topic": "12.48  -  EFIS Instrument Displays",
     "syllabus_desc": "Describe the function and operation of a typical basic AHRS (Attitude Heading Reference System).",
     "concept": "AHRS is an inertial reference system that continuously calculates aircraft pitch, roll and heading using accelerometers and gyroscopes. Uses triple-redundant solid-state gyros and accelerometers. Integrates with air data to provide attitude without reliance on magnetic compass. Provides pitch/roll accurate to ±2-5 degrees. Self-aligns on ground during initialization (typically 2-5 minutes). Outputs attitude data to flight displays and autopilot.",
     "exam_tip": "AHRS provides independent attitude; compares with magnetic compass for heading.",
@@ -4367,7 +4377,7 @@
   },
   {
     "code": "12.50.2",
-    "topic": "ELT Systems",
+    "topic": "12.50  -  ELT Systems",
     "syllabus_desc": "Describe the function and operation of an aircraft ELT.",
     "concept": "Emergency Locator Transmitter (ELT) transmits distress signals on 121.5 MHz and 406 MHz in event of aircraft accident or manual activation. Automatic ELTs (ELT-AF) activate on impact via G-switch detecting deceleration >5g. Manual ELTs (ELT-M) require crew activation. 406 MHz signals contain aircraft registration and location data enabling satellite detection (COSPAS-SARSAT system). Battery provides minimum 48 hours transmission. Antenna must be protected from damage to function properly.",
     "exam_tip": "ELT transmits on 406 MHz for satellite detection; 121.5 MHz for direction finding.",
@@ -4386,7 +4396,7 @@
   },
   {
     "code": "12.52.2",
-    "topic": "Cooling Systems",
+    "topic": "12.52  -  Cooling Systems",
     "syllabus_desc": "Describe the principle components of aircraft engine air and liquid cooling systems.",
     "concept": "Air-cooled engines: fins on cylinder heads/barrels dissipate heat directly to airflow; controlled via cowl flaps. Liquid-cooled systems: coolant circulates through engine jacket cooling passages, flows to radiator where airflow removes heat, then returns to engine. Components include: coolant pump (driven by engine), thermostat (maintains optimal temperature), radiator (heat exchanger), overflow tank, coolant hoses. Liquid systems more efficient but heavier.",
     "exam_tip": "Cowl flaps control air cooling; thermostat regulates liquid cooling temperature.",
@@ -4405,7 +4415,7 @@
   },
   {
     "code": "12.52.4(a)",
-    "topic": "Engine Cooling Systems",
+    "topic": "12.52  -  Cooling Systems",
     "syllabus_desc": "Explain the precautions to be taken in flight to prevent engine: Overheating",
     "concept": "Engine overheating occurs when cooling capacity cannot dissipate the heat generated during combustion. Causes include: high power settings, high ambient temperature, high humidity reducing air cooling efficiency, blockage of cooling airflow (debris, ice), thermostat failure (stuck closed), coolant pump failure, low coolant level, or high engine load (climb/high altitude cruise). Overheating causes cylinder head temperature to rise above maximum allowable limits, leading to detonation, piston/ring damage, and potential engine failure.",
     "exam_tip": "Overheating → detonation → engine damage. Check cooling system function and ambient conditions before high-power climbs.",
@@ -4426,7 +4436,7 @@
   },
   {
     "code": "12.52.4(b)",
-    "topic": "Engine Cooling Systems",
+    "topic": "12.52  -  Cooling Systems",
     "syllabus_desc": "Explain the precautions to be taken in flight to prevent engine: Overcooling",
     "concept": "Engine overcooling occurs when cooling capacity is excessive, allowing engine temperature to drop below the operating range. Causes include: high airspeed in descent (excessive cooling air), thermostat failure (stuck open), over-lenient cooling restrictions, or cold ambient conditions. Overcooling causes poor fuel atomization, incomplete combustion, increased engine wear, and inefficient operation. Cold engines produce more residual gases and higher friction.",
     "exam_tip": "Overcooling → poor combustion → rough running. Use cowl flaps and monitor CHT carefully in descent.",
@@ -4447,7 +4457,7 @@
   },
   {
     "code": "12.52.6",
-    "topic": "Cooling Systems",
+    "topic": "12.52  -  Cooling Systems",
     "syllabus_desc": "Explain the correct handling of engine cowl flaps when fitted.",
     "concept": "Cowl flaps are variable openings on engine cowling controlling airflow and cooling. Open cowl flaps fully for ground operations, takeoff, and climb (maximum cooling needed at high power). Close cowl flaps during cruise to reduce drag and improve speed/endurance. Monitor engine temperature continuously when adjusting flaps. During descent avoid complete closure initially as descent already increases cooling. Reopen flaps if temperature approaches limits. Most aircraft have cowl flap position indicator or temperature gauge to guide operation.",
     "exam_tip": "Open flaps for climb, close for cruise; always monitor engine temp.",
@@ -4466,7 +4476,7 @@
   },
   {
     "code": "12.54.2",
-    "topic": "Landing Gear - Fixed",
+    "topic": "12.54  -  Landing Gear - Fixed",
     "syllabus_desc": "Describe the two common types of undercarriage system (tricycle/tail wheel).",
     "concept": "Tricycle gear: nose wheel forward, two main wheels aft provides better ground handling and is easier to land. Nose wheel steerable, provides directional control on ground. Tail wheel gear: two main wheels forward, tail wheel aft provides better view during takeoff. Main wheels typically fixed (non-steerable), tail wheel swivels. Tail wheel prone to ground loop in strong crosswinds. Tricycle more stable and forgiving; tail wheel requires more skill.",
     "exam_tip": "Tricycle gear: easier to land and stable. Tail wheel: prone to ground loop.",
@@ -4485,7 +4495,7 @@
   },
   {
     "code": "12.54.4",
-    "topic": "Landing Gear - Fixed",
+    "topic": "12.54  -  Landing Gear - Fixed",
     "syllabus_desc": "Explain typical steering and braking systems.",
     "concept": "Steering: nose wheel steerable via control column or rudder pedal input (mechanical or hydraulic linkage). Tail wheel aircraft use rudder pedals connected to tail wheel via cable/mechanical linkage for steering. Braking: hydraulic disc brakes on main landing gear wheels, operated via brake pedals. Left pedal controls left brake, right pedal controls right brake. Independent braking allows differential braking for directional control. Brake fluid pressure gauges monitor system. Parking brake holds aircraft stationary.",
     "exam_tip": "Differential braking provides directional control on ground.",
@@ -4504,7 +4514,7 @@
   },
   {
     "code": "12.54.6",
-    "topic": "Landing Gear - Fixed",
+    "topic": "12.54  -  Landing Gear - Fixed",
     "syllabus_desc": "Explain the precautions for the use of each type.",
     "concept": "Tricycle precautions: avoid nose wheel shimmy through smooth braking and steering, don't land excessively nose-down (prop strike risk), ensure adequate taxi speed for steering effectiveness. Tail wheel precautions: maintain directional control to prevent ground loop, use forward slip if needed to increase visibility during landing, avoid sharp turns at speed, taxi slowly in crosswind to prevent sudden swerve, use differential braking cautiously to avoid inducing ground loop.",
     "exam_tip": "Tricycle: watch prop strike. Tail wheel: prevent ground loop.",
@@ -4523,7 +4533,7 @@
   },
   {
     "code": "12.56.2",
-    "topic": "Aeroplane Aerodynamic Theory",
+    "topic": "12.56  -  Aeroplane Aerodynamic Theory",
     "syllabus_desc": "Show how CL varies with use of flaps and control surfaces.",
     "concept": "Coefficient of Lift (CL) increases with flap extension through increased camber and effective wing area. With flaps fully retracted CL increases with angle of attack until stall angle. Extension of flaps increases maximum CL (stall limit increases), shifts lift curve leftward (lower stall airspeed), but increases drag significantly. Flap extension of 10-15 degrees increases CL gradually; beyond 40 degrees additional CL gain minimal while drag increases dramatically. Elevator deflection changes pitch attitude, changing angle of attack and thus CL. Ailerons primarily control roll but slight changes in CL occur due to induced drag differences.",
     "exam_tip": "Flaps increase CL and lower stall speed; more flaps = higher drag.",
@@ -4542,7 +4552,7 @@
   },
   {
     "code": "12.58.2",
-    "topic": "Basic Flying Controls",
+    "topic": "12.58  -  Basic Flying Controls",
     "syllabus_desc": "Define the aircraft axes of rotation, pitch, roll and yaw.",
     "concept": "Three aircraft axes intersect at center of gravity: Pitch axis (lateral axis) runs wing-tip to wing-tip, pitching motion around this axis moves nose up/down. Roll axis (longitudinal axis) runs nose to tail, rolling motion around this axis banks the wings. Yaw axis (vertical axis) points straight down through fuselage, yawing motion around this axis turns the nose left/right.",
     "exam_tip": "Pitch: nose up/down. Roll: wing up/down. Yaw: nose left/right.",
@@ -4560,7 +4570,7 @@
   },
   {
     "code": "12.58.4",
-    "topic": "Basic Flying Controls",
+    "topic": "12.58  -  Basic Flying Controls",
     "syllabus_desc": "Name the flying controls used to affect movement about each axis.",
     "concept": "Pitch control: elevator (on horizontal stabilizer tail surface) deflected by control column forward/back. Roll control: ailerons (on trailing edge of wings) deflected oppositely to bank the aircraft. Yaw control: rudder (on vertical stabilizer tail surface) deflected by rudder pedals to turn nose. Elevator controls pitch; ailerons control roll; rudder controls yaw. These are primary flight controls. Trim controls (elevator, aileron, rudder tabs) reduce control forces needed.",
     "exam_tip": "Elevator pitch, ailerons roll, rudder yaw.",
@@ -4578,18 +4588,16 @@
   },
   {
     "code": "12.58.6(a)",
-    "topic": "Attitude Indicator (AI) and Flight Display References",
+    "topic": "12.58  -  Basic Flying Controls",
     "syllabus_desc": "Explain how each flying control operates to achieve control of the: Pitch attitude",
-    "concept": "Pitch attitude is the angle between the aircraft's longitudinal axis and the horizon. The attitude indicator displays pitch attitude as the position of the artificial horizon line relative to the aircraft symbol. Pitch up (nose above horizon) is displayed above the horizon line; pitch down (nose below horizon) is displayed below. The display is scaled in degrees (typically 0°, 5°, 10°, 15°, 20°, 30°). The attitude indicator directly shows the aircraft's pitch without relying on airspeed or altitude inputs.",
-    "exam_tip": "Pitch attitude = angle of nose relative to horizon. On AI, horizon line shows pitch. Pitch and airspeed interact in performance.",
+    "concept": "Pitch attitude is controlled by the elevator (or stabilator on some aircraft), operated by moving the control column forward or backward. Pulling back on the column deflects the elevator trailing edge upward, which decreases the lift on the tailplane and causes the tail to drop — the nose pitches up. Pushing forward does the opposite: elevator deflects down, tail rises, nose pitches down. The amount of pitch change depends on how much you move the column and your airspeed — at higher speeds, the controls are more effective because there's more airflow over the elevator. Trim is used to hold a pitch attitude without constant control column pressure.",
+    "exam_tip": "Elevator controls pitch via the control column. Back = nose up, forward = nose down. Controls are more effective at higher speeds (more airflow over surfaces).",
     "key_facts": [
-      "Pitch attitude is nose angle relative to horizon",
-      "Positive pitch = nose above horizon",
-      "Negative pitch = nose below horizon",
-      "AI displays pitch scale in degrees",
-      "Independent of airspeed or altitude",
-      "Critical for aircraft control",
-      "Used with bank angle for 3-D aircraft orientation"
+      "Elevator (or stabilator) controls pitch, operated by control column fore/aft",
+      "Column back = elevator up = nose pitches up",
+      "Column forward = elevator down = nose pitches down",
+      "Control effectiveness increases with airspeed",
+      "Trim relieves the need for constant control pressure to maintain pitch"
     ],
     "source": "Stoneybrook AU Module 1.2, NZ CAA AC 61-3 Rev 25 §12.58.6(a)",
     "confidence": "high",
@@ -4598,19 +4606,16 @@
   },
   {
     "code": "12.58.6(b)",
-    "topic": "Attitude Indicator (AI) and Flight Display References",
+    "topic": "12.58  -  Basic Flying Controls",
     "syllabus_desc": "Explain how each flying control operates to achieve control of the: Bank angle",
-    "concept": "Bank angle is the angle between the aircraft's lateral (wing) axis and the horizon. The attitude indicator displays bank angle using a roll pointer that rotates around the instrument face and aligns with degree markings (typically 0°, 5°, 10°, 15°, 20°, 30°, 45°, 60°). A bank angle of 0° indicates wings level (pointer at top). A bank angle of 20° right has the pointer 20° right of top. Bank angle is independent of pitch attitude and is the primary reference for turns.",
-    "exam_tip": "Bank angle = wing tilt relative to horizon. Roll pointer shows degrees of bank. Essential for instrument flying and turns.",
+    "concept": "Bank angle is controlled by the ailerons, operated by rotating the control wheel (or moving the stick laterally). When you turn the wheel left, the left aileron goes up and the right aileron goes down. The raised aileron reduces lift on that wing while the lowered aileron increases lift on the other — the aircraft rolls left. The ailerons work differentially on most aircraft, meaning the up-going aileron deflects more than the down-going one. This is to counteract adverse yaw: the wing with the lowered aileron produces more drag as well as more lift, which would otherwise yaw the nose towards the raised wing. You use rudder to coordinate the turn and overcome any remaining adverse yaw.",
+    "exam_tip": "Ailerons control bank. They work differentially to reduce adverse yaw. Adverse yaw occurs because the down-going aileron creates more drag. Always coordinate with rudder.",
     "key_facts": [
-      "Bank angle is wing tilt relative to horizon",
-      "Displayed using roll pointer on AI",
-      "Degree scale shows bank angle increment",
-      "0° = wings level (pointer at top)",
-      "Positive bank = right roll pointer deflection",
-      "Negative bank = left roll pointer deflection",
-      "Independent of pitch attitude",
-      "Critical reference for turns and level flight"
+      "Ailerons control bank angle, operated by control wheel rotation (or stick lateral movement)",
+      "Wheel left = left aileron up, right aileron down = roll left",
+      "Differential ailerons: up-going deflects more to reduce adverse yaw",
+      "Adverse yaw: increased drag from lowered aileron tries to yaw nose wrong way",
+      "Rudder used to coordinate turn and overcome adverse yaw"
     ],
     "source": "Stoneybrook AU Module 1.2, NZ CAA AC 61-3 Rev 25 §12.58.6(b)",
     "confidence": "high",
@@ -4619,19 +4624,16 @@
   },
   {
     "code": "12.58.6(c)",
-    "topic": "Attitude Indicator (AI) and Flight Display References",
+    "topic": "12.58  -  Basic Flying Controls",
     "syllabus_desc": "Explain how each flying control operates to achieve control of the: Yaw",
-    "concept": "Yaw is rotation about the aircraft's vertical (Z) axis. The attitude indicator does not directly display yaw, but yaw is indicated by the heading indicator/compass card at the top of the attitude indicator display. Yaw rate is the rate of change of heading in degrees per second. The heading reference shows the magnetic direction the aircraft is pointing (0°-360°) and changes as the aircraft yaws left or right. Yaw is controlled by rudder input and is separate from banking.",
-    "exam_tip": "Yaw = rotation about vertical axis. Heading indicator shows direction aircraft points. Yaw ≠ bank. Rudder controls yaw.",
+    "concept": "Yaw is controlled by the rudder, operated by the rudder pedals. Press the left pedal and the rudder deflects left, creating a sideways aerodynamic force on the fin and rudder that swings the tail to the right and the nose to the left. The rudder does NOT turn the aircraft in the conventional sense — it controls yaw. In normal flight, you use the rudder mainly to coordinate turns (preventing slip or skid), to counteract adverse yaw from the ailerons, and to keep the aircraft balanced in asymmetric situations like a crosswind landing or an engine failure on a multi-engine aircraft. The ball in the slip indicator tells you if you need more or less rudder.",
+    "exam_tip": "Rudder controls yaw via the rudder pedals. Left pedal = nose left. Used for coordination in turns, not to 'steer' the aircraft. 'Step on the ball' — if the ball is left, press left pedal.",
     "key_facts": [
-      "Yaw is rotation about vertical Z axis",
-      "Displayed on heading indicator (compass rose)",
-      "Shows magnetic direction aircraft points (0-360°)",
-      "Yaw rate = rate of heading change",
-      "Controlled by rudder input",
-      "Independent of pitch and bank",
-      "Critical for coordinated flight",
-      "Separate from bank/turn indicator"
+      "Rudder controls yaw, operated by rudder pedals",
+      "Left pedal = rudder deflects left = nose yaws left",
+      "Rudder does not 'turn' the aircraft — it controls yaw",
+      "Used to coordinate turns, counteract adverse yaw, and handle crosswinds",
+      "Slip indicator ball shows if rudder input is correct (step on the ball)"
     ],
     "source": "Stoneybrook AU Module 1.2, NZ CAA AC 61-3 Rev 25 §12.58.6(c)",
     "confidence": "high",
@@ -4640,7 +4642,7 @@
   },
   {
     "code": "12.58.8",
-    "topic": "Basic Flying Controls",
+    "topic": "12.58  -  Basic Flying Controls",
     "syllabus_desc": "Explain the cross-coupling (further) effects of control in roll and yaw.",
     "concept": "Cross-coupling effects arise from simultaneous motion about multiple axes. In a roll, the outer wing has higher relative velocity increasing its lift; this causes a yawing moment opposite to roll direction (adverse yaw). Rudder application creates a yawing moment which, if uncoordinated, causes secondary roll due to cross-coupling. Banking in a climb causes pitch change due to changing vertical component of lift. Rolling while rolling causes complex motion; pure roll rarely occurs without coordinated rudder. Dutch roll occurs if rolling oscillation couples with yawing oscillation.",
     "exam_tip": "Adverse yaw opposes roll; use rudder to coordinate turn.",
@@ -4659,7 +4661,7 @@
   },
   {
     "code": "12.58.10",
-    "topic": "Basic Flying Controls",
+    "topic": "12.58  -  Basic Flying Controls",
     "syllabus_desc": "Explain the effects of airspeed and power settings on control effectiveness and aircraft attitude.",
     "concept": "Control effectiveness increases with airspeed because aerodynamic forces depend on dynamic pressure (0.5 x rho x V squared). At low airspeed, control deflections produce minimal response; at high airspeed, same control input produces large response. Power setting affects attitude through thrust line location (usually above center of gravity creating pitch-up moment). Increasing power tends to pitch nose up; reducing power pitches nose down. High power at low speed demands high angle of attack, low power allows lower angle of attack. Airspeed changes require attitude adjustment to maintain level flight.",
     "exam_tip": "Low speed = weak controls; high speed = strong controls. Power pitches nose.",
@@ -4678,7 +4680,7 @@
   },
   {
     "code": "12.58.12",
-    "topic": "Basic Flying Controls",
+    "topic": "12.58  -  Basic Flying Controls",
     "syllabus_desc": "Explain the function of a basic trim control.",
     "concept": "Trim controls (tabs on elevator, aileron, rudder) adjust control surfaces to zero deflection position at desired airspeed, reducing pilot control force requirement. Elevator trim adjusts to achieve hands-off pitch attitude; excessive trim change from neutral warns of CG shift or configuration change. Aileron trim corrects for fuel imbalance or wing damage. Rudder trim reduces rudder pedal force for coordinated flight. Trim must be readjusted when airspeed or configuration (flaps, gear) changes. Excessive trim deflection from neutral indicates problem requiring investigation.",
     "exam_tip": "Trim reduces control forces; large changes indicate problem.",
@@ -4697,7 +4699,7 @@
   },
   {
     "code": "12.58.14",
-    "topic": "Basic Flying Controls",
+    "topic": "12.58  -  Basic Flying Controls",
     "syllabus_desc": "Explain the requirement for the balancing of controls.",
     "concept": "Controls require aerodynamic and mechanical balancing to prevent flutter and reduce control forces. Flutter occurs if aerodynamic forces exceed structural stiffness, causing oscillation and potential structural failure. Balance involves: (1) moving control surface hinge axis forward of center of pressure (horn balance); (2) adding balance weight forward of hinge axis (weight balance); (3) providing aerodynamic relief through horn or balance tab. Without balance, large control forces required, flutter risk high, control response sluggish. Balance maintained through design; pilot must use trim to reduce residual forces.",
     "exam_tip": "Balance prevents flutter and reduces control forces.",
@@ -4716,7 +4718,7 @@
   },
   {
     "code": "12.58.16",
-    "topic": "Basic Flying Controls",
+    "topic": "12.58  -  Basic Flying Controls",
     "syllabus_desc": "Explain the correct method for the use of trim controls.",
     "concept": "Establish desired airspeed and configuration first, then adjust trim to achieve hands-off pitch attitude. For elevator trim: pitch to desired attitude using control column, hold attitude, smoothly adjust trim until control pressure zero. For aileron trim: establish desired bank angle, adjust trim until no sideways pressure. For rudder trim: coordinate turn using rudder, adjust trim until feet neutral. Never chase speed with trim; trim is for force removal, not speed control. Always verify trim is within normal range; excessive deflection from neutral indicates problem. Reset trim before significant configuration change (flaps, gear, speed).",
     "exam_tip": "Establish attitude first, then trim for zero force.",
@@ -4735,7 +4737,7 @@
   },
   {
     "code": "12.58.18",
-    "topic": "Basic Flying Controls",
+    "topic": "12.58  -  Basic Flying Controls",
     "syllabus_desc": "State the methods used to obtain aerodynamic balance.",
     "concept": "Aerodynamic balance achieved through: (1) Horn balance: part of control surface protrudes ahead of hinge axis providing aerodynamic relief (reduces control deflection needed); (2) Servobalance or overhang: percentage of control surface ahead of hinge axis; (3) Balance tab: auxiliary tab on control surface that moves opposite to control, reducing force required; (4) Antibalance tab: moves with control surface to intentionally increase force (on all-moving surfaces). Most practical aircraft use combination: horn balance for basic relief plus balance tab for fine-tuning. Design ensures control force within pilot capability across speed range.",
     "exam_tip": "Horn balance projects ahead of hinge axis for aerodynamic relief.",
@@ -4754,7 +4756,7 @@
   },
   {
     "code": "12.58.20",
-    "topic": "Basic Flying Controls",
+    "topic": "12.58  -  Basic Flying Controls",
     "syllabus_desc": "Explain the requirement for using anti-balance tabs on an all-moving tailplane.",
     "concept": "All-moving (flying) tailplane rotates entirely about hinge axis with no fixed surface. This design is aerodynamically efficient but creates large hinge moment changes. Without anti-balance tab, control force would be excessively light at high speed (flutter risk) and heavy at low speed. Anti-balance tab moves WITH the tailplane (not opposing it), providing additional moment that increases control force, maintaining proper force gradient across speed range. Anti-balance tab keeps control force manageable and prevents flutter. Electronic stability augmentation systems can supplement or replace mechanical anti-balance tabs.",
     "exam_tip": "Anti-balance tab moves WITH control to prevent flutter.",
@@ -4773,7 +4775,7 @@
   },
   {
     "code": "12.58.22",
-    "topic": "Basic Flying Controls",
+    "topic": "12.58  -  Basic Flying Controls",
     "syllabus_desc": "Describe the principle of operation of anti-balance tabs.",
     "concept": "Anti-balance tab is small auxiliary tab mechanically linked to main control surface (tailplane) via rigid linkage. When pilot pulls control input, both tailplane and anti-balance tab move together simultaneously. Tab creates additional aerodynamic moment opposing the control deflection, effectively increasing control force required. This increased force provides natural feel and prevents over-control. Rigidity of linkage ensures fixed relationship; tab cannot flutter independently. Mechanical advantage of linkage determines effectiveness. System maintains control force proportional to airspeed, preventing excessive response at high speed or insufficient response at low speed.",
     "exam_tip": "Anti-balance tab moves with control; increases force required.",
@@ -4792,7 +4794,7 @@
   },
   {
     "code": "12.58.24",
-    "topic": "Basic Flying Controls",
+    "topic": "12.58  -  Basic Flying Controls",
     "syllabus_desc": "Explain the purpose of wing flaps.",
     "concept": "Wing flaps increase wing camber and effective area, increasing maximum coefficient of lift (CL-max), thereby reducing stall speed. Primary purpose: reduce landing distance by increasing lift at low airspeed, allowing shallower descent angle and shorter ground roll. Secondary benefits: increase drag for descent control, improve slow-speed handling. Extended flaps allow takeoff at shorter distance and from higher-altitude airfields. Flap extension increases drag significantly, so extended flaps limit cruise speed and endurance. Flaps are extension of trailing edge that rotate downward (and sometimes rearward) to change wing shape.",
     "exam_tip": "Flaps lower stall speed and increase drag for landing.",
@@ -4811,7 +4813,7 @@
   },
   {
     "code": "12.58.26",
-    "topic": "Basic Flying Controls",
+    "topic": "12.58  -  Basic Flying Controls",
     "syllabus_desc": "Describe the principle of operation of wing flaps.",
     "concept": "Wing flaps are surfaces on trailing edge of wing, typically extending and rotating downward via mechanical linkage or hydraulic actuation. Simple designs: Plain flap (trailing edge rotates down), Split flap (undersurface rotates down). Complex designs: Slotted flap (extension and rotation with slot allowing airflow), Fowler flap (extends rearward and rotates, increasing wing area and camber significantly). Flap angle typically 0-40 degrees; initial 10-15 degrees provides best lift-to-drag ratio for takeoff; 30-40 degrees for landing. Actuation: manual lever, electrical switch, or fully automated. Cross-ribs and tracks guide motion.",
     "exam_tip": "Flaps extend and rotate to change wing shape.",
@@ -4830,7 +4832,7 @@
   },
   {
     "code": "12.60.2",
-    "topic": "Straight and Level Flight",
+    "topic": "12.60  -  Straight and Level Flight",
     "syllabus_desc": "Define the four main forces acting in flight.",
     "concept": "Four main forces: (1) Weight (W) acts vertically downward through center of gravity; (2) Lift (L) acts perpendicular to relative airflow (wing); (3) Thrust (T) acts along engine axis forward; (4) Drag (D) acts parallel to relative airflow, opposing motion. In straight level flight: Lift equals Weight (L=W), Thrust equals Drag (T=D). These force pairs create equilibrium allowing sustained level flight without acceleration.",
     "exam_tip": "L=W and T=D in straight and level flight.",
@@ -4849,7 +4851,7 @@
   },
   {
     "code": "12.60.4",
-    "topic": "Straight and Level Flight",
+    "topic": "12.60  -  Straight and Level Flight",
     "syllabus_desc": "For level flight describe how the four main forces change as IAS is varied.",
     "concept": "As IAS increases: drag increases (proportional to V-squared), lift increases proportionally, weight unchanged, so thrust must increase to balance increased drag. As IAS decreases: drag decreases, lift must increase to maintain altitude (angle of attack increases), thrust can decrease slightly. At minimum level flight speed, drag is minimum (best lift-to-drag ratio). Below minimum speed, further speed reduction requires excessive angle of attack, drag increases again, leading toward stall. Maximum level flight speed limited by available power/thrust. Aircraft naturally stabilizes at speed where thrust available equals power required at current power setting.",
     "exam_tip": "Drag increases with speed squared; minimum drag at L/D-max airspeed.",
@@ -4868,7 +4870,7 @@
   },
   {
     "code": "12.60.6",
-    "topic": "Straight and Level Flight",
+    "topic": "12.60  -  Straight and Level Flight",
     "syllabus_desc": "Describe the pitching moments in flight, and how longitudinal stability is achieved.",
     "concept": "Pitching moments arise from: (1) Weight and lift (moment arm between CG and wing lift center); (2) Tail surface (horizontal stabilizer creates pitch moment). Aircraft has longitudinal stability when tail provides restoring moment opposite to any pitch disturbance. Horizontal stabilizer positioned aft of CG, producing downward force increasing with nose-down pitch (restoring). CG location critical: too far forward = excessive trim force, unstable; too far aft = insufficient restoring moment, unstable. Neutral point is CG location where stability is zero; margin of stability is distance between actual CG and neutral point. Positive static stability produces small oscillations after disturbance (stable). Short-period pitching oscillation damps out in stable aircraft.",
     "exam_tip": "Tail creates restoring moment; CG forward of neutral point = stable.",
@@ -4887,7 +4889,7 @@
   },
   {
     "code": "12.60.8(a)",
-    "topic": "Aircraft Performance",
+    "topic": "12.60  -  Straight and Level Flight",
     "syllabus_desc": "Given a basic graph of power available (PA) and power required (PR) versus TAS in level flight, show the derivation of: Maximum and minimum level flight speed",
     "concept": "The Power Available (PA) vs Total Air Speed (TAS) graph shows the relationship between power required for level flight and airspeed. Maximum level flight speed occurs where Power Available (engine power curve) intersects Power Required at full throttle. Below this speed, power available exceeds power required. Minimum level flight speed is the speed at which Power Required is minimum (the bottom of the power required curve). At speeds below minimum speed in level flight, power required increases due to increased induced drag, and the aircraft cannot sustain level flight without descending.",
     "exam_tip": "Max speed = where PA curve meets engine power. Min speed = bottom of PR curve (stall speed or min drag speed). Exam expects both from graph.",
@@ -4908,7 +4910,7 @@
   },
   {
     "code": "12.60.8(b)",
-    "topic": "Aircraft Performance",
+    "topic": "12.60  -  Straight and Level Flight",
     "syllabus_desc": "Given a basic graph of power available (PA) and power required (PR) versus TAS in level flight, show the derivation of: Maximum-range speed",
     "concept": "Maximum-range speed is the airspeed at which the aircraft can fly the farthest distance on a given quantity of fuel. This occurs where the ratio of TAS to Power Required (TAS/PR) is maximum, which graphically is where a line from the origin is tangent to the Power Required curve. At maximum-range speed, fuel burn per nautical mile is minimized. This speed is typically about 1.3-1.5 times the stall speed and is lower than maximum-endurance speed.",
     "exam_tip": "Max-range speed minimizes fuel per distance. Tangent from origin to PR curve. Use for ferry flights or when distance is priority.",
@@ -4929,7 +4931,7 @@
   },
   {
     "code": "12.60.8(c)",
-    "topic": "Aircraft Performance",
+    "topic": "12.60  -  Straight and Level Flight",
     "syllabus_desc": "Given a basic graph of power available (PA) and power required (PR) versus TAS in level flight, show the derivation of: Maximum endurance speed",
     "concept": "Maximum-endurance speed is the airspeed at which the aircraft can remain airborne for the longest time on a given quantity of fuel. This occurs where Power Required (fuel burn rate) is minimum, which is at the bottom of the Power Required curve. At maximum-endurance speed, power consumption per unit time is minimized, allowing maximum flight duration. This speed is typically about 1.1-1.3 times the stall speed and is lower than maximum-range speed.",
     "exam_tip": "Max-endurance speed minimizes power (fuel per time). Bottom of PR curve. Use for holding patterns, delay circuits, emergency situations.",
@@ -4950,7 +4952,7 @@
   },
   {
     "code": "12.60.10",
-    "topic": "Straight and Level Flight",
+    "topic": "12.60  -  Straight and Level Flight",
     "syllabus_desc": "Explain the basic operational considerations which apply to flying an aeroplane for range, or endurance.",
     "concept": "For maximum range: fly at best-range speed (higher speed, acceptable fuel burn for distance covered), lean mixture for fuel efficiency, climb to altitude for lower fuel consumption, avoid headwind (or maximize tailwind), constant speed trim for efficiency. For maximum endurance: fly at best-endurance speed (lowest fuel consumption per hour), lean mixture, maintain economical cruise power, expect longest time aloft but shorter distance. Practical operations balance range/endurance with schedule, wind forecast, and fuel reserve requirements. Altitude affects both: higher altitude typically improves range/endurance efficiency (thinner air, less drag, less power required).",
     "exam_tip": "Range: maximize distance; endurance: maximize time. Lean mixture both.",
@@ -4969,7 +4971,7 @@
   },
   {
     "code": "12.62.2",
-    "topic": "Climbing Flight",
+    "topic": "12.62  -  Climbing Flight",
     "syllabus_desc": "Using a diagram, show and name the forces acting in a steady climb.",
     "concept": "In steady climb: Weight (W) acts vertically downward; Lift (L) acts perpendicular to wing (at climb angle), component opposing weight is L-cos(climb-angle), component along flight path is L-sin(climb-angle); Thrust (T) acts along flight path forward; Drag (D) acts opposite flight path. For steady climb: Lift component up must exceed weight component, creating excess vertical force; Thrust must exceed Drag plus Weight component along descent. Excess power (Power available minus Power required) converts to rate of climb. Climb angle increases with excess thrust, decreases with weight.",
     "exam_tip": "Climbing forces: L > W vertically; T > D along flight path.",
@@ -4988,7 +4990,7 @@
   },
   {
     "code": "12.62.4(a)",
-    "topic": "Climb Performance",
+    "topic": "12.62  -  Climbing Flight",
     "syllabus_desc": "Distinguish between: Maximum angle of climb",
     "concept": "Maximum angle of climb is the steepest pitch angle achievable, providing the greatest height gain per horizontal distance traveled. It is achieved at the airspeed where the excess power (PA minus PR) is maximum. This typically occurs at a lower airspeed than maximum rate of climb (around 1.2-1.3 × stall speed). Maximum angle of climb is critical for obstacle clearance after takeoff, especially from short airfields with obstacles nearby. Excess power × velocity = climb rate; maximizing excess power gives steepest angle.",
     "exam_tip": "Max angle of climb for obstacle clearance. Slower than max-rate-of-climb speed. Pitch up, reduce speed slightly from cruise.",
@@ -5009,7 +5011,7 @@
   },
   {
     "code": "12.62.4(b)",
-    "topic": "Climb Performance",
+    "topic": "12.62  -  Climbing Flight",
     "syllabus_desc": "Distinguish between: Maximum rate of climb",
     "concept": "Maximum rate of climb is the greatest vertical speed achievable, providing the most height gain per unit time. It is achieved at the airspeed where the product of excess power and velocity (excess power × TAS = ROC) is maximum. This typically occurs at a higher airspeed than maximum angle of climb (around 1.5-1.7 × stall speed). On a power available vs power required graph, maximum rate of climb occurs where excess power (PA − PR) is greatest. Maximum rate of climb is used for en-route climbing to cruise altitude.",
     "exam_tip": "Max rate of climb maximizes feet per minute. Slightly faster than max-angle speed. Used for normal climbs to cruise.",
@@ -5030,7 +5032,7 @@
   },
   {
     "code": "12.62.4(c)",
-    "topic": "Climb Performance",
+    "topic": "12.62  -  Climbing Flight",
     "syllabus_desc": "Distinguish between: Cruise climb",
     "concept": "Cruise climb is a shallow climb at a comfortable airspeed, typically around cruise speed or slightly below, maintaining good forward speed while gaining altitude. It is a compromise between maximum rate of climb and cruise speed, used for en-route climbing when obstacle clearance is not critical. Cruise climb is more efficient in terms of time to altitude compared to maximum angle of climb, and more comfortable for the aircraft and occupants than a steep climb. It allows the pilot to maintain reasonable airspeed and visibility while climbing to cruise altitude.",
     "exam_tip": "Cruise climb balances speed and climb rate. Slightly above best-rate airspeed. Comfortable long-duration climb.",
@@ -5051,7 +5053,7 @@
   },
   {
     "code": "12.62.6",
-    "topic": "Climbing Flight",
+    "topic": "12.62  -  Climbing Flight",
     "syllabus_desc": "Define the meaning of Vx (max angle) and Vy (max rate).",
     "concept": "Vx (maximum angle of climb speed): airspeed at which excess power (excess thrust) converted to climb provides steepest climb angle with ground. Occurs where tangent from origin touches excess power curve. Lower than Vy. Vx determines maximum altitude gain per horizontal distance, critical for obstacle clearance immediately after takeoff. Vy (maximum rate of climb speed): airspeed at which excess power provides steepest slope on power graph, giving maximum rate of altitude gain per unit time. Occurs where excess power is maximum. Higher than Vx. Vy determines quickest climb to altitude.",
     "exam_tip": "Vx = steepest climb angle; Vy = maximum climb rate.",
@@ -5070,7 +5072,7 @@
   },
   {
     "code": "12.62.8",
-    "topic": "Climbing Flight",
+    "topic": "12.62  -  Climbing Flight",
     "syllabus_desc": "Using a PA/PR (power available/power required) graph, show the derivation of maximum rate of climb speed.",
     "concept": "On Power Available vs Power Required graph: (1) Plot power required curve across airspeed range (shows power needed to maintain level flight at each speed). (2) Plot power available line (constant available power from engine at given RPM/setting). (3) Vertical separation between PA and PR curves represents excess power available for climb. (4) Maximum vertical separation occurs at Vy; at this point, excess power is greatest. (5) Vy is the airspeed corresponding to maximum vertical gap between PA and PR curves. Rate of climb equals (Excess Power) / Weight; Vy produces steepest climb rate. Graph shows that increasing power available (higher RPM) shifts PA line upward, increasing climb capability and raising Vy.",
     "exam_tip": "Vy = maximum vertical gap between PA and PR curves.",
@@ -5089,7 +5091,7 @@
   },
   {
     "code": "12.62.10",
-    "topic": "Climbing Flight",
+    "topic": "12.62  -  Climbing Flight",
     "syllabus_desc": "Briefly explain the factors which affect climb performance.",
     "concept": "Climb factors: (1) Power available: higher power enables better climb (limited by engine power, ambient pressure, temperature). (2) Aircraft weight: heavier aircraft requires more power to climb (excess power decreases). (3) Density altitude: high altitude or hot day reduces engine power and air density (worse climb performance). (4) Configuration: flaps extended increases drag (worse climb), gear extended increases drag (worse climb). (5) Pitch attitude/airspeed: must maintain Vy for maximum rate or Vx for maximum angle. (6) Engine temperature: overheating limits climb power. (7) Fuel: heavy fuel load reduces rate of climb. Practical climbs balance these factors: climb to best density-altitude performance, lean mixture at altitude for power, monitor engine temperature, maintain efficient climb speed.",
     "exam_tip": "Density altitude most critical; climb at Vy for maximum rate.",
@@ -5108,7 +5110,7 @@
   },
   {
     "code": "12.64.2",
-    "topic": "Descending Flight",
+    "topic": "12.64  -  Descending Flight",
     "syllabus_desc": "Identify and name the forces acting in a glide.",
     "concept": "In steady glide (no engine power): Weight (W) acts vertically downward; Lift (L) acts perpendicular to flight path; Drag (D) acts along flight path opposing motion. No thrust. For steady glide: Lift component perpendicular to descent equals weight component normal to descent path; Weight component along descent path equals drag component along descent. Glide angle is shallow when lift/drag ratio is high. Steeper glide occurs when L/D decreases (extended flaps or higher drag).",
     "exam_tip": "Glide: L perpendicular to path, W component balances drag.",
@@ -5127,7 +5129,7 @@
   },
   {
     "code": "12.64.4",
-    "topic": "Descending Flight",
+    "topic": "12.64  -  Descending Flight",
     "syllabus_desc": "Explain how the forces in a glide become modified in a constant speed power on descent.",
     "concept": "In constant-speed power-on descent (descending cruise): Thrust added along flight path reduces requirement for gravity to provide descent force. Engine provides partial support of weight. At shallow descent angle: Lift still balances most of weight (slightly less); Thrust plus small weight component down balance Drag. Pilot controls descent rate by varying power: more power reduces descent rate, less power increases descent rate. In steady descent: rate constant, forces balanced about descent path. Aircraft maintains constant airspeed through pitch control; power adjustment controls descent rate without changing speed.",
     "exam_tip": "Power-on descent: thrust reduces required descent angle.",
@@ -5146,7 +5148,7 @@
   },
   {
     "code": "12.64.6",
-    "topic": "Descending Flight",
+    "topic": "12.64  -  Descending Flight",
     "syllabus_desc": "Explain how the lift/drag ratio determines a constant speed glide angle.",
     "concept": "Lift/Drag ratio (L/D or efficiency) equals glide ratio. In no-power glide at steady descent: Weight component along flight path (W-sin-glide-angle) equals Drag. Weight component perpendicular to path equals Lift. Glide angle determined by: tan(glide-angle) = Drag / Lift = 1 / (L/D). High L/D (efficient wing) produces shallow glide angle and long distance from given altitude. Low L/D (draggy configuration like extended flaps) produces steep glide angle. Example: L/D of 10 means for every 10 units forward, aircraft descends 1 unit. Maximum L/D occurs at angle of attack providing best efficiency, typically near cruise speed with flaps retracted.",
     "exam_tip": "Glide angle = inverse of L/D ratio.",
@@ -5165,7 +5167,7 @@
   },
   {
     "code": "12.64.8",
-    "topic": "Descending Flight",
+    "topic": "12.64  -  Descending Flight",
     "syllabus_desc": "Briefly explain the effects of weight, IAS, wind, and flap extension on the glide angle.",
     "concept": "Weight: heavier aircraft glides at same angle but at higher airspeed; weight doesn't change glide angle, only glide speed. IAS: glide angle unchanged by changing speed; L/D ratio remains same at each angle of attack, so glide angle fixed. Wind: headwind shortens glide distance (same angle, slower ground speed), tailwind extends distance; wind doesn't change glide angle but changes ground distance. Flap extension: increases drag, lowers L/D, increases glide angle (steeper), reduces glide distance. Flaps should be retracted initially in power-off descent to maximize glide distance, extended only for landing approach.",
     "exam_tip": "Flaps steepen glide; wind changes ground distance not angle.",
@@ -5184,7 +5186,7 @@
   },
   {
     "code": "12.66.2",
-    "topic": "Turning Flight",
+    "topic": "12.66  -  Turning Flight",
     "syllabus_desc": "Define centripetal force.",
     "concept": "Centripetal force is net inward force required to change aircraft direction and maintain circular path. In a level turn, horizontal component of lift provides centripetal force (toward center of turn). Centripetal force = (Weight × Velocity-squared) / (Gravity × Radius). Larger centripetal force needed for: higher speed (increases with V-squared), tighter turn radius (smaller R increases force), or higher load factor. Aircraft cannot turn without centripetal force; magnitude of force determines turn rate and radius.",
     "exam_tip": "Centripetal force = inward force for circular path.",
@@ -5203,7 +5205,7 @@
   },
   {
     "code": "12.66.4(a)",
-    "topic": "Aircraft Aerodynamic Forces in Flight",
+    "topic": "12.66  -  Turning Flight",
     "syllabus_desc": "Explain the components of lift which provide the: Turning force",
     "concept": "In a turn, the lift force has two components: (1) vertical component = weight (to balance weight and maintain altitude), and (2) horizontal component (toward center of turn) = centripetal force, which causes the change in direction. This horizontal component is the turning force. The greater the bank angle, the larger the horizontal (centripetal) component of lift. The turning force is proportional to bank angle and the total lift force: turning force = lift × sin(bank angle). This is why steeper banks result in tighter turns.",
     "exam_tip": "Turning force is horizontal component of lift. Bank angle splits lift into vertical (up) and horizontal (turning).",
@@ -5224,7 +5226,7 @@
   },
   {
     "code": "12.66.4(b)",
-    "topic": "Aircraft Aerodynamic Forces in Flight",
+    "topic": "12.66  -  Turning Flight",
     "syllabus_desc": "Explain the components of lift which provide the: Force required opposing weight",
     "concept": "In a turn, the vertical component of lift must equal the aircraft's weight to maintain altitude and prevent descent or climb. As the aircraft banks, the total lift force is tilted, and only the vertical component opposes weight. The vertical component of lift = lift × cos(bank angle). In a level turn, this vertical component must remain equal to weight. To maintain altitude during a turn, total lift must increase to compensate for the tilted lift vector. The greater the bank angle, the larger the ratio of total lift to weight required to maintain level flight.",
     "exam_tip": "Vertical lift component = weight (to hold altitude). At 60° bank, need 2× lift to stay level. Stall speed increases in turns.",
@@ -5245,7 +5247,7 @@
   },
   {
     "code": "12.66.6",
-    "topic": "Turning Flight",
+    "topic": "12.66  -  Turning Flight",
     "syllabus_desc": "Define load factor \"g\".",
     "concept": "Load factor (g) is ratio of total lift to weight in maneuvering flight: g = Lift / Weight. In level flight, g = 1. In a 20° bank turn, g = 1 / cos(20°) ≈ 1.06. In a 60° bank turn, g ≈ 2. Load factor increases rapidly with bank angle (exponential relationship). High load factor increases stall speed: Vs-turn = Vs-level × √g. Structural limit typically 3-6g for general aviation aircraft; aerobatic aircraft 9-10g. Pilot experiences apparent weight increase equal to g; 2g feels like twice normal weight. Prolonged high-g maneuvers cause pilot fatigue and G-induced Loss Of Consciousness (G-LOC).",
     "exam_tip": "Load factor g = Lift/Weight; increases exponentially with bank.",
@@ -5264,7 +5266,7 @@
   },
   {
     "code": "12.66.8",
-    "topic": "Turning Flight",
+    "topic": "12.66  -  Turning Flight",
     "syllabus_desc": "In a level turn, state the relationship between bank angle and lift, drag, and load factor.",
     "concept": "Level turn relationships: (1) Bank angle increases: centripetal component of lift increases (proportional to sin-bank); vertical component decreases (proportional to cos-bank). (2) Total lift must increase to maintain vertical component = weight (L = W / cos-bank), so required lift increases with bank. (3) Increased lift requires increased angle of attack, which increases drag significantly (drag ∝ angle-of-attack-squared). (4) Load factor g = 1 / cos(bank-angle). At 0° bank g=1; at 20° bank g≈1.06; at 45° bank g≈1.41; at 60° bank g≈2.0. Steeper bank dramatically increases both lift requirement and drag, requiring more engine power to maintain altitude and airspeed.",
     "exam_tip": "Bank increase: lift increases by 1/cos(angle), load factor rises.",
@@ -5283,7 +5285,7 @@
   },
   {
     "code": "12.66.10(a)",
-    "topic": "Turn Performance and Radius",
+    "topic": "12.66  -  Turning Flight",
     "syllabus_desc": "State the relationship between the turn radius and rate of turn at a given;: Airspeed",
     "concept": "Turn radius is directly proportional to the square of airspeed (R ∝ V²). Doubling airspeed quadruples turn radius. This means high-speed aircraft (jets) have much larger turn radii than slow aircraft. Rate of turn is inversely proportional to airspeed (ω ∝ 1/V). A slower aircraft can turn more sharply and complete a turn in less time than a faster aircraft at the same bank angle. For a given bank angle, decreasing speed increases rate of turn and decreases turn radius, while increasing speed decreases rate of turn and increases turn radius.",
     "exam_tip": "Airspeed affects turn performance: slow = tight turn, fast = shallow turn. High-speed aircraft need gentle bank angles for air traffic.",
@@ -5304,7 +5306,7 @@
   },
   {
     "code": "12.66.10(b)",
-    "topic": "Turn Performance and Radius",
+    "topic": "12.66  -  Turning Flight",
     "syllabus_desc": "State the relationship between the turn radius and rate of turn at a given;: Bank angle",
     "concept": "Turn radius is inversely proportional to the tangent of bank angle (R ∝ 1/tan(Φ)). Increasing bank angle decreases turn radius. A 30° bank gives a larger radius than a 20° bank. Rate of turn is proportional to the tangent of bank angle (ω ∝ tan(Φ)). Increasing bank angle increases rate of turn. A 60° bank produces a much tighter turn (smaller radius, faster rate) than a 20° bank. The relationship is non-linear; beyond 30° bank, rate of turn increases significantly. Maximum practical bank angle in level flight is typically 25-30° for comfort; combat/aerobatic aircraft use 60°+.",
     "exam_tip": "Bank angle determines sharpness of turn: steep bank = tight turn, shallow bank = wide turn. Rate of turn increases with bank.",
@@ -5325,7 +5327,7 @@
   },
   {
     "code": "12.66.12",
-    "topic": "Turning Flight",
+    "topic": "12.66  -  Turning Flight",
     "syllabus_desc": "Describe a rate 1 turn, and a rule-of-thumb method of calculating the bank angle required.",
     "concept": "Rate 1 turn (also standard rate turn): turn rate of 3 degrees per second, completing 360° turn in 2 minutes. Used in instrument flying for standardized turn. Rule-of-thumb for bank angle required for rate 1: Bank angle (degrees) ≈ (Airspeed-in-knots / 10) + 5. Example: at 100 knots, bank angle ≈ (100/10) + 5 = 15°; at 200 knots, bank angle ≈ 20 + 5 = 25°. This formula produces approximately 3°/second turn rate. For standard rate turns, instrument cross-check shows rate of heading change on heading indicator; pilot adjusts bank to maintain rate 1.",
     "exam_tip": "Rate 1 turn: 3°/sec. Bank ≈ (IAS÷10) + 5 for rate 1.",
@@ -5344,7 +5346,7 @@
   },
   {
     "code": "12.66.14",
-    "topic": "Turning Flight",
+    "topic": "12.66  -  Turning Flight",
     "syllabus_desc": "Explain the effect of bank on rate of climb in a climbing turn, and the tendency to \"overbank\".",
     "concept": "In climbing turn: banking increases load factor (g = 1/cos-bank), requiring increased lift to maintain both altitude and turn. Increased lift requires increased angle of attack, which increases drag significantly. Increased drag reduces available excess power for climb. Result: rate of climb decreases in turn compared to straight climb at same power. Steeper bank produces greater climb reduction. Overbanking tendency: if pilot maintains pitch attitude (constant angle of attack) through a climbing turn without increasing back pressure, the vertical component of lift decreases with increasing bank, causing aircraft to descend rather than climb. To maintain constant climb rate in turn, pilot must increase back pressure (increase angle of attack) as bank increases. Failure to increase back pressure results in gradual descent (overbanking).",
     "exam_tip": "Banking reduces climb rate; increase back pressure to prevent descent.",
@@ -5363,7 +5365,7 @@
   },
   {
     "code": "12.66.16",
-    "topic": "Turning Flight",
+    "topic": "12.66  -  Turning Flight",
     "syllabus_desc": "Explain the effect of bank on rate of descent in a descending turn, and the tendency to \"underbank\".",
     "concept": "In descending turn: banking decreases vertical component of lift (L-cos-bank), requiring increased back pressure to maintain desired descent rate (maintain altitude loss). If pilot maintains pitch attitude without increasing back pressure during turn, vertical lift component decreases, causing descent rate to decrease (shallower glide). Result: aircraft descends slower than intended (tends to climb relative to descent plan). Underbanking tendency: to maintain constant descent rate in turn, pilot must increase back pressure (increase angle of attack and lift) to compensate for reduced vertical component from banking. Failure to increase back pressure results in shallower descent than desired. Practical: in approach turn to descend at constant rate, pilot must increase back pressure as bank increases.",
     "exam_tip": "Banking reduces descent rate; increase back pressure for constant descent.",
@@ -5382,7 +5384,7 @@
   },
   {
     "code": "12.68.2(a)",
-    "topic": "Aerodynamic Stall",
+    "topic": "12.68  -  Stalling and Spinning",
     "syllabus_desc": "Describe the stalling angle of attack, with reference to: Disruption of streamline flow over the upper surface of the aerofoil",
     "concept": "At low angles of attack, air flows smoothly over the aerofoil surface following the contour (streamline or laminar flow). As angle of attack increases, the air is forced to follow an increasingly sharp curve near the leading edge. Beyond the critical angle of attack (approximately 15-20° for a typical Cessna wing), the air cannot follow the surface curve and separates from the upper surface, creating a turbulent wake and eddy patterns. This flow separation disrupts the organized low-pressure region that normally generates lift on the upper surface, causing lift to collapse and drag to increase dramatically.",
     "exam_tip": "Flow separation is the key to stall. Air can't follow curved surface at high AOA. Turbulent wake behind wing.",
@@ -5403,7 +5405,7 @@
   },
   {
     "code": "12.68.2(b)",
-    "topic": "Aerodynamic Stall",
+    "topic": "12.68  -  Stalling and Spinning",
     "syllabus_desc": "Describe the stalling angle of attack, with reference to: Reduction of lift and increase of drag",
     "concept": "When the boundary layer separates due to flow disruption, the low-pressure region on the upper surface is destroyed, so the net pressure difference across the aerofoil decreases sharply, causing lift to fall (often dropping to 50% or less of pre-stall value). Simultaneously, the turbulent wake behind the separated flow creates a large pressure drag component (form drag), which increases dramatically. The combination of reduced lift and increased drag means the aircraft can no longer maintain altitude and must descend. This is the characteristic 'mushing' or 'sinking' feeling of a stall. Drag can double or triple at stall angle of attack.",
     "exam_tip": "Stall = lift collapse + drag increase. Wing no longer generates lift. Aircraft descends uncontrollably.",
@@ -5424,7 +5426,7 @@
   },
   {
     "code": "12.68.4",
-    "topic": "Stalling and Spinning",
+    "topic": "12.68  -  Stalling and Spinning",
     "syllabus_desc": "Describe the symptoms of a developing stall.",
     "concept": "Early stall warning signs: (1) aircraft feels 'mushy' (reduced control effectiveness, especially aileron response); (2) pitch control becomes heavy, requiring increased back pressure; (3) stall warning horn/light activates (if equipped), typically 5-10 knots before stall; (4) airframe vibration or buffeting as separated flow interacts with fuselage; (5) turn tendency (one wing stalls before other); (6) descent rate increases despite level attitude; (7) airspeed approaches stall speed; (8) rate of descent on altimeter noticeably increases. In gliding turn, stall may occur without obvious warning. Recognition essential to initiate immediate recovery.",
     "exam_tip": "Buffeting, mushy controls, and stall horn warn of developing stall.",
@@ -5444,7 +5446,7 @@
   },
   {
     "code": "12.68.6(a)",
-    "topic": "Stall Characteristics",
+    "topic": "12.68  -  Stalling and Spinning",
     "syllabus_desc": "Explain how: The stall is associated with a particular angle of attack and not a particular airspeed",
     "concept": "The stall occurs when the angle of attack exceeds the critical angle of attack (approximately 15-20° for a typical wing), regardless of the aircraft's airspeed. A loaded aircraft with a higher weight stalls at a higher airspeed than a light aircraft, but both stall at the same critical angle of attack. An aircraft in a turn stalls at a higher airspeed than in level flight due to increased load factor, but again at the same critical angle of attack. This is why relying on airspeed alone to avoid stall is dangerous. Pilots must understand and control angle of attack through pitch control and airspeed management.",
     "exam_tip": "Stall = critical angle of attack reached, not low speed. Loaded aircraft stall at higher airspeed. Pitch control = AOA control.",
@@ -5465,7 +5467,7 @@
   },
   {
     "code": "12.68.6(b)",
-    "topic": "Stall Characteristics",
+    "topic": "12.68  -  Stalling and Spinning",
     "syllabus_desc": "Explain how: A reduction in angle of attack is critical to recovery",
     "concept": "To recover from a stall, the pilot must immediately reduce the angle of attack below the critical angle by pushing the control column forward (lowering the nose). This restores streamline flow over the aerofoil, allowing lift to be re-established. Continuing to pull back on the controls keeps the aircraft in the stalled condition and may result in a spin. Once the angle of attack is reduced and airflow is restored, the pilot can then apply power and raise the nose to resume normal flight. Rapid recovery of airspeed is secondary to recovery of lift through AOA reduction.",
     "exam_tip": "Stall recovery: push nose down first (reduce AOA). Restore lift before worrying about altitude. Recovery is nose-down reflex.",
@@ -5486,7 +5488,7 @@
   },
   {
     "code": "12.68.8(a)",
-    "topic": "Factors Affecting Stall Speed",
+    "topic": "12.68  -  Stalling and Spinning",
     "syllabus_desc": "Explain how the stalling IAS is affected by: Load factor",
     "concept": "Load factor (G) is the ratio of total lift to aircraft weight. In level flight, load factor = 1 G. In a turn, load factor increases: at 30° bank, load factor ≈ 1.15 G; at 60° bank, load factor ≈ 2 G. Stall speed increases with the square root of load factor (Vs = Vs₀ × √n, where n is load factor). A 2 G maneuver increases stall speed by √2 ≈ 1.41 times. This is why stall speed in turns is much higher than in level flight, and why aggressive maneuvers are dangerous at low speed.",
     "exam_tip": "Load factor increases stall speed by √n factor. 2 G turn: stall speed 1.41× level-flight value. Bank angle = higher stall speed.",
@@ -5507,7 +5509,7 @@
   },
   {
     "code": "12.68.8(b)",
-    "topic": "Factors Affecting Stall Speed",
+    "topic": "12.68  -  Stalling and Spinning",
     "syllabus_desc": "Explain how the stalling IAS is affected by: Aircraft weight",
     "concept": "Heavier aircraft have higher stall speeds than lighter aircraft, following the relationship: stall speed ∝ √weight. An aircraft at maximum gross weight stalls at a higher airspeed than the same aircraft at half weight. This is because higher weight requires higher lift, which (at a given angle of attack) requires higher airspeed to generate. The critical angle of attack does not change with weight, but the airspeed needed to generate sufficient lift to balance that weight increases with weight. Weight affects the airspeed at which stall occurs but not the angle of attack at which it occurs.",
     "exam_tip": "Heavier aircraft = higher stall speed. Stall speed ∝ √weight. Full fuel = higher stall speed. Affects all speeds.",
@@ -5528,7 +5530,7 @@
   },
   {
     "code": "12.68.8(c)",
-    "topic": "Factors Affecting Stall Speed",
+    "topic": "12.68  -  Stalling and Spinning",
     "syllabus_desc": "Explain how the stalling IAS is affected by: Altitude",
     "concept": "Stall speed (true airspeed, TAS) is independent of altitude. The critical angle of attack is a geometric property of the wing and is reached at the same TAS regardless of altitude. However, stall speed expressed as indicated airspeed (IAS) increases slightly with altitude because the air density is lower. At sea level, IAS ≈ TAS, but at altitude, TAS > IAS, so the same critical angle of attack is reached at a slightly higher IAS. In practical flight, stall speed is published as IAS and is essentially constant across the aircraft's operating altitude range (2-3% variation). Pilots should note that TAS increases with altitude for the same IAS, making true airspeed higher at altitude for any given maneuver.",
     "exam_tip": "True stall speed (TAS) is constant. Indicated stall speed is nearly constant. At altitude, TAS > IAS for same indicated airspeed.",
@@ -5549,7 +5551,7 @@
   },
   {
     "code": "12.68.8(d)",
-    "topic": "Factors Affecting Stall Speed",
+    "topic": "12.68  -  Stalling and Spinning",
     "syllabus_desc": "Explain how the stalling IAS is affected by: Power",
     "concept": "High power decreases stall speed slightly. When power is applied, the slipstream accelerates air over the wings, increasing dynamic pressure and lift at any given airspeed. This allows a lower airspeed (and lower angle of attack) to generate the same lift. Conversely, power-off (glide) stall speed is higher because no slipstream benefit is available. The effect is most noticeable in high-powered aircraft with large propeller slipstreams. Power-off stall speed can be 5-10% higher than power-on stall speed depending on aircraft design. This is why power-off approaches and landings are more critical than powered operations.",
     "exam_tip": "Power on = lower stall speed (slipstream effect). Power off = higher stall speed. Landing more critical than powered flight.",
@@ -5570,7 +5572,7 @@
   },
   {
     "code": "12.68.8(e)",
-    "topic": "Factors Affecting Stall Speed",
+    "topic": "12.68  -  Stalling and Spinning",
     "syllabus_desc": "Explain how the stalling IAS is affected by: Flap extension",
     "concept": "Flap extension significantly reduces stall speed. Flaps increase wing camber and effectively increase the lift coefficient (Cₗ), allowing the aircraft to generate the required lift at a lower airspeed. A typical aircraft might have a clean stall speed of 50 knots (IAS) but stall speed of 40 knots (IAS) with full flaps. The stall speed reduction is typically 10-20% depending on flap design and configuration. Flap deflection also increases drag and reduces the angle of attack needed to reach critical conditions. Pilots extend flaps during approach and landing to reduce stall speed and improve controllability at low speeds.",
     "exam_tip": "Flaps reduce stall speed significantly. Increased camber = higher Cₗ = lower speed needed for same lift. Landing: full flaps = slower stall.",
@@ -5591,7 +5593,7 @@
   },
   {
     "code": "12.68.8(f)",
-    "topic": "Factors Affecting Stall Speed",
+    "topic": "12.68  -  Stalling and Spinning",
     "syllabus_desc": "Explain how the stalling IAS is affected by: Damage, ice, frost, or other contamination of the wings",
     "concept": "Damage, ice, frost, or any contamination of the wing surface increases stall speed. Ice or frost roughens the leading edge, disrupting smooth boundary layer flow and causing premature separation. Wing damage (wrinkles, dents) or contamination (dirt, bugs) similarly disrupts flow. These surface irregularities reduce the effective lift coefficient at a given angle of attack, requiring a higher airspeed to generate sufficient lift. Ice accumulation also changes the wing shape, further reducing aerodynamic efficiency. Stall speed can increase by 10-30% with moderate ice/contamination, and severely iced wings may stall at much higher speeds. This is a critical safety issue: aircraft with wing contamination are not airworthy.",
     "exam_tip": "Ice, frost, damage increase stall speed. Rough surface disrupts flow. Iced wing = much higher stall speed. Do not fly if contaminated.",
@@ -5612,7 +5614,7 @@
   },
   {
     "code": "12.68.10",
-    "topic": "Stalling and Spinning",
+    "topic": "12.68  -  Stalling and Spinning",
     "syllabus_desc": "Describe the possible consequences of using ailerons near, during and in the recovery from a stall.",
     "concept": "Near stall: ailerons control becomes increasingly ineffective (reduced airflow over control surfaces); aileron input may cause adverse yaw, potentially inducing wing drop. During stall: ailerons largely ineffective (separated flow); aileron deflection on dropping wing may increase that wing's stall angle, deepening stall on that wing. Attempting to raise dropped wing with aileron typically drops opposite wing or causes spin. Recovery: ailerons should not be used during stall recovery; maintain neutral aileron during pitch-down recovery. Use rudder only to maintain coordination after recovery. Premature aileron application during recovery risks deepening stall or inducing spin.",
     "exam_tip": "Don't use ailerons during stall; use neutral aileron and rudder.",
@@ -5631,7 +5633,7 @@
   },
   {
     "code": "12.68.12",
-    "topic": "Stalling and Spinning",
+    "topic": "12.68  -  Stalling and Spinning",
     "syllabus_desc": "Define the term autorotation and the conditions leading to it.",
     "concept": "Autorotation: self-sustaining rolling motion (rotation about longitudinal axis) during stalled flight condition. Occurs when: (1) one wing stalls while other wing maintains some lift (asymmetric stall); (2) airflow over aileron already stalled wing is too disturbed to respond effectively to aileron input; (3) control attempts to raise dropping wing with aileron paradoxically deepen that wing's stall; (4) unequal stall conditions persist and rolling motion accelerates. Autorotation typically leads to incipient or developed spin. Prevented by: maintaining wings level near stall, neutral ailerons during stall condition, immediate and full pitch-down recovery, avoiding control inputs that induce differential stall.",
     "exam_tip": "Autorotation: self-sustaining roll from asymmetric stall.",
@@ -5650,7 +5652,7 @@
   },
   {
     "code": "12.68.14(a)",
-    "topic": "Spin and Spiral Dive",
+    "topic": "12.68  -  Stalling and Spinning",
     "syllabus_desc": "Define a spin, with reference to: Stalled condition of flight",
     "concept": "A spin is an autorotational descent in which the aircraft is flying in a stalled condition (beyond the critical angle of attack on at least one wing). The stall disrupts lift generation and causes the aircraft to descend. The stall is maintained throughout the spin because the high angle of attack is continuously re-established by the rotational motion and the unrecovered stalled condition. The wing on the inside of the turn stalls more deeply than the outer wing due to the difference in relative airspeed across the wings. This asymmetric stall causes the aircraft to rotate about its vertical axis. The spin is not a recovery from stall; rather, it is a sustained stalled descent with autorotation.",
     "exam_tip": "Spin = sustained stall condition. Inside wing more deeply stalled. Autorotation continues stall. Not spiral dive.",
@@ -5671,7 +5673,7 @@
   },
   {
     "code": "12.68.14(b)",
-    "topic": "Spin and Spiral Dive",
+    "topic": "12.68  -  Stalling and Spinning",
     "syllabus_desc": "Define a spin, with reference to: Simultaneous motion about three axes (rolling, pitching, yawing)",
     "concept": "During a spin, the aircraft rotates simultaneously about all three axes: (1) pitch (rotation nose-down, nose-up about the lateral/Y-axis), (2) roll (rotation about the longitudinal/X-axis, wings rolling down and up), and (3) yaw (rotation about the vertical/Z-axis, nose rotating left or right). The primary motion is yaw (rotation about vertical axis), but the pitch and roll axes are also in motion. The aircraft descends steeply while rotating. This three-axis rotation is what distinguishes a spin from a simple dive (pitch only) or a barrel roll (pitch and roll primarily). The simultaneous motion about three axes makes recovery complex and requires specific inputs to break the spin.",
     "exam_tip": "Spin = rotation about all three axes. Primary motion is yaw (rotation about vertical). Pitch/roll also present. Complex motion.",
@@ -5692,7 +5694,7 @@
   },
   {
     "code": "12.68.14(c)",
-    "topic": "Spin and Spiral Dive",
+    "topic": "12.68  -  Stalling and Spinning",
     "syllabus_desc": "Define a spin, with reference to: High rate of descent at low airspeed",
     "concept": "During a spin, the aircraft descends very rapidly (often 200-500 ft/min or more in a developed spin) while the airspeed remains relatively low (often below stall speed due to the stalled condition). This combination of high descent rate and low airspeed is characteristic of the spin and makes altitude loss alarming. A typical light aircraft might lose 500 feet per turn in a developed spin, meaning the spin can consume altitude very quickly. The low airspeed results from the stalled condition and the high descent rate results from the loss of lift and the steep pitch angle of the descent. The combination makes spin recovery and training critical for safety, as spinning into terrain is a hazard at low altitudes.",
     "exam_tip": "Spin = steep descent, low airspeed. Loses ~500 ft/turn in small aircraft. Dangerous near ground. Recovery immediate and critical.",
@@ -5713,7 +5715,7 @@
   },
   {
     "code": "12.68.14(d)",
-    "topic": "Spin and Spiral Dive",
+    "topic": "12.68  -  Stalling and Spinning",
     "syllabus_desc": "Define a spin, with reference to: The difference between a spin and a spiral dive",
     "concept": "A spin is a stalled autorotational descent with low airspeed and high descent rate. A spiral dive is a steep, descending, spiraling flight path with the aircraft NOT stalled, at high airspeed, and not autorotating; instead, it results from over-banking in a turn. In a spin, the inside wing is stalled and generates less lift; in a spiral dive, both wings have full lift and are flying normally. Recovery from a spin requires reducing angle of attack (nose down, reduce power) and stopping rotation (neutralize ailerons, apply opposite rudder). Recovery from a spiral dive requires reducing power and gently raising the nose (increasing back-pressure) without stalling. The airspeed indicator is a useful (but not perfect) differentiator: spin = slow, spiral = fast. However, disorientation may prevent accurate instrument reading.",
     "exam_tip": "Spin = stalled, slow, rotating descent. Spiral = fast, steep, non-stalled descent. Recovery differs. Instruments may help distinguish.",
@@ -5734,7 +5736,7 @@
   },
   {
     "code": "12.68.16",
-    "topic": "Stalling and Spinning",
+    "topic": "12.68  -  Stalling and Spinning",
     "syllabus_desc": "State what actions can be taken to avoid a spin.",
     "concept": "Spin avoidance: (1) maintain adequate airspeed; recognize stall warning signs and recover immediately. (2) Maintain wings level in all maneuvers, especially turns near stall speed. (3) Never use ailerons during stall; maintain neutral aileron control. (4) Avoid skidding turns; coordinate turn with proper rudder (avoid slip/skid). (5) Avoid cross-control situation (e.g., aileron one direction, rudder opposite direction). (6) Never increase back pressure during stall recovery. (7) Avoid steep turns at low altitude near stall speed. (8) Maintain awareness of airspeed during approach/landing; execute go-around if airspeed drops below safe threshold.",
     "exam_tip": "Maintain airspeed, wings level, neutral ailerons during stall.",
@@ -5754,7 +5756,7 @@
   },
   {
     "code": "12.68.18",
-    "topic": "Stalling and Spinning",
+    "topic": "12.68  -  Stalling and Spinning",
     "syllabus_desc": "Explain the 'standard' recovery action from a developed spin.",
     "concept": "Standard spin recovery procedure (may vary by aircraft): (1) Determine spin direction (observe turn coordinator or magnetic compass, or feel yaw movement). (2) Apply full rudder opposite spin direction (if spinning right, apply full left rudder). (3) Immediately apply full forward control column (pitch down completely) to break stall and reduce angle of attack below stall angle. (4) Hold forward stick and opposite rudder until spin stops (rotation ceases) and airspeed begins increasing. (5) Once rotation stops, neutralize rudder and gradually recover from resulting dive with gentle back pressure. (6) Return to level flight. Timing critical: forward stick must be applied with opposite rudder; delaying either control extends recovery time and altitude loss. Recovery may require 500-1000 feet altitude depending on spin entry altitude.",
     "exam_tip": "Opposite rudder + forward stick breaks spin rotation.",
@@ -5773,7 +5775,7 @@
   },
   {
     "code": "12.70.2",
-    "topic": "Airframe Structure",
+    "topic": "12.70  -  Airframe Structure",
     "syllabus_desc": "Identify and explain the basic function of the major components of a conventional airframe.",
     "concept": "Major components: (1) Fuselage: main body providing structure and housing crew, cargo, systems. (2) Wings: primary lift-generating surfaces. (3) Tail surfaces: horizontal stabilizer (pitch control/stability), vertical stabilizer (yaw stability), control surfaces (elevator, rudder). (4) Landing gear: supports aircraft on ground, absorbs landing impact. (5) Engine/powerplant: provides thrust. (6) Control systems: transmit pilot inputs to control surfaces. Conventional airframe uses monocoque or semi-monocoque construction with skin providing primary stress resistance. Main loads: bending (wings in flight), shear, torsion.",
     "exam_tip": "Fuselage, wings, tail, gear, engine, controls are main components.",
@@ -5792,7 +5794,7 @@
   },
   {
     "code": "12.70.4(a)",
-    "topic": "Aircraft Structure and Materials",
+    "topic": "12.70  -  Airframe Structure",
     "syllabus_desc": "Explain the components and distribution of the load on a wing: On the ground",
     "concept": "On the ground, the aircraft structure must support its own weight (static load) through the landing gear and fuselage. The wings are subject to bending loads from their own weight and from concentrated loads (fuel, engines, payloads). The primary structural members are the spars, which are beam-like structures (main spar and auxiliary spars) running spanwise through the wing and fuselage. Spars carry bending loads and shear forces. Struts (external or internal bracing members) provide additional support and transfer wing bending loads back to the fuselage. In some designs, external wing struts prevent wing flutter and reduce bending moments. The fuselage must resist torsion and bending from wing loads transmitted to it.",
     "exam_tip": "Ground load = weight support. Spars carry bending. Struts reduce bending moment on wings. Fuselage transmits loads.",
@@ -5813,7 +5815,7 @@
   },
   {
     "code": "12.70.4(b)",
-    "topic": "Aircraft Structure and Materials",
+    "topic": "12.70  -  Airframe Structure",
     "syllabus_desc": "Explain the components and distribution of the load on a wing: In the air, and state the function of spars and struts in opposing these loads",
     "concept": "In flight, aerodynamic forces create much larger loads than gravity alone. The wing generates lift, which creates upward loads that are translated to bending moments in the spars and fuselage. In turns or during maneuvers, load factor multiplies these aerodynamic loads (at 2 G, all loads double). The spars and wing structure must resist these dynamic bending, torsion, and shear stresses. Struts and bracing reduce the bending moment by distributing loads more efficiently, reducing the required thickness and weight of spars. High-performance aircraft often use more bracing (flying wires, struts) to reduce structural weight. The fuselage must absorb the combined wing loads (lift and side loads from yaw) and transmit them safely to the landing gear.",
     "exam_tip": "Air load = aerodynamic forces × load factor. Spars resist bending from lift. Struts distribute loads. Maneuvers increase loads.",
@@ -5834,7 +5836,7 @@
   },
   {
     "code": "12.70.6(a)",
-    "topic": "Materials and Construction Methods",
+    "topic": "12.70  -  Airframe Structure",
     "syllabus_desc": "Describe the precautions required to preserve the structural integrity of the following airframes: Aluminium",
     "concept": "Aluminium is a common aircraft material due to its high strength-to-weight ratio, corrosion resistance, and workability. Precautions for aluminium structural integrity include: (1) prevent corrosion through painting, anodizing, and drainage holes (water/salt damage); (2) prevent stress-corrosion cracking (fatigue cracks initiate at corrosion pits); (3) regular inspection for cracks, dents, wrinkles (indicate overstress or corrosion); (4) protect from galvanic corrosion when in contact with dissimilar metals; (5) avoid moisture traps and ensure proper ventilation; (6) maintain protective coatings. Dents in aluminium can reduce fatigue strength even if small, so aircraft-quality repairs are essential.",
     "exam_tip": "Aluminium needs protection from corrosion and fatigue. Paint/anodize to prevent corrosion. Inspect for cracks/dents. Avoid water traps.",
@@ -5855,7 +5857,7 @@
   },
   {
     "code": "12.70.6(b)",
-    "topic": "Materials and Construction Methods",
+    "topic": "12.70  -  Airframe Structure",
     "syllabus_desc": "Describe the precautions required to preserve the structural integrity of the following airframes: Composite",
     "concept": "Composite materials (carbon fiber, fiberglass, aramid) offer excellent strength-to-weight ratios, corrosion resistance, and design flexibility. Precautions for composite structural integrity include: (1) prevent water absorption (causes swelling and delamination); (2) avoid UV damage (degrades resin matrix); (3) protect from impact damage (composites are less forgiving of dents than metal; barely-visible impact damage can reduce strength significantly); (4) prevent moisture ingress through cracks or voids; (5) maintain sealants and coatings to prevent water entry; (6) avoid excessive heat (resin matrix degrades above certain temperatures); (7) use only authorized repairs by trained technicians (improper repairs are catastrophic). Composite damage is often invisible to external inspection.",
     "exam_tip": "Composites avoid corrosion but need UV/water/impact protection. Invisible damage is critical. Authorized repairs only.",
@@ -5876,7 +5878,7 @@
   },
   {
     "code": "12.70.6(c)",
-    "topic": "Materials and Construction Methods",
+    "topic": "12.70  -  Airframe Structure",
     "syllabus_desc": "Describe the precautions required to preserve the structural integrity of the following airframes: Fabric covered",
     "concept": "Fabric-covered aircraft (fabric over wooden or metal framework) require careful maintenance for structural integrity. Precautions include: (1) protect fabric from moisture (causes rot of wooden framework and loss of strength); (2) maintain protective dope or acrylic coating (prevents UV damage and water entry); (3) inspect regularly for tears, holes, or loose areas (compromises aerodynamic surface and allows water to enter); (4) protect from ultraviolet radiation (degrades fabric and dope); (5) allow proper ventilation (prevents moisture accumulation); (6) avoid extreme temperature fluctuations (causes fabric shrinkage/expansion and coating cracking); (7) use proper repairs by qualified personnel (a torn wing cover is a critical airworthiness issue). Fabric can harbor hidden damage (internal rot, corrosion) not visible externally.",
     "exam_tip": "Fabric needs water and UV protection. Dope coating prevents damage. Inspect for tears. Wooden framework rots if wet.",
@@ -5897,7 +5899,7 @@
   },
   {
     "code": "12.70.8(a)",
-    "topic": "Damage Inspection and Indicators",
+    "topic": "12.70  -  Airframe Structure",
     "syllabus_desc": "Describe the indications of damage or failure of airframes constructed of;: Aluminium",
     "concept": "Indications of damage or failure in aluminium include: (1) visible cracks (especially at corners, fastener holes, or where rivets are missing); (2) dents or deformation (indicate overstress, impact, or corrosion); (3) white or grey corrosion (aluminum oxide, indicates active corrosion); (4) green or white deposits (galvanic corrosion near dissimilar metals); (5) wrinkles or buckles (indicate compression failure or fatigue); (6) fastener pull-through or fastener holes enlarged (loss of structure); (7) gaps in joints or separated panels; (8) stress marks or paint cracking (indicate material stress). Regular visual inspection can detect these, but crack detection may require non-destructive testing (NDT).",
     "exam_tip": "Look for: cracks, dents, corrosion (white/green), wrinkles, pulled fasteners, gaps. Paint cracking indicates stress.",
@@ -5918,7 +5920,7 @@
   },
   {
     "code": "12.70.8(b)",
-    "topic": "Damage Inspection and Indicators",
+    "topic": "12.70  -  Airframe Structure",
     "syllabus_desc": "Describe the indications of damage or failure of airframes constructed of;: Composite",
     "concept": "Indications of damage or failure in composite structures include: (1) delamination (layers separating internally; tapping reveals hollow sound); (2) fiber waviness or bunching (improper manufacture or impact); (3) surface cracks in the resin matrix (may indicate internal damage); (4) crazing (fine surface cracks, often from water absorption); (5) discoloration or bleaching (UV damage or water damage); (6) soft areas or lack of rigidity (loss of fiber-resin bond); (7) wrinkles in the skin (impact damage or manufacturing defect); (8) visible holes or tears. Barely-visible impact damage (BVID) is critical: composites can be severely weakened by impacts that leave minimal visible marks. Tap testing and ultrasonic inspection can detect delamination.",
     "exam_tip": "Composites: delamination (hollow tap), wrinkles, crazing, discoloration. Barely-visible damage is critical. Tap test used.",
@@ -5939,7 +5941,7 @@
   },
   {
     "code": "12.70.8(c)",
-    "topic": "Damage Inspection and Indicators",
+    "topic": "12.70  -  Airframe Structure",
     "syllabus_desc": "Describe the indications of damage or failure of airframes constructed of;: Fabric covering",
     "concept": "Indications of damage or failure in fabric-covered structures include: (1) tears or holes in fabric (allows water and air to enter); (2) loose or sagging fabric (loss of aerodynamic shape and structural efficiency); (3) peeling or flaking dope/coating (exposes fabric to UV and water); (4) water stains or discoloration (indicates water damage or seepage); (5) soft or spongy areas in wooden framework (indicates rot or decay); (6) delamination of wooden spars or ribs (wood rot from moisture); (7) deteriorated glue joints (strength loss); (8) pinhole or small perforations (from insects or corrosion). Fabric damage is often visible and rapidly progressive. Water damage to wooden structures is catastrophic and may not be immediately apparent (internal rot).",
     "exam_tip": "Fabric: tears, loose areas, peeling dope, water stains, soft spots, glue failures. Water rot is hidden and catastrophic.",
@@ -5960,7 +5962,7 @@
   },
   {
     "code": "12.70.10",
-    "topic": "Airframe Structure",
+    "topic": "12.70  -  Airframe Structure",
     "syllabus_desc": "Describe the procedure to tie down (or picket) a light aircraft.",
     "concept": "Tie-down procedure: (1) Position aircraft into wind with brakes set. (2) Attach three tie-down ropes/cables: nose ring/tie-down point (forward), wing lift strut or hard point (both sides, aft). (3) Route cables/ropes to ground anchors at angles approximately 45-60° (avoid vertical pulling). (4) Secure nose tie-down taut but not excessive tension (allow slight give for wind movement). (5) Cross-tie wings: use diagonal straps or ropes from one wing to opposite side anchor, securing over fuselage or cockpit area. (6) Install pitot tube cover and control locks if available. (7) Check wind forecast; if strong winds expected, use additional tie-downs. (8) Remove tie-downs before flight by reversing sequence. Proper tie-down prevents aircraft drift, wind damage, and propeller contact during strong winds.",
     "exam_tip": "Three tie-downs: nose + wings at 45-60° angles to ground.",
@@ -5979,7 +5981,7 @@
   },
   {
     "code": "12.72.2(a)",
-    "topic": "Propeller Terminology and Aerodynamics",
+    "topic": "12.72  -  Propellers",
     "syllabus_desc": "With respect to propeller terminology, define the meaning of the following: Blade section",
     "concept": "A propeller blade section (or blade element) is a small spanwise segment of the blade at a particular distance from the hub. Each section of the propeller blade has its own aerodynamic properties and operates at a different angle of attack because the blade twists along its length. The cross-sectional shape (profile) of each section along the blade span is typically an aerofoil shape, similar to a wing section but optimized for propeller duty. Different sections along the blade span have different chord lengths (chord decreases toward the tip) and different profiles. The blade section concept is used to analyze propeller performance by calculating forces on each section and integrating across the blade span.",
     "exam_tip": "Blade section is a slice along the blade span. Each section is an aerofoil. Angle of attack varies along span.",
@@ -6000,7 +6002,7 @@
   },
   {
     "code": "12.72.2(b)",
-    "topic": "Propeller Terminology and Aerodynamics",
+    "topic": "12.72  -  Propellers",
     "syllabus_desc": "With respect to propeller terminology, define the meaning of the following: Blade angle",
     "concept": "Blade angle (also called pitch angle or blade pitch) is the angle between the blade chord (reference line across the aerofoil) and the plane of rotation (perpendicular to the propeller axis). It is typically measured at a specified radius from the hub (e.g., 0.75 blade radius). Blade angle determines the angle of attack at which the blade operates. A larger blade angle results in a steeper pitch and higher angle of attack. Variable-pitch propellers allow blade angle to be changed in flight to optimize performance for different flight phases (high blade angle for cruise, low for climb). Fixed-pitch propellers have a blade angle set by design and cannot be changed. Blade angle is measured in degrees and is a key design parameter for propeller efficiency.",
     "exam_tip": "Blade angle = chord angle relative to plane of rotation. Larger angle = steeper pitch. Variable-pitch props change angle in flight.",
@@ -6021,7 +6023,7 @@
   },
   {
     "code": "12.72.2(c)",
-    "topic": "Propeller Terminology and Aerodynamics",
+    "topic": "12.72  -  Propellers",
     "syllabus_desc": "With respect to propeller terminology, define the meaning of the following: Helix (or pitch) angle",
     "concept": "The helix angle (also called pitch angle or helix pitch) describes the geometric path a propeller blade traces through the air as it rotates. If a propeller blade were to cut through the air without rotating, it would follow a straight axial path; but because the blade rotates, it traces a helical (spiral) path. The helix angle is the angle between the blade chord and the relative wind (or equivalently, the angle between the plane of rotation and the path traced by the blade through space). The helix angle increases along the blade span as airspeed increases (at the tip, higher airspeed results in a steeper helix angle than at the root). This is related to the concept of blade twist: the blade is twisted so that the blade angle (pitch) is larger at the root (where the propeller moves slower) and smaller at the tip (where airspeed is higher due to blade rotation speed).",
     "exam_tip": "Helix angle is the angle of blade path through air. Blade rotates and advances axially, creating spiral path. Helix angle varies along span.",
@@ -6042,7 +6044,7 @@
   },
   {
     "code": "12.72.2(d)",
-    "topic": "Propeller Terminology and Aerodynamics",
+    "topic": "12.72  -  Propellers",
     "syllabus_desc": "With respect to propeller terminology, define the meaning of the following: Angle of attack",
     "concept": "The angle of attack of a propeller blade section is the angle between the blade chord and the relative wind experienced by that section. The relative wind for a propeller blade is the vector sum of the forward airspeed (V) and the rotational velocity of that blade section (ωR, where ω is rotation rate in rad/s and R is distance from hub). Different sections along the blade have different rotational velocities and experience different relative winds. At the root, most of the relative wind comes from rotation; at the tip, the relative wind is dominated by forward airspeed at cruise. The blade is twisted so that the angle of attack is relatively constant along the blade span for efficient operation. Angle of attack varies with airspeed and RPM.",
     "exam_tip": "Propeller AOA = angle between chord and relative wind. Relative wind = vector sum of airspeed + rotational velocity.",
@@ -6063,7 +6065,7 @@
   },
   {
     "code": "12.72.4",
-    "topic": "Propellers",
+    "topic": "12.72  -  Propellers",
     "syllabus_desc": "Explain the reason for blade (or helical) twist.",
     "concept": "Propeller blade twists from root to tip (higher pitch angle at root, lower at tip) because velocity changes along blade radius. Tip moves much faster than root (V = radius × RPM). At high tip speed but low aircraft airspeed, blade tip experiences low angle of attack. Root experiences higher relative velocity from aircraft motion, higher angle of attack. Twist compensates for this variation: root blade angle lower (relative to rotation plane) to increase angle of attack at tip, and higher at root. Optimal twist maintains relatively constant angle of attack along blade, ensuring efficient thrust generation along entire blade length. Without twist, outer blade stalls while root operates below optimal efficiency.",
     "exam_tip": "Twist compensates for speed variation along blade.",
@@ -6082,7 +6084,7 @@
   },
   {
     "code": "12.72.6(a)",
-    "topic": "Propeller Forces and Performance",
+    "topic": "12.72  -  Propellers",
     "syllabus_desc": "With the aid of a diagram, identify and define the following for a rotating blade section: Direction of rotation",
     "concept": "The direction of rotation of a propeller blade section is the direction in which that section moves through space as the propeller rotates. For a clockwise-rotating propeller (viewed from behind/front), each blade section rotates in a circular path around the propeller hub. The direction of rotation is either clockwise (CW) or counterclockwise (CCW) as viewed from the direction the propeller pulls (from behind the engine toward the tail). The rotation direction is important for determining the direction of the relative wind experienced by the blade section. As the blade rotates, each section moves through the air, and the resulting relative wind is the vector sum of the rotational velocity and the forward airspeed.",
     "exam_tip": "Direction of rotation: CW or CCW (viewed from direction of pull). Rotation direction affects relative wind direction.",
@@ -6103,7 +6105,7 @@
   },
   {
     "code": "12.72.6(b)",
-    "topic": "Propeller Forces and Performance",
+    "topic": "12.72  -  Propellers",
     "syllabus_desc": "With the aid of a diagram, identify and define the following for a rotating blade section: Relative airflow",
     "concept": "The relative airflow experienced by a propeller blade section is the vector sum of two velocity components: (1) forward airspeed (V, parallel to propeller axis), and (2) rotational velocity of that blade section (ωR, tangent to the circular path). The resultant relative wind direction and magnitude depend on both components. At the root of the blade, rotational velocity is low, so forward airspeed dominates the relative wind direction, which is nearly axial (parallel to the propeller axis). At the tip, rotational velocity is high (proportional to radius), so the relative wind has a larger tangential component and is more perpendicular to the blade radius. The relative wind angle changes along the blade span, which is why the blade must be twisted (higher blade angle at the root, lower at the tip) to maintain a relatively constant angle of attack.",
     "exam_tip": "Relative airflow = V (forward) + ωR (rotational velocity). Root wind nearly axial; tip wind more tangential.",
@@ -6124,7 +6126,7 @@
   },
   {
     "code": "12.72.6(c)",
-    "topic": "Propeller Forces and Performance",
+    "topic": "12.72  -  Propellers",
     "syllabus_desc": "With the aid of a diagram, identify and define the following for a rotating blade section: Total reaction, with its components",
     "concept": "The total reaction is the net aerodynamic force acting on a propeller blade section. Like a wing, the blade section experiences lift (perpendicular to relative wind) and drag (parallel to relative wind, opposing motion). The total reaction is the vector sum of lift and drag. In propeller terminology, the total reaction is often decomposed into thrust and torque (or torque reaction). Thrust is the component of total reaction along the propeller axis (useful, pulling force). Torque is the component perpendicular to the axis (rotational resistance that the engine must overcome). The magnitude of total reaction depends on the relative wind speed, blade area, blade shape (Cₗ and Cₓ), and angle of attack. As airspeed increases, the relative wind speed decreases (for fixed RPM), which reduces total reaction magnitude and changes its direction.",
     "exam_tip": "Total reaction = aerodynamic force from lift+drag. Decomposes into thrust (axial) and torque (rotational).",
@@ -6145,7 +6147,7 @@
   },
   {
     "code": "12.72.6(d)",
-    "topic": "Propeller Forces and Performance",
+    "topic": "12.72  -  Propellers",
     "syllabus_desc": "With the aid of a diagram, identify and define the following for a rotating blade section: Thrust and propeller torque",
     "concept": "Thrust is the useful axial force produced by the propeller, pushing the aircraft forward. It is the component of total reaction along the propeller axis. Thrust results from the lift on the blade section, with drag reducing the effective thrust. Higher blade angle and higher relative wind speed increase thrust (up to a limit before aerodynamic stall). Propeller torque (or torque reaction) is the rotational resistance that opposes the rotation of the propeller and must be overcome by the engine. It results from the drag on the blade sections. Torque is the couple (moment) that the engine must provide to maintain propeller rotation. As airspeed increases (at fixed RPM), the relative wind decreases, so both thrust and torque may decrease (the propeller becomes less loaded). Variable-pitch propellers adjust blade angle to maintain constant propeller loading and thus constant power absorption across the speed range.",
     "exam_tip": "Thrust = forward component of total reaction (useful pull). Torque = rotational resistance (drag-based).",
@@ -6166,7 +6168,7 @@
   },
   {
     "code": "12.72.8",
-    "topic": "Propellers",
+    "topic": "12.72  -  Propellers",
     "syllabus_desc": "For a fixed-pitch propeller at a constant throttle setting, explain the relationship between airspeed, angle of attack and rpm.",
     "concept": "Fixed-pitch propeller at constant throttle (constant RPM): as airspeed increases, relative airflow changes angle, reducing blade angle of attack (aircraft motion reduces relative angle between airflow and blade section). Decreased angle of attack reduces thrust slightly and drag on blade. With constant RPM and increased speed, relative pitch angle decreases. As airspeed decreases: blade angle of attack increases, thrust and drag on blade increase, propeller becomes less efficient (absorbs more engine power). Aircraft speed naturally stabilizes where power required equals power available at set throttle. Fixed-pitch propeller optimization for one speed; less efficient at other speeds.",
     "exam_tip": "Fixed-pitch: increasing speed decreases blade angle of attack.",
@@ -6185,7 +6187,7 @@
   },
   {
     "code": "12.72.10",
-    "topic": "Propellers",
+    "topic": "12.72  -  Propellers",
     "syllabus_desc": "Briefly explain the factors which affect the ability of a fixed-pitch propeller to convert engine power into useful thrust.",
     "concept": "Factors affecting fixed-pitch propeller efficiency: (1) Blade design: pitch angle, twist, airfoil shape determine angle of attack at various speeds. (2) Airspeed: optimal efficiency only at design speed; inefficient at other speeds. (3) RPM: higher RPM increases blade velocity, changes angle of attack. (4) Aircraft weight: heavier aircraft requires more thrust, absorbs more engine power. (5) Propeller diameter: larger diameter more efficient (moves more air at lower velocity). (6) Density altitude: lower air density reduces thrust available and propeller efficiency. (7) Engine power: limited by fuel/air mixture and ignition timing. Slip: difference between geometric pitch and actual distance traveled (thrust loss). Fixed-pitch propeller compromise design; constant-speed propeller maintains optimal blade angle across speed range.",
     "exam_tip": "Efficiency optimal at design speed; poorest at high altitude.",
@@ -6204,7 +6206,7 @@
   },
   {
     "code": "12.72.12",
-    "topic": "Propellers",
+    "topic": "12.72  -  Propellers",
     "syllabus_desc": "Explain the basic principle of operation for a constant-speed propeller, and the normal procedure for changing power settings with the manifold pressure and pitch controls.",
     "concept": "Constant-speed (variable-pitch) propeller: hydraulic mechanism automatically adjusts blade angle to maintain constant RPM. Governor senses RPM; if RPM drops below set value, governor allows oil pressure to decrease, centrifugal weights pitch blades coarser (higher angle), reducing drag on blades, increasing RPM. If RPM exceeds set value, governor increases oil pressure, pitch becomes finer (lower angle), increasing drag, decreasing RPM. Procedure for power changes: (1) Set desired RPM first with propeller control (fine pitch for high RPM, coarse for low RPM). (2) Adjust manifold pressure (throttle) to desired power setting. (3) Monitor engine parameters; propeller governor maintains RPM automatically as pitch changes. (4) During descent, reduce RPM first, then reduce power. This sequence avoids over-boost and roughness.",
     "exam_tip": "Constant-speed propeller maintains set RPM automatically.",
@@ -6223,7 +6225,7 @@
   },
   {
     "code": "12.72.14",
-    "topic": "Propellers",
+    "topic": "12.72  -  Propellers",
     "syllabus_desc": "State the principal advantage of a constant-speed versus a fixed-pitch propeller.",
     "concept": "Principal advantages of constant-speed propeller: (1) Optimal blade angle maintained across entire speed range, maximizing efficiency at all speeds and power settings. (2) Better climb performance: at takeoff, propeller automatically pitches fine for quick acceleration and climb; at cruise, automatically adjusts to coarser pitch for economical speed. (3) Better performance on high-altitude airfields: constant-speed propeller more responsive to density altitude changes. (4) Flexibility: pilot can optimize performance by setting RPM for climb (high RPM, fine pitch) or cruise (lower RPM, coarse pitch). Fixed-pitch propeller compromise design, efficient only at one design speed; constant-speed superior performance across flight envelope. Disadvantage: higher cost and maintenance complexity.",
     "exam_tip": "Constant-speed maintains optimal efficiency across speed range.",
@@ -6242,7 +6244,7 @@
   },
   {
     "code": "12.72.16",
-    "topic": "Propellers",
+    "topic": "12.72  -  Propellers",
     "syllabus_desc": "Describe the function and operation of a typical reduction gearbox.",
     "concept": "Reduction gearbox (propeller reduction gearbox): reduces propeller RPM while increasing torque, allowing engine to run at higher RPM (more efficient) while propeller operates at lower optimal RPM. Typical ratio 2:1 or 3:1 (engine 3000 RPM = propeller 1000 RPM at 3:1 ratio). Function: (1) Mechanical advantage for torque (torque multiplied by gear ratio). (2) Allows smaller diameter propeller at high RPM equivalent to larger diameter at low RPM. (3) Reduces propeller noise (lower RPM). Components: input shaft from engine, gear sets (spur or epicyclic/planetary), output shaft to propeller. Operation: engine power drives input gear(s), which drive output gear(s) at reduced speed/increased torque. Some systems include automatic clutch or sprag clutch for propeller shutdown (engine stops, propeller free-wheels).",
     "exam_tip": "Reduction gearbox multiplies torque, reduces RPM.",
@@ -6261,7 +6263,7 @@
   },
   {
     "code": "12.76.2(a)",
-    "topic": "Aircraft Control Systems and Operation",
+    "topic": "12.76  -  Aircraft Control Systems and Operation",
     "syllabus_desc": "Explain the common methods of the mechanical operation of the: Primary flight controls",
     "concept": "Primary flight controls (elevators, ailerons, rudder) are typically operated by mechanical cable or rod linkages between the control column/wheel and the control surface hinges. In cable-operated systems, pulling the control column back pulls cables connected to the elevator horn, deflecting the elevator up. Side stick or yoke movements rotate the ailerons via cables connected to cable drums. The rudder is operated by foot pedals connected via cables to the rudder horn. Mechanical linkages include pulleys, forks, quadrants, and torque tubes. Many modern aircraft use a mix of mechanical and hydraulic systems: mechanical linkage from controls to a hydraulic valve, then hydraulic pressure to actuate the control surface. Mechanical advantage (leverage ratios) is designed into the linkages to reduce pilot force requirements while maintaining control sensitivity.",
     "exam_tip": "Primary controls: cables/rods from column to control surfaces. Mechanical advantage via pulleys and quadrants.",
@@ -6282,7 +6284,7 @@
   },
   {
     "code": "12.76.2(b)",
-    "topic": "Aircraft Control Systems and Operation",
+    "topic": "12.76  -  Aircraft Control Systems and Operation",
     "syllabus_desc": "Explain the common methods of the mechanical operation of the: Trim tab",
     "concept": "Trim tabs are small control surfaces mounted on the trailing edges of primary control surfaces (elevator, ailerons, rudder). They serve to reduce pilot workload by maintaining the aircraft in equilibrium without continuous control inputs. An elevator trim tab is a small surface on the elevator trailing edge; moving the trim control (wheel or lever) adjusts the tab angle, which changes the elevator deflection indirectly by creating aerodynamic forces. The pilot moves the trim control to adjust the trim tab, which generates a moment that deflects the primary control surface to a new equilibrium position, reducing the need for sustained control column pressure. Trim can be mechanical (cable-operated tab adjustment) or electric (motor-driven). Proper trim setup is essential for comfortable, efficient flight and for fuel efficiency during cruise.",
     "exam_tip": "Trim tabs reduce pilot workload. Tab creates moment that deflects primary surface. Pilot adjusts trim control (wheel/lever).",
@@ -6303,7 +6305,7 @@
   },
   {
     "code": "12.76.2(c)",
-    "topic": "Aircraft Control Systems and Operation",
+    "topic": "12.76  -  Aircraft Control Systems and Operation",
     "syllabus_desc": "Explain the common methods of the mechanical operation of the: Flap systems",
     "concept": "Flap systems deploy flaps (control surfaces on the wing trailing edge) to increase wing camber and area, improving low-speed handling and reducing landing distance. Mechanical flap operation typically uses a hand crank or lever in the cockpit connected via cable and pulley systems to flap hinges. The cable-driven system pulls the flaps down and back (down-and-back motion), and a mechanical linkage ensures both flaps deflect symmetrically. Some aircraft use electrically-powered flap actuation with a motor driving a screw or gear mechanism, while the pilot selects flap position from a switch. Hydraulic systems use pressure to actuate flap cylinders. Mechanical flap systems typically have detents or positions: 0° (up), 10°, 20°, 30° (full flap), allowing partial flap deployment for approach and full deployment for landing. Over-speed protection is essential; flap deployment at high speed can cause structural damage.",
     "exam_tip": "Flaps use cable, electric, or hydraulic systems. Hand crank or switch selects position. Common positions: 0°, 10°, 20°, 30°.",
@@ -6324,7 +6326,7 @@
   },
   {
     "code": "12.76.4",
-    "topic": "Control Systems",
+    "topic": "12.76  -  Aircraft Control Systems and Operation",
     "syllabus_desc": "Describe the function of control locks and precautions for removal before flight.",
     "concept": "Control locks: mechanical devices preventing flight control movement while aircraft parked, protecting aircraft from wind damage and preventing accidental control deflection. Locations: (1) Elevator lock: secures control column, prevents up/down movement. (2) Aileron locks: typically cross-cabin, prevent roll movement. (3) Rudder lock: prevents pedal movement. Precautions for removal: (1) Remove all locks before entering cockpit or VERY FIRST preflight action. (2) Check control free and correct movement throughout range (full up/down for elevator, full left/right for ailerons, full left/right for rudder). (3) Verify trim controls move freely. (4) Install control locks only after flight operations complete, immediately before leaving aircraft. Forgetting to remove locks catastrophic; attempting flight with locked controls results in total loss of control authority.",
     "exam_tip": "Remove control locks first preflight; reinstall last post-flight.",
@@ -6343,7 +6345,7 @@
   },
   {
     "code": "12.76.6",
-    "topic": "Control Systems",
+    "topic": "12.76  -  Aircraft Control Systems and Operation",
     "syllabus_desc": "Describe the normal operational use of flaps, including limitations.",
     "concept": "Flap use: (1) Takeoff: 0-15° (10-15° provides good lift increase with manageable drag increase). (2) Climb: retract to 0° or maintain small deflection (10°) depending on obstacle clearance requirement. (3) Cruise: retract fully (0°) for speed/efficiency. (4) Approach: extend progressively as speed decreases (10° initial approach, 25° base leg, 40° final approach). (5) Landing: full extension (40°) for maximum drag and shortest landing distance. Limitations: (1) Speed limitations: flaps beyond 10° typically limited to 110-120 knots; beyond 25° limited to 70-90 knots; full flaps limited to 50-65 knots (check POH). (2) Altitude: not recommended above typical 3000 feet (check aircraft limitations). (3) Asymmetric flap extension: if flaps extend unequally, creates aileron trim requirement; if severe, discontinue operation and land with flaps extended symmetrically. (4) Progressive extension: extend flaps gradually (may have intermediate positions).",
     "exam_tip": "Takeoff 10-15°, landing 40°; follow POH speed limits.",
@@ -6383,14 +6385,14 @@
     "code": "12.100.4",
     "topic": "12.100  -  Performance Factors",
     "syllabus_desc": "Define pressure altitude.",
-    "concept": "Pressure altitude is the altitude indicated on the altimeter when the subscale is set to the standard datum of 1013.25 hPa (29.92 inHg). It represents the height in the International Standard Atmosphere (ISA) corresponding to the prevailing atmospheric pressure. Pressure altitude is used in performance calculations because aircraft performance depends on air density, which correlates with pressure altitude rather than true altitude.",
+    "concept": "Pressure altitude is the altitude indicated on the altimeter when the subscale is set to the standard datum of 1013.25 hPa (1013.25 hPa). It represents the height in the International Standard Atmosphere (ISA) corresponding to the prevailing atmospheric pressure. Pressure altitude is used in performance calculations because aircraft performance depends on air density, which correlates with pressure altitude rather than true altitude.",
     "exam_tip": "Pressure altitude = altimeter reading with 1013.25 hPa set. It's the altitude in ISA that matches your actual air pressure.",
     "key_facts": [
       "Set altimeter subscale to 1013.25 hPa",
       "Read the altimeter  -  that is pressure altitude",
       "Used for all performance calculations",
       "Does not represent true height above sea level",
-      "Standard datum: 1013.25 hPa / 29.92 inHg"
+      "Standard datum: 1013.25 hPa / 1013.25 hPa"
     ],
     "source": "Stoneybrook AU Module 1.3 (ISA), Module 1.6, NZ CAA AC 61-3 Rev 25 §12.100.4",
     "confidence": "high",
@@ -6496,7 +6498,7 @@
     "exam_tip": "Use the density altitude formula or chart: DA = PA + (120 × ISA deviation). For example, if pressure altitude is 5000 ft and temperature is 25°C (ISA dev = +5°C), then DA = 5000 + (120 × 5) = 5600 ft. Higher DA means worse performance.",
     "key_facts": [
       "Density Altitude (ft) = Pressure Altitude + (120 × ISA deviation in °C)",
-      "Pressure altitude is read from altimeter when subscale is set to 29.92 inHg",
+      "Pressure altitude is read from altimeter when subscale is set to 1013.25 hPa",
       "Density altitude directly affects aircraft takeoff distance, rate of climb, and landing distance",
       "Hot, high-altitude airfields produce very high density altitudes",
       "At sea level in standard conditions, density altitude = 0 ft"
