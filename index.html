@@ -654,6 +654,7 @@
             subjectMapping: {
                 'air law': { num: '11', acNum: '4', prefix: '4' },
                 'aircraft technical knowledge': { num: '12', acNum: '12', prefix: '12' },
+                'aircraft technical knowledge (helicopter)': { num: '14', acNum: '14', prefix: '14' },
                 'flight navigation': { num: '13', acNum: '6', prefix: '6' },
                 'meteorology': { num: '15', acNum: '8', prefix: '8' },
                 'human factors': { num: '16', acNum: '10', prefix: '10' },
@@ -662,6 +663,7 @@
             contentFiles: {
                 'ppl': {
                     '12': 'data/ppl-atk.json',
+                    '14': 'data/ppl-atk-heli.json',
                     '10': 'data/ppl-hf.json',
                     '16': 'data/ppl-hf.json',
                     '2': 'data/ppl-frto.json',
@@ -834,6 +836,7 @@
             // Subject aliases -- ASPEQ KDRs use abbreviations and varying wording
             const subjectAliases = {
                 'flight radiotelephony': ['frto', 'radiotelephony', 'radio telephony', 'flight radio'],
+                'aircraft technical knowledge (helicopter)': ['atk (h)', 'atk(h)', 'atk helicopter', 'helicopter atk', 'aircraft technical knowledge (helicopter)', 'technical knowledge (helicopter)', 'technical knowledge helicopter'],
                 'aircraft technical knowledge': ['atk', 'aircraft technical', 'technical knowledge'],
                 'air law': ['air law', 'airlaw'],
                 'flight navigation': ['nav', 'flight navigation', 'navigation general', 'navigation'],
@@ -885,6 +888,15 @@
 
             // Remove duplicates
             appState.extractedCodes = [...new Set(found)];
+
+            // Auto-detect helicopter ATK vs aeroplane ATK by code prefix
+            if (appState.detectedSubject === 'aircraft technical knowledge' && appState.extractedCodes.length > 0) {
+                const hasCode14 = appState.extractedCodes.some(c => c.startsWith('14.'));
+                const hasCode12 = appState.extractedCodes.some(c => c.startsWith('12.'));
+                if (hasCode14 && !hasCode12) {
+                    appState.detectedSubject = 'aircraft technical knowledge (helicopter)';
+                }
+            }
 
             showToast(
                 `Detected: ${appState.detectedExam} ${appState.detectedSubject} \u2014 ${appState.extractedCodes.length} KDR codes extracted`
