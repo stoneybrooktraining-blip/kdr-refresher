@@ -652,9 +652,9 @@
         // ===== CONFIGURATION =====
         const CONFIG = {
             subjectMapping: {
-                'air law': { num: '11', acNum: '4', prefix: '4' },
-                'aircraft technical knowledge': { num: '12', acNum: '12', prefix: '12' },
-                'aircraft technical knowledge (helicopter)': { num: '14', acNum: '14', prefix: '14' },
+                'air law': { num: '11', acNum: '4', prefix: '4', cplAcNum: '16' },
+                'aircraft technical knowledge': { num: '12', acNum: '12', prefix: '12', cplAcNum: '26' },
+                'aircraft technical knowledge (helicopter)': { num: '14', acNum: '14', prefix: '14', cplAcNum: '28' },
                 'flight navigation': { num: '13', acNum: '6', prefix: '6' },
                 'meteorology': { num: '15', acNum: '8', prefix: '8' },
                 'human factors': { num: '16', acNum: '10', prefix: '10' },
@@ -667,11 +667,15 @@
                     '10': 'data/ppl-hf.json',
                     '16': 'data/ppl-hf.json',
                     '2': 'data/ppl-frto.json',
-                    '4': 'data/ppl-law.json',                    '6': 'data/ppl-nav.json',                    '8': 'data/ppl-met.json'
-        },
-        'cpl': {
-            '16': 'data/cpl-law.json'
-        }
+                    '4': 'data/ppl-law.json',
+                    '6': 'data/ppl-nav.json',
+                    '8': 'data/ppl-met.json'
+                },
+                'cpl': {
+                    '16': 'data/cpl-law.json',
+                    '26': 'data/cpl-atk.json',
+                    '28': 'data/cpl-atk-heli.json'
+                }
             },
             examTypes: ['PPL', 'CPL', 'ATPL', 'IR']
         };
@@ -890,10 +894,14 @@
             appState.extractedCodes = [...new Set(found)];
 
             // Auto-detect helicopter ATK vs aeroplane ATK by code prefix
+            // PPL: aeroplane codes start with 12., helicopter with 14.
+            // CPL: aeroplane codes start with 26., helicopter with 28.
             if (appState.detectedSubject === 'aircraft technical knowledge' && appState.extractedCodes.length > 0) {
                 const hasCode14 = appState.extractedCodes.some(c => c.startsWith('14.'));
                 const hasCode12 = appState.extractedCodes.some(c => c.startsWith('12.'));
-                if (hasCode14 && !hasCode12) {
+                const hasCode28 = appState.extractedCodes.some(c => c.startsWith('28.'));
+                const hasCode26 = appState.extractedCodes.some(c => c.startsWith('26.'));
+                if ((hasCode14 && !hasCode12) || (hasCode28 && !hasCode26)) {
                     appState.detectedSubject = 'aircraft technical knowledge (helicopter)';
                 }
             }
@@ -916,7 +924,8 @@
                 }
 
                 const subjectMapping = CONFIG.subjectMapping[appState.detectedSubject];
-                const prefix = subjectMapping.acNum.toString();
+                const isCpl = appState.detectedExam.toLowerCase() === 'cpl';
+                const prefix = (isCpl && subjectMapping.cplAcNum) ? subjectMapping.cplAcNum.toString() : subjectMapping.acNum.toString();
                 const jsonFile = examConfig[prefix];
 
                 if (!jsonFile) {
