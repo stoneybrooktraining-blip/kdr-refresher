@@ -102,7 +102,7 @@
     "created": "2026-03-27T00:00:00Z"
   },
   {
-    "code": "16.4.2",
+    "code": "16.4",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the meaning of the following definitions from CAR Part 1 (unless otherwise noted): accelerate-stop distance available, accident, Act, aerobatic flight, aerodrome control service, aerodrome traffic circuit, aeronautical information circular, AIP supplement, aircraft category and category of aircraft, air traffic control service, air transport operation, air operation, airworthiness certificate, airworthiness directive, airworthy condition, alerting service, altitude, area control service, ATC clearance, ATC instruction, aviation event, AWIB service, basic weather report, ceiling, certificated organisation, Class 3.1A Flammable liquid, Class 3.1C Flammable liquid, Class 3.1D Flammable liquid, Class B cargo or baggage compartment, clearance limit, clearway, command practice, commercial transport operation, controlled airspace, controlled flight, co-pilot, crew member, dangerous goods, day, dual flight time, emergency locator transmitter, enhanced visual imaging system, final reserve fuel, fit and proper person, flight examiner, flight attendant, flight crew member, flight information service, flight level, flight manual, flight plan, flight time, height, heliport (Helicopter candidates only), introductory flight, incident, landing area, landing distance available, night, night vision goggles, night vision imaging systems, NOTAM, NVG operation, passenger, pilot-in-command (PIC), rating, regular air transport passenger service, SARTIME, serious incident, simultaneous operations -- visual conditions (AIP GEN), synthetic vision system, take-off distance available, take-off run available, take-off weight, Technical Instructions, threshold (rule 121.3), transition altitude (AIP GEN), transition layer (AIP GEN), transition level (AIP GEN), type, unlawful interference, UNICOM service, VFR flight, vicinity of an aerodrome (AIP GEN), visibility, visual meteorological conditions, visual reference (AIP GEN)",
     "concept": "CAR Part 1 contains the regulatory definitions that underpin all of New Zealand's civil aviation rules. Rev 38 has updated and restructured these definitions to align with the CA Act 2023. Some definitions have been added (like accelerate-stop distance available, Act, aerobatic flight, aerodrome control service, enhanced visual imaging system, synthetic vision system, NVG operation), while others from older revisions have been removed or reorganised. These aren't just words--they're legal terms with precise meanings. For example, 'air operation' and 'air transport operation' have distinct definitions that determine which regulatory regime applies to your flying. 'Airworthy condition' is legally defined and determines whether your aircraft can legally fly. Time-based definitions like 'day' and 'night' are based on civil twilight. Note that some definitions now reference AIP GEN rather than CAR Part 1. You need to know each definition precisely--getting them wrong means misunderstanding the rules themselves.",
@@ -119,7 +119,7 @@
     "created": "2026-03-27T00:00:00Z"
   },
   {
-    "code": "16.4.2(a)",
+    "code": "16.4(a)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: accelerate-stop distance available. CAR Part 1, rule 1.1",
     "concept": "Accelerate-stop distance available means the length of the take-off run available plus the length of any stopway.",
@@ -135,7 +135,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(b)",
+    "code": "16.4(b)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: accident. CA Act 2023, section 5",
     "concept": "Accident means an occurrence associated with the operation of an aircraft that -- (a) in the case of an aircraft intended to be flown with any person on board, takes place between the time that any person boards the aircraft with the intention of flight and the time that all persons on board have disembarked and the engine or any propellers or rotors have come to rest; or (b) in the case of an aircraft intended to be flown without any person on board, takes place between the time that the aircraft is ready to move with the purpose of flight and the time that the aircraft comes to rest at the end of the flight and the primary propulsion system is shut down. The occurrence must be one in which -- (a) a person is fatally or seriously injured as a result of being in the aircraft, or direct contact with any part of the aircraft including any part that has become detached from the aircraft, or direct exposure to jet blast; or (b) the aircraft sustains damage or structural failure that adversely affects the structural strength, performance, or flight characteristics of the aircraft and would normally require major repair or replacement of the affected component; or (c) the aircraft is missing or is completely inaccessible.",
@@ -151,7 +151,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(c)",
+    "code": "16.4(c)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: Act. CAR Part 1, rule 1.1",
     "concept": "Act means the Civil Aviation Act 2023.",
@@ -167,7 +167,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(d)",
+    "code": "16.4(d)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: aerobatic flight. CAR Part 1, rule 1.1",
     "concept": "Aerobatic flight means -- (1) an intentional manoeuvre in which the aircraft is in sustained inverted flight or is rolled from upright to inverted or from inverted to upright position; or (2) manoeuvres such as rolls, loops, spins, upward vertical flight culminating in a stall turn, hammerhead or whip stall, or a combination of such manoeuvres.",
@@ -183,7 +183,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(e)",
+    "code": "16.4(e)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: aerodrome control service. CA Act 2023, section 5",
     "concept": "Aerodrome control service means an air traffic control service provided for the control of aerodrome traffic.",
@@ -199,7 +199,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(f)",
+    "code": "16.4(f)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: aerodrome traffic circuit. CA Act 2023, section 5",
     "concept": "Aerodrome traffic circuit means the pattern flown by aircraft operating in the vicinity of an aerodrome.",
@@ -215,7 +215,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(g)",
+    "code": "16.4(g)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: aeronautical information circular. CAR Part 1, rule 1.1",
     "concept": "Aeronautical Information Circular means a notice containing information that -- (1) does not qualify for the origination of a NOTAM or for inclusion in the AIPNZ; and (2) relates to flight safety, air navigation, technical, administrative or legislative matters.",
@@ -231,7 +231,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(h)",
+    "code": "16.4(h)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: AIP supplement. CAR Part 1, rule 1.1",
     "concept": "AIP Supplement means temporary changes to the information contained in the AIPNZ that are published by means of special pages.",
@@ -247,7 +247,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(i)",
+    "code": "16.4(i)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: aircraft category and category of aircraft. CAR Part 1, rule 1.1",
     "concept": "Aircraft category and category of aircraft means any one of the following classes of aircraft: aeroplane, balloon, glider, hang glider, helicopter, or microlight.",
@@ -263,7 +263,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(j)",
+    "code": "16.4(j)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: air traffic control service. CA Act 2023, section 5",
     "concept": "Air traffic control service -- (a) means a service provided for the purposes of -- (i) preventing collisions between aircraft and between aircraft and obstructions on any manoeuvring area; and (ii) expediting and maintaining a safe and efficient flow of air traffic; and (b) includes -- (i) an aerodrome control service; (ii) an area control service; (iii) an approach control service.",
@@ -279,7 +279,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(k)",
+    "code": "16.4(k)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: air transport operation. CAR Part 1, rule 1.1",
     "concept": "Air transport operation means an operation for the carriage of passengers or goods by air for hire or reward except -- (1) a commercial transport operation; (2) an adventure aviation operation; (3) a helicopter external load operation under Part 133; (4) an agricultural aircraft operation under Part 137; (5) an introductory flight carried out under rule 91.227H; (6) a cost sharing flight under rule 91.227B.",
@@ -295,7 +295,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(l)",
+    "code": "16.4(l)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: air operation. CAR Part 1, rule 1.1",
     "concept": "Air operation means an air transport operation, a commercial transport operation, or an adventure aviation operation.",
@@ -311,7 +311,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(m)",
+    "code": "16.4(m)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: airworthiness certificate. CAR Part 1, rule 1.1",
     "concept": "Airworthiness certificate means -- (1) for a New Zealand registered aircraft, an airworthiness certificate issued by the Director under Part 21, Subpart H; and (2) for a foreign registered aircraft, an airworthiness certificate issued by the competent authority of the State of registry.",
@@ -327,7 +327,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(n)",
+    "code": "16.4(n)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: airworthiness directive. CAR Part 1, rule 1.1",
     "concept": "Airworthiness directive means a mandatory airworthiness requirement that specifies modifications, inspections, conditions, or limitations to be applied to an aircraft or aeronautical product to ensure continued safe operating conditions.",
@@ -344,7 +344,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(o)",
+    "code": "16.4(o)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: airworthy condition. CAR Part 1, rule 1.1",
     "concept": "Airworthy condition means the condition of an aircraft, including its components, fuel, and other materials and substances essential to the manufacture and operation of the aircraft, that complies with all the requirements prescribed by the Civil Aviation Rules relating to design, manufacture, maintenance, modification, repair, and safety.",
@@ -360,7 +360,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(p)",
+    "code": "16.4(p)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: alerting service. CA Act 2023, section 5",
     "concept": "Alerting service means an air traffic service provided to notify appropriate organisations regarding aircraft in need of search and rescue aid, and to assist such organisations as required.",
@@ -376,7 +376,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(q)",
+    "code": "16.4(q)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: altitude. CAR Part 1, rule 1.1",
     "concept": "Altitude means the vertical distance of a level, a point, or an object considered as a point, measured from mean sea level.",
@@ -392,7 +392,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(r)",
+    "code": "16.4(r)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: area control service. CA Act 2023, section 5",
     "concept": "Area control service means an air traffic control service provided for controlled flights in controlled airspace.",
@@ -408,7 +408,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(s)",
+    "code": "16.4(s)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: ATC clearance. CAR Part 1, rule 1.1",
     "concept": "ATC clearance means authorisation for an aircraft to proceed under conditions specified by an air traffic control unit.",
@@ -424,7 +424,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(t)",
+    "code": "16.4(t)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: ATC instruction. CAR Part 1, rule 1.1",
     "concept": "ATC instruction means a directive issued by ATC for the purpose of requiring a pilot to take a specific action.",
@@ -440,7 +440,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(u)",
+    "code": "16.4(u)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: aviation event. CAR Part 1, rule 1.1",
     "concept": "Aviation event means an event to be conducted below the minimum safe heights prescribed under Part 91 that is -- (1) an air show or practice for an air show; or (2) an air race or practice for an air race; or (3) an aerobatic competition; or (4) aerobatic training or practice.",
@@ -456,7 +456,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(v)",
+    "code": "16.4(v)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: AWIB service. CAR Part 1, rule 1.1",
     "concept": "AWIB Service means an automatic broadcast of aerodrome and weather information provided specifically for the facilitation of aviation, and for the avoidance of doubt, an AWIB service is not an air traffic service.",
@@ -473,7 +473,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(w)",
+    "code": "16.4(w)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: basic weather report. CAR Part 1, rule 1.1",
     "concept": "Basic weather report means a verbal comment, in support of aviation, describing any of the following current weather conditions observed at a particular place or airspace: (1) wind direction and strength; (2) mean sea level air pressure; (3) air temperature; (4) weather conditions and cloud cover.",
@@ -490,7 +490,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(x)",
+    "code": "16.4(x)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: ceiling. CAR Part 1, rule 1.1",
     "concept": "Ceiling means the height above ground or water of the base of the lowest layer of cloud below 20 000 feet covering more than half the sky.",
@@ -506,7 +506,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(y)",
+    "code": "16.4(y)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: certificated organisation. CAR Part 1, rule 1.1",
     "concept": "Certificated organisation means an organisation issued with a certificate under rules made under the Act.",
@@ -522,7 +522,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(z)",
+    "code": "16.4(z)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: Class 3.1A Flammable liquid. CAR Part 1, rule 1.1",
     "concept": "Class 3.1A -- Flammable liquid means a liquid that has a flash point of below 23 degrees C and has an initial boiling point (IBP) of a maximum 35 degrees C, and includes petrol based products.",
@@ -538,7 +538,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(aa)",
+    "code": "16.4(aa)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: Class 3.1C Flammable liquid. CAR Part 1, rule 1.1",
     "concept": "Class 3.1C -- Flammable liquid means a liquid that has a flash point at or above 23 degrees C, but at or below 60 degrees C, and includes kerosene based products.",
@@ -554,7 +554,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(bb)",
+    "code": "16.4(bb)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: Class 3.1D Flammable liquid. CAR Part 1, rule 1.1",
     "concept": "Class 3.1D -- Flammable liquid means a liquid that has a flash point of above 60 degrees C, but at or below 93 degrees C, and includes diesel products.",
@@ -570,7 +570,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(cc)",
+    "code": "16.4(cc)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: Class B cargo or baggage compartment. CAR Part 1, rule 1.1",
     "concept": "Class B cargo or baggage compartment means a cargo or baggage compartment in which -- (1) there is sufficient access in flight to enable a crew member to effectively reach any part of the compartment with the contents of a hand fire extinguisher; and (2) when the access provisions are being used, no hazardous quantity of smoke, flames, or extinguishing agent will enter any compartment occupied by the crew or passengers; and (3) there is a separate approved smoke detector or fire detector system to give warning at the pilot or flight engineer station.",
@@ -586,7 +586,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(dd)",
+    "code": "16.4(dd)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: clearance limit. CAR Part 1, rule 1.1",
     "concept": "Clearance limit means the point to which an aircraft is granted an ATC clearance.",
@@ -602,7 +602,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(ee)",
+    "code": "16.4(ee)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: clearway. CAR Part 1, rule 1.1",
     "concept": "Clearway means a defined rectangular area on the ground or water, at the departure end of the runway -- (1) under the control of the aerodrome operator; or (2) with the agreement of the authority controlling the clearway -- selected or prepared as a suitable area over which an aeroplane may make a portion of its initial climb to a specified height.",
@@ -619,7 +619,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(ff)",
+    "code": "16.4(ff)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: command practice. CAR Part 1, rule 1.1",
     "concept": "Command practice means the performance by a co-pilot of the duties and functions of a pilot-in-command during a flight under the supervision of a pilot-in-command designated for the purpose by the operator.",
@@ -635,7 +635,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(gg)",
+    "code": "16.4(gg)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: commercial transport operation. CAR Part 1, rule 1.1",
     "concept": "Commercial transport operation means an operation for the carriage of passengers or goods by air for hire or reward -- (1) where each passenger is performing, or undergoing training to perform, a task or duty on the operation; or the passengers or goods are carried to or from a remote aerodrome -- (2) except those operations in paragraph (1) that are air transport operations, adventure aviation operations, helicopter external load operations under Part 133, agricultural aircraft operations under Part 137, introductory flights under rule 91.227H, or cost sharing flights under rule 91.227B.",
@@ -652,7 +652,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(hh)",
+    "code": "16.4(hh)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: controlled airspace. CA Act 2023, section 5",
     "concept": "Controlled airspace means an airspace of defined dimensions within which an air traffic control service is provided in accordance with airspace classification.",
@@ -668,7 +668,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(ii)",
+    "code": "16.4(ii)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: controlled flight. CA Act 2023, section 5",
     "concept": "Controlled flight means any flight that is subject to an air traffic control clearance under the rules.",
@@ -684,7 +684,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(jj)",
+    "code": "16.4(jj)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: co-pilot. CAR Part 1, rule 1.1",
     "concept": "Co-pilot means a licensed pilot, serving in any piloting capacity other than as pilot-in-command; but does not include a pilot receiving flight instruction from a pilot on board the aircraft.",
@@ -700,7 +700,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(kk)",
+    "code": "16.4(kk)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: crew member. CAR Part 1, rule 1.1",
     "concept": "Crew member means a person carried by an aircraft who is -- (1) assigned by the operator as a flight crew member or flight attendant to perform a duty associated with the operation of the flight; or to perform a duty associated with the operation of the aircraft during flight time; or (2) a person carried for the sole purpose of undergoing or giving instruction in the control and navigation of the aircraft; or undergoing instruction as a flight engineer or flight attendant; or (3) authorised by the Director to exercise a function associated with the operation of the aircraft during flight time; or (4) a flight examiner; or (5) a person carried to perform a specified function necessary for the purpose of an operation under circumstances and conditions determined by the Director as specified in a notice under rule 91.227E.",
@@ -716,7 +716,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(ll)",
+    "code": "16.4(ll)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: dangerous goods. CA Act 2023, section 5",
     "concept": "Dangerous goods means articles or substances that are capable of posing a risk to health, safety, property, or the environment and -- (a) are listed in, or classified in accordance with, the ICAO's Technical Instructions for the Safe Transport of Dangerous Goods by Air; or (b) have properties that would result in the articles or substances being classified as dangerous goods under the ICAO's Technical Instructions for the Safe Transport of Dangerous Goods by Air.",
@@ -732,7 +732,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(mm)",
+    "code": "16.4(mm)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: day. CAR Part 1, rule 1.1",
     "concept": "Day means the hours between -- (1) the beginning of morning civil twilight, which is when the centre of the rising sun's disc is 6 degrees below the horizon; and (2) the end of evening civil twilight, which is when the centre of the setting sun's disc is 6 degrees below the horizon.",
@@ -749,7 +749,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(nn)",
+    "code": "16.4(nn)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: dual flight time. CAR Part 1, rule 1.1",
     "concept": "Dual flight time means flight time during which a person is receiving flight instruction from an appropriately licensed and rated pilot on board a dual control aircraft.",
@@ -765,7 +765,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(oo)",
+    "code": "16.4(oo)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: emergency locator transmitter. CAR Part 1, rule 1.1",
     "concept": "Emergency locator transmitter means an equipment that broadcasts a distinctive signal on a designated radio frequency to facilitate a search and rescue operation.",
@@ -781,7 +781,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(pp)",
+    "code": "16.4(pp)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: enhanced visual imaging system. CAR Part 1, rule 1.1",
     "concept": "Enhanced vision imaging system refers to technology which uses imaging sensors to see in front and along the flight path of aircraft to display an image of the external scene topography to the flight deck.",
@@ -798,7 +798,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(qq)",
+    "code": "16.4(qq)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: final reserve fuel. CAR Part 1, rule 1.1",
     "concept": "Final reserve fuel means the minimum quantity of fuel required to provide a margin to secure the safe completion of a flight in the event of any unplanned manoeuvring in the vicinity of the destination or alternate or a suitable aerodrome, as the case may be, and in ordinary circumstances remains on board until completion of the landing.",
@@ -814,7 +814,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(rr)",
+    "code": "16.4(rr)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: fit and proper person. CAR Part 1, rule 1.1",
     "concept": "Fit and proper person means a person who satisfies the fit and proper person test specified in the Act.",
@@ -830,7 +830,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(ss)",
+    "code": "16.4(ss)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: flight examiner. CAR Part 1, rule 1.1",
     "concept": "Flight examiner means a person who holds a flight examiner rating issued in accordance with Part 61 or is approved by the Director to conduct specific flight tests.",
@@ -846,7 +846,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(tt)",
+    "code": "16.4(tt)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: flight attendant. CAR Part 1, rule 1.1",
     "concept": "Flight attendant means an appropriately trained person assigned by the operator to be responsible to the pilot-in-command for passenger safety on an aircraft.",
@@ -862,7 +862,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(uu)",
+    "code": "16.4(uu)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: flight crew member. CAR Part 1, rule 1.1",
     "concept": "Flight crew member means an appropriately qualified person assigned by the operator for duty in an aircraft during flight time as a pilot or flight engineer.",
@@ -878,7 +878,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(vv)",
+    "code": "16.4(vv)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: flight information service. CA Act 2023, section 5",
     "concept": "Flight information service means an air traffic service provided for the purpose of giving advice and information intended for the safe and efficient conduct of flights.",
@@ -894,7 +894,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(ww)",
+    "code": "16.4(ww)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: flight level. CAR Part 1, rule 1.1",
     "concept": "Flight level means a surface of constant atmospheric pressure expressed in terms of hundreds of feet that -- (1) is related to a specific datum 1013.2 hPa; and (2) is separated from other such surfaces by specific pressure intervals.",
@@ -911,7 +911,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(xx)",
+    "code": "16.4(xx)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: flight manual. CAR Part 1, rule 1.1",
     "concept": "Flight manual means a manual, associated with the certificate of airworthiness, containing limitations within which the aircraft may be considered airworthy, and instructions and information necessary to the flight crew members for the safe operation of the aircraft.",
@@ -928,7 +928,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(yy)",
+    "code": "16.4(yy)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: flight plan. CAR Part 1, rule 1.1",
     "concept": "Flight plan means specified information that is required under the rules to be provided to an ATS unit or to a flight following service regarding an intended flight, or portion of a flight, of an aircraft.",
@@ -944,7 +944,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(zz)",
+    "code": "16.4(zz)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: flight time. CAR Part 1, rule 1.1",
     "concept": "Flight time means -- (1) for an aircraft other than a balloon, the total time from the moment an aircraft first moves for the purpose of flight until the moment it comes to rest at the end of the flight including any associated push back, taxiing and subsequent holding time; and (2) for a balloon, the total time from burner on for the purpose of inflation for flight until the envelope is completely deflated at the end of a flight.",
@@ -961,7 +961,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(aaa)",
+    "code": "16.4(aaa)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: height. CAR Part 1, rule 1.1",
     "concept": "Height means the vertical distance of a level, a point, or an object considered as a point, measured from a specified datum and includes the vertical dimension of an object.",
@@ -978,7 +978,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(bbb)",
+    "code": "16.4(bbb)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: heliport (Helicopter candidates only). CAR Part 1, rule 1.1",
     "concept": "Heliport means any defined area of land or water, and any defined area on a structure, intended or designed to be used either wholly or partly for the landing, departure, and surface movement of helicopters.",
@@ -994,7 +994,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(ccc)",
+    "code": "16.4(ccc)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: introductory flight. CAR Part 1, rule 1.1",
     "concept": "Introductory flight means a flight of short duration offered by a flight training organisation to a prospective trainee where the dominant purpose of the flight is to encourage the trainee to become a pilot.",
@@ -1011,7 +1011,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(ddd)",
+    "code": "16.4(ddd)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: incident. CA Act 2023, section 5",
     "concept": "Incident means any occurrence, other than an accident, that is associated with the operation of an aircraft and affects, or could affect, the safety of operation.",
@@ -1027,7 +1027,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(eee)",
+    "code": "16.4(eee)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: landing area. CAR Part 1, rule 1.1",
     "concept": "Landing area means that part of a movement area intended for the landing or take-off of aircraft.",
@@ -1043,7 +1043,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(fff)",
+    "code": "16.4(fff)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: landing distance available. CAR Part 1, rule 1.1",
     "concept": "Landing distance available means the length of the runway that is declared by the aerodrome operator as available and suitable for the ground run of an aeroplane landing.",
@@ -1059,7 +1059,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(ggg)",
+    "code": "16.4(ggg)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: night. CAR Part 1, rule 1.1",
     "concept": "Night means the hours between -- (1) the end of evening civil twilight, which is when the centre of the setting sun's disc is 6 degrees below the horizon; and (2) the beginning of morning civil twilight, which is when the centre of the rising sun's disc is 6 degrees below the horizon.",
@@ -1076,7 +1076,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(hhh)",
+    "code": "16.4(hhh)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: night vision goggles. CAR Part 1, rule 1.1",
     "concept": "Night vision goggles means a head-mounted, lightweight, and self-contained binocular appliance that amplifies ambient light used to enhance the ability to maintain visual reference to the surface at night.",
@@ -1092,7 +1092,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(iii)",
+    "code": "16.4(iii)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: night vision imaging systems. CAR Part 1, rule 1.1",
     "concept": "Night vision imaging system -- (1) refers to the integration of all the following elements for the successful and safe operation of an aircraft using NVGs: (i) operational procedures; (ii) suitable training, competency and currency requirements; (iii) NVGs and associated equipment; (iv) lighting system and associated aircraft components; (v) continuing airworthiness requirements; but (2) excludes enhanced vision imaging system and synthetic vision system.",
@@ -1108,7 +1108,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(jjj)",
+    "code": "16.4(jjj)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: NOTAM. CAR Part 1, rule 1.1",
     "concept": "NOTAM means a notice distributed by means of telecommunication containing information concerning the establishment, condition or change in any aeronautical facility, service, procedure or hazard, the timely knowledge of which is essential to personnel concerned with flight operations.",
@@ -1125,7 +1125,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(kkk)",
+    "code": "16.4(kkk)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: NVG operation. CAR Part 1, rule 1.1",
     "concept": "NVG operation means an operation during any part of which NVGs are used to maintain visual reference to the surface in an aircraft which is NVIS equipped and approved for NVIS operations.",
@@ -1141,7 +1141,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(lll)",
+    "code": "16.4(lll)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: passenger. CA Act 2023, section 5",
     "concept": "Passenger means any person carried on an aircraft other than a crew member. Note: The Civil Aviation Act 2023 s269(1) provides a specific definition for the context of international carriage by air (Part 8, subpart 3).",
@@ -1157,7 +1157,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(mmm)",
+    "code": "16.4(mmm)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: pilot-in-command (PIC). CA Act 2023, section 5",
     "concept": "Pilot-in-command, in relation to an aircraft -- (a) means the pilot on board the aircraft who is responsible for the operation and safety of the aircraft; and (b) in the absence of a pilot on board the aircraft, means the person who the rules specify as responsible for the operation and safety of the aircraft in accordance with the rules; and (c) in all other circumstances -- (i) means an individual nominated by the operator to be responsible for the operation and safety of the aircraft; and (ii) if no individual is nominated by the operator, means the operator.",
@@ -1174,7 +1174,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(nnn)",
+    "code": "16.4(nnn)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: rating. CAR Part 1, rule 1.1",
     "concept": "Rating means an authorisation entered on, or associated with, a licence, certificate, or logbook, and forming part of it, stating special conditions, privileges, or limitations relating to the licence or certificate.",
@@ -1190,7 +1190,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(ooo)",
+    "code": "16.4(ooo)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: regular air transport passenger service. CAR Part 1, rule 1.1",
     "concept": "Regular air transport passenger service means a service offered by an operator consisting of four or more air transport operations for the carriage of passengers between two or more aerodromes within any consecutive 28 day period.",
@@ -1207,7 +1207,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(ppp)",
+    "code": "16.4(ppp)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: SARTIME. CAR Part 1, rule 1.1",
     "concept": "SARTIME means the time nominated by a pilot for the initiation of alerting action.",
@@ -1223,7 +1223,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(qqq)",
+    "code": "16.4(qqq)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: serious incident. CAR Part 1, rule 1.1",
     "concept": "Serious incident means an incident involving circumstances indicating that an accident nearly occurred.",
@@ -1239,7 +1239,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(rrr)",
+    "code": "16.4(rrr)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: simultaneous operations -- visual conditions (AIP GEN). AIP GEN",
     "concept": "Simultaneous operations -- visual conditions means operations where simultaneous use of instrument and visual runways or approaches is conducted under specified visual meteorological conditions, as prescribed in AIP GEN.",
@@ -1256,7 +1256,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(sss)",
+    "code": "16.4(sss)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: synthetic vision system. CAR Part 1, rule 1.1",
     "concept": "Synthetic vision system refers to a system which uses computer generated images of the external scene topography from the perspective of the flight deck, derived from aircraft attitude, high precision navigation solutions, and databases of terrain obstacles and relevant cultural features to display a synthetic vision image of the external scene topography to the flight deck.",
@@ -1273,7 +1273,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(ttt)",
+    "code": "16.4(ttt)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: take-off distance available. CAR Part 1, rule 1.1",
     "concept": "Take-off distance available means the length of the take-off run available plus the length of any clearway.",
@@ -1289,7 +1289,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(uuu)",
+    "code": "16.4(uuu)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: take-off run available. CAR Part 1, rule 1.1",
     "concept": "Take-off run available means the length of the runway declared by the aerodrome operator as available and suitable for the ground run of an aeroplane taking-off.",
@@ -1305,7 +1305,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(vvv)",
+    "code": "16.4(vvv)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: take-off weight. CAR Part 1, rule 1.1",
     "concept": "Take-off weight means the weight of the aeroplane at the commencement of the take-off run and includes everything and everyone carried in or on the aeroplane at the commencement of the take-off run.",
@@ -1321,7 +1321,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(www)",
+    "code": "16.4(www)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: Technical Instructions. CAR Part 1, rule 1.1",
     "concept": "Technical Instructions means ICAO Document 9284 Technical Instructions for the Safe Transport of Dangerous Goods by Air approved and published by decision of the Council of the International Civil Aviation Organisation under Annex 18 of the Convention.",
@@ -1338,7 +1338,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(xxx)",
+    "code": "16.4(xxx)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: threshold (rule 121.3). CAR Part 121, rule 121.3",
     "concept": "Threshold means that point where a 1:20 obstacle-free approach surface intersects the runway surface.",
@@ -1355,7 +1355,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(yyy)",
+    "code": "16.4(yyy)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: transition altitude (AIP GEN). AIP GEN",
     "concept": "Transition altitude means the altitude at or below which the vertical position of an aircraft is controlled by reference to altitudes (AMSL). In New Zealand, the transition altitude is 11,000 ft AMSL.",
@@ -1372,7 +1372,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(zzz)",
+    "code": "16.4(zzz)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: transition layer (AIP GEN). AIP GEN",
     "concept": "Transition layer means the airspace between the transition altitude and the transition level.",
@@ -1389,7 +1389,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(aaaa)",
+    "code": "16.4(aaaa)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: transition level (AIP GEN). AIP GEN",
     "concept": "Transition level means the lowest flight level available for use above the transition altitude.",
@@ -1406,7 +1406,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(bbbb)",
+    "code": "16.4(bbbb)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: type. CAR Part 1, rule 1.1",
     "concept": "Type -- (1) in relation to the licensing of aviation personnel means all aircraft of the same basic design, including all modifications thereto except those modifications which result in a significant change in handling or flight characteristics; or (2) in relation to the certification of aircraft, aircraft engines, or propellers, means those aircraft, aircraft engines or propellers which are similar in design.",
@@ -1423,7 +1423,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(cccc)",
+    "code": "16.4(cccc)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: unlawful interference. CAR Part 1, rule 1.1",
     "concept": "Unlawful interference means an act or attempted act endangering a passenger, crew member, ground personnel, aircraft, or facility.",
@@ -1439,7 +1439,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(dddd)",
+    "code": "16.4(dddd)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: UNICOM service. CAR Part 1, rule 1.1",
     "concept": "UNICOM Service means a ground radio communications service in the aeronautical mobile service providing local aerodrome information for the facilitation of aviation, and, for the avoidance of doubt, a UNICOM service is not an air traffic service.",
@@ -1456,7 +1456,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(eeee)",
+    "code": "16.4(eeee)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: VFR flight. CAR Part 1, rule 1.1",
     "concept": "VFR flight means a flight conducted in accordance with the visual flight rules.",
@@ -1473,7 +1473,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(ffff)",
+    "code": "16.4(ffff)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: vicinity of an aerodrome (AIP GEN). AIP GEN",
     "concept": "Vicinity of an aerodrome means the airspace within a specified distance of an aerodrome where specific operating rules apply, as prescribed in AIP GEN.",
@@ -1489,7 +1489,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(gggg)",
+    "code": "16.4(gggg)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: visibility. CAR Part 1, rule 1.1",
     "concept": "Visibility means the ability, as determined by atmospheric conditions and expressed in units of measurement, to see and identify prominent unlighted objects by day and prominent lighted objects by night.",
@@ -1506,7 +1506,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(hhhh)",
+    "code": "16.4(hhhh)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: visual meteorological conditions. CAR Part 1, rule 1.1",
     "concept": "Visual meteorological conditions means meteorological conditions expressed in terms of visibility, distance from cloud, and ceiling equal to or better than specified minima.",
@@ -1523,7 +1523,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.4.2(iiii)",
+    "code": "16.4(iiii)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: visual reference (AIP GEN). AIP GEN",
     "concept": "Visual reference means the ability of the pilot to see sufficient ground features or landmarks to enable the pilot to maintain the aircraft in a desired attitude and to navigate by reference to the ground.",
@@ -1540,7 +1540,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2",
+    "code": "16.6",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the following abbreviations from CAR Part 1 (unless otherwise noted): AD, ADF, AEDRS, AGL, AIREP (AIP GEN), AMSL, ATIS, AWS (AIP GEN), BWR (AIP GEN), CAR, CGL (AIP GEN), DME, ELT, FATO (Helicopter candidates only) (AIP GEN), GNSS, ME1, ME2, MEL, NVG, NVIS, OGE (Helicopter candidates only), PLA, QFE, QNH, TALO (Helicopter candidates only) (AIP GEN), TLOF (Helicopter candidates only) (AIP GEN), VOR",
     "concept": "Rev 38 has significantly reduced and restructured the abbreviations list from earlier revisions. The new list contains 27 abbreviations (down from 56+ in previous versions). Many abbreviations that were previously listed here (like AIP, AIS, ATC, ATZ, AWIB, BKN, CTA, CTR, FEW, FIR, FL, ft, GAA, hPa, IFR, ILS, IMC, km, kt, LAT, LONG, MCTOW, MBZ, METAR, MOA, MSA, MTOW, NDB, NM, NOTAM, OCA/OCH, OVC, RVR, SARTIME, SCT, SKC, SPECI, SFC, TAF, TMA, UNICOM, UTC, VFR, VHZ, VMC, VNC) have been removed. New abbreviations added include AEDRS, AGL, AIREP, AMSL, AWS, BWR, CGL, FATO, GNSS, ME1, ME2, MEL, NVG, NVIS, OGE, PLA, TALO, and TLOF. Some abbreviations now reference AIP GEN as their source rather than CAR Part 1. The helicopter-specific abbreviations (FATO, OGE, TALO, TLOF) only apply to helicopter candidates.",
@@ -1557,7 +1557,7 @@
     "created": "2026-03-27T00:00:00Z"
   },
   {
-    "code": "16.6.2(a)",
+    "code": "16.6(a)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: AD. CAR Part 1, rule 1.3",
     "concept": "AD means airworthiness directive.",
@@ -1573,7 +1573,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(b)",
+    "code": "16.6(b)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: ADF. CAR Part 1, rule 1.3",
     "concept": "ADF means automatic direction-finder.",
@@ -1589,7 +1589,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(c)",
+    "code": "16.6(c)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: AEDRS. CAR Part 1, rule 1.3",
     "concept": "AEDRS means automatic engine data recording system.",
@@ -1605,7 +1605,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(d)",
+    "code": "16.6(d)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: AGL. CAR Part 1, rule 1.3",
     "concept": "AGL means above ground level.",
@@ -1621,7 +1621,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(e)",
+    "code": "16.6(e)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: AIREP (AIP GEN). AIP GEN",
     "concept": "AIREP (AIP GEN) means air report.",
@@ -1637,7 +1637,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(f)",
+    "code": "16.6(f)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: AMSL. CAR Part 1, rule 1.3",
     "concept": "AMSL means above mean sea level.",
@@ -1653,7 +1653,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(g)",
+    "code": "16.6(g)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: ATIS. CAR Part 1, rule 1.3",
     "concept": "ATIS means automatic terminal information service.",
@@ -1669,7 +1669,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(h)",
+    "code": "16.6(h)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: AWS (AIP GEN). AIP GEN",
     "concept": "AWS (AIP GEN) means aerodrome weather station.",
@@ -1685,7 +1685,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(i)",
+    "code": "16.6(i)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: BWR (AIP GEN). AIP GEN",
     "concept": "BWR (AIP GEN) means basic weather report.",
@@ -1701,7 +1701,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(j)",
+    "code": "16.6(j)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: CAR. CAR Part 1, rule 1.3",
     "concept": "CAR means Civil Aviation Rules.",
@@ -1717,7 +1717,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(k)",
+    "code": "16.6(k)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: CGL (AIP GEN). AIP GEN",
     "concept": "CGL (AIP GEN) means circling guidance lighting.",
@@ -1733,7 +1733,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(l)",
+    "code": "16.6(l)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: DME. CAR Part 1, rule 1.3",
     "concept": "DME means distance measuring equipment.",
@@ -1749,7 +1749,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(m)",
+    "code": "16.6(m)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: ELT. CAR Part 1, rule 1.3",
     "concept": "ELT means emergency locator transmitter.",
@@ -1765,7 +1765,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(n)",
+    "code": "16.6(n)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: FATO (Helicopter candidates only) (AIP GEN). AIP GEN",
     "concept": "FATO (Helicopter candidates only) (AIP GEN) means final approach and take-off area.",
@@ -1781,7 +1781,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(o)",
+    "code": "16.6(o)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: GNSS. CAR Part 1, rule 1.3",
     "concept": "GNSS means global navigation satellite system.",
@@ -1797,7 +1797,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(p)",
+    "code": "16.6(p)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: ME1. CAR Part 1, rule 1.3",
     "concept": "ME1 means Medical Examiner 1 Certificate holder.",
@@ -1813,7 +1813,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(q)",
+    "code": "16.6(q)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: ME2. CAR Part 1, rule 1.3",
     "concept": "ME2 means Medical Examiner 2 Certificate holder.",
@@ -1829,7 +1829,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(r)",
+    "code": "16.6(r)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: MEL. CAR Part 1, rule 1.3",
     "concept": "MEL means minimum equipment list.",
@@ -1845,7 +1845,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(s)",
+    "code": "16.6(s)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: NVG. CAR Part 1, rule 1.3",
     "concept": "NVG means night vision goggles.",
@@ -1861,7 +1861,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(t)",
+    "code": "16.6(t)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: NVIS. CAR Part 1, rule 1.3",
     "concept": "NVIS means night vision imaging system.",
@@ -1877,7 +1877,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(u)",
+    "code": "16.6(u)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: OGE (Helicopter candidates only). CAR Part 1, rule 1.3",
     "concept": "OGE (Helicopter candidates only) means out of ground effect.",
@@ -1894,7 +1894,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(v)",
+    "code": "16.6(v)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: PLA. CAR Part 1, rule 1.3",
     "concept": "PLA means parachute landing area.",
@@ -1910,7 +1910,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(w)",
+    "code": "16.6(w)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: QFE. CAR Part 1, rule 1.3",
     "concept": "QFE means atmospheric pressure at aerodrome level or runway threshold.",
@@ -1926,7 +1926,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(x)",
+    "code": "16.6(x)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: QNH. CAR Part 1, rule 1.3",
     "concept": "QNH means altimeter sub-scale setting to obtain elevation when on the ground.",
@@ -1942,7 +1942,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(y)",
+    "code": "16.6(y)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: TALO (Helicopter candidates only) (AIP GEN). AIP GEN",
     "concept": "TALO (Helicopter candidates only) (AIP GEN) means touch-down and lift-off area.",
@@ -1958,7 +1958,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(z)",
+    "code": "16.6(z)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: TLOF (Helicopter candidates only) (AIP GEN). AIP GEN",
     "concept": "TLOF (Helicopter candidates only) (AIP GEN) means touch-down and lift-off area.",
@@ -1975,7 +1975,7 @@
     "created": "2026-03-30T00:00:00Z"
   },
   {
-    "code": "16.6.2(aa)",
+    "code": "16.6(aa)",
     "topic": "16.6 -- Abbreviations",
     "syllabus_desc": "State the meaning of the abbreviation: VOR. CAR Part 1, rule 1.3",
     "concept": "VOR means VHF omnidirectional range.",
