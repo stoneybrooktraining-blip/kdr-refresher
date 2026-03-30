@@ -886,6 +886,8 @@
                 // Filter out dates (e.g. 10.02.2026) and years
                 if (/^\d{1,2}\.\d{2}\.\d{4}$/.test(base)) continue;
                 if (/2026|2025|2024/.test(base)) continue;
+                // Filter out CAR 61.21 reference that appears on every ASPEQ KDR
+                if (base === '61.21') continue;
                 // Reconstruct code with letter attached (no space)
                 const code = letter ? base + '(' + letter + ')' : base;
                 found.push(code);
