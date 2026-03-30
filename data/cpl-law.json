@@ -1341,15 +1341,15 @@
     "code": "16.4.2(xxx)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: threshold (rule 121.3). CAR Part 121, rule 121.3",
-    "concept": "Threshold means the beginning of that portion of the runway usable for landing.",
-    "exam_tip": "The threshold is where the usable landing portion of the runway begins. A displaced threshold means the landing threshold has been moved down the runway -- you can use the area before it for take-off but not for landing.",
+    "concept": "Threshold means that point where a 1:20 obstacle-free approach surface intersects the runway surface.",
+    "exam_tip": "The Part 121 definition is technical -- it's the point where a 1:20 obstacle-free approach surface meets the runway. A displaced threshold means this intersection point has been moved down the runway -- you can use the area before it for take-off and roll-out but not for landing.",
     "key_facts": [
-      "Beginning of the usable landing portion of the runway",
-      "Defined in rule 121.3",
-      "Displaced threshold: landing starts further down the runway",
-      "Area before a displaced threshold may still be used for take-off"
+      "Point where a 1:20 obstacle-free approach surface intersects the runway surface",
+      "Defined in CAR Part 121, rule 121.3",
+      "Displaced threshold: the intersection point is moved further down the runway",
+      "Area before a displaced threshold may still be used for take-off and roll-out"
     ],
-    "source": "CAR Part 1, CAR Part 121 rule 121.3",
+    "source": "CAR Part 121, rule 121.3",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-30T00:00:00Z"
