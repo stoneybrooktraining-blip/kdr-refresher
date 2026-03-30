@@ -877,7 +877,7 @@
             // Extract codes: d.d.d, d.d.d(x), d.d(x) formats
             // CPL codes can be 2-segment like 16.6(k); PPL codes are 3-segment like 4.2.4(a)
             // ASPEQ KDRs print codes with a space before the letter: "2.10.6 (d)"
-            const codeRegex = /\b(\d{1,2}\.\d{1,3}(?:\.\d{1,3})?)(?:\s*\(([a-z]{1,2})\))?/g;
+            const codeRegex = /\b(\d{1,2}\.\d{1,3}(?:\.\d{1,3})?)(?:\s*\(([a-z]{1,4})\))?/g;
             const found = [];
             let match;
             while ((match = codeRegex.exec(text)) !== null) {
