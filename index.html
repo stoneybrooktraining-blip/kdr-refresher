@@ -657,7 +657,7 @@
                 'aircraft technical knowledge (helicopter)': { num: '14', acNum: '14', prefix: '14', cplAcNum: '28' },
                 'flight navigation': { num: '13', acNum: '6', prefix: '6' },
                 'meteorology': { num: '15', acNum: '8', prefix: '8' },
-                'human factors': { num: '16', acNum: '10', prefix: '10' },
+                'human factors': { num: '16', acNum: '10', prefix: '10', cplAcNum: '34' },
                 'flight radiotelephony': { num: '17', acNum: '2', prefix: '2' }
             },
             contentFiles: {
@@ -674,7 +674,8 @@
                 'cpl': {
                     '16': 'data/cpl-law.json',
                     '26': 'data/cpl-atk.json',
-                    '28': 'data/cpl-atk-heli.json'
+                    '28': 'data/cpl-atk-heli.json',
+                    '34': 'data/cpl-hf.json'
                 }
             },
             examTypes: ['PPL', 'CPL', 'ATPL', 'IR']
@@ -886,6 +887,8 @@
                 // Filter out dates (e.g. 10.02.2026) and years
                 if (/^\d{1,2}\.\d{2}\.\d{4}$/.test(base)) continue;
                 if (/2026|2025|2024/.test(base)) continue;
+                // Filter out CAR 61.21 reference that appears on every ASPEQ KDR
+                if (base === '61.21') continue;
                 // Reconstruct code with letter attached (no space)
                 const code = letter ? base + '(' + letter + ')' : base;
                 found.push(code);
