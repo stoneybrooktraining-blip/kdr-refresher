@@ -1,23 +1,5 @@
 [
   {
-    "code": "22.2.2",
-    "topic": "Aeroscience",
-    "syllabus_desc": "Units of measurement. State;",
-    "concept": "Aviation uses a mix of measurement systems, and you need to be comfortable switching between them. The International System (SI) gives us the core scientific units, but aviation also relies on older non-SI units inherited from maritime and imperial traditions. At CPL level, you're expected to know both systems and convert between them confidently. Think of it like being bilingual -- you need to speak SI for physics problems and non-SI for everyday cockpit work.",
-    "exam_tip": "Exam questions often test whether you can identify which system a unit belongs to and convert between them. Know your SI base units cold.",
-    "key_facts": [
-      "SI (Systeme International) is the standard scientific measurement system used worldwide",
-      "Aviation uses a blend of SI and non-SI units depending on context",
-      "SI base units include metre, kilogram, second, kelvin, and degree Celsius",
-      "Non-SI units common in aviation include foot, nautical mile, knot, and horsepower",
-      "You must be able to convert between systems for exam calculations"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
     "code": "22.2.2(a)",
     "topic": "Aeroscience",
     "syllabus_desc": "the International System (SI) units for length, mass, time, temperature (K and °C);",
@@ -72,24 +54,6 @@
     "created": "2026-04-01T06:45:14.042714+00:00"
   },
   {
-    "code": "22.2.4",
-    "topic": "Aeroscience",
-    "syllabus_desc": "Differentiate between scalar and vector quantities; and",
-    "concept": "This is a really useful distinction that trips people up if they don't nail it early. A scalar quantity has magnitude only -- it tells you how much but not which way. Temperature, mass, speed, and distance are all scalars. A vector quantity has both magnitude and direction. Force, velocity, acceleration, and displacement are vectors. Why does this matter in aviation? Because forces acting on your aeroplane are vectors. Lift acts upward, weight acts downward, thrust acts forward, drag acts backward. To figure out what the aeroplane actually does, you need to add these vectors properly -- and that's not the same as just adding numbers.",
-    "exam_tip": "If the quantity has a direction associated with it, it's a vector. Speed is scalar; velocity (speed + direction) is a vector. This distinction is a common exam trap.",
-    "key_facts": [
-      "Scalar: magnitude only (e.g. speed, mass, temperature, distance, time, energy)",
-      "Vector: magnitude AND direction (e.g. force, velocity, acceleration, displacement, momentum)",
-      "Vectors must be added using vector addition (parallelogram or triangle method), not simple arithmetic",
-      "All aerodynamic forces are vectors -- they have both size and direction",
-      "Speed is scalar; velocity is the vector equivalent (speed + direction)"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
     "code": "22.2.4(a)",
     "topic": "Aeroscience",
     "syllabus_desc": "explain and or apply vector addition and subtraction;",
@@ -137,24 +101,6 @@
       "Acceleration: rate of change of velocity, measured in m/s squared",
       "Acceleration occurs with any change in speed OR direction (or both)",
       "Constant-speed turning flight involves acceleration (direction is changing)"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
-    "code": "22.2.8",
-    "topic": "Aeroscience",
-    "syllabus_desc": "Describe Newton’s three laws of motion; and",
-    "concept": "Newton's three laws are the foundation everything else in aerodynamics rests on, so let's make them stick. First law: a body remains at rest or in uniform motion in a straight line unless acted on by an external force. That's inertia -- things keep doing what they're doing until a force makes them change. Second law: the acceleration of a body is proportional to the net force acting on it and inversely proportional to its mass (F = ma). More force means more acceleration; more mass means less acceleration for the same force. Third law: for every action there is an equal and opposite reaction. Push on something and it pushes back. Your propeller pushes air backward, the air pushes the aeroplane forward.",
-    "exam_tip": "Know F = ma inside out. Also remember Newton's third law explains how lift is generated (wing deflects air downward, air pushes wing upward) and how propellers produce thrust.",
-    "key_facts": [
-      "First law (inertia): a body stays at rest or in uniform motion unless a net force acts on it",
-      "Second law: F = ma; force equals mass times acceleration",
-      "Third law: every action has an equal and opposite reaction",
-      "First law explains why an aeroplane in equilibrium maintains constant velocity",
-      "Third law explains thrust production and the reaction lift force on a wing"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
@@ -227,24 +173,6 @@
       "SI unit of momentum is kg.m/s",
       "Force = rate of change of momentum (Newton's second law in momentum form)",
       "Conservation of momentum applies in collisions and propeller thrust generation"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
-    "code": "22.2.10",
-    "topic": "Aeroscience",
-    "syllabus_desc": "Describe motion on a curved path; and",
-    "concept": "When an object moves in a curved path -- like an aeroplane in a turn -- it's continuously changing direction, which means it's accelerating even if its speed is constant. This acceleration is directed toward the centre of the curve and is called centripetal acceleration. To produce this acceleration, there must be a net force acting toward the centre of the curve. In a turning aeroplane, this centripetal force comes from the horizontal component of lift when the wings are banked. Without this inward force, the aeroplane would simply continue in a straight line (Newton's first law). The tighter the turn or the faster the speed, the more centripetal force is required.",
-    "exam_tip": "Centripetal force always acts toward the centre of the turn. In a banked turn, it comes from the horizontal component of lift. This concept is fundamental to the turning chapter.",
-    "key_facts": [
-      "Curved motion requires continuous acceleration toward the centre of the curve",
-      "This centripetal acceleration is provided by a centripetal force",
-      "In a turning aeroplane, centripetal force comes from the horizontal component of lift",
-      "Centripetal force = mv squared / r (mass x velocity squared divided by radius)",
-      "Without centripetal force, an object continues in a straight line (Newton's first law)"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
@@ -792,24 +720,6 @@
     "created": "2026-04-01T06:45:14.042714+00:00"
   },
   {
-    "code": "22.8.8",
-    "topic": "Lift",
-    "syllabus_desc": "Given a typical CL versus  curve for a GP-type aerofoil, identify:",
-    "concept": "The CL versus alpha curve is one of the most important graphs in aerodynamics. For a typical GP aerofoil, it shows CL increasing roughly linearly from a small negative alpha through to CLmax, then dropping abruptly past the stalling angle. The curve tells you exactly how the wing behaves at every angle of attack: the slope of the linear region (the lift-curve slope) indicates how responsive the wing is to alpha changes, the peak shows you CLmax and the stalling angle, and the shape beyond the peak indicates whether the stall is gentle or abrupt. Understanding this curve is essential -- it's the bridge between the theory of lift and the practical reality of how your wing behaves throughout the flight envelope.",
-    "exam_tip": "The CL vs alpha curve is approximately linear up to CLmax, then drops sharply. The slope of the linear portion is called the lift-curve slope. Know how to read and interpret this graph.",
-    "key_facts": [
-      "CL vs alpha curve is approximately linear up to CLmax",
-      "The slope of the linear portion is the lift-curve slope (dCL/d-alpha)",
-      "CLmax marks the stalling angle of attack",
-      "Beyond CLmax, CL drops sharply (stall)",
-      "The shape of the curve near and beyond CLmax indicates stall characteristics"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
     "code": "22.8.8(a)",
     "topic": "Lift",
     "syllabus_desc": "the zero lift angle;",
@@ -857,24 +767,6 @@
       "Vs = square root of (2W / (rho x S x CLmax))",
       "Flaps increase CLmax by increasing effective camber",
       "Slats increase CLmax by allowing a higher stalling angle before flow separation"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
-    "code": "22.8.12",
-    "topic": "Lift",
-    "syllabus_desc": "With respect to the CL curve, describe the effect of:",
-    "concept": "The CL versus alpha curve shifts and changes shape with changes to the aerofoil or its surface condition. Understanding these effects helps you predict how your wing will behave in different configurations. Two key factors that alter the CL curve are camber and surface roughness, and they affect it in quite different ways.",
-    "exam_tip": "Camber shifts the whole CL curve upward and left. Surface roughness reduces CLmax and makes the stall earlier. These are distinct effects with different mechanisms.",
-    "key_facts": [
-      "Camber changes shift the CL curve upward (higher CL at any given alpha)",
-      "Surface roughness reduces CLmax and can trigger earlier stall",
-      "Both factors are commonly tested in exam questions about CL curve changes",
-      "Flaps increase effective camber; contamination increases roughness",
-      "Understanding how the CL curve changes is essential for predicting stall behaviour"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
@@ -1008,24 +900,6 @@
     "created": "2026-04-01T06:45:14.042714+00:00"
   },
   {
-    "code": "22.10.6",
-    "topic": "Drag",
-    "syllabus_desc": "Describe:",
-    "concept": "The boundary layer exists in two distinct states, with a transition between them. Understanding these states is essential because they determine how much drag the surface produces and how resistant the flow is to separation.",
-    "exam_tip": "Laminar = less friction drag but separates more easily. Turbulent = more friction drag but resists separation better. The transition point moves with speed, surface roughness, and pressure gradient.",
-    "key_facts": [
-      "Boundary layer has two states: laminar and turbulent",
-      "Transition point marks the change from laminar to turbulent",
-      "Each state has different drag and separation characteristics",
-      "Flow conditions determine where on the surface transition occurs",
-      "Understanding both states is fundamental to drag analysis"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
     "code": "22.10.6(a)",
     "topic": "Drag",
     "syllabus_desc": "laminar boundary layer flow;",
@@ -1145,24 +1019,6 @@
       "Produces more drag than the sum of the individual components in isolation",
       "Reduced by fillets, fairings, and wing-body blending",
       "Worst at near-perpendicular junctions; better at gradual, faired transitions"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
-    "code": "22.10.16",
-    "topic": "Drag",
-    "syllabus_desc": "Explain the origin of induced drag; and",
-    "concept": "Induced drag is the drag penalty you pay for generating lift with a finite wing. It's caused by the wingtip vortices that form when high-pressure air beneath the wing spills around the tips to the low-pressure region above. These vortices create an induced downwash that tilts the local airflow at the wing downward. Because lift is always perpendicular to the local airflow (not the freestream), this tilt causes the lift vector to lean slightly rearward. The rearward component of this tilted lift vector is induced drag. The stronger the vortices (higher CL), the more the downwash, and the greater the induced drag. At low speeds where you're flying at high CL to support the aircraft's weight, induced drag is at its greatest.",
-    "exam_tip": "Induced drag is the rearward component of the lift vector caused by induced downwash from wingtip vortices. It varies as CL squared and inversely with V squared.",
-    "key_facts": [
-      "Caused by wingtip vortices creating induced downwash",
-      "Downwash tilts the local airflow, tilting the lift vector rearward",
-      "The rearward component of the tilted lift vector is induced drag",
-      "Greatest at low speed / high angle of attack / high CL",
-      "Induced drag coefficient CDi is proportional to CL squared / (pi x AR x e)"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
@@ -1530,24 +1386,6 @@
     "created": "2026-04-01T06:45:14.042714+00:00"
   },
   {
-    "code": "22.14.6",
-    "topic": "Flight Controls",
-    "syllabus_desc": "Identify and explain:",
-    "concept": "Primary flight controls don't just affect their own axis -- they have secondary effects on other axes too. Understanding these cross-coupled effects is essential for coordinated flight.",
-    "exam_tip": "Aileron has a secondary yaw effect (adverse yaw). Rudder has a secondary roll effect. These secondary effects must be managed for coordinated flight.",
-    "key_facts": [
-      "Primary controls have secondary effects on other axes",
-      "These secondary effects must be understood and managed",
-      "Coordinated flight requires managing both primary and secondary effects",
-      "Adverse yaw from ailerons is the most significant secondary effect",
-      "Rudder's secondary roll effect comes from dihedral effect"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
     "code": "22.14.6(a)",
     "topic": "Flight Controls",
     "syllabus_desc": "the secondary effect of aileron;",
@@ -1836,24 +1674,6 @@
     "created": "2026-04-01T06:45:14.042714+00:00"
   },
   {
-    "code": "22.16.12",
-    "topic": "Stalling and Spinning",
-    "syllabus_desc": "Describe how the following factors affect stalling speed:",
-    "concept": "Several factors affect the speed at which the stall occurs. Understanding each one is essential for predicting when your aeroplane might stall and maintaining adequate margins.",
-    "exam_tip": "Factors affecting stall speed: weight, load factor, power, altitude (TAS vs IAS), flaps/slats, and surface contamination. Weight and load factor are the most significant.",
-    "key_facts": [
-      "Multiple factors shift the stalling speed up or down",
-      "Weight and load factor have the greatest effect on stall speed",
-      "Power, configuration, and surface condition also play significant roles",
-      "The stalling angle of attack remains essentially constant",
-      "What changes is the speed at which that critical angle is reached"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
     "code": "22.16.12(a)",
     "topic": "Stalling and Spinning",
     "syllabus_desc": "aircraft weight;",
@@ -2016,24 +1836,6 @@
     "created": "2026-04-01T06:45:14.042714+00:00"
   },
   {
-    "code": "22.16.20",
-    "topic": "Stalling and Spinning",
-    "syllabus_desc": "Describe the standard technique for recovery:",
-    "concept": "There are specific recovery techniques depending on whether you're recovering from a wing-drop stall or catching the stall at onset.",
-    "exam_tip": "Wing-drop recovery: unstall first (reduce alpha), then level wings. At onset: reduce alpha immediately, apply power, level wings. Always reduce alpha as the first action.",
-    "key_facts": [
-      "Recovery technique differs slightly for wing-drop versus onset",
-      "In all cases, reducing angle of attack is the first priority",
-      "Power application assists recovery and minimises altitude loss",
-      "Coordinated use of rudder and elevator is essential",
-      "Practice in the aircraft is essential to develop correct muscle memory"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
     "code": "22.16.20(a)",
     "topic": "Stalling and Spinning",
     "syllabus_desc": "from a stall which has resulted in a wing-drop;",
@@ -2081,24 +1883,6 @@
       "Dropping wing: increasing alpha, less lift, more drag",
       "Rising wing: decreasing alpha, more lift, less drag",
       "The differential creates a self-amplifying rotation that leads to a spin"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
-    "code": "22.16.24",
-    "topic": "Stalling and Spinning",
-    "syllabus_desc": "Describe the characteristics of the upright spin, and explain:",
-    "concept": "In an upright spin, the aircraft is in autorotation, descending steeply (nearly vertically) while rotating about all three axes simultaneously. Both wings are stalled, but the inner (downgoing) wing is at a much higher angle of attack than the outer wing. The aircraft typically rotates at about one turn every 3-4 seconds, with the nose well below the horizon, and descends at 5,000-8,000 feet per minute depending on the aircraft type. The spin is characterised by high rate of rotation, low airspeed, high rate of descent, and high angle of attack. The motion appears chaotic from inside the cockpit, but it's actually a stable aerodynamic condition -- the forces are in balance, just not where you want them.",
-    "exam_tip": "Spin characteristics: nose well below horizon, rotating rapidly (one turn per 3-4 sec), low airspeed, high descent rate (5,000-8,000 fpm), both wings stalled.",
-    "key_facts": [
-      "Both wings are stalled but at different angles of attack",
-      "Aircraft rotates about all three axes simultaneously",
-      "Typically one turn every 3-4 seconds with descent rate of 5,000-8,000 fpm",
-      "The airspeed is low and the angle of attack is well above the stalling angle",
-      "The spin is a stable aerodynamic condition (forces balanced in autorotation)"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
@@ -2178,24 +1962,6 @@
     "created": "2026-04-01T06:45:14.042714+00:00"
   },
   {
-    "code": "22.18.4",
-    "topic": "Straight and Level Flight",
-    "syllabus_desc": "For a conventional aeroplane configuration, describe:",
-    "concept": "In a conventional aeroplane, the four forces don't act through the same point, which creates couples and pitching moments that must be balanced for steady flight.",
-    "exam_tip": "The four forces create couples: lift/weight and thrust/drag. The tailplane provides the balancing moment. Power and configuration changes create additional pitching moments.",
-    "key_facts": [
-      "Lift and weight create a couple if they don't act through the same point",
-      "Thrust and drag create a couple if their lines of action are offset vertically",
-      "The tailplane produces a balancing pitching moment",
-      "Any change in the balance of couples requires trim adjustment",
-      "Understanding these couples is fundamental to longitudinal trim"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
     "code": "22.18.4(a)",
     "topic": "Straight and Level Flight",
     "syllabus_desc": "the lift/weight and thrust/drag couples;",
@@ -2268,24 +2034,6 @@
     "created": "2026-04-01T06:45:14.042714+00:00"
   },
   {
-    "code": "22.18.8",
-    "topic": "Straight and Level Flight",
-    "syllabus_desc": "For unaccelerated level flight:",
-    "concept": "Several key relationships govern unaccelerated level flight performance, all centred on the drag and power required curves.",
-    "exam_tip": "Power required = drag x TAS. The drag curve minimum (VMD) and power curve minimum (VMP) occur at different speeds. VMP is always slower than VMD.",
-    "key_facts": [
-      "Power required = drag x TAS",
-      "The drag curve and power required curve have different shapes and different minimum speeds",
-      "VMD is faster than VMP",
-      "VMD relates to best range; VMP relates to best endurance and best ROC",
-      "Understanding these curves is essential for performance planning"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
     "code": "22.18.8(a)",
     "topic": "Straight and Level Flight",
     "syllabus_desc": "state the power required formula (power = drag x TAS);",
@@ -2340,24 +2088,6 @@
     "created": "2026-04-01T06:45:14.042714+00:00"
   },
   {
-    "code": "22.18.10",
-    "topic": "Straight and Level Flight",
-    "syllabus_desc": "Given typical power available and power required curves, explain:",
-    "concept": "The power available and power required curves together define the aircraft's level flight performance envelope. Where they intersect determines the maximum and minimum speeds for level flight.",
-    "exam_tip": "Power available = power required gives max and min level flight speeds. The gap between the curves is excess power (available for climbing). Where they touch at one point = absolute ceiling.",
-    "key_facts": [
-      "Max speed: high-speed intersection of power available and power required curves",
-      "Min speed: low-speed intersection (or stall speed, whichever is higher)",
-      "The gap between the curves represents excess power available for climbing",
-      "At the absolute ceiling, the curves are tangent (touch at one point)",
-      "These relationships are fundamental to understanding climb and ceiling performance"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
     "code": "22.18.10(a)",
     "topic": "Straight and Level Flight",
     "syllabus_desc": "the maximum and minimum speeds for level flight;",
@@ -2405,24 +2135,6 @@
       "Thrust must exceed drag by W sin(climb angle) for steady climb",
       "Lift is less than weight in a climb",
       "The steeper the climb angle, the more thrust must exceed drag"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
-    "code": "22.20.4",
-    "topic": "Climbing and Descending",
-    "syllabus_desc": "Given typical power required and power available curves, explain:",
-    "concept": "The power available and power required curves are the key to understanding climb performance. The difference between the two at any given speed is the excess power available for climbing.",
-    "exam_tip": "Excess power (EP) = PA - PR at any speed. Maximum EP gives best ROC (Vy). Maximum excess thrust gives best angle of climb (Vx). These are different speeds.",
-    "key_facts": [
-      "Excess power at any speed = power available minus power required",
-      "EP can be plotted against speed to create the excess power curve",
-      "Maximum EP corresponds to best rate of climb speed (Vy)",
-      "Best angle of climb speed (Vx) occurs where the ratio of EP to speed is maximised",
-      "At the ceiling, excess power drops to zero"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
@@ -2549,24 +2261,6 @@
       "Best glide speed = VMD (speed for minimum drag)",
       "Glide range in still air = height x L/D ratio",
       "L/D ratio and therefore glide angle are independent of weight (at best glide speed)"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
-    "code": "22.20.16",
-    "topic": "Climbing and Descending",
-    "syllabus_desc": "Describe the effect of:",
-    "concept": "Weight and wind both affect glide performance, but in different ways.",
-    "exam_tip": "Weight doesn't change the best glide angle (L/D stays the same), but increases the speed at which you achieve it. Headwind reduces ground range; tailwind increases it.",
-    "key_facts": [
-      "Weight affects best glide speed but not the best glide angle",
-      "Wind affects ground range but not the air distance",
-      "Headwind reduces glide range over the ground",
-      "Tailwind increases glide range over the ground",
-      "Heavier aircraft glide at the same angle but at a higher speed"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
@@ -2718,24 +2412,6 @@
     "created": "2026-04-01T06:45:14.042714+00:00"
   },
   {
-    "code": "22.22.14",
-    "topic": "Turning",
-    "syllabus_desc": "Explain the effect of wind during:",
-    "concept": "Wind affects turning flight differently depending on whether you maintain constant bank or constant radius.",
-    "exam_tip": "Constant bank: ground track becomes egg-shaped. Constant radius over ground: must vary bank angle (steeper downwind, shallower upwind). Both effects are important for circuit flying.",
-    "key_facts": [
-      "Wind changes ground track during turns even though air performance is unchanged",
-      "Constant-bank turn: uniform turn through the air mass, egg-shaped ground track",
-      "Constant-radius turn over ground: requires varying bank angle",
-      "Understanding these effects is essential for circuit and low-level flying",
-      "The aeroplane always turns uniformly relative to the air mass"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
     "code": "22.22.14(a)",
     "topic": "Turning",
     "syllabus_desc": "a constant-bank turn;",
@@ -2765,24 +2441,6 @@
       "Load factor varies throughout the turn",
       "Stall speed varies with the changing load factor",
       "Most critical when downwind: steepest bank, highest stall speed, highest load"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
-    "code": "22.22.16",
-    "topic": "Turning",
-    "syllabus_desc": "In climbing and descending turns, describe:",
-    "concept": "Turning while climbing or descending introduces additional effects on both performance and handling.",
-    "exam_tip": "Climbing turns: reduced ROC and tendency to overbank/underbank depending on type. Descending turns: increased descent rate. Manage bank angle carefully in climbing and descending turns.",
-    "key_facts": [
-      "Turning while climbing reduces the rate of climb",
-      "Turning while descending increases the rate of descent",
-      "The extra lift required for the turn leaves less excess power/thrust for climbing",
-      "Overbanking and underbanking tendencies depend on the type of turn",
-      "Bank angle should be limited in climbing turns to preserve climb performance"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
@@ -2988,24 +2646,6 @@
     "created": "2026-04-01T06:45:14.042714+00:00"
   },
   {
-    "code": "22.24.14",
-    "topic": "Propellers",
-    "syllabus_desc": "Describe the forces acting on a propeller when:",
-    "concept": "The propeller experiences different forces depending on whether it's producing thrust, windmilling, feathered, or in reverse.",
-    "exam_tip": "Windmilling: prop driven by airflow, creates drag, engine drag. Feathered: blades edge-on, minimum drag. Reverse: blades past flat pitch, thrust acts rearward for braking.",
-    "key_facts": [
-      "Different propeller states have very different drag and thrust characteristics",
-      "Windmilling produces drag; feathering minimises drag; reverse produces rearward thrust",
-      "Understanding these states is essential for engine failure procedures",
-      "The blade angle determines which state the propeller is in",
-      "CSU and feathering mechanisms control transitions between states"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
     "code": "22.24.14(a)",
     "topic": "Propellers",
     "syllabus_desc": "windmilling;",
@@ -3150,24 +2790,6 @@
     "created": "2026-04-01T06:45:14.042714+00:00"
   },
   {
-    "code": "22.26.6",
-    "topic": "Stability",
-    "syllabus_desc": "Define longitudinal stability and explain:",
-    "concept": "Longitudinal stability is stability in pitch about the lateral axis. It determines whether the aircraft returns to its trimmed angle of attack (and therefore speed) after a pitch disturbance.",
-    "exam_tip": "Longitudinal stability: pitch about the lateral axis. Depends on tailplane size and moment arm, wing pitching moments, and CG position. Forward CG = more stable.",
-    "key_facts": [
-      "Longitudinal stability: tendency to return to trimmed AOA after pitch disturbance",
-      "About the lateral axis (pitch)",
-      "Tailplane is the primary stabilising device",
-      "Wing produces a destabilising (or neutral) pitching moment",
-      "CG position is the most significant variable affecting longitudinal stability"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
     "code": "22.26.6(a)",
     "topic": "Stability",
     "syllabus_desc": "the action of the tailplane in maintaining longitudinal stability;",
@@ -3287,24 +2909,6 @@
       "Snaking: yaw oscillation, directional instability or weak damping",
       "Spiral instability is the more dangerous -- develops insidiously in IMC",
       "Dutch roll is uncomfortable but usually not as dangerous"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
-    "code": "22.26.16",
-    "topic": "Stability",
-    "syllabus_desc": "With respect to stability and control on the ground, explain:",
-    "concept": "Stability and control on the ground present unique challenges because the aircraft is operating at low speeds with the wheels providing additional forces and moments.",
-    "exam_tip": "Ground stability: CG position, nosewheel vs tailwheel, crosswind handling. Nosewheel = directionally stable on ground. Tailwheel = directionally unstable. Control deflections needed in crosswind.",
-    "key_facts": [
-      "Ground handling involves forces from wheels, wind, and propeller effects",
-      "CG position relative to main wheels determines ground stability",
-      "Nosewheel and tailwheel configurations have opposite stability characteristics",
-      "Crosswind requires specific control positioning",
-      "Propeller effects (torque, slipstream, asymmetric thrust) affect ground handling"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
@@ -3629,24 +3233,6 @@
       "Proper mixture leaning reduces fuel flow",
       "Clean configuration (no flaps, gear up) minimises power required",
       "Wind does not affect endurance -- only affects range"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T06:45:14.042714+00:00"
-  },
-  {
-    "code": "22.32.2",
-    "topic": "Performance",
-    "syllabus_desc": "Define:",
-    "concept": "Performance planning requires understanding a set of key definitions that describe the take-off, landing, and enroute performance environment.",
-    "exam_tip": "Know all performance definitions precisely -- exam questions often test whether you can distinguish between similar terms (TODR vs TODA, LDR vs LDA, etc.).",
-    "key_facts": [
-      "Performance definitions are precisely defined in regulations",
-      "Take-off distances, landing distances, and clearway/stopway are all distinct",
-      "Screen height and safety speed are fundamental to take-off performance",
-      "Gross and net flight paths have different meanings",
-      "These definitions form the basis of all performance planning calculations"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",

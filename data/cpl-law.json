@@ -102,23 +102,6 @@
     "created": "2026-03-27T00:00:00Z"
   },
   {
-    "code": "16.4",
-    "topic": "16.4 -- Definitions",
-    "syllabus_desc": "State the meaning of the following definitions from CAR Part 1 (unless otherwise noted): accelerate-stop distance available, accident, Act, aerobatic flight, aerodrome control service, aerodrome traffic circuit, aeronautical information circular, AIP supplement, aircraft category and category of aircraft, air traffic control service, air transport operation, air operation, airworthiness certificate, airworthiness directive, airworthy condition, alerting service, altitude, area control service, ATC clearance, ATC instruction, aviation event, AWIB service, basic weather report, ceiling, certificated organisation, Class 3.1A Flammable liquid, Class 3.1C Flammable liquid, Class 3.1D Flammable liquid, Class B cargo or baggage compartment, clearance limit, clearway, command practice, commercial transport operation, controlled airspace, controlled flight, co-pilot, crew member, dangerous goods, day, dual flight time, emergency locator transmitter, enhanced visual imaging system, final reserve fuel, fit and proper person, flight examiner, flight attendant, flight crew member, flight information service, flight level, flight manual, flight plan, flight time, height, heliport (Helicopter candidates only), introductory flight, incident, landing area, landing distance available, night, night vision goggles, night vision imaging systems, NOTAM, NVG operation, passenger, pilot-in-command (PIC), rating, regular air transport passenger service, SARTIME, serious incident, simultaneous operations -- visual conditions (AIP GEN), synthetic vision system, take-off distance available, take-off run available, take-off weight, Technical Instructions, threshold (rule 121.3), transition altitude (AIP GEN), transition layer (AIP GEN), transition level (AIP GEN), type, unlawful interference, UNICOM service, VFR flight, vicinity of an aerodrome (AIP GEN), visibility, visual meteorological conditions, visual reference (AIP GEN)",
-    "concept": "CAR Part 1 contains the regulatory definitions that underpin all of New Zealand's civil aviation rules. Rev 38 has updated and restructured these definitions to align with the CA Act 2023. Some definitions have been added (like accelerate-stop distance available, Act, aerobatic flight, aerodrome control service, enhanced visual imaging system, synthetic vision system, NVG operation), while others from older revisions have been removed or reorganised. These aren't just words--they're legal terms with precise meanings. For example, 'air operation' and 'air transport operation' have distinct definitions that determine which regulatory regime applies to your flying. 'Airworthy condition' is legally defined and determines whether your aircraft can legally fly. Time-based definitions like 'day' and 'night' are based on civil twilight. Note that some definitions now reference AIP GEN rather than CAR Part 1. You need to know each definition precisely--getting them wrong means misunderstanding the rules themselves.",
-    "exam_tip": "Rev 38 has significantly restructured the definitions list. Focus on the new additions (accelerate-stop distance available, Act, aerobatic flight, etc.) and note which definitions now reference AIP GEN. The exam tests these definitions both directly and indirectly through scenario questions.",
-    "key_facts": [
-      "83 definitions listed in Rev 38 (significantly restructured from earlier revisions)",
-      "Some definitions now reference AIP GEN rather than CAR Part 1",
-      "New definitions include: accelerate-stop distance available, Act, aerobatic flight, enhanced visual imaging system, synthetic vision system, NVG operation",
-      "Many abbreviation-style items (DME, ELT, ATC etc.) from older revisions have been removed from definitions"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38, CAR Part 1",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-03-27T00:00:00Z"
-  },
-  {
     "code": "16.4(a)",
     "topic": "16.4 -- Definitions",
     "syllabus_desc": "State the definition of: accelerate-stop distance available. CAR Part 1, rule 1.1",
@@ -1538,23 +1521,6 @@
     "confidence": "high",
     "verified": false,
     "created": "2026-03-30T00:00:00Z"
-  },
-  {
-    "code": "16.6",
-    "topic": "16.6 -- Abbreviations",
-    "syllabus_desc": "State the meaning of the following abbreviations from CAR Part 1 (unless otherwise noted): AD, ADF, AEDRS, AGL, AIREP (AIP GEN), AMSL, ATIS, AWS (AIP GEN), BWR (AIP GEN), CAR, CGL (AIP GEN), DME, ELT, FATO (Helicopter candidates only) (AIP GEN), GNSS, ME1, ME2, MEL, NVG, NVIS, OGE (Helicopter candidates only), PLA, QFE, QNH, TALO (Helicopter candidates only) (AIP GEN), TLOF (Helicopter candidates only) (AIP GEN), VOR",
-    "concept": "Rev 38 has significantly reduced and restructured the abbreviations list from earlier revisions. The new list contains 27 abbreviations (down from 56+ in previous versions). Many abbreviations that were previously listed here (like AIP, AIS, ATC, ATZ, AWIB, BKN, CTA, CTR, FEW, FIR, FL, ft, GAA, hPa, IFR, ILS, IMC, km, kt, LAT, LONG, MCTOW, MBZ, METAR, MOA, MSA, MTOW, NDB, NM, NOTAM, OCA/OCH, OVC, RVR, SARTIME, SCT, SKC, SPECI, SFC, TAF, TMA, UNICOM, UTC, VFR, VHZ, VMC, VNC) have been removed. New abbreviations added include AEDRS, AGL, AIREP, AMSL, AWS, BWR, CGL, FATO, GNSS, ME1, ME2, MEL, NVG, NVIS, OGE, PLA, TALO, and TLOF. Some abbreviations now reference AIP GEN as their source rather than CAR Part 1. The helicopter-specific abbreviations (FATO, OGE, TALO, TLOF) only apply to helicopter candidates.",
-    "exam_tip": "The abbreviations list has been dramatically cut in Rev 38. Focus on the new additions (AEDRS, GNSS, ME1/ME2, MEL, NVG/NVIS, PLA) and note which ones are helicopter-only and which reference AIP GEN.",
-    "key_facts": [
-      "27 abbreviations in Rev 38 (down from 56+ in previous revisions)",
-      "Several abbreviations now reference AIP GEN as their source",
-      "Helicopter-specific abbreviations: FATO, OGE, TALO, TLOF",
-      "New additions include AEDRS, GNSS, ME1, ME2, MEL, NVG, NVIS, PLA"
-    ],
-    "source": "NZ CAA AC 61-5 Rev 38, CAR Part 1",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-03-27T00:00:00Z"
   },
   {
     "code": "16.6(a)",
@@ -3612,23 +3578,6 @@
     "created": "2026-03-27T00:00:00Z"
   },
   {
-    "code": "16.38.2",
-    "topic": "16.38 -- Helicopter External Load Operations",
-    "syllabus_desc": "State the definition of: (a) helicopter external load operation; (b) helicopter external load towing operation; (c) helicopter sling load operation; and, (d) OGE. CAR 133.",
-    "concept": "For helicopter operations, you need to understand specific terminology. An external load operation is any carriage of loads outside the helicopter's fuselage. External load towing involves towing loads from a long line, while sling load operations have the load suspended directly. OGE (Out of Ground Effect) describes helicopter performance when hovering well above terrain or water--performance is significantly degraded. These distinctions matter for crew competency, equipment requirements, and operational procedures.",
-    "exam_tip": "Know the distinction between towing, sling load, and OGE operations. Each has different requirements and performance characteristics.",
-    "key_facts": [
-      "External load operation: load outside fuselage",
-      "Towing operation: load suspended from long line",
-      "Sling load operation: load suspended directly",
-      "OGE: hovering out of ground effect"
-    ],
-    "source": "NZ CAA AC 61-5, CAR Part 133",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-03-27T00:00:00Z"
-  },
-  {
     "code": "16.38.2(a)",
     "topic": "16.38 -- Helicopter External Load Operations",
     "syllabus_desc": "State the definition of: helicopter external load operation. CAR Part 133",
@@ -5411,23 +5360,6 @@
     "created": "2026-03-27T00:00:00Z"
   },
   {
-    "code": "16.78.4",
-    "topic": "16.78 -- Aerodromes Lighting",
-    "syllabus_desc": "Describe the following lighting systems: (a) Runway edge lighting (REDL); (b) Runway landing threshold lighting (RTHL); (c) Runway end lighting (RENL); (d) Runway centreline lighting system (RCLL); (e) Runway end identifier lighting (REIL); (f) Circling guidance lighting (CGL); (g) Runway lead in lighting (RLLS); (h) Pilot activated lighting (PAL); and (i) Precision approach path indicators (PAPI).",
-    "concept": "Aerodrome lighting systems each serve a specific purpose. REDL (runway edge lights) are white, turning yellow in the last 600 m and red at the end. RTHL (threshold lights) are green, marking where the runway begins. RENL (runway end lights) are red, visible only from the approach end. RCLL (centreline lights) help you stay on track in poor visibility. REIL (runway end identifier lights) are flashing white strobes that help you spot the threshold from a distance. CGL (circling guidance lights) assist in visual circling approaches at night. RLLS (lead-in lights) guide you from the approach path to the runway. PAL (pilot activated lighting) lets you switch on the lights at unattended aerodromes using your radio -- common at NZ regional strips. PAPIs give you glide slope guidance with red and white light combinations.",
-    "exam_tip": "Know the colours: threshold = green, runway end = red, edge lights turn from white to yellow to red. PAL activation by radio is common at NZ regional aerodromes.",
-    "key_facts": [
-      "REDL: white edge lights, yellow in last 600 m, red at runway end",
-      "RTHL: green threshold lights; RENL: red runway end lights",
-      "PAL: pilot activated by radio transmissions -- common at NZ regional aerodromes",
-      "PAPI: red/white light combinations for glide slope guidance"
-    ],
-    "source": "NZ CAA AC 61-5, AIP AD",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-03-29T00:00:00Z"
-  },
-  {
     "code": "16.78.4(a)",
     "topic": "16.78 -- Aerodromes Lighting",
     "syllabus_desc": "Describe the following lighting system: Runway edge lighting (REDL).",
@@ -5584,23 +5516,6 @@
       "Green identifies a land aerodrome; yellow would indicate a water aerodrome",
       "Not all NZ aerodromes have beacons installed",
       "Beacon availability is published in AIP NZ Volume 4"
-    ],
-    "source": "NZ CAA AC 61-5, AIP AD",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-03-29T00:00:00Z"
-  },
-  {
-    "code": "16.78.8",
-    "topic": "16.78 -- Aerodromes Lighting",
-    "syllabus_desc": "Describe the indication of above, on and below slope for: (a) PAPIs; (b) VASIS; and (c) T-VASIS.",
-    "concept": "Visual approach slope indicators tell you whether you're on the correct glide path by using combinations of red and white lights. For PAPIs (the most common system in NZ), four light bars are arranged beside the runway: all white means you're too high, three white one red means slightly high, two white two red is on slope, one white three red is slightly low, and all red means too low -- get back up. VASIS uses two bars: the far bar shows white when on or above slope, and the near bar shows red when on or below -- on slope gives you red over white (red over white, you're alright). T-VASIS uses a central bar and fly-up/fly-down lights above and below. The saying 'red over white, you're alright' works for VASIS -- but for PAPIs, think '2 and 2 is where you want to be'.",
-    "exam_tip": "PAPIs: 2 red + 2 white = on slope. VASIS: red over white = on slope ('red over white, you're alright'). All red = too low in both systems.",
-    "key_facts": [
-      "PAPI on slope: 2 white + 2 red (reading from left to right)",
-      "PAPI too low: 3 or 4 red lights; too high: 3 or 4 white lights",
-      "VASIS on slope: red over white ('red over white, you're alright')",
-      "T-VASIS uses fly-up and fly-down indicators above and below a central bar"
     ],
     "source": "NZ CAA AC 61-5, AIP AD",
     "confidence": "high",

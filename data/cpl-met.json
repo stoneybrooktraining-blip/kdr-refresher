@@ -1,24 +1,5 @@
 [
   {
-    "code": "20.2.2",
-    "topic": "20.2 -- Regional Meteorological Services, Reports and Forecasts",
-    "syllabus_desc": "Explain in plain language the coded or pictorial information contained in the following meteorological products.",
-    "concept": "At CPL level, you need to be fluent in every meteorological product used in NZ IFR operations. This isn't about memorising formats for an exam -- it's about building the skill to rapidly decode any weather product and extract what matters for your flight. Each product in the 20.2.2 series (GRAFOR through wind/temp charts) gives you a different piece of the weather puzzle. Individually they tell you part of the story. Together they tell you everything you need to decide whether to fly, how to fly, and what to watch out for en route. Think of weather products as layers on a map -- the more layers you switch on, the clearer the picture becomes.",
-    "exam_tip": "The 20.2.2 sub-items (a) through (r) are tested individually in CPL exams. Make sure you can decode each product cold, and know which ones complement each other.",
-    "key_facts": [
-      "20.2.2 covers all NZ meteorological products from GRAFOR through wind/temp charts",
-      "Each product provides a different layer of the weather picture",
-      "IFR flight planning requires integrating multiple products together",
-      "Products range from area forecasts (GRAFOR) to point observations (METAR)",
-      "Forecasts vs observations: know which is which and their respective limitations",
-      "MetService NZ produces most aviation weather products via gopreflight"
-    ],
-    "source": "AC 61-5 Rev 38, AIPNZ MET section",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.2.2(a)",
     "topic": "20.2 -- Regional Meteorological Services, Reports and Forecasts",
     "syllabus_desc": "Explain in plain language the coded or pictorial information contained in a GRAFOR.",
@@ -400,25 +381,6 @@
     "created": "2026-03-31T00:00:00Z"
   },
   {
-    "code": "20.2.8",
-    "topic": "20.2 -- Regional Meteorological Services, Reports and Forecasts",
-    "syllabus_desc": "Given a typical weather briefing, evaluate weather information applicable to the flight.",
-    "concept": "A weather briefing isn't just a stack of paper -- it's a decision-making tool. At CPL level, you're expected to take a full briefing package (TAFs, METARs, GRAFOR, SIGWX, SIGMETs, wind/temp charts, NOTAMs) and turn it into a clear go/no-go decision. You evaluate each product for what it tells you about conditions along your route, then synthesise the lot into an overall picture. The two key questions are covered by the sub-items: (a) will conditions improve or deteriorate during your flight, and (b) what hazards could adversely affect it? Approach this systematically every time -- the pilot who skims the briefing and hopes for the best is the one who ends up in trouble.",
-    "exam_tip": "Exam scenarios present a full briefing package and ask you to evaluate it. Practice the systematic approach: big picture, route, aerodromes, hazards, trends.",
-    "key_facts": [
-      "A weather briefing combines multiple products into a decision-making package",
-      "Evaluate each product for route-relevant information",
-      "Two key questions: (a) will conditions change? (b) what hazards exist?",
-      "Systematic evaluation: big picture -> route detail -> aerodromes -> hazards",
-      "Compare forecasts against observations to assess reliability",
-      "Go/no-go decision must be based on the complete picture, not a single product"
-    ],
-    "source": "AC 61-5 Rev 38, AIPNZ MET section",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.2.8(a)",
     "topic": "20.2 -- Regional Meteorological Services, Reports and Forecasts",
     "syllabus_desc": "Given a typical weather briefing, evaluate weather information applicable to the flight, and assess likely changes (either improving or deteriorating) in weather during the flight.",
@@ -474,25 +436,6 @@
     "confidence": "high",
     "verified": false,
     "created": "2026-03-31T00:00:00Z"
-  },
-  {
-    "code": "20.4.4",
-    "topic": "20.4 -- Weather Maps",
-    "syllabus_desc": "Describe the general weather feature or conditions associated with pressure systems.",
-    "concept": "Weather maps are built around pressure systems, and each type of pressure feature creates its own characteristic pattern of weather. At CPL level, you need to look at an MSL analysis chart and immediately associate each feature with the flying conditions it produces. The sub-items cover seven pressure features: isobars, depressions, tropical cyclones, troughs, anticyclones, ridges, and cols. Each one has a distinct signature in terms of wind, cloud, precipitation, visibility, and turbulence. If you can read the pressure pattern, you can predict the weather -- and that's the whole point of weather map interpretation for flight planning.",
-    "exam_tip": "Exam questions often present an MSL chart and ask you to describe expected weather at a point. Identify the pressure features first, then describe their associated conditions.",
-    "key_facts": [
-      "Seven pressure features: isobars, depressions, tropical cyclones, troughs, anticyclones, ridges, cols",
-      "Each feature produces characteristic wind, cloud, precipitation, and visibility patterns",
-      "Southern Hemisphere wind rules: clockwise around lows, anticlockwise around highs",
-      "Isobar spacing indicates wind strength: tight spacing = strong winds",
-      "Fronts are associated with depressions, not anticyclones",
-      "Reading the pressure pattern is the foundation of weather map interpretation"
-    ],
-    "source": "AC 61-5 Rev 38, MetService NZ",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
   },
   {
     "code": "20.4.4(a)",
@@ -628,25 +571,6 @@
     "confidence": "high",
     "verified": false,
     "created": "2026-03-31T00:00:00Z"
-  },
-  {
-    "code": "20.4.6",
-    "topic": "20.4 -- Weather Maps",
-    "syllabus_desc": "Describe the weather sequence and general flying conditions associated with fronts.",
-    "concept": "Fronts are where the action is on a weather map -- they're the boundaries between air masses of different temperature and moisture content. At CPL level, you need to describe the full weather sequence a pilot experiences when a front passes through: what comes before, what happens during the passage, and what follows. Each of the four front types (cold, warm, occluded, stationary) has a distinct sequence. The key for flight planning is understanding that fronts don't just bring bad weather at a point in time -- they create a progression of changing conditions that can affect your flight from departure through to arrival.",
-    "exam_tip": "For each front type, learn the sequence: approach conditions, passage conditions, and post-frontal conditions. Cloud types, precipitation, visibility, wind changes, and temperature changes all follow predictable patterns.",
-    "key_facts": [
-      "Four front types: cold, warm, occluded, stationary",
-      "Each has a characteristic approach -> passage -> post-frontal sequence",
-      "Cold fronts: steep slope, narrow band of heavy weather, rapid clearing",
-      "Warm fronts: gentle slope, wide band of continuous rain, gradual onset",
-      "Fronts bring wind shifts, temperature changes, pressure changes, and cloud/rain",
-      "Flight planning must account for the full frontal passage sequence"
-    ],
-    "source": "AC 61-5 Rev 38, MetService NZ",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
   },
   {
     "code": "20.4.6(a)",
@@ -877,25 +801,6 @@
     "created": "2026-03-31T00:00:00Z"
   },
   {
-    "code": "20.6.2",
-    "topic": "20.6 -- The Atmosphere",
-    "syllabus_desc": "Define the terms troposphere, tropopause, and stratosphere.",
-    "concept": "Before you can talk about weather, you need to understand the house it lives in. The atmosphere is divided into layers, and almost all weather -- the stuff that affects your flying -- happens in the lowest one. At CPL level, you need to know these three layers cold, because they frame everything else in meteorology. Think of it this way: the troposphere is where we fly and where weather happens, the tropopause is the ceiling, and the stratosphere is the quiet floor above. The sub-items break out each definition individually.",
-    "exam_tip": "These are definition questions -- know the precise characteristics of each layer. The tropopause is the boundary between the two, not a layer with its own weather.",
-    "key_facts": [
-      "The atmosphere is divided into distinct layers based on temperature profiles",
-      "Troposphere: lowest layer, all significant weather occurs here",
-      "Tropopause: boundary between troposphere and stratosphere",
-      "Stratosphere: layer above the tropopause, generally stable",
-      "Temperature decreases with height in the troposphere (on average)",
-      "Temperature generally increases with height in the stratosphere (due to ozone)"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.6.2(a)",
     "topic": "20.6 -- The Atmosphere",
     "syllabus_desc": "Define the term troposphere.",
@@ -953,25 +858,6 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.6.4",
-    "topic": "20.6 -- The Atmosphere",
-    "syllabus_desc": "Explain how changes within the tropospheric column affect the height of the tropopause.",
-    "concept": "The tropopause isn't at a fixed height -- it moves up and down depending on conditions in the troposphere below it. Two main factors drive this: surface pressure and temperature. If you warm the tropospheric column or increase surface pressure, the tropopause rises. Cool it down or reduce surface pressure, and it drops. This is why the tropopause is highest over the equator (warm column) and lowest over the poles (cold column). For flight planning, a higher tropopause means deeper convection is possible -- tropical thunderstorms reach much higher altitudes than mid-latitude ones precisely because the tropical tropopause is so much higher.",
-    "exam_tip": "Warm troposphere = higher tropopause = deeper possible convection. Cold troposphere = lower tropopause. This explains equator vs pole differences.",
-    "key_facts": [
-      "Tropopause height varies with tropospheric conditions",
-      "Warmer column = higher tropopause",
-      "Cooler column = lower tropopause",
-      "Higher surface pressure pushes tropopause up",
-      "Explains why equatorial tropopause (~16 km) is higher than polar (~8 km)",
-      "Higher tropopause allows deeper convection and taller thunderstorms"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.6.4(a)",
     "topic": "20.6 -- The Atmosphere",
     "syllabus_desc": "Explain how surface pressure changes affect the height of the tropopause.",
@@ -1003,25 +889,6 @@
       "Equator: ~16 km, Mid-latitudes (NZ): ~10-12 km, Poles: ~8 km",
       "Seasonal variation: higher in summer, lower in winter",
       "Sharp temperature contrasts (jet stream regions) create tropopause breaks"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.6.6",
-    "topic": "20.6 -- The Atmosphere",
-    "syllabus_desc": "State the average tropopause heights and temperatures at the equator, poles, and mid-latitudes.",
-    "concept": "Here are the numbers you need for this one. The tropopause height and temperature vary dramatically with latitude, and these values underpin a lot of other meteorology. The equatorial tropopause is high and cold, the polar tropopause is low and relatively warm (compared to the equatorial one), and mid-latitudes fall in between. The counter-intuitive part is that the equatorial tropopause is actually colder than the polar tropopause -- because even though the surface is warmer at the equator, the tropopause is so much higher that temperature has had more distance to drop.",
-    "exam_tip": "These are numbers questions -- learn the approximate heights and temperatures for all three latitude zones. The equatorial tropopause is the highest AND the coldest.",
-    "key_facts": [
-      "Tropopause varies with latitude -- height and temperature both change",
-      "Equator: ~16 km, ~-80 degrees C",
-      "Mid-latitudes: ~10-12 km, ~-56 degrees C (ISA value at 36,090 ft)",
-      "Poles: ~8 km, ~-45 degrees C",
-      "Equatorial tropopause is highest but coldest (temperature drops over greater depth)",
-      "These values are averages and vary seasonally"
     ],
     "source": "AC 61-5 Rev 38",
     "confidence": "high",
@@ -1079,25 +946,6 @@
       "NZ lies in mid-latitudes (~35-47 degrees S)",
       "Tropopause break occurs where tropical and polar tropopauses overlap",
       "Jet streams are found at the tropopause break"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.6.8",
-    "topic": "20.6 -- The Atmosphere",
-    "syllabus_desc": "Explain the sources, effects, and importance of aerosols within the atmosphere.",
-    "concept": "Aerosols are tiny solid or liquid particles suspended in the air -- dust, sea salt, pollen, smoke, volcanic ash, industrial pollutants. They're more than just stuff floating about. Aerosols serve as condensation nuclei (cloud seeds), scatter and absorb radiation (affecting visibility and temperature), and contribute to air quality issues. For aviation, aerosols affect visibility, create haze layers, and their role as condensation nuclei directly drives cloud formation. Without aerosols, we'd have far fewer clouds and very different weather patterns. The sub-items break this into sources, effects, and importance.",
-    "exam_tip": "Aerosols are condensation nuclei -- without them, cloud formation would be dramatically reduced. Know the sources (natural and human) and effects (visibility, radiation, cloud formation).",
-    "key_facts": [
-      "Aerosols = tiny solid or liquid particles suspended in the atmosphere",
-      "Sources: natural (dust, sea salt, pollen, volcanic) and human (industrial, combustion)",
-      "Serve as condensation nuclei -- essential for cloud formation",
-      "Scatter and absorb radiation, affecting visibility and temperature",
-      "Concentration decreases with height and toward the poles",
-      "Critical for cloud formation, visibility, and atmospheric radiation balance"
     ],
     "source": "AC 61-5 Rev 38",
     "confidence": "high",
@@ -1181,25 +1029,6 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.6.12",
-    "topic": "20.6 -- The Atmosphere",
-    "syllabus_desc": "Explain the effects on temperature within the atmosphere due to water vapour, carbon dioxide, and ozone.",
-    "concept": "Three gases play outsized roles in atmospheric temperature, and they each work differently. Water vapour and carbon dioxide are greenhouse gases -- they absorb outgoing terrestrial (longwave) radiation and re-emit it, warming the lower atmosphere. Ozone absorbs incoming UV radiation in the stratosphere, warming that layer. Together, these gases explain why the atmosphere has the temperature profile it does: warm at the surface (greenhouse effect), cooling through the troposphere, then warming again in the stratosphere (ozone heating). For meteorology, the greenhouse effect is why Earth's surface temperature averages about 15 degrees C rather than the -18 degrees C it would be without these gases.",
-    "exam_tip": "Three gases, three different effects: water vapour and CO2 warm the troposphere (greenhouse), ozone warms the stratosphere (UV absorption). Know each mechanism.",
-    "key_facts": [
-      "Water vapour and CO2 are the main greenhouse gases in the troposphere",
-      "They absorb terrestrial (longwave) radiation and re-emit it, warming lower atmosphere",
-      "Ozone absorbs UV radiation in the stratosphere, warming that layer",
-      "Greenhouse effect raises Earth's average surface temp from -18 to +15 degrees C",
-      "These gases explain the temperature profile: warm surface, cooling troposphere, warming stratosphere",
-      "Water vapour is the most important greenhouse gas by volume in the troposphere"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.6.12(a)",
     "topic": "20.6 -- The Atmosphere",
     "syllabus_desc": "Explain the effects on temperature within the atmosphere due to water vapour.",
@@ -1250,25 +1079,6 @@
       "This makes the stratosphere inherently stable",
       "Stability of the stratosphere caps convective growth at the tropopause",
       "Different mechanism from water vapour/CO2 greenhouse effect"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.10.18",
-    "topic": "20.10 -- Pressure and Density",
-    "syllabus_desc": "Define the transition layer, including transition altitude, transition level, and exceptions.",
-    "concept": "The transition layer is the altitude band where you switch from flying by QNH (below) to flying by flight levels (above). It's not a single altitude -- it's a layer. The transition altitude is the altitude below which you use QNH. The transition level is the flight level above which you use flight levels. Between them is the transition layer, where there are no assigned altitudes (you vacate it quickly). In NZ, the transition altitude is typically 10,000 feet and the transition level is FL 100, making the transition layer FL 090-FL 100 range. However, there are exceptions at some aerodromes where different transition levels apply. Before any flight that involves the transition layer, check the local procedures.",
-    "exam_tip": "Transition layer = band between QNH (below) and flight levels (above). Transition altitude (below) and transition level (above). NZ typically: 10,000 ft to FL 100.",
-    "key_facts": [
-      "Transition layer = altitude band for switching references",
-      "Transition altitude = below this, use QNH (NZ: typically 10,000 ft)",
-      "Transition level = above this, use flight levels (NZ: typically FL 100)",
-      "No assigned altitudes in the transition layer itself",
-      "Exceptions exist for specific aerodromes",
-      "Always check local procedures before operating in transition layer"
     ],
     "source": "AC 61-5 Rev 38",
     "confidence": "high",
@@ -1375,33 +1185,14 @@
     "topic": "20.10 -- Pressure and Density",
     "syllabus_desc": "Explain what happens to an aircraft's flight profile when the altimeter sub-scale is not reset during flights between areas with differing MSL pressures.",
     "concept": "If you set your altimeter to QNH at one aerodrome (say, QNH 1013 hPa) and then fly to another region where the QNH is different (say, 1018 hPa), without resetting the altimeter, your indicated altitude will be wrong. The altimeter reads pressure, and if the pressure has changed by 5 hPa, your altimeter will read approximately 500 feet lower than it should (because higher pressure at the new location pushes the altimeter needle down). This is dangerous -- you might think you're at a safe altitude when you're actually 500 feet lower and risking terrain collision. This is why you must update QNH every time you fly into a region with a different QNH. The rule of thumb is to check and update QNH whenever you cross into a new QNH region (marked on the charts) or obtain a new ATIS/METAR showing a different QNH.",
-    "exam_tip": "Not resetting QNH between regions = altitude error. 1 hPa difference \u2248 30 feet error. DANGEROUS. Always update QNH when crossing QNH regions.",
+    "exam_tip": "Not resetting QNH between regions = altitude error. 1 hPa difference ≈ 30 feet error. DANGEROUS. Always update QNH when crossing QNH regions.",
     "key_facts": [
       "Altimeter reads pressure, not true altitude",
       "Different QNH at different locations means different altimeter reading at same location",
       "Not resetting = serious altitude error (dangerous for terrain clearance)",
-      "1 hPa error \u2248 30 feet altitude error",
+      "1 hPa error ≈ 30 feet altitude error",
       "Must reset QNH when entering new QNH region",
       "Check QNH from ATIS, METAR, or AIP before crossing regions"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.10.26",
-    "topic": "20.10 -- Pressure and Density",
-    "syllabus_desc": "Describe how localised pressure changes occur in association with lee troughs, thermal (or 'heat') lows, and thunderstorms.",
-    "concept": "Three meteorological features create localised pressure changes beyond the general weather pattern. Lee troughs form when wind descends on the leeward side of mountains and converges, creating low pressure. Thermal lows develop when intense surface heating creates a buoyancy centre and low pressure below the rising air. Thunderstorms create low pressure beneath their updrafts and pressure jumps at their outflow boundaries. Understanding these features helps you predict local weather development and interpret surface observations that might show unusual pressures.",
-    "exam_tip": "Three sources of localised pressure changes: lee troughs (lee-side convergence), thermal lows (surface heating), thunderstorms (updraft/outflow). Understand each mechanism.",
-    "key_facts": [
-      "Lee trough = low pressure on leeward side of mountains",
-      "Thermal low = low pressure from surface heating (inland afternoon development)",
-      "Thunderstorm = low pressure beneath updraft, pressure jump at outflow",
-      "All can trigger or enhance convective development",
-      "Shown or implied on SIGWX charts",
-      "Important for predicting local weather intensity and timing"
     ],
     "source": "AC 61-5 Rev 38",
     "confidence": "high",
@@ -1504,29 +1295,10 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.10.32",
-    "topic": "20.10 -- Pressure and Density",
-    "syllabus_desc": "Explain the effects of pressure, temperature, altitude, and moisture content on air density.",
-    "concept": "Air density is affected by four main factors: pressure (higher pressure = denser air), temperature (higher temp = less dense air), altitude (higher altitude = less dense air), and moisture (more moisture = slightly less dense air). These factors don't work independently -- for example, an aircraft might have similar density altitude on a cold day at high elevation and a hot day at low elevation. This is why we calculate density altitude (combining pressure and temperature effects) rather than using pressure altitude alone for performance planning. The sub-items work through each factor individually.",
-    "exam_tip": "Density affected by four factors: pressure (higher = denser), temperature (higher = less dense), altitude (higher = less dense), moisture (more = less dense). Density altitude combines pressure and temperature.",
-    "key_facts": [
-      "Pressure: higher pressure = higher density",
-      "Temperature: higher temperature = lower density",
-      "Altitude: higher altitude = lower density",
-      "Moisture: more moisture = slightly lower density",
-      "All factors work together to determine actual air density",
-      "Density altitude = combined effect of pressure and temperature"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.10.32(a)",
     "topic": "20.10 -- Pressure and Density",
     "syllabus_desc": "Explain how pressure changes affect air density.",
-    "concept": "Higher pressure = higher density. At the same temperature, air at higher pressure is denser because molecules are more tightly packed. This is why density altitude increases with pressure altitude -- you're starting from an already thinner atmosphere. For aircraft performance, this matters enormously: the same weight of air supports less lift at lower density. On a standard day at sea level, the air is at standard density (1.225 kg/m\u00b3). At 5,000 feet, the air is thinner (lower density) and your aircraft's performance is reduced. But on a day when the atmospheric pressure is lower than standard, the air at any given altitude is even thinner, and performance is further reduced.",
+    "concept": "Higher pressure = higher density. At the same temperature, air at higher pressure is denser because molecules are more tightly packed. This is why density altitude increases with pressure altitude -- you're starting from an already thinner atmosphere. For aircraft performance, this matters enormously: the same weight of air supports less lift at lower density. On a standard day at sea level, the air is at standard density (1.225 kg/m³). At 5,000 feet, the air is thinner (lower density) and your aircraft's performance is reduced. But on a day when the atmospheric pressure is lower than standard, the air at any given altitude is even thinner, and performance is further reduced.",
     "exam_tip": "Higher pressure = denser air = better aircraft performance. Lower pressure = thinner air = worse performance. All else equal.",
     "key_facts": [
       "Pressure and density are directly related at constant temperature",
@@ -1583,12 +1355,12 @@
     "code": "20.10.32(d)",
     "topic": "20.10 -- Pressure and Density",
     "syllabus_desc": "Explain how moisture content of the air affects air density.",
-    "concept": "This seems counterintuitive: moist air is actually less dense than dry air at the same temperature and pressure. This is because water vapour (H\u2082O) has a lower molecular weight than the nitrogen and oxygen that make up dry air. So when you add water vapour to air, you're replacing some of the heavier nitrogen/oxygen molecules with lighter water vapour molecules, making the air less dense. The effect is small (a few percent at most) but it's real. In practical terms, a hot, humid day has worse aircraft performance than a hot, dry day because the air is less dense. This is one reason why performance on a humid day at high temperature is particularly poor.",
-    "exam_tip": "Moist air is less dense than dry air. Water vapour is lighter than N\u2082/O\u2082. Humid days = slightly worse performance than dry days.",
+    "concept": "This seems counterintuitive: moist air is actually less dense than dry air at the same temperature and pressure. This is because water vapour (H₂O) has a lower molecular weight than the nitrogen and oxygen that make up dry air. So when you add water vapour to air, you're replacing some of the heavier nitrogen/oxygen molecules with lighter water vapour molecules, making the air less dense. The effect is small (a few percent at most) but it's real. In practical terms, a hot, humid day has worse aircraft performance than a hot, dry day because the air is less dense. This is one reason why performance on a humid day at high temperature is particularly poor.",
+    "exam_tip": "Moist air is less dense than dry air. Water vapour is lighter than N₂/O₂. Humid days = slightly worse performance than dry days.",
     "key_facts": [
       "Moisture content affects air density",
       "Moist air is slightly less dense than dry air",
-      "Water vapour (H\u2082O) lighter than N\u2082 and O\u2082",
+      "Water vapour (H₂O) lighter than N₂ and O₂",
       "Effect is small but measurable",
       "Hot, humid day = worse performance than hot, dry day",
       "One factor in density altitude calculations"
@@ -1621,10 +1393,10 @@
     "code": "20.10.36",
     "topic": "20.10 -- Pressure and Density",
     "syllabus_desc": "Calculate density altitude.",
-    "concept": "Density altitude is calculated from pressure altitude and outside air temperature (OAT). The formula is: DA = pressure altitude + (120 \u00d7 (OAT - ISA temp at that altitude)). For example, if your pressure altitude is 5,000 feet and the outside air temperature is 25 degrees C (ISA at 5,000 ft is 5.1 degrees C, so the deviation is +19.9), then DA = 5,000 + (120 \u00d7 19.9) = 5,000 + 2,388 = 7,388 feet. Your aircraft will perform as if it's at 7,388 feet, not 5,000 feet. Most aircraft have density altitude performance tables for standard conditions, so you look up performance at the calculated density altitude. You should practice this calculation until you can do it in your head -- it's critical for safe flight, especially at high-elevation hot-day aerodromes.",
-    "exam_tip": "DA = pressure altitude + (120 \u00d7 temp deviation from ISA). Every degree above ISA costs about 120 feet of density altitude. Practice until automatic.",
+    "concept": "Density altitude is calculated from pressure altitude and outside air temperature (OAT). The formula is: DA = pressure altitude + (120 × (OAT - ISA temp at that altitude)). For example, if your pressure altitude is 5,000 feet and the outside air temperature is 25 degrees C (ISA at 5,000 ft is 5.1 degrees C, so the deviation is +19.9), then DA = 5,000 + (120 × 19.9) = 5,000 + 2,388 = 7,388 feet. Your aircraft will perform as if it's at 7,388 feet, not 5,000 feet. Most aircraft have density altitude performance tables for standard conditions, so you look up performance at the calculated density altitude. You should practice this calculation until you can do it in your head -- it's critical for safe flight, especially at high-elevation hot-day aerodromes.",
+    "exam_tip": "DA = pressure altitude + (120 × temp deviation from ISA). Every degree above ISA costs about 120 feet of density altitude. Practice until automatic.",
     "key_facts": [
-      "DA = PA + (120 \u00d7 (OAT - ISA temp))",
+      "DA = PA + (120 × (OAT - ISA temp))",
       "DA = pressure altitude + (120 feet per degree C above ISA)",
       "High temperature = high DA (worse performance)",
       "Low temperature = low DA (better performance)",
@@ -1675,29 +1447,10 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.12.6",
-    "topic": "20.12 -- Wind",
-    "syllabus_desc": "Describe the friction layer and the changes in wind velocity when climbing through it.",
-    "concept": "The friction layer (also called the boundary layer or planetary boundary layer) is the lowest layer of the atmosphere where surface friction influences the wind. Over flat terrain, it extends to about 2,000 ft AGL. Over rough terrain or urban areas, it can extend higher. Over smooth sea, it may be as shallow as 1,000 ft. As you climb through the friction layer, two things happen to the wind: speed increases and direction veers (shifts clockwise in the Southern Hemisphere). At the top of the friction layer, the wind approximates the geostrophic wind -- parallel to the isobars and at full speed. This has direct operational significance: if the surface wind at Christchurch is 270/15, the wind at 2,000 ft AGL might be 300/25 or more. During approach, the reverse happens -- descending into the friction layer, the wind decreases and backs. If you're on approach with a headwind component that suddenly decreases as you descend through the friction layer, you lose airspeed and must compensate. This is a form of low-level wind shear that affects every approach.",
-    "exam_tip": "Friction layer: ~2,000 ft AGL over land. Climbing through it: wind speed increases and direction veers (clockwise in SH). Descending: wind backs and decreases -- a form of low-level wind shear on approach.",
-    "key_facts": [
-      "Friction layer: surface to ~2,000 ft AGL (varies with terrain)",
-      "Over rough terrain/urban areas: deeper. Over smooth sea: shallower",
-      "Climbing through friction layer: wind speed increases, direction veers (clockwise in SH)",
-      "At top of friction layer: wind approximates geostrophic (parallel to isobars)",
-      "Descending through friction layer: wind backs and decreases",
-      "This backing and speed decrease is a form of low-level wind shear on approach"
-    ],
-    "source": "AFT ATPL Meteorology, AFT CPL Meteorology",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.12.6(a)",
     "topic": "20.12 -- Wind",
     "syllabus_desc": "State the changes in the magnitude of Coriolis force with latitude.",
-    "concept": "The Coriolis force varies with latitude. At the equator, it's zero -- there's no Coriolis effect. As you move toward the poles, the Coriolis force increases. At the poles, it reaches its maximum value. This is why winds at the equator blow more easterly (less deflection) while mid-latitude winds are more westerly (more deflection). The mathematical expression is F = 2\u03a9 sin(\u03c6) where \u03a9 is Earth's rotation rate and \u03c6 is latitude. The sine term means no effect at the equator (sin 0 = 0) and maximum effect at the poles (sin 90\u00b0 = 1).",
+    "concept": "The Coriolis force varies with latitude. At the equator, it's zero -- there's no Coriolis effect. As you move toward the poles, the Coriolis force increases. At the poles, it reaches its maximum value. This is why winds at the equator blow more easterly (less deflection) while mid-latitude winds are more westerly (more deflection). The mathematical expression is F = 2Ω sin(φ) where Ω is Earth's rotation rate and φ is latitude. The sine term means no effect at the equator (sin 0 = 0) and maximum effect at the poles (sin 90° = 1).",
     "exam_tip": "Coriolis force = zero at equator, increases toward poles, maximum at poles. Explains why trade winds are easterly, mid-latitude winds westerly.",
     "key_facts": [
       "Coriolis force = 0 at equator",
@@ -1720,7 +1473,7 @@
     "exam_tip": "Coriolis force proportional to wind speed. Faster wind = greater deflection. Slower wind = less deflection.",
     "key_facts": [
       "Coriolis force increases with wind speed",
-      "F = 2\u03a9 sin(\u03c6) \u00d7 V where V is wind speed",
+      "F = 2Ω sin(φ) × V where V is wind speed",
       "Geostrophic balance requires stronger wind for steeper pressure gradient",
       "Light winds = small Coriolis effect",
       "Strong winds = large Coriolis effect",
@@ -1739,10 +1492,10 @@
     "exam_tip": "Southern Hemisphere: Coriolis force is always to the right of wind direction. This right-hand deflection creates clockwise wind circulation around lows.",
     "key_facts": [
       "Coriolis force acts 90 degrees to the right of wind (Southern Hemisphere)",
-      "Northward wind \u2192 deflected eastward",
-      "Eastward wind \u2192 deflected southward",
-      "Southward wind \u2192 deflected westward",
-      "Westward wind \u2192 deflected northward",
+      "Northward wind → deflected eastward",
+      "Eastward wind → deflected southward",
+      "Southward wind → deflected westward",
+      "Westward wind → deflected northward",
       "Creates clockwise circulation around lows, anticlockwise around highs"
     ],
     "source": "AC 61-5 Rev 38",
@@ -1784,25 +1537,6 @@
       "Night: convection stops, surface wind decreases and steadies"
     ],
     "source": "AFT ATPL Meteorology, AFT CPL Meteorology",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.12.12",
-    "topic": "20.12 -- Wind",
-    "syllabus_desc": "Describe sea breezes, katabatic winds, and terrain channelling effects in New Zealand.",
-    "concept": "Sea breezes develop on sunny days when the land heats faster than the sea: warm air rises over land, cooler air flows in from the sea to replace it. In NZ, sea breezes typically develop by late morning and reach their peak in the afternoon, extending 20-30 km inland with speeds of 10-15 kt (sometimes more). They can dramatically change the wind at coastal aerodromes -- you might depart with a light offshore breeze in the morning and return to a stiff onshore sea breeze in the afternoon. The sea breeze front can trigger convective cloud and showers as it moves inland. Katabatic winds are gravity-driven drainage flows of cold air down slopes and valleys, usually on clear calm nights. They develop when hillside surfaces cool by radiation, chilling the air in contact, which then flows downhill under gravity. In NZ mountain areas, katabatic winds of 10-15 kt are common, and in steep valleys they can be stronger. They contribute to frost and fog formation in valley floors. Terrain channelling occurs when wind is funnelled through valleys, gaps, or passes -- the constriction accelerates the flow. Cook Strait is NZ's classic example: the gap between the North and South Islands funnels the wind, regularly producing speeds 20-30 kt stronger than the surrounding open areas.",
-    "exam_tip": "Sea breeze: onshore, develops late morning, peak afternoon, 20-30 km inland. Katabatic: downslope at night, clear calm conditions. Terrain channelling: Cook Strait is the classic NZ example.",
-    "key_facts": [
-      "Sea breeze: onshore flow when land heats faster than sea, develops late morning",
-      "NZ sea breezes: 10-15 kt, extending 20-30 km inland, peak in afternoon",
-      "Sea breeze front can trigger convective cloud and showers inland",
-      "Katabatic winds: cold air drainage downslope at night, clear calm conditions",
-      "NZ katabatic winds: 10-15 kt common in mountain valleys",
-      "Terrain channelling: Cook Strait classic example, wind 20-30 kt stronger than surrounds"
-    ],
-    "source": "AFT CPL Meteorology, MetService NZ, AIPNZ MET section",
     "confidence": "high",
     "verified": false,
     "created": "2026-04-01T00:00:00Z"
@@ -1863,25 +1597,6 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.12.16",
-    "topic": "20.12 -- Wind",
-    "syllabus_desc": "State typical wind direction deflections due to friction over the sea, flat to undulating ground, and mountainous regions.",
-    "concept": "Friction in the boundary layer deflects surface wind toward lower pressure compared to the free wind above the friction layer. The deflection angle depends on surface roughness. Over a smooth surface (ocean), the deflection is about 10-20 degrees. Over rougher land, it's about 20-40 degrees. Over very rough terrain (mountains), it can exceed 45 degrees. This is why surface wind patterns differ from the upper-level wind direction derived from isobars -- the surface wind has an inward component toward the low-pressure centre because of friction.",
-    "exam_tip": "Friction causes inward deflection toward low pressure. Smooth ocean: 10-20 degrees. Land: 20-40 degrees. Rough terrain: 45+ degrees.",
-    "key_facts": [
-      "Friction causes wind to blow more toward low pressure",
-      "Deflection angle depends on surface roughness",
-      "Over ocean: ~10-20 degree inward deflection",
-      "Over land: ~20-40 degree inward deflection",
-      "Over mountains: 45+ degree deflection",
-      "Rougher surface = greater deflection"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.12.16(a)",
     "topic": "20.12 -- Wind",
     "syllabus_desc": "State typical wind direction deflections due to friction over the sea.",
@@ -1913,25 +1628,6 @@
     "exam_tip": "",
     "key_facts": [],
     "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.12.18",
-    "topic": "20.12 -- Wind",
-    "syllabus_desc": "Describe the gradient wind and the difference between geostrophic and gradient wind around curved isobars.",
-    "concept": "The geostrophic wind is the theoretical balance between the pressure gradient force and Coriolis force -- it flows parallel to straight isobars. But isobars around real weather systems are curved, and when air follows a curved path, centripetal acceleration enters the equation. The gradient wind accounts for this curvature. Around a low pressure system (cyclonic flow in the SH -- clockwise), the centripetal acceleration acts in the same direction as the pressure gradient force, so Coriolis doesn't need to be as strong to maintain balance -- the wind speed is less than geostrophic (subgeostrophic). Around a high (anticyclonic flow -- anticlockwise), centripetal acceleration opposes the pressure gradient force, so Coriolis needs to be stronger, which means the wind speed is greater than geostrophic (supergeostrophic). The tighter the curvature, the bigger the difference. Practically, this means: for the same isobar spacing, wind around a tight low is weaker than you'd estimate from the geostrophic approximation, and wind around a tight high is stronger. This is a CPL-level distinction that explains occasional surprises when the actual wind doesn't match a simple isobar-spacing estimate.",
-    "exam_tip": "Gradient wind around a low: subgeostrophic (less than geostrophic). Around a high: supergeostrophic (more than geostrophic). Tighter curvature = bigger difference from geostrophic.",
-    "key_facts": [
-      "Geostrophic wind: PGF balanced by Coriolis, flows parallel to straight isobars",
-      "Gradient wind: accounts for curvature of isobars (centripetal acceleration)",
-      "Around a low (cyclonic): subgeostrophic -- wind weaker than geostrophic estimate",
-      "Around a high (anticyclonic): supergeostrophic -- wind stronger than geostrophic",
-      "Tighter curvature = bigger difference between gradient and geostrophic wind",
-      "Explains why wind around tight highs can be surprisingly strong"
-    ],
-    "source": "AFT ATPL Meteorology",
     "confidence": "high",
     "verified": false,
     "created": "2026-04-01T00:00:00Z"
@@ -1973,22 +1669,8 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.14.2",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
-    "syllabus_desc": "[AC 61-5 code 20.14.2]",
-    "concept": "See AC 61-5 Rev 38, Section 20.14",
-    "exam_tip": "Exam content for 20.14.2",
-    "key_facts": [
-      "AC 61-5 code 20.14.2 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.14.2(a)",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
+    "topic": "20.14 -- Local Winds – New Zealand and the South Pacific",
     "syllabus_desc": "[AC 61-5 code 20.14.2(a)]",
     "concept": "See AC 61-5 Rev 38, Section 20.14",
     "exam_tip": "Exam content for 20.14.2(a)",
@@ -2002,7 +1684,7 @@
   },
   {
     "code": "20.14.2(b)",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
+    "topic": "20.14 -- Local Winds – New Zealand and the South Pacific",
     "syllabus_desc": "[AC 61-5 code 20.14.2(b)]",
     "concept": "See AC 61-5 Rev 38, Section 20.14",
     "exam_tip": "Exam content for 20.14.2(b)",
@@ -2016,7 +1698,7 @@
   },
   {
     "code": "20.14.2(c)",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
+    "topic": "20.14 -- Local Winds – New Zealand and the South Pacific",
     "syllabus_desc": "[AC 61-5 code 20.14.2(c)]",
     "concept": "See AC 61-5 Rev 38, Section 20.14",
     "exam_tip": "Exam content for 20.14.2(c)",
@@ -2030,7 +1712,7 @@
   },
   {
     "code": "20.14.2(d)",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
+    "topic": "20.14 -- Local Winds – New Zealand and the South Pacific",
     "syllabus_desc": "[AC 61-5 code 20.14.2(d)]",
     "concept": "See AC 61-5 Rev 38, Section 20.14",
     "exam_tip": "Exam content for 20.14.2(d)",
@@ -2044,7 +1726,7 @@
   },
   {
     "code": "20.14.2(e)",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
+    "topic": "20.14 -- Local Winds – New Zealand and the South Pacific",
     "syllabus_desc": "[AC 61-5 code 20.14.2(e)]",
     "concept": "See AC 61-5 Rev 38, Section 20.14",
     "exam_tip": "Exam content for 20.14.2(e)",
@@ -2058,7 +1740,7 @@
   },
   {
     "code": "20.14.2(f)",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
+    "topic": "20.14 -- Local Winds – New Zealand and the South Pacific",
     "syllabus_desc": "[AC 61-5 code 20.14.2(f)]",
     "concept": "See AC 61-5 Rev 38, Section 20.14",
     "exam_tip": "Exam content for 20.14.2(f)",
@@ -2071,22 +1753,8 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.14.4",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
-    "syllabus_desc": "[AC 61-5 code 20.14.4]",
-    "concept": "See AC 61-5 Rev 38, Section 20.14",
-    "exam_tip": "Exam content for 20.14.4",
-    "key_facts": [
-      "AC 61-5 code 20.14.4 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.14.4(a)",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
+    "topic": "20.14 -- Local Winds – New Zealand and the South Pacific",
     "syllabus_desc": "[AC 61-5 code 20.14.4(a)]",
     "concept": "See AC 61-5 Rev 38, Section 20.14",
     "exam_tip": "Exam content for 20.14.4(a)",
@@ -2100,7 +1768,7 @@
   },
   {
     "code": "20.14.4(b)",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
+    "topic": "20.14 -- Local Winds – New Zealand and the South Pacific",
     "syllabus_desc": "[AC 61-5 code 20.14.4(b)]",
     "concept": "See AC 61-5 Rev 38, Section 20.14",
     "exam_tip": "Exam content for 20.14.4(b)",
@@ -2114,7 +1782,7 @@
   },
   {
     "code": "20.14.4(c)",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
+    "topic": "20.14 -- Local Winds – New Zealand and the South Pacific",
     "syllabus_desc": "[AC 61-5 code 20.14.4(c)]",
     "concept": "See AC 61-5 Rev 38, Section 20.14",
     "exam_tip": "Exam content for 20.14.4(c)",
@@ -2128,7 +1796,7 @@
   },
   {
     "code": "20.14.6",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
+    "topic": "20.14 -- Local Winds – New Zealand and the South Pacific",
     "syllabus_desc": "[AC 61-5 code 20.14.6]",
     "concept": "See AC 61-5 Rev 38, Section 20.14",
     "exam_tip": "Exam content for 20.14.6",
@@ -2142,7 +1810,7 @@
   },
   {
     "code": "20.14.8",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
+    "topic": "20.14 -- Local Winds – New Zealand and the South Pacific",
     "syllabus_desc": "[AC 61-5 code 20.14.8]",
     "concept": "See AC 61-5 Rev 38, Section 20.14",
     "exam_tip": "Exam content for 20.14.8",
@@ -2156,7 +1824,7 @@
   },
   {
     "code": "20.14.10",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
+    "topic": "20.14 -- Local Winds – New Zealand and the South Pacific",
     "syllabus_desc": "[AC 61-5 code 20.14.10]",
     "concept": "See AC 61-5 Rev 38, Section 20.14",
     "exam_tip": "Exam content for 20.14.10",
@@ -2170,7 +1838,7 @@
   },
   {
     "code": "20.14.12",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
+    "topic": "20.14 -- Local Winds – New Zealand and the South Pacific",
     "syllabus_desc": "[AC 61-5 code 20.14.12]",
     "concept": "See AC 61-5 Rev 38, Section 20.14",
     "exam_tip": "Exam content for 20.14.12",
@@ -2183,22 +1851,8 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.14.22",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
-    "syllabus_desc": "[AC 61-5 code 20.14.22]",
-    "concept": "See AC 61-5 Rev 38, Section 20.14",
-    "exam_tip": "Exam content for 20.14.22",
-    "key_facts": [
-      "AC 61-5 code 20.14.22 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.14.22(a)",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
+    "topic": "20.14 -- Local Winds – New Zealand and the South Pacific",
     "syllabus_desc": "[AC 61-5 code 20.14.22(a)]",
     "concept": "See AC 61-5 Rev 38, Section 20.14",
     "exam_tip": "Exam content for 20.14.22(a)",
@@ -2212,7 +1866,7 @@
   },
   {
     "code": "20.14.22(b)",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
+    "topic": "20.14 -- Local Winds – New Zealand and the South Pacific",
     "syllabus_desc": "[AC 61-5 code 20.14.22(b)]",
     "concept": "See AC 61-5 Rev 38, Section 20.14",
     "exam_tip": "Exam content for 20.14.22(b)",
@@ -2226,7 +1880,7 @@
   },
   {
     "code": "20.14.22(c)",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
+    "topic": "20.14 -- Local Winds – New Zealand and the South Pacific",
     "syllabus_desc": "[AC 61-5 code 20.14.22(c)]",
     "concept": "See AC 61-5 Rev 38, Section 20.14",
     "exam_tip": "Exam content for 20.14.22(c)",
@@ -2240,7 +1894,7 @@
   },
   {
     "code": "20.14.24",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
+    "topic": "20.14 -- Local Winds – New Zealand and the South Pacific",
     "syllabus_desc": "[AC 61-5 code 20.14.24]",
     "concept": "See AC 61-5 Rev 38, Section 20.14",
     "exam_tip": "Exam content for 20.14.24",
@@ -2254,7 +1908,7 @@
   },
   {
     "code": "20.14.26",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
+    "topic": "20.14 -- Local Winds – New Zealand and the South Pacific",
     "syllabus_desc": "[AC 61-5 code 20.14.26]",
     "concept": "See AC 61-5 Rev 38, Section 20.14",
     "exam_tip": "Exam content for 20.14.26",
@@ -2267,22 +1921,8 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.14.28",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
-    "syllabus_desc": "[AC 61-5 code 20.14.28]",
-    "concept": "See AC 61-5 Rev 38, Section 20.14",
-    "exam_tip": "Exam content for 20.14.28",
-    "key_facts": [
-      "AC 61-5 code 20.14.28 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.14.28(a)",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
+    "topic": "20.14 -- Local Winds – New Zealand and the South Pacific",
     "syllabus_desc": "[AC 61-5 code 20.14.28(a)]",
     "concept": "See AC 61-5 Rev 38, Section 20.14",
     "exam_tip": "Exam content for 20.14.28(a)",
@@ -2296,7 +1936,7 @@
   },
   {
     "code": "20.14.28(b)",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
+    "topic": "20.14 -- Local Winds – New Zealand and the South Pacific",
     "syllabus_desc": "[AC 61-5 code 20.14.28(b)]",
     "concept": "See AC 61-5 Rev 38, Section 20.14",
     "exam_tip": "Exam content for 20.14.28(b)",
@@ -2309,22 +1949,8 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.14.30",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
-    "syllabus_desc": "[AC 61-5 code 20.14.30]",
-    "concept": "See AC 61-5 Rev 38, Section 20.14",
-    "exam_tip": "Exam content for 20.14.30",
-    "key_facts": [
-      "AC 61-5 code 20.14.30 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.14.30(a)",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
+    "topic": "20.14 -- Local Winds – New Zealand and the South Pacific",
     "syllabus_desc": "[AC 61-5 code 20.14.30(a)]",
     "concept": "See AC 61-5 Rev 38, Section 20.14",
     "exam_tip": "Exam content for 20.14.30(a)",
@@ -2338,7 +1964,7 @@
   },
   {
     "code": "20.14.30(b)",
-    "topic": "20.14 -- Local Winds \u2013 New Zealand and the South Pacific",
+    "topic": "20.14 -- Local Winds – New Zealand and the South Pacific",
     "syllabus_desc": "[AC 61-5 code 20.14.30(b)]",
     "concept": "See AC 61-5 Rev 38, Section 20.14",
     "exam_tip": "Exam content for 20.14.30(b)",
@@ -2463,20 +2089,6 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.18.4",
-    "topic": "20.18 -- Atmospheric Stability",
-    "syllabus_desc": "[AC 61-5 code 20.18.4]",
-    "concept": "See AC 61-5 Rev 38, Section 20.18",
-    "exam_tip": "Exam content for 20.18.4",
-    "key_facts": [
-      "AC 61-5 code 20.18.4 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.18.4(a)",
     "topic": "20.18 -- Atmospheric Stability",
     "syllabus_desc": "[AC 61-5 code 20.18.4(a)]",
@@ -2540,20 +2152,6 @@
     "exam_tip": "Exam content for 20.22.2",
     "key_facts": [
       "AC 61-5 code 20.22.2 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.22.4",
-    "topic": "20.22 -- Cloud",
-    "syllabus_desc": "[AC 61-5 code 20.22.4]",
-    "concept": "See AC 61-5 Rev 38, Section 20.22",
-    "exam_tip": "Exam content for 20.22.4",
-    "key_facts": [
-      "AC 61-5 code 20.22.4 specification"
     ],
     "source": "AC 61-5 Rev 38",
     "confidence": "high",
@@ -2631,20 +2229,6 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.22.12",
-    "topic": "20.22 -- Cloud",
-    "syllabus_desc": "[AC 61-5 code 20.22.12]",
-    "concept": "See AC 61-5 Rev 38, Section 20.22",
-    "exam_tip": "Exam content for 20.22.12",
-    "key_facts": [
-      "AC 61-5 code 20.22.12 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.22.12(a)",
     "topic": "20.22 -- Cloud",
     "syllabus_desc": "[AC 61-5 code 20.22.12(a)]",
@@ -2680,20 +2264,6 @@
     "exam_tip": "Exam content for 20.22.12(c)",
     "key_facts": [
       "AC 61-5 code 20.22.12(c) specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.22.14",
-    "topic": "20.22 -- Cloud",
-    "syllabus_desc": "[AC 61-5 code 20.22.14]",
-    "concept": "See AC 61-5 Rev 38, Section 20.22",
-    "exam_tip": "Exam content for 20.22.14",
-    "key_facts": [
-      "AC 61-5 code 20.22.14 specification"
     ],
     "source": "AC 61-5 Rev 38",
     "confidence": "high",
@@ -2792,20 +2362,6 @@
     "exam_tip": "Exam content for 20.22.14(g)",
     "key_facts": [
       "AC 61-5 code 20.22.14(g) specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.22.16",
-    "topic": "20.22 -- Cloud",
-    "syllabus_desc": "[AC 61-5 code 20.22.16]",
-    "concept": "See AC 61-5 Rev 38, Section 20.22",
-    "exam_tip": "Exam content for 20.22.16",
-    "key_facts": [
-      "AC 61-5 code 20.22.16 specification"
     ],
     "source": "AC 61-5 Rev 38",
     "confidence": "high",
@@ -2939,20 +2495,6 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.26.8",
-    "topic": "20.26 -- Visibility and Fog",
-    "syllabus_desc": "[AC 61-5 code 20.26.8]",
-    "concept": "See AC 61-5 Rev 38, Section 20.26",
-    "exam_tip": "Exam content for 20.26.8",
-    "key_facts": [
-      "AC 61-5 code 20.26.8 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.26.8(a)",
     "topic": "20.26 -- Visibility and Fog",
     "syllabus_desc": "[AC 61-5 code 20.26.8(a)]",
@@ -3023,20 +2565,6 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.28.4",
-    "topic": "20.28 -- Aircraft Icing",
-    "syllabus_desc": "[AC 61-5 code 20.28.4]",
-    "concept": "See AC 61-5 Rev 38, Section 20.28",
-    "exam_tip": "Exam content for 20.28.4",
-    "key_facts": [
-      "AC 61-5 code 20.28.4 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.28.4(a)",
     "topic": "20.28 -- Aircraft Icing",
     "syllabus_desc": "[AC 61-5 code 20.28.4(a)]",
@@ -3100,20 +2628,6 @@
     "exam_tip": "Exam content for 20.28.4(e)",
     "key_facts": [
       "AC 61-5 code 20.28.4(e) specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.28.6",
-    "topic": "20.28 -- Aircraft Icing",
-    "syllabus_desc": "[AC 61-5 code 20.28.6]",
-    "concept": "See AC 61-5 Rev 38, Section 20.28",
-    "exam_tip": "Exam content for 20.28.6",
-    "key_facts": [
-      "AC 61-5 code 20.28.6 specification"
     ],
     "source": "AC 61-5 Rev 38",
     "confidence": "high",
@@ -3275,20 +2789,6 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.30.4",
-    "topic": "20.30 -- Thunderstorms",
-    "syllabus_desc": "[AC 61-5 code 20.30.4]",
-    "concept": "See AC 61-5 Rev 38, Section 20.30",
-    "exam_tip": "Exam content for 20.30.4",
-    "key_facts": [
-      "AC 61-5 code 20.30.4 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.30.4(a)",
     "topic": "20.30 -- Thunderstorms",
     "syllabus_desc": "[AC 61-5 code 20.30.4(a)]",
@@ -3380,20 +2880,6 @@
     "exam_tip": "Exam content for 20.30.4(g)",
     "key_facts": [
       "AC 61-5 code 20.30.4(g) specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.30.6",
-    "topic": "20.30 -- Thunderstorms",
-    "syllabus_desc": "[AC 61-5 code 20.30.6]",
-    "concept": "See AC 61-5 Rev 38, Section 20.30",
-    "exam_tip": "Exam content for 20.30.6",
-    "key_facts": [
-      "AC 61-5 code 20.30.6 specification"
     ],
     "source": "AC 61-5 Rev 38",
     "confidence": "high",
@@ -3555,20 +3041,6 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.34.2",
-    "topic": "20.34 -- Anticyclones",
-    "syllabus_desc": "[AC 61-5 code 20.34.2]",
-    "concept": "See AC 61-5 Rev 38, Section 20.34",
-    "exam_tip": "Exam content for 20.34.2",
-    "key_facts": [
-      "AC 61-5 code 20.34.2 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.34.2(a)",
     "topic": "20.34 -- Anticyclones",
     "syllabus_desc": "[AC 61-5 code 20.34.2(a)]",
@@ -3653,20 +3125,6 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.36.2",
-    "topic": "20.36 -- Fronts and Depressions",
-    "syllabus_desc": "[AC 61-5 code 20.36.2]",
-    "concept": "See AC 61-5 Rev 38, Section 20.36",
-    "exam_tip": "Exam content for 20.36.2",
-    "key_facts": [
-      "AC 61-5 code 20.36.2 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.36.2(a)",
     "topic": "20.36 -- Fronts and Depressions",
     "syllabus_desc": "[AC 61-5 code 20.36.2(a)]",
@@ -3723,20 +3181,6 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.36.8",
-    "topic": "20.36 -- Fronts and Depressions",
-    "syllabus_desc": "[AC 61-5 code 20.36.8]",
-    "concept": "See AC 61-5 Rev 38, Section 20.36",
-    "exam_tip": "Exam content for 20.36.8",
-    "key_facts": [
-      "AC 61-5 code 20.36.8 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.36.8(a)",
     "topic": "20.36 -- Fronts and Depressions",
     "syllabus_desc": "[AC 61-5 code 20.36.8(a)]",
@@ -3779,20 +3223,6 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.36.10",
-    "topic": "20.36 -- Fronts and Depressions",
-    "syllabus_desc": "[AC 61-5 code 20.36.10]",
-    "concept": "See AC 61-5 Rev 38, Section 20.36",
-    "exam_tip": "Exam content for 20.36.10",
-    "key_facts": [
-      "AC 61-5 code 20.36.10 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.36.10(a)",
     "topic": "20.36 -- Fronts and Depressions",
     "syllabus_desc": "[AC 61-5 code 20.36.10(a)]",
@@ -3828,20 +3258,6 @@
     "exam_tip": "Exam content for 20.36.10(c)",
     "key_facts": [
       "AC 61-5 code 20.36.10(c) specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.40.2",
-    "topic": "20.40 -- Turbulence",
-    "syllabus_desc": "[AC 61-5 code 20.40.2]",
-    "concept": "See AC 61-5 Rev 38, Section 20.40",
-    "exam_tip": "Exam content for 20.40.2",
-    "key_facts": [
-      "AC 61-5 code 20.40.2 specification"
     ],
     "source": "AC 61-5 Rev 38",
     "confidence": "high",
@@ -3905,20 +3321,6 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.40.4",
-    "topic": "20.40 -- Turbulence",
-    "syllabus_desc": "[AC 61-5 code 20.40.4]",
-    "concept": "See AC 61-5 Rev 38, Section 20.40",
-    "exam_tip": "Exam content for 20.40.4",
-    "key_facts": [
-      "AC 61-5 code 20.40.4 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.40.4(a)",
     "topic": "20.40 -- Turbulence",
     "syllabus_desc": "[AC 61-5 code 20.40.4(a)]",
@@ -3968,20 +3370,6 @@
     "exam_tip": "Exam content for 20.40.4(d)",
     "key_facts": [
       "AC 61-5 code 20.40.4(d) specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.40.6",
-    "topic": "20.40 -- Turbulence",
-    "syllabus_desc": "[AC 61-5 code 20.40.6]",
-    "concept": "See AC 61-5 Rev 38, Section 20.40",
-    "exam_tip": "Exam content for 20.40.6",
-    "key_facts": [
-      "AC 61-5 code 20.40.6 specification"
     ],
     "source": "AC 61-5 Rev 38",
     "confidence": "high",
@@ -4073,20 +3461,6 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.40.10",
-    "topic": "20.40 -- Turbulence",
-    "syllabus_desc": "[AC 61-5 code 20.40.10]",
-    "concept": "See AC 61-5 Rev 38, Section 20.40",
-    "exam_tip": "Exam content for 20.40.10",
-    "key_facts": [
-      "AC 61-5 code 20.40.10 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.40.10(a)",
     "topic": "20.40 -- Turbulence",
     "syllabus_desc": "[AC 61-5 code 20.40.10(a)]",
@@ -4143,20 +3517,6 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.42.4",
-    "topic": "20.42 -- Other Hazardous Meteorological Conditions",
-    "syllabus_desc": "[AC 61-5 code 20.42.4]",
-    "concept": "See AC 61-5 Rev 38, Section 20.42",
-    "exam_tip": "Exam content for 20.42.4",
-    "key_facts": [
-      "AC 61-5 code 20.42.4 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.42.4(a)",
     "topic": "20.42 -- Other Hazardous Meteorological Conditions",
     "syllabus_desc": "[AC 61-5 code 20.42.4(a)]",
@@ -4178,20 +3538,6 @@
     "exam_tip": "Exam content for 20.42.4(b)",
     "key_facts": [
       "AC 61-5 code 20.42.4(b) specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.42.6",
-    "topic": "20.42 -- Other Hazardous Meteorological Conditions",
-    "syllabus_desc": "[AC 61-5 code 20.42.6]",
-    "concept": "See AC 61-5 Rev 38, Section 20.42",
-    "exam_tip": "Exam content for 20.42.6",
-    "key_facts": [
-      "AC 61-5 code 20.42.6 specification"
     ],
     "source": "AC 61-5 Rev 38",
     "confidence": "high",
@@ -4248,20 +3594,6 @@
     "exam_tip": "Exam content for 20.46.2",
     "key_facts": [
       "AC 61-5 code 20.46.2 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.46.4",
-    "topic": "20.46 -- The General Circulation",
-    "syllabus_desc": "[AC 61-5 code 20.46.4]",
-    "concept": "See AC 61-5 Rev 38, Section 20.46",
-    "exam_tip": "Exam content for 20.46.4",
-    "key_facts": [
-      "AC 61-5 code 20.46.4 specification"
     ],
     "source": "AC 61-5 Rev 38",
     "confidence": "high",
@@ -4409,20 +3741,6 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.48.6",
-    "topic": "20.48 -- Tropical Meteorology",
-    "syllabus_desc": "[AC 61-5 code 20.48.6]",
-    "concept": "See AC 61-5 Rev 38, Section 20.48",
-    "exam_tip": "Exam content for 20.48.6",
-    "key_facts": [
-      "AC 61-5 code 20.48.6 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.48.6(a)",
     "topic": "20.48 -- Tropical Meteorology",
     "syllabus_desc": "[AC 61-5 code 20.48.6(a)]",
@@ -4458,20 +3776,6 @@
     "exam_tip": "Exam content for 20.48.8",
     "key_facts": [
       "AC 61-5 code 20.48.8 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.48.10",
-    "topic": "20.48 -- Tropical Meteorology",
-    "syllabus_desc": "[AC 61-5 code 20.48.10]",
-    "concept": "See AC 61-5 Rev 38, Section 20.48",
-    "exam_tip": "Exam content for 20.48.10",
-    "key_facts": [
-      "AC 61-5 code 20.48.10 specification"
     ],
     "source": "AC 61-5 Rev 38",
     "confidence": "high",
@@ -4528,20 +3832,6 @@
     "exam_tip": "Exam content for 20.48.14",
     "key_facts": [
       "AC 61-5 code 20.48.14 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.48.16",
-    "topic": "20.48 -- Tropical Meteorology",
-    "syllabus_desc": "[AC 61-5 code 20.48.16]",
-    "concept": "See AC 61-5 Rev 38, Section 20.48",
-    "exam_tip": "Exam content for 20.48.16",
-    "key_facts": [
-      "AC 61-5 code 20.48.16 specification"
     ],
     "source": "AC 61-5 Rev 38",
     "confidence": "high",
@@ -4703,20 +3993,6 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.48.28",
-    "topic": "20.48 -- Tropical Meteorology",
-    "syllabus_desc": "[AC 61-5 code 20.48.28]",
-    "concept": "See AC 61-5 Rev 38, Section 20.48",
-    "exam_tip": "Exam content for 20.48.28",
-    "key_facts": [
-      "AC 61-5 code 20.48.28 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.48.28(a)",
     "topic": "20.48 -- Tropical Meteorology",
     "syllabus_desc": "[AC 61-5 code 20.48.28(a)]",
@@ -4759,20 +4035,6 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.50.2",
-    "topic": "20.50 -- Satellite and Radar Imagery",
-    "syllabus_desc": "[AC 61-5 code 20.50.2]",
-    "concept": "See AC 61-5 Rev 38, Section 20.50",
-    "exam_tip": "Exam content for 20.50.2",
-    "key_facts": [
-      "AC 61-5 code 20.50.2 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.50.2(a)",
     "topic": "20.50 -- Satellite and Radar Imagery",
     "syllabus_desc": "[AC 61-5 code 20.50.2(a)]",
@@ -4808,20 +4070,6 @@
     "exam_tip": "Exam content for 20.50.2(c)",
     "key_facts": [
       "AC 61-5 code 20.50.2(c) specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.50.4",
-    "topic": "20.50 -- Satellite and Radar Imagery",
-    "syllabus_desc": "[AC 61-5 code 20.50.4]",
-    "concept": "See AC 61-5 Rev 38, Section 20.50",
-    "exam_tip": "Exam content for 20.50.4",
-    "key_facts": [
-      "AC 61-5 code 20.50.4 specification"
     ],
     "source": "AC 61-5 Rev 38",
     "confidence": "high",
@@ -4876,20 +4124,6 @@
     "syllabus_desc": "[20.10.2]",
     "concept": "AC 61-5 code 20.10.2",
     "exam_tip": "Code 20.10.2",
-    "key_facts": [
-      "AC 61-5 code"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.10.4",
-    "topic": "20.10 -- Pressure and Density",
-    "syllabus_desc": "[20.10.4]",
-    "concept": "AC 61-5 code 20.10.4",
-    "exam_tip": "Code 20.10.4",
     "key_facts": [
       "AC 61-5 code"
     ],
@@ -4969,20 +4203,6 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.10.12",
-    "topic": "20.10 -- Pressure and Density",
-    "syllabus_desc": "[20.10.12]",
-    "concept": "AC 61-5 code 20.10.12",
-    "exam_tip": "Code 20.10.12",
-    "key_facts": [
-      "AC 61-5 code"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.10.12(a)",
     "topic": "20.10 -- Pressure and Density",
     "syllabus_desc": "[20.10.12(a)]",
@@ -5002,20 +4222,6 @@
     "syllabus_desc": "[20.10.12(b)]",
     "concept": "AC 61-5 code 20.10.12(b)",
     "exam_tip": "Code 20.10.12(b)",
-    "key_facts": [
-      "AC 61-5 code"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.10.14",
-    "topic": "20.10 -- Pressure and Density",
-    "syllabus_desc": "[20.10.14]",
-    "concept": "AC 61-5 code 20.10.14",
-    "exam_tip": "Code 20.10.14",
     "key_facts": [
       "AC 61-5 code"
     ],
@@ -5086,20 +4292,6 @@
     "syllabus_desc": "[20.10.14(e)]",
     "concept": "AC 61-5 code 20.10.14(e)",
     "exam_tip": "Code 20.10.14(e)",
-    "key_facts": [
-      "AC 61-5 code"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.10.16",
-    "topic": "20.10 -- Pressure and Density",
-    "syllabus_desc": "[20.10.16]",
-    "concept": "AC 61-5 code 20.10.16",
-    "exam_tip": "Code 20.10.16",
     "key_facts": [
       "AC 61-5 code"
     ],
@@ -5193,20 +4385,6 @@
     "created": "2026-04-01T00:00:00Z"
   },
   {
-    "code": "20.8.8",
-    "topic": "20.8 -- Temperature and Heat Exchange Processes",
-    "syllabus_desc": "Describe the following: conduction, convection, advection.",
-    "concept": "AC 61-5 code 20.8.8",
-    "exam_tip": "Code 20.8.8",
-    "key_facts": [
-      "AC 61-5 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
     "code": "20.8.8(a)",
     "topic": "20.8 -- Temperature and Heat Exchange Processes",
     "syllabus_desc": "Describe conduction.",
@@ -5240,20 +4418,6 @@
     "syllabus_desc": "Describe advection.",
     "concept": "AC 61-5 code 20.8.8(c)",
     "exam_tip": "Code 20.8.8(c)",
-    "key_facts": [
-      "AC 61-5 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.8.10",
-    "topic": "20.8 -- Temperature and Heat Exchange Processes",
-    "syllabus_desc": "Explain how the atmosphere is warmed or cooled by conduction, convection, and advection.",
-    "concept": "AC 61-5 code 20.8.10",
-    "exam_tip": "Code 20.8.10",
     "key_facts": [
       "AC 61-5 specification"
     ],
@@ -5324,20 +4488,6 @@
     "syllabus_desc": "Define the term 'albedo'.",
     "concept": "AC 61-5 code 20.8.14",
     "exam_tip": "Code 20.8.14",
-    "key_facts": [
-      "AC 61-5 specification"
-    ],
-    "source": "AC 61-5 Rev 38",
-    "confidence": "high",
-    "verified": false,
-    "created": "2026-04-01T00:00:00Z"
-  },
-  {
-    "code": "20.8.16",
-    "topic": "20.8 -- Temperature and Heat Exchange Processes",
-    "syllabus_desc": "Explain the significance in terms of heating at the earth's surface of: specific heat, albedo, insolation.",
-    "concept": "AC 61-5 code 20.8.16",
-    "exam_tip": "Code 20.8.16",
     "key_facts": [
       "AC 61-5 specification"
     ],
