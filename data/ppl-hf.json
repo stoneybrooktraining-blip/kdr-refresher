@@ -6,7 +6,7 @@
   "author_note": "Complete Subject 10 Human Factors database covering all syllabus codes from 10.2 to 10.66, with every sub-item as individual entries. NZ-specific content with conversational instructor tone. All entries require review before verification.",
   "generated": "2026-03-26",
   "version": "2.0",
-  "total_entries": 236,
+  "total_entries": 230,
   "entries": [
     {
       "code": "10.2.2",
@@ -569,22 +569,6 @@
       "verified": false
     },
     {
-      "code": "10.18.2",
-      "topic": "10.18 — Vision and Visual Perception",
-      "syllabus_desc": "Describe the anatomy and physiology of the eye.",
-      "concept": "Your eye is a remarkably precise optical instrument. Light enters through the cornea (the clear front surface), which does most of the focusing. It then passes through the iris—the colored part that controls how much light enters—and the pupil (the hole in the iris). Behind that is the lens, which fine-tunes focus for near and distant objects, getting more curved when you focus on something close. Light is focused onto the retina, a thin layer of light-sensitive cells lining the back of your eye. The retina converts light into electrical signals and sends them via the optic nerve to your brain. Your retina has two types of light-sensitive cells: rods (sensitive in dim light, no color) and cones (sensitive in bright light, provide color vision). Behind your eye is the vitreous humor, a clear gel that fills the eyeball and maintains its shape. The white part you see is the sclera, a tough outer layer that protects the eye and provides attachment points for the muscles that move your eye. Your eye is constantly adjusting: the pupil changes size to regulate light, the lens changes shape to focus, and the extraocular muscles rotate the eye to aim it. The cornea, lens, and vitreous are all transparent; if any become opaque (cataracts), vision degrades. The whole system is built for high-acuity vision in the center (where cones are concentrated) and broader peripheral awareness. Understanding this anatomy helps you appreciate your eyes' strengths and limitations as a pilot.",
-      "exam_tip": "Draw the eye anatomy from front to back. Label key structures. Explain the path of light and how each part contributes to vision.",
-      "key_facts": [
-        "Light pathway: cornea → iris/pupil → lens → vitreous → retina → optic nerve → brain",
-        "Cornea does most focusing; lens fine-tunes focus",
-        "Retina contains rods (dim light) and cones (bright light, color)",
-        "Six muscles control eye movement; pupil controls light entry"
-      ],
-      "source": "AC 61-3 Rev 25, Human Physiology for Aviators",
-      "confidence": "high",
-      "verified": false
-    },
-    {
       "code": "10.18.2(a)",
       "topic": "10.18 — Vision and Visual Perception",
       "syllabus_desc": "Eye structure component: lens",
@@ -709,24 +693,6 @@
         "Night flying: cones offline, rods take over with reduced acuity and no color"
       ],
       "source": "AC 61-3 Rev 25, Human Physiology for Aviators",
-      "confidence": "high",
-      "verified": false
-    },
-    {
-      "code": "10.18.6",
-      "topic": "10.18 — Vision and Visual Perception",
-      "syllabus_desc": "Describe the limitations of the eye in terms of: ability at night, ability in daylight including wires and other aircraft, poor lighting, glare, lack of contrast, the blind spot, colour perception, empty field myopia.",
-      "concept": "Your visual system is brilliant but has real limitations. Night vision is limited by the absence of cones in the fovea and the rod threshold (you need at least starlight to see anything). Daylight acuity, while excellent for detail, is limited by contrast and size—a distant aircraft is hard to see not because it's dark but because it's small and lacks contrast against the sky. Small objects like wires are nearly invisible because they subtend a tiny visual angle. Glare—bright light scattering in your eye—reduces contrast and impairs vision, especially if there's a bright source (sun reflecting off water) and a dark target (another aircraft). Poor lighting conditions (overcast, dusk, dawn) are the worst: lighting is dim enough that cones are struggling and rods aren't fully adapted, but it's too bright for full dark adaptation. Lack of contrast makes things invisible: a gray aircraft against a gray sky is much harder to see than a white aircraft against blue sky. The blind spot is an anatomical gap where you're literally not seeing (though your brain fills it in). Color perception limitations include the absence of color in dim light (rods don't provide color) and colorblindness (affecting about 8% of males with red-green colorblindness). Empty field myopia is a strange phenomenon: when you're looking at a completely featureless field (like inside a cloud or over a flat, textured landscape), your eyes default to a focus distance of roughly 1-2 meters, making distant objects blurry even if you're trying to focus on them. These limitations combine: at night, over featureless terrain, in poor lighting, with glare from a bright source, and with an aircraft lacking contrast, seeing traffic becomes nearly impossible. Understanding these limitations helps you compensate: maintain better lookout in high-risk scenarios, fly positions of advantage (above and to the side, not direct head-on where contrast is worst), use lighting and colors that make you visible to others.",
-      "exam_tip": "Discuss each limitation and give a flying example: night flight (night limitation), seeing wires near Ardmore (small object), landing into sun (glare), approaching in overcast (poor lighting). Show how you'd mitigate each.",
-      "key_facts": [
-        "Night: foveal cone absence, rod threshold, loss of color",
-        "Daylight: small objects (wires, distant aircraft) hard to see due to size/contrast",
-        "Glare: bright source reduces contrast with darker targets",
-        "Poor lighting: awkward zone where cones struggling, rods not fully adapted",
-        "Lack of contrast: gray on gray nearly invisible; white on blue visible",
-        "Empty field myopia: eyes default to ~1-2m focus without visual reference"
-      ],
-      "source": "AC 61-3 Rev 25, Vision Limitations in Aviation",
       "confidence": "high",
       "verified": false
     },
@@ -973,23 +939,6 @@
       "verified": false
     },
     {
-      "code": "10.18.24",
-      "topic": "10.18 — Vision and Visual Perception",
-      "syllabus_desc": "Visual illusions: autokinesis, stroboscopic, break-off, black hole",
-      "concept": "You'll encounter four main visual illusions in the cockpit that can genuinely mess with your head. Autokinesis happens when you stare at a single point of light against a dark background—like a distant aircraft light on a night flight—and it appears to move even though it's stationary. Your eyes naturally drift slightly, and your brain interprets this as movement of the light itself. Stroboscopic illumination or flicker vertigo occurs when a regular rhythm of light and dark flashes (think rotating beacons or landing lights) coincides with your eye's blink rate, creating false motion perception. The break-off phenomenon is psychological rather than purely visual—at altitude you can feel detached from Earth below, even euphoric, which can lead to spatial disorientation. Finally, the black hole phenomenon happens during final approach on a dark night over featureless terrain (think approaching from over Cook Strait at night)—there's no visual reference, so you lose horizon perception and depth cues, making it feel like you're descending into nothing. All four can significantly compromise your situational awareness if you're not aware they exist.",
-      "exam_tip": "The examiners love asking about these because they're real hazards you'll face. Know what causes each one and how to recognize when you're experiencing it. They often ask you to describe the conditions that trigger each illusion.",
-      "key_facts": [
-        "Autokinesis occurs with isolated light sources in darkness and can lead to false collision warnings",
-        "Flicker vertigo is a photosensitive effect triggered by regular light-dark cycles, particularly dangerous in instrument flight",
-        "Break-off phenomenon involves psychological detachment and false sense of altitude euphoria",
-        "Black hole phenomenon eliminates visual horizon cues, especially dangerous on approaches over dark terrain",
-        "All require awareness and cross-checking instruments rather than relying on visual perception alone"
-      ],
-      "source": "AC 61-3 Rev 25, CAA GAP booklets",
-      "confidence": "high",
-      "verified": false
-    },
-    {
       "code": "10.18.24(a)",
       "topic": "10.18 — Vision and Visual Perception",
       "syllabus_desc": "Visual illusion: autokinesis",
@@ -1052,23 +1001,6 @@
         "Common during night approaches over dark terrain, water, or unlit regions",
         "Creates cognitive dissonance between instruments (which show correct data) and vision (which shows nothing)",
         "Prevention requires strict reliance on instruments and conscious distrust of visual cues"
-      ],
-      "source": "AC 61-3 Rev 25, CAA GAP booklets",
-      "confidence": "high",
-      "verified": false
-    },
-    {
-      "code": "10.18.26",
-      "topic": "10.18 — Vision and Visual Perception",
-      "syllabus_desc": "Methods of avoiding and coping with visual illusions",
-      "concept": "The overarching strategy for all visual illusions is simple: don't trust vision alone when you're in a situation where illusions are likely. Instead, actively cross-check your instruments, navigate using instruments when visual conditions are ambiguous, and maintain awareness of the specific illusions that are most likely in your current flying environment. For night flight, maintain a disciplined scan pattern rather than fixating on lights. For approaches, especially approaches over dark terrain or water, fly the glide slope rather than trying to judge it visually. Fatigue makes you vulnerable to all visual illusions, so manage your fatigue carefully—if you're tired, illusions become more convincing. In the cockpit, use the glass panel displays and navigation aids available to you. At Hamilton or Ardmore, where you might be doing multiple approaches in sequence, vigilance drops with fatigue; consciously refresh your focus. Understand that some illusions are more likely in certain conditions: autokinesis in night flying with isolated lights, black hole on night approaches over water, flicker vertigo with strobe lights in poor visibility. Know these triggers so you can predict when you're vulnerable. Finally, brief yourself or your crew on the specific illusions you might encounter on that flight. A simple mention—'heads up, we'll be on approach over dark terrain tonight'—keeps everyone alert to the risk.",
-      "exam_tip": "Examiners want to hear that you'll use instruments and crew resource management. Don't say you'll 'avoid' these illusions—you can't always. Instead, say you'll recognize them and manage them by maintaining instrument discipline and situational awareness. That's the practical, professional answer.",
-      "key_facts": [
-        "Primary strategy: cross-check instruments rather than relying on vision alone",
-        "Maintain disciplined scan patterns to avoid fixation in darkness",
-        "Fatigue significantly increases susceptibility to illusions",
-        "Know the specific triggers and conditions that create each illusion",
-        "Brief crew and maintain active situational awareness throughout flight"
       ],
       "source": "AC 61-3 Rev 25, CAA GAP booklets",
       "confidence": "high",
@@ -1239,23 +1171,6 @@
         "Downsloping terrain creates sensation of climb or forward tilt",
         "Effect strongest when flying toward terrain with strong visual slope",
         "Instrument cross-checking is essential to maintain accurate attitude reference"
-      ],
-      "source": "AC 61-3 Rev 25, CAA GAP booklets",
-      "confidence": "high",
-      "verified": false
-    },
-    {
-      "code": "10.18.40",
-      "topic": "10.18 — Vision and Visual Perception",
-      "syllabus_desc": "Effects on visual perception during approach: steep vs. shallow angles, runway dimensions/texture, light intensity",
-      "concept": "Your visual perception during approach is governed by several factors that can trick you into misjudging your glide path and altitude. First, the approach angle itself: a steep approach angle makes the runway appear smaller and farther away initially, then suddenly appears to enlarge and approach quickly. A shallow approach angle makes the runway grow more gradually, and you might feel like you're approaching too slowly. Different airports condition you to expect certain approach angles—if Ardmore has a gentle approach and you transition to an airfield with a steeper approach, your visual cues are mismatched. Second, runway dimensions matter enormously. A long, wide runway (like a major international airport approach) appears to have less slope than a short runway. Flying an approach to a short strip at Matamata, the runway appears to drop away more steeply, which can create the illusion that you're descending too steeply or that you're higher than you actually are. Conversely, a very wide runway makes your eye less sensitive to vertical displacement—you might not notice a descent rate error. Runway texture and color affect perception too. A well-maintained, clearly marked runway (like at Whangarei) gives you better visual cues. A dark or worn runway provides fewer visual references for your descent. At night, runway light intensity becomes critical. Dim approach lights compress your sense of distance—they make the runway appear farther away than it is, which can lead to descent errors. Bright approach lights expand your sense of distance, and you might feel like you're farther from touchdown than you actually are. If approach lights are uneven in intensity (some bright, some dim), your visual judgment becomes inconsistent. Understanding these effects means you don't rely solely on visual approach judgment—you fly the instruments (ILS glide slope if available) and use visual cues as confirmation, not primary reference.",
-      "exam_tip": "Examiners test this with scenario questions about unfamiliar airports or approach conditions. The answer shows instrument discipline: 'I'd fly the glide slope, use approach lights as a visual confirmation check, and be aware that unfamiliar runway dimensions or approach light intensity can create false visual cues. I wouldn't adjust my approach based on visual cues alone.'",
-      "key_facts": [
-        "Approach angle significantly affects perceived runway size and approach rate",
-        "Runway dimensions change perception of descent angle and altitude",
-        "Runway texture and contrast provide cues that vary with maintenance and lighting",
-        "Approach light intensity dramatically affects distance perception",
-        "Consistent visual cues depend on runway familiarity and consistency"
       ],
       "source": "AC 61-3 Rev 25, CAA GAP booklets",
       "confidence": "high",
@@ -2755,22 +2670,6 @@
         "Cognitive: slow thinking, poor memory, difficulty concentrating, missing details",
         "Behavioural: mistakes, reduced motivation, risky decisions, drowsiness",
         "Emotional: irritability, apathy, reduced patience"
-      ],
-      "source": "AC 61-3 Rev 25, CAA GAP booklets",
-      "confidence": "high",
-      "verified": false
-    },
-    {
-      "code": "10.42.2",
-      "topic": "10.42 — Ageing",
-      "syllabus_desc": "Identify normal physiological and behavioural changes with age that have a bearing on private pilot performance.",
-      "concept": "Ageing affects everyone. By the time you're in your 50s or 60s, you're experiencing measurable changes in vision, hearing, reaction time, cognition, cardiovascular capacity, and physical flexibility. These aren't pathological; they're normal ageing. But they affect flying performance, and understanding them helps you manage safely.\n\nThe key insight: ageing doesn't automatically disqualify you from flying. Many older pilots fly safely and competently. But you need to recognise changes and adapt. A 65-year-old pilot who's aware of reduced peripheral vision and compensates by doing larger head movements is safer than a 30-year-old who's unaware of their own limitations.\n\nThe CAA recognises this. Medical examiners specifically assess for age-related changes. Some changes require special training or equipment (e.g., bifocals for reading instruments). Some require lifestyle management (fitness to maintain cardiovascular function). The goal isn't to ground older pilots; it's to ensure they're flying safely by recognising and managing age-related effects.\n\nIn New Zealand, older pilots remain active. You'll see 70-year-old pilots flying Cessnas from Wanaka to Matamata—safe, experienced, and aware of their limitations. The issue isn't age per se; it's unrecognised decline.",
-      "exam_tip": "Question: 'How do age-related changes affect flying safety, and how can older pilots manage them?' Answer: Changes include vision, hearing, reaction time, and cognition degradation. Management: regular checkups, training to compensate (head movements for vision), fitness for cardiovascular health, acceptance of limitations.",
-      "key_facts": [
-        "Normal ageing causes changes in vision, hearing, reaction time, cognition, and cardiovascular capacity",
-        "Changes are gradual; older pilots often compensate without realising",
-        "Recognition and adaptation allow safe flying at older ages",
-        "CAA medical examiners specifically assess age-related changes"
       ],
       "source": "AC 61-3 Rev 25, CAA GAP booklets",
       "confidence": "high",

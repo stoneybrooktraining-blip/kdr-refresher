@@ -612,23 +612,6 @@
     "verified": false
   },
   {
-    "code": "2.10.4",
-    "topic": "2.10  -  Practices and Rules",
-    "syllabus_desc": "Demonstrate a good working knowledge of the following Civil Aviation Rules:",
-    "concept": "NZ Civil Aviation Rules, Part 91, set the legal requirements for flight operations and radio use. As a pilot, you're bound by these rules, and the exam expects you to know the relevant ones. We're going to cover several specific sections, but the big picture is this: the rules exist to keep you, your passengers, and other aircraft safe. They cover everything from radio procedures to emergency management. You need to know these cold - not just for the exam, but because you'll be following them every time you fly. Each rule is numbered and has specific requirements. Some are brief, some are detailed. The exam might ask you to explain what a rule means in practical terms, or to apply it to a scenario. So as we go through each rule, think about why it exists. Why does the CAA require transponder operation in certain airspace? Because it keeps traffic separated. Why do we have specific radio phraseology? Because it reduces misunderstandings. Understanding the 'why' behind each rule will help you remember them and apply them correctly when you're in the cockpit.",
-    "exam_tip": "CAR Part 91 governs operations, radio procedures, and safety; know specific sections 91.217-91.529.",
-    "key_facts": [
-      "CAR Part 91: New Zealand Civil Aviation Rules for aircraft operations",
-      "Part 91 covers: airworthiness, flight rules, communication procedures, emergency protocols",
-      "Pilot responsibility: compliance with applicable rules; violations subject to enforcement action",
-      "Rules structured by subsection: 91.217 (radio), 91.243 (listening watch), 91.245 (comms), 91.247 (position reports), 91.249 (transponder), 91.513 (ELT), 91.515 (post-landing ELT), 91.529 (radio failure)",
-      "Study each rule with practical application in mind; understand rationale for safe operations"
-    ],
-    "source": "AC 91-9/AC172-1 Rev 16, CAA GAP Plane Talking",
-    "confidence": "high",
-    "verified": false
-  },
-  {
     "code": "2.10.4(a)",
     "topic": "2.10  -  Practices and Rules",
     "syllabus_desc": "Demonstrate a good working knowledge of the following Civil Aviation Rules: Part 91.217 (5)",
@@ -878,23 +861,6 @@
       "Accurate position, aircraft type, and POB are essential for SAR",
       "Other aircraft relay distress calls if the aircraft isn't heard directly",
       "SAR communication requires precision and standard phraseology"
-    ],
-    "source": "AC 91-9/AC172-1 Rev 16, CAA GAP Plane Talking",
-    "confidence": "high",
-    "verified": false
-  },
-  {
-    "code": "2.12.2",
-    "topic": "2.12  -  Phraseology and Procedures",
-    "syllabus_desc": "Demonstrate proficiency in standard radiotelephony phraseologies and procedures for:",
-    "concept": "Proficiency in standard radiotelephony is what separates professional pilots from 'just getting by' operators. It's not enough to kind of understand what someone's saying  -  you need to be able to transmit and receive with clarity and consistency. You'll use specific phraseology for every phase of flight: from your initial contact with the station to taxi, takeoff, climb, approach, and landing. Each aerodrome type (controlled, AFIS, unattended) has its own procedures and call formats. What works at Auckland Tower won't work at Ardmore. That's why we're drilling this throughout your training. You'll practice these procedures repeatedly until they're muscle memory. In the real world, when you're concentrating on flying the aircraft, you don't want to be thinking about what to say next. The phraseology should flow naturally because you've practiced it so much. It's like learning to drive  -  initially you think about every action, but eventually it becomes second nature. That's the level of proficiency we're aiming for here.",
-    "exam_tip": "Proficiency = muscle memory; practice until phraseology is automatic.",
-    "key_facts": [
-      "Standard phraseology must be used consistently across all flight phases",
-      "Different procedures for controlled, AFIS, and unattended aerodromes",
-      "Practice until phraseology becomes automatic, not conscious",
-      "Clarity and consistency reduce misunderstanding and workload",
-      "Professional communication is part of professional flying"
     ],
     "source": "AC 91-9/AC172-1 Rev 16, CAA GAP Plane Talking",
     "confidence": "high",
@@ -1224,23 +1190,6 @@
     "verified": false
   },
   {
-    "code": "2.16.2",
-    "topic": "2.16  -  Loss of Communications",
-    "syllabus_desc": "Describe the checks that should be followed when becoming aware of an aircraft communication system failure, including a check of:",
-    "concept": "You're flying along, and suddenly you can't hear ATC or they're not hearing you. Don't panic. Go through systematic checks. First, check your volume  -  if it's turned down, that's an easy fix. Next, check the squelch  -  make sure it's not set too high and blocking signals. Confirm you're on the right frequency  -  easy mistake, happens more often than you'd think. Check that your headset is plugged in properly  -  sometimes a loose connector is all it takes. Then try the standby COM radio if you've got one. If nothing works and you've got dual comm radios, switch to the other one. If that doesn't work, try 121.5 MHz  -  someone might hear you there. These checks are logical: you're ruling out the simplest problems first. Volume, frequency, headset  -  these are quick wins. Then you move to equipment problems. The point is not to sit there saying 'I can't transmit' without actually investigating what's wrong. Nine times out of ten it's something simple.",
-    "exam_tip": "Radio failure checks: volume, squelch, frequency, headset, COM2, 121.5.",
-    "key_facts": [
-      "Check volume (not turned down), squelch (not blocking signals)",
-      "Confirm correct frequency is selected",
-      "Check headset is properly plugged in and working",
-      "Try standby/secondary COM radio if available",
-      "If no success, try 121.5 MHz or continue with non-voice means"
-    ],
-    "source": "AC 91-9/AC172-1 Rev 16, CAA GAP Plane Talking",
-    "confidence": "high",
-    "verified": false
-  },
-  {
     "code": "2.16.2(a)",
     "topic": "2.16  -  Loss of Communications  -  Aircraft Equipment",
     "syllabus_desc": "Describe the checks that should be followed when becoming aware of an aircraft communication system failure, including a check of: Radio power source",
@@ -1286,23 +1235,6 @@
       "Follow your last clearance; maintain altitude and heading",
       "Try alternate frequency for same facility if you know it",
       "Try 121.5 MHz to alert other aircraft and Airways"
-    ],
-    "source": "AC 91-9/AC172-1 Rev 16, CAA GAP Plane Talking",
-    "confidence": "high",
-    "verified": false
-  },
-  {
-    "code": "2.16.4",
-    "topic": "2.16  -  Loss of Communications",
-    "syllabus_desc": "Detail the actions to be taken when experiencing loss of communications in:",
-    "concept": "Loss of comms in different types of airspace requires different actions because the rules and procedures are different. In controlled airspace, you're supposed to be in contact with ATC, so losing comms is a more serious situation  -  you need specific procedures to protect yourself and other traffic. In uncontrolled airspace, you're already self-reliant, so losing comms is less of an immediate problem, but you still need to land and get it fixed. In special use airspace, you might have restrictions or requirements that your comms loss affects. The common thread is: recognize where you are, understand what the rules are for that airspace, and follow the procedures for comms loss in that specific situation. Don't just apply the same response everywhere  -  different airspace, different rules. This is why knowing your airspace structure matters. You need to understand controlled versus uncontrolled, understand where special use airspace is, and know the procedures for each. Then, if comms failure happens, you execute the right procedure for where you are.",
-    "exam_tip": "Comms loss procedures differ: Controlled (more restricted), Uncontrolled (more flexible).",
-    "key_facts": [
-      "Controlled airspace: follow last clearance, maintain level, squawk 7600, exit or land",
-      "Uncontrolled airspace: continue VFR, maintain awareness, land at nearest aerodrome",
-      "Special use airspace: depends on airspace type and specific requirements",
-      "Always know your current airspace type during flight",
-      "Procedures are designed to minimize conflict risk in each environment"
     ],
     "source": "AC 91-9/AC172-1 Rev 16, CAA GAP Plane Talking",
     "confidence": "high",
