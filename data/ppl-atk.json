@@ -267,7 +267,7 @@
     "code": "12.2.4(i)",
     "topic": "12.2  -  Definitions, Terminology, Units and Abbreviations",
     "syllabus_desc": "Define and where appropriate show the relevant relationships between: Force, work and power",
-    "concept": "Work is done when a force moves an object through a distance in the direction of that force. The formula is Work = Force × Distance (W = Fd). Work is measured in joules (J), where 1 joule = 1 newton × 1 metre. If the force and movement are not in the same direction, only the component of force in the direction of movement does work.",
+    "concept": "Work is done when a force moves an object through a distance in the direction of that force. The formula is Work = Force × Distance (W = Fd). Work is measured in joules (J), where 1 joule = 1 newton × 1 metre. If the force and movement are not in the same direction, only the component of force in the direction of movement does work. ",
     "exam_tip": "Work = Force × Distance. Measured in joules. If there's no movement, no work is done  -  no matter how much force is applied.",
     "key_facts": [
       "Work = Force × Distance (W = Fd)",

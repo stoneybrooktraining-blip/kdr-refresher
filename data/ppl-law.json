@@ -2663,25 +2663,150 @@
     "verified": false
   },
   {
-    "code": "4.78.4",
+    "code": "4.78.4(a)",
     "topic": "4.78 — Aerodrome Lighting",
-    "syllabus_desc": "Lighting systems (REDL, RTHL, RENL, RCLL, REIL, CGL, RLLS, PAL)",
-    "concept": "Runway Lighting Acronyms and What They Mean",
-    "exam_tip": "Understand the basics: edge lights (REDL), threshold (RTHL), end (RENL), centerline (RCLL), approach (CGL, PAL), intensity lights (REIL), overrun lights (RLLS).",
+    "syllabus_desc": "Describe the following lighting system: Runway edge lighting (REDL).",
+    "concept": "Runway Edge Lights (REDL) line both sides of the usable runway, showing you exactly where the edges are. During your takeoff roll or landing, they're the white lines stretching out ahead — but here's the important bit: in the last third of the runway, the lights change from white to amber. That's your cue that you're running out of runway. On a night landing at Ardmore, those amber lights appearing in your peripheral vision should sharpen your attention considerably. REDLs are fixed lights, and their intensity can be adjusted by ATC or by the pilot using PAL (pilot activated lighting).",
+    "exam_tip": "Know that REDL are white for most of the runway but change to AMBER in the last third. This colour change is a critical safety feature and a common exam question.",
     "key_facts": [
-      "REDL: Runway Edge Lights (white, or amber near end)",
-      "RTHL: Runway Threshold Lights (green at start)",
-      "RENL: Runway End Lights (red at end)",
-      "RCLL: Runway Centreline Lights (white and red mixed)",
-      "REIL: Runway End Identifier Lights (flashing white)",
-      "CGL: Centerline Guidance Lights (precision approach)",
-      "RLLS: Runway Approach Lighting System",
-      "PAL: Precision Approach Lights (lead-in lights)",
-      "Intensity variable: dim in clear sky, bright in fog"
+      "REDL = Runway Edge Lights",
+      "Line both sides of the usable runway length",
+      "Colour: WHITE, changing to AMBER in the last third of the runway",
+      "Intensity is variable — can be adjusted by ATC or via PAL",
+      "Defined in AIP NZ AD"
     ],
-    "source": "AIP AD; Aerodrome Lighting Standards",
-    "confidence": "medium",
-    "verified": false
+    "source": "NZ CAA AC 61-3 Rev 31, AIP NZ",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-03-31T00:00:00Z"
+  },
+  {
+    "code": "4.78.4(b)",
+    "topic": "4.78 — Aerodrome Lighting",
+    "syllabus_desc": "Describe the following lighting system: Runway landing threshold lighting (RTHL).",
+    "concept": "Runway Threshold Lights (RTHL) mark the beginning of the landing surface — they're the green lights you see at the threshold end of the runway when you're on approach. From the other direction (looking back from the runway toward the threshold), they appear RED, marking the end of the usable runway. So the same light fitting is green from one side and red from the other — it's all about which direction you're looking. At night, those green threshold lights are a reassuring sight on short final. They tell you exactly where the usable runway starts.",
+    "exam_tip": "RTHL appear GREEN when viewed from the approach direction, and RED when viewed from the runway looking back toward the threshold. This dual colour is a common exam question.",
+    "key_facts": [
+      "RTHL = Runway Landing Threshold Lights",
+      "Mark the start of the usable landing surface",
+      "GREEN when viewed from the approach side",
+      "RED when viewed from the runway looking back (marks end of usable runway)",
+      "Same fitting — dual colour depending on viewing direction"
+    ],
+    "source": "NZ CAA AC 61-3 Rev 31, AIP NZ",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-03-31T00:00:00Z"
+  },
+  {
+    "code": "4.78.4(c)",
+    "topic": "4.78 — Aerodrome Lighting",
+    "syllabus_desc": "Describe the following lighting system: Runway end lighting (RENL).",
+    "concept": "Runway End Lights (RENL) mark the far end of the usable runway — the stop end. They're RED lights facing the aircraft on the runway, so you see them straight ahead as you approach the end. Think of them as the 'stop here' signal. On a night flight, those red lights dead ahead during your landing roll should be all the motivation you need to get your stopping done promptly. They complement the green threshold lights at the other end — green to enter, red to stop.",
+    "exam_tip": "RENL are RED lights at the stop end of the runway, facing the landing direction. Red = end of runway — that's the association to lock in.",
+    "key_facts": [
+      "RENL = Runway End Lights",
+      "Located at the stop end of the runway",
+      "Colour: RED, facing toward the landing aircraft",
+      "Mark the end of the declared usable runway length",
+      "Complement RTHL (green) at the threshold end"
+    ],
+    "source": "NZ CAA AC 61-3 Rev 31, AIP NZ",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-03-31T00:00:00Z"
+  },
+  {
+    "code": "4.78.4(d)",
+    "topic": "4.78 — Aerodrome Lighting",
+    "syllabus_desc": "Describe the following lighting system: Runway centreline lighting system (RCLL).",
+    "concept": "Runway Centreline Lights (RCLL) are embedded flush in the runway surface along the centreline, helping you maintain alignment during takeoff and landing in low-visibility conditions. You won't find them at most light aviation aerodromes — RCLL are typically found at larger, instrument-equipped airports. The colour coding is the clever bit: white for most of the runway, then alternating red and white in the last 900m, then all red in the last 300m. So as you approach the end, the lights tell you exactly how much runway remains — even in very poor visibility.",
+    "exam_tip": "RCLL are in-runway centreline lights. Know the colour sequence: white → alternating red/white (last 900m) → all red (last 300m). Found at instrument runways.",
+    "key_facts": [
+      "RCLL = Runway Centreline Lighting System",
+      "Embedded flush lights along runway centreline",
+      "WHITE for most of runway",
+      "Alternating RED and WHITE in last 900m",
+      "All RED in last 300m",
+      "Found at larger/instrument runways, not common at light aviation aerodromes"
+    ],
+    "source": "NZ CAA AC 61-3 Rev 31, AIP NZ",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-03-31T00:00:00Z"
+  },
+  {
+    "code": "4.78.4(e)",
+    "topic": "4.78 — Aerodrome Lighting",
+    "syllabus_desc": "Describe the following lighting system: Runway end identifier lighting (REIL).",
+    "concept": "Runway End Identifier Lights (REIL) are a pair of synchronised flashing white lights positioned on each side of the runway threshold. Their job is to make the threshold easy to identify from the air — particularly useful at aerodromes where the runway threshold might be hard to pick out against a bright background or in hazy conditions. REIL don't tell you anything about runway condition; they simply make the threshold easier to spot during your approach. If you're on final in hazy conditions and you see two flashing white lights either side of a threshold, that's your runway.",
+    "exam_tip": "REIL = two synchronised flashing white lights at the runway threshold. Their purpose is to identify the threshold from the air — not to indicate runway condition.",
+    "key_facts": [
+      "REIL = Runway End Identifier Lights",
+      "Two synchronised flashing WHITE lights",
+      "One on each side of the runway threshold",
+      "Purpose: identify the threshold from the air",
+      "Particularly useful in hazy conditions or complex visual backgrounds"
+    ],
+    "source": "NZ CAA AC 61-3 Rev 31, AIP NZ",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-03-31T00:00:00Z"
+  },
+  {
+    "code": "4.78.4(f)",
+    "topic": "4.78 — Aerodrome Lighting",
+    "syllabus_desc": "Describe the following lighting system: Circling guidance lighting (CGL).",
+    "concept": "Circling Guidance Lights (CGL) assist pilots flying a visual circling approach to a runway. When you're flying a circling approach at night — say you've flown an instrument approach but need to circle to land on the opposite runway — CGL provide visual references to help you fly the circuit pattern safely and stay oriented relative to the runway. They're particularly valuable at aerodromes where the visual environment on a dark night could otherwise make circuit geometry difficult to judge.",
+    "exam_tip": "CGL supports visual circling approaches at night. It's not an approach lighting system — it's for the visual manoeuvring phase after you've broken off an instrument approach.",
+    "key_facts": [
+      "CGL = Circling Guidance Lighting",
+      "Assists pilots during night visual circling approaches",
+      "Provides visual references for circuit geometry",
+      "Used when flying a circling approach (e.g. after an instrument approach to a different runway)",
+      "Found at aerodromes with instrument approach procedures"
+    ],
+    "source": "NZ CAA AC 61-3 Rev 31, AIP NZ",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-03-31T00:00:00Z"
+  },
+  {
+    "code": "4.78.4(g)",
+    "topic": "4.78 — Aerodrome Lighting",
+    "syllabus_desc": "Describe the following lighting system: Runway lead in lighting (RLLS).",
+    "concept": "Runway Lead-In Lights (RLLS) are a sequence of flashing lights that guide you from a visual reporting point or navigation fix toward the runway threshold. Think of them as a trail of breadcrumbs lighting up the path to the runway. They're particularly useful at aerodromes where terrain or airspace constraints mean the approach path isn't a straight-in — the RLLS trace out a curved or offset path and help you follow it safely at night. You follow the flashing lights, and they lead you home.",
+    "exam_tip": "RLLS = Runway Lead-In Lights. They lead you FROM a point in the approach path TO the runway threshold — a lit pathway to the runway, especially at aerodromes with curved approaches.",
+    "key_facts": [
+      "RLLS = Runway Lead-In Lighting System",
+      "Sequence of flashing lights guiding pilots to the runway threshold",
+      "Used where terrain or airspace makes a straight-in approach impractical",
+      "Guides the pilot along a defined curved or offset approach path",
+      "Particularly useful at night at aerodromes with complex approach paths"
+    ],
+    "source": "NZ CAA AC 61-3 Rev 31, AIP NZ",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-03-31T00:00:00Z"
+  },
+  {
+    "code": "4.78.4(h)",
+    "topic": "4.78 — Aerodrome Lighting",
+    "syllabus_desc": "Describe the following lighting system: Pilot activated lighting (PAL).",
+    "concept": "Pilot Activated Lighting (PAL) lets you switch on the aerodrome lighting yourself using your radio — no tower needed, no ground staff required. At unattended aerodromes around New Zealand (and there are plenty), you key the microphone a set number of times on the CTAF frequency to activate the lights. Typically: 5 clicks for low intensity, 7 clicks for medium, and 3 clicks for high. The lights stay on for a set period (usually around 15 minutes) then turn off automatically. Always check the AIPNZ Vol 4 entry for the specific aerodrome — some have different procedures. PAL is what makes night operations at rural NZ aerodromes practical.",
+    "exam_tip": "PAL allows pilots to activate aerodrome lighting by keying the microphone on the CTAF frequency. Check AIPNZ Vol 4 for the specific procedure at each aerodrome. Lights time out automatically.",
+    "key_facts": [
+      "PAL = Pilot Activated Lighting",
+      "Activated by keying microphone on the CTAF frequency",
+      "Typical: 5 clicks = low, 7 clicks = medium, 3 clicks = high intensity",
+      "Lights automatically time out (usually ~15 minutes)",
+      "Used at unattended aerodromes — very common in rural New Zealand",
+      "Check AIPNZ Vol 4 for specific activation procedure at each aerodrome"
+    ],
+    "source": "NZ CAA AC 61-3 Rev 31, AIP NZ",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-03-31T00:00:00Z"
   },
   {
     "code": "4.78.6",

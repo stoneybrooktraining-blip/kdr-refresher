@@ -1,0 +1,21 @@
+{
+  "name": "kdr-refresher",
+  "version": "1.0.0",
+  "description": "KDR Refresher Tool – targeted revision for CAANZ exam weak areas",
+  "main": "index.html",
+  "scripts": {
+    "update-subject": "node scripts/update-index-for-subject.js"
+  },
+  "keywords": [
+    "kdr",
+    "refresher",
+    "aviation",
+    "training",
+    "ppl",
+    "cpl",
+    "atpl",
+    "ir"
+  ],
+  "author": "Stoneybrook Training",
+  "license": "MIT"
+}
