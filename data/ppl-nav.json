@@ -1928,7 +1928,7 @@
     "code": "6.28.4(a)",
     "topic": "6.28 — Computations",
     "syllabus_desc": "Solve mathematical equations: multiplication (± 2%).",
-    "concept": "The navigation computer's slide rule can multiply numbers quickly. Set the first number on the inner scale against the '10' index mark on the outer scale, then find the second number on the outer scale — the answer is on the inner scale opposite it (or vice versa depending on your computer). Accuracy should be within ±2%. This is useful for fuel calculations, distance-speed-time problems, and unit conversions during flight planning. Practise until you can use it quickly — the exam may not allow electronic calculators.",
+    "concept": "To solve mathematical equations involving multiplication using the navigation computer's slide rule: The navigation computer's slide rule can multiply numbers quickly. Set the first number on the inner scale against the '10' index mark on the outer scale, then find the second number on the outer scale — the answer is on the inner scale opposite it (or vice versa depending on your computer). Accuracy should be within ±2%. This is useful for fuel calculations, distance-speed-time problems, and unit conversions during flight planning. Practise until you can use it quickly — the exam may not allow electronic calculators.",
     "exam_tip": "Use the slide rule scales to multiply. Set one number against the index, read the product opposite the other. Accuracy ±2%.",
     "key_facts": [
       "Use the inner and outer scales of the navigation computer",
@@ -2290,7 +2290,7 @@
     "code": "6.34.4(c)",
     "topic": "6.34 — Triangle of Velocities",
     "syllabus_desc": "Solve triangle of velocity problems: wind velocity (± 3°/± 3 kts).",
-    "concept": "If you know your heading, TAS, track (from map reading), and ground speed (from timing between fixes), you can work backwards to find the actual wind. On the nav computer: set track and GS, then mark the point. Set heading and TAS — the displacement between the mark and the centre dot gives you the wind speed and direction. This is how you determine actual wind in flight — extremely useful for revising your navigation if the wind isn't as forecast.",
+    "concept": "To solve a triangle of velocity problem to find the actual wind velocity: If you know your heading, TAS, track (from map reading), and ground speed (from timing between fixes), you can work backwards to find the actual wind. On the nav computer: set track and GS, then mark the point. Set heading and TAS — the displacement between the mark and the centre dot gives you the wind speed and direction. This is how you determine actual wind in flight — extremely useful for revising your navigation if the wind isn't as forecast.",
     "exam_tip": "Work backwards from known heading, TAS, track, and GS to find actual wind. Useful for in-flight wind checks. Accuracy ±3°/±3 kt.",
     "key_facts": [
       "Given heading, TAS, track, and GS → solve for wind",
@@ -3112,7 +3112,7 @@
     "code": "6.50.2(a)",
     "topic": "6.50 — Special Procedures",
     "syllabus_desc": "Describe the techniques and procedures for re-establishing position if lost or unsure of position.",
-    "concept": "If you're uncertain of your position, don't panic — follow a systematic procedure. First, maintain heading and altitude (don't wander randomly). Check your last known position and calculate your DR position from there. Look for large, unmistakable features — coastlines, major rivers, mountain ranges, large towns. Climb if possible — higher altitude gives better visibility and radio range. If you have GPS, use it. If near a coast, fly toward it — coastlines are easy to follow and identify. Consider calling ATC for assistance — they can provide radar vectors or help you identify your position. The worst thing you can do is fly randomly.",
+    "concept": "Techniques and procedures for re-establishing your position if lost or unsure of position: If you're uncertain of your position, don't panic — follow a systematic procedure. First, maintain heading and altitude (don't wander randomly). Check your last known position and calculate your DR position from there. Look for large, unmistakable features — coastlines, major rivers, mountain ranges, large towns. Climb if possible — higher altitude gives better visibility and radio range. If you have GPS, use it. If near a coast, fly toward it — coastlines are easy to follow and identify. Consider calling ATC for assistance — they can provide radar vectors or help you identify your position. The worst thing you can do is fly randomly.",
     "exam_tip": "Don't panic. Maintain heading and altitude. Look for big features (coast, rivers, mountains). Climb for better visibility. Use GPS if available. Call ATC for help.",
     "key_facts": [
       "Maintain heading and altitude — don't wander",
@@ -3131,7 +3131,7 @@
     "code": "6.50.2(b)",
     "topic": "6.50 — Special Procedures",
     "syllabus_desc": "Describe the techniques and procedures for diverting from the pre-planned route or destination.",
-    "concept": "If you need to divert (weather, emergency, fuel concerns), you need to act quickly and methodically. Select an alternate aerodrome — preferably one you've already briefed on. Estimate the bearing and distance from your current position to the alternate using the chart. Apply wind correction mentally (use the 1:60 rule if needed). Calculate approximate flight time and fuel required. Advise ATC of your diversion. If you don't have time for precise calculations, just turn toward the alternate, fly, and refine en route. Getting to a safe aerodrome promptly matters more than perfect navigation.",
+    "concept": "Techniques and procedures for diverting from the pre-planned route or destination: If you need to divert (weather, emergency, fuel concerns), you need to act quickly and methodically. Select an alternate aerodrome — preferably one you've already briefed on. Estimate the bearing and distance from your current position to the alternate using the chart. Apply wind correction mentally (use the 1:60 rule if needed). Calculate approximate flight time and fuel required. Advise ATC of your diversion. If you don't have time for precise calculations, just turn toward the alternate, fly, and refine en route. Getting to a safe aerodrome promptly matters more than perfect navigation.",
     "exam_tip": "Select alternate aerodrome. Estimate bearing and distance from current position. Apply approximate wind correction. Advise ATC. When in doubt, fly first, calculate second.",
     "key_facts": [
       "Select suitable alternate (pre-briefed if possible)",
@@ -3169,7 +3169,7 @@
     "code": "6.50.2(d)",
     "topic": "6.50 — Special Procedures",
     "syllabus_desc": "Describe the techniques and procedures for navigating in mountainous terrain.",
-    "concept": "NZ's mountains demand respect. When flying near or over ranges: always have an escape route planned, approach ridges at a 45° angle (so you can turn away quickly if conditions are bad on the other side), maintain extra altitude for safety margins, beware of mountain waves and severe turbulence on the lee side of ranges, expect stronger and unpredictable winds near peaks, watch for rapidly changing weather (conditions can deteriorate in minutes). The Kaimai Range between Waikato and Bay of Plenty, the Tararua Range near Wellington, and the entire Southern Alps all demand careful planning. Never fly over mountains into a cul-de-sac with no way out.",
+    "concept": "Techniques and procedures for navigating in mountainous terrain require special care. NZ's mountains demand respect. When flying near or over ranges: always have an escape route planned, approach ridges at a 45° angle (so you can turn away quickly if conditions are bad on the other side), maintain extra altitude for safety margins, beware of mountain waves and severe turbulence on the lee side of ranges, expect stronger and unpredictable winds near peaks, watch for rapidly changing weather (conditions can deteriorate in minutes). The Kaimai Range between Waikato and Bay of Plenty, the Tararua Range near Wellington, and the entire Southern Alps all demand careful planning. Never fly over mountains into a cul-de-sac with no way out.",
     "exam_tip": "Approach ridges at 45° (easy escape). Extra altitude margins. Beware lee-side turbulence. Plan escape routes. NZ ranges demand respect — Kaimai, Tararua, Southern Alps.",
     "key_facts": [
       "Approach ridges at 45° angle — easy turn-away if needed",
@@ -3263,7 +3263,7 @@
     "code": "6.70.4(b)",
     "topic": "6.70 — GNSS",
     "syllabus_desc": "Explain precautions when operating/reading the unit while maintaining a proper lookout.",
-    "concept": "The biggest risk with GPS is getting 'head down' — staring at the screen instead of looking outside. In a single-pilot VFR aircraft, your primary job is to see and avoid other traffic and maintain visual reference with the ground. Glance at the GPS briefly, then eyes back outside. Use the same technique as reading instruments in VFR flight — brief scans inside, long looks outside. Set up the GPS display so the information you need is visible at a glance. If the GPS requires complex button-pushing, wait until you're in stable cruise flight.",
+    "concept": "Precautions when operating and reading a GNSS unit while maintaining a proper visual lookout: The biggest risk with GPS is getting 'head down' — staring at the screen instead of looking outside. In a single-pilot VFR aircraft, your primary job is to see and avoid other traffic and maintain visual reference with the ground. Glance at the GPS briefly, then eyes back outside. Use the same technique as reading instruments in VFR flight — brief scans inside, long looks outside. Set up the GPS display so the information you need is visible at a glance. If the GPS requires complex button-pushing, wait until you're in stable cruise flight.",
     "exam_tip": "Brief glances at GPS, long looks outside. Same as instrument scanning. Avoid getting 'head down.' Set up the display for at-a-glance reading.",
     "key_facts": [
       "Brief glances at GPS, long looks outside",

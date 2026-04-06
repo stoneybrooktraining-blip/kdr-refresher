@@ -445,23 +445,6 @@
     "code": "2.10.2(d)",
     "topic": "2.10  -  Practices and Rules",
     "syllabus_desc": "Demonstrate proficiency in transmitting and receiving spoken messages competently and in accordance with prescribed procedures, including: Procedure words and phrases",
-    "concept": "Aviation always uses UTC - Zulu time - for all communications and flight planning. No exceptions. Your altimeter, your flight plan, your radio calls, everything's in UTC. When ATC gives you time, it's UTC. When you report time to ATC, it's UTC. You'll often see it written as just numbers: 1430Z means 14 hours 30 minutes Zulu, which is 2:30 PM. On the radio, you might say 'at two seven five zero Zulu' for 2750Z. Time's given as four digits: hours and minutes only, no seconds. So 0930 Zulu is 09 hours 30 minutes. In NZ, we're UTC+12 in winter, UTC+13 in summer, so there's an offset between our wall clock and Zulu. Your watch shows NZ time, but you translate to UTC for all aviation purposes. If it's 1000 NZST (winter), that's 2200 UTC the previous day. This trips people up, so practice converting. When ATC says 'see you at zero six zero zero Zulu', you need to know whether that's tomorrow or today based on your local time. It's a critical skill, not just for exams but for flight planning and safety.",
-    "exam_tip": "Aviation time = UTC (Zulu); 4 digits (HHMM); convert local NZ time to UTC.",
-    "key_facts": [
-      "Aviation communications: UTC (Zulu) only; no local time references",
-      "Time format: 4 digits (hours + minutes), e.g., 1430 Zulu = 14 hours 30 minutes",
-      "NZ offsets: UTC+12 (NZST, winter), UTC+13 (NZDT, summer)",
-      "Flight planning: all reports, ETAs, and times in UTC for clarity across time zones",
-      "Conversion practice: know local-to-UTC offset for accurate timing in flight operations"
-    ],
-    "source": "AC 91-9/AC172-1 Rev 16, CAA GAP Plane Talking",
-    "confidence": "high",
-    "verified": false
-  },
-  {
-    "code": "2.10.2(e)",
-    "topic": "2.10  -  Practices and Rules",
-    "syllabus_desc": "Demonstrate proficiency in transmitting and receiving spoken messages competently and in accordance with prescribed procedures, including: Time system",
     "concept": "Aviation has standardized phraseology for a reason: everyone knows what everyone else means. 'Affirm' means yes, 'negative' means no. Don't use 'yeah' or 'no' - it's unprofessional and on a bad radio, 'yeah' can sound like a negative. 'Roger' means 'I have received and understood your last transmission'; it doesn't mean 'yes' or 'I agree'. 'Wilco' means 'I will comply'. 'Say again' means repeat what you said; 'say again all after' means repeat from a particular point. 'Standby' means wait, I'm busy. 'Unable' means you can't do what was requested. 'Request' is how you ask for something. 'Cleared' is ATC giving you permission. There are dozens of these standard phrases in the AC 91-9 manual. Learn them. They're not fancy - they're designed for clarity and brevity. If you use them consistently, controllers trust that you understand procedures and can follow instructions safely. If you're making up your own words, it raises questions about your training and competence. So spend time learning the standard phraseology. It's not hard - it's actually easier than trying to sound natural because the patterns repeat constantly.",
     "exam_tip": "Memorize standard phraseology: 'affirm', 'negative', 'roger', 'wilco', 'standby', 'request', 'cleared'.",
     "key_facts": [
@@ -476,17 +459,34 @@
     "verified": false
   },
   {
+    "code": "2.10.2(e)",
+    "topic": "2.10  -  Practices and Rules",
+    "syllabus_desc": "Demonstrate proficiency in transmitting and receiving spoken messages competently and in accordance with prescribed procedures, including: Time system",
+    "concept": "Aviation always uses UTC - Zulu time - for all communications and flight planning. No exceptions. Your altimeter, your flight plan, your radio calls, everything's in UTC. When ATC gives you time, it's UTC. When you report time to ATC, it's UTC. You'll often see it written as just numbers: 1430Z means 14 hours 30 minutes Zulu, which is 2:30 PM. On the radio, you might say 'at two seven five zero Zulu' for 2750Z. Time's given as four digits: hours and minutes only, no seconds. So 0930 Zulu is 09 hours 30 minutes. In NZ, we're UTC+12 in winter, UTC+13 in summer, so there's an offset between our wall clock and Zulu. Your watch shows NZ time, but you translate to UTC for all aviation purposes. If it's 1000 NZST (winter), that's 2200 UTC the previous day. This trips people up, so practice converting. When ATC says 'see you at zero six zero zero Zulu', you need to know whether that's tomorrow or today based on your local time. It's a critical skill, not just for exams but for flight planning and safety.",
+    "exam_tip": "Aviation time = UTC (Zulu); 4 digits (HHMM); convert local NZ time to UTC.",
+    "key_facts": [
+      "Aviation communications: UTC (Zulu) only; no local time references",
+      "Time format: 4 digits (hours + minutes), e.g., 1430 Zulu = 14 hours 30 minutes",
+      "NZ offsets: UTC+12 (NZST, winter), UTC+13 (NZDT, summer)",
+      "Flight planning: all reports, ETAs, and times in UTC for clarity across time zones",
+      "Conversion practice: know local-to-UTC offset for accurate timing in flight operations"
+    ],
+    "source": "AC 91-9/AC172-1 Rev 16, CAA GAP Plane Talking",
+    "confidence": "high",
+    "verified": false
+  },
+  {
     "code": "2.10.2(f)",
     "topic": "2.10  -  Practices and Rules",
     "syllabus_desc": "Demonstrate proficiency in transmitting and receiving spoken messages competently and in accordance with prescribed procedures, including: Establishment of communications",
-    "concept": "Your aircraft's callsign is its registration mark with the ICAO phonetic alphabet. ZK-ABC is 'Zulu Kilo Alpha Bravo Charlie'. That's your full callsign. You use it for initial contact with any frequency. Once you've established contact and ATC knows who you are, you can abbreviate. ATC might say 'Zulu Kilo Alpha Bravo Charlie, abbreviated callsign Zulu Kilo Bravo Charlie' or just 'abbreviated to Alpha Bravo Charlie'. From then on, you use that short form. 'Alpha Bravo Charlie, descend to 3000 feet'. Makes sense - saves time. But if you lose contact for any reason or change frequencies, you go back to your full callsign for the initial contact. Your callsign's on your certificate, on your registration documentation, on the aircraft itself. You need to know it cold. If you're flying a Cessna 172 with registration ZK-DEF, every radio call starts with that. And when you spell it, you use the phonetic: Delta Echo Foxtrot. Don't abbreviate on initial contact, don't make up call signs, and don't use the aircraft type as a callsign unless you're told to. That might be okay for some operations, but not for PPL.",
-    "exam_tip": "Full callsign = registration (ZK-ABC = Zulu Kilo Alpha Bravo Charlie); abbreviate only after ATC establishes.",
+    "concept": "Establishing contact means getting someone's attention on the radio so they know you're there and listening. Your first transmission should be brief: 'Christchurch Information, Zulu Kilo Alpha Bravo Charlie, request QNH'. That tells them who you are, what frequency they're on (implicit by you calling them), and what you want. They'll respond with the information or ask you to standby. Once they've acknowledged you, you maintain contact by acknowledging their transmissions: 'Christchurch, Zulu Kilo Bravo Charlie' (the abbreviated callsign now). Continuation means keeping the frequency active between you and them. If they give you an instruction, you read it back so they know you understood. If there's a long silence, don't fill it with chatter - silence is fine. But if you need something, you make your request clear. If they say 'Standby', you wait and keep listening. If they say 'Frequency change to 119.5', you change and call them on the new frequency with your initial contact call again. The key: establish who you are, be clear about what you want, acknowledge everything important, and don't transmit unless you've got something to say. Continuation is mostly about disciplined listening and prompt compliance.",
+    "exam_tip": "Initial contact: ID + station + request; continuation: acknowledge, readback critical info, maintain listening watch.",
     "key_facts": [
-      "Full callsign: aircraft registration spelled in ICAO phonetic (ZK-ABC = Zulu Kilo Alpha Bravo Charlie)",
-      "Initial contact: always use full callsign on new frequency or after loss of contact",
-      "Abbreviated callsign: used only after ATC establishes and authorizes abbreviation",
-      "Abbreviation examples: 'Alpha Bravo Charlie' or 'Zulu Kilo Bravo Charlie' per ATC instruction",
-      "Aircraft type not used as callsign for PPL; use registration only"
+      "Initial contact: '[Station], [Full Callsign], [Request]' e.g., 'Christchurch Information, Zulu Kilo Alpha Bravo Charlie, request QNH'",
+      "Acknowledgment: brief response confirming receipt (e.g., 'Zulu Kilo Bravo Charlie')",
+      "Readback: repeat back critical information (frequencies, codes, instructions) to confirm understanding",
+      "Frequency change: on new frequency, reestablish with full callsign",
+      "Listening watch: maintain frequency awareness; don't transmit unless necessary"
     ],
     "source": "AC 91-9/AC172-1 Rev 16, CAA GAP Plane Talking",
     "confidence": "high",
@@ -496,14 +496,14 @@
     "code": "2.10.2(g)",
     "topic": "2.10  -  Practices and Rules",
     "syllabus_desc": "Demonstrate proficiency in transmitting and receiving spoken messages competently and in accordance with prescribed procedures, including: Frequencies to be used",
-    "concept": "Establishing contact means getting someone's attention on the radio so they know you're there and listening. Your first transmission should be brief: 'Christchurch Information, Zulu Kilo Alpha Bravo Charlie, request QNH'. That tells them who you are, what frequency they're on (implicit by you calling them), and what you want. They'll respond with the information or ask you to standby. Once they've acknowledged you, you maintain contact by acknowledging their transmissions: 'Christchurch, Zulu Kilo Bravo Charlie' (the abbreviated callsign now). Continuation means keeping the frequency active between you and them. If they give you an instruction, you read it back so they know you understood. If there's a long silence, don't fill it with chatter - silence is fine. But if you need something, you make your request clear. If they say 'Standby', you wait and keep listening. If they say 'Frequency change to 119.5', you change and call them on the new frequency with your initial contact call again. The key: establish who you are, be clear about what you want, acknowledge everything important, and don't transmit unless you've got something to say. Continuation is mostly about disciplined listening and prompt compliance.",
-    "exam_tip": "Initial contact: ID + station + request; continuation: acknowledge, readback critical info, maintain listening watch.",
+    "concept": "Selecting the correct frequency before transmitting is essential. All aviation frequencies in NZ are published in AIPNZ Volume 4 (Radio Navigation Aids and Aerodromes) and shown on VNC and ERC charts. Frequency types to know: ATIS — the automatic terminal information service frequency gives you the latest weather, runway in use, and NOTAM information before calling ATC. Ground — used for taxi instructions at controlled aerodromes. Tower (Aerodrome Control) — used for takeoff and landing clearances. Approach/Departure — used in controlled airspace during climb and descent. At uncontrolled aerodromes, the published CTAF (Common Traffic Advisory Frequency) or MBZ (Mandatory Broadcast Zone) frequency is used for position broadcasts and traffic information. Always confirm frequencies from a current AIPNZ or En Route Chart — they are reviewed regularly and can change. NOTAMs may advise temporary frequency changes.",
+    "exam_tip": "Frequency sequence at controlled aerodrome: ATIS first, then Ground, Tower, Approach/Departure. At uncontrolled: CTAF or MBZ frequency. Frequencies published in AIPNZ Vol 4, VNC and ERC charts. Check NOTAMs for temporary changes.",
     "key_facts": [
-      "Initial contact: '[Station], [Full Callsign], [Request]' e.g., 'Christchurch Information, Zulu Kilo Alpha Bravo Charlie, request QNH'",
-      "Acknowledgment: brief response confirming receipt (e.g., 'Zulu Kilo Bravo Charlie')",
-      "Readback: repeat back critical information (frequencies, codes, instructions) to confirm understanding",
-      "Frequency change: on new frequency, reestablish with full callsign",
-      "Listening watch: maintain frequency awareness; don't transmit unless necessary"
+      "ATIS frequency: automatic weather and runway info — listen before calling ATC",
+      "Ground frequency: taxi instructions at controlled aerodromes",
+      "Tower (Aerodrome Control) frequency: takeoff and landing clearances",
+      "CTAF or MBZ frequency: used at uncontrolled aerodromes for position broadcasts",
+      "All frequencies published in AIPNZ Vol 4, VNC and ERC charts — check NOTAMs for changes"
     ],
     "source": "AC 91-9/AC172-1 Rev 16, CAA GAP Plane Talking",
     "confidence": "high",
@@ -530,14 +530,14 @@
     "code": "2.10.2(i)",
     "topic": "2.10  -  Practices and Rules",
     "syllabus_desc": "Demonstrate proficiency in transmitting and receiving spoken messages competently and in accordance with prescribed procedures, including: Radiotelephony aircraft callsigns",
-    "concept": "Communication discipline means knowing when to talk and when not to. It's about respect for the frequency and for the people trying to work. Don't transmit unless you've got something important to say. Don't fill silence with chatter. Don't interrupt another aircraft's transmission. If you hear someone else on frequency, wait until they're done before you key the mike. If the frequency's busy, you listen first and wait for a pause. 'Communication discipline' includes not getting emotional on the radio. If something goes wrong or ATC doesn't give you what you wanted, you remain professional. You don't argue, you don't get frustrated. You can disagree - 'request different routing due to turbulence' is fine - but you do it calmly. If you make a mistake, acknowledge it, correct it, and move on. That's professional. Discipline also means not using the radio for socializing once you've moved to a different frequency. Once-off transmissions are fine - 'Zulu Kilo Bravo Charlie is a Cessna 172' - but lengthy conversations belong on the ground or on the phone. Keep transmissions brief, concise, and purposeful. This is what separates pilots who sound experienced from those who don't.",
-    "exam_tip": "Transmit only when necessary; wait for pauses; remain calm and professional; brief, concise calls.",
+    "concept": "Your aircraft's callsign is its registration mark with the ICAO phonetic alphabet. ZK-ABC is 'Zulu Kilo Alpha Bravo Charlie'. That's your full callsign. You use it for initial contact with any frequency. Once you've established contact and ATC knows who you are, you can abbreviate. ATC might say 'Zulu Kilo Alpha Bravo Charlie, abbreviated callsign Zulu Kilo Bravo Charlie' or just 'abbreviated to Alpha Bravo Charlie'. From then on, you use that short form. 'Alpha Bravo Charlie, descend to 3000 feet'. Makes sense - saves time. But if you lose contact for any reason or change frequencies, you go back to your full callsign for the initial contact. Your callsign's on your certificate, on your registration documentation, on the aircraft itself. You need to know it cold. If you're flying a Cessna 172 with registration ZK-DEF, every radio call starts with that. And when you spell it, you use the phonetic: Delta Echo Foxtrot. Don't abbreviate on initial contact, don't make up call signs, and don't use the aircraft type as a callsign unless you're told to. That might be okay for some operations, but not for PPL.",
+    "exam_tip": "Full callsign = registration (ZK-ABC = Zulu Kilo Alpha Bravo Charlie); abbreviate only after ATC establishes.",
     "key_facts": [
-      "Listen first: hear frequency status before transmitting; don't interrupt others",
-      "Silence is acceptable: don't fill with unnecessary chatter or acknowledgments",
-      "Brief transmissions: concise, purposeful messages; remove filler words",
-      "Professional demeanor: remain calm even if frustrated; no arguments or emotion on radio",
-      "One purpose per call: avoid lengthy conversations; separate requests as needed"
+      "Full callsign: aircraft registration spelled in ICAO phonetic (ZK-ABC = Zulu Kilo Alpha Bravo Charlie)",
+      "Initial contact: always use full callsign on new frequency or after loss of contact",
+      "Abbreviated callsign: used only after ATC establishes and authorizes abbreviation",
+      "Abbreviation examples: 'Alpha Bravo Charlie' or 'Zulu Kilo Bravo Charlie' per ATC instruction",
+      "Aircraft type not used as callsign for PPL; use registration only"
     ],
     "source": "AC 91-9/AC172-1 Rev 16, CAA GAP Plane Talking",
     "confidence": "high",
@@ -547,14 +547,14 @@
     "code": "2.10.2(j)",
     "topic": "2.10  -  Practices and Rules",
     "syllabus_desc": "Demonstrate proficiency in transmitting and receiving spoken messages competently and in accordance with prescribed procedures, including: Procedures for exchange of messages",
-    "concept": "Microphone technique is about producing clear, understandable audio. You've already learned about positioning the boom mic 2-3 cm from your mouth. That's the hardware side. On the transmission side, speak naturally and clearly. Don't shout - the transmitter will distort and you'll sound worse. Speak at a normal volume and moderate pace. Emphasize consonants, especially on HF where the signal's degraded. 'Christchurch' should come through as clearly as 'Charlie Bravo'. Some people slow down slightly on HF, and that's fine - it gives the signal time to carry. But don't slow down so much that it sounds unnatural. Enunciate each word. If you've got a heavy accent or English is your second language, that's okay - just speak clearly and slowly enough that people can understand. On a bad radio, people can forgive accents but they can't forgive mumbling. Pause between phrases if you're giving complex information. 'Request vectors to Ardmore. Current altitude 2000 feet.' Not 'requestvectortoArdmorecurrentaltitude2000feet'. Let people's brains catch up. And remember: when you press the PTT, there's a quarter-second delay before the transmitter powers up. So pause briefly before speaking. That first word gets cut off if you don't.",
-    "exam_tip": "Speak clearly at normal pace; emphasize consonants; pause before speaking after PTT press.",
+    "concept": "Procedures for exchange of messages govern how pilots and controllers pass information to each other accurately and efficiently. Readback is the most critical procedure: when ATC issues a control instruction, the pilot reads it back verbatim to confirm receipt and understanding. Critical items requiring mandatory readback include: runway in use, ATC route clearances, approach clearances, level instructions, heading and speed instructions, transition levels, QNH, SSR codes, taxi instructions involving a runway, and VHF frequencies. ATC checks the readback and issues a correction if it is wrong. For position reports, use a standard format: aircraft callsign, position, time, altitude, next waypoint with ETA. When passing or receiving long messages, the sender waits for acknowledgement before continuing. If any transmission is unclear, immediately request repetition: 'Say again [the specific item]'. Never assume — if you are not sure you heard correctly, ask. Clear message exchange procedures prevent miscommunication, which is a leading factor in airspace incidents.",
+    "exam_tip": "Mandatory readback items include: runway, ATC clearances, level, heading, speed, QNH, SSR code, taxi routing involving a runway. Read back verbatim. If unclear: 'Say again [item]'. Position report format: callsign, position, time, altitude, next fix, ETA.",
     "key_facts": [
-      "Speak at natural, moderate pace; don't shout (causes distortion)",
-      "Emphasize consonants (especially on HF); clear enunciation is critical",
-      "Pause briefly after pressing PTT (~0.25s) before speaking; prevents first-word cutoff",
-      "Natural rhythm: pause between phrases to allow listener comprehension",
-      "Accent acceptable; clarity and enunciation are more important than perfect pronunciation"
+      "Readback: repeat ATC control instructions verbatim to confirm receipt",
+      "Mandatory readback items: runway, clearances, level, heading, speed, QNH, SSR code",
+      "ATC must verify readback and correct any errors",
+      "Position report format: callsign, position, time, altitude, next waypoint, ETA",
+      "If transmission unclear: 'Say again [specific item]' — never assume"
     ],
     "source": "AC 91-9/AC172-1 Rev 16, CAA GAP Plane Talking",
     "confidence": "high",
@@ -598,14 +598,14 @@
     "code": "2.10.2(m)",
     "topic": "2.10  -  Practices and Rules",
     "syllabus_desc": "Demonstrate proficiency in transmitting and receiving spoken messages competently and in accordance with prescribed procedures, including: Readability scale",
-    "concept": "Test transmissions are how you check that your radio's working. You don't just turn it on and assume it'll work. A dead radio during flight's a real emergency. Before you start flying, when you're on the ground, you'll do a radio test. You might transmit on the aerodrome's frequency or a designated test frequency and say something like 'Ardmore, Zulu Kilo Bravo Charlie, radio check'. Someone will respond with your signal strength. Standard response is 'Zulu Kilo Bravo Charlie, you are strength five', meaning you're coming through loud and clear. If you get 'strength three', your transmission's weak but readable. If there's no response, something's wrong - check your headset connection, your frequency, your volume, your PTT. Most aerodromes have dedicated ground frequencies for radio checks. In remote areas with no tower, you might do a brief transmission on the CTAF frequency and hope someone's listening. The key is: test the radio before flight, not during. If it's dead on the ground, you can sort it out. If it's dead in the air, you're in trouble. During the check, you're looking for both directions of communication - you transmit and receive a response. That confirms both Tx and Rx are working.",
-    "exam_tip": "Radio check before flight on ground frequency; request signal report; verify Tx and Rx working.",
+    "concept": "The readability scale is a standardised five-point scale used in aviation radiotelephony to report how clearly a transmission is being received. The scale runs from 1 to 5: 1 = Unreadable — the transmission cannot be understood; 2 = Readable with difficulty — significant interference, can be partially understood; 3 = Readable — understandable despite noise or interference; 4 = Readable but with slight interference — mostly clear; 5 = Perfectly readable — loud and clear, no interference. To conduct a radio check before flight, transmit: '[Station], [Callsign], radio check.' A response of 'strength 5' means you are coming through perfectly. A response of 'strength 3' means your signal is marginal. Radio checks confirm both transmit and receive are functioning. Always check the radio is working on the ground before departure — a dead radio in flight is a serious emergency. If you get a poor signal report, check headset connection, squelch, volume, and aerial before flight.",
+    "exam_tip": "Readability scale 1 to 5: 1=Unreadable, 2=Readable with difficulty, 3=Readable, 4=Readable with slight interference, 5=Perfectly readable. Request radio check before flight: '[Station], [Callsign], radio check.' Confirms both Tx and Rx are working.",
     "key_facts": [
-      "Test transmission: '[Aerodrome], [Callsign], radio check' before flight",
-      "Signal strength response: strength 1 (unreadable) through strength 5 (loud and clear)",
-      "Verify both transmit and receive: test confirms two-way communication functioning",
-      "Troubleshoot on ground: volume, squelch, frequency, headset connections, spare radio",
-      "Confidence in radio operation: critical safety item; never fly with untested radio"
+      "Readability scale: 1 (unreadable) to 5 (perfectly readable)",
+      "1=Unreadable, 2=Readable with difficulty, 3=Readable, 4=Readable slight interference, 5=Perfectly readable",
+      "Radio check format: '[Station], [Callsign], radio check'",
+      "Radio check confirms both transmit (Tx) and receive (Rx) are functioning",
+      "Poor signal report: check headset connection, squelch, volume, aerial before flight"
     ],
     "source": "AC 91-9/AC172-1 Rev 16, CAA GAP Plane Talking",
     "confidence": "high",
