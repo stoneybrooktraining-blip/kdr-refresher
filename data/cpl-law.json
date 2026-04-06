@@ -4650,13 +4650,14 @@
     "code": "16.62.4",
     "topic": "16.62 -- Clearances",
     "syllabus_desc": "State the requirements for coordinating with an aerodrome flight information service. CAR 91",
-    "concept": "Controlled airspace exists to manage traffic density and safety. Before you enter a CTR (control zone) or CTA (control area), you must have an explicit clearance from ATC. You can't just wander in because you're VFR or because you think it's safe. The controller needs to know you're coming and where you're heading. Your clearance defines your path and altitude within that airspace. In New Zealand, Auckland's CTR and CTA are busy, and you'll get a specific routing. The clearance is the key to safe operations in this airspace--it's the controller's way of managing separation and flow.",
-    "exam_tip": "No controlled airspace entry without ATC clearance, regardless of weather or aircraft type.",
+    "concept": "When you're operating at an aerodrome with an AFIS (Aerodrome Flight Information Service) rather than ATC, the coordination requirements are different from controlled airspace. An AFIS operator provides traffic information and aerodrome information, but they don't issue clearances or control your movements -- you're still responsible for your own separation. Under CAR 91, you're required to make radio calls to the AFIS operator and coordinate your intentions before entering the circuit, taxiing, or operating on the manoeuvring area. You need to listen to the AFIS frequency and pass your position and intentions so other traffic can hear you and the AFIS operator can pass relevant traffic information. The key difference from ATC is that the AFIS operator advises rather than instructs. You don't get a clearance to land or take off -- you get information about the traffic situation and you make your own decisions. Many New Zealand aerodromes operate AFIS rather than full ATC, so you'll encounter this regularly.",
+    "exam_tip": "AFIS provides information, not clearances. You must coordinate with AFIS before entering the circuit or manoeuvring area. You're responsible for your own separation -- the AFIS operator advises, not instructs.",
     "key_facts": [
-      "Clearance mandatory before CTR/CTA entry",
-      "Controller specifies route and altitude",
-      "VFR clearance differs from IFR requirements",
-      "Read back must be accurate and complete"
+      "AFIS provides traffic and aerodrome information, not control clearances",
+      "Pilots must coordinate intentions with AFIS before circuit entry or taxiing",
+      "Pilot is responsible for own separation at AFIS aerodromes",
+      "Required to monitor AFIS frequency and make position/intention calls",
+      "Many NZ aerodromes operate AFIS rather than full ATC"
     ],
     "source": "NZ CAA AC 61-5, CAR Part 91, AIP ENR",
     "confidence": "high",
@@ -5347,13 +5348,14 @@
     "code": "16.78.2",
     "topic": "16.78 -- Aerodromes Lighting",
     "syllabus_desc": "Describe the lighting intensity classifications.",
-    "concept": "Visual approach slope indicators help you maintain the correct descent angle on final approach. PAPIs (Precision Approach Path Indicators) use four lights that show white if you're on the correct glideslope, red if you're low, or a mix if you're slightly off. VASIS (Visual Approach Slope Indicator System) uses a similar principle with more lights arranged in bars. T-VASIS is a simplified two-bar version used at smaller aerodromes. All three work on the same principle: looking at the colour pattern tells you your vertical position relative to the ideal descent path. Major NZ aerodromes like Auckland and Christchurch use PAPIs or VASIS; smaller fields like Hamilton might have T-VASIS or none at all. Learning to interpret these indicators quickly prevents approaches that are too steep or too shallow. They're significant safety tools, particularly in marginal visibility.",
-    "exam_tip": "White over white = on slope. Know PAPI, VASIS, T-VASIS patterns. They're your descent guide.",
+    "concept": "Aerodrome lighting is classified by intensity to suit different operational conditions -- primarily visibility range and the type of operations (visual or instrument approaches). The three main classifications are high intensity (HI), medium intensity (MI), and low intensity (LI). High-intensity lighting is used at major aerodromes that support instrument approaches and operations in poor visibility -- places like Auckland and Christchurch. The lights are bright enough to be visible at long range and in low-visibility conditions. Medium-intensity lighting suits aerodromes with moderate traffic or where instrument approaches are available but conditions are generally better. Low-intensity lighting is for smaller aerodromes that primarily support VFR operations in reasonable visibility. The classification applies to approach lighting, runway edge lighting, and taxiway lighting. Each classification has specific candela output standards defined in the ICAO Annex 14 standards, which NZ aerodromes follow. The intensity classification of the lighting at an aerodrome is published in AIPNZ Vol 4 so you can check it during flight planning.",
+    "exam_tip": "Three classifications: high intensity (HI), medium intensity (MI), low intensity (LI). HI for instrument aerodromes in poor vis, LI for VFR-only fields. Check AIPNZ Vol 4 for each aerodrome's lighting classification.",
     "key_facts": [
-      "PAPIs use four lights, white = on slope",
-      "VASIS uses multiple lights in bars",
-      "T-VASIS simplified two-bar system",
-      "Help maintain safe descent angle on final"
+      "Lighting intensity classifications: high (HI), medium (MI), and low (LI)",
+      "HI lighting for major instrument aerodromes and low-visibility operations",
+      "MI lighting for moderate-traffic aerodromes with instrument approaches",
+      "LI lighting for smaller VFR aerodromes in reasonable visibility",
+      "Intensity standards follow ICAO Annex 14; published in AIPNZ Vol 4"
     ],
     "source": "NZ CAA AC 61-5, AIP AD",
     "confidence": "high",
