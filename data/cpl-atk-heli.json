@@ -2173,7 +2173,7 @@
   {
     "code": "28.20.4",
     "topic": "28.20 — Exhaust Systems",
-    "syllabus_desc": "Explain the importance of proper sealing of the exhaust manifold. Advisory Circular AC61-5 Revision 38 Sub Topic Syllabus Item",
+    "syllabus_desc": "Explain the importance of proper sealing of the exhaust manifold.",
     "concept": "A leaking exhaust manifold is far more dangerous than it might initially seem. The most serious hazard is carbon monoxide. Exhaust gases contain significant quantities of CO—a toxic, invisible, odourless gas that binds to haemoglobin in your blood far more readily than oxygen does. If exhaust leaks into the cabin or into air that feeds the cabin heating system, you're breathing poisoned air. CO accumulates in your bloodstream, and at altitude where your body's already oxygen-deprived, it's particularly dangerous. Pilots have been incapacitated or killed by undetected CO leaks. Any suspicion of a leak needs immediate investigation. Beyond the CO hazard, a leaking manifold reduces scavenging efficiency. Exhaust gases should exit smoothly and completely through the designed route. When manifold cracks or seams leak, some of the pressure required for proper scavenging escapes, and remaining combustion gases don't evacuate efficiently from the cylinders. This reduces engine performance. A leaky manifold can also cause localised overheating and fire risk. High-temperature exhaust gases escape at the leak point, heating nearby components like engine baffles, fuel lines, or electrical wiring. A fuel line or hydraulic line heated by escaping exhaust can fail, causing fuel leaks or hydraulic fluid loss near hot surfaces—classic fire setup. Regular inspection for cracks, discolouration, and corrosion around manifold seams is critical. Any visible crack means the manifold needs replacement.",
     "exam_tip": "Exhaust manifold leaks allow CO into cabin (lethal), reduce scavenging efficiency, cause localised overheating and fire risk.",
     "key_facts": [
@@ -2185,7 +2185,7 @@
       "Localised overheating at leak points creates fire hazard",
       "Nearby fuel lines, hydraulic lines, wiring can overheat and fail"
     ],
-    "source": "Wagtendonk, Robinson R22 Manual",
+    "source": "AC 61-5 Rev 38",
     "confidence": "medium",
     "verified": false,
     "created": "2026-03-29T00:00:00Z"
@@ -2591,11 +2591,11 @@
   {
     "code": "28.26.6",
     "topic": "28.26 — Starter Systems",
-    "syllabus_desc": "Explain the correct operation of a typical starter switch. Advisory Circular AC61-5 Revision 38 Sub Topic Syllabus Item",
+    "syllabus_desc": "Explain the correct operation of a typical starter switch.",
     "concept": "Your starter switch is spring-loaded to the off position—you have to actively hold it (or turn it past a detent). When you engage it, the switch energises the starter solenoid, which closes a heavy-duty contactor connecting battery power directly to the starter motor. The starter motor cranks the engine, and once the engine fires and reaches self-sustaining RPM, you release the switch. It springs back, the solenoid de-energises, and the starter disengages. The spring-return design is a safety feature—if you let go, it stops. You don't want the starter engaged once the engine's running; it would overheat the starter motor or damage the engagement mechanism. On many helicopter starters (like the R22), the start sequence involves holding the starter while monitoring RPM and engine instruments. Once the engine lights off and stabilises, you release. Some systems have a time limit—typically 10 to 30 seconds of cranking—to prevent overheating the starter motor. If it doesn't start, you wait a cooling period before trying again. Check your flight manual for specific limits.",
     "exam_tip": "Spring-loaded to off = safety feature. Starter disengages when released. Know the cranking time limits and cooling periods for your type. Starter solenoid is an electromagnetic switch controlling heavy starter current.",
     "key_facts": "Starter switch: spring-loaded to off position. Energises starter solenoid when engaged. Solenoid closes heavy-duty contactor to battery. Release switch = starter disengages. Cranking time limits (typically 10-30 seconds). Cooling period required between attempts. Must monitor RPM and instruments during start. Spring-return prevents accidental engagement after engine start.",
-    "source": "NZ CAA AC 61-5, Bob Tait CPL Gen Knowledge",
+    "source": "AC 61-5 Rev 38",
     "confidence": "medium",
     "verified": false,
     "created": "2026-03-29T00:00:00Z"
@@ -3048,7 +3048,7 @@
   {
     "code": "28.30.6",
     "topic": "28.30 — Electrical Systems",
-    "syllabus_desc": "Given appropriate data, determine the duration of battery operation following a generator failure. Advisory Circular AC61-5 Revision 38 Sub Topic Syllabus Item",
+    "syllabus_desc": "Given appropriate data, determine the duration of battery operation following a generator failure.",
     "concept": "If your alternator fails mid-flight, you're running on battery power alone—and that battery's capacity is finite. You've got your battery amp-hour rating (typically 25-35 Ah on a light twin) and the aircraft's electrical load in amps. Simple division: capacity divided by load equals remaining time. So if you've got a 30 Ah battery and your electrical load is pulling 40 amps (lights, radio, instruments), you've got roughly 45 minutes before that battery's flat. But here's the reality: you'll start dropping non-essential loads, shed the landing light, maybe dim the panel—so you can stretch it. The exam will give you specific numbers, so the maths is straightforward, but the practical lesson is urgent: get the aircraft on the ground at the nearest suitable airfield.",
     "exam_tip": "Use the formula: time (hours) = battery capacity (Ah) ÷ electrical load (amps). In the real world, you'll reduce non-essential loads immediately after an alternator failure and declare an emergency with ATC.",
     "key_facts": [
@@ -3058,7 +3058,7 @@
       "Cockpit load in normal flight: 20–50 amps depending on configuration",
       "Reduce non-essential loads immediately (landing lights, autopilot, non-essential avionics)"
     ],
-    "source": "Wagtendonk Principles of Helicopter Flight",
+    "source": "AC 61-5 Rev 38",
     "confidence": "medium",
     "verified": false,
     "created": "2026-03-29T00:00:00Z"
@@ -3386,7 +3386,7 @@
   {
     "code": "28.30.22",
     "topic": "28.30 — Electrical Systems",
-    "syllabus_desc": "Explain the issues related specifically to ‘technically enhanced aircraft’ (TEA) during the handling of electrical malfunctions. Advisory Circular AC61-5 Revision 38 Sub Topic Syllabus Item",
+    "syllabus_desc": "Explain the issues related specifically to ‘technically enhanced aircraft’ (TEA) during the handling of electrical malfunctions.",
     "concept": "Technically Enhanced Aircraft (TEA) present unique electrical system challenges. TEA aircraft feature glass cockpits, integrated avionics suites, and advanced autopilot systems that increase electrical demand and complexity. During electrical failures, TEA aircraft may lose primary flight displays, navigation capability, and automated systems simultaneously. Pilots must understand degraded mode operations, know which instruments remain available on backup power, and be able to revert to basic 'steam gauge' flying if needed. Battery endurance in TEA is critical because more systems depend on electrical power than in conventional aircraft.",
     "exam_tip": "TEA = glass cockpit aircraft with high electrical dependency. Know what you lose in an electrical failure and how to manage degraded modes. Backup battery duration is critical.",
     "key_facts": [
@@ -3396,7 +3396,7 @@
       "Must know degraded mode operations",
       "Battery endurance more critical in TEA"
     ],
-    "source": "NZ CAA AC 61-5 Rev 38, Principles of Helicopter Flight (Wagtendonk)",
+    "source": "AC 61-5 Rev 38",
     "confidence": "medium",
     "verified": false,
     "created": "2026-03-29T00:00:00Z"
@@ -3817,7 +3817,7 @@
   {
     "code": "28.36.2",
     "topic": "28.36 — Lubrication Systems",
-    "syllabus_desc": "Explain the main functions of an engine oil system. Advisory Circular AC61-5 Revision 38 Sub Topic Syllabus Item",
+    "syllabus_desc": "Explain the main functions of an engine oil system.",
     "concept": "Engine oil is absolutely vital to engine operation—it's far more than just a lubricant. An oil system serves five interconnected functions, and failure of any one can destroy an engine rapidly. Lubrication is the obvious one: oil creates a slippery film between moving parts—pistons sliding in cylinders, crankshaft spinning in bearings, camshaft lobes sliding against tappets. Without this film, metal-to-metal friction would generate heat so intense that the engine would seize within seconds. Cooling is the second function. Engine oil absorbs heat from the engine's hot spots and carries it away to the oil cooler (or in simpler systems, to the air flowing around the engine). Combustion temperatures exceed 2000°C in the cylinders; oil carries away excess heat so components don't overheat. Cleaning is the third function. As the engine runs, combustion byproducts and wear particles accumulate. The oil carries these contaminants—suspended as a slurry—back to the oil filter, where the filter removes them. Without this cleaning action, sludge and debris would accumulate and block passages. Sealing is the fourth function. Piston rings are the primary seal between the combustion chamber and the crankcase, but they're not perfect. Gas molecules leak past the rings, a process called blowby. The oil's viscosity helps seal these tiny gaps, preventing excessive blowby and keeping pressure in the combustion chamber where it belongs. Corrosion protection is the fifth function. Oil contains additives—detergents, dispersants, anti-wear compounds, and corrosion inhibitors—that protect metal surfaces from oxidation and acid attack, especially during cold starts when moisture is present. All five functions must work together for engine health.",
     "exam_tip": "Oil lubricates, cools, cleans (removes wear particles), seals cylinders (reduces blowby), protects against corrosion.",
     "key_facts": [
@@ -3829,7 +3829,7 @@
       "Each function essential—failure of one can destroy engine",
       "Oil additives include detergents, dispersants, anti-wear, inhibitors"
     ],
-    "source": "Wagtendonk Principles of Helicopter Flight, FAA Helicopter Handbook",
+    "source": "AC 61-5 Rev 38",
     "confidence": "medium",
     "verified": false,
     "created": "2026-03-29T00:00:00Z"
@@ -4912,7 +4912,7 @@
   {
     "code": "28.52.6",
     "topic": "28.52 — Pressure Instruments",
-    "syllabus_desc": "Describe a typical pitot-static system. Advisory Circular AC61-5 Revision 38 Sub Topic Syllabus Item",
+    "syllabus_desc": "Describe a typical pitot-static system.",
     "concept": "A typical system has a pitot tube (a small intake facing directly into the airflow), a static vent (or vents) usually on the fuselage side where the airflow runs parallel and static pressure predominates), and connecting tubing from both to the flight deck instruments. The pitot tube is exposed on the nose or wing leading edge and has a small heater (pitot heat) to prevent ice accumulation. The static vent is usually a pair of openings (left and right sides of the fuselage) to measure average static pressure and cancel out lateral pressure variations. Lines from the pitot run to the ASI and any digital airspeed system. Lines from the static vent branch to the altimeter, VSI, and any other pressure-referenced systems. The lines should be clear tubing so you can see for blockages (dust, insects, water, ice). Moisture can condense inside the lines and freeze, blocking them. That's why some systems include a drain valve at the lowest point to bleed condensation. The system is checked during pre-flight: you look at the pitot tube (make sure it's uncovered and clean), you check that the alternate static valve (if equipped) is in the correct position, and you verify instruments read sensibly (altimeter matches field elevation, VSI reads zero on the ground, ASI reads zero).",
     "exam_tip": "Pitot tube: nose or wing, faces into airflow. Static vent: fuselage side, parallel airflow. Lines connect to instruments. Pitot heat prevents ice. Check pre-flight: pitot clear, static vent uncovered, instruments reading correctly.",
     "key_facts": [
@@ -4925,7 +4925,7 @@
       "Drain valve: at lowest point, drains condensed moisture",
       "Alternate static system: cabin air or manual vent if main static blocked"
     ],
-    "source": "NZ CAA AC 61-5, Bob Tait CPL Gen Knowledge, ATC AGK",
+    "source": "AC 61-5 Rev 38",
     "confidence": "medium",
     "verified": false,
     "created": "2026-03-29T00:00:00Z"
@@ -5340,7 +5340,7 @@
   {
     "code": "28.54.2",
     "topic": "28.54 — Magnetic Instruments",
-    "syllabus_desc": "Describe the features of the earth’s magnetic field (flux). Advisory Circular AC61-5 Revision 38 Sub Topic Syllabus Item",
+    "syllabus_desc": "Describe the features of the earth’s magnetic field (flux).",
     "concept": "The Earth acts like a giant bar magnet with a magnetic field emanating from poles near the geographic poles. The magnetic field lines converge at the magnetic poles. The magnetic north pole is currently about 10 degrees west of geographic north (in the Northern Hemisphere; in the Southern Hemisphere, magnetic south is offset from geographic south). This offset is called magnetic variation, and it changes geographically and with time. The magnetic field strength is measured as flux and is stronger at the magnetic poles and weaker at the equator. In the Southern Hemisphere (where NZ is), the magnetic flux has a vertical component that angles downward toward the magnetic south pole. This is called the 'dip' or 'inclination'. At higher southern latitudes, the dip is steeper. The total magnetic flux can be split into two components: the horizontal component (H), which is what a compass needle responds to and points toward magnetic north, and the vertical component (Z), which pulls the compass needle down. The vertical component is stronger at higher latitudes, which is why compasses in New Zealand have a steeper dip than compasses near the equator. Understanding these components is important for understanding compass errors.",
     "exam_tip": "Earth's field: magnetic poles offset from geographic. Flux stronger at poles, weaker at equator. Vertical component (Z) steeper at higher latitudes. Horizontal component (H) points to magnetic north. NZ: southern latitude, steeper dip.",
     "key_facts": [
@@ -5353,7 +5353,7 @@
       "Southern Hemisphere: Z points downward toward magnetic south pole",
       "NZ latitude: significant dip angle (~55 degrees)"
     ],
-    "source": "NZ CAA AC 61-5, Bob Tait CPL Gen Knowledge",
+    "source": "AC 61-5 Rev 38",
     "confidence": "medium",
     "verified": false,
     "created": "2026-03-29T00:00:00Z"
@@ -5816,7 +5816,7 @@
   {
     "code": "28.56.22",
     "topic": "28.56 — Gyroscopic Instruments",
-    "syllabus_desc": "Explain the serviceability checks for the TI/TC. Advisory Circular AC61-5 Revision 38 Sub Topic Syllabus Item",
+    "syllabus_desc": "Explain the serviceability checks for the TI/TC.",
     "concept": "On the ground before flight, the turn indicator or turn co-ordinator needle should be centred (no turn). If it's deflected, the instrument might have a mechanical sticking problem or the gyro might be spinning slower than normal. The vacuum gauge should read 4–5.5 inHg; if lower, the gyro spins slower and the instrument is sluggish or unreliable. After starting the engine and allowing a minute or two for vacuum to build, the needle should still be centred (once vacuum is stabilised). The balance ball should also be centred. During flight, you monitor the instrument: when you turn, the needle should respond immediately and smoothly. A sluggish or delayed response suggests low vacuum or mechanical friction. After completing a turn and rolling level, the needle should return to centre promptly (within a second or two). If it's slow or sticks, suspect vacuum loss or mechanical binding. The ball should move smoothly and return to centre when you centre the rudder. An erratic or sticking ball indicates mechanical damage. If you notice the instrument consistently reads off (e.g., needle slightly deflected during level flight), it might be a mechanical problem with the needle bearing. Modern electronic turn co-ordinators (which use an electronic rate sensor instead of a mechanical gyro) should power up and display a level aircraft symbol with a centred needle. If not, suspect an electrical or sensor fault. Any serviceability issue (sluggish, sticking, erratic, won't centre) means the instrument is unserviceable and must be repaired before the next flight.",
     "exam_tip": "Pre-flight: needle centred, ball centred, vacuum 4–5.5 inHg. In-flight: needle responds promptly, ball centred in coordinated flight. Sluggish or sticking = unserviceable.",
     "key_facts": [
@@ -5829,7 +5829,7 @@
       "Sticking needle or ball: mechanical binding, unserviceable",
       "Electronic TC: checks electrical power, sensor function"
     ],
-    "source": "NZ CAA AC 61-5, Bob Tait CPL Gen Knowledge, ATC AGK",
+    "source": "AC 61-5 Rev 38",
     "confidence": "medium",
     "verified": false,
     "created": "2026-03-29T00:00:00Z"
@@ -6186,11 +6186,11 @@
   {
     "code": "28.60.2",
     "topic": "28.60 — TCAS Systems",
-    "syllabus_desc": "Describe the function and operation of a typical TCAS system. Advisory Circular AC61-5 Revision 38 Sub Topic Syllabus Item",
+    "syllabus_desc": "Describe the function and operation of a typical TCAS system.",
     "concept": "TCAS (Traffic Collision Avoidance System) is your last line of defence against mid-air collisions. It works independently of ATC—interrogating transponders on nearby aircraft to build a picture of who's around you and where they're going. TCAS I (found on smaller aircraft) gives you Traffic Advisories (TAs)—essentially 'heads up, traffic nearby' alerts with bearing and relative altitude. TCAS II (larger aircraft, airlines) adds Resolution Advisories (RAs)—actual 'climb' or 'descend' commands coordinated between the two aircraft so they don't both do the same thing. The system tracks closure rates and predicts if a collision is likely based on time, not distance. It interrogates Mode C and Mode S transponders, so it only sees aircraft with working transponders (not a glider with no transponder, for instance). In the helicopter world, TCAS is less common on training types but increasingly fitted to turbine helicopters doing IFR work. When you get an RA, you follow it—even if ATC says otherwise. The RA takes priority because TCAS can see things ATC might miss.",
     "exam_tip": "TCAS I = TAs only (traffic advisories). TCAS II = TAs + RAs (resolution advisories). RAs take priority over ATC instructions. Works by interrogating transponders—can't see non-transponder aircraft. Based on time to collision, not distance.",
     "key_facts": "TCAS: Traffic Collision Avoidance System. Independent of ATC. TCAS I: Traffic Advisories only. TCAS II: Traffic Advisories + Resolution Advisories. Interrogates Mode C and Mode S transponders. Cannot detect non-transponder aircraft. Based on time to collision (tau), not distance. RAs take priority over ATC instructions. TCAS II coordinates avoidance between aircraft.",
-    "source": "NZ CAA AC 61-5, Bob Tait CPL Gen Knowledge, ATC AGK",
+    "source": "AC 61-5 Rev 38",
     "confidence": "medium",
     "verified": false,
     "created": "2026-03-29T00:00:00Z"
@@ -6300,7 +6300,7 @@
   {
     "code": "28.64.8",
     "topic": "28.64 — EFIS Instrument Displays",
-    "syllabus_desc": "Describe the management of EFIS system failures. Section 2 Helicopter Technical Knowledge Helicopter Structure and Systems",
+    "syllabus_desc": "Describe the management of EFIS system failures.",
     "concept": "EFIS failure management follows a hierarchy. If one display fails, information can typically be transferred to the remaining display (reversionary mode). If the display processor fails, standby instruments (conventional 'steam gauges') provide backup—most EFIS-equipped aircraft retain at least a standby ASI, altimeter, and attitude indicator. Battery-powered standby instruments operate independently of the main electrical system. Pilots must know their aircraft's specific reversionary procedures, which displays can be combined, and what information is lost at each failure level. Regular practice switching to backup instruments is essential.",
     "exam_tip": "Know the failure hierarchy: single display failure → reversionary mode; processor failure → standby instruments. Standby instruments are usually battery-powered and independent.",
     "key_facts": [
@@ -6310,7 +6310,7 @@
       "Standby instruments often battery-powered",
       "Know aircraft-specific reversionary procedures"
     ],
-    "source": "NZ CAA AC 61-5 Rev 38, Principles of Helicopter Flight (Wagtendonk)",
+    "source": "AC 61-5 Rev 38",
     "confidence": "medium",
     "verified": false,
     "created": "2026-03-29T00:00:00Z"
@@ -6347,7 +6347,7 @@
   {
     "code": "28.66.6(a)",
     "topic": "28.66 — Cooling Systems - Engines",
-    "syllabus_desc": "In a typical aircraft engine, explain the function of: (a) cowling ducts and baffles",
+    "syllabus_desc": "For an air-cooled engine, explain the function of: cowling ducts and baffles.",
     "concept": "Cowling ducts and baffles direct cooling air over the cylinders in the correct pattern. The cowling captures ram air from the front and the baffles channel it around each cylinder head and barrel before exiting at the bottom. Without proper baffling, some cylinders overheat while others run too cool. Damaged or missing baffles are a common cause of engine overheating.",
     "exam_tip": "Baffles direct airflow over cylinders -- damaged baffles cause uneven cooling and overheating.",
     "key_facts": [
@@ -6355,7 +6355,7 @@
       "Air flows over top of cylinders and exits at the bottom/rear",
       "Damaged or missing baffles cause uneven cooling and hot spots"
     ],
-    "source": "Bob Tait CPL Gen Knowledge, ATC AGK",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-28T00:00:00Z"
@@ -6363,7 +6363,7 @@
   {
     "code": "28.66.6(b)",
     "topic": "28.66 — Cooling Systems - Engines",
-    "syllabus_desc": "In a typical aircraft engine, explain the function of: (b) cooling fins",
+    "syllabus_desc": "For an air-cooled engine, explain the function of: cooling fins.",
     "concept": "Cooling fins are raised metal surfaces cast into the cylinder barrel and head that increase the surface area exposed to cooling air. More surface area means more heat transfer. The cylinder head (hottest part) has the largest fins, especially around the exhaust port. Fins must be kept clean and undamaged for effective cooling.",
     "exam_tip": "Cooling fins increase surface area for heat transfer -- cylinder heads have the largest fins because they're hottest.",
     "key_facts": [
@@ -6371,7 +6371,7 @@
       "Largest fins on cylinder heads, especially near exhaust ports",
       "Broken or dirty fins reduce cooling effectiveness"
     ],
-    "source": "Bob Tait CPL Gen Knowledge, ATC AGK",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-28T00:00:00Z"
@@ -6601,11 +6601,11 @@
   {
     "code": "28.70.4",
     "topic": "28.70 — Landing Gear (Retractable)",
-    "syllabus_desc": "Describe the principle of operation of a typical retractable landing gear. Advisory Circular AC61-5 Revision 38 Sub Topic Syllabus Item",
+    "syllabus_desc": "Describe the principle of operation of a typical retractable landing gear.",
     "concept": "When you move the gear selector to 'UP', the selector valve routes hydraulic pressure to the retract side of the actuator cylinders. The actuators overcome the downlock mechanisms (which release under hydraulic pressure or mechanical linkage) and begin folding the gear legs into the wheel wells. As the gear reaches full retraction, the uplocks engage mechanically, holding the gear in place even if hydraulic pressure is lost. Cockpit indicators transition from green (down-and-locked) through red (in transit) to no light (up-and-locked). For extension, selecting 'DOWN' routes hydraulic pressure to the other side of the actuators. The uplocks release, actuators push the gear down, and the downlocks snap into place. Green lights confirm locked position. If hydraulics fail, the emergency system lets gravity pull the gear down (free-fall), sometimes assisted by a nitrogen bottle or manual hand pump. The free-fall system typically releases the uplocks mechanically (a cable or handle in the cockpit) and lets the gear drop under its own weight. Wind load in flight can actually help push the gear into the locked-down position. Always confirm three greens before landing.",
     "exam_tip": "Normal operation: hydraulic actuators, selector valve routes pressure. Emergency: free-fall (gravity), nitrogen assist, or hand pump. Know the indicator light sequence: green → red → off (retraction). Always three greens for landing.",
     "key_facts": "Retraction: selector valve routes hydraulic pressure to retract actuators. Downlocks release, gear folds into wells, uplocks engage. Extension: pressure routes to extend side, uplocks release, gear extends, downlocks engage. Emergency: free-fall (gravity), nitrogen assist, or manual hand pump. Uplock release: mechanical cable or cockpit handle. Indicators: green = down-locked, red = transit, off = up-locked. Always confirm three green lights before landing.",
-    "source": "NZ CAA AC 61-5, Bob Tait CPL Gen Knowledge",
+    "source": "AC 61-5 Rev 38",
     "confidence": "medium",
     "verified": false,
     "created": "2026-03-29T00:00:00Z"
@@ -6973,7 +6973,7 @@
   {
     "code": "28.80.2",
     "topic": "28.80 — Main Rotor Systems",
-    "syllabus_desc": "Describe the construction of modern helicopter rotor blades. Advisory Circular AC61-5 Revision 38 Sub Topic Syllabus Item",
+    "syllabus_desc": "Describe the construction of modern helicopter rotor blades.",
     "concept": "The control linkages from the swashplate to the rotor blades are the mechanical connections that transmit the swashplate motion to each blade's pitch change mechanism. Each rotor blade has a pitch horn (a mechanical arm) attached to its root. This pitch horn is connected to the swashplate via pushrods and control rods that allow frictionless movement while transmitting force. As the rotor turns and each blade passes through different positions relative to the swashplate, the linkage geometry changes the blade pitch proportionally. The system must maintain exact alignment and consistent friction—any wear or looseness degrades control response. In your R22 or similar helicopter, these linkages are carefully adjusted during maintenance to ensure consistent pitch control throughout the rotor disk. A worn linkage creates lag in control response and can be dangerous.",
     "exam_tip": "Control linkages transmit swashplate motion to blades. They must be free-moving but tight (no slop). Wear here degrades control response.",
     "key_facts": [
@@ -6982,7 +6982,7 @@
       "Must be precisely adjusted—wear creates control lag",
       "Each blade has its own pitch control linkage"
     ],
-    "source": "Wagtendonk Principles of Helicopter Flight",
+    "source": "AC 61-5 Rev 38",
     "confidence": "medium",
     "verified": false,
     "created": "2026-03-29T00:00:00Z"
@@ -7274,11 +7274,11 @@
   {
     "code": "28.82.6",
     "topic": "28.82 — Tail Rotor Systems",
-    "syllabus_desc": "Describe the: (a) advantages associated with conventional exposed tail rotors. (b) disadvantages associated with conventional exposed tail rotors. Advisory Circular AC61-5 Revision 38 Sub Topic Syllabus Item",
+    "syllabus_desc": "Describe the: (a) advantages associated with conventional exposed tail rotors. (b) disadvantages associated with conventional exposed tail rotors.",
     "concept": "Conventional exposed tail rotors have several advantages: they're mechanically simple, well-understood technology with decades of service history. They're efficient at producing anti-torque thrust—the open disc can move a lot of air. Maintenance is straightforward because everything's accessible. Autorotation characteristics are predictable. And they provide direct, responsive yaw control. The disadvantages are significant though. Exposed blades are a safety hazard to ground personnel—tail rotor strikes are a real risk, especially during confined area operations or when people approach the helicopter from the wrong direction. They're vulnerable to foreign object damage (rocks, debris kicked up during landing). They're noisy—the tail rotor blade tips often go supersonic, generating a distinctive high-pitched whine. Ground clearance can be marginal, especially on uneven surfaces or during slope landings. And they consume engine power—typically 10-15% of total engine power just to counteract main rotor torque, power that's unavailable for lift. In windy conditions, tail rotor effectiveness can vary significantly, particularly with quartering tailwinds.",
     "exam_tip": "Advantages: simple, efficient, accessible, responsive yaw control. Disadvantages: ground personnel safety hazard, FOD vulnerable, noisy, power consumption (10-15%), limited ground clearance, affected by quartering tailwinds.",
     "key_facts": "Advantages: mechanically simple, well-proven technology. Efficient anti-torque thrust production. Accessible for maintenance. Predictable autorotation characteristics. Direct, responsive yaw control. Disadvantages: safety hazard to ground personnel. Vulnerable to foreign object damage. Noisy (supersonic blade tips). Consumes 10-15% of engine power. Marginal ground clearance on uneven surfaces. Affected by quartering tailwinds.",
-    "source": "NZ CAA AC 61-5, Bob Tait CPL Gen Knowledge",
+    "source": "AC 61-5 Rev 38",
     "confidence": "medium",
     "verified": false,
     "created": "2026-03-29T00:00:00Z"
@@ -7434,7 +7434,7 @@
   {
     "code": "28.90.2",
     "topic": "28.90 — Weight and Balance Terminology",
-    "syllabus_desc": "Explain the meaning of the following terms: (a) arm (moment arm); (b) datum; (c) moment (including units used); (d) centre of gravity (C of G); Advisory Circular AC61-5 Revision 38 Sub Topic Syllabus Item (e) longitudinal C of G range and limits; (f) lateral centre of gravity range and limits; (g) station; (h) index units; (i) basic empty weight (empty aircraft weight); (j) empty weight centre of gravity position; (k) basic operating weight (aircraft prepared for service weight); (l) payload (commercial load); (m) zero fuel weight (ZFW); (n) ramp weight; (o) gross weight (AUW); (p) take-off weight; (q) maximum certificated take-off weight (MCTOW); (r) landing weight; (s) maximum certificated landing weight (MCLW); (t) centre of gravity envelope; (u) the specific gravity and the weight of fuel of AVGAS or Jet A-1.",
+    "syllabus_desc": "Explain the meaning of the following terms: (a) arm (moment arm); (b) datum; (c) moment (including units used); (d) centre of gravity (C of G); (e) longitudinal C of G range and limits; (f) lateral centre of gravity range and limits; (g) station; (h) index units; (i) basic empty weight (empty aircraft weight); (j) empty weight centre of gravity position; (k) basic operating weight (aircraft prepared for service weight); (l) payload (commercial load); (m) zero fuel weight (ZFW); (n) ramp weight; (o) gross weight (AUW); (p) take-off weight; (q) maximum certificated take-off weight (MCTOW); (r) landing weight; (s) maximum certificated landing weight (MCLW); (t) centre of gravity envelope; (u) the specific gravity and the weight of fuel of AVGAS or Jet A-1.",
     "concept": "Weight and balance is all about numbers and distance. The datum is an imaginary vertical reference line (usually at or near the nose of the aircraft) from which all distances are measured. A station is a measurement along the fuselage (or wing) from the datum—station 50 means 50 inches forward of datum, station 120 means 120 inches. The arm (or moment arm) is the horizontal distance from the datum to a particular load. A moment is weight multiplied by arm—it's a measure of turning effect around the datum. Moment units are typically pound-inches (lb-in) or kilogram-centimetres (kg-cm). Centre of gravity is the imaginary point where all the aircraft's weight is concentrated; if the aircraft hung from that point, it would balance perfectly. The C of G range (or envelope) is a zone within which the C of G must stay for safe flight—typically a 5-10% range of the mean aerodynamic chord. Basic empty weight is the aircraft as delivered from the factory, completely empty (no fuel, no people, no cargo). Empty weight C of G is where that empty aircraft's balance point is. Basic operating weight (or prepared for service weight) is the empty aircraft plus essential crew and equipment. Payload is all the useful load you can add—people, cargo. Zero fuel weight (ZFW) is the total weight without fuel. Ramp weight is total weight when ready to push back (with fuel). Gross weight or AUW (All Up Weight) is total weight ready for takeoff. MCTOW is the maximum weight at which the aircraft can legally take off—dictated by structural limits or performance limits. Landing weight is what you expect to weigh at touchdown (usually less than takeoff weight due to fuel burn). MCLW is the maximum weight at which you can legally land. Specific gravity is a ratio of the density of a substance to water (1.0). AVGAS has a specific gravity around 0.70-0.72, so it's lighter than water. Jet A-1 is around 0.80. These numbers matter because they let you convert volume to weight (litres × specific gravity × density of water = weight).",
     "exam_tip": "Memorise the definitions and the units. Moment = weight × arm (lb-in or kg-cm). C of G is where balance point is. Range is where C of G must stay.",
     "key_facts": [
@@ -7457,7 +7457,7 @@
       "Specific gravity is density ratio (AVGAS ~0.71, Jet A-1 ~0.80)",
       "Weight of fuel = volume × specific gravity × water density"
     ],
-    "source": "NZ CAA AC 61-5, Bob Tait CPL Gen Knowledge",
+    "source": "AC 61-5 Rev 38",
     "confidence": "medium",
     "verified": false,
     "created": "2026-03-29T00:00:00Z"
@@ -7541,7 +7541,7 @@
   {
     "code": "28.96.6",
     "topic": "28.96 — Centre of Gravity Calculations",
-    "syllabus_desc": "Given loading data/graphs for a typical light helicopter: Advisory Circular AC61-5 Revision 38 Sub Topic Syllabus Item (a) calculate the longitudinal centre of gravity position; (b) calculate the lateral centre of gravity position; (c) plot the longitudinal and lateral centre of gravity positions on a graph showing the centre of gravity limits.",
+    "syllabus_desc": "Given loading data/graphs for a typical light helicopter: (a) calculate the longitudinal centre of gravity position; (b) calculate the lateral centre of gravity position; (c) plot the longitudinal and lateral centre of gravity positions on a graph showing the centre of gravity limits.",
     "concept": "Given loading data or graphs for a typical light helicopter, you must be able to calculate the centre of gravity position and verify it falls within the approved CG envelope. This involves: determining the moment for each item (weight × arm from datum), summing all moments, and dividing total moment by total weight to find the CG position. Then plot CG position against total weight on the CG envelope chart to confirm compliance. Helicopter CG calculations follow the same mathematical principles as aeroplane calculations, but the CG envelope is typically much smaller due to the sensitivity of rotor systems to CG displacement, particularly in the longitudinal axis.",
     "exam_tip": "CG = total moment / total weight. Plot CG vs weight on envelope chart. Helicopter CG envelope is smaller than aeroplane—more sensitive to loading.",
     "key_facts": [
@@ -7551,7 +7551,7 @@
       "Helicopter CG envelope typically smaller than aeroplane",
       "Longitudinal CG particularly sensitive in helicopters"
     ],
-    "source": "NZ CAA AC 61-5 Rev 38, Principles of Helicopter Flight (Wagtendonk)",
+    "source": "AC 61-5 Rev 38",
     "confidence": "medium",
     "verified": false,
     "created": "2026-03-29T00:00:00Z"

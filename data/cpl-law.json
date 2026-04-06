@@ -2220,16 +2220,15 @@
   {
     "code": "16.14.14",
     "topic": "16.14 -- Competency, Currency and Recency",
-    "syllabus_desc": "State the period within which a pilot acting as PIC of an aircraft must have completed an instrument rating competency check or approved equivalent check",
-    "concept": "When you're acting as PIC of an aircraft and you're relying on your instrument rating to conduct operations, you need to maintain currency on your instrument flying skills. You must complete an instrument rating competency check (or an approved equivalent check) within the preceding 12 months. This check ensures you can safely operate the aircraft solely by reference to instruments--a skill that's essential for IFR operations and for maintaining safe flight when VFR conditions deteriorate unexpectedly. The check covers your ability to interpret instruments, maintain attitude awareness, execute standard procedures, and respond appropriately to instrument failures or unusual situations. If you don't maintain this currency, you can't legally act as PIC for operations that rely on your instrument rating. Many operators use the competency check as part of their regular training programme, integrating it with recurrent training.",
-    "exam_tip": "The 12-month instrument rating competency check is mandatory if you're using your IR for operations. Letting it lapse means you can't legally conduct IFR operations, even if your IR is still valid.",
+    "syllabus_desc": "State the CAR Part 135 crew member grace provisions.",
+    "concept": "CAR Part 135 allows a grace period for crew members whose proficiency checks, knowledge tests, or recency requirements lapse, provided certain conditions are met.",
+    "exam_tip": "Know the specific grace period duration and the conditions under which it applies — exam questions test the exact provision, not just the concept.",
     "key_facts": [
-      "Required within 12 months for IR operations",
-      "Tests instrument flying competency and procedures",
-      "Approved equivalent checks acceptable",
-      "Lapse prevents IFR-reliant operations"
+      "CAR Part 135 provides grace provisions for flight crew who have not met currency/check requirements within the prescribed period",
+      "Grace provisions allow continued operation for a limited time while checks are being arranged",
+      "The provisions apply to specific checks such as route and aerodrome proficiency and knowledge tests"
     ],
-    "source": "NZ CAA AC 61-5, CAR Part 61",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
@@ -2322,16 +2321,17 @@
   {
     "code": "16.20.2",
     "topic": "16.20 -- Documentation",
-    "syllabus_desc": "State the documentation that must be carried in an aircraft operating in NZ. CAR Part 91",
-    "concept": "You'll need to keep certain documents onboard whenever you fly. The registration certificate, airworthiness certificate, maintenance release, and pilot operating handbook are your essentials. Think of these as your aeroplane's identity papers--they prove the aircraft is legal and safe to fly. Without them, you're grounded, mate. Each one serves a specific purpose in demonstrating compliance with NZ CARs.",
-    "exam_tip": "Remember that some docs must be carried (onboard), while others just need to be available for inspection. Know the difference.",
+    "syllabus_desc": "State the documents which must be carried in aircraft operated in New Zealand.",
+    "concept": "CAR Part 91 prescribes which documents must be on board an aircraft during flight in New Zealand. These include the aircraft certificate of registration, airworthiness certificate, noise certificate (if applicable), and flight manual or POH.",
+    "exam_tip": "Distinguish between documents that must be CARRIED on board and those that only need to be available — exam questions test both. Know the exact list from CAR 91.",
     "key_facts": [
-      "Registration certificate must be carried at all times",
-      "Airworthiness certificate must be onboard",
-      "Maintenance release must be carried",
-      "Pilot operating handbook or flight manual required"
+      "Certificate of registration must be carried",
+      "Airworthiness certificate must be carried",
+      "Aircraft flight manual or pilot operating handbook must be carried",
+      "Noise certificate required where applicable",
+      "Radio licence if radio is fitted"
     ],
-    "source": "NZ CAA AC 61-5",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
@@ -2645,16 +2645,17 @@
   {
     "code": "16.24.2",
     "topic": "16.24 -- Instruments and Avionics",
-    "syllabus_desc": "State the instrument and equipment requirements for VFR flight by day. CAR Part 91",
-    "concept": "For daytime VFR, you need a solid basic set of instruments to keep you safe and legal. You'll need an airspeed indicator, an altimeter, a magnetic compass, and a source of vacuum or electrical power to run the gyro instruments if you've got them. The rules keep it straightforward for day VFR--you don't need everything, just the essentials to know your height, speed, direction, and attitude. If you're flying above 3,000 feet AGL or in controlled airspace, you might need a bit more.",
-    "exam_tip": "Day VFR minimums are basic, but always check if your operation needs extra instruments.",
+    "syllabus_desc": "State the minimum instrument requirements for a day VFR flight.",
+    "concept": "CAR Part 91 specifies the minimum instruments required for a day VFR flight in New Zealand. These include the basic flight instruments (airspeed indicator, altimeter, magnetic compass) and engine instruments.",
+    "exam_tip": "Know the exact minimum list for day VFR — questions often ask about specific instruments. Do not confuse day VFR minimums with night VFR requirements.",
     "key_facts": [
       "Airspeed indicator required",
       "Altimeter required",
-      "Magnetic compass required",
-      "Flight and navigation instruments appropriate to operation"
+      "Magnetic compass or direction indicator required",
+      "Engine monitoring instruments as per aircraft type",
+      "Requirements sourced from CAR Part 91"
     ],
-    "source": "NZ CAA AC 61-5",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
@@ -2662,16 +2663,17 @@
   {
     "code": "16.24.4",
     "topic": "16.24 -- Instruments and Avionics",
-    "syllabus_desc": "State the instrument and equipment requirements for VFR flight by night. CAR Part 91",
-    "concept": "Night VFR ups the ante because you've lost the visual reference of the ground. You'll need everything for day flight, plus you need reliable electrical systems--a primary generator and a backup battery that can power essential instruments for at least 30 minutes. You also need flight instruments that aren't dependent on vacuum. Essentially, you're carrying a second power system as insurance. Navigation lights, cabin lighting, and landing lights are also mandatory. Night flying demands redundancy.",
-    "exam_tip": "Night VFR requires electrical redundancy--generator plus battery backup for instrument power.",
+    "syllabus_desc": "State the minimum instrument requirements for a night VFR flight.",
+    "concept": "Night VFR requires additional instruments beyond day VFR minimums. CAR Part 91 adds instruments such as an attitude indicator and rate of turn indicator to the list.",
+    "exam_tip": "Night VFR instrument requirements are a popular exam topic. Know the additional instruments required BEYOND day VFR, not just the full list.",
     "key_facts": [
-      "All day VFR instruments required",
-      "Primary electrical power system required",
-      "Backup battery for 30 minutes minimum",
-      "Navigation, cabin, and landing lights required"
+      "Includes all day VFR instruments plus additional instruments",
+      "Attitude indicator (artificial horizon) required",
+      "Rate of turn indicator required",
+      "Slip/skid indicator required",
+      "Illumination for all required instruments"
     ],
-    "source": "NZ CAA AC 61-5",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
@@ -2679,16 +2681,16 @@
   {
     "code": "16.24.6",
     "topic": "16.24 -- Instruments and Avionics",
-    "syllabus_desc": "State the communications and navigation equipment requirements for a VFR over-water flight. CAR 91",
-    "concept": "When you're flying over water and out of gliding distance from land, the rules get tighter. You've got to have reliable communications--a VHF radio with at least two independent batteries or power sources so you can call for help if needed. Navigation equipment needs to be accurate and ideally backed up; many pilots carry a GPS plus a traditional nav system. You're also expected to have flotation equipment and survival gear because ditching is a real possibility. Over-water flying requires you to plan for emergencies seriously.",
-    "exam_tip": "Redundancy is key over water. Two independent communication systems and navigation backups are standard practice.",
+    "syllabus_desc": "State the radio equipment requirements for a VFR flight.",
+    "concept": "CAR Part 91 specifies the radio communication equipment required for VFR flights in New Zealand, including the requirement for a radio when operating in certain classes of airspace or when required by ATC.",
+    "exam_tip": "Know when radio is mandatory for VFR (controlled airspace, certain routes) versus when it is not required.",
     "key_facts": [
-      "VHF radio with independent power required",
-      "Navigation equipment with backup recommended",
-      "Flotation equipment required",
-      "Survival gear appropriate to flight duration"
+      "Radio required when operating in controlled airspace",
+      "Must be able to communicate on the appropriate ATS frequency",
+      "Specific requirements vary with airspace class",
+      "Requirements from CAR Part 91"
     ],
-    "source": "NZ CAA AC 61-5",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
@@ -3155,16 +3157,15 @@
   {
     "code": "16.32.2",
     "topic": "16.32 -- Pre-flight Inspection Responsibility",
-    "syllabus_desc": "Describe the responsibility of the PIC for a pre-flight inspection",
-    "concept": "You're responsible for ensuring a thorough pre-flight inspection happens before every flight. This isn't something you can delegate away entirely--you need to understand what's being checked and satisfy yourself that the aircraft is airworthy. You might conduct the inspection yourself or oversee crew performing it, but the responsibility sits with you. Your pre-flight inspection is your critical gatekeeper to ensure you're flying an airworthy aircraft.",
-    "exam_tip": "PIC is responsible for pre-flight inspection. Even if crew perform it, you must satisfy yourself the aircraft is airworthy.",
+    "syllabus_desc": "State the restrictions on smoking in an aircraft.",
+    "concept": "The Civil Aviation Act 2023 section 402 prohibits smoking on aircraft. This applies to all persons on board and covers all forms of tobacco and electronic cigarettes.",
+    "exam_tip": "Note the source is the CA Act 2023, not CAR Part 91 — a common trap in exam questions.",
     "key_facts": [
-      "PIC is responsible for pre-flight inspection",
-      "Inspection verifies aircraft airworthiness",
-      "Responsibility cannot be fully delegated",
-      "Documentation of inspection may be required"
+      "Smoking prohibited on all aircraft in NZ airspace",
+      "Applies to all persons on board including passengers and crew",
+      "Source: CA Act 2023, section 402"
     ],
-    "source": "NZ CAA AC 61-5, CAR Part 91",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
@@ -3172,16 +3173,16 @@
   {
     "code": "16.32.4",
     "topic": "16.32 -- Aerodrome and Landing Area Requirements",
-    "syllabus_desc": "State the requirements for the use of aerodromes and landing areas",
-    "concept": "You can only use aerodromes and landing areas that meet the requirements for your aircraft and operation under CAR Part 91. This means checking aerodrome availability, runway conditions, facilities, and whether they're approved for your operation type. Before you plan a flight, you need to confirm your destination and any alternates are suitable. The AIP NZ gives you the information--you need to use it correctly to make safe aerodrome selections.",
-    "exam_tip": "Aerodromes must be suitable for your aircraft type and operation. Check AIP NZ for aerodrome information and approval status.",
+    "syllabus_desc": "State the restrictions associated with the abuse of drugs and alcohol.",
+    "concept": "CAR Part 91 prohibits a person from acting as a crew member of an aircraft when their ability to perform duties is impaired by alcohol or drugs. Specific BAC limits apply.",
+    "exam_tip": "Know the blood alcohol limit for flight crew and the rules about drinking before flight — these are frequently tested.",
     "key_facts": [
-      "Only approved aerodromes can be used",
-      "Aerodromes must be suitable for aircraft type and operation",
-      "Information available in AIP NZ",
-      "PIC must verify aerodrome suitability before flight"
+      "Crew member must not be impaired by alcohol or drugs",
+      "Specific blood alcohol concentration (BAC) limits apply",
+      "CAR Part 91 specifies the time period before flight when alcohol must not be consumed",
+      "Applies to all flight crew members"
     ],
-    "source": "NZ CAA AC 61-5, CAR Part 91",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
@@ -3189,16 +3190,16 @@
   {
     "code": "16.32.6",
     "topic": "16.32 -- Uncontrolled Airspace Operations",
-    "syllabus_desc": "Describe the requirements for operating in uncontrolled airspace",
-    "concept": "Operating in uncontrolled airspace gives you more flexibility, but you've still got responsibilities under CAR Part 91. You need to maintain visual lookout, comply with VFR minimums appropriate to uncontrolled airspace, and exercise caution knowing you might encounter other traffic without ATC separation. Uncontrolled airspace doesn't mean unmonitored--you're still bound by air law and responsible for avoiding other aircraft.",
-    "exam_tip": "Uncontrolled airspace operations require heightened vigilance. VFR minimums apply, and you must maintain continuous lookout.",
+    "syllabus_desc": "State the restrictions on the use of portable electronic devices in flight.",
+    "concept": "CAR Part 91 restricts the use of portable electronic devices (PEDs) that may interfere with aircraft systems. The PIC has authority to prohibit their use.",
+    "exam_tip": "Know the PIC authority regarding PEDs and the general prohibition rationale — interference with navigation and communication systems.",
     "key_facts": [
-      "VFR minimums apply in uncontrolled airspace",
-      "No ATC separation services provided",
-      "Visual lookout is mandatory",
-      "PIC remains responsible for traffic awareness and avoidance"
+      "PIC may prohibit use of PEDs that could interfere with aircraft systems",
+      "Applies to all portable electronic devices carried by crew or passengers",
+      "Interference with navigation and radio systems is the primary concern",
+      "Source: CAR Part 91"
     ],
-    "source": "NZ CAA AC 61-5, CAR Part 91",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
@@ -3206,16 +3207,16 @@
   {
     "code": "16.32.8",
     "topic": "16.32 -- Right-of-Way Rules",
-    "syllabus_desc": "Describe the right-of-way rules for aircraft operating on the ground and in the air",
-    "concept": "Right-of-way rules under CAR Part 91 establish priority when aircraft meet. In the air, rules consider aircraft type, direction of flight, and configuration. On the ground, rules cover taxiing and runway use. You need to know these rules thoroughly because they're fundamental to collision avoidance. The principle is simple: the aircraft with the right-of-way has priority, and everyone else gives way. You need to recognise situations where you have the right-of-way and situations where you must give way.",
-    "exam_tip": "Learn right-of-way rules for all aircraft combinations. Giving way when required is a safety imperative, regardless of who 'should' have priority.",
+    "syllabus_desc": "State the restrictions on the carriage and discharge of firearms on aircraft.",
+    "concept": "CAR Part 91 restricts who may carry and discharge firearms on aircraft. Police officers and authorised persons may carry firearms under specific conditions.",
+    "exam_tip": "Know the specific conditions under which firearms may be carried — questions focus on who is authorised and what procedures must be followed.",
     "key_facts": [
-      "Right-of-way rules prioritise certain aircraft in specific situations",
-      "Aircraft type, direction, and configuration determine precedence",
-      "Rules apply on ground and in air",
-      "Pilot must always give way if required, regardless of right-of-way"
+      "General prohibition on carriage of loaded firearms",
+      "Police and authorised persons have specific permissions under Part 91",
+      "Discharge of firearms is subject to strict restrictions",
+      "PIC must be notified of any firearms on board"
     ],
-    "source": "NZ CAA AC 61-5, CAR Part 91",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
@@ -3223,16 +3224,16 @@
   {
     "code": "16.32.10",
     "topic": "16.32 -- Minimum Height Restrictions",
-    "syllabus_desc": "State the restrictions on minimum height for aircraft operating over congested and non-congested areas",
-    "concept": "CAR Part 91 sets minimum heights you must maintain over congested and non-congested areas. Over congested areas (towns and cities), the minimum is typically 1,000 feet above the highest obstacle. Over non-congested areas, it's 500 feet. These minimums exist to protect people on the ground. You're responsible for knowing the terrain under your flight path and ensuring you maintain legal minimums. Visual flight planning includes identifying terrain and obstacle heights.",
-    "exam_tip": "Congested vs non-congested areas have different minimums. Know the 1,000 ft and 500 ft rules. Check terrain when planning routes.",
+    "syllabus_desc": "Explain the restrictions on stowage of carry-on baggage.",
+    "concept": "CAR Part 91 requires that carry-on baggage be stowed so it does not obstruct emergency exits, aisles, or interfere with the operation of emergency equipment.",
+    "exam_tip": "Questions focus on the rationale — emergency exit access — and the PIC responsibility to ensure compliance.",
     "key_facts": [
-      "1,000 feet minimum over congested areas",
-      "500 feet minimum over non-congested areas",
-      "Measured above highest obstacle",
-      "PIC is responsible for maintaining minimums"
+      "Baggage must not obstruct emergency exits",
+      "Must not impede passenger evacuation or access to emergency equipment",
+      "PIC is responsible for ensuring compliance",
+      "Source: CAR Part 91"
     ],
-    "source": "NZ CAA AC 61-5, CAR Part 91",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
@@ -3240,16 +3241,16 @@
   {
     "code": "16.32.12",
     "topic": "16.32 -- Aerodrome Operations Requirements",
-    "syllabus_desc": "State the requirements for the operation of aircraft at or near aerodromes",
-    "concept": "Operating at or near aerodromes requires compliance with specific procedures under CAR Part 91. You need to use designated circuits, follow established procedures, coordinate with ATC at controlled aerodromes, and maintain awareness of other traffic. Aerodrome environments are high-workload, high-traffic areas. You're responsible for following procedures and maintaining situational awareness. Understanding circuit requirements and local procedures is essential before every flight.",
-    "exam_tip": "Aerodrome operations require strict procedure compliance. Always follow published circuits and coordinate with ATC or use standard patterns.",
+    "syllabus_desc": "Explain the restrictions on the carriage of cargo.",
+    "concept": "CAR Part 91 specifies how cargo must be loaded, secured, and positioned so it does not endanger the aircraft or persons on board. Weight and balance considerations apply.",
+    "exam_tip": "Know the PIC responsibility for ensuring cargo is safely loaded and secured, and the weight distribution requirements.",
     "key_facts": [
-      "Designated circuits must be used at aerodromes",
-      "ATC coordination required at controlled aerodromes",
-      "Standard patterns apply at uncontrolled aerodromes",
-      "Situational awareness and procedure compliance are mandatory"
+      "Cargo must be secured to prevent movement during flight",
+      "Must not exceed aircraft weight limits or affect the centre of gravity",
+      "PIC responsible for safe loading and securing of cargo",
+      "Cargo must not obstruct emergency exits or aisles"
     ],
-    "source": "NZ CAA AC 61-5, CAR Part 91",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
@@ -3257,16 +3258,16 @@
   {
     "code": "16.32.14",
     "topic": "16.32 -- Wake Turbulence Restrictions",
-    "syllabus_desc": "State the restrictions applicable to aircraft wake turbulence",
-    "concept": "Wake turbulence from larger aircraft can be hazardous to smaller aircraft following behind. CAR Part 91 establishes separation requirements to protect you from wake encounters. You need to understand wake generation (heavier aircraft create stronger vortices), positions vulnerable to wake (directly behind, slightly below), and separation distances required. If you're following a larger aircraft, you need appropriate spacing or you should plan to use different runways or routing to avoid wake entirely.",
-    "exam_tip": "Larger aircraft generate hazardous wake. Maintain spacing or diverge from the flight path of large aircraft ahead of you.",
+    "syllabus_desc": "State the restrictions applicable to aircraft flying near other aircraft.",
+    "concept": "CAR Part 91 prohibits operating an aircraft so close to another aircraft as to create a collision risk. This includes formation flying rules.",
+    "exam_tip": "Know the prohibition on formation flying without prior agreement and what constitutes a dangerously close approach.",
     "key_facts": [
-      "Heavy aircraft generate hazardous wake vortices",
-      "Wake most dangerous directly behind and below source aircraft",
-      "Separation distances specified in CAR Part 91",
-      "Light aircraft vulnerable to wake from heavy aircraft ahead"
+      "No aircraft may fly so close to another as to create a collision hazard",
+      "Formation flying is permitted only by prior arrangement between PICs",
+      "CAR Part 91 prohibits overtaking an aircraft in a way that creates hazard",
+      "Source: CAR Part 91"
     ],
-    "source": "NZ CAA AC 61-5, CAR Part 91",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
@@ -3274,16 +3275,16 @@
   {
     "code": "16.32.16",
     "topic": "16.32 -- VFR Speed Restrictions in Control Zones and Uncontrolled Aerodromes",
-    "syllabus_desc": "State the speed restrictions for aircraft operating VFR within a control zone and at uncontrolled aerodromes",
-    "concept": "Speed restrictions in control zones and at uncontrolled aerodromes exist to improve safety in congested airspace and traffic areas. You're required to operate at reduced speeds--typically 250 knots or below in control zones and around uncontrolled aerodromes. These restrictions give you better situational awareness and more time to react to other traffic. Slower speeds are particularly important near high-traffic aerodromes where you're mixing with other aircraft.",
-    "exam_tip": "Speed restrictions apply in control zones and near uncontrolled aerodromes. Know the specific speeds and when they're mandated.",
+    "syllabus_desc": "State the restrictions on the dropping of objects from an aircraft in flight.",
+    "concept": "CAR Part 91 prohibits dropping objects from an aircraft in flight that could create a hazard to persons or property on the ground, unless authorised.",
+    "exam_tip": "Know what types of drops are prohibited versus permitted (e.g., agricultural operations with appropriate authority).",
     "key_facts": [
-      "Speed restrictions apply in control zones",
-      "Speed restrictions apply near uncontrolled aerodromes",
-      "250 knots is typical maximum speed",
-      "Restrictions enhance traffic separation and situational awareness"
+      "Dropping objects that could endanger persons or property is prohibited",
+      "Authorisation may be required for specific operations",
+      "PIC is responsible for ensuring safe dropping procedures",
+      "Source: CAR Part 91"
     ],
-    "source": "NZ CAA AC 61-5, CAR Part 91",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
@@ -3291,16 +3292,16 @@
   {
     "code": "16.32.18",
     "topic": "16.32 -- Speed Restrictions Below 10,000 Feet",
-    "syllabus_desc": "State the speed restriction below 10,000 ft in controlled airspace",
-    "concept": "In controlled airspace below 10,000 feet, you're required to maintain speed restrictions under CAR Part 91. The typical limit is 250 knots, though ATC can permit higher speeds. This restriction applies even in controlled airspace because the lower altitudes have higher air traffic density. You might be cleared to exceed this restriction by ATC, but you must comply with the restriction unless specifically cleared otherwise. Always confirm clearance if you want to exceed this speed limit.",
-    "exam_tip": "250 knots maximum below 10,000 feet in controlled airspace unless ATC permits faster. Always confirm clearance before exceeding.",
+    "syllabus_desc": "State the speed limitation on aircraft operating under VFR.",
+    "concept": "CAR Part 91 prescribes a maximum indicated airspeed (IAS) below a specified altitude for VFR operations, consistent with ICAO standards.",
+    "exam_tip": "Know the specific airspeed limit and the altitude below which it applies — a frequently tested rule.",
     "key_facts": [
-      "250 knots maximum below 10,000 feet in controlled airspace",
-      "Restriction applies throughout controlled airspace",
-      "ATC may permit higher speeds by clearance",
-      "Pilot must request clearance to exceed restriction"
+      "Speed limit of 250 KIAS applies below 10,000 ft AMSL",
+      "Applies to all VFR operations",
+      "Additional speed restrictions may apply in certain airspace",
+      "Source: CAR Part 91"
     ],
-    "source": "NZ CAA AC 61-5, CAR Part 91",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
@@ -3308,16 +3309,16 @@
   {
     "code": "16.32.20",
     "topic": "16.32 -- Controlled Aerodrome Traffic Circuit Joining",
-    "syllabus_desc": "Describe the requirements for joining a controlled aerodrome traffic circuit",
-    "concept": "At controlled aerodromes, you cannot just join the circuit--you need ATC clearance and you must follow their instructions. ATC will sequence you into the circuit, provide vectors, and coordinate your entry with other traffic. You need to listen carefully to your clearance and follow published circuit procedures. Joining a controlled aerodrome circuit requires two-way communication with ATC and strict adherence to their instructions.",
-    "exam_tip": "Controlled aerodromes require ATC clearance before joining circuit. Follow ATC instructions and published procedures exactly.",
+    "syllabus_desc": "State the minimum heights for VFR flights (A) or (H) under CAR Part 91.",
+    "concept": "CAR Part 91 specifies minimum heights for VFR flight over congested and non-congested areas, and over open water.",
+    "exam_tip": "Know the different minimum heights for congested areas, non-congested areas, and sparsely populated areas — a common exam topic.",
     "key_facts": [
-      "ATC clearance required before joining circuit",
-      "ATC sequences aircraft and provides vectors",
-      "Published circuit procedures must be followed",
-      "Two-way communication mandatory"
+      "500 ft over non-congested areas and open water",
+      "1000 ft over congested areas and assemblies of people",
+      "Aeroplane (A) and helicopter (H) have the same general minimums under Part 91",
+      "Source: CAR Part 91"
     ],
-    "source": "NZ CAA AC 61-5, CAR Part 91",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
@@ -3325,16 +3326,16 @@
   {
     "code": "16.32.22",
     "topic": "16.32 -- Uncontrolled Aerodrome Traffic Circuit Joining",
-    "syllabus_desc": "Describe the requirements for joining an uncontrolled aerodrome traffic circuit",
-    "concept": "At uncontrolled aerodromes, you're responsible for sequencing yourself into the circuit safely. You don't have ATC to help, so you need to monitor the uncontrolled airfield frequency, announce your intentions, and observe other aircraft activity. You'll join at a standard position (often downwind) and follow the standard circuit pattern. Joining uncontrolled circuits requires heightened situational awareness and communication. Always announce your position and intentions clearly.",
-    "exam_tip": "Uncontrolled circuits require self-sequencing. Monitor frequency, announce your position, and follow standard circuit patterns.",
+    "syllabus_desc": "State the restrictions when operating VFR in icing conditions.",
+    "concept": "CAR Part 91 restricts VFR flight into forecast or known icing conditions unless the aircraft is certificated for flight into icing conditions and equipped with anti-icing/de-icing equipment.",
+    "exam_tip": "Know the certification and equipment requirements that allow flight into icing — without them, flight into known icing is prohibited.",
     "key_facts": [
-      "No ATC available at uncontrolled aerodromes",
-      "Pilot responsible for safe sequencing",
-      "Standard circuit positions and patterns used",
-      "Frequency monitoring and clear position broadcasts required"
+      "VFR aircraft must not fly into forecast or known icing conditions unless certificated",
+      "Aircraft must have appropriate anti-icing or de-icing equipment",
+      "PIC must not fly into icing conditions that exceed aircraft certification",
+      "Source: CAR Part 91"
     ],
-    "source": "NZ CAA AC 61-5, CAR Part 91",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
@@ -3461,16 +3462,16 @@
   {
     "code": "16.36.4",
     "topic": "16.36 -- Limitations on Recreational Dangerous Goods Carriage",
-    "syllabus_desc": "Describe the limitations on the carriage of dangerous good for the recreational use of passengers",
-    "concept": "Dangerous goods for recreational use (like firearms, ammunition, sporting goods with certain materials) have strict limitations under CAR Part 92. You might be able to carry some items under specific conditions, but generally recreational items are heavily restricted or prohibited. You need to understand what constitutes dangerous goods and what exemptions exist. When passengers ask about carrying potentially dangerous items, you need clear knowledge of what's permissible.",
-    "exam_tip": "Recreational dangerous goods have strict limitations. Know what items are prohibited or require special handling.",
+    "syllabus_desc": "Describe the allowance for the carriage of dangerous goods for the recreational use of passengers.",
+    "concept": "CAR Part 92 allows passengers to carry limited quantities of certain dangerous goods for their own personal recreational use (e.g., camping gas, sports equipment with gas canisters), subject to specific quantity limits.",
+    "exam_tip": "Know what is permitted under the recreational use allowance and the quantity limits — questions test what passengers may bring versus what is prohibited.",
     "key_facts": [
-      "Recreational dangerous goods subject to CAR Part 92 restrictions",
-      "Many items prohibited outright",
-      "Some items may be carried under specific conditions",
-      "Carriage documentation required"
+      "Passengers may carry limited personal quantities of specific dangerous goods",
+      "Items such as small gas cylinders for sporting equipment may be permitted",
+      "Specific quantity limits apply under CAR Part 92",
+      "Operator may impose additional restrictions"
     ],
-    "source": "NZ CAA AC 61-5, CAR Part 92",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
@@ -3478,16 +3479,16 @@
   {
     "code": "16.36.6",
     "topic": "16.36 -- General Dangerous Goods Carriage Requirements",
-    "syllabus_desc": "State the general requirements for the carriage of dangerous goods",
-    "concept": "Dangerous goods carriage is heavily regulated under CAR Part 92. You need proper documentation, packaging, labelling, and handling procedures. Not all dangerous goods can be carried--some are prohibited entirely. You must verify goods are properly declared and packaged before accepting them. Your responsibility includes ensuring crew understand dangerous goods they're carrying and know emergency procedures.",
-    "exam_tip": "Dangerous goods require documentation, proper packaging, and labelling. You cannot carry undeclared or improperly packaged goods.",
+    "syllabus_desc": "State the restriction for the carriage of dangerous goods in an aircraft cabin occupied by passengers, or on the flight deck of an aircraft.",
+    "concept": "CAR Part 92 prohibits the carriage of dangerous goods in passenger cabins or on the flight deck of an aircraft, with specific exceptions for items permitted as passenger baggage.",
+    "exam_tip": "Know the general prohibition and the key exceptions — this is a common exam question about what is allowed in the cabin versus cargo hold.",
     "key_facts": [
-      "Dangerous goods must be properly declared",
-      "Packaging must meet specifications",
-      "Labelling and documentation required",
-      "Some goods prohibited on aircraft"
+      "Dangerous goods must not generally be carried in the passenger cabin or on the flight deck",
+      "Specific exceptions apply for items permitted as carry-on or checked baggage under ICAO TI",
+      "Operator must ensure dangerous goods are stowed in the correct location",
+      "Source: CAR Part 92"
     ],
-    "source": "NZ CAA AC 61-5, CAR Part 92",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
@@ -3495,16 +3496,16 @@
   {
     "code": "16.36.8",
     "topic": "16.36 -- PIC Procedures for Undeclared Dangerous Goods",
-    "syllabus_desc": "Explain the procedures for the PIC of an aircraft who has been informed that dangerous goods are on board, or suspects that undeclared or misdeclared dangerous goods are on board, the aircraft",
-    "concept": "If you discover dangerous goods are on board--whether declared, undeclared, or suspected misdeclared--you've got specific procedures to follow under CAR Part 92. You need to immediately assess the risk, inform ATC if necessary, and take appropriate action. For undeclared goods, you have authority to refuse the carriage or divert if already airborne. You'll also need to report the incident to authorities. Your safety responsibility takes absolute precedence.",
-    "exam_tip": "Undeclared or suspected dangerous goods require immediate action. You can refuse carriage or divert if necessary. Report to authorities.",
+    "syllabus_desc": "State the requirements for the carriage of non-dangerous goods in an aircraft.",
+    "concept": "CAR Part 92 specifies requirements for the carriage of goods that are not classified as dangerous goods, including requirements for documentation and the operator responsibility for verification.",
+    "exam_tip": "Note the distinction between requirements for dangerous goods and non-dangerous goods — questions may test knowledge of both.",
     "key_facts": [
-      "Undeclared goods must trigger immediate assessment",
-      "PIC can refuse carriage or divert",
-      "ATC must be informed if appropriate",
-      "Incident reporting to authorities required"
+      "Non-dangerous goods may be carried subject to CAR Part 92 requirements",
+      "Operator must satisfy themselves that goods are correctly classified",
+      "Documentation requirements apply to cargo on air operations",
+      "Source: CAR Part 92"
     ],
-    "source": "NZ CAA AC 61-5, CAR Part 92",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
@@ -3512,16 +3513,16 @@
   {
     "code": "16.36.10",
     "topic": "16.36 -- In-flight Dangerous Goods Emergency Actions",
-    "syllabus_desc": "State the actions required if there is an in-flight emergency involving dangerous goods",
-    "concept": "If a dangerous goods emergency occurs in flight--like a package leaking, fire, or suspected contamination--you've got specific response requirements under CAR Part 92. You need to immediately inform ATC, plan an emergency landing at the nearest suitable aerodrome, and protect the aircraft and crew. Your crew needs to know procedures for isolating dangerous goods emergencies. You'll need to coordinate with emergency services on the ground.",
-    "exam_tip": "Dangerous goods emergencies require immediate ATC notification and diversion to nearest suitable aerodrome. Isolate the emergency if safe to do so.",
+    "syllabus_desc": "State the requirement for the notification of the PIC when dangerous goods are carried.",
+    "concept": "CAR Part 92 requires the operator to notify the PIC in writing when dangerous goods are being carried on the aircraft, specifying the nature and quantity of the goods.",
+    "exam_tip": "Know that written notification is required and what information must be included — this is a specific procedural requirement tested in exams.",
     "key_facts": [
-      "ATC notification immediate and mandatory",
-      "Divert to nearest suitable aerodrome",
-      "Isolate emergency if safe",
-      "Ground emergency services coordination required"
+      "PIC must be notified in writing before departure",
+      "Notification must specify the class, description, and quantity of dangerous goods",
+      "PIC has the right to refuse to carry dangerous goods",
+      "Source: CAR Part 92"
     ],
-    "source": "NZ CAA AC 61-5, CAR Part 92",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
@@ -3529,16 +3530,16 @@
   {
     "code": "16.36.12",
     "topic": "16.36 -- Dangerous Goods Condition and Packaging",
-    "syllabus_desc": "State the requirements relating to the condition of dangerous goods or their packaging",
-    "concept": "Dangerous goods must be in good condition, and their packaging must meet specifications under CAR Part 92. You're responsible for checking that goods you accept for carriage are properly packaged--no leaking, no damaged containers, no compromised labelling. If packaging looks questionable, you refuse the goods. You also need to verify that packaging meets the standards required for air transport.",
-    "exam_tip": "Inspect dangerous goods packaging before accepting. Refuse goods with damaged or questionable packaging.",
+    "syllabus_desc": "State the requirement for a dangerous goods training programme.",
+    "concept": "CAR Part 92 requires operators and ground handling agents who accept or handle dangerous goods to have an approved dangerous goods training programme in place for relevant staff.",
+    "exam_tip": "Know that training is a regulatory requirement — not just best practice — and that it must be approved.",
     "key_facts": [
-      "Packaging must meet regulatory specifications",
-      "Goods must be in sound condition",
-      "No leaking or damaged packages acceptable",
-      "PIC responsible for pre-carriage inspection"
+      "Operators who handle dangerous goods must have an approved training programme",
+      "Training covers identification, handling, labelling, and emergency procedures",
+      "Initial training and recurrent training requirements apply",
+      "Source: CAR Part 92"
     ],
-    "source": "NZ CAA AC 61-5, CAR Part 92",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
@@ -3546,16 +3547,16 @@
   {
     "code": "16.36.14",
     "topic": "16.36 -- Dangerous Goods Information to PIC",
-    "syllabus_desc": "State the requirements for dangerous goods information to be provided to the PIC of an aircraft",
-    "concept": "Before you accept dangerous goods for carriage, you must receive proper documentation and information under CAR Part 92. This includes what the goods are, hazard classification, packaging details, and emergency procedures. You cannot operate with goods on board if you don't have complete information about what you're carrying. Information must be clear and available--you need to understand exactly what's in your aircraft.",
-    "exam_tip": "Complete dangerous goods information required before accepting goods. Information must be clear and you must understand the hazards.",
+    "syllabus_desc": "State the dangerous goods recurrent training programme requirements.",
+    "concept": "CAR Part 92 specifies the frequency of recurrent training for personnel involved in the acceptance, handling, or carriage of dangerous goods by air.",
+    "exam_tip": "Know the recurrent training interval — exam questions test whether training is current.",
     "key_facts": [
-      "Complete documentation required",
-      "Hazard classification and emergency procedures specified",
-      "PIC must understand goods characteristics",
-      "Information must be clear and immediately accessible"
+      "Recurrent training is required at specified intervals (typically every 2 years)",
+      "Recurrent training must cover the same content areas as initial training",
+      "Records of training completion must be maintained",
+      "Source: CAR Part 92"
     ],
-    "source": "NZ CAA AC 61-5, CAR Part 92",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
@@ -3563,16 +3564,16 @@
   {
     "code": "16.36.16",
     "topic": "16.36 -- Dangerous Goods ATS Notification",
-    "syllabus_desc": "State the requirements for the PIC and the operator to inform the ATS unit when carrying dangerous goods",
-    "concept": "When you're carrying dangerous goods, both you and your operator need to inform ATS appropriately under CAR Part 92. This notification ensures ATC understands your aircraft is carrying hazardous materials and can coordinate appropriately with ground services if needed. Notification might happen through NOTAM systems or direct ATC coordination depending on goods type and operation.",
-    "exam_tip": "Dangerous goods carriage requires ATS notification. Ensure both your operator and you inform ATC appropriately.",
+    "syllabus_desc": "State the requirement for the PIC and operator to inform ATS unit of carriage of dangerous goods.",
+    "concept": "CAR Part 91 requires that in the event of an accident or incident involving dangerous goods, or when ATS needs to know, the PIC and operator must inform the ATS unit of the dangerous goods on board.",
+    "exam_tip": "Know both the PIC and operator responsibilities — questions may test who is responsible and when notification is required.",
     "key_facts": [
-      "ATS notification mandatory for dangerous goods",
-      "Operator and PIC share notification responsibility",
-      "Notification through appropriate channels",
-      "ATC coordination essential for emergency response"
+      "PIC must inform ATS of dangerous goods on board in the event of an emergency",
+      "Operator must also notify ATS unit as required",
+      "Information to include nature, quantity, and location of dangerous goods",
+      "Source: CAR Part 91"
     ],
-    "source": "NZ CAA AC 61-5, CAR Part 92",
+    "source": "AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
     "created": "2026-03-27T00:00:00Z"
