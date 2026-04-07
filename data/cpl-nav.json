@@ -1,0 +1,704 @@
+[
+  {
+    "code": "18.2.2(a)",
+    "topic": "18.2 \u2014 Form of the Earth",
+    "syllabus_desc": "Define and identify, on a diagram of the earth: great circles.",
+    "concept": "A great circle is any circle on the surface of the Earth whose plane passes through the centre of the Earth. That makes it the largest possible circle you can draw on a sphere. The equator is a great circle. So are meridians of longitude. The shortest distance between any two points on the Earth's surface always follows a great circle route \u2014 which is why aircraft flying between Auckland and Los Angeles track a path that looks curved on a flat map but is actually the shortest way around the globe.",
+    "exam_tip": "Great circle = plane passes through Earth's centre. Shortest distance between two points. Equator and all meridians are great circles.",
+    "key_facts": [
+      "Great circle plane passes through the centre of the Earth",
+      "Represents the shortest distance between two points on the Earth's surface",
+      "The equator is a great circle",
+      "All meridians of longitude are great circles",
+      "Great circle tracks appear curved on Mercator charts"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.2.2(b)",
+    "topic": "18.2 \u2014 Form of the Earth",
+    "syllabus_desc": "Define and identify, on a diagram of the earth: small circles.",
+    "concept": "A small circle is any circle on the Earth's surface whose plane does NOT pass through the centre of the Earth. All parallels of latitude except the equator are small circles. The further from the equator, the smaller the circle. Small circles do not represent the shortest distance between two points \u2014 that distinction belongs to great circles. When you're flying along a constant latitude, you're following a small circle.",
+    "exam_tip": "Small circle = plane does NOT pass through Earth's centre. All parallels of latitude (except the equator) are small circles.",
+    "key_facts": [
+      "Small circle plane does not pass through the centre of the Earth",
+      "All parallels of latitude except the equator are small circles",
+      "Small circles get smaller as latitude increases toward the poles",
+      "Flying along a constant latitude means following a small circle",
+      "Not the shortest distance between two points"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.2.2(c)",
+    "topic": "18.2 \u2014 Form of the Earth",
+    "syllabus_desc": "Define and identify, on a diagram of the earth: rhumb lines.",
+    "concept": "A rhumb line (also called a loxodrome) is a line that crosses every meridian at the same angle. That means if you fly a constant compass heading, you're following a rhumb line. It's convenient for navigation because you don't have to keep adjusting your heading \u2014 but it's not the shortest route between two points (except along the equator or along a meridian). On a Mercator chart, rhumb lines appear as straight lines, which is one reason Mercator charts are so useful for navigation plotting.",
+    "exam_tip": "Rhumb line = crosses every meridian at the same angle. Constant compass heading. Appears as a straight line on a Mercator chart. Not the shortest distance (except equator/meridians).",
+    "key_facts": [
+      "Rhumb line crosses every meridian at the same constant angle",
+      "Flying a constant compass heading traces a rhumb line",
+      "Appears as a straight line on a Mercator chart",
+      "Not the shortest distance between two points (except along equator or a meridian)",
+      "Also called a loxodrome"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.2.2(d)",
+    "topic": "18.2 \u2014 Form of the Earth",
+    "syllabus_desc": "Define and identify, on a diagram of the earth: parallels of latitude.",
+    "concept": "Parallels of latitude are imaginary east-west circles running around the Earth, parallel to the equator. They're measured in degrees north or south from 0\u00b0 at the equator to 90\u00b0 at the poles. New Zealand sits between roughly 34\u00b0S and 47\u00b0S. Every point on a given parallel shares the same latitude. They're all small circles (except the equator). One degree of latitude equals approximately 60 nautical miles everywhere on Earth, which makes latitude a convenient measure of distance.",
+    "exam_tip": "Parallels of latitude: east-west, 0\u00b0 to 90\u00b0 N or S. All are small circles except the equator. 1\u00b0 latitude \u2248 60 nm.",
+    "key_facts": [
+      "Parallels of latitude run east-west, parallel to the equator",
+      "Measured 0\u00b0 (equator) to 90\u00b0 (poles)",
+      "All parallels except the equator are small circles",
+      "1 degree of latitude = approximately 60 nautical miles",
+      "New Zealand spans approximately 34\u00b0S to 47\u00b0S"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.2.2(e)",
+    "topic": "18.2 \u2014 Form of the Earth",
+    "syllabus_desc": "Define and identify, on a diagram of the earth: meridians of longitude.",
+    "concept": "Meridians of longitude are imaginary semi-circles running from the North Pole to the South Pole. Each meridian is half a great circle. They measure east-west position from 0\u00b0 at the Prime Meridian to 180\u00b0 east or west. New Zealand sits between roughly 166\u00b0E and 178\u00b0E. Unlike parallels, meridians converge at the poles, which creates complications for chart projections. The spacing between meridians in nautical miles varies with latitude \u2014 at the equator 1\u00b0 of longitude is about 60 nm, at 45\u00b0S it's roughly 42 nm.",
+    "exam_tip": "Meridians: north-south semi-circles, 0\u00b0 to 180\u00b0 E or W. All are great circles (each pair of opposite meridians forms a complete great circle). They converge at the poles.",
+    "key_facts": [
+      "Meridians run from North Pole to South Pole (semi-circles)",
+      "Measured 0\u00b0 to 180\u00b0 east or west of the Prime Meridian",
+      "Each meridian forms half a great circle with its anti-meridian",
+      "Meridians converge at the poles",
+      "Distance per degree of longitude decreases with increasing latitude"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.2.2(f)",
+    "topic": "18.2 \u2014 Form of the Earth",
+    "syllabus_desc": "Define and identify, on a diagram of the earth: Greenwich (Prime) Meridian.",
+    "concept": "The Greenwich (Prime) Meridian is the meridian defined as 0\u00b0 longitude. It runs through the Royal Observatory at Greenwich, England, and was established by international agreement as the reference point for measuring longitude east and west. The anti-meridian \u2014 180\u00b0 \u2014 runs through the Pacific Ocean and forms the basis of the International Date Line. New Zealand is at roughly 167-178\u00b0E, so we're a long way east of Greenwich but just west of 180\u00b0.",
+    "exam_tip": "Prime Meridian = 0\u00b0 longitude, runs through Greenwich, England. All longitude measured east or west from this reference.",
+    "key_facts": [
+      "The Prime Meridian is defined as 0\u00b0 longitude",
+      "Passes through the Royal Observatory, Greenwich, England",
+      "Established by international agreement as the longitude reference",
+      "Its anti-meridian (180\u00b0) forms the basis of the International Date Line",
+      "New Zealand is approximately 167\u2013178\u00b0E longitude"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.4.2(a)",
+    "topic": "18.4 \u2014 Direction on the Earth",
+    "syllabus_desc": "Define: relative bearing.",
+    "concept": "Relative bearing is measured from the aircraft's nose (000\u00b0 relative) clockwise to the object. So an object directly ahead is 000\u00b0 relative, one directly to the right is 090\u00b0 relative, directly behind is 180\u00b0 relative, and to the left is 270\u00b0 relative. Relative bearings don't care about magnetic north \u2014 they're purely about where something is relative to where you're pointed. ADF needles display relative bearing to the NDB. To convert to a magnetic bearing, you add the relative bearing to the aircraft's magnetic heading (and subtract 360\u00b0 if the result exceeds 360\u00b0).",
+    "exam_tip": "Relative bearing: measured from the nose of the aircraft (000\u00b0) clockwise to the object. Formula: QDM = RB + MH (subtract 360 if needed).",
+    "key_facts": [
+      "Relative bearing measured clockwise from the aircraft's nose (000\u00b0)",
+      "000\u00b0 relative = directly ahead; 090\u00b0 = right; 180\u00b0 = behind; 270\u00b0 = left",
+      "Independent of magnetic north \u2014 referenced to the aircraft heading",
+      "ADF needle shows relative bearing to the NDB",
+      "Magnetic bearing = relative bearing + magnetic heading (mod 360\u00b0)"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.4.2(b)",
+    "topic": "18.4 \u2014 Direction on the Earth",
+    "syllabus_desc": "Define: back bearing.",
+    "concept": "A back bearing is simply the reciprocal of a bearing \u2014 exactly 180\u00b0 different. If an NDB bears 045\u00b0 from you, the back bearing is 225\u00b0. In practical navigation, back bearings are useful to confirm you've passed a turning point, or to track back along a known track to re-establish position. If you know your track to a station, the back bearing tells you where the station is behind you. Quick mental maths: if the bearing is less than 180\u00b0, add 180\u00b0; if it's 180\u00b0 or more, subtract 180\u00b0.",
+    "exam_tip": "Back bearing = bearing + 180\u00b0 (or \u2212 180\u00b0 if result >360\u00b0). It's the reciprocal direction, pointing back to where you came from.",
+    "key_facts": [
+      "Back bearing is exactly 180\u00b0 different from the original bearing",
+      "If bearing < 180\u00b0: back bearing = bearing + 180\u00b0",
+      "If bearing \u2265 180\u00b0: back bearing = bearing \u2212 180\u00b0",
+      "Used to confirm passage of a fix or waypoint",
+      "Useful for position re-establishment when lost or uncertain"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.4.4",
+    "topic": "18.4 \u2014 Direction on the Earth",
+    "syllabus_desc": "Explain the processes, cautions and limitations when deriving track distances and bearings from a chart.",
+    "concept": "Measuring tracks and distances from a chart sounds straightforward, but there are pitfalls. On a Lambert's conformal chart (like the NZ VNC), straight lines are approximately great circles and bearings should be measured at the mid-meridian of the track, not at the start or end. On a Mercator chart, straight lines are rhumb lines and bearings can be measured anywhere along the line. Chart scale affects distance accuracy \u2014 use the latitude scale on the sides of the chart for distance, not a fixed ruler. Magnetic variation must be applied to convert true tracks to magnetic. For long tracks on a Lambert's chart, the angular convergence between meridians can introduce errors if you measure the bearing at the wrong point.",
+    "exam_tip": "On Lambert's charts: measure bearing at the mid-meridian. On Mercator charts: measure bearing anywhere along the line. Always apply magnetic variation. Use the latitude scale for distance.",
+    "key_facts": [
+      "On Lambert's conformal charts, measure track bearing at the mid-meridian of the route",
+      "On Mercator charts, straight lines are rhumb lines \u2014 bearing can be measured anywhere",
+      "Use the latitude scale (not a fixed ruler) for distance measurement",
+      "Apply magnetic variation to convert true bearing to magnetic track",
+      "Meridian convergence on Lambert's charts affects bearing accuracy over long tracks"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ GEN 3.2",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.6.2",
+    "topic": "18.6 \u2014 Distance on the Earth",
+    "syllabus_desc": "Define the various units of distance used in aviation and the application of each.",
+    "concept": "Aviation uses a mix of distance units depending on the context. The nautical mile (nm) is the primary unit for navigation \u2014 it's defined as 1 minute of arc of a great circle (approximately 1,852 metres or 6,076 feet). Its link to latitude makes it especially convenient. The statute mile (sm) is still used in some contexts, particularly in US weather reports (1 sm = 1,609 m). The kilometre (km) appears in some met reports and is the standard unit in some countries. Runway lengths and altitudes are given in feet in NZ. When planning in NZ, you're working in nautical miles and feet almost exclusively.",
+    "exam_tip": "Nautical mile = 1 minute of arc on a great circle = 1,852 m = 6,076 ft. Statute mile = 1,609 m. 1 nm = 1.15 sm. NZ navigation uses nm and feet.",
+    "key_facts": [
+      "Nautical mile (nm): 1 minute of arc on a great circle = 1,852 metres = 6,076 feet",
+      "Statute mile (sm): 1,609 metres; used in US weather reports",
+      "Kilometre (km): 1,000 metres; used in some international met products",
+      "1 nm = 1.852 km = 1.15 sm",
+      "NZ navigation primarily uses nautical miles and feet"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.6.4",
+    "topic": "18.6 \u2014 Distance on the Earth",
+    "syllabus_desc": "Measure distances up to 1000nm (\u00b1 1%) on an appropriate chart.",
+    "concept": "To measure distance on an aeronautical chart, use the latitude scale along the side of the chart \u2014 not a ruler with fixed units, because charts have scale variations across their area. One degree of latitude = 60 nm everywhere on Earth, so each minute of latitude = 1 nm. For the VNC (1:500,000 scale), you can also use the scale bar printed on the chart. For longer distances, step along the route using dividers, comparing against the latitude scale at approximately the same latitude as the segment you're measuring. Don't use the longitude scale \u2014 the spacing between meridians varies with latitude and won't give accurate distances.",
+    "exam_tip": "Use the latitude scale (sides of the chart) for distance measurement. 1 minute of latitude = 1 nm. Don't use the longitude scale.",
+    "key_facts": [
+      "Use the latitude scale on the side of the chart for distance measurement",
+      "1 minute of latitude = 1 nm; 1 degree of latitude = 60 nm",
+      "For the VNC (1:500,000), scale bar is also available",
+      "Step along routes with dividers for long distances",
+      "Never use the longitude scale for distance \u2014 spacing varies with latitude"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.8.2(a)",
+    "topic": "18.8 \u2014 Speed and Velocity",
+    "syllabus_desc": "Define: a knot (kt).",
+    "concept": "A knot is a unit of speed equal to one nautical mile per hour. It's the standard speed unit in aviation and maritime navigation. So if you're doing 120 kt, you're covering 120 nm every hour. The name comes from old sailing days when speed was measured by counting knots on a rope trailed behind the ship. There's no need to say 'knots per hour' \u2014 knots already means nautical miles per hour. A knot is approximately 1.15 miles per hour or 1.85 km/h.",
+    "exam_tip": "Knot = 1 nautical mile per hour. Standard aviation speed unit. Never say 'knots per hour' \u2014 it's redundant.",
+    "key_facts": [
+      "1 knot = 1 nautical mile per hour",
+      "Standard speed unit in aviation and maritime navigation",
+      "1 kt = 1.852 km/h = 1.15 mph",
+      "Used for airspeed, groundspeed, and wind speed in aviation",
+      "Named after the rope-knot method of measuring ship speed"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.8.2(b)",
+    "topic": "18.8 \u2014 Speed and Velocity",
+    "syllabus_desc": "Define: ground speed (GS).",
+    "concept": "Groundspeed is the actual speed of the aircraft relative to the ground. It's what determines how long it takes to get somewhere. GS is TAS modified by the wind component along the track \u2014 a headwind reduces GS below TAS, a tailwind increases it above TAS. Flying from Ardmore to Hamilton with a 30 kt headwind at TAS 110 kt gives you a GS of 80 kt. That's what goes on your flight log for time calculations. GPS units display groundspeed directly.",
+    "exam_tip": "GS = actual speed over the ground. GS = TAS \u00b1 wind component. Headwind reduces GS; tailwind increases GS. Used for EET/ETA calculations.",
+    "key_facts": [
+      "Groundspeed is the aircraft's speed relative to the Earth's surface",
+      "GS = TAS + tailwind component (or \u2212 headwind component)",
+      "Used to calculate estimated elapsed time (EET) and ETA",
+      "GPS displays groundspeed directly",
+      "Headwind: GS < TAS; tailwind: GS > TAS"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.8.2(c)",
+    "topic": "18.8 \u2014 Speed and Velocity",
+    "syllabus_desc": "Define: indicated airspeed (IAS).",
+    "concept": "Indicated airspeed (IAS) is what the airspeed indicator (ASI) shows \u2014 it's derived from dynamic pressure (the difference between pitot and static pressure). In standard sea-level conditions, IAS equals calibrated airspeed equals true airspeed. In reality though, IAS contains instrument errors and position errors, and as you climb into thinner air, IAS reads progressively lower than your actual speed through the air. The aircraft's handling characteristics (stall speed, Vne, Vx, Vy) are given in IAS because they depend on aerodynamic forces, not TAS.",
+    "exam_tip": "IAS = what the ASI reads. Derived from pitot-static pressure difference. Aircraft performance limits (Vne, Vs) are expressed in IAS.",
+    "key_facts": [
+      "IAS is the reading displayed on the airspeed indicator",
+      "Derived from the difference between pitot (dynamic) and static pressure",
+      "Equals CAS equals TAS only at sea level in standard conditions",
+      "Decreases relative to TAS as altitude increases (air density decreases)",
+      "Aircraft performance speeds (Vne, Vs, Vx, Vy) are defined in IAS"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.8.2(d)",
+    "topic": "18.8 \u2014 Speed and Velocity",
+    "syllabus_desc": "Define: calibrated airspeed (CAS).",
+    "concept": "Calibrated airspeed (CAS) is IAS corrected for instrument error and position error (the error introduced by the location of the static port in the aircraft's pressure field). Position error varies with flap setting and angle of attack \u2014 it can be significant at low speeds or high angles of attack. The correction is published in the aircraft's flight manual as a calibration table. CAS is then the starting point for converting to true airspeed. At low altitudes and moderate speeds, the difference between IAS and CAS is usually small, but at slow speeds or with flaps extended it can be a few knots.",
+    "exam_tip": "CAS = IAS corrected for instrument and position error. Found using the POH/AFM calibration table. CAS is the intermediate step between IAS and TAS.",
+    "key_facts": [
+      "CAS = IAS corrected for instrument error and position (static port) error",
+      "Position error varies with speed, configuration, and angle of attack",
+      "Calibration tables in the AFM/POH convert IAS to CAS",
+      "CAS is the starting point for computing TAS",
+      "At cruise speeds and low altitudes, IAS \u2248 CAS"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.8.2(e)",
+    "topic": "18.8 \u2014 Speed and Velocity",
+    "syllabus_desc": "Define: equivalent airspeed (EAS).",
+    "concept": "Equivalent airspeed (EAS) is CAS corrected for compressibility effects. At high speeds (above about 200\u2013250 kt) and high altitudes, the air in front of the pitot tube gets compressed before it can be measured, which causes the ASI to read slightly high. EAS corrects for this. At the speeds and altitudes relevant to CPL training on light aircraft, the compressibility correction is negligible \u2014 EAS \u2248 CAS. EAS becomes important in high-speed, high-altitude operations like jets. It's included in the CPL syllabus for completeness and exam purposes.",
+    "exam_tip": "EAS = CAS corrected for compressibility. Significant at high speeds/altitudes. For light aircraft CPL operations, EAS \u2248 CAS.",
+    "key_facts": [
+      "EAS = CAS corrected for compressibility error",
+      "Compressibility error occurs at high speeds due to air compression at the pitot tube",
+      "EAS is always equal to or less than CAS",
+      "For light aircraft operations, compressibility correction is negligible",
+      "EAS is significant for high-performance aircraft at high altitude"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.8.2(f)",
+    "topic": "18.8 \u2014 Speed and Velocity",
+    "syllabus_desc": "Define: true airspeed (TAS).",
+    "concept": "True airspeed (TAS) is the aircraft's actual speed through the air mass. It's EAS (or CAS for practical purposes) corrected for air density. As you climb, air density decreases, so the same dynamic pressure represents a higher actual speed through the thinner air. As a rough rule, TAS increases by about 2% per 1,000 ft of altitude above sea level. At 8,000 ft, you might show 110 kt IAS but your TAS is closer to 125 kt. TAS is what you use in the triangle of velocities to calculate groundspeed and heading.",
+    "exam_tip": "TAS = actual speed through the air mass. TAS > IAS at altitude. Increases approximately 2% per 1,000 ft. Used in triangle of velocities calculations.",
+    "key_facts": [
+      "TAS is the aircraft's actual speed through the air mass",
+      "TAS = EAS (CAS) corrected for air density",
+      "TAS increases with altitude as air density decreases",
+      "Rough rule: TAS increases approximately 2% per 1,000 ft above sea level",
+      "TAS is the airspeed used in triangle of velocity calculations"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.8.4",
+    "topic": "18.8 \u2014 Speed and Velocity",
+    "syllabus_desc": "Explain how TAS is affected by changes in pressure altitude, air temperature and air density.",
+    "concept": "TAS is all about air density, and density is affected by both pressure altitude and temperature. Higher pressure altitude means lower air pressure, which means lower density. Higher temperature also means lower density (hot air expands). Both reduce density, and lower density means higher TAS for the same IAS. The relationship is captured by density altitude \u2014 the altitude in the ISA that has the same density as your actual conditions. On a hot day at Christchurch (elevation 37 ft), the density altitude can easily be 3,000\u20134,000 ft, meaning your TAS is noticeably higher than your IAS even at low altitude. You compute TAS using the circular slide rule or the E6-B: set pressure altitude against temperature and read off the TAS correction.",
+    "exam_tip": "Higher pressure altitude = lower density = higher TAS. Higher temperature = lower density = higher TAS. Both effects reduce density and increase TAS relative to IAS.",
+    "key_facts": [
+      "TAS increases with increasing pressure altitude (lower air pressure = lower density)",
+      "TAS increases with increasing temperature (lower density at higher temperatures)",
+      "Lower density = higher TAS for the same IAS/CAS",
+      "TAS is calculated using pressure altitude and OAT on the navigation computer",
+      "Density altitude combines both effects and is the key concept"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.8.6",
+    "topic": "18.8 \u2014 Speed and Velocity",
+    "syllabus_desc": "State the speed provided by a GNSS and inertial system.",
+    "concept": "A GNSS (GPS) receiver calculates groundspeed \u2014 your speed relative to the Earth's surface. It does this by measuring Doppler shift or tracking position changes over time. This is not TAS and not IAS. It's useful for navigation calculations but doesn't replace the ASI for aircraft performance purposes. An inertial navigation system (INS) also provides groundspeed, derived from integrating acceleration measurements over time. Both are independent of pitot-static systems and remain useful if the pitot or static ports are blocked.",
+    "exam_tip": "GNSS/GPS and inertial systems provide groundspeed (speed relative to Earth). NOT TAS or IAS. Independent of pitot-static system.",
+    "key_facts": [
+      "GPS/GNSS provides groundspeed, not airspeed",
+      "Groundspeed from GPS = aircraft's speed relative to the Earth's surface",
+      "Inertial systems also provide groundspeed, derived from acceleration integration",
+      "Both are independent of the pitot-static system",
+      "GPS groundspeed cannot replace ASI for aircraft performance monitoring"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.10.2",
+    "topic": "18.10 \u2014 Position Referencing",
+    "syllabus_desc": "Define a waypoint (WPT).",
+    "concept": "A waypoint is a defined geographical position used for navigation purposes. It can be an NDB or VOR location, an aerodrome, a reporting point defined in the AIP NZ, or a user-defined lat/long coordinate entered into a GPS. Waypoints are the building blocks of any GPS route, and they appear on flight plans, ATC clearances, and flight logs. On an NZ VFR cross-country, your waypoints might be Ardmore, then a defined VFR reporting point, then Hamilton. In modern GPS units, each waypoint stores a lat/long, and the GPS navigates between them sequentially.",
+    "exam_tip": "Waypoint = defined geographical position used for navigation. Can be a navaid, aerodrome, reporting point, or lat/long coordinate. Foundation of GPS route navigation.",
+    "key_facts": [
+      "A waypoint is a defined geographical position used for navigation",
+      "Can be a navaid, aerodrome, VFR reporting point, or lat/long coordinate",
+      "Stored in GPS units as latitude/longitude coordinates",
+      "Used to build GPS routes and flight plans",
+      "AIP NZ defines official VFR reporting points and their coordinates"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ GEN",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.10.4(a)",
+    "topic": "18.10 \u2014 Position Referencing",
+    "syllabus_desc": "Describe and apply the following position reference methods: place/bearing/distance.",
+    "concept": "Place/bearing/distance locates a position by stating a reference point, then a magnetic bearing FROM that point, and then a distance. For example: 'Ardmore VOR 045\u00b0M 20 nm' puts you northeast of Ardmore. This method is commonly used in ATC position reports and in flight planning when defining waypoints relative to a known navaid. It's also how NDB position fixes work: you take a bearing from the NDB and measure a distance to get a fix. On your chart, you draw a line from the reference point along the specified bearing and mark off the distance.",
+    "exam_tip": "Place/bearing/distance: reference point + magnetic bearing FROM the point + distance. E.g., 'Ardmore 045\u00b0M 20 nm'. Used in ATC reports and flight planning.",
+    "key_facts": [
+      "Format: place name + magnetic bearing FROM that place + distance",
+      "Example: 'Hamilton 270\u00b0M 15 nm' puts the position 15 nm west of Hamilton",
+      "Bearing is FROM the reference point, not TO it",
+      "Used in ATC position reports and flight plan waypoint definitions",
+      "Apply on chart by drawing the bearing line from the reference and marking off distance"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ GEN 3.4",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.10.4(b)",
+    "topic": "18.10 \u2014 Position Referencing",
+    "syllabus_desc": "Describe and apply the following position reference methods: latitude and longitude.",
+    "concept": "Latitude and longitude give an unambiguous position anywhere on Earth using the geographic coordinate system. Latitude is given first (north or south of the equator), then longitude (east or west of the Prime Meridian). Each degree is divided into 60 minutes, and each minute into 60 seconds (or decimal minutes). GPS units work in lat/long and it's the universal position reference for flight planning and ATC. When a GPS unit asks you to enter a waypoint, you're usually entering a lat/long. Being able to plot and read lat/long to 0.5 minute accuracy on an aeronautical chart is an exam requirement.",
+    "exam_tip": "Latitude first (N/S), longitude second (E/W). 1 degree = 60 minutes. 1 minute of latitude = 1 nm. GPS uses lat/long for all position calculations.",
+    "key_facts": [
+      "Format: latitude (N/S) then longitude (E/W)",
+      "Each degree divided into 60 minutes; each minute into 60 seconds",
+      "1 minute of latitude = 1 nm",
+      "GPS units use lat/long as the fundamental position reference",
+      "NZ charts allow lat/long to be read to 0.5 minute accuracy"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.10.4(c)",
+    "topic": "18.10 \u2014 Position Referencing",
+    "syllabus_desc": "Describe and apply the following position reference methods: earth based navigation aids.",
+    "concept": "Earth-based navaids \u2014 NDBs and VORs \u2014 provide position reference through bearings and (for VOR/DME) distances. From an NDB, you get a magnetic bearing to or from the station using an ADF. Two NDB bearings from different stations give a position fix. A VOR radial tells you which magnetic bearing FROM the VOR you're on. Combine a VOR radial with a DME distance and you get a position fix from a single station \u2014 a rho-theta fix. In NZ, navaids are charted on the VNC with their identifiers and frequencies. NDBs remain common at regional aerodromes. Position fixes from navaids are less precise than GPS but independent of satellite availability.",
+    "exam_tip": "NDB: gives bearing (ADF). VOR: gives radial (bearing FROM the VOR). VOR/DME: radial + distance = single-station fix. Two NDB bearings = cross-fix.",
+    "key_facts": [
+      "NDB provides magnetic bearing to/from the station via ADF",
+      "Two NDB bearings from different stations = position cross-fix",
+      "VOR radial = magnetic bearing FROM the VOR station",
+      "VOR + DME: radial and distance give a single-station fix (rho-theta)",
+      "Navaid fixes are less precise than GPS but satellite-independent"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ ENR 4",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.10.6",
+    "topic": "18.10 \u2014 Position Referencing",
+    "syllabus_desc": "Plot and reference a position (\u00b1 0.5 of a minute) on a current published New Zealand Aeronautical Chart.",
+    "concept": "The NZ VNC has latitude and longitude graticules with tick marks at regular intervals. To plot a lat/long position, you interpolate between the grid lines using dividers or a ruler. The required accuracy is \u00b1 0.5 minute, which at 1 nm per minute of latitude means \u00b1 0.5 nm. To reference a position (read off the chart), use the graticule ticks along the chart border and interpolate. Always cross-check your plotted position against obvious geographic features shown on the chart \u2014 if your lat/long puts you in the middle of the Tasman Sea when you expect to be inland, recheck the coordinates.",
+    "exam_tip": "Required accuracy: \u00b1 0.5 minute of latitude or longitude. Interpolate between grid lines using the chart graticule. 0.5 min \u2248 0.5 nm.",
+    "key_facts": [
+      "Required plotting accuracy: \u00b1 0.5 minute of latitude/longitude",
+      "0.5 minute of latitude = approximately 0.5 nm",
+      "Use the chart graticule (latitude/longitude grid) and interpolate",
+      "Cross-check plotted positions against chart features",
+      "Use current NZ VNC or VPC charts for accurate plotting"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ GEN 3.2",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.10.8(a)",
+    "topic": "18.10 \u2014 Position Referencing",
+    "syllabus_desc": "Locate a position on a chart: from an NDB given magnetic direction to and distance from.",
+    "concept": "To locate a position from an NDB given magnetic direction TO the station and distance FROM the station: first, find the NDB on the chart. The direction given is TO the NDB \u2014 so the position is in the OPPOSITE direction. Plot the reciprocal bearing from the NDB and measure out the distance. Example: you're given 'Hamilton NDB, bearing 045\u00b0M to station, 25 nm'. The position is on the 225\u00b0 radial (045\u00b0 + 180\u00b0) from Hamilton at 25 nm. Mark a line from the NDB at 225\u00b0M and measure 25 nm along it. That's where you are. Double-check by applying variation to get a true bearing if you're plotting on a true-north chart.",
+    "exam_tip": "NDB position fix: the bearing given is TO the station, so plot the RECIPROCAL from the NDB. Reciprocal = bearing + 180\u00b0 (or \u2212 180\u00b0). Then measure the distance.",
+    "key_facts": [
+      "The bearing given is the magnetic direction TO the NDB (from the aircraft)",
+      "To plot on the chart, use the reciprocal bearing FROM the NDB",
+      "Reciprocal = given bearing \u00b1 180\u00b0",
+      "Measure the specified distance from the NDB along the reciprocal bearing",
+      "Apply magnetic variation if plotting on a true-north chart"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.10.8(b)",
+    "topic": "18.10 \u2014 Position Referencing",
+    "syllabus_desc": "Locate a position on a chart: from a VOR given radial and DME distance.",
+    "concept": "A VOR radial is the magnetic bearing FROM the VOR station. So if your CDI indicates you're on the 315\u00b0 radial, you're positioned somewhere on a line extending 315\u00b0M from the VOR. The DME distance pins down exactly where on that line you are. To plot: find the VOR on the chart, draw a line along the 315\u00b0 radial (apply variation to get true bearing for plotting), and measure the DME distance along it. That intersection is your position \u2014 a rho-theta fix. This is one of the cleaner single-station fixes available without GPS. If your DME reads 18 nm on the 315\u00b0 radial of the Tauranga VOR, you can pinpoint your position precisely.",
+    "exam_tip": "VOR radial = bearing FROM the VOR. Plot that bearing from the VOR on the chart, measure DME distance along it. That's your position (rho-theta fix).",
+    "key_facts": [
+      "VOR radial = magnetic bearing FROM the VOR station",
+      "DME distance = slant range to the VOR (approximately equivalent to ground distance at cruise altitudes)",
+      "Plot the radial from the VOR and measure the DME distance along it",
+      "This gives a single-station rho-theta position fix",
+      "Apply magnetic variation to convert radial to true bearing for chart plotting"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ ENR 4.1",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.12.2(a)",
+    "topic": "18.12 \u2014 Altimetry",
+    "syllabus_desc": "Define: indicated altitude.",
+    "concept": "Indicated altitude is what your altimeter displays when it's set to the local QNH. It's the altitude above mean sea level (AMSL) as indicated by the instrument, uncorrected for temperature or pressure errors. In standard conditions, indicated altitude equals true altitude. In non-standard conditions \u2014 a cold day at Queenstown, for example \u2014 the indicated altitude will be higher than your actual altitude above sea level. For ATC separation purposes, indicated altitude is what matters \u2014 it's what everyone's using, so errors are consistent across aircraft.",
+    "exam_tip": "Indicated altitude = what the altimeter reads with QNH set. Altitude AMSL, uncorrected for temperature. What ATC uses for separation.",
+    "key_facts": [
+      "Indicated altitude is the altimeter reading with QNH set",
+      "Expressed in feet AMSL",
+      "Not corrected for non-standard temperature or pressure",
+      "Equals true altitude only in ISA standard conditions",
+      "Used by ATC for traffic separation"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ GEN 2.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.12.2(b)",
+    "topic": "18.12 \u2014 Altimetry",
+    "syllabus_desc": "Define: true altitude.",
+    "concept": "True altitude is the actual height of the aircraft above mean sea level. It differs from indicated altitude when temperature deviates from ISA standard. On a cold day, air is denser and compressed into a smaller volume \u2014 the altimeter doesn't know this and overreads. So your true altitude is LOWER than indicated ('high to low, look out below'). On a hot day, it's the opposite. This matters a lot when flying close to terrain in cold temperatures \u2014 your actual clearance could be less than your altimeter suggests. Mountain flying in NZ winter demands awareness of this effect.",
+    "exam_tip": "True altitude = actual height AMSL. On cold days, true altitude < indicated altitude ('high to low, look out below'). On hot days, true altitude > indicated.",
+    "key_facts": [
+      "True altitude = actual height above mean sea level",
+      "Differs from indicated altitude in non-standard temperature conditions",
+      "Cold air: true altitude < indicated altitude (dangerous near terrain)",
+      "Hot air: true altitude > indicated altitude",
+      "Mnemonic: 'High to low, look out below' \u2014 flying from high to low pressure reduces true altitude"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.12.2(c)",
+    "topic": "18.12 \u2014 Altimetry",
+    "syllabus_desc": "Define: pressure altitude (PA).",
+    "concept": "Pressure altitude is the altitude in the ISA standard atmosphere that corresponds to the actual atmospheric pressure at your location. It's what you get when you set the altimeter subscale to 1013.25 hPa (the ISA standard sea-level pressure). Pressure altitude is used for calculating TAS, density altitude, and transponder reporting when above the transition level. It's also the basis for flight levels. Every aircraft operating in RVSM airspace uses pressure altitude referenced to 1013.25 hPa, which is why all aircraft in high-level airspace have the same reference and can be safely separated.",
+    "exam_tip": "Pressure altitude = altimeter reading with 1013.25 hPa set. Used for TAS calculations, transponder codes, and flight levels.",
+    "key_facts": [
+      "Pressure altitude: altimeter reading with subscale set to 1013.25 hPa",
+      "Corresponds to the ISA altitude with equivalent atmospheric pressure",
+      "Used for TAS calculation on the navigation computer",
+      "Basis for flight levels (FL = pressure altitude / 100 ft)",
+      "All aircraft above transition level use the same 1013.25 hPa reference"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ GEN 2.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.12.2(d)",
+    "topic": "18.12 \u2014 Altimetry",
+    "syllabus_desc": "Define: density altitude (DA).",
+    "concept": "Density altitude is the pressure altitude corrected for non-standard temperature. It represents the ISA altitude that has the same air density as your actual conditions. High density altitude means low air density \u2014 the engine produces less power, the propeller and wings generate less lift, and aircraft performance degrades significantly. On a hot, humid day at a high-elevation aerodrome like Queenstown (1,171 ft AMSL), the density altitude can exceed 4,000 ft even though you're only 1,171 ft above sea level. This is why performance calculations use density altitude, not field elevation.",
+    "exam_tip": "Density altitude = pressure altitude corrected for temperature. High DA = low air density = degraded performance. Hot + high = dangerous.",
+    "key_facts": [
+      "Density altitude = pressure altitude corrected for non-standard temperature",
+      "High DA means low air density and degraded aircraft performance",
+      "Increases with rising temperature or rising elevation",
+      "Hot days at high-elevation aerodromes create very high density altitudes",
+      "Used for aircraft performance calculations (takeoff, climb, engine power)"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.12.2(e)",
+    "topic": "18.12 \u2014 Altimetry",
+    "syllabus_desc": "Define: flight level (FL).",
+    "concept": "A flight level is a surface of constant pressure referenced to the standard datum of 1013.25 hPa. FL100 is approximately 10,000 ft on the standard altimeter setting. When ATC assigns you FL080, you set 1013.25 hPa on your subscale and maintain 8,000 ft indicated on that setting. Flight levels remove the confusion of multiple local QNH settings across a long route \u2014 everyone's on the same reference. In NZ, the transition level varies and is published on each chart; below transition, you use QNH, above it you use flight levels.",
+    "exam_tip": "FL = pressure altitude / 100, with 1013.25 hPa set. FL100 \u2248 10,000 ft. Above transition level: set 1013.25 and use FLs. Below: use QNH.",
+    "key_facts": [
+      "Flight level = surface of constant pressure referenced to 1013.25 hPa",
+      "Expressed as hundreds of feet: FL100 = approximately 10,000 ft",
+      "Pilots set 1013.25 hPa on the altimeter subscale when using flight levels",
+      "Used above the transition level in NZ controlled airspace",
+      "Provides common reference for all aircraft regardless of local QNH"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ ENR 1.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.12.2(f)",
+    "topic": "18.12 \u2014 Altimetry",
+    "syllabus_desc": "Define: transition altitude.",
+    "concept": "The transition altitude is the altitude (on QNH) at or below which vertical position is expressed as an altitude in feet AMSL. Below the transition altitude, pilots set and use local QNH. When climbing through the transition altitude, they switch to 1013.25 hPa and begin reporting in flight levels. In NZ, the transition altitude is typically 13,000 ft AMSL (published as 'A130' in AIP NZ), though it can vary at specific locations. This is the level at which the handover from QNH to standard setting occurs on the way up.",
+    "exam_tip": "Transition altitude: altitude (QNH) at/below which you use altitudes (QNH). In NZ, typically 13,000 ft AMSL. Climbing through it: switch to 1013.25.",
+    "key_facts": [
+      "Transition altitude: the altitude at/below which QNH-based altitudes are used",
+      "Expressed in feet AMSL (e.g., A130 = 13,000 ft AMSL in NZ)",
+      "When climbing through transition altitude, set 1013.25 hPa and switch to FLs",
+      "Published in AIP NZ ENR 1.7 and on aeronautical charts",
+      "NZ standard transition altitude is typically 13,000 ft AMSL"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ ENR 1.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.12.2(g)",
+    "topic": "18.12 \u2014 Altimetry",
+    "syllabus_desc": "Define: transition layer.",
+    "concept": "The transition layer is the airspace between the transition altitude and the transition level. It exists because the transition level (the lowest available flight level) varies with QNH \u2014 on a high-pressure day the transition level is lower, on a low-pressure day it's higher. Aircraft climbing through the transition layer will have already set 1013.25 hPa, so they'll be using flight levels. Aircraft descending through it will switch to QNH. No aircraft cruises within the transition layer \u2014 you pass through it either ascending or descending. Its depth varies with QNH.",
+    "exam_tip": "Transition layer = airspace between transition altitude (bottom) and transition level (top). Variable depth. You pass through it \u2014 you don't cruise in it.",
+    "key_facts": [
+      "Transition layer is between the transition altitude and transition level",
+      "Its depth varies with QNH \u2014 thicker on low pressure days",
+      "Aircraft ascending through it use 1013.25 hPa (FLs)",
+      "Aircraft descending through it switch from FLs to QNH",
+      "No cruising within the transition layer"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ ENR 1.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.12.2(h)",
+    "topic": "18.12 \u2014 Altimetry",
+    "syllabus_desc": "Define: transition level.",
+    "concept": "The transition level is the lowest flight level available for use above the transition altitude. It sits at the top of the transition layer. When descending below the transition level, you switch from 1013.25 hPa to the local QNH and begin reporting altitude in feet AMSL. The transition level is dynamic \u2014 it moves up and down with the local QNH. On a high-QNH day, the transition level may be lower; on a low-QNH day, higher. ATC will advise the current transition level, and it's published in the ATIS.",
+    "exam_tip": "Transition level: lowest available FL above the transition altitude. Descending through it: switch from 1013.25 to QNH. Dynamic \u2014 changes with QNH.",
+    "key_facts": [
+      "Transition level: lowest usable flight level above the transition altitude",
+      "Top boundary of the transition layer",
+      "When descending below transition level: set QNH and use altitudes",
+      "Varies with QNH \u2014 published by ATC and in the ATIS",
+      "Expressed as a flight level (e.g., FL140)"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ ENR 1.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.12.2(i)",
+    "topic": "18.12 \u2014 Altimetry",
+    "syllabus_desc": "Define: QNH.",
+    "concept": "QNH is the altimeter setting that, when set, causes the altimeter to read the aerodrome elevation when the aircraft is on the ground. In other words, with QNH set, the altimeter reads altitude AMSL. It's the atmospheric pressure at the aerodrome, reduced to mean sea level using the ISA lapse rate. QNH is the standard setting for VFR flight below the transition altitude. It changes from place to place and over time as weather systems move through, which is why you get an updated QNH from ATIS or ATC on approach. In NZ, QNH is given in hectopascals (hPa).",
+    "exam_tip": "QNH set = altimeter reads altitude AMSL. Standard VFR setting below transition altitude. Given in hPa in NZ. Changes with location and weather.",
+    "key_facts": [
+      "QNH: altimeter setting that causes the altimeter to read altitude AMSL",
+      "With QNH set, altimeter reads aerodrome elevation when on the ground",
+      "Standard setting for VFR operations below transition altitude",
+      "Expressed in hectopascals (hPa) in New Zealand",
+      "Varies with location and weather; obtain from ATIS or ATC"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ GEN 2.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.12.2(j)",
+    "topic": "18.12 \u2014 Altimetry",
+    "syllabus_desc": "Define: QFE.",
+    "concept": "QFE is the altimeter setting that causes the altimeter to read zero when the aircraft is on the ground at the aerodrome reference point. In other words, with QFE set, the altimeter reads height above the aerodrome \u2014 not altitude AMSL. Pilots using QFE see a nice zero on touchdown, which some find useful for circuit flying. QFE is less commonly used in NZ than QNH. If you fly to another aerodrome at a different elevation with QFE still set, the altimeter will not read that aerodrome's elevation correctly. QFE is aerodrome-specific.",
+    "exam_tip": "QFE set = altimeter reads height above the aerodrome (reads zero on the ground). Aerodrome-specific. Less common than QNH in NZ.",
+    "key_facts": [
+      "QFE: altimeter setting that makes the altimeter read zero on the ground at the aerodrome",
+      "With QFE set, altimeter reads height above the aerodrome reference point (AGL)",
+      "Not interchangeable between aerodromes at different elevations",
+      "Less commonly used in NZ; QNH is the standard",
+      "Useful for circuit flying where height above aerodrome is more intuitive"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ GEN 2.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.12.4",
+    "topic": "18.12 \u2014 Altimetry",
+    "syllabus_desc": "Explain and apply the VFR table of cruising levels below and above transition.",
+    "concept": "NZ CAR Part 91 specifies cruising levels for VFR flight to prevent head-on collisions. The rule is based on magnetic track: tracks 000\u00b0M to 179\u00b0M use odd thousands (1,500, 3,500, 5,500 ft etc.); tracks 180\u00b0M to 359\u00b0M use even thousands (2,500, 4,500, 6,500 ft etc.). The extra 500 ft separates VFR from IFR at the same altitude. Above the transition level, flight levels are used on the same east-west principle. This system means that aircraft flying toward each other on opposite tracks are always separated by 500 ft. It's mandated in NZ CAR 91.207 \u2014 not a convention, a legal requirement.",
+    "exam_tip": "000\u00b0M\u2013179\u00b0M: odd thousands + 500 ft (1,500, 3,500...). 180\u00b0M\u2013359\u00b0M: even thousands + 500 ft (2,500, 4,500...). Applies below transition altitude for VFR flight.",
+    "key_facts": [
+      "Tracks 000\u00b0M to 179\u00b0M: cruise at odd thousands + 500 ft (1,500; 3,500; 5,500 ft...)",
+      "Tracks 180\u00b0M to 359\u00b0M: cruise at even thousands + 500 ft (2,500; 4,500; 6,500 ft...)",
+      "The 500 ft offset separates VFR from IFR traffic at the same base altitude",
+      "Above transition level: FL050, FL070... (odd) or FL060, FL080... (even)",
+      "Required under NZ CAR 91.207"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; NZ CAR 91.207",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.12.6",
+    "topic": "18.12 \u2014 Altimetry",
+    "syllabus_desc": "Explain how true and indicated altitudes are affected by changes in air pressure and air temperature.",
+    "concept": "The altimeter measures pressure and converts it to altitude using the ISA model. When actual conditions differ from ISA, indicated and true altitude diverge. Pressure effect: flying from a high-pressure area to a low-pressure area (without updating QNH) causes the altimeter to read higher than your actual altitude \u2014 'high to low, look out below.' Temperature effect: in cold air, the atmosphere is more compressed, so the pressure at a given height is higher than ISA. The altimeter sees this as being at a lower altitude than you actually are \u2014 so true altitude is LESS than indicated in cold conditions. Combined, these effects can be significant in NZ winter mountain flying.",
+    "exam_tip": "Pressure: flying to lower pressure without updating QNH \u2014 altimeter overreads (higher than reality). Temperature: cold air \u2014 altimeter overreads (true altitude less than indicated). Both: true altitude is less than indicated.",
+    "key_facts": [
+      "Flying from high to low pressure without updating QNH: altimeter overreads actual altitude",
+      "Cold temperatures: air is denser, pressure higher at given height, altimeter overreads",
+      "In both cases, true altitude is lower than indicated altitude",
+      "Mnemonic: 'High to low, look out below'",
+      "Critical for terrain clearance in cold/low-pressure conditions in NZ"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.12.8",
+    "topic": "18.12 \u2014 Altimetry",
+    "syllabus_desc": "Explain how true and indicated altitudes are related when using flight levels.",
+    "concept": "When flying on flight levels (1013.25 hPa set), indicated altitude and true altitude diverge based on how actual conditions differ from ISA. If QNH is lower than 1013.25 hPa (which it often is in NZ low-pressure systems), then the flight level is actually lower than the same-numbered altitude in feet AMSL. For example, FL100 is 10,000 ft indicated on 1013.25 \u2014 but if QNH is 990 hPa, the aircraft is actually lower than 10,000 ft AMSL. Temperature non-standard conditions compound this. For IFR separation, this doesn't matter because everyone's on the same reference \u2014 but for terrain clearance in controlled airspace, true altitude is what counts.",
+    "exam_tip": "FL uses 1013.25 hPa. If QNH < 1013.25 hPa, the true altitude is LESS than the FL number suggests. ATC separation is fine (common reference) but terrain clearance is affected.",
+    "key_facts": [
+      "Flight levels use 1013.25 hPa as the universal reference datum",
+      "If actual QNH < 1013.25 hPa, true altitude is lower than the FL reading implies",
+      "Non-standard temperature further affects true altitude from FL reading",
+      "ATC separation relies on FLs \u2014 all aircraft use same reference so errors cancel",
+      "Terrain clearance calculations must account for actual QNH and temperature"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ ENR 1.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  }
+]
