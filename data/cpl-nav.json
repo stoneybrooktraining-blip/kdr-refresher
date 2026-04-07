@@ -700,5 +700,276 @@
     "confidence": "high",
     "verified": false,
     "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.16.2",
+    "topic": "18.16 \u2014 Time",
+    "syllabus_desc": "Define Local Mean Time (LMT).",
+    "concept": "Local Mean Time (LMT) is the time at a specific location based on the position of the mean sun relative to that location's meridian. When the mean sun crosses your meridian, it's noon LMT. LMT differs from UTC by 4 minutes for every degree of longitude \u2014 places to the east are ahead, places to the west are behind. LMT is largely a theoretical concept these days since we use time zones and UTC in practice, but it's the foundation of how time zones are constructed and why NZ standard time (UTC+12) aligns roughly with NZ's position near 180\u00b0E longitude.",
+    "exam_tip": "LMT is based on local longitude. 4 minutes per degree of longitude difference from UTC. East = ahead of UTC; west = behind.",
+    "key_facts": [
+      "LMT is the time based on the sun's position relative to the local meridian",
+      "Noon LMT occurs when the sun crosses the local meridian",
+      "LMT differs from UTC by 4 minutes per degree of longitude",
+      "East of Greenwich = LMT ahead of UTC; west = LMT behind UTC",
+      "NZ at 172.5\u00b0E = approximately UTC+11.5 hrs by LMT (NZST is UTC+12)"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.16.4",
+    "topic": "18.16 \u2014 Time",
+    "syllabus_desc": "Calculate the LMT at a given location.",
+    "concept": "To calculate LMT: take your longitude, convert it to time (4 minutes per degree), then add it to UTC if east, or subtract if west. Example: your location is 174\u00b0E. That's 174 \u00d7 4 = 696 minutes = 11 hours 36 minutes ahead of UTC. So if UTC is 02:00, LMT at 174\u00b0E is 13:36. For positions between degree marks, use minutes of arc (1 minute of arc = 4 seconds of time). The navigation computer (E6-B) has a time conversion scale that can help with this, but the long-hand calculation is testable in the exam.",
+    "exam_tip": "LMT = UTC + (longitude in degrees \u00d7 4 min) for east positions. Subtract for west. 1\u00b0 = 4 min; 15\u00b0 = 1 hour.",
+    "key_facts": [
+      "1 degree of longitude = 4 minutes of time",
+      "15 degrees of longitude = 1 hour of time",
+      "East longitude: LMT = UTC + (lon \u00d7 4 min)",
+      "West longitude: LMT = UTC \u2212 (lon \u00d7 4 min)",
+      "1 minute of arc of longitude = 4 seconds of time"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.16.6",
+    "topic": "18.16 \u2014 Time",
+    "syllabus_desc": "Convert between LMT, UTC, NZST and/or NZDT.",
+    "concept": "New Zealand Standard Time (NZST) is UTC+12. New Zealand Daylight Time (NZDT) is UTC+13, observed in summer (clocks go forward in late September, back in early April \u2014 check the exact dates each year as they shift). So a UTC time of 00:00 is 12:00 NZST or 13:00 NZDT. For aviation operations in NZ, all flight plan times, NOTAM effective times, and METARs/TAFs use UTC. ATC uses UTC. Your local clock might be on NZST or NZDT, so always mentally convert when filing flight plans or reading weather. LMT sits underneath all this: it's not used operationally but you need to be able to convert between it and UTC for the exam.",
+    "exam_tip": "NZST = UTC+12. NZDT = UTC+13. Aviation uses UTC throughout. Convert: NZ local time minus offset = UTC.",
+    "key_facts": [
+      "NZST (New Zealand Standard Time) = UTC+12",
+      "NZDT (New Zealand Daylight Time) = UTC+13 (summer)",
+      "All aviation operations use UTC (flight plans, NOTAMs, weather, ATC)",
+      "To convert NZST to UTC: subtract 12 hours",
+      "To convert NZDT to UTC: subtract 13 hours"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ GEN 2.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.22.2",
+    "topic": "18.22 \u2014 Aeronautical Charts: Properties and Principles",
+    "syllabus_desc": "Explain the difficulties associated with representing a spherical shape on a flat surface.",
+    "concept": "The fundamental problem with chart-making is that you can't flatten a sphere onto a flat surface without distortion. Think of peeling an orange \u2014 you can't lay the peel flat without tearing or distorting it. Depending on the projection method, you're forced to accept some combination of: shape distortion (conformal vs non-conformal), area distortion, distance distortion, or direction distortion. No flat chart can simultaneously preserve all four properties. Chart projections are compromises \u2014 you choose the one whose distortions cause the least operational problems for your intended use.",
+    "exam_tip": "A sphere cannot be flattened without distortion. All chart projections introduce some combination of errors in: shape, area, distance, or direction.",
+    "key_facts": [
+      "A sphere cannot be represented on a flat surface without distortion",
+      "Distortions can affect shape, area, distance, and/or direction",
+      "No single projection preserves all four properties simultaneously",
+      "Different projections sacrifice different properties to preserve others",
+      "Chart selection should match the intended navigation use"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.22.4(a)",
+    "topic": "18.22 \u2014 Aeronautical Charts: Properties and Principles",
+    "syllabus_desc": "Describe the process of creating: a Mercator projection.",
+    "concept": "Imagine placing the Earth inside a cylinder that touches the equator all the way around. Now project every point on the Earth's surface outward onto the cylinder, with the light source at the centre of the Earth. Unroll the cylinder and you have a Mercator chart. Because the cylinder touches at the equator, that's where the scale is most accurate. As you move toward the poles, the spacing between parallels of latitude is increasingly stretched to keep the meridians parallel \u2014 which is why Greenland looks enormous on a Mercator chart. The result is a chart where rhumb lines are straight lines, which is extremely useful for navigation.",
+    "exam_tip": "Mercator: cylindrical projection touching the equator. Meridians are parallel vertical lines. Rhumb lines appear as straight lines. Scale accurate at equator, expands toward poles.",
+    "key_facts": [
+      "Mercator is a cylindrical projection \u2014 the cylinder is tangent to the equator",
+      "Meridians appear as equally spaced parallel vertical lines",
+      "Parallels of latitude appear as horizontal lines with increasing spacing toward the poles",
+      "Rhumb lines appear as straight lines \u2014 navigationally useful",
+      "Scale is accurate at the equator and expands progressively toward the poles"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.22.4(b)",
+    "topic": "18.22 \u2014 Aeronautical Charts: Properties and Principles",
+    "syllabus_desc": "Describe the process of creating: a Lambert's conformal projection.",
+    "concept": "Lambert's conformal projection uses a cone rather than a cylinder. The cone is placed over the Earth so it intersects the Earth's surface along two standard parallels \u2014 the latitudes at which the scale is exact. Between the standard parallels, the scale is slightly contracted; outside them, it expands. The cone is then unrolled flat. Because the cone is conformal (it preserves local angles and shapes), a Lambert's chart is ideal for navigation in mid-latitudes \u2014 which is where New Zealand sits. Great circles appear approximately as straight lines on Lambert's charts for practical navigation distances, which is very useful.",
+    "exam_tip": "Lambert's conformal: conical projection with two standard parallels. Scale exact at standard parallels. Great circles appear approximately straight. Conformal = shape-preserving.",
+    "key_facts": [
+      "Lambert's is a conical conformal projection",
+      "The cone intersects the Earth at two standard parallels",
+      "Scale is exact at the standard parallels; slightly contracted between, expanded outside",
+      "Conformal: local shapes and angles are preserved",
+      "Great circles appear approximately as straight lines \u2014 useful for navigation",
+      "Used for NZ VNC and VPC charts due to NZ's mid-latitude position"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.22.6(a)",
+    "topic": "18.22 \u2014 Aeronautical Charts: Properties and Principles",
+    "syllabus_desc": "List and explain the properties of: a Mercator projection.",
+    "concept": "The Mercator projection has three key properties. First, it's conformal \u2014 meaning shape is preserved locally (small areas look correct). Second, rhumb lines appear as straight lines, making it ideal for plotting constant-heading courses. Third, meridians appear as equally spaced parallel vertical lines and parallels as horizontal lines. The major limitation is that scale varies with latitude \u2014 it's accurate at the equator but increasingly distorted toward the poles, which makes area measurements unreliable at higher latitudes. For NZ (34\u201347\u00b0S), the scale distortion on a Mercator chart is significant enough that the Lambert's projection is preferred for navigation charts.",
+    "exam_tip": "Mercator properties: (1) conformal, (2) rhumb lines are straight, (3) meridians are parallel. Scale expands toward poles \u2014 not suitable for high-latitude nav.",
+    "key_facts": [
+      "Conformal: shapes of small areas are preserved",
+      "Rhumb lines appear as straight lines",
+      "Meridians are equally spaced parallel vertical lines",
+      "Parallels are horizontal, with increasing separation toward the poles",
+      "Scale is not constant \u2014 expands with latitude; areas are distorted at high latitudes"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.22.6(b)",
+    "topic": "18.22 \u2014 Aeronautical Charts: Properties and Principles",
+    "syllabus_desc": "List and explain the properties of: a Lambert's conformal projection.",
+    "concept": "Lambert's conformal projection has four key properties relevant to aviation. First, it's conformal \u2014 shapes and angles are preserved locally, so bearings measured on the chart are accurate. Second, scale is nearly constant across the useful range of the chart (between the standard parallels and a short distance outside them). Third, great circles appear approximately as straight lines \u2014 meaning the shortest route between two points looks like a straight line on the chart. Fourth, meridians converge toward the poles (they're not parallel), which is geometrically correct and means you must measure track bearings at the mid-meridian for accuracy.",
+    "exam_tip": "Lambert's properties: (1) conformal, (2) nearly constant scale, (3) great circles approximately straight, (4) meridians converge. Measure bearing at mid-meridian.",
+    "key_facts": [
+      "Conformal: angles and shapes of small areas preserved",
+      "Scale is nearly constant across the chart's useful latitude range",
+      "Great circles appear approximately as straight lines",
+      "Meridians converge toward the poles (not parallel)",
+      "Track bearings must be measured at the mid-meridian of the route"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.22.8(a)",
+    "topic": "18.22 \u2014 Aeronautical Charts: Properties and Principles",
+    "syllabus_desc": "List and explain the uses of: a Mercator projection.",
+    "concept": "Mercator charts are used where the rhumb line property is most valuable \u2014 ocean navigation, equatorial regions, and plotting constant-heading courses. In aviation, they appear as the base for some IFR plotting charts and world aeronautical charts (WAC) at smaller scales. Because rhumb lines are straight, you can draw a line between two points and read off a constant heading directly. The distortion at higher latitudes limits their usefulness for VFR navigation in NZ, but for understanding wind patterns, SIGMET areas, and large-scale en-route planning, they remain useful reference charts.",
+    "exam_tip": "Mercator used for: ocean/equatorial navigation, constant-heading plotting, world aeronautical charts. Not ideal for mid-to-high latitude VFR nav.",
+    "key_facts": [
+      "Used for ocean navigation where constant headings are required",
+      "Suitable for equatorial regions where scale distortion is minimal",
+      "Used as base for some world aeronautical charts (WAC) and IFR plotting charts",
+      "Useful for plotting rhumb line courses on a straight line",
+      "Not ideal for mid-latitude VFR navigation due to scale distortion"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.22.8(b)",
+    "topic": "18.22 \u2014 Aeronautical Charts: Properties and Principles",
+    "syllabus_desc": "List and explain the uses of: a Lambert's conformal projection.",
+    "concept": "Lambert's conformal projection is the preferred projection for VFR and IFR navigation charts in mid-latitude countries like New Zealand. It's used for the NZ Visual Navigation Charts (VNC) at 1:500,000 scale and the NZ Visual Planning Charts (VPC). Because great circles appear approximately as straight lines, the shortest route between two points can be planned by drawing a straight line and reading off headings at intervals. The nearly constant scale allows distance measurement by stepping dividers along the chart edge latitude scale. NZ sits between 34\u00b0S and 47\u00b0S \u2014 right in the sweet spot for Lambert's accuracy.",
+    "exam_tip": "Lambert's used for: NZ VNC, VPC, and mid-latitude aeronautical charts. Great circles approximately straight, nearly constant scale. The projection for NZ VFR navigation.",
+    "key_facts": [
+      "Used for NZ Visual Navigation Charts (VNC) at 1:500,000 scale",
+      "Used for NZ Visual Planning Charts (VPC)",
+      "Great circles approximately straight \u2014 useful for route planning",
+      "Nearly constant scale allows accurate distance measurement",
+      "Ideal for mid-latitude countries like NZ (34\u00b0S\u201347\u00b0S)"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ GEN 3.2",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.22.8(c)",
+    "topic": "18.22 \u2014 Aeronautical Charts: Properties and Principles",
+    "syllabus_desc": "List and explain the uses of: the various New Zealand aeronautical charts.",
+    "concept": "NZ publishes several aeronautical chart types. The Visual Navigation Chart (VNC) at 1:500,000 is the standard for VFR cross-country navigation \u2014 it shows topography, airspace, navaids, aerodromes, and controlled airspace boundaries. The Visual Planning Chart (VPC) at 1:1,000,000 is used for overall route planning and shows a broader picture of NZ. Terminal Area Charts (TAC) at 1:250,000 cover busy terminal areas like Auckland and Wellington in more detail. The NZ IFR En-Route Charts (H and L series) are used for IFR navigation. The correct chart for CPL VFR cross-country is the VNC; for initial planning, the VPC.",
+    "exam_tip": "VNC (1:500,000) = VFR cross-country nav. VPC (1:1,000,000) = route planning. TAC (1:250,000) = terminal areas. All are Lambert's conformal.",
+    "key_facts": [
+      "Visual Navigation Chart (VNC): 1:500,000 scale, VFR cross-country navigation",
+      "Visual Planning Chart (VPC): 1:1,000,000 scale, initial route planning",
+      "Terminal Area Chart (TAC): 1:250,000 scale, busy terminal areas",
+      "IFR En-Route Charts (H/L series): for IFR navigation",
+      "All NZ aeronautical charts use Lambert's conformal projection"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ GEN 3.2",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.22.8(d)",
+    "topic": "18.22 \u2014 Aeronautical Charts: Properties and Principles",
+    "syllabus_desc": "List and explain the uses of: the aerodrome charts and associated operational data pages.",
+    "concept": "Aerodrome charts show the layout of the aerodrome \u2014 runways, taxiways, aprons, buildings, and any associated approach procedures. In NZ, aerodrome charts are published in AIPNZ Vol 4 (the NZ equivalent of ERSA). Each aerodrome entry includes the aerodrome chart itself, plus operational data: elevation, runway details (dimensions, bearing, surface), circuit direction, radio frequencies, fuelling availability, hours of operation, and any restrictions. For controlled aerodromes, approach and departure charts are also included. Before flying to an unfamiliar aerodrome, read the full entry including any notes and NOTAMs.",
+    "exam_tip": "Aerodrome charts: in AIPNZ Vol 4. Show runway layout, taxiways, aprons. Operational data pages include elevation, runway details, circuit direction, frequencies.",
+    "key_facts": [
+      "Aerodrome charts published in AIPNZ Vol 4 (NZ aerodrome directory)",
+      "Show runway layout, taxiways, aprons, and buildings",
+      "Operational data includes elevation, runway dimensions/bearing/surface/PCN",
+      "Includes circuit direction, radio frequencies, fuel availability, operating hours",
+      "Approach and departure charts provided for controlled/instrument aerodromes"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIPNZ Vol 4",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.26.2(a)",
+    "topic": "18.26 \u2014 Chart Reading",
+    "syllabus_desc": "On the appropriate New Zealand aeronautical charts: interpret the scale, legend, airspace, geographical features and symbols.",
+    "concept": "The NZ VNC is packed with information. The scale (1:500,000) means 1 cm on the chart equals 5 km on the ground \u2014 use the scale bar or latitude scale for actual distances. The legend explains all chart symbols: airspace boundaries use specific line types and colours (Class C is solid blue, Class D is dashed blue, Class G is uncontrolled). Geographical features include terrain shading with spot heights, water features, railways, roads, and populated places. NAVAIDs are shown with their frequencies, identifiers, and morse codes. Airspace classes, altitudes, and frequencies are noted. If in doubt about any symbol, check the chart legend before flight.",
+    "exam_tip": "VNC scale: 1:500,000 (1 cm = 5 km). Use latitude scale for distances. Learn the airspace boundary symbols: Class C = solid blue, Class D = dashed blue.",
+    "key_facts": [
+      "VNC scale: 1:500,000 \u2014 1 cm on chart = 5 km on ground",
+      "Legend interprets all symbols \u2014 refer to it for any unfamiliar markings",
+      "Airspace boundaries use colour and line type: Class C solid blue, Class D dashed blue",
+      "Terrain shading and spot heights indicate terrain elevation",
+      "Navaids shown with identifier, frequency, and morse code"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ GEN 3.2",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.26.2(b)",
+    "topic": "18.26 \u2014 Chart Reading",
+    "syllabus_desc": "On the appropriate New Zealand aeronautical charts: describe the method of indicating relief.",
+    "concept": "On NZ VNC charts, terrain elevation is shown through a combination of layer tinting (colour banding), contour lines, and spot heights. The colour bands go from green (low) through yellow, brown to grey/white for the highest terrain \u2014 a mountain range shows up as a progression of darker colours. Contour lines connect points of equal elevation, with the interval marked in the legend. Spot heights mark the maximum elevation of peaks and other significant terrain features in feet AMSL. The Critical Elevation, the highest terrain in the chart area, is highlighted in bold. For NZ mountain flying, reading terrain relief accurately from the VNC is a core skill.",
+    "exam_tip": "Terrain shown by: layer tinting (colour bands), contour lines, and spot heights (all in feet AMSL). Green = low; darker colours = higher terrain.",
+    "key_facts": [
+      "Layer tinting: colour bands from green (low) to brown/grey (high terrain)",
+      "Contour lines: connect points of equal elevation with contour interval shown in legend",
+      "Spot heights: indicate maximum elevation of peaks and significant terrain in feet AMSL",
+      "Critical Elevation: highest terrain in chart area, shown in bold",
+      "All elevations on NZ charts are in feet AMSL"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ GEN 3.2",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.26.2(c)",
+    "topic": "18.26 \u2014 Chart Reading",
+    "syllabus_desc": "On the appropriate New Zealand aeronautical charts: interpret information from aerodrome charts and associated operational data pages.",
+    "concept": "For each aerodrome, the AIPNZ Vol 4 entry provides a detailed chart showing runway layout with lengths, widths, and bearings. The operational data page alongside it lists: aerodrome elevation and coordinates, runway details (PCN, lighting, surface type), circuit height and direction, traffic service frequency, CTAF/MBZ details, fuel availability, hours of operation, and any notified restrictions. For Ardmore (NZAR), for instance, you'd find the circuit direction for each runway, the CTAF frequency, and the elevation. Before any cross-country, read the destination aerodrome's Vol 4 entry in full \u2014 not just the chart, but the notes too.",
+    "exam_tip": "AIPNZ Vol 4 entry = aerodrome chart (layout, runway bearings/lengths) + operational data (elevation, circuit, frequencies, fuel, hours). Read the full entry including notes.",
+    "key_facts": [
+      "AIPNZ Vol 4 contains aerodrome charts and operational data for all NZ aerodromes",
+      "Aerodrome chart shows runway layout, bearings, dimensions, and apron layout",
+      "Operational data: elevation, runway PCN/surface, circuit direction and height",
+      "CTAF/MBZ frequencies, fuel availability, and operating hours listed",
+      "Notes and restrictions on the data page must be read before flight"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIPNZ Vol 4",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
   }
 ]
