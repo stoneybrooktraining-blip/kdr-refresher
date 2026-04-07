@@ -884,12 +884,13 @@
             // Extract codes: d.d.d, d.d.d(x), d.d(x) formats
             // CPL codes can be 2-segment like 16.6(k); PPL codes are 3-segment like 4.2.4(a)
             // ASPEQ KDRs print codes with a space before the letter: "2.10.6 (d)"
-            const codeRegex = /\b(\d{1,2}\.\d{1,3}(?:\.\d{1,3})?)(?:\s*\(([a-z]{1,4})\))?/g;
+            // Older ASPEQ KDRs (pre-~2022) use dot notation instead of brackets: "18.44.2.i"
+            const codeRegex = /\b(\d{1,2}\.\d{1,3}(?:\.\d{1,3})?)(?:(?:\s*\(([a-z]{1,4})\))|(?:\.([a-z]{1,4})(?=[^.\d]|$)))?/g;
             const found = [];
             let match;
             while ((match = codeRegex.exec(text)) !== null) {
                 const base = match[1];
-                const letter = match[2];
+                const letter = match[2] || match[3]; // group 2 = bracket format, group 3 = dot format
                 // Filter out dates (e.g. 10.02.2026) and years
                 if (/^\d{1,2}\.\d{2}\.\d{4}$/.test(base)) continue;
                 if (/2026|2025|2024/.test(base)) continue;
