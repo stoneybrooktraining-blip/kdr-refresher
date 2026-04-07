@@ -1331,5 +1331,365 @@
     "confidence": "high",
     "verified": false,
     "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.40.2",
+    "topic": "18.40 \u2014 Route Selection",
+    "syllabus_desc": "List the factors to be considered when selecting a VFR cross-country navigation route.",
+    "concept": "Selecting a route isn't just drawing a straight line on the chart. You need to weigh: terrain (avoid high ridges you can't safely cross in the conditions \u2014 the Kaimai Range, the Tararuas, the Southern Alps all demand respect), airspace (avoid Class C/D without a clearance, restricted areas, danger areas), weather (route around forecast cloud or turbulence if possible), forced landing areas (prefer routes with suitable paddocks below \u2014 avoid dense bush or water crossings where no forced landing is possible), navigation aids along the route (VORs, NDBs, or GPS waypoints for position confirmation), aerodrome options en-route for diversions, fuel availability at en-route stops, and regulatory requirements (minimum altitudes over built-up areas, noise abatement at aerodromes).",
+    "exam_tip": "Route selection factors: terrain, airspace, weather, forced landing areas, navaids, diversion aerodromes, fuel, regulatory requirements. All must be considered.",
+    "key_facts": [
+      "Terrain: avoid high terrain that exceeds safe crossing altitude in forecast conditions",
+      "Airspace: avoid restricted/danger areas and Class C/D without clearance",
+      "Weather: route avoids forecast IMC, turbulence, or icing",
+      "Forced landing areas: prefer routes with accessible paddocks below",
+      "Regulatory: comply with minimum safe altitudes, noise abatement, and airspace rules"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; NZ CAR 91.311",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.40.4",
+    "topic": "18.40 \u2014 Route Selection",
+    "syllabus_desc": "List the factors to be considered when selecting altitudes at which to fly in the cruise.",
+    "concept": "Cruise altitude involves balancing several factors: terrain clearance (minimum safe altitude of 1,000 ft above highest obstacle within 3 nm in controlled airspace, or 500 ft clear of terrain outside built-up areas in uncontrolled airspace), cruising levels table (tracks 000\u2013179\u00b0M use odd thousands + 500 ft; tracks 180\u2013359\u00b0M use even thousands + 500 ft), weather (cloud base, forecast turbulence, icing level, temperature), airspace limitations (must stay clear of Class C/D unless cleared), aircraft performance (optimum cruise altitude for TAS and fuel burn), and pilot comfort (hypoxia above 10,000 ft without oxygen).",
+    "exam_tip": "Cruise altitude factors: terrain clearance, VFR cruising levels table, weather (cloud, icing, turbulence), airspace limits, aircraft performance, oxygen requirements above 10,000 ft.",
+    "key_facts": [
+      "Apply the VFR cruising levels table (odd/even thousands + 500 ft based on track)",
+      "Maintain terrain clearance: 500 ft clear of obstacles in open country",
+      "Avoid forecast cloud, turbulence, and icing levels",
+      "Stay below Class C/D ceilings unless cleared",
+      "Consider supplemental oxygen requirement above 10,000 ft (recommended, required above certain altitudes)"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; NZ CAR 91.207, 91.311",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.40.6",
+    "topic": "18.40 \u2014 Route Selection",
+    "syllabus_desc": "List the factors to be considered when selecting alternate routes and destination alternates.",
+    "concept": "A destination alternate is an aerodrome to which you plan to divert if the destination becomes unavailable. When selecting it, consider: its weather forecast (it's no good if it's also forecast to be in cloud), distance and fuel required to reach it, operating hours (it must be open when you'd need to divert), terrain between the destination and the alternate, and available approach procedures. For alternate routes, consider: whether the alternate route avoids the weather causing the diversion, whether it has suitable forced landing options, and whether you have enough fuel. In NZ, the decision to carry alternate fuel is governed by the forecast visibility and cloud base at the destination.",
+    "exam_tip": "Alternate selection factors: weather at alternate (must differ from destination), distance/fuel, operating hours, terrain, approaches available. Alternate route must avoid the same weather.",
+    "key_facts": [
+      "Destination alternate weather must differ from destination (no point if same system)",
+      "Sufficient fuel to reach the alternate after missed approach at destination",
+      "Alternate aerodrome must be within operating hours when diversion would occur",
+      "Consider terrain between destination and alternate",
+      "Alternate must have suitable approach procedure for forecast conditions"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; NZ CAR 91.509",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.42.2(a)",
+    "topic": "18.42 \u2014 Chart Preparation",
+    "syllabus_desc": "Mark the following on a map: departure aerodrome, turning points, and destination aerodrome.",
+    "concept": "Before flight, mark your departure aerodrome, each turning point (TP), and the destination clearly on the chart. Use a small circle or symbol to mark each point. Label them: DEP, TP1, TP2, DEST. Turning points should be identifiable landmarks from the air \u2014 distinctive bends in rivers, towns, reservoirs, road intersections, or coastal features. Avoid turning points that are difficult to identify positively from altitude, particularly in featureless terrain. Mark the ICAO identifier if the turning point is an aerodrome.",
+    "exam_tip": "Mark DEP, TPs, and DEST clearly on the chart. Use identifiable ground features for TPs. Label each point. Keep the chart uncluttered.",
+    "key_facts": [
+      "Mark departure aerodrome (DEP), each turning point (TP1, TP2...), and destination (DEST)",
+      "Turning points should be positively identifiable landmarks from cruise altitude",
+      "Use distinctive features: prominent hills, towns, reservoirs, coastal points, road junctions",
+      "Label each point clearly on the chart",
+      "Include ICAO identifier if a turning point is an aerodrome"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.42.2(b)",
+    "topic": "18.42 \u2014 Chart Preparation",
+    "syllabus_desc": "Mark the following on a map: tracks.",
+    "concept": "Draw the true track between each waypoint as a straight line on the chart. Use a pencil (not pen \u2014 you may need to erase) and a straight edge. Measure the true track bearing at the mid-meridian using a protractor or the chart's compass rose if available. Note the true track on or alongside the track line. On a VNC (Lambert's conformal), a straight line is approximately a great circle, so track measurements at mid-meridian give the most accurate bearing. Label each track with its true (\u00b0T) and magnetic (\u00b0M) values and the distance in nm.",
+    "exam_tip": "Draw straight lines between waypoints. Measure true track at the mid-meridian on Lambert's charts. Label with true and magnetic track, and distance.",
+    "key_facts": [
+      "Draw straight lines between each consecutive waypoint using a pencil and straight edge",
+      "On Lambert's charts, measure the bearing at the mid-meridian of each track segment",
+      "Record both true track (\u00b0T) and magnetic track (\u00b0M = \u00b0T \u00b1 variation)",
+      "Label the distance of each segment in nautical miles",
+      "Use pencil (not pen) so corrections can be made"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.42.2(c)",
+    "topic": "18.42 \u2014 Chart Preparation",
+    "syllabus_desc": "Mark the following on a map: heading change markings, either 1:60 or drift lines.",
+    "concept": "Heading change markings are pre-drawn lines or angles on the chart that allow rapid in-flight corrections when off track. Two methods: (1) 1:60 rule marks \u2014 pre-draw reference lines at 5\u00b0 and 10\u00b0 off track at the mid-point and end-point, so you can visually estimate your displacement and calculate a heading correction quickly; (2) drift lines \u2014 pre-draw the expected track showing the forecast drift angle, so you have a reference for the actual track you expect to fly. These markings let you spend more time looking out the window and less time doing mental arithmetic when you need to make corrections.",
+    "exam_tip": "Pre-draw 1:60 reference lines (5\u00b0 and 10\u00b0 from track) or drift lines on the chart. Allows rapid in-flight track corrections without recalculating from scratch.",
+    "key_facts": [
+      "1:60 marks: draw lines at 5\u00b0 and 10\u00b0 off track at the mid-point and destination",
+      "Drift lines: pre-drawn track accounting for forecast drift angle",
+      "Allows rapid visual estimation of off-track displacement in flight",
+      "Reduces workload during cruise by having corrections pre-calculated",
+      "Use pencil so corrections can be made if forecast wind changes"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.42.2(d)",
+    "topic": "18.42 \u2014 Chart Preparation",
+    "syllabus_desc": "Mark the following on a map: ETA amendment markings.",
+    "concept": "Pre-draw distance or time reference marks along each leg at regular intervals \u2014 typically every 10 nm or every 10 minutes of flying time. These are small tick marks crossing the track line. In flight, as you pass each mark, you can note the actual time and compare it to your planned ETA for that point. If you're tracking ahead of schedule, your groundspeed is higher than planned; behind schedule means lower groundspeed or headwind stronger than forecast. This gives you the information to update ETAs for subsequent waypoints and the destination, and recalculate fuel endurance if groundspeed is significantly different.",
+    "exam_tip": "ETA amendment marks: pre-draw regular distance or time reference ticks along each leg. Use in flight to compare actual vs planned groundspeed and update ETAs.",
+    "key_facts": [
+      "Mark regular intervals along each track (e.g., every 10 nm or 10 minutes flight time)",
+      "Label with planned ETA at each mark",
+      "Compare actual time of passage vs planned to identify groundspeed variation",
+      "Allows in-flight ETA updates and fuel endurance recalculation",
+      "Earlier passage = higher GS than planned; later = lower GS (headwind stronger)"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.44.2(a)",
+    "topic": "18.44 \u2014 Plan Preparation",
+    "syllabus_desc": "Complete a navigation log / flight plan for a VFR cross-country, including calculating: top of climb point.",
+    "concept": "The top of climb (TOC) point is the geographic position where the aircraft reaches cruise altitude after departure. It's calculated from the climb performance tables in the AFM: for a given aircraft weight and conditions, you find the time to climb, the distance covered during climb, and the fuel used. You then mark this point on the chart and flight log \u2014 legs before TOC are climb legs (different fuel burn and groundspeed). The TOC is where cruise speed and cruise burn rate begin. If TOC falls beyond a turning point, you may need to reconsider your departure altitude or route.",
+    "exam_tip": "TOC = geographic position where cruise altitude is reached. Calculate from AFM climb tables (time, distance, fuel to climb). Mark on chart and flight log.",
+    "key_facts": [
+      "TOC is the geographic position where the aircraft reaches cruise altitude",
+      "Calculate time, distance, and fuel to climb from AFM climb performance tables",
+      "Mark TOC on the chart and flight log",
+      "Before TOC: use climb TAS and climb fuel burn in flight log",
+      "After TOC: switch to cruise TAS and cruise fuel burn rate"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.44.2(b)",
+    "topic": "18.44 \u2014 Plan Preparation",
+    "syllabus_desc": "Complete a navigation log / flight plan for a VFR cross-country, including calculating: level cruise portion.",
+    "concept": "The level cruise portion is from TOC to the top of descent (TOD). For each cruise leg, you calculate: TAS from the AFM cruise tables at your cruise altitude and power setting, then apply the forecast wind to get GS, then calculate the heading (allowing for drift), EET (distance / GS), and fuel burn (burn rate \u00d7 time). The flight log records all this leg by leg. For a CPL cross-country, you'll have multiple legs and the flight log must be completed before departure. In flight, you update each leg's actual time of departure and arrival and compare to the plan.",
+    "exam_tip": "Cruise legs: TAS from AFM tables, apply wind for GS and heading, calculate EET and fuel. Complete for each leg. Update in flight with actual times.",
+    "key_facts": [
+      "Cruise portion: from TOC to TOD",
+      "TAS from AFM cruise performance tables (altitude, power setting, temperature)",
+      "Apply wind triangle: get heading and GS for each leg",
+      "EET = leg distance \u00f7 GS",
+      "Fuel burn = burn rate \u00d7 EET"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.44.2(c)",
+    "topic": "18.44 \u2014 Plan Preparation",
+    "syllabus_desc": "Complete a navigation log / flight plan for a VFR cross-country, including calculating: top of descent point.",
+    "concept": "The top of descent (TOD) point is where you begin descending from cruise altitude toward the destination. Calculate TOD from the AFM descent tables: how far back from the destination you need to start descending at the recommended rate. For a typical light aircraft descending at 500 fpm and 90 kt GS, the distance required from 6,500 ft to circuit height (1,000 ft AGL) at the destination is about 11 nm. Mark the TOD on the chart and flight log. From TOD, your cruise burn rate changes to the lower descent power setting.",
+    "exam_tip": "TOD = geographic position where descent from cruise altitude begins. Calculate from AFM descent tables or gradient. Mark on chart and flight log.",
+    "key_facts": [
+      "TOD is the geographic position where the aircraft begins its descent to destination",
+      "Calculate from AFM descent tables (distance and time to descend)",
+      "Rough calculation: distance = height to lose (ft) \u00f7 descent gradient",
+      "From TOD: apply descent TAS and lower fuel burn rate",
+      "Mark TOD on chart; begin descent procedure checklist at TOD"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.44.2(d)",
+    "topic": "18.44 \u2014 Plan Preparation",
+    "syllabus_desc": "Complete a navigation log / flight plan for a VFR cross-country, including calculating: CAS/TAS.",
+    "concept": "CAS (calibrated airspeed) is what you set in the cockpit \u2014 your power setting gives you a target IAS from the AFM, and you apply the calibration correction to get CAS. TAS is then calculated from CAS, pressure altitude, and OAT using the E6-B. For the flight log, you record both CAS (what you'll fly) and TAS (what you use in the wind triangle). At lower altitudes (below 5,000 ft) in temperate NZ conditions, the difference between IAS, CAS, and TAS is typically small but should still be calculated correctly for CPL standards.",
+    "exam_tip": "CAS = what you fly (from AFM). TAS = CAS corrected for density (using PA and OAT). Both go in the flight log. CAS used in cockpit; TAS used in wind triangle.",
+    "key_facts": [
+      "CAS: from AFM cruise tables at planned power setting and altitude",
+      "TAS: calculated from CAS, pressure altitude, and OAT using E6-B",
+      "CAS is the target airspeed in the cockpit",
+      "TAS is used in triangle of velocities to compute heading and GS",
+      "Both values recorded in the flight log for each leg"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.44.2(e)",
+    "topic": "18.44 \u2014 Plan Preparation",
+    "syllabus_desc": "Complete a navigation log / flight plan for a VFR cross-country, including calculating: tracks.",
+    "concept": "True tracks are measured from the chart using a protractor at the mid-meridian of each leg. Magnetic track = true track \u00b1 variation (east variation is subtracted from true track to get magnetic track \u2014 'west is best, east is least' for variation applied to TRUE to get MAG). In NZ, variation is generally 20\u201323\u00b0E, so magnetic tracks are 20\u201323\u00b0 less than true tracks. Record both true and magnetic tracks for each leg on the flight log. Magnetic track is what you cross-check your compass against in cruise.",
+    "exam_tip": "True track from chart (measured at mid-meridian on VNC). Magnetic track = true track \u2212 east variation. NZ variation \u2248 20\u201323\u00b0E. Record both on flight log.",
+    "key_facts": [
+      "Measure true track at mid-meridian on Lambert's chart",
+      "Magnetic track = true track \u2212 east variation (NZ variation \u2248 20\u201323\u00b0E)",
+      "Mnemonic: 'Variation East, Magnetic Least' (true track \u2212 east variation = magnetic track)",
+      "Record both \u00b0T and \u00b0M tracks in the flight log",
+      "Magnetic track is cross-checked against the compass in cruise"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ GEN 2.1",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.44.2(f)",
+    "topic": "18.44 \u2014 Plan Preparation",
+    "syllabus_desc": "Complete a navigation log / flight plan for a VFR cross-country, including calculating: estimated wind velocities.",
+    "concept": "Forecast winds for your route come from the aviation weather forecast products \u2014 in NZ, the area forecast (ARFOR) or en-route forecast gives wind direction and speed at various altitude levels. You select the wind for your planned cruise altitude and apply it to each leg in the triangle of velocities. For a long cross-country with significant altitude changes, use the appropriate wind for each leg's altitude. If there are two forecast altitudes that bracket your cruise level, interpolate between them. Always note the forecast time: a forecast issued 6 hours ago for a flight departing in 3 hours is getting stale.",
+    "exam_tip": "Get wind from ARFOR or en-route forecast for your cruise altitude. Use in triangle of velocities. Interpolate if cruise altitude falls between forecast levels.",
+    "key_facts": [
+      "Source: area forecast (ARFOR) or en-route forecast for the cruise altitude",
+      "Wind direction is \u00b0T (true) in aviation forecasts",
+      "Apply to triangle of velocities to get heading and GS for each leg",
+      "Interpolate between forecast altitude levels if cruise altitude falls between them",
+      "Check forecast validity time \u2014 stale forecasts increase uncertainty"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ GEN 3.5",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.44.2(g)",
+    "topic": "18.44 \u2014 Plan Preparation",
+    "syllabus_desc": "Complete a navigation log / flight plan for a VFR cross-country, including calculating: estimated temperatures.",
+    "concept": "Forecast temperature at cruise altitude comes from the same ARFOR or upper wind/temperature forecast. You need it primarily to calculate TAS from CAS (density correction requires OAT). ISA temperature at altitude is 15\u00b0C \u2212 (2\u00b0C per 1,000 ft), so at 6,000 ft ISA temp is about 3\u00b0C. If forecast OAT differs from ISA, use the forecast value. Non-standard temperature also affects terrain clearance (cold = less clearance than altimeter shows) and engine performance. Record the estimated OAT for each leg in the flight log.",
+    "exam_tip": "Forecast OAT from ARFOR or upper wind/temp forecast. Used for TAS calculation. ISA: 15\u00b0C at sea level, \u22122\u00b0C per 1,000 ft. Cold = actual altitude less than indicated.",
+    "key_facts": [
+      "Forecast OAT from area forecast or upper-level temperature forecast",
+      "ISA temperature: 15\u00b0C at MSL, decreasing 2\u00b0C per 1,000 ft",
+      "Used to calculate TAS from CAS on the E6-B",
+      "Non-standard (cold) temperature reduces actual altitude below indicated altitude",
+      "Record estimated OAT for each leg in the flight log"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.44.2(h)",
+    "topic": "18.44 \u2014 Plan Preparation",
+    "syllabus_desc": "Complete a navigation log / flight plan for a VFR cross-country, including calculating: headings.",
+    "concept": "Heading is what you actually point the aircraft at to make good the desired track, accounting for wind drift. The calculation is: solve the triangle of velocities (track + TAS + wind \u2192 heading + GS). The result is the true heading. Then apply variation to get magnetic heading (add east variation to true heading, or: magnetic heading = true heading + east variation \u2014 wait, let me be careful: 'Variation East, Compass Least' \u2014 so compass/magnetic = true + west variation, or true \u2212 east variation for compass... Actually: magnetic heading = true heading + west variation OR true heading \u2212 east variation). Then apply compass deviation (from the compass deviation card) to get compass heading. In the cockpit, you fly compass heading and achieve magnetic track.",
+    "exam_tip": "True heading from wind triangle \u2192 apply variation \u2192 magnetic heading \u2192 apply deviation \u2192 compass heading. 'Variation East, Magnetic Least': mag hdg = true hdg \u2212 east variation.",
+    "key_facts": [
+      "True heading from triangle of velocities (track + TAS + wind)",
+      "Magnetic heading = true heading \u2212 east variation (NZ: subtract 20\u201323\u00b0)",
+      "Compass heading = magnetic heading \u00b1 deviation (from compass correction card)",
+      "Record all three in the flight log: \u00b0T, \u00b0M, \u00b0C",
+      "In flight: fly compass heading to achieve planned magnetic track"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.44.2(i)",
+    "topic": "18.44 \u2014 Plan Preparation",
+    "syllabus_desc": "Complete a navigation log / flight plan for a VFR cross-country, including calculating: groundspeeds.",
+    "concept": "Groundspeed comes from the triangle of velocities \u2014 once you have TAS and the wind, the E6-B gives you both heading and GS simultaneously. GS is recorded for each leg and used to calculate EET and fuel burn. If the forecast wind changes en-route, you'll need to recalculate GS and EET in flight. Significant GS variation (say, more than 10 kt from planned) warrants an ETA update and fuel recalculation. Record planned GS in the flight log; update with actual GS once established in cruise on each leg.",
+    "exam_tip": "GS from triangle of velocities (E6-B). GS used to calculate EET and fuel burn for each leg. Significant GS variation \u2192 update ETAs and recheck fuel.",
+    "key_facts": [
+      "GS calculated from triangle of velocities (TAS + wind \u2192 heading + GS)",
+      "E6-B gives heading and GS simultaneously from the wind triangle",
+      "GS recorded for each leg in the flight log",
+      "Used to calculate EET (distance \u00f7 GS) and fuel burn (burn rate \u00d7 EET)",
+      "Update if actual GS differs significantly from planned (recheck fuel state)"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.44.2(j)",
+    "topic": "18.44 \u2014 Plan Preparation",
+    "syllabus_desc": "Complete a navigation log / flight plan for a VFR cross-country, including calculating: distances.",
+    "concept": "Leg distances are measured from the chart using the latitude scale (1 minute = 1 nm). Step along each leg with dividers and compare against the latitude scale at the same latitude as the leg. On the VNC (1:500,000), the scale bar can also be used. For planning purposes, measure track distance (straight-line distance between waypoints) \u2014 the actual distance flown will be very close to this unless the route has significant curved sections. Record each leg distance in nm on the flight log. Total route distance = sum of all leg distances.",
+    "exam_tip": "Measure leg distances using latitude scale on the VNC (1 min = 1 nm). Step along each leg with dividers. Record each leg and total distance in nm.",
+    "key_facts": [
+      "Measure using latitude scale on the side of the chart (1 minute = 1 nm)",
+      "Use dividers to step along each leg; compare against the latitude scale",
+      "Record leg distance in nm for each segment",
+      "Total distance = sum of all leg distances",
+      "Do not use longitude scale for distance measurement"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.44.2(k)",
+    "topic": "18.44 \u2014 Plan Preparation",
+    "syllabus_desc": "Complete a navigation log / flight plan for a VFR cross-country, including calculating: EET.",
+    "concept": "Estimated Elapsed Time (EET) for each leg is: leg distance \u00f7 planned groundspeed. On the E6-B: set GS at the 60-minute index, find the leg distance on the outer scale, read EET on the inner scale. Example: 78 nm at 130 kt GS \u2192 36 minutes. Add up all leg EETs for the total flight time. This total, plus ground time at any en-route stops, gives you the total time for SARTIME calculations. Record EET in hours and minutes (or just minutes) for each leg. Cumulative ETAs are calculated from ETD + cumulative EET.",
+    "exam_tip": "EET = distance \u00f7 GS. E6-B: set GS at 60-min index, read time at distance. Cumulative EET gives total flight time for SARTIME.",
+    "key_facts": [
+      "EET (per leg) = leg distance \u00f7 groundspeed",
+      "E6-B: set GS at 60-min index, find distance on outer, read time on inner",
+      "Record in hours and minutes for each leg",
+      "Total EET = sum of all leg EETs",
+      "Used for SARTIME and ETA calculations"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.44.2(l)",
+    "topic": "18.44 \u2014 Plan Preparation",
+    "syllabus_desc": "Complete a navigation log / flight plan for a VFR cross-country, including calculating: ETA.",
+    "concept": "ETA (Estimated Time of Arrival) at each waypoint is calculated as: ETD (Estimated Time of Departure) + cumulative EET to that point. If you depart Ardmore at 09:30 UTC and the first leg EET is 24 minutes, ETA at TP1 is 09:54 UTC. Add TP1 to TP2 EET of 31 minutes, and ETA at TP2 is 10:25 UTC. All ETAs on an NZ flight plan are in UTC. In flight, compare actual times of arrival at each waypoint against planned ETAs and update the downstream ETAs accordingly.",
+    "exam_tip": "ETA = ETD + cumulative EET. All times in UTC for NZ aviation. Update ETAs in flight when groundspeed differs from planned.",
+    "key_facts": [
+      "ETA = ETD (or previous waypoint ATA) + EET for that leg",
+      "All ETAs expressed in UTC for NZ aviation operations",
+      "Calculate for each waypoint and the destination",
+      "Update ETAs in flight when actual GS differs from planned",
+      "Record planned ETAs in the flight log before departure"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.44.2(m)",
+    "topic": "18.44 \u2014 Plan Preparation",
+    "syllabus_desc": "Complete a navigation log / flight plan for a VFR cross-country, including calculating: SARTIME.",
+    "concept": "SARTIME is the time at which Search and Rescue action is to be initiated if you have not reported your safe arrival. You calculate it as: SARTIME = ETD + total EET + fuel endurance + a buffer (usually 30 minutes or as specified in the NZ CAR requirements). The SARTIME must be lodged with a responsible person, a flight notification service, or submitted as part of a flight plan. If you land safely, you MUST cancel your SARTIME immediately \u2014 a failure to cancel triggers a search at significant cost and inconvenience. In NZ, the SARTIME system is operated through the Rescue Coordination Centre NZ (RCCNZ).",
+    "exam_tip": "SARTIME = arrival time + fuel endurance (or buffer). Lodge with a responsible person or RCCNZ. Cancel SARTIME immediately on safe arrival.",
+    "key_facts": [
+      "SARTIME = estimated time of arrival + buffer (commonly 30 min or fuel endurance based)",
+      "Lodged with RCCNZ, a flight notification service, or a responsible person",
+      "Triggers SAR action if not cancelled by the SARTIME",
+      "MUST be cancelled immediately upon safe arrival or any diversion",
+      "Failure to cancel causes unnecessary SAR activation at significant cost"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; NZ CAR 91.117",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
   }
 ]
