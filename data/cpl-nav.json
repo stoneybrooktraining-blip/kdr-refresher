@@ -971,5 +971,365 @@
     "confidence": "high",
     "verified": false,
     "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.28.2",
+    "topic": "18.28 \u2014 Computations",
+    "syllabus_desc": "Derive or compute TAS, given IAS, pressure altitude and air temperature in degrees Celsius.",
+    "concept": "To compute TAS from IAS, you need to account for two corrections: first convert IAS to CAS (using the aircraft calibration table \u2014 usually a minor correction), then correct for air density using pressure altitude and OAT. On the circular slide rule (E6-B), set the OAT against the pressure altitude on the computer's airspeed window, and the TAS side reads directly against CAS. Example: CAS 120 kt, pressure altitude 8,000 ft, OAT -5\u00b0C. Set -5\u00b0C against 8,000 ft, read TAS against 120 kt CAS \u2014 approximately 138 kt. The denser the air, the closer TAS is to CAS. Hot + high = big difference.",
+    "exam_tip": "TAS computation: CAS \u2192 correct for density using PA and OAT on the E6-B. Higher PA and higher OAT both increase TAS relative to CAS.",
+    "key_facts": [
+      "IAS corrected for instrument/position error = CAS; CAS corrected for density = TAS",
+      "Use the airspeed window on the E6-B: set OAT against pressure altitude",
+      "Read TAS against CAS on the outer scale",
+      "High pressure altitude + high temperature = largest TAS/IAS difference",
+      "Rough guide: TAS increases approximately 2% per 1,000 ft altitude"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.28.4(a)",
+    "topic": "18.28 \u2014 Computations",
+    "syllabus_desc": "Solve mathematical equations: multiplication (\u00b1 2%).",
+    "concept": "The circular slide rule (E6-B) can solve multiplication by aligning values on the inner and outer scales. To multiply A \u00d7 B: set the index (1 or 10) on the inner scale against A on the outer scale, then find B on the inner scale and read the result on the outer scale. The required accuracy for the CPL exam is \u00b1 2%, which means your answer needs to be within 2% of the true answer. Practice mental checks: 120 \u00d7 8 = 960, and your slide rule answer of 955 is fine (within 2%); an answer of 900 is not. Calculator use may be permitted in the exam \u2014 confirm with ASPEQ.",
+    "exam_tip": "E6-B multiplication: set index against first number, find second number, read result. Required accuracy \u00b1 2%. Always do a rough mental check.",
+    "key_facts": [
+      "E6-B solves multiplication using aligned scales",
+      "Required accuracy: \u00b1 2% of the correct answer",
+      "Set index (1 or 10) on inner scale opposite first number on outer scale",
+      "Find second number on inner scale, read result on outer scale",
+      "Always verify with a mental estimate to catch scale errors"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.28.4(b)",
+    "topic": "18.28 \u2014 Computations",
+    "syllabus_desc": "Solve mathematical equations: division (\u00b1 2%).",
+    "concept": "Division on the E6-B: set the divisor on the inner scale against the dividend on the outer scale, then read the quotient opposite the index (1 or 10). Example: 960 \u00f7 8. Set 8 on the inner scale against 960 on the outer scale, read the result opposite the index \u2014 should read 120. Check it: 120 \u00d7 8 = 960. The \u00b1 2% tolerance gives you some wiggle room for scale-reading error, but you should still aim to be exact. Division is used constantly in nav calculations: fuel burn rate, time calculations, and unit conversions all involve division.",
+    "exam_tip": "E6-B division: set divisor on inner against dividend on outer, read result at index. Required accuracy \u00b1 2%. Check by multiplying back.",
+    "key_facts": [
+      "E6-B division: set divisor (inner) against dividend (outer), read result at index",
+      "Required accuracy: \u00b1 2%",
+      "Verify by multiplying the result by the divisor to check it equals the dividend",
+      "Division used for: time = distance/speed, burn rate = fuel/time",
+      "Always check the order of magnitude with a mental estimate"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.28.4(c)",
+    "topic": "18.28 \u2014 Computations",
+    "syllabus_desc": "Solve mathematical equations: proportion (\u00b1 2%).",
+    "concept": "Proportion calculations find an unknown quantity when a ratio is known. Example: if 40 litres burns in 30 minutes, how much burns in 75 minutes? Set up the ratio: 40/30 = x/75, so x = 40 \u00d7 75 / 30 = 100 litres. On the E6-B, set the known time (30 min) on the inner scale against the known quantity (40 L) on the outer scale, then find 75 min on the inner scale and read the result on the outer scale. Proportion is the foundation of most navigation calculations: fuel, time, distance, and speed all involve proportional reasoning.",
+    "exam_tip": "Proportion on E6-B: align known ratio, then read unknown against its corresponding value. Required accuracy \u00b1 2%.",
+    "key_facts": [
+      "Proportion: A/B = C/D \u2014 if three values are known, solve for the fourth",
+      "E6-B: align known ratio, read unknown at corresponding position",
+      "Required accuracy: \u00b1 2%",
+      "Used in fuel calculations, time/distance problems, and unit conversions",
+      "Always check the answer makes sense \u2014 fuel can't be negative or astronomically high"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.28.6",
+    "topic": "18.28 \u2014 Computations",
+    "syllabus_desc": "Calculate time, speed, or distance, given two factors.",
+    "concept": "The triangle of time-speed-distance is the foundation of flight planning arithmetic. The three relationships are: Distance = Speed \u00d7 Time; Speed = Distance / Time; Time = Distance / Speed. On the E6-B inner scale, the orange triangle marks the 60-minute index \u2014 this is the reference for all TSD problems. Set the speed on the outer scale against the 60-minute mark, then read distance against any time value, or read time against any distance. Example: 120 kt for 45 minutes \u2014 set 120 against the 60 mark, read distance against 45 minutes = 90 nm. Practical check: 120 kt = 2 nm/min; 2 \u00d7 45 = 90. Correct.",
+    "exam_tip": "TSD: set speed against 60-min index on E6-B, read distance against time. 1 kt = 1 nm/hr. Quick mental check: speed/60 = nm per minute.",
+    "key_facts": [
+      "Distance = Speed \u00d7 Time; Speed = Distance / Time; Time = Distance / Speed",
+      "On E6-B: set groundspeed against 60-min (orange triangle) index",
+      "Read distance against any time, or time against any distance",
+      "Quick mental check: speed \u00f7 60 = nm per minute",
+      "Example: 120 kt \u00d7 45 min = 90 nm (2 nm/min \u00d7 45 min)"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.28.8",
+    "topic": "18.28 \u2014 Computations",
+    "syllabus_desc": "Calculate fuel consumption, given the burn rate and time.",
+    "concept": "Fuel consumption = burn rate \u00d7 time. If the engine burns 35 L/hr and you plan to fly for 1 hour 20 minutes (1.33 hrs), fuel used = 35 \u00d7 1.33 = 46.7 L. On the E6-B: set the burn rate (35) against the 60-minute index, then find 80 minutes on the inner scale (since 1 hr 20 = 80 min) and read the fuel quantity on the outer scale. Make sure your units are consistent \u2014 if burn rate is in litres per hour, time must be in hours (or use the E6-B's time proportioning). Always add reserves after calculating trip fuel.",
+    "exam_tip": "Fuel used = burn rate \u00d7 time. E6-B: set burn rate against 60-min index, read fuel against time in minutes. Keep units consistent.",
+    "key_facts": [
+      "Fuel used = burn rate (L/hr or kg/hr) \u00d7 time (hours)",
+      "E6-B: set burn rate opposite 60-min index, read fuel against time in minutes",
+      "Convert time to minutes for E6-B use (1 hr 20 min = 80 min)",
+      "Units must be consistent throughout the calculation",
+      "Trip fuel calculated first; then add mandatory reserves"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.28.10",
+    "topic": "18.28 \u2014 Computations",
+    "syllabus_desc": "Calculate the fuel burn rate, given the consumption and time.",
+    "concept": "Burn rate = fuel consumed / time. If you used 45 litres in 1 hour 15 minutes (75 minutes = 1.25 hrs), burn rate = 45 / 1.25 = 36 L/hr. On the E6-B: set 75 minutes on the inner scale against 45 litres on the outer scale, then read the burn rate on the outer scale opposite the 60-minute index. This calculation is useful when you've flown a leg and want to recalculate your actual burn rate for the remaining legs \u2014 actual burn rates often differ from the AFM figures, especially with engine wear or different power settings.",
+    "exam_tip": "Burn rate = fuel consumed \u00f7 time. E6-B: set time (min) against consumption, read burn rate at 60-min index.",
+    "key_facts": [
+      "Burn rate = fuel used \u00f7 time elapsed",
+      "E6-B: set time (in minutes) on inner scale against fuel consumed on outer scale",
+      "Read burn rate at the 60-minute index",
+      "Useful mid-flight to recalculate actual vs planned burn rate",
+      "Actual burn rates may differ from POH figures \u2014 recalculate if significant deviation"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.28.12",
+    "topic": "18.28 \u2014 Computations",
+    "syllabus_desc": "Calculate fuel endurance, given the fuel quantity and burn rate.",
+    "concept": "Endurance = fuel quantity / burn rate. If you have 80 litres usable and your burn rate is 40 L/hr, endurance = 80/40 = 2 hours. On the E6-B: set burn rate against the 60-minute index, find 80 litres on the outer scale, and read the time in minutes on the inner scale \u2014 should read 120 minutes (2 hours). Endurance is total flying time at that burn rate. Range requires multiplying endurance by groundspeed. Remember: endurance for reserve calculations uses the planned burn rate; you must subtract mandatory reserve from total endurance to get practical endurance.",
+    "exam_tip": "Endurance = fuel \u00f7 burn rate. E6-B: set burn rate at 60-min index, find fuel on outer, read time on inner. Subtract reserves for practical endurance.",
+    "key_facts": [
+      "Endurance = fuel quantity \u00f7 burn rate",
+      "E6-B: set burn rate at 60-min index, read time at fuel quantity on outer scale",
+      "Endurance gives total flying time, not range",
+      "Range = endurance \u00d7 groundspeed",
+      "Subtract mandatory fuel reserve from total endurance to get practical endurance"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.28.14(a)",
+    "topic": "18.28 \u2014 Computations",
+    "syllabus_desc": "Convert between: degrees Fahrenheit and Celsius.",
+    "concept": "The conversion formula is: \u00b0C = (\u00b0F - 32) \u00d7 5/9, or \u00b0F = (\u00b0C \u00d7 9/5) + 32. Useful reference points: 0\u00b0C = 32\u00b0F (freezing), 15\u00b0C = 59\u00b0F (ISA sea level), 100\u00b0C = 212\u00b0F (boiling). In aviation, temperatures are almost universally in Celsius in NZ, but older US references and some weather products occasionally use Fahrenheit. The E6-B usually has a small conversion scale for this. Quick mental check: double the Celsius, subtract 10%, add 32.",
+    "exam_tip": "\u00b0C to \u00b0F: (\u00b0C \u00d7 9/5) + 32. \u00b0F to \u00b0C: (\u00b0F \u2212 32) \u00d7 5/9. 0\u00b0C = 32\u00b0F; 15\u00b0C = 59\u00b0F; 100\u00b0C = 212\u00b0F.",
+    "key_facts": [
+      "\u00b0F to \u00b0C: subtract 32, multiply by 5/9",
+      "\u00b0C to \u00b0F: multiply by 9/5, add 32",
+      "0\u00b0C = 32\u00b0F (water freezes)",
+      "15\u00b0C = 59\u00b0F (ISA sea-level temperature)",
+      "100\u00b0C = 212\u00b0F (water boils)"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.28.14(b)",
+    "topic": "18.28 \u2014 Computations",
+    "syllabus_desc": "Convert between: nautical miles, statute miles and kilometres (\u00b1 1%).",
+    "concept": "The key conversion factors: 1 nm = 1.852 km = 1.15 statute miles (sm). Going the other way: 1 km = 0.54 nm; 1 sm = 0.87 nm. On the E6-B, these conversions appear as marked scales so you don't need to do the arithmetic manually. For mental arithmetic: nm \u00d7 1.85 \u2248 km; km \u00f7 1.85 \u2248 nm. For sm: nm \u00d7 1.15 \u2248 sm. Required accuracy is \u00b1 1%. These conversions appear in exam questions involving visibility (sometimes in km or sm) and distance planning.",
+    "exam_tip": "1 nm = 1.852 km = 1.15 sm. E6-B has conversion scales. Required accuracy \u00b1 1%.",
+    "key_facts": [
+      "1 nautical mile = 1.852 kilometres",
+      "1 nautical mile = 1.15 statute miles",
+      "1 kilometre = 0.54 nautical miles",
+      "1 statute mile = 0.87 nautical miles",
+      "Required conversion accuracy: \u00b1 1%"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.28.14(c)",
+    "topic": "18.28 \u2014 Computations",
+    "syllabus_desc": "Convert between: metres and feet (\u00b1 2%).",
+    "concept": "1 foot = 0.3048 metres; 1 metre = 3.281 feet. For mental arithmetic: metres \u00d7 3.28 \u2248 feet; feet / 3.28 \u2248 metres. Quick reference: 1,000 ft \u2248 305 m; 3,000 ft \u2248 914 m; 10,000 ft \u2248 3,048 m. In NZ aviation, altitudes and obstacle heights are in feet, but some international weather (SIGMET altitudes) may use metres, and runway visual range is sometimes expressed in metres. The E6-B has a feet/metres conversion scale. Required accuracy is \u00b1 2%.",
+    "exam_tip": "1 ft = 0.3048 m. 1 m = 3.28 ft. Quick mental check: 1,000 ft \u2248 300 m. Required accuracy \u00b1 2%.",
+    "key_facts": [
+      "1 foot = 0.3048 metres",
+      "1 metre = 3.281 feet",
+      "1,000 ft \u2248 305 m",
+      "3,281 ft = 1,000 m (1 km)",
+      "Required conversion accuracy: \u00b1 2%"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.28.14(d)",
+    "topic": "18.28 \u2014 Computations",
+    "syllabus_desc": "Convert between: pounds and kilograms (\u00b1 2%).",
+    "concept": "1 kilogram = 2.205 pounds; 1 pound = 0.4536 kilograms. For mental arithmetic: kg \u00d7 2.2 \u2248 lb; lb / 2.2 \u2248 kg. This conversion appears in weight and balance calculations where some US aircraft documents list weights in pounds. If your aircraft POH quotes empty weight in pounds and you need it in kg for mass and balance: divide by 2.2. In NZ, all weights in official documentation should be in kg, but older US aircraft manuals often use pounds. Required accuracy is \u00b1 2%.",
+    "exam_tip": "1 kg = 2.205 lb. 1 lb = 0.454 kg. Mental: divide lb by 2.2 to get kg. Required accuracy \u00b1 2%.",
+    "key_facts": [
+      "1 kilogram = 2.205 pounds",
+      "1 pound = 0.4536 kilograms",
+      "Mental conversion: divide pounds by 2.2 to get kilograms",
+      "Used in weight and balance when POH data is in pounds",
+      "Required conversion accuracy: \u00b1 2%"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.28.14(e)",
+    "topic": "18.28 \u2014 Computations",
+    "syllabus_desc": "Convert between: litres, imperial and US gallons (\u00b1 2%).",
+    "concept": "Three different gallon measures exist and all appear in aviation: 1 US gallon = 3.785 litres; 1 Imperial (UK) gallon = 4.546 litres. So 1 Imperial gallon = 1.2 US gallons. Aircraft fuel capacities in US-manufactured aircraft are often stated in US gallons; some fuel trucks in NZ may have Imperial measurements. The conversions: litres to US gal = divide by 3.785; litres to Imperial gal = divide by 4.546. The E6-B has gallon conversion scales. Get this wrong on a fuel calculation and you could end up with 20% less fuel than planned.",
+    "exam_tip": "1 US gal = 3.785 L. 1 Imperial gal = 4.546 L. US gallon is smaller than Imperial. Required accuracy \u00b1 2%. Check which gallon your POH uses.",
+    "key_facts": [
+      "1 US gallon = 3.785 litres",
+      "1 Imperial gallon = 4.546 litres",
+      "1 Imperial gallon = 1.2 US gallons",
+      "To convert US gal to litres: multiply by 3.785",
+      "Required conversion accuracy: \u00b1 2%"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.28.14(f)",
+    "topic": "18.28 \u2014 Computations",
+    "syllabus_desc": "Convert between: a volume of fuel (in litres, imperial or US gallons) and a mass of fuel (in pounds or kilograms) (\u00b1 2%).",
+    "concept": "Fuel mass depends on fuel type and temperature. AVGAS (aviation gasoline) has a specific gravity of approximately 0.72, meaning 1 litre weighs about 0.72 kg (or 6.0 lb per US gallon). AVTUR/Jet A-1 has a specific gravity of approximately 0.80 (1 litre \u2248 0.80 kg). To convert: litres \u00d7 SG = kilograms. Example: 100 litres of AVGAS = 100 \u00d7 0.72 = 72 kg. For weight and balance, fuel must be expressed in kg. For fuel quantity gauges reading in litres, this conversion is essential for W&B accuracy. Required accuracy \u00b1 2%.",
+    "exam_tip": "AVGAS: 1 litre \u2248 0.72 kg (SG 0.72). AVTUR: 1 litre \u2248 0.80 kg (SG 0.80). Mass (kg) = volume (L) \u00d7 SG. Required accuracy \u00b1 2%.",
+    "key_facts": [
+      "AVGAS specific gravity \u2248 0.72 (1 litre = 0.72 kg; 1 US gallon \u2248 6.0 lb)",
+      "AVTUR/Jet A-1 specific gravity \u2248 0.80 (1 litre = 0.80 kg)",
+      "Mass (kg) = Volume (litres) \u00d7 specific gravity",
+      "Volume (litres) = Mass (kg) \u00f7 specific gravity",
+      "Required conversion accuracy: \u00b1 2%"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.34.2",
+    "topic": "18.34 \u2014 Triangle of Velocities",
+    "syllabus_desc": "Identify and label the three vectors of the triangle of velocities.",
+    "concept": "The triangle of velocities (sometimes called the wind triangle) has three vector sides. First, the air vector: the direction the aircraft is pointing (heading) and its speed through the air (TAS). Second, the wind vector: the direction the wind is blowing FROM and its speed. Third, the ground vector: the direction the aircraft actually travels over the ground (track) and its speed (groundspeed). These three vectors form a closed triangle. Knowing any four of the six variables (heading, TAS, wind direction, wind speed, track, groundspeed) allows you to solve for the remaining two. The E6-B wind side does this graphically.",
+    "exam_tip": "Three vectors: (1) air vector = heading + TAS, (2) wind vector = wind direction + speed, (3) ground vector = track + groundspeed. Any four known = solve for the other two.",
+    "key_facts": [
+      "Air vector: heading (direction aircraft points) and TAS (speed through air mass)",
+      "Wind vector: wind direction (FROM) and wind speed",
+      "Ground vector: track (actual path over ground) and groundspeed",
+      "The three vectors form a closed triangle",
+      "Knowing any four of the six variables allows solving for the remaining two"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.34.4(a)",
+    "topic": "18.34 \u2014 Triangle of Velocities",
+    "syllabus_desc": "Using a navigation computer, solve triangle of velocity problems (given four of the six variables): heading and track (\u00b1 2\u00b0).",
+    "concept": "To find heading given track, TAS, and wind: on the E6-B wind side, set the wind direction at top, mark the wind speed up from the grommet, then rotate the disc to place the desired track under the centre line, slide the card so TAS is under the grommet, and read the heading under the centre line at top. The drift angle is also visible. To find track given heading, TAS, and wind, work the problem the same way but read the track. Required accuracy is \u00b1 2\u00b0, which is typically achievable with careful E6-B technique. Mental sanity check: with a left crosswind, heading should be left of track; right crosswind, right of track.",
+    "exam_tip": "E6-B wind side gives heading from track (or vice versa). Required accuracy \u00b1 2\u00b0. With headwind component, expect similar heading and track. Cross-check with drift direction.",
+    "key_facts": [
+      "Given: TAS, wind (direction and speed), desired track \u2192 solve for heading",
+      "Use the E6-B wind side: set wind direction, mark wind velocity, rotate to track",
+      "Required accuracy: \u00b1 2\u00b0",
+      "Left crosswind from port: heading is left of track (into wind)",
+      "Right crosswind from starboard: heading is right of track"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.34.4(b)",
+    "topic": "18.34 \u2014 Triangle of Velocities",
+    "syllabus_desc": "Using a navigation computer, solve triangle of velocity problems (given four of the six variables): TAS and GS (\u00b1 2kts).",
+    "concept": "TAS and groundspeed (GS) are related through the wind component along the track. With a pure headwind, GS = TAS - wind speed. With a pure tailwind, GS = TAS + wind speed. With a crosswind, GS is somewhere between \u2014 the crosswind component reduces GS less than a pure headwind of the same speed. On the E6-B after solving the wind triangle, GS is read from the grommet position on the speed arc. Required accuracy is \u00b1 2 kt. If flying from Tauranga to Rotorua (roughly northwesterly track) with a southerly wind, expect a GS considerably higher than TAS.",
+    "exam_tip": "GS = TAS modified by wind component along track. E6-B reads GS from grommet after wind problem setup. Required accuracy \u00b1 2 kt.",
+    "key_facts": [
+      "GS = TAS + headwind/tailwind component (positive for tailwind, negative for headwind)",
+      "Cross-wind component reduces GS less than equivalent pure headwind",
+      "E6-B: read GS from the grommet position after completing the wind triangle",
+      "Required accuracy: \u00b1 2 kt",
+      "TAS is fixed for a given altitude and power setting; GS varies with wind"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.34.4(c)",
+    "topic": "18.34 \u2014 Triangle of Velocities",
+    "syllabus_desc": "Using a navigation computer, solve triangle of velocity problems (given four of the six variables): wind velocity (\u00b1 3\u00b0/\u00b1 3kts).",
+    "concept": "To find the wind in flight: compare your planned heading and TAS with your actual track (from GPS or visual fix) and observed groundspeed. The difference reveals the actual wind. On the E6-B: set your actual heading at the top, mark TAS from the grommet, rotate to your actual track, adjust until the grommet is at your actual GS. The wind vector (direction and speed) then reads at the wind mark. This is the in-flight wind finding technique \u2014 very useful when the forecast wind is wrong. Required accuracy is \u00b1 3\u00b0 direction and \u00b1 3 kt speed.",
+    "exam_tip": "Wind finding: known heading, TAS, track, and GS \u2192 solve for wind velocity on E6-B. Required accuracy \u00b1 3\u00b0 / \u00b1 3 kt.",
+    "key_facts": [
+      "Given: heading, TAS, actual track, groundspeed \u2192 solve for wind velocity",
+      "Compare planned vs actual track to detect wind error",
+      "E6-B wind-finding technique: set heading, mark TAS, rotate to actual track",
+      "Required accuracy: \u00b1 3\u00b0 direction and \u00b1 3 kt speed",
+      "In-flight wind finding allows correction of forecast wind errors"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.34.4(d)",
+    "topic": "18.34 \u2014 Triangle of Velocities",
+    "syllabus_desc": "Using a navigation computer, solve triangle of velocity problems (given four of the six variables): drift (\u00b1 1\u00b0).",
+    "concept": "Drift is the angular difference between heading and track \u2014 the amount the wind pushes the aircraft sideways. Starboard drift means the aircraft tracks to the right of heading (wind from port/left). Port drift means the aircraft tracks left of heading (wind from starboard/right). Drift angle is read directly from the E6-B after solving the wind triangle \u2014 it's the angle between the centre line and the track line on the wind side. Required accuracy is \u00b1 1\u00b0. A drift of more than about 10\u00b0 is significant and should prompt a heading correction. A useful check: drift = wind component / TAS \u00d7 60 (in degrees, approximately).",
+    "exam_tip": "Drift = angular difference between heading and track. Starboard drift = tracking right of heading (port wind). Read directly from E6-B. Required accuracy \u00b1 1\u00b0.",
+    "key_facts": [
+      "Drift = angular difference between heading and ground track",
+      "Starboard drift: aircraft tracks right of heading (wind from port/left side)",
+      "Port drift: aircraft tracks left of heading (wind from starboard/right side)",
+      "Read directly from E6-B wind side after solving the wind triangle",
+      "Required accuracy: \u00b1 1\u00b0"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.36.2",
+    "topic": "18.36 \u2014 The 1 in 60 Rule",
+    "syllabus_desc": "1 in 60 rule computations.",
+    "concept": "The 1 in 60 rule states that 1 nm of lateral displacement occurs for every 60 nm travelled for every 1\u00b0 of track error. So if you're 5 nm off track after flying 60 nm, your track error is 5\u00b0. Alternatively, if your track error is 3\u00b0, you'll be 3 nm off track after 60 nm, or 1 nm off track after 20 nm. Three types of problems: (1) finding track error from displacement and distance flown, (2) finding displacement from track error and distance, (3) finding the closing angle to intercept a destination. The closing angle formula: closing angle = displacement \u00f7 distance to go \u00d7 60. Total heading change = track error + closing angle.",
+    "exam_tip": "1 in 60: 1 nm off for each 60 nm flown per 1\u00b0 track error. Track error = displacement/distance \u00d7 60. Closing angle = displacement/distance-to-go \u00d7 60. Total correction = TE + CA.",
+    "key_facts": [
+      "1\u00b0 track error = 1 nm displacement per 60 nm flown",
+      "Track error (\u00b0) = (displacement / distance flown) \u00d7 60",
+      "Displacement = (track error / 60) \u00d7 distance flown",
+      "Closing angle = (displacement / distance to destination) \u00d7 60",
+      "Total heading change = track error angle + closing angle"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
   }
 ]
