@@ -1691,5 +1691,491 @@
     "confidence": "high",
     "verified": false,
     "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.46.2",
+    "topic": "18.46 \u2014 Fuel Planning",
+    "syllabus_desc": "Derive, from a sample Aircraft Flight Manual, the fuel consumption rate for a given leg.",
+    "concept": "The AFM cruise performance tables give fuel flow (usually in litres/hour or US gal/hr) for a given altitude, power setting, and OAT. Find your planned cruise altitude row, cross-reference with your planned power setting (% BHP or RPM/MAP combination), and read off the fuel flow. Some AFMs give fuel flow at ISA; if OAT differs, apply a correction factor. For turbocharged engines or injected engines, fuel flow varies differently than for naturally aspirated engines \u2014 always use the specific tables for your aircraft type. The burn rate you derive here goes directly into your fuel plan calculations.",
+    "exam_tip": "AFM cruise tables: find altitude row, power setting column, read fuel flow. Note units (L/hr, USG/hr, kg/hr). Apply temperature correction if required.",
+    "key_facts": [
+      "Fuel flow from AFM cruise performance tables (altitude \u00d7 power setting = fuel flow)",
+      "Units vary: litres/hr, US gallons/hr, pounds/hr \u2014 check the AFM",
+      "Some tables give ISA values only \u2014 apply temperature correction if OAT differs",
+      "Use the correct tables for your engine type (normally aspirated, turbocharged, injected)",
+      "The derived burn rate is used in all fuel planning calculations"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.46.4",
+    "topic": "18.46 \u2014 Fuel Planning",
+    "syllabus_desc": "Calculate the expected fuel burn on a given leg.",
+    "concept": "Expected fuel burn for a leg = burn rate \u00d7 EET. If burn rate is 34 L/hr and the leg EET is 42 minutes (0.7 hr), fuel burn = 34 \u00d7 0.7 = 23.8 L. On the E6-B: set burn rate against 60-minute index, find 42 minutes on the inner scale, read 23.8 L on the outer scale. Do this for each leg and sum for total trip fuel. Don't forget to include additional fuel for the climb phase (usually higher burn rate than cruise) \u2014 the climb fuel is either taken from AFM climb tables or estimated by using a higher burn rate for the climb duration.",
+    "exam_tip": "Leg fuel = burn rate \u00d7 EET. E6-B: set burn rate at 60-min index, read fuel at leg time. Sum all legs for trip fuel. Include separate climb fuel.",
+    "key_facts": [
+      "Leg fuel burn = burn rate (L/hr) \u00d7 EET (hours)",
+      "E6-B: set burn rate at 60-min index, read fuel at leg time in minutes",
+      "Calculate for each leg separately; sum for total trip fuel",
+      "Climb phase has higher burn rate \u2014 use AFM climb fuel table or conservative estimate",
+      "Round up to ensure fuel plan is conservative"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.46.6",
+    "topic": "18.46 \u2014 Fuel Planning",
+    "syllabus_desc": "Calculate the minimum fuel required on a given VFR cross-country flight.",
+    "concept": "Minimum VFR fuel = trip fuel + mandatory reserve. Under NZ CAR 91.179, VFR day flight requires a mandatory reserve of 30 minutes at the planned cruise power setting after completing the flight (i.e., after reaching the destination). So if your trip fuel is 65 L and your cruise burn rate is 34 L/hr, the 30-minute reserve = 34 \u00d7 0.5 = 17 L. Minimum fuel = 65 + 17 = 82 L. If you plan a destination alternate, add fuel to reach the alternate after a missed approach at destination. Total fuel on board should always exceed this minimum by a comfortable margin.",
+    "exam_tip": "Min VFR fuel = trip fuel + 30 min reserve (CAR 91.179 VFR day). Reserve = burn rate \u00d7 0.5 hr. Add alternate fuel if carrying an alternate.",
+    "key_facts": [
+      "CAR 91.179: VFR day requires 30-minute fuel reserve after completing the flight",
+      "Minimum fuel = trip fuel + (burn rate \u00d7 0.5 hr)",
+      "If alternate required: add fuel from destination to alternate + approach",
+      "Total usable fuel on board must exceed minimum calculated fuel",
+      "Fuel plan should show planned fuel, minimum required, and excess"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; NZ CAR 91.179",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.46.8",
+    "topic": "18.46 \u2014 Fuel Planning",
+    "syllabus_desc": "State the legal minimum fuel reserves required on a VFR cross-country flight.",
+    "concept": "Under NZ CAR 91.179: for VFR flight by day, the minimum reserve is 30 minutes at normal cruise consumption after completing the planned flight. For VFR flight at night, the minimum reserve is 45 minutes. These reserves are in addition to trip fuel and any alternate fuel. The intent is that you should still have 30 (or 45) minutes of fuel remaining after arriving at your destination \u2014 not when you depart. So if your groundspeed is lower than planned and the leg takes longer, your actual reserve on arrival may be less than planned. This is why building extra contingency fuel into the plan is good practice.",
+    "exam_tip": "VFR day: 30 min reserve (CAR 91.179). VFR night: 45 min reserve. These are minimums \u2014 carry more. Reserves are measured at ARRIVAL, not departure.",
+    "key_facts": [
+      "VFR day: minimum 30 minutes fuel reserve after completing planned flight (CAR 91.179)",
+      "VFR night: minimum 45 minutes fuel reserve",
+      "Reserve is in addition to trip fuel and alternate fuel",
+      "Reserve is what must remain upon arriving at destination \u2014 not what you depart with",
+      "Lower-than-planned GS reduces actual reserve on arrival"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; NZ CAR 91.179",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.46.10",
+    "topic": "18.46 \u2014 Fuel Planning",
+    "syllabus_desc": "Calculate the maximum holding time available for a given leg.",
+    "concept": "Maximum holding time = (fuel remaining above mandatory reserve) \u00f7 burn rate. Say you're on the final leg and have 28 L remaining, with a mandatory reserve of 17 L and a burn rate of 34 L/hr. Usable fuel above reserve = 28 - 17 = 11 L. Holding time = 11 / 34 = 0.32 hr = about 19 minutes. That's how long you can hold at the destination before you must either land or divert to the alternate. This calculation is typically done on descent when you can assess actual fuel state and compare against the plan.",
+    "exam_tip": "Max holding time = (fuel remaining \u2212 mandatory reserve) \u00f7 burn rate. Done on descent to assess diversion/landing decision window.",
+    "key_facts": [
+      "Max holding = (actual fuel remaining \u2212 mandatory reserve) \u00f7 burn rate",
+      "Mandatory reserve: 30 min VFR day, 45 min VFR night",
+      "If holding time is insufficient to wait for improving conditions: divert now",
+      "Calculate this on descent when you have an accurate fuel quantity",
+      "Compare with expected delay time at destination before committing to hold"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.46.12",
+    "topic": "18.46 \u2014 Fuel Planning",
+    "syllabus_desc": "Calculate the latest time of departure for a given VFR cross-country flight or a given leg.",
+    "concept": "Latest time of departure (LTD) is calculated backward from a constraint at the destination or waypoint. Common constraints: last light (for VFR day flight, you must complete the flight before the end of daylight), fuel (you must depart with enough fuel to complete the trip with reserves), or airspace hours. LTD for daylight: last light time \u2212 total EET = latest departure. LTD for fuel: work backward \u2014 if you have X litres usable above reserve and the trip burns Y litres, you can depart any time as long as you carry that fuel. For a curfew or aerodrome closing time C: LTD = C \u2212 EET.",
+    "exam_tip": "LTD = constraint time \u2212 total EET. Common constraints: last light, aerodrome closing, slot time. Work backward from the deadline.",
+    "key_facts": [
+      "LTD = latest constraint time \u2212 total flight EET",
+      "Common constraints: end of day VFR (last light), aerodrome closing time, slot",
+      "End of civil twilight defines last light in NZ for VFR night calculations",
+      "Work backward from the constraint, allowing for all legs and any intermediate stops",
+      "Build in contingency \u2014 LTD should not equal the constraint exactly"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; NZ CAR 91.175",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.48.2(a)",
+    "topic": "18.48 \u2014 VFR Flight Navigation",
+    "syllabus_desc": "Describe the techniques and procedures for: setting heading.",
+    "concept": "Setting heading occurs at the departure point (or turning point). The procedure: roll out on the planned magnetic heading at the waypoint, note the time (this is your ETD for that leg), and start the flight log entry. Check the compass and heading indicator are aligned. For a departure aerodrome, setting heading typically happens when crossing the aerodrome boundary or a pre-planned departure point, not during taxiing or the runway. Cross-check your compass against the heading indicator within 15 minutes of takeoff \u2014 if they disagree, the HI may have precessed.",
+    "exam_tip": "Set heading at the departure point or turning point. Note departure time. Confirm compass and HI agree. This starts the EET clock for that leg.",
+    "key_facts": [
+      "Set heading at the planned departure point or turning point",
+      "Record the actual time of heading set (actual ETD for the leg)",
+      "Confirm compass and heading indicator are aligned after turning to heading",
+      "Check HI has not precessed \u2014 realign from compass if needed",
+      "The heading-set time starts the EET clock for that leg"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.48.2(b)",
+    "topic": "18.48 \u2014 VFR Flight Navigation",
+    "syllabus_desc": "Describe the techniques and procedures for: cruise routine/activity cycle.",
+    "concept": "A good cruise routine uses a regular cycle \u2014 typically every 10\u201315 minutes \u2014 covering: heading check (compass agrees with HI?), altitude check (correct cruising level?), track check (are we on track visually?), time check (on ETA?), fuel check (fuel state matches plan?), systems check (engine instruments in limits, warning lights), weather ahead check (still VMC?), and radio (listening on correct frequency?). This 'HASELL'-style cruise cycle keeps you ahead of the aeroplane. In NZ cross-country conditions, where weather can change quickly around ranges like the Kaimais or Tararuas, the weather check is particularly important.",
+    "exam_tip": "Cruise cycle covers: heading, altitude, track, time, fuel, engine/systems, weather, radio. Done every 10\u201315 minutes. Keeps you ahead of the aircraft.",
+    "key_facts": [
+      "Regular cruise checks every 10\u201315 minutes",
+      "Check: heading (compass vs HI), altitude (correct level), track (on route visually)",
+      "Check: time (on ETA?), fuel state vs plan, engine instruments, warning lights",
+      "Weather ahead: still VMC? Any build-up?",
+      "Radio: on correct frequency, monitor for traffic and updates"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.48.2(c)",
+    "topic": "18.48 \u2014 VFR Flight Navigation",
+    "syllabus_desc": "Describe the techniques and procedures for: maintaining a flight log.",
+    "concept": "The flight log is your running record of the flight. For each leg: before the leg, fill in planned values (track, heading, GS, EET, ETA, fuel). As the leg progresses, fill in actuals: actual time of heading set (ATO), 'on track' or drift observed, fuel quantity. At waypoints: actual time of arrival (ATA), compare to planned ETA, note any deviation. Update downstream ETAs if ATA differs from ETA by more than 2\u20133 minutes. A well-maintained flight log means you're never surprised by fuel state or ETA \u2014 it's also evidence of your flight management for CPL flight test purposes.",
+    "exam_tip": "Flight log: fill planned values before flight, actuals in flight. Record ATO at heading set, ATA at each waypoint. Update downstream ETAs if significant deviation.",
+    "key_facts": [
+      "Fill planned values (track, heading, GS, EET, ETA, fuel) before departure",
+      "Record ATO (actual time of heading set) at each departure/turning point",
+      "Record ATA at each waypoint; compare with planned ETA",
+      "If ATA differs from ETA by more than 2\u20133 minutes: update downstream ETAs",
+      "Track fuel state in flight log and compare against planned consumption"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.48.2(d)",
+    "topic": "18.48 \u2014 VFR Flight Navigation",
+    "syllabus_desc": "Describe the techniques and procedures for: turning points.",
+    "concept": "At a turning point, the sequence is: positively identify the turning point (visual, GPS, or navaid confirmation), record the actual time of arrival (ATA), turn to the new heading, confirm compass and HI agree, note the leg start time, and update ETAs for the next leg. Positive identification is the most important step \u2014 don't turn until you're sure you're at the right place. If in doubt, orbit the area and cross-check the chart against the ground. A false turning point wastes fuel and puts you off track on the next leg. After the turn, cross-check track against expected features.",
+    "exam_tip": "Turning point sequence: positively identify \u2192 record ATA \u2192 turn to new heading \u2192 confirm compass/HI \u2192 start next leg clock \u2192 update downstream ETAs.",
+    "key_facts": [
+      "Positively identify the turning point before initiating the turn",
+      "Record ATA at the turning point for flight log",
+      "Turn to new planned heading, confirm compass and HI agree",
+      "Update downstream ETAs based on any ATA vs ETA deviation",
+      "If unable to positively identify turning point: orbit and cross-check chart"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.48.2(e)",
+    "topic": "18.48 \u2014 VFR Flight Navigation",
+    "syllabus_desc": "Describe the techniques and procedures for: approaching/rejoining at a destination aerodrome.",
+    "concept": "On approach to the destination: identify the aerodrome from a distance using chart features (elevation, surrounding terrain, traffic), check the ATIS or CTAF for active runway and circuit direction, plan your circuit join (overhead join at circuit height, or standard join for a non-towered aerodrome per AIP NZ), carry out the pre-landing checklist, and make appropriate radio calls. At controlled aerodromes (like Christchurch), contact approach on the published frequency well before the CTR boundary. Cancel your SARTIME after landing and parking.",
+    "exam_tip": "Approach sequence: identify aerodrome \u2192 get ATIS/CTAF \u2192 plan circuit join \u2192 pre-landing checks \u2192 radio calls \u2192 join circuit. Cancel SARTIME after landing.",
+    "key_facts": [
+      "Identify the destination aerodrome well before arrival using chart and visual cues",
+      "Obtain ATIS or monitor CTAF for active runway and circuit information",
+      "Plan circuit join: overhead at circuit height or standard join per AIP NZ",
+      "Complete pre-landing checklist before circuit entry",
+      "Cancel SARTIME immediately after landing and parking"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ AD 1.1",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.48.4(a)",
+    "topic": "18.48 \u2014 VFR Flight Navigation",
+    "syllabus_desc": "Describe techniques for: position fixing.",
+    "concept": "A position fix confirms where you actually are. Methods: visual fix (two or more identifiable ground features cross-referenced against the chart), GPS position (lat/long from GPS), navaid fix (NDB bearing, VOR radial + DME), or a combination. Visual fixes are the most common for VFR navigation \u2014 cross-reference a distinctive feature like a lake, town, or coastal feature with the chart and confirm it matches your expected position. For CPL navigation, aim to take a fix at every waypoint and whenever uncertain. Record fixes in the flight log. Frequent fixing keeps your track error small.",
+    "exam_tip": "Position fix methods: visual (cross-reference 2+ features), GPS, NDB bearing, VOR/DME. Fix at every waypoint and whenever uncertain. Log each fix.",
+    "key_facts": [
+      "Visual fix: identify 2+ ground features and cross-reference with chart",
+      "GPS fix: direct lat/long readout from GPS",
+      "Navaid fix: NDB bearing (reciprocal from station), VOR radial + DME",
+      "Fix at every waypoint and whenever position is uncertain",
+      "Record fix time and position in flight log"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.48.4(b)",
+    "topic": "18.48 \u2014 VFR Flight Navigation",
+    "syllabus_desc": "Describe techniques for: changing heading to make good the desired track.",
+    "concept": "If you find you're off track mid-leg, use the 1 in 60 rule to calculate the correction. First, determine the track error (degrees off track). Apply double the track error to close the track at the mid-point, or track error + closing angle at any other point. The fastest method: if you're 3 nm off track and have 60 nm to run, closing angle = 3\u00b0. Apply track error (say 3\u00b0) + closing angle (3\u00b0) = turn 6\u00b0 toward track. This gets you back on track by the destination. Once back on track, reduce the heading correction by the track error amount to fly parallel to track.",
+    "exam_tip": "Off track correction: 1:60 rule. Track error = (offset / dist flown) \u00d7 60. Closing angle = (offset / dist to go) \u00d7 60. Total correction = TE + CA.",
+    "key_facts": [
+      "Track error (\u00b0) = (lateral displacement / distance flown) \u00d7 60",
+      "Closing angle (\u00b0) = (lateral displacement / distance remaining) \u00d7 60",
+      "Total heading correction = track error + closing angle",
+      "Apply correction to turn toward the desired track",
+      "Once back on track: reduce correction by the track error angle to fly parallel"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.48.4(c)",
+    "topic": "18.48 \u2014 VFR Flight Navigation",
+    "syllabus_desc": "Describe techniques for: changing heading to make good next turning point or destination.",
+    "concept": "When aiming directly for the next turning point or destination (rather than returning to the planned track), use the direct heading calculation: identify your current position visually or by fix, plot the line from current position to the destination on the chart, measure the true track, apply variation for magnetic, and apply drift for heading. This technique is used when you've drifted off track significantly, or after a diversion, or when you decide the quickest path is direct to destination. On GPS, a direct-to (DIRECT) function does this automatically \u2014 just confirm it's to the correct waypoint.",
+    "exam_tip": "Direct to turning point/destination: plot new track from current position, measure bearing, apply variation and drift for heading. GPS DIRECT function does this automatically.",
+    "key_facts": [
+      "Plot a line from current position to destination on the chart",
+      "Measure true track at mid-meridian of the new line",
+      "Apply variation to get magnetic track; apply drift to get heading",
+      "GPS 'direct-to' function calculates this automatically",
+      "Used after diversion, significant track error, or when replanning route"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.48.4(d)",
+    "topic": "18.48 \u2014 VFR Flight Navigation",
+    "syllabus_desc": "Describe techniques for: amending ETA.",
+    "concept": "Amend the ETA when actual groundspeed or ATA differs significantly from plan (typically when ATA is more than 2 minutes off ETA). From your current position fix, calculate the new EET for remaining legs using actual GS (derived from GPS or from time-distance calculations against plan marks). Revised ETA = current time + new EET to destination. Cascade the revision to all downstream waypoints. Radio any ATC units with your revised ETA if you're in controlled airspace or have filed a flight plan. Update the SARTIME if revised ETA changes the overall endurance significantly.",
+    "exam_tip": "Amend ETA when ATA deviates >2 min from planned. Use actual GS to recalculate EETs. Update SARTIME and notify ATC if relevant.",
+    "key_facts": [
+      "Trigger: ATA more than 2 minutes from planned ETA at any waypoint",
+      "Calculate new GS from actual time/distance, or use GPS groundspeed",
+      "Recalculate EETs for remaining legs using new GS",
+      "Update downstream ETAs and SARTIME if significant revision",
+      "Notify ATC with revised ETA if in controlled airspace or on flight plan"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.48.6",
+    "topic": "18.48 \u2014 VFR Flight Navigation",
+    "syllabus_desc": "Estimate and calculate a heading to make good a reciprocal track.",
+    "concept": "To fly a reciprocal track (i.e., back the way you came), reverse the original track by adding or subtracting 180\u00b0. Then reverse the drift correction \u2014 if you were drifting right on the outbound leg, you'll now drift left, so apply drift correction in the opposite direction. Example: outbound track 060\u00b0M with 5\u00b0R drift, heading was 055\u00b0M. Reciprocal track = 240\u00b0M. The wind hasn't changed, so the drift will now be 5\u00b0L: reciprocal heading = 240 + 5 = 245\u00b0M. Alternatively, re-solve the triangle of velocities with the reciprocal track. The second method is more accurate for long legs or strong crosswinds.",
+    "exam_tip": "Reciprocal track = original \u00b1 180\u00b0. Reverse the drift correction direction. Re-solve wind triangle for accuracy on long legs or strong crosswinds.",
+    "key_facts": [
+      "Reciprocal track = outbound track \u00b1 180\u00b0",
+      "Drift direction reverses on reciprocal track (left drift becomes right drift)",
+      "Quick method: reverse the drift correction applied on the outbound leg",
+      "Accurate method: re-solve the triangle of velocities with the reciprocal track",
+      "Wind hasn't changed, but its effect relative to the new track is mirrored"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.48.8",
+    "topic": "18.48 \u2014 VFR Flight Navigation",
+    "syllabus_desc": "Estimate and calculate an aircraft's position given bearing and distance from an identified ground position.",
+    "concept": "If you can positively identify a ground feature (a town, lake, aerodrome, or navaid) and estimate or measure your bearing from it and your distance to it, you can plot your position. Bearing to the feature: take a visual bearing (or ADF bearing) to the feature. Distance: estimate from chart scale or use DME/GPS. Plot the reciprocal bearing FROM the feature at the measured distance. That intersection is your position. In practice: if you can see Hamilton to your left bearing 270\u00b0M at estimated 15 nm, plot 090\u00b0M from Hamilton at 15 nm \u2014 that's where you are.",
+    "exam_tip": "Position from bearing/distance: plot reciprocal of bearing FROM the feature at the measured distance. ADF or visual bearing to feature \u2192 reciprocal from feature = your position line.",
+    "key_facts": [
+      "Identify a ground feature positively, then estimate bearing and distance to it",
+      "Plot the reciprocal bearing FROM the feature on the chart",
+      "Mark the estimated distance along that line \u2014 that's your position",
+      "Works for visual bearings, ADF bearings (NDB), or VOR radial + DME",
+      "Two-feature cross-fix gives better accuracy than a single bearing"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.48.10",
+    "topic": "18.48 \u2014 VFR Flight Navigation",
+    "syllabus_desc": "Calculate the maximum holding duration prior to diversion to an alternate.",
+    "concept": "Maximum hold before diverting = (fuel above mandatory reserve, minus fuel to reach alternate) \u00f7 burn rate. Say you're holding at destination with 35 L, burn rate 34 L/hr, mandatory reserve 17 L, and alternate fuel required 12 L. Available for holding = 35 - 17 - 12 = 6 L. Max hold = 6/34 = 0.18 hr \u2248 10 minutes. If the destination weather hasn't improved in 10 minutes, you must divert. This calculation needs the alternate fuel and distance to alternate pre-calculated on the flight plan \u2014 which is why the alternate must be planned before flight, not improvised during hold.",
+    "exam_tip": "Max hold = (fuel remaining \u2212 mandatory reserve \u2212 alternate fuel) \u00f7 burn rate. Divert before this time if destination conditions don't improve.",
+    "key_facts": [
+      "Max hold = (fuel \u2212 mandatory reserve \u2212 alternate fuel required) \u00f7 burn rate",
+      "Alternate fuel must be pre-calculated during flight planning",
+      "If max hold time is short: consider diverting immediately rather than holding",
+      "Decision must be made before reaching the mandatory reserve threshold",
+      "Commence divert at or before max hold time regardless of destination conditions"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.50.2(a)",
+    "topic": "18.50 \u2014 Special Procedures",
+    "syllabus_desc": "Describe the techniques, requirements, and procedures for: re-establishing position if lost or unsure of position.",
+    "concept": "The PARE sequence: Position (what do you know? Last confirmed fix, heading flown, time elapsed, wind), Action (climb if safe to improve visibility, orbit to compare chart to ground, use GNSS, call ATC for DF or position advice), Relay (if radio range limited, relay through another aircraft), Emergency (declare MAYDAY if fuel is critical or navigation is compromised). In practice: maintain heading while thinking, don't panic, use the 5 Cs (Climb, Communicate, Confess, Comply, Circle). If you have GPS, use it. If you can see a town or distinctive feature, cross-reference it with the chart. ATC can provide radar vectors if you're in range and squawking.",
+    "exam_tip": "Lost procedure: 5 Cs (Climb, Communicate, Confess, Comply, Circle). Use GPS, ATC DF, or visual cross-reference with chart. Maintain heading while assessing.",
+    "key_facts": [
+      "Maintain heading \u2014 don't wander while trying to re-establish position",
+      "Climb if safe: improves visibility and radio range",
+      "Cross-reference visible features with chart from last known position",
+      "Communicate: contact ATC, declare uncertainty, request radar identification or DF",
+      "Use GPS direct to nearest aerodrome if position uncertain and fuel low"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ GEN 3.6",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.50.2(b)",
+    "topic": "18.50 \u2014 Special Procedures",
+    "syllabus_desc": "Describe the techniques, requirements, and procedures for: diverting from the pre-planned route.",
+    "concept": "A diversion decision should be made as early as possible \u2014 not at the last minute when fuel is critical. Reasons to divert: weather ahead preventing VFR continuation, aircraft system problem requiring early landing, medical emergency. Procedure: identify the nearest suitable aerodrome (consider fuel state, terrain, weather, and operating hours), calculate new heading and EET to the diversion aerodrome, estimate fuel required, update SARTIME (call RCCNZ or responsible person), make radio call to ATC or on CTAF/MBZ at the diversion aerodrome. Mark the diversion on the flight log.",
+    "exam_tip": "Divert early \u2014 don't wait until fuel is critical. Identify suitable aerodrome, calculate new heading/EET, update SARTIME, radio call ATC and diversion aerodrome.",
+    "key_facts": [
+      "Decide to divert as soon as conditions indicate continuation is unsafe",
+      "Identify nearest suitable aerodrome: consider fuel, weather, terrain, operating hours",
+      "Calculate direct heading, distance, and EET to diversion aerodrome",
+      "Update SARTIME with RCCNZ or responsible person",
+      "Radio call to ATC and diversion aerodrome; declare emergency if appropriate"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.50.2(c)",
+    "topic": "18.50 \u2014 Special Procedures",
+    "syllabus_desc": "Describe the techniques, requirements, and procedures for: navigating at low level when forced to do so by bad weather.",
+    "concept": "If bad weather forces you to descend to low level, the risks multiply rapidly: terrain clearance decreases, obstacles become serious hazards, navigation is more difficult (can't see as far, more distracting), and the option to climb is gone. Priorities: maintain terrain and obstacle clearance at all times (check chart for powerlines, towers, and terrain), slow down (reduced airspeed gives more time to react), reduce track speed, increase scan frequency, and look for a suitable landing area. If unable to maintain VMC, land immediately before going IMC \u2014 controlled flight into terrain (CFIT) is the primary cause of fatal GA accidents. In NZ, low-level VFR in mountain passes demands specific pre-planning and a clear turn-back plan.",
+    "exam_tip": "Low-level in bad weather: slow down, maintain terrain clearance, increase scan frequency, identify landing options. If going IMC: land before IMC \u2014 never continue VFR into IMC.",
+    "key_facts": [
+      "Reduce airspeed \u2014 gives more time to react to terrain and obstacles",
+      "Check chart constantly for powerlines, towers, and terrain profiles",
+      "Identify and commit to a turn-back point before entering narrow valleys",
+      "Maintain a designated landing area within range at all times",
+      "If unable to maintain VMC: land immediately \u2014 never continue VFR into IMC"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ GEN 3.6",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.50.2(d)",
+    "topic": "18.50 \u2014 Special Procedures",
+    "syllabus_desc": "Describe the techniques, requirements, and procedures for: amending SARTIMEs.",
+    "concept": "A SARTIME must be amended whenever your flight plan changes significantly \u2014 particularly if: you divert to another aerodrome, your ETA changes by more than 30 minutes, you have an extended fuel stop, or you cancel the flight. To amend a SARTIME: call the contact holding it (RCCNZ, flight notification service, or responsible person) and give them the revised SARTIME. If you can't reach them by radio, try calling the nearest ATS unit. If you land and your SARTIME holder can't be reached to amend or cancel, authorities must be notified via whatever means available. Always cancel the SARTIME on safe arrival \u2014 every time, without exception.",
+    "exam_tip": "Amend SARTIME whenever: diversion, ETA changes >30 min, extended stop, flight cancellation. Call RCCNZ or holder. Cancel SARTIME immediately on safe arrival.",
+    "key_facts": [
+      "Amend SARTIME when diverting, when ETA changes significantly, or on flight cancellation",
+      "Contact SARTIME holder: RCCNZ, flight notification service, or responsible person",
+      "If unable to reach by radio: contact nearest ATS unit",
+      "SARTIME must be cancelled immediately upon safe arrival",
+      "Failure to cancel SARTIME triggers unnecessary SAR activation"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; NZ CAR 91.117",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.58.2(a)",
+    "topic": "18.58 \u2014 Enroute Diversion Calculations",
+    "syllabus_desc": "Define and calculate: time and distance to the point of no return (PNR).",
+    "concept": "The Point of No Return (PNR) is the furthest point on a route from which an aircraft can return to the departure point using the available fuel (above reserves). Beyond the PNR, you're committed to continuing to a destination or alternate \u2014 you can't make it back. Formula: PNR distance from departure = (endurance \u00d7 GS out \u00d7 GS home) / (GS out + GS home). Endurance here is fuel available above reserves. Time to PNR = PNR distance / GS out. For NZ oceanic operations (e.g., Rarotonga flights), the PNR is a critical go/no-go decision point.",
+    "exam_tip": "PNR distance = (endurance \u00d7 GSout \u00d7 GShome) / (GSout + GShome). Time to PNR = PNR distance / GSout. Beyond PNR: cannot return to departure.",
+    "key_facts": [
+      "PNR = furthest point from which aircraft can return to departure with available fuel",
+      "PNR distance = (endurance \u00d7 GSout \u00d7 GShome) / (GSout + GShome)",
+      "Time to PNR = PNR distance / GSout",
+      "Endurance = usable fuel above reserve / burn rate",
+      "Beyond PNR: committed to proceeding to destination or alternate"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.58.2(b)",
+    "topic": "18.58 \u2014 Enroute Diversion Calculations",
+    "syllabus_desc": "Define and calculate: time and distance to a departure/destination equi-time point (ETP).",
+    "concept": "The Equi-Time Point (ETP) is the point on a route where it takes equal time to continue to the destination as to return to the departure point. Note: this is not the same as the geographic mid-point \u2014 with a headwind on the outbound leg, the ETP shifts toward the destination (because returning is faster with the tailwind). Formula: ETP distance from departure = (total distance \u00d7 GS home) / (GS out + GS home). Time to ETP = ETP distance / GS out. The ETP is a key divert decision point for oceanic or remote flights \u2014 after the ETP, it's quicker to continue than to turn back.",
+    "exam_tip": "ETP distance from dep = (total distance \u00d7 GShome) / (GSout + GShome). At ETP: equal time to continue or return. After ETP: quicker to continue.",
+    "key_facts": [
+      "ETP = point where time to continue equals time to return",
+      "ETP distance from departure = (total distance \u00d7 GShome) / (GSout + GShome)",
+      "Time to ETP = ETP distance / GSout",
+      "ETP shifts toward destination when there is a headwind on the outbound leg",
+      "After ETP: continue to destination is the quickest option"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.70.2",
+    "topic": "18.70 \u2014 GNSS",
+    "syllabus_desc": "Explain the limitations of using GPS/GNSS to supplement normal visual navigation.",
+    "concept": "GPS is a powerful nav tool but has real limitations in VFR operations. Signal loss or degradation can occur due to: ionospheric interference, satellite geometry (poor PDOP), receiver hardware failure, or intentional jamming. The GPS shows track and groundspeed over the ground \u2014 it doesn't know about airspace boundaries, terrain, or weather; those still require chart work and outside visual scan. GPS waypoints can be mis-entered (finger trouble) or use outdated databases. Over-reliance on GPS creates 'glass cockpit complacency' \u2014 pilots who stop looking out the window or checking position on the chart. In NZ, GPS-only navigation is not a substitute for maintaining visual situational awareness and conventional chart skills.",
+    "exam_tip": "GPS limitations: signal loss (ionosphere, geometry, jamming), database errors, finger trouble, no terrain/weather awareness, fosters complacency. Always maintain visual scan and chart skills.",
+    "key_facts": [
+      "GPS signal can degrade due to ionospheric interference, poor geometry (high PDOP), or jamming",
+      "GPS does not show airspace boundaries, weather, or terrain hazards",
+      "Waypoint entry errors (finger trouble) can lead to tracking to wrong position",
+      "Database currency: outdated waypoints or airspace boundaries if not updated",
+      "Over-reliance on GPS degrades chart reading and visual awareness skills"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ GEN 1.5",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.70.4",
+    "topic": "18.70 \u2014 GNSS",
+    "syllabus_desc": "Briefly describe the coordinate systems in common use by GPS/GNSS units.",
+    "concept": "Most GPS units display position in one of two coordinate systems: WGS-84 (World Geodetic System 1984) lat/long, which is the standard used globally by GPS \u2014 NZ aeronautical charts are referenced to this datum; and NZGD2000 (NZ Geodetic Datum 2000), which is closely aligned with WGS-84 and used in NZ mapping. An older datum, NZGD49, was previously used and differs from WGS-84 by a small but operationally significant amount. Some older NZ topographic maps use NZGD49 \u2014 using a GPS in WGS-84 with an NZGD49 map can produce position errors of up to 200 metres. Always confirm which datum your chart and GPS are using.",
+    "exam_tip": "GPS uses WGS-84. NZ aeronautical charts: WGS-84 / NZGD2000. Older NZ maps: NZGD49 \u2014 mismatched datum causes position error (up to 200 m in NZ).",
+    "key_facts": [
+      "WGS-84: global GPS standard datum \u2014 used by all civil aviation GPS units",
+      "NZGD2000: NZ geodetic datum, closely aligned with WGS-84",
+      "NZ aeronautical charts (VNC, VPC) are referenced to WGS-84/NZGD2000",
+      "NZGD49: older NZ datum \u2014 significant position offset from WGS-84",
+      "Always confirm GPS and chart datum match \u2014 datum mismatch causes position errors"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; Land Information NZ (LINZ)",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
+  },
+  {
+    "code": "18.70.6",
+    "topic": "18.70 \u2014 GNSS",
+    "syllabus_desc": "Explain the significance of RAIM predictions.",
+    "concept": "RAIM (Receiver Autonomous Integrity Monitoring) is the GPS receiver's self-checking system. It monitors the consistency of satellite signals and alerts you when satellite geometry is insufficient to guarantee position accuracy. Before a flight using GPS for primary navigation, you should check the RAIM prediction for your route \u2014 this predicts any periods of degraded or unavailable RAIM based on forecast satellite geometry. If RAIM is unavailable at a critical time (such as an approach), you cannot use GPS for that procedure. RAIM predictions are available from aviation GPS apps, GNSS prediction websites, or some avionics. In NZ, RAIM outages are rare but can occur in remote areas with limited satellite geometry.",
+    "exam_tip": "RAIM: GPS self-monitoring for signal integrity. Predict RAIM availability before GPS-dependent operations. No RAIM = don't use GPS for that phase of flight.",
+    "key_facts": [
+      "RAIM monitors GPS signal consistency and warns when position integrity is insufficient",
+      "RAIM prediction forecasts satellite geometry for your planned route and time",
+      "Check RAIM prediction before any GPS-dependent operation (especially approaches)",
+      "RAIM outage = GPS position unreliable \u2014 revert to conventional navigation",
+      "Available from GPS planning tools, avionics, or aviation weather/planning websites"
+    ],
+    "source": "NZ CAA AC 61-5 Rev 38, Subject 18; AIP NZ GEN 1.5",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-07T00:00:00Z"
   }
 ]
