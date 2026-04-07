@@ -4,7 +4,7 @@
     "topic": "24.2 — Aeroscience",
     "syllabus_desc": "State the International System (SI) unit used to express length.",
     "concept": "The SI system is built on a handful of base units that everything else derives from. For length it's the metre (m), for mass it's the kilogram (kg), for time it's the second (s), and for temperature you've got both kelvin (K) and degrees Celsius (C). Kelvin and Celsius use the same size degree -- the only difference is where zero sits. Zero kelvin is absolute zero (-273.15C), the coldest anything can theoretically get. Zero Celsius is the freezing point of water. In aviation, you'll mostly use Celsius for weather and performance calculations, but kelvin shows up in gas law problems and ISA calculations.",
-    "exam_tip": "To convert Celsius to kelvin, add 273. To convert kelvin to Celsius, subtract 273. The exam loves testing this simple conversion.",
+    "exam_tip": "Don't confuse an SI unit for an ICAO unit.",
     "key_facts": [
       "Length: metre (m)",
       "Mass: kilogram (kg) -- note it's the kilogram, not the gram, that's the SI base unit",
