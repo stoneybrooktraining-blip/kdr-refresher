@@ -21,19 +21,19 @@
     "code": "24.2.2(b)",
     "topic": "24.2 — Aeroscience",
     "syllabus_desc": "State the International System (SI) unit used to express time.",
-    "concept": "Once you've got the base SI units, you can derive everything else. Force is measured in newtons (N) -- one newton is the force needed to accelerate one kilogram at one metre per second squared. Pressure is force per unit area, measured in pascals (Pa) -- one pascal is one newton per square metre. In aviation, we commonly use hectopascals (hPa), which are identical to millibars. Power is the rate of doing work, measured in watts (W) -- one watt is one joule of work per second. Non-SI units you'll encounter include pounds of force, pounds per square inch (psi), inches of mercury (inHg), and horsepower for engine output.",
-    "exam_tip": "Remember the derivations: N = kg x m/s squared, Pa = N/m squared, W = J/s. Exam questions test whether you understand how these units relate to each other.",
+    "concept": "The SI base unit of time is the second (s). It was originally defined as 1/86,400 of a mean solar day, but it's now defined precisely in terms of caesium-133 atomic vibrations -- the kind of detail that doesn't change anything in the cockpit but makes physicists happy. In aviation everything time-related is built on the second: minutes, hours, flight time totals, engine TBO, fuel burn rates, all of it. You'll mostly work in minutes and hours rather than raw seconds, but they're all derived from the same SI base unit.",
+    "exam_tip": "SI base unit for time is the second (s). Minutes and hours are derived from it.",
     "key_facts": [
-      "Force: newton (N) = kg x m/s squared",
-      "Pressure: pascal (Pa) = N/m squared; 1 hPa = 1 millibar = 100 Pa",
-      "Power: watt (W) = joule/second; 1 horsepower = 746 watts approximately",
-      "Work/energy: joule (J) = N x m",
-      "Non-SI units include psi, inHg, pounds-force, and horsepower"
+      "SI base unit for time: second (s)",
+      "Minutes and hours are derived units, not SI base units",
+      "Defined precisely in terms of caesium-133 atomic vibrations",
+      "All aviation time measurements ultimately reference the second"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
-    "created": "2026-04-06T00:00:00.000Z"
+    "created": "2026-04-06T00:00:00.000Z",
+    "updated": "2026-04-07T09:14:22.654763+00:00"
   },
   {
     "code": "24.2.2(c)",
@@ -75,19 +75,19 @@
     "code": "24.2.4(a)",
     "topic": "24.2 — Aeroscience",
     "syllabus_desc": "State the derivation of the SI unit for force.",
-    "concept": "When you add vectors, you can't just add the numbers like you would with scalars. If two forces of 3 N and 4 N act on an object, the resultant could be anything from 1 N to 7 N depending on their directions. Vector addition uses the triangle method or parallelogram method: place the vectors head-to-tail (or side-by-side from a common point), and the resultant is the closing side. Vector subtraction is the same as adding a negative vector -- you reverse the direction of the vector being subtracted, then add normally. In the cockpit, you're doing vector addition every time you calculate a wind correction angle -- your heading vector plus the wind vector gives your track vector.",
-    "exam_tip": "For vectors at right angles, use Pythagoras: resultant = square root of (A squared + B squared). For the angle, use trigonometry. Draw it out -- diagrams save time in the exam.",
+    "concept": "Force is a derived unit, built from the SI base units using Newton's second law: F = m x a. The SI unit of force is the newton (N), defined as the force required to accelerate a mass of 1 kilogram at 1 metre per second squared. So 1 N = 1 kg.m/s squared. Every force in helicopter flight is measured in newtons (or kilonewtons for big numbers): rotor thrust, weight, drag, the pull of a slingload, the load on a tie-down. The newton is named after Sir Isaac, naturally.",
+    "exam_tip": "Newton (N) is derived from F = ma. 1 N = 1 kg.m/s squared.",
     "key_facts": [
-      "Triangle method: place vectors head-to-tail; resultant closes the triangle",
-      "Parallelogram method: place vectors from common point; resultant is the diagonal",
-      "Same-direction vectors: resultant = sum of magnitudes",
-      "Opposite-direction vectors: resultant = difference of magnitudes",
-      "Right-angle vectors: use Pythagoras' theorem to find the resultant magnitude"
+      "Derived SI unit of force: newton (N)",
+      "1 N = 1 kg.m/s squared (from F = ma)",
+      "Named after Sir Isaac Newton",
+      "Used for all forces in flight: weight, thrust, drag, slingload tension"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
-    "created": "2026-04-06T00:00:00.000Z"
+    "created": "2026-04-06T00:00:00.000Z",
+    "updated": "2026-04-07T09:14:22.654763+00:00"
   },
   {
     "code": "24.2.4(b)",
@@ -975,19 +975,20 @@
     "code": "24.6.16",
     "topic": "24.6 — Basic Aerodynamic Theory",
     "syllabus_desc": "Describe a venturi and explain venturi effect.",
-    "concept": "Upwash is the upward deflection of air ahead of the wing's leading edge. As the wing approaches, air is drawn upward to flow over the top surface. Downwash is the downward deflection of air behind the trailing edge. The wing turns the airflow downward as it generates lift -- Newton's third law in action: the wing pushes air down, and the air pushes the wing up. The amount of downwash increases with angle of attack and lift coefficient. Downwash has important practical effects: it reduces the effective angle of attack of the tailplane (which affects longitudinal stability), it creates induced drag (the rearward tilt of the lift vector), and the downwash field from a large aircraft's wings can be hazardous to smaller aircraft following behind -- that's wake turbulence.",
-    "exam_tip": "Downwash increases with angle of attack and CL. It reduces the effective alpha at the tailplane and is a key factor in induced drag and wake turbulence.",
+    "concept": "A venturi is simply a constriction in a tube or duct -- the cross-section narrows then widens again. As air flows through the narrow section it has to speed up, because the same mass of air per second has to squeeze through a smaller area (the continuity equation in action). And by Bernoulli's theorem, faster-moving air has lower static pressure. So inside the throat of a venturi you get higher velocity and lower pressure. This venturi effect is at the heart of how aerofoils generate lift -- the curved upper surface of a wing or rotor blade acts like one half of a venturi, accelerating the air over the top and dropping the pressure there. Same principle is used in carburettors to draw fuel into the airstream.",
+    "exam_tip": "Venturi = constriction. Air speeds up through it, static pressure drops. Bernoulli plus continuity working together.",
     "key_facts": [
-      "Upwash: airflow deflected upward ahead of the leading edge",
-      "Downwash: airflow deflected downward behind the trailing edge",
-      "Downwash increases with angle of attack and lift coefficient",
-      "Downwash reduces the effective angle of attack at the tailplane",
-      "Downwash is directly related to induced drag and wake turbulence"
+      "A venturi is a constriction in a tube or duct",
+      "Air speeds up through the constriction (continuity equation)",
+      "Static pressure drops where velocity increases (Bernoulli)",
+      "Aerofoils work on the same principle -- curved upper surface acts like half a venturi",
+      "Also used in carburettors and pitot-static airspeed sensing"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
-    "created": "2026-04-06T00:00:00.000Z"
+    "created": "2026-04-06T00:00:00.000Z",
+    "updated": "2026-04-07T09:14:22.654763+00:00"
   },
   {
     "code": "24.6.18",
@@ -1047,19 +1048,20 @@
     "code": "24.6.24",
     "topic": "24.6 — Basic Aerodynamic Theory",
     "syllabus_desc": "Define aerodynamic centre.",
-    "concept": "Lift and drag are the two components we get when we resolve the total reaction force into useful directions. Lift is defined as the component of TR that acts perpendicular to the relative airflow (not perpendicular to the horizon -- perpendicular to the relative airflow). Drag is the component that acts parallel to and opposing the relative airflow. In straight and level flight, lift acts vertically and drag acts horizontally rearward, which keeps things simple. But in a climb, the relative airflow comes from below, so lift tilts slightly backward from vertical and drag tilts slightly downward from horizontal. The distinction between 'perpendicular to relative airflow' and 'perpendicular to horizon' becomes critical when analysing climbing, descending, and turning flight.",
-    "exam_tip": "Lift is always perpendicular to the relative airflow, not to the horizon. Drag is always parallel to and opposing the relative airflow. Get this definition right -- it's tested frequently.",
+    "concept": "The aerodynamic centre (AC) is the point on an aerofoil about which the pitching moment stays constant regardless of angle of attack -- in the linear, pre-stall range. For most subsonic aerofoils it sits at roughly the 25% chord point, one quarter of the way back from the leading edge. The AC is different from the centre of pressure: the CP wanders around as AoA changes, but the AC stays put. That's what makes it useful as a reference -- engineers and stability calculations all hang off the AC because it doesn't move. For a symmetrical aerofoil the CP and AC coincide; for a cambered one, they don't.",
+    "exam_tip": "AC sits at about 25% chord and doesn't move with AoA. Don't confuse it with CP, which does move.",
     "key_facts": [
-      "Lift: component of TR perpendicular to the relative airflow",
-      "Drag: component of TR parallel to and opposing the relative airflow",
-      "In level flight, lift is vertical and drag is horizontal",
-      "In a climb or descent, the lift and drag vectors are tilted relative to the horizon",
-      "These definitions are critical for resolving forces in non-level flight"
+      "Aerodynamic centre (AC): the point about which pitching moment is constant with AoA",
+      "Located at approximately 25% chord for subsonic aerofoils",
+      "Unlike CP, the AC does not move with angle of attack",
+      "Used as a fixed reference in stability and control calculations",
+      "Symmetrical aerofoils: CP and AC coincide; cambered aerofoils: they differ"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
-    "created": "2026-04-06T00:00:00.000Z"
+    "created": "2026-04-06T00:00:00.000Z",
+    "updated": "2026-04-07T09:14:22.654763+00:00"
   },
   {
     "code": "24.6.26",
@@ -1371,37 +1373,39 @@
     "code": "24.10.2",
     "topic": "24.10 — Drag",
     "syllabus_desc": "State the drag formula.",
-    "concept": "Total drag is the sum of all aerodynamic forces opposing the aircraft's motion through the air. At CPL level, we split it into two main categories: parasite drag (also called zero-lift drag or profile drag) and induced drag. Parasite drag exists whenever the aircraft moves through air and includes skin friction drag, form (pressure) drag, and interference drag. It increases with the square of the airspeed. Induced drag is the drag penalty for producing lift -- it's caused by the wingtip vortices tilting the lift vector rearward. Induced drag decreases as speed increases (because you need less angle of attack to support the same weight at higher speed). Total drag has a characteristic U-shaped curve: high at low speed (dominated by induced drag), minimum at a particular speed, and increasing at high speed (dominated by parasite drag).",
-    "exam_tip": "Total drag = parasite drag + induced drag. Parasite drag increases with V squared. Induced drag decreases with V squared. The speed where they're equal gives minimum total drag.",
+    "concept": "The drag formula mirrors the lift formula exactly: D = CD x 0.5 x rho x V squared x S. Drag (D) equals the coefficient of drag (CD) times dynamic pressure (half rho V squared) times the reference area (S). The three things you can change are CD (set by shape and angle of attack), air density rho (lower at altitude or in hot conditions), and velocity squared -- the big one, because doubling your speed quadruples drag. You'll see the same formula applied to whole airframes, individual aerofoils, and rotor blades.",
+    "exam_tip": "D = CD x 0.5 x rho x V squared x S. Speed is squared -- it has the biggest effect. Same form as the lift formula.",
     "key_facts": [
-      "Total drag = parasite drag + induced drag",
-      "Parasite drag: skin friction + form drag + interference drag (increases with V squared)",
-      "Induced drag: drag due to lift production (decreases with V squared)",
-      "Total drag curve is U-shaped with a minimum at a specific speed",
-      "At minimum drag speed, parasite drag equals induced drag"
+      "Drag formula: D = CD x 0.5 x rho x V squared x S",
+      "CD = coefficient of drag (depends on shape and AoA)",
+      "0.5 x rho x V squared = dynamic pressure",
+      "S = reference area (wing area or rotor disc area)",
+      "Velocity is squared -- doubling speed quadruples drag"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
-    "created": "2026-04-06T00:00:00.000Z"
+    "created": "2026-04-06T00:00:00.000Z",
+    "updated": "2026-04-07T09:14:22.654763+00:00"
   },
   {
     "code": "24.10.4",
     "topic": "24.10 — Drag",
     "syllabus_desc": "Explain the meaning of coefficient of drag (CD).",
-    "concept": "The boundary layer is the thin layer of air immediately adjacent to the aircraft's surface where the airflow is affected by viscosity. Right at the surface, the air is essentially stationary (the no-slip condition), and the speed increases through the boundary layer until it reaches the freestream velocity at the outer edge. The boundary layer is surprisingly thin -- typically only a few millimetres near the leading edge, growing to perhaps 10-20 mm at the trailing edge. Despite being thin, the boundary layer is critically important. Its behaviour determines skin friction drag, whether the flow separates (causing form drag and stall), and how effective high-lift devices are. The boundary layer can be laminar (smooth, orderly layers) or turbulent (chaotic, mixing), and the transition between them affects both drag and stall characteristics.",
-    "exam_tip": "The boundary layer is where viscous effects dominate. It starts laminar near the leading edge and transitions to turbulent. Boundary layer separation causes form drag and the stall.",
+    "concept": "The coefficient of drag (CD) is a dimensionless number that captures how much drag an aerofoil or body produces relative to its size and the dynamic pressure it's flying through. Think of it as a shape factor. CD depends on the aerofoil's geometry, surface condition, and current angle of attack. At low AoA it's small. As AoA increases, CD rises -- slowly at first, then more steeply as you approach the stall. The advantage of using a coefficient is that it lets you compare different aerofoils and rotor blades on a like-for-like basis without having to worry about how big they are or how fast they're going.",
+    "exam_tip": "CD is dimensionless. It captures drag characteristics independent of size and speed. CD increases with AoA, sharply near the stall.",
     "key_facts": [
-      "Boundary layer: thin layer adjacent to the surface where viscosity slows the airflow",
-      "No-slip condition: air velocity is zero at the surface itself",
-      "Boundary layer grows in thickness from leading edge toward trailing edge",
-      "Boundary layer state (laminar or turbulent) affects drag and flow separation",
-      "Boundary layer separation is the mechanism behind form drag and wing stall"
+      "CD = dimensionless coefficient of drag",
+      "Captures drag characteristics of a shape independent of size and speed",
+      "Depends on aerofoil shape, surface condition, and angle of attack",
+      "Increases with AoA, especially near the stall",
+      "Used in the drag equation D = CD x 0.5 x rho x V squared x S"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
-    "created": "2026-04-06T00:00:00.000Z"
+    "created": "2026-04-06T00:00:00.000Z",
+    "updated": "2026-04-07T09:14:22.654763+00:00"
   },
   {
     "code": "24.10.6",
@@ -1461,19 +1465,20 @@
     "code": "24.10.14",
     "topic": "24.10 — Drag",
     "syllabus_desc": "Describe the effect of streamlining on form drag.",
-    "concept": "Interference drag occurs where two surfaces meet at an angle -- typically the wing-fuselage junction, the tailplane-fuselage junction, or where engine nacelles attach to the wing. At these junctions, the boundary layers from both surfaces merge and interact, creating local turbulence and flow separation that wouldn't exist on either surface alone. The airflow has to negotiate conflicting pressure gradients from adjacent surfaces, which accelerates boundary layer thickening and separation. The result is drag greater than the sum of the individual components' drag. Interference drag is reduced by using fillets (smooth fairings) at junctions, designing appropriate angles between intersecting surfaces, and in some cases using wing-body blending where the wing and fuselage merge gradually rather than meeting at a sharp angle.",
-    "exam_tip": "Interference drag is extra drag at junctions of intersecting surfaces. It's reduced by fillets and fairings. Total aircraft drag > sum of individual component drag due to interference.",
+    "concept": "Streamlining means shaping a body so the airflow stays attached to the surface for as long as possible, minimising the size of the turbulent wake behind it. A streamlined shape -- think a teardrop -- has gradual curves that let the air flow smoothly around it. The result is that the high pressure at the front and the lower pressure at the rear are much closer to balanced, dramatically reducing form drag. A well-streamlined body can have form drag less than a tenth of a flat plate of the same frontal area. On a helicopter you'll see streamlining applied to fuselage shape, undercarriage fairings, sensor mounts, and rotor head fairings -- all in the name of cutting form drag at cruise speeds.",
+    "exam_tip": "Streamlining = smaller wake = less form drag. A streamlined shape can reduce form drag to a small fraction of what a bluff body produces.",
     "key_facts": [
-      "Occurs at junctions where two surfaces meet (wing-fuselage, nacelle-wing, etc.)",
-      "Caused by merging boundary layers and conflicting pressure gradients",
-      "Produces more drag than the sum of the individual components in isolation",
-      "Reduced by fillets, fairings, and wing-body blending",
-      "Worst at near-perpendicular junctions; better at gradual, faired transitions"
+      "Streamlining shapes a body so airflow stays attached longer",
+      "Reduces the size of the turbulent wake at the rear",
+      "Brings front and rear pressures closer to balanced",
+      "Can reduce form drag to under 10% of a flat plate of the same frontal area",
+      "Helicopter applications: fuselage, undercarriage fairings, rotor head covers"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
-    "created": "2026-04-06T00:00:00.000Z"
+    "created": "2026-04-06T00:00:00.000Z",
+    "updated": "2026-04-07T09:14:22.654763+00:00"
   },
   {
     "code": "24.10.16",
@@ -1497,37 +1502,39 @@
     "code": "24.10.18",
     "topic": "24.10 — Drag",
     "syllabus_desc": "Define boundary layer.",
-    "concept": "The coefficient of drag (CD) is a dimensionless number that captures the total drag characteristics of the aircraft or wing at a given angle of attack. Just as CL captures the lift efficiency, CD captures the drag penalty. The CD versus alpha curve rises gradually from a minimum value at a low alpha, then increases more steeply as alpha increases -- accelerating sharply near and beyond the stall as flow separation dramatically increases form drag. The curve is not symmetric: at very low (negative) angles of attack, CD can also be relatively high. The main features of the CD curve are: a minimum value (CDmin, which is roughly the parasite drag coefficient at zero lift), the gradual increase through the normal flight range, and the steep rise near the stalling angle.",
-    "exam_tip": "CD increases gradually with alpha at low angles, then steeply approaching the stall. CDmin occurs near zero-lift alpha. The shape is roughly parabolic: CD = CD0 + kCL squared.",
+    "concept": "The boundary layer is the very thin layer of air immediately next to the surface of the aerofoil, fuselage, or rotor blade where viscosity slows the airflow down. Right at the surface the air is essentially stationary -- stuck to the skin by friction (the no-slip condition). As you move away from the surface, air speed increases until it matches the freestream velocity. That transition zone, typically only a few millimetres thick on a small helicopter, is the boundary layer. It's where all the skin-friction drag is generated, and its behaviour (laminar vs turbulent) determines how easily the flow stays attached to the surface.",
+    "exam_tip": "Boundary layer = thin viscous layer where surface friction slows the air from zero (at the skin) up to freestream speed. It's where skin friction lives.",
     "key_facts": [
-      "CD is a dimensionless coefficient representing total drag characteristics",
-      "CD vs alpha: minimum at low alpha, gradual increase, steep rise near stall",
-      "CDmin (minimum drag coefficient) occurs near the zero-lift angle of attack",
-      "CD = CD0 + CDi, where CD0 is parasite drag coefficient and CDi is induced drag coefficient",
-      "The drag polar (CD vs CL) is roughly parabolic: CD = CD0 + kCL squared"
+      "Thin layer of air adjacent to a surface where viscosity matters",
+      "Air at the surface is effectively stationary (no-slip condition)",
+      "Speed increases through the layer up to freestream value",
+      "Typically only a few millimetres thick",
+      "All skin-friction drag is generated within the boundary layer"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
-    "created": "2026-04-06T00:00:00.000Z"
+    "created": "2026-04-06T00:00:00.000Z",
+    "updated": "2026-04-07T09:14:22.654763+00:00"
   },
   {
     "code": "24.10.20",
     "topic": "24.10 — Drag",
     "syllabus_desc": "Describe laminar and turbulent boundary layer flow.",
-    "concept": "The drag formula mirrors the lift formula: D = CD x 0.5 x rho x V squared x S. The three basic functions are the same structure: CD (the aerodynamic drag characteristic at the current alpha), dynamic pressure q = 0.5 x rho x V squared (the energy of the airflow), and S (wing area). In straight and level flight where lift equals weight, you can substitute to show that for a given weight and altitude, drag depends on where you are on the drag curve -- which is ultimately controlled by your angle of attack and speed. The minimum drag condition occurs at a specific CL (and therefore a specific speed for each weight), which corresponds to the best lift-to-drag ratio. This speed is fundamental to range performance.",
-    "exam_tip": "D = CD x 0.5 x rho x V squared x S. Same three components as the lift formula but with CD instead of CL. Minimum drag speed gives maximum range for a jet (and approximately for a piston).",
+    "concept": "There are two types of boundary layer flow. Laminar flow is smooth and orderly -- the air moves in parallel layers (laminae) that slide past each other without mixing. It produces low skin friction but it separates from the surface easily when conditions get adverse. Turbulent flow is the opposite: chaotic, with eddies and mixing across the layer. It produces about three times the skin friction of laminar flow, but the mixing brings high-energy air from outside the boundary layer down to the surface, which makes turbulent flow much more resistant to separation. That's the trade-off, and it's why high-performance aerofoils try to keep flow laminar over the front of the section for low drag, then deliberately trip it to turbulent further back to delay separation.",
+    "exam_tip": "Laminar = smooth, low friction, separates easily. Turbulent = chaotic, higher friction, resists separation. The trade-off shapes aerofoil design.",
     "key_facts": [
-      "Drag formula: D = CD x 0.5 x rho x V squared x S",
-      "Three functions: CD (drag coefficient), q (dynamic pressure), S (wing area)",
-      "CD includes both parasite and induced drag contributions",
-      "At a given weight, minimum drag occurs at a specific speed (VMD)",
-      "VMD corresponds to the speed for best L/D ratio and is key for range calculations"
+      "Laminar flow: smooth, layered, low skin friction, separates easily",
+      "Turbulent flow: chaotic, mixed, ~3x higher skin friction, resists separation",
+      "Boundary layer typically starts laminar then transitions to turbulent",
+      "Designers want laminar for low drag and turbulent to prevent separation",
+      "Surface roughness and adverse pressure gradients trigger transition"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
-    "created": "2026-04-06T00:00:00.000Z"
+    "created": "2026-04-06T00:00:00.000Z",
+    "updated": "2026-04-07T09:14:22.654763+00:00"
   },
   {
     "code": "24.10.22(a)",
@@ -1569,73 +1576,78 @@
     "code": "24.10.24",
     "topic": "24.10 — Drag",
     "syllabus_desc": "Explain tip vortices.",
-    "concept": "From a total drag versus IAS graph, or from provided information, you need to be able to identify two key speeds. The minimum drag speed (VMD) is at the bottom of the total drag curve -- this is the speed where total drag is least and the L/D ratio is at its best. Flying at VMD gives maximum range in a glide and approximately maximum range in powered flight for piston aircraft. The minimum power speed (VMP) is slower than VMD and corresponds to the bottom of the power required curve (Power = Drag x TAS). VMP gives maximum endurance and maximum rate of climb. VMD is always faster than VMP. Being able to identify these speeds from a graph and understanding what each one optimises is fundamental to performance planning.",
-    "exam_tip": "VMD is at the bottom of the drag curve (best L/D, best range). VMP is slower than VMD and is at the bottom of the power required curve (best endurance, best ROC). VMD is always faster than VMP.",
+    "concept": "A wing or rotor blade producing lift has high pressure underneath and low pressure on top. At the tip there's nothing stopping the high-pressure air from flowing around the end into the low-pressure region above. That spilling flow rolls up into a tightly wound vortex trailing back from each wingtip -- or, on a helicopter, from each rotor blade tip. Tip vortices are the reason induced drag exists (the wing has to do work to generate them), and they're a serious wake turbulence hazard for following aircraft. On a helicopter the tip vortices are continuously shed by every blade, creating a complex wake pattern that can interact with following blades -- this is blade-vortex interaction (BVI), the source of that distinctive helicopter slap.",
+    "exam_tip": "Tip vortices form because high-pressure air spills around the wingtip into the low-pressure region above. They cause induced drag and wake turbulence. On helicopters they cause BVI.",
     "key_facts": [
-      "VMD: minimum drag speed, bottom of the drag curve, best L/D ratio",
-      "VMP: minimum power speed, bottom of the power required curve",
-      "VMP is always slower than VMD",
-      "VMD relates to best range; VMP relates to best endurance and best rate of climb",
-      "Both speeds increase with increased weight (proportional to square root of weight ratio)"
+      "Caused by high-pressure air spilling around the tip to the low-pressure upper surface",
+      "Produced by every lifting wing or rotor blade",
+      "The energy in the vortices is what creates induced drag",
+      "Major source of wake turbulence behind aircraft",
+      "On helicopters they cause blade-vortex interaction (BVI)"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
-    "created": "2026-04-06T00:00:00.000Z"
+    "created": "2026-04-06T00:00:00.000Z",
+    "updated": "2026-04-07T09:14:22.654763+00:00"
   },
   {
     "code": "24.10.26",
     "topic": "24.10 — Drag",
     "syllabus_desc": "Explain induced drag and the main factors that affect it.",
-    "concept": "There's an important distinction between a graph of CD (drag coefficient) versus CL and a graph of total drag force versus IAS. The CD versus CL graph (the drag polar) shows the aerodynamic characteristics of the wing independent of speed, weight, or altitude -- it's about the shape's efficiency. The total drag versus IAS graph shows the actual drag force the aircraft experiences at different speeds for a given weight and altitude. The shapes look similar (both roughly parabolic) but they represent different things. On the drag polar, the tangent line from the origin to the curve gives the best L/D ratio. On the total drag versus IAS graph, the minimum point gives VMD. Changing weight or altitude shifts the drag versus IAS curve but doesn't change the drag polar.",
-    "exam_tip": "CD vs CL (drag polar) is a property of the aerofoil/wing -- it doesn't change with weight or altitude. Total drag vs IAS changes with weight and altitude. Don't confuse them.",
+    "concept": "Induced drag is the price you pay for generating lift. When a wing produces lift, the trailing tip vortices effectively tilt the lift vector slightly backward, and that backward component is induced drag. The factors that affect it: induced drag increases with the square of the lift coefficient (so it's worst at high AoA and low speed), it decreases with airspeed squared (biggest in slow flight), it decreases with higher aspect ratio (longer, thinner wings produce less of it), and it increases with weight (more lift required, more induced drag). For a helicopter in the hover, induced drag is huge because the rotor is generating maximum lift at zero forward speed -- which is why hovering eats fuel.",
+    "exam_tip": "Induced drag is the cost of producing lift. Highest at low speeds and high AoA. Reduced by higher aspect ratio. The dominant drag in the helicopter hover.",
     "key_facts": [
-      "CD vs CL (drag polar): aerodynamic property of the wing, independent of weight/altitude",
-      "Total drag vs IAS: actual drag force, changes with weight and altitude",
-      "On the drag polar, tangent from origin gives best L/D ratio",
-      "On total drag vs IAS, minimum point gives VMD",
-      "Increased weight shifts the drag vs IAS curve upward and to the right"
+      "Induced drag is generated as a byproduct of lift production",
+      "Caused by tip vortices tilting the lift vector rearward",
+      "Increases with CL squared -- worst at high AoA and low speed",
+      "Decreases with airspeed squared",
+      "Reduced by higher aspect ratio (longer, thinner wings or blades)",
+      "Dominant drag component in the helicopter hover"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
-    "created": "2026-04-06T00:00:00.000Z"
+    "created": "2026-04-06T00:00:00.000Z",
+    "updated": "2026-04-07T09:14:22.654763+00:00"
   },
   {
     "code": "24.10.28",
     "topic": "24.10 — Drag",
     "syllabus_desc": "Describe the method of reducing induced drag.",
-    "concept": "The L/D ratio versus alpha graph peaks at a moderate angle of attack -- typically around 4 degrees for a GP aerofoil. At this angle, you're getting the most lift for the least drag. Below this angle, both L and D are low but L drops faster; above it, D increases faster than L. The peak L/D ratio is also called the best lift-to-drag ratio and occurs at VMD in level flight. Typical L/D ratios for light training aircraft are around 8-10:1 clean, meaning for every 1 unit of drag, the wing produces 8-10 units of lift. Gliders achieve 30-60:1. The L/D ratio determines glide angle (higher L/D = shallower glide = more range from a given height) and is a key performance parameter. As alpha increases beyond the peak L/D, the ratio drops steadily, and it falls sharply through the stall.",
-    "exam_tip": "Best L/D ratio occurs at a moderate alpha (about 4 degrees) and corresponds to VMD in level flight. L/D determines glide angle: tan(glide angle) = 1 / (L/D). Higher L/D = flatter glide.",
+    "concept": "There are several ways to cut induced drag. The biggest single factor is aspect ratio -- long, thin wings or rotor blades produce far less induced drag than short, stubby ones (which is why gliders have massive wingspans). Wingtip devices like winglets, raked tips, and end plates also help by interfering with the formation of the tip vortex. Tapered planforms reduce induced drag compared to rectangular ones. Tip washout (less blade pitch at the tip) reduces lift at the tip and weakens the vortex. On helicopters you'll see swept tips, tapered tips, and BERP-style paddle tips all designed to reduce induced and compressibility drag right at the rotor tip where it matters most.",
+    "exam_tip": "Higher aspect ratio is the biggest lever. Winglets, taper, washout, and tip shaping all help. Helicopter rotors use swept and BERP tips for the same reason.",
     "key_facts": [
-      "L/D ratio peaks at a moderate alpha (~4 degrees for GP aerofoils)",
-      "At peak L/D: minimum drag speed (VMD) in level flight",
-      "Typical L/D ratios: training aircraft 8-10:1, gliders 30-60:1",
-      "Glide angle = arctan(1 / L/D); higher L/D = shallower glide angle",
-      "L/D ratio decreases above and below the optimum alpha"
+      "Increase aspect ratio (single biggest contributor)",
+      "Add wingtip devices: winglets, raked tips, end plates",
+      "Use tapered planforms instead of rectangular",
+      "Apply washout (reduced pitch at the tip)",
+      "Helicopter rotors: swept tips, tapered tips, BERP tips"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
-    "created": "2026-04-06T00:00:00.000Z"
+    "created": "2026-04-06T00:00:00.000Z",
+    "updated": "2026-04-07T09:14:22.654763+00:00"
   },
   {
     "code": "24.10.30",
     "topic": "24.10 — Drag",
     "syllabus_desc": "Explain the combination of the three types of drag into the total drag curve.",
-    "concept": "From a typical graph showing L/D versus alpha, you can identify several critical points. The most efficient angle of attack is where L/D peaks -- this is the alpha for VMD and best range. The zero-lift point is where the curve meets the x-axis at a small negative alpha (for cambered aerofoils) -- no lift means L/D is zero regardless of drag. The stalling angle is where the curve drops steeply as CL collapses. Between the zero-lift angle and the most efficient angle, L/D climbs as lift increases faster than drag. Between the most efficient angle and the stall, L/D declines as drag increases faster than lift. Past the stall, L/D plummets. Understanding this graph tells you exactly where in the angle of attack range your wing is operating most efficiently.",
-    "exam_tip": "Most efficient alpha (best L/D) is well below the stalling angle. Zero-lift alpha gives L/D = 0. Stalling alpha gives a sharp drop in L/D. Know how to identify all three on a graph.",
+    "concept": "The total drag curve for a helicopter (or any aircraft) is the sum of all the drag components plotted against airspeed. The two main pieces behave very differently with speed. Induced drag is huge at low speed and falls away rapidly as airspeed increases. Parasite drag (skin friction plus form plus interference) is small at low speed and grows with the square of airspeed. Add the two together and you get a curve that's high at very low speed (induced drag dominating), drops to a minimum at the speed where induced and parasite drag are equal, then climbs again at higher speeds (parasite drag dominating). That minimum point is the speed for minimum drag (VMD) -- the most efficient airspeed for the rotor and a key reference for range and endurance.",
+    "exam_tip": "Total drag = induced drag (drops with speed) + parasite drag (grows with speed squared). Sum gives a U-shape. Minimum is at VMD where the two are equal.",
     "key_facts": [
-      "Most efficient alpha: where L/D ratio is maximum (~4 degrees for GP aerofoils)",
-      "Zero-lift point: small negative alpha where CL = 0 and L/D = 0",
-      "Stalling angle: L/D drops sharply as flow separates",
-      "Below best L/D alpha: lift increasing faster than drag",
-      "Above best L/D alpha: drag increasing faster than lift"
+      "Total drag = induced drag + parasite drag",
+      "Induced drag dominates at low speed and falls rapidly with airspeed",
+      "Parasite drag dominates at high speed and grows with speed squared",
+      "The two curves cross at VMD -- the speed for minimum total drag",
+      "VMD is the basis for best range and best L/D speeds"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
-    "created": "2026-04-06T00:00:00.000Z"
+    "created": "2026-04-06T00:00:00.000Z",
+    "updated": "2026-04-07T09:14:22.654763+00:00"
   },
   {
     "code": "24.10.32",
@@ -1677,55 +1689,59 @@
     "code": "24.12.2",
     "topic": "24.12 — Lift/Drag Ratio",
     "syllabus_desc": "Define lift/drag (L/D) ratio.",
-    "concept": "Lift augmentation devices exist for one simple reason: a clean wing optimised for cruise can't produce enough lift at low speeds for safe take-off and landing without unacceptably long runways. High-lift devices let you temporarily modify the wing to produce more lift at low speeds, then retract them for efficient cruise. They work by increasing the effective camber, increasing the wing area, energising the boundary layer, or some combination of all three. Without high-lift devices, your stalling speed would be much higher, and you'd need to approach at much higher speeds -- which means longer landing distances and higher-speed rejected take-offs. Think of them as the 'low gear' for your wing.",
-    "exam_tip": "High-lift devices increase CLmax, reducing stall speed and allowing shorter take-off/landing distances. They're retracted for cruise to reduce drag.",
+    "concept": "The lift/drag ratio is exactly what it sounds like -- the ratio of the lift produced by an aerofoil to the drag it generates at the same time. It's a measure of aerodynamic efficiency. An L/D of 10 means the aerofoil produces ten units of lift for every one unit of drag. Higher L/D = more efficient. For a helicopter, the rotor's L/D ratio peaks at a specific angle of attack, and flying near that AoA gives the best range performance because you're moving the most weight for the least drag (and therefore the least fuel burn). Modern airliners can hit L/D ratios in the 18-20 range; light helicopters are much lower, typically around 4-5 in cruise.",
+    "exam_tip": "L/D = lift / drag. Higher is more efficient. Best L/D AoA gives best range.",
     "key_facts": [
-      "Purpose: reduce stalling speed for safe take-off and landing",
-      "Methods: increase camber, increase wing area, energise boundary layer",
-      "Include trailing-edge flaps, leading-edge flaps, slats, and slots",
-      "Retracted for cruise to minimise drag",
-      "Allow the wing to be optimised for cruise speed while still handling low-speed operations"
+      "L/D ratio = lift produced / drag generated",
+      "Dimensionless measure of aerodynamic efficiency",
+      "Higher L/D = more lift per unit of drag",
+      "Best L/D AoA corresponds to best range and best glide",
+      "Light helicopters: L/D around 4-5; airliners: 18-20"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
-    "created": "2026-04-06T00:00:00.000Z"
+    "created": "2026-04-06T00:00:00.000Z",
+    "updated": "2026-04-07T09:14:22.654763+00:00"
   },
   {
     "code": "24.12.4",
     "topic": "24.12 — Lift/Drag Ratio",
     "syllabus_desc": "Explain the relationship between the lift/drag ratio and the CL/CD ratio.",
-    "concept": "Trailing-edge flaps are hinged surfaces on the rear portion of the wing that deflect downward. When lowered, they increase the effective camber of the wing and (in some types) the wing area. This shifts the CL curve upward and to the left, giving a higher CLmax at a slightly lower stalling angle. The net result is more lift at any given angle of attack and a lower stalling speed. Leading-edge flaps (such as Krueger flaps or droop nose) work differently -- they extend forward and down from the leading edge, effectively increasing the wing's leading-edge radius and camber. Leading-edge devices primarily delay leading-edge flow separation, allowing the wing to reach a higher angle of attack before stalling. Both types increase CLmax, but trailing-edge devices do it mainly by increasing camber while leading-edge devices do it mainly by increasing the stalling angle.",
-    "exam_tip": "Trailing-edge flaps: increase camber, increase CLmax, may decrease stalling angle slightly. Leading-edge devices: increase stalling angle, delay LE separation, increase CLmax.",
+    "concept": "L/D and CL/CD are actually the same thing -- and it's worth understanding why. Look at the lift formula L = CL x 0.5 x rho x V squared x S and the drag formula D = CD x 0.5 x rho x V squared x S. When you divide one by the other, the 0.5 x rho x V squared x S terms cancel out completely, leaving L/D = CL/CD. So whatever angle of attack gives the maximum CL/CD on the polar curve is also the angle of attack that gives the maximum L/D in flight. That's why aerofoil designers and pilots both care about the CL/CD curve -- it tells you directly where the aerofoil is most efficient, regardless of speed, density, or size.",
+    "exam_tip": "L/D = CL/CD because the dynamic pressure and area terms cancel. Maximum CL/CD AoA = maximum L/D AoA.",
     "key_facts": [
-      "Trailing-edge flaps: deflect downward, increase camber, increase CLmax",
-      "Leading-edge flaps: extend forward/down, increase LE radius, delay LE separation",
-      "Trailing-edge flaps decrease the stalling angle slightly while increasing CLmax",
-      "Leading-edge devices increase the stalling angle of attack",
-      "Both reduce stalling speed by increasing CLmax"
+      "L/D = CL/CD because the 0.5 x rho x V squared x S terms cancel out",
+      "Both ratios peak at the same angle of attack",
+      "That AoA is the most efficient operating point of the aerofoil",
+      "Used to find best range and best glide speeds",
+      "Plotted on the CL/CD polar curve in aerofoil performance charts"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
-    "created": "2026-04-06T00:00:00.000Z"
+    "created": "2026-04-06T00:00:00.000Z",
+    "updated": "2026-04-07T09:14:22.654763+00:00"
   },
   {
     "code": "24.12.6",
     "topic": "24.12 — Lift/Drag Ratio",
     "syllabus_desc": "Explain why flight at best lift/drag ratio speed is most efficient.",
-    "concept": "Lowering trailing-edge flap has several interconnected effects. CL increases at every angle of attack (the whole CL curve shifts up), giving a higher CLmax but at a slightly lower stalling angle. CD increases significantly -- flaps are draggy, especially at large deflections. The L/D ratio decreases because the drag increase outweighs the lift increase. The CP moves rearward because the increased camber at the trailing edge shifts the pressure distribution aft, creating a nose-down pitching moment. The stalling angle of attack decreases slightly because the changed pressure distribution promotes earlier trailing-edge separation. The stalling speed decreases because CLmax is higher. For take-off, small flap settings give a good CL boost with modest drag penalty. For landing, larger settings give maximum drag (welcome for slowing down) and the lowest stalling speed.",
-    "exam_tip": "TE flap effects: CL up, CD up significantly, L/D down, CP moves aft, nose-down pitch, stalling angle decreases, stalling speed decreases. More flap = more drag = steeper approach angle.",
+    "concept": "Flying at the best L/D speed is most efficient because that's where the rotor is producing the maximum lift for the minimum drag -- you're getting the most aerodynamic work done per unit of energy expended. At any other speed, you're either burning fuel to fight excessive induced drag (slower than best L/D) or excessive parasite drag (faster than best L/D). At best L/D the two are balanced, and the total drag is at its minimum. For range flying, this is the sweet spot: minimum drag means minimum thrust required, which means minimum power required, which means minimum fuel flow per nautical mile (in still air). It's the same principle that makes glider pilots aim for best L/D speed when looking for maximum distance.",
+    "exam_tip": "Best L/D speed = minimum total drag = minimum power required = best range (in still air). It's the most efficient speed because nothing else gives you more lift per unit of drag.",
     "key_facts": [
-      "CL increases at all angles of attack (CL curve shifts up)",
-      "CD increases significantly, especially at large deflections",
-      "L/D ratio decreases (drag increase proportionally greater than lift increase)",
-      "CP moves rearward, creating a nose-down pitching moment",
-      "Stalling angle decreases slightly; stalling speed decreases"
+      "At best L/D speed, total drag is at its minimum",
+      "Minimum drag means minimum power required to overcome it",
+      "Minimum power means minimum fuel flow per nautical mile in still air",
+      "Below best L/D speed: induced drag is excessive",
+      "Above best L/D speed: parasite drag is excessive",
+      "Best L/D is the basis for best range cruise"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
-    "created": "2026-04-06T00:00:00.000Z"
+    "created": "2026-04-06T00:00:00.000Z",
+    "updated": "2026-04-07T09:14:22.654763+00:00"
   },
   {
     "code": "24.12.8(a)",
@@ -1803,19 +1819,20 @@
     "code": "24.12.10",
     "topic": "24.12 — Lift/Drag Ratio",
     "syllabus_desc": "Explain the factors affecting the lift/drag ratio.",
-    "concept": "There are several types of trailing-edge flap, each progressively more effective (and complex). The plain flap is the simplest -- the trailing edge hinges downward, increasing camber but not area. It gives modest CLmax improvement. The split flap has only the lower surface deflecting down, creating a bigger wake and more drag -- useful for landing but draggy. The slotted flap has a gap (slot) between the wing and the flap that channels high-energy air from below the wing to the upper surface of the flap, energising the boundary layer and delaying separation on the flap. This gives a significantly higher CLmax. The Fowler flap moves aft and then rotates down -- it increases both camber and wing area, and usually incorporates a slot. Fowler flaps give the highest CLmax increase of all trailing-edge types. Double and triple slotted Fowler flaps are used on transport aircraft for maximum low-speed performance.",
-    "exam_tip": "From least to most effective: plain, split, slotted, Fowler. The Fowler flap increases area AND camber AND has a slot. Know the distinguishing feature of each type.",
+    "concept": "L/D ratio varies primarily with angle of attack -- the curve climbs from zero at the zero-lift AoA, peaks at the most efficient AoA (typically 3-5 degrees for a helicopter blade), then drops off as drag increases faster than lift toward the stall. Other factors include aerofoil shape (cambered sections generally give a higher peak L/D than symmetrical), surface condition (any contamination or roughness drops L/D significantly -- bugs, dirt, ice, or frost), aspect ratio (higher AR = lower induced drag = higher L/D), and Reynolds number (very small or very slow aircraft suffer reduced L/D). On a helicopter rotor, blade twist, planform, and tip design all influence the achievable L/D.",
+    "exam_tip": "AoA is the biggest driver -- L/D peaks at one specific AoA. Surface contamination, low aspect ratio, and bad blade design all reduce L/D.",
     "key_facts": [
-      "Plain flap: simple hinge, increases camber only, modest CLmax improvement",
-      "Split flap: lower surface only deflects, high drag, used mainly for landing",
-      "Slotted flap: gap channels high-energy air over flap surface, better CLmax",
-      "Fowler flap: moves aft (increases area) and rotates down (increases camber), usually slotted",
-      "Effectiveness order: plain < split < slotted < Fowler"
+      "Angle of attack: L/D peaks at one specific AoA, drops either side",
+      "Aerofoil shape: cambered usually has higher peak L/D than symmetrical",
+      "Surface condition: contamination cuts L/D significantly",
+      "Aspect ratio: higher AR = lower induced drag = higher L/D",
+      "Reynolds number effects matter at small scales and low speeds"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
-    "created": "2026-04-06T00:00:00.000Z"
+    "created": "2026-04-06T00:00:00.000Z",
+    "updated": "2026-04-07T09:14:22.654763+00:00"
   },
   {
     "code": "24.14.2(a)",
@@ -4252,19 +4269,20 @@
     "code": "24.26.12",
     "topic": "24.26 — Turning",
     "syllabus_desc": "Explain the effect of wind on indicated airspeed and translational lift during a turn.",
-    "concept": "The effect of speed on turning in a helicopter: at low speeds, rate of turn is high and radius is small even at moderate bank angles — this is the helicopter's manoeuvring advantage. As speed increases, radius grows and you need more bank to achieve the same rate. Very low speed turns (near hover) use primarily tail rotor pedal rather than banked disc, making them unique to rotary-wing aircraft.",
-    "exam_tip": "Hovering turns use pedal (tail rotor). Low-speed forward flight uses disc tilt and pedal coordination. High-speed turns are similar to fixed-wing — steeper bank needed for same rate.",
+    "concept": "As you turn through the wind in a helicopter, your indicated airspeed and your translational lift are constantly changing because the wind component on the rotor is constantly changing. Turning from upwind to downwind, the rotor sees the headwind component drop to zero and then become a tailwind -- airflow through the disc reduces, IAS drops, and you lose translational lift. The opposite happens turning from downwind back into wind: airflow increases, IAS rises, translational lift returns. In a slow turn close to the ground -- a confined area, hover taxi, or low-level circuit -- this can catch you out badly. The helicopter can sink unexpectedly as you swing through the downwind portion because you've lost the translational lift you started the turn with. Maintain enough power and AoA margin throughout the turn, and anticipate the loss.",
+    "exam_tip": "Turning from upwind to downwind: IAS and translational lift both DROP. Turning from downwind to upwind: both RISE. This bites pilots in slow low-altitude turns.",
     "key_facts": [
-      "Hover: turns initiated entirely by pedal (tail rotor torque)",
-      "Low speed: combination of disc tilt and pedal input",
-      "High speed: primarily disc tilt, same as fixed-wing bank-and-pull",
-      "Rate of turn at hover is limited by tail rotor power",
-      "Understanding the transition from pedal to disc-tilt turns is key for CPL"
+      "Wind component through the rotor changes constantly during a turn",
+      "Turning into wind: IAS rises, translational lift increases",
+      "Turning downwind: IAS drops, translational lift is lost",
+      "Loss of translational lift requires more power to maintain altitude",
+      "Particularly hazardous in slow, low-level turns and confined area work"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
-    "created": "2026-04-06T00:00:00.000Z"
+    "created": "2026-04-06T00:00:00.000Z",
+    "updated": "2026-04-07T09:14:22.654763+00:00"
   },
   {
     "code": "24.26.14",
@@ -4288,19 +4306,20 @@
     "code": "24.28.2",
     "topic": "24.28 — Transitioning to the Hover",
     "syllabus_desc": "Explain the meaning and purpose of the flare.",
-    "concept": "Transitioning from forward flight to a hover involves decelerating, losing translational lift, and simultaneously increasing collective to compensate — this is where 'the hover requires more power than cruise flight' becomes very real. As airspeed reduces below ETL (~16–24 knots), the rotor loses the efficiency gained from translational lift and induced flow patterns change, requiring a significant power increase to maintain altitude.",
-    "exam_tip": "Losing translational lift on approach requires a power increase — this is why power demand spikes when you slow below ETL. Anticipate it with collective before you need it.",
+    "concept": "The flare is a deliberate nose-up pitch change made at the end of an approach to slow the helicopter down and convert forward airspeed into rotor energy and reduced sink rate before settling into the hover (or onto the ground in an autorotation landing). Aft cyclic tilts the rotor disc rearward, which does three useful things at once: it tilts the thrust vector backward (decelerating the aircraft), it increases the angle of attack on the blades (boosting rotor thrust and arresting descent), and it adds energy to the rotor RPM (storing it for the cushion at the bottom). The flare is the key event that turns a fast approach into a controlled hover or touchdown -- get the timing right and the helicopter settles gently; get it wrong and you're either still moving fast at the surface or you've ballooned high and lost lift.",
+    "exam_tip": "The flare = aft cyclic at the end of approach to slow down, increase rotor thrust, and add RPM. Three effects at once. Critical to autorotation landings.",
     "key_facts": [
-      "ETL (effective translational lift) lost below approximately 16–24 knots",
-      "Power demand increases significantly below ETL",
-      "Deceleration requires aft cyclic, which also tends to climb — co-ordinate collective",
-      "Pilot must increase collective as speed reduces to maintain height",
-      "High AUW or high DA makes the transition to hover more demanding"
+      "Flare = deliberate aft cyclic input near the end of an approach",
+      "Tilts the rotor disc rearward to decelerate forward speed",
+      "Increases blade angle of attack, raising total rotor thrust",
+      "Stores energy in rotor RPM for the cushion at touchdown",
+      "Critical phase in autorotation landings and confined area approaches"
     ],
     "source": "NZ CAA AC 61-5 Rev 38",
     "confidence": "high",
     "verified": false,
-    "created": "2026-04-06T00:00:00.000Z"
+    "created": "2026-04-06T00:00:00.000Z",
+    "updated": "2026-04-07T09:14:22.654763+00:00"
   },
   {
     "code": "24.28.4(a)",
