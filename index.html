@@ -1224,6 +1224,90 @@
                 });
             }
 
+            // ===== CAR 61.21 INSTRUCTOR SIGN-OFF SECTION =====
+            // Ensure we have enough room; add a new page if less than 80mm remain
+            if (yPos > pageHeight - 80) {
+                doc.addPage();
+                yPos = margin;
+            } else {
+                yPos += 10;
+            }
+
+            // Divider above section
+            doc.setDrawColor(19, 157, 163); // #139DA3 teal
+            doc.setLineWidth(0.8);
+            doc.line(margin, yPos, pageWidth - margin, yPos);
+            yPos += 6;
+
+            // Paragraph text — must match KDR Report wording exactly
+            const carText = 'Flight test candidates must provide written exam credits showing that knowledge deficiencies have been rectified i.a.w CAR 61.21. A License A or B Flight Instructor should sign below certifying knowledge improvement. Flight Instructors are encouraged to remedy knowledge deficiencies in a timely manner.';
+            doc.setFontSize(9);
+            doc.setFont(undefined, 'normal');
+            doc.setTextColor(31, 37, 40);
+            const carLines = doc.splitTextToSize(carText, pageWidth - 2 * margin);
+            doc.text(carLines, margin, yPos);
+            yPos += carLines.length * 4 + 6;
+
+            // Check we still have room for the table
+            if (yPos > pageHeight - 50) {
+                doc.addPage();
+                yPos = margin;
+            }
+
+            // Table dimensions
+            const tableLeft = margin;
+            const tableRight = pageWidth - margin;
+            const tableWidth = tableRight - tableLeft;
+            const headerH = 8;
+            const rowH = 10;
+            const numRows = 2;
+
+            // Column widths (proportional, total = tableWidth ~170mm)
+            const colWidths = [
+                tableWidth * 0.20, // Instructor Name
+                tableWidth * 0.25, // Instructor Signature
+                tableWidth * 0.12, // License
+                tableWidth * 0.28, // Training Organisation
+                tableWidth * 0.15  // Date
+            ];
+            const colHeaders = ['Instructor Name', 'Instructor Signature', 'License', 'Training Organisation', 'Date'];
+
+            // Header row — filled with Stoneybrook teal #139DA3
+            doc.setFillColor(19, 157, 163);
+            doc.rect(tableLeft, yPos, tableWidth, headerH, 'F');
+            doc.setTextColor(255, 255, 255);
+            doc.setFontSize(8);
+            doc.setFont(undefined, 'bold');
+            let colX = tableLeft;
+            colHeaders.forEach((header, i) => {
+                doc.text(header, colX + 2, yPos + 5.5);
+                colX += colWidths[i];
+            });
+
+            // Header border
+            doc.setDrawColor(19, 157, 163);
+            doc.setLineWidth(0.3);
+            doc.rect(tableLeft, yPos, tableWidth, headerH, 'S');
+
+            yPos += headerH;
+
+            // Empty data rows
+            doc.setFillColor(255, 255, 255);
+            doc.setTextColor(31, 37, 40);
+            doc.setFont(undefined, 'normal');
+            doc.setDrawColor(180, 180, 180);
+            doc.setLineWidth(0.3);
+            for (let r = 0; r < numRows; r++) {
+                colX = tableLeft;
+                colHeaders.forEach((_, i) => {
+                    doc.rect(colX, yPos, colWidths[i], rowH, 'S');
+                    colX += colWidths[i];
+                });
+                yPos += rowH;
+            }
+
+            yPos += 6;
+
             // Footer on all pages
             const totalPages = doc.getNumberOfPages();
             for (let i = 1; i <= totalPages; i++) {
