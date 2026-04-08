@@ -848,10 +848,44 @@
                 }
             }
 
-            // Subject aliases -- ASPEQ KDRs use abbreviations and varying wording
+            // ASPEQ prints "Subject NN <name>" — map subject number directly (most reliable signal)
+            const subjectNumberMap = {
+                '2':  'flight radiotelephony',
+                '4':  'air law',
+                '6':  'flight navigation',
+                '8':  'meteorology',
+                '10': 'human factors',
+                '12': 'aircraft technical knowledge',
+                '14': 'aircraft technical knowledge (helicopter)',
+                '16': { ppl: 'human factors', cpl: 'air law' },
+                '18': { ppl: 'flight navigation', cpl: 'principles of flight' },
+                '20': 'meteorology',
+                '22': 'principles of flight',
+                '24': 'principles of flight (helicopter)',
+                '26': 'aircraft technical knowledge',
+                '28': 'aircraft technical knowledge (helicopter)',
+                '34': 'human factors',
+                '52': 'ir air law'
+            };
+            const subjectNumMatch = text.match(/subject\s+(\d+)/i);
+            if (subjectNumMatch) {
+                const num = subjectNumMatch[1];
+                const mapping = subjectNumberMap[num];
+                if (mapping) {
+                    if (typeof mapping === 'string') {
+                        appState.detectedSubject = mapping;
+                    } else {
+                        // Disambiguate by exam type
+                        const isCpl = appState.detectedExam && appState.detectedExam.toLowerCase() === 'cpl';
+                        appState.detectedSubject = isCpl ? mapping.cpl : mapping.ppl;
+                    }
+                }
+            }
+
+            // Subject aliases -- fallback if subject number not found
             // NOTE: more-specific entries must come before less-specific ones (e.g. 'ir air law' before 'air law')
             const subjectAliases = {
-                'ir air law': ['ir air law', 'ifr air law', 'instrument flight rules air law', 'air law (ir)', 'air law ir', 'subject 52'],
+                'ir air law': ['ir air law', 'ifr air law', 'instrument flight rules air law', 'air law (ir)', 'air law ir'],
                 'flight radiotelephony': ['frto', 'radiotelephony', 'radio telephony', 'flight radio'],
                 'aircraft technical knowledge (helicopter)': ['atk (h)', 'atk(h)', 'atk helicopter', 'helicopter atk', 'aircraft technical knowledge (helicopter)', 'technical knowledge (helicopter)', 'technical knowledge helicopter'],
                 'aircraft technical knowledge': ['atk', 'aircraft technical', 'technical knowledge'],
@@ -861,15 +895,17 @@
                 'human factors': ['human factors', 'human factor', 'hf ']
             };
 
-            // Detect subject -- check full name first, then aliases
-            for (const [subject, mapping] of Object.entries(CONFIG.subjectMapping)) {
-                if (lowerText.includes(subject)) {
-                    appState.detectedSubject = subject;
-                    break;
+            // Detect subject by full name (if not already found by number)
+            if (!appState.detectedSubject) {
+                for (const [subject, mapping] of Object.entries(CONFIG.subjectMapping)) {
+                    if (lowerText.includes(subject)) {
+                        appState.detectedSubject = subject;
+                        break;
+                    }
                 }
             }
 
-            // If no match, try aliases
+            // If still no match, try aliases
             if (!appState.detectedSubject) {
                 for (const [subject, aliases] of Object.entries(subjectAliases)) {
                     for (const alias of aliases) {
