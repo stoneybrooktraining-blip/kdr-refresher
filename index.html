@@ -654,6 +654,7 @@
             subjectMapping: {
                 'ir air law': { num: '52', acNum: '52', prefix: '52' },
                 'ir operational knowledge': { num: '53', acNum: '53', prefix: '53' },
+                'ir instruments and navigation aids': { num: '56', acNum: '56', prefix: '56' },
                 'air law': { num: '11', acNum: '4', prefix: '4', cplAcNum: '16' },
                 'aircraft technical knowledge (helicopter)': { num: '14', acNum: '14', prefix: '14', cplAcNum: '28' },
                 'aircraft technical knowledge': { num: '12', acNum: '12', prefix: '12', cplAcNum: '26' },
@@ -687,7 +688,8 @@
                 },
                 'ir': {
                     '52': 'data/ifr-law.json',
-                    '53': 'data/ifr-opknowledge.json'
+                    '53': 'data/ifr-opknowledge.json',
+                    '56': 'data/ifr-ins-navaids.json'
                 }
             },
             examTypes: ['PPL', 'CPL', 'ATPL', 'IR']
@@ -868,7 +870,8 @@
                 '28': 'aircraft technical knowledge (helicopter)',
                 '34': 'human factors',
                 '52': 'ir air law',
-                '53': 'ir operational knowledge'
+                '53': 'ir operational knowledge',
+                '56': 'ir instruments and navigation aids'
             };
             const subjectNumMatch = text.match(/subject\s+(\d+)/i);
             if (subjectNumMatch) {
@@ -890,6 +893,7 @@
             const subjectAliases = {
                 'ir air law': ['ir air law', 'ifr air law', 'instrument flight rules air law', 'air law (ir)', 'air law ir'],
                 'ir operational knowledge': ['ir operational knowledge', 'ir op knowledge', 'ifr operational knowledge', 'ifr op knowledge', 'operational knowledge', 'ir ops knowledge', 'ir opknowledge'],
+                'ir instruments and navigation aids': ['ir instruments and navigation aids', 'ifr instruments and navigation aids', 'instruments and navigation aids', 'instruments & navigation aids', 'ins & navaids', 'ins navaids', 'ir ins navaids', 'ifr ins navaids', 'navaids', 'instruments and navaids'],
                 'flight radiotelephony': ['frto', 'radiotelephony', 'radio telephony', 'flight radio'],
                 'aircraft technical knowledge (helicopter)': ['atk (h)', 'atk(h)', 'atk helicopter', 'helicopter atk', 'aircraft technical knowledge (helicopter)', 'technical knowledge (helicopter)', 'technical knowledge helicopter'],
                 'aircraft technical knowledge': ['atk', 'aircraft technical', 'technical knowledge'],
