@@ -652,16 +652,16 @@
         // ===== CONFIGURATION =====
         const CONFIG = {
             subjectMapping: {
+                'ir air law': { num: '52', acNum: '52', prefix: '52' },
                 'air law': { num: '11', acNum: '4', prefix: '4', cplAcNum: '16' },
-                'aircraft technical knowledge': { num: '12', acNum: '12', prefix: '12', cplAcNum: '26' },
                 'aircraft technical knowledge (helicopter)': { num: '14', acNum: '14', prefix: '14', cplAcNum: '28' },
+                'aircraft technical knowledge': { num: '12', acNum: '12', prefix: '12', cplAcNum: '26' },
                 'flight navigation': { num: '13', acNum: '6', prefix: '6', cplAcNum: '18' },
                 'meteorology': { num: '15', acNum: '8', prefix: '8', cplAcNum: '20' },
                 'human factors': { num: '16', acNum: '10', prefix: '10', cplAcNum: '34' },
-                'principles of flight': { num: '18', acNum: '', prefix: '', cplAcNum: '22' },
                 'principles of flight (helicopter)': { num: '19', acNum: '', prefix: '', cplAcNum: '24' },
-                'flight radiotelephony': { num: '17', acNum: '2', prefix: '2' },
-                'ir air law': { num: '52', acNum: '52', prefix: '52' }
+                'principles of flight': { num: '18', acNum: '', prefix: '', cplAcNum: '22' },
+                'flight radiotelephony': { num: '17', acNum: '2', prefix: '2' }
             },
             contentFiles: {
                 'ppl': {
@@ -849,15 +849,16 @@
             }
 
             // Subject aliases -- ASPEQ KDRs use abbreviations and varying wording
+            // NOTE: more-specific entries must come before less-specific ones (e.g. 'ir air law' before 'air law')
             const subjectAliases = {
+                'ir air law': ['ir air law', 'ifr air law', 'instrument flight rules air law', 'air law (ir)', 'air law ir', 'subject 52'],
                 'flight radiotelephony': ['frto', 'radiotelephony', 'radio telephony', 'flight radio'],
                 'aircraft technical knowledge (helicopter)': ['atk (h)', 'atk(h)', 'atk helicopter', 'helicopter atk', 'aircraft technical knowledge (helicopter)', 'technical knowledge (helicopter)', 'technical knowledge helicopter'],
                 'aircraft technical knowledge': ['atk', 'aircraft technical', 'technical knowledge'],
                 'air law': ['air law', 'airlaw'],
                 'flight navigation': ['nav', 'flight navigation', 'navigation general', 'navigation'],
                 'meteorology': ['met', 'meteorology'],
-                'human factors': ['human factors', 'human factor', 'hf '],
-                'ir air law': ['ir air law', 'ifr air law', 'instrument flight rules air law', 'air law (ir)', 'air law ir']
+                'human factors': ['human factors', 'human factor', 'hf ']
             };
 
             // Detect subject -- check full name first, then aliases
