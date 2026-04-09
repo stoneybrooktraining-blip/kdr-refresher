@@ -972,52 +972,57 @@
     "code": "34.18.6",
     "topic": "34.18 -- Vision and Visual Perception",
     "syllabus_desc": "Explain the process of dark adaptation.",
-    "concept": "Dark adaptation is the process by which your eyes adjust from bright light to darkness, primarily involving the regeneration of rhodopsin (visual purple) in the rod cells. When you move from a bright environment to a dark one, your vision initially seems very poor. Cones adapt relatively quickly (about 5-7 minutes) but reach a limited sensitivity level. Rods take much longer--about 20-30 minutes for full dark adaptation--but eventually become far more sensitive than cones. The process follows a characteristic two-phase curve: an initial quick improvement (cone adaptation) followed by a gradual continued improvement (rod adaptation). What's critical for pilots is that dark adaptation is easily destroyed: a single brief exposure to bright white light can reset the process, requiring another 20-30 minutes to recover. Red light preserves dark adaptation because rods are insensitive to long-wavelength (red) light--this is why cockpit instruments and torches for night flying use red lighting. Before a night flight, you should spend at least 20-30 minutes in a darkened environment or wearing dark adaptation goggles to achieve full rod sensitivity.",
-    "exam_tip": "Full dark adaptation takes 20-30 minutes (rods). Easily destroyed by bright light. Red cockpit lighting preserves adaptation because rods are insensitive to red wavelengths. Plan 20-30 min before night flight.",
+    "concept": "Dark adaptation is the process by which your eyes adjust from bright light to darkness, primarily involving the regeneration of rhodopsin (visual purple) in rod photoreceptors. When exposed to bright light, rhodopsin is bleached (chemically broken down) faster than it can regenerate, leaving rods insensitive. When you move to darkness, rhodopsin regenerates progressively and rods become increasingly sensitive to low light levels. There are two phases: cones reach their maximum dark sensitivity relatively quickly, within 5-7 minutes. Rods continue adapting beyond this point as rhodopsin regenerates — the full process takes 30 to 45 minutes. Dark adaptation is degraded by: exposure to bright white light (even briefly, more than about one second), carbon monoxide from smoking or exhaust fumes, alcohol, age, and hypoxia. Red cockpit lighting is used specifically because rods have very low sensitivity to red wavelengths — red light allows crew to read instruments without disrupting dark adaptation. If dark adapted eyes are exposed to a bright light source for more than one second, night vision is temporarily impaired and recovery takes several minutes.",
+    "exam_tip": "Dark adaptation = rhodopsin regeneration in rods. Two-phase process: cones adapt in 5-7 min; full rod adaptation takes 30-45 minutes (Campbell & Bagshaw). Disrupted by bright white light, CO, alcohol, hypoxia. Red light preserves adaptation.",
     "key_facts": [
-      "Cones adapt in ~5-7 minutes; rods require 20-30 minutes for full dark adaptation",
-      "Rhodopsin (visual purple) regeneration in rods drives the adaptation process",
-      "Brief exposure to bright white light resets adaptation, requiring 20-30 min to recover",
-      "Red light preserves dark adaptation; rods are insensitive to long (red) wavelengths"
+      "Rhodopsin bleached by bright light; regenerates in darkness",
+      "Cone adaptation: ~5-7 minutes",
+      "Full rod adaptation: 30-45 minutes (Campbell & Bagshaw)",
+      "Degraded by: bright white light, carbon monoxide, alcohol, age, hypoxia",
+      "Red light preserves dark adaptation (rods insensitive to red)"
     ],
-    "source": "AC 61-5 Rev 38, Campbell & Bagshaw -- Human Performance & Limitations",
+    "source": "AC 61-5 Rev 38; Campbell & Bagshaw — Human Performance & Limitations in Aviation, 3rd Ed.",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-31T00:00:00Z"
+    "verified": true,
+    "created": "2026-03-31T00:00:00Z",
+    "updated": "2026-04-07T10:28:56Z"
   },
   {
     "code": "34.18.8",
     "topic": "34.18 -- Vision and Visual Perception",
     "syllabus_desc": "State the normal time for full night vision adaptation.",
-    "concept": "Full dark adaptation of the rod cells takes approximately 20-30 minutes in darkness. The process follows a predictable curve: there's a noticeable improvement in the first 5-7 minutes as the cones reach their maximum dark sensitivity, then a continued gradual improvement as the rods regenerate rhodopsin and become increasingly sensitive to lower light levels. Maximum rod sensitivity is typically reached by about 30 minutes. However, achieving and maintaining full adaptation in a real cockpit environment is challenging. You've got instrument panel lighting, occasional torch use for charts, and potentially the bright flash of strobe lights from other traffic. Each bright light exposure partially resets the process. In practice, you'll rarely achieve textbook full adaptation during flight. The key is to protect what adaptation you have: use the lowest practical panel lighting, avoid looking directly at bright lights, and if you need to use a torch, make sure it's red-filtered. For NZ night operations, allow at least 30 minutes of dark adaptation before a night departure.",
-    "exam_tip": "Full dark adaptation: 20-30 minutes. Cones plateau at ~5-7 minutes; rods continue improving to ~30 minutes. Protect adaptation with low panel lighting and red-filtered torches.",
+    "concept": "Full dark adaptation — the point where rods have regenerated maximum rhodopsin and are operating at peak sensitivity — takes between 30 and 45 minutes. There is a noticeable improvement in the first 5-7 minutes as cones adapt, and continued gradual improvement as rods regenerate rhodopsin. The lower the starting level of illumination before adaptation begins, the more rapidly complete dark adaptation is achieved. In practice, achieving and maintaining full adaptation in a cockpit environment is challenging. Instrument panel lighting, occasional torch use for charts, and strobes from other traffic all partially reset the process. The key is to protect what adaptation you have. For NZ night operations, allow at least 30-45 minutes of dark adaptation before a night departure, and manage cockpit lighting throughout the flight.",
+    "exam_tip": "Full night vision adaptation: 30-45 minutes. This is the Campbell & Bagshaw figure. Cones adapt first (~5-7 min); rods continue to 30-45 min. Do not quote 20-30 minutes as the standard — the correct answer is 30-45 minutes.",
     "key_facts": [
-      "Full dark adaptation takes approximately 20-30 minutes",
-      "Cone adaptation: ~5-7 minutes; rod adaptation continues to ~30 minutes",
-      "Maximum rod sensitivity at approximately 30 minutes in darkness",
-      "Allow at least 30 minutes before night flight; protect with red lighting"
+      "Full dark adaptation takes 30-45 minutes (Campbell & Bagshaw)",
+      "Cone adaptation: ~5-7 minutes; rod adaptation continues to 30-45 minutes",
+      "Lower starting illumination = faster adaptation",
+      "Allow 30-45 minutes before night operations"
     ],
-    "source": "AC 61-5 Rev 38, Campbell & Bagshaw -- Human Performance & Limitations",
+    "source": "AC 61-5 Rev 38; Campbell & Bagshaw — Human Performance & Limitations in Aviation, 3rd Ed.",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-31T00:00:00Z"
+    "verified": true,
+    "created": "2026-03-31T00:00:00Z",
+    "updated": "2026-04-07T10:28:56Z"
   },
   {
     "code": "34.18.10",
     "topic": "34.18 -- Vision and Visual Perception",
     "syllabus_desc": "Identify precautionary actions to protect night vision adaptation.",
-    "concept": "Protecting night vision adaptation requires deliberate action both before and during night flight. Before flight: spend 20-30 minutes in a darkened environment or wear dark red adaptation goggles (which allow cone function for walking around while protecting rod adaptation). Avoid looking at bright screens (phones, tablets at full brightness) close to departure. During flight: use the lowest practical cockpit lighting--dim the panel as low as you can while still reading instruments. Use red-filtered torches for charts and paperwork (red light doesn't stimulate rods). Keep cabin lights dimmed. If you need to look at a bright light source (landing light, strobe), close one eye to preserve adaptation in the other. Avoid staring at bright ground lights or city lights during approach. Set electronic flight bag screens to 'night mode' with reduced brightness and red tinting. Keep the windscreen clean--dirt and scratches scatter light and increase internal glare. Supplemental oxygen above 5,000 ft at night can help maintain rod function by preventing the mild hypoxia that degrades night vision at moderate altitudes.",
-    "exam_tip": "Actions: 20-30 min dark adaptation pre-flight, dim cockpit lighting, red-filtered torches, close one eye for bright lights, clean windscreen, night-mode screens, supplemental O2 above 5,000 ft at night.",
+    "concept": "Protecting night vision adaptation requires deliberate action both before and during night flight. Before flight: spend 30-45 minutes in a darkened environment or with red-filtered lighting to achieve full dark adaptation before departure. Avoid bright white lights — offices, briefing rooms, and car headlights — in the lead-up. During flight: adjust instrument and cockpit lighting to the lowest practical level. Avoid inhaling carbon monoxide from smoking or exhaust fumes — CO competes with oxygen in the blood and degrades rhodopsin regeneration. Use supplemental oxygen when flying at night above 5,000 ft — hypoxia impairs night vision significantly and from relatively low altitudes. If dark adapted eyes are exposed to a bright light source for more than about one second, night vision is temporarily impaired and recovery takes several minutes before adaptation is re-established. Anti-glare spectacles and positioning yourself in shade on the ground help if bright light cannot be avoided.",
+    "exam_tip": "Pre-flight: 30-45 minutes dark adaptation (not 20-30). During flight: low red cockpit lighting; no CO; supplemental O2 above 5,000 ft at night. Know what degrades adaptation: bright white light (>1 second), CO, alcohol, age, hypoxia.",
     "key_facts": [
-      "Pre-flight: 20-30 min dark adaptation or red goggles; avoid bright screens",
-      "Cockpit: lowest practical lighting, red-filtered torches, dimmed cabin lights",
-      "Close one eye when exposed to bright light to preserve adaptation in the other",
-      "Supplemental O2 above 5,000 ft at night helps maintain rod sensitivity"
+      "Allow 30-45 minutes pre-flight dark adaptation in darkness or red light",
+      "Lowest practical cockpit/instrument lighting during flight",
+      "Avoid CO from smoking and exhaust — degrades rhodopsin regeneration",
+      "Supplemental oxygen above 5,000 ft at night — hypoxia significantly degrades night vision",
+      "Bright light (>1 second) disrupts adaptation; recovery takes minutes"
     ],
-    "source": "AC 61-5 Rev 38, Campbell & Bagshaw -- Human Performance & Limitations",
+    "source": "AC 61-5 Rev 38; Campbell & Bagshaw — Human Performance & Limitations in Aviation, 3rd Ed.",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-03-31T00:00:00Z"
+    "verified": true,
+    "created": "2026-03-31T00:00:00Z",
+    "updated": "2026-04-07T10:28:56Z"
   },
   {
     "code": "34.18.12",
