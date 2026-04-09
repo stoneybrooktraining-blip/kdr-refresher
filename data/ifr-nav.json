@@ -457,56 +457,61 @@
     "code": "54.22.10(a)",
     "topic": "54.22 -- Properties and Principles",
     "syllabus_desc": "Define the following terms presented on en route charts: minimum en route altitude (MEA)",
-    "concept": "The Minimum En Route Altitude (MEA) is the lowest published altitude on an airway segment that ensures both acceptable navigation signal reception (from ground-based nav aids) and obstacle clearance. Flying below the MEA on an IFR airway means you can't guarantee you're receiving the nav signal or clearing terrain. The MEA is displayed in the minimum altitude box on the en route chart alongside each airway segment.",
-    "exam_tip": "MEA = lowest IFR airway altitude that ensures nav signal reception AND obstacle clearance. Mandatory floor for IFR en route flight on that segment.",
+    "concept": "The Minimum En Route Altitude (MEA) in the New Zealand system is the lowest altitude at which adequate NDB signal can be received on an NDB route. This is the AIP NZ GEN 2.2 definition and is narrower than the generic ICAO MEA (which also bundles obstacle clearance into the definition). In NZ, obstacle clearance on an airway segment is handled separately through the sector MSA / MFA / terrain clearance rules under CAR 91.423, while the MEA itself is purely a signal-reception floor for NDB-based routes. KDR feedback and ASPEQ exam questions use the AIP NZ wording.",
+    "exam_tip": "AIP NZ GEN 2.2: MEA = lowest altitude at which adequate NDB signal can be received on an NDB route. It is NOT the ICAO definition bundling signal + obstacle clearance -- in NZ those are separate concepts.",
     "key_facts": [
-      "MEA: Minimum En Route Altitude",
-      "Ensures: acceptable navigation signal reception + obstacle clearance",
-      "Displayed in altitude box on en route chart for each airway segment",
-      "Cannot fly IFR below MEA on that airway",
-      "Based on VOR reception for VOR airways; GNSS-based routes may have different criteria"
+      "MEA: Minimum En Route Altitude (AIP NZ GEN 2.2)",
+      "Lowest altitude for adequate NDB signal reception on an NDB route",
+      "Narrower than ICAO MEA -- does NOT include obstacle clearance in the NZ definition",
+      "Obstacle clearance handled separately via MSA/MFA and CAR 91.423",
+      "ASPEQ KDR feedback uses the AIP NZ wording -- not the ICAO/FAA one"
     ],
-    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR",
+    "source": "AIP NZ GEN 2.2; NZ CAA AC 61-17 Rev 17",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-04-09T00:00:00Z"
+    "verified": true,
+    "created": "2026-04-09T00:00:00Z",
+    "last_updated": "2026-04-10T00:00:00Z",
+    "audit_note": "Corrected per AIP NZ authoritative source after courseware audit 2026-04-09."
   },
   {
     "code": "54.22.10(b)",
     "topic": "54.22 -- Properties and Principles",
     "syllabus_desc": "Define the following terms presented on en route charts: minimum reception altitude (MRA)",
-    "concept": "The Minimum Reception Altitude (MRA) is the lowest altitude at which a fix intersection -- usually a VOR cross-radial -- can be established. It's not about obstacle clearance (the MEA handles that) -- it's purely about signal geometry. At low altitudes, the off-airway VOR that defines the fix may be below the radio horizon. The MRA tells you the minimum altitude to receive both signals needed for the fix.",
-    "exam_tip": "MRA = lowest altitude at which an intersecting fix (cross-radial) can be established. Purely a radio reception constraint, not obstacle clearance.",
+    "concept": "The Minimum Reception Altitude (MRA) in the New Zealand system is the lowest altitude at which adequate VOR signal can be received on a VOR route. This is the AIP NZ GEN 2.2 definition -- purely a signal-reception floor, not an obstacle clearance altitude. It is narrower than the ICAO/FAA definition (which frames MRA as the lowest altitude to receive an off-route cross-radial to identify a fix). In NZ, MRA refers to on-route VOR signal reception along a VOR airway.",
+    "exam_tip": "AIP NZ GEN 2.2: MRA = lowest altitude at which adequate VOR signal can be received on a VOR route. Purely a reception constraint. Do NOT use the ICAO cross-radial-fix definition in NZ exams.",
     "key_facts": [
-      "MRA: Minimum Reception Altitude",
-      "Lowest altitude at which an off-route VOR signal can be received to define a fix",
-      "Applies at intersections requiring two nav-aid signals",
-      "Radio horizon based, not terrain clearance based",
-      "May be higher or lower than the MEA for that segment"
+      "MRA: Minimum Reception Altitude (AIP NZ GEN 2.2)",
+      "Lowest altitude for adequate VOR signal reception on a VOR route",
+      "NZ definition is narrower than the ICAO off-route fix definition",
+      "Purely a radio reception constraint -- not obstacle clearance",
+      "ASPEQ KDR feedback uses the AIP NZ wording"
     ],
-    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR",
+    "source": "AIP NZ GEN 2.2; NZ CAA AC 61-17 Rev 17",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-04-09T00:00:00Z"
+    "verified": true,
+    "created": "2026-04-09T00:00:00Z",
+    "last_updated": "2026-04-10T00:00:00Z",
+    "audit_note": "Corrected per AIP NZ authoritative source after courseware audit 2026-04-09."
   },
   {
     "code": "54.22.10(c)",
     "topic": "54.22 -- Properties and Principles",
     "syllabus_desc": "Define the following terms presented on en route charts: minimum safe altitude (MSA)",
-    "concept": "The Minimum Safe Altitude (MSA) is the 25 NM sector altitude centred on a navaid (or an aerodrome reference point). It guarantees at least 1,000 ft obstacle clearance within that 25 NM radius. MSA diagrams are published for most IFR aerodromes in NZ and are found on approach plates or as separate diagrams in AIPNZ Vol 3. They divide the 25 NM circle into sectors (often four quadrants) each with its own minimum altitude. MSA is an emergency reference -- not a cruise altitude.",
-    "exam_tip": "MSA = 25 NM sector altitude, 1,000 ft obstacle clearance. Emergency reference only. Sectors usually based on compass quadrants centred on a navaid.",
+    "concept": "In the New Zealand system, the term Minimum Safe Altitude (MSA) refers to the lowest altitude that provides required obstacle clearance under CAR 91.423. This is the AIP NZ GEN 2.2 definition. It is NOT the ICAO 'minimum SECTOR altitude' -- that concept exists in NZ as well but is labelled MSA 25 NM (the 25 NM sector-based altitude on an approach-plate MSA diagram, guaranteeing 1000 ft obstacle clearance within sectors centred on a navaid or aerodrome reference point). Getting these two confused is a common KDR issue.",
+    "exam_tip": "NZ AIP GEN 2.2: MSA = lowest altitude providing obstacle clearance under CAR 91.423. This is NOT the ICAO minimum sector altitude -- in NZ that is called MSA 25 NM. Watch the distinction on exam stems.",
     "key_facts": [
-      "MSA: Minimum Safe Altitude",
-      "25 NM radius from navaid or aerodrome reference point",
-      "1,000 ft obstacle clearance guaranteed within sector",
-      "Divided into sectors (often quadrants) with individual altitudes",
-      "Published on approach plates and AIPNZ Vol 3 diagrams",
-      "Emergency use -- not a planned cruise altitude"
+      "NZ MSA: lowest altitude providing CAR 91.423 obstacle clearance (AIP NZ GEN 2.2)",
+      "MSA 25 NM (separate term) = 25 NM sector altitude with 1000 ft obstacle clearance",
+      "MSA 25 NM is the ICAO 'minimum sector altitude' concept",
+      "Do NOT answer with the 25 NM sector definition for a plain 'MSA' question in a NZ exam",
+      "Both concepts sit in AIP NZ GEN 2.2 and are differentiated explicitly"
     ],
-    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "source": "AIP NZ GEN 2.2; CAR 91.423; NZ CAA AC 61-17 Rev 17",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-04-09T00:00:00Z"
+    "verified": true,
+    "created": "2026-04-09T00:00:00Z",
+    "last_updated": "2026-04-10T00:00:00Z",
+    "audit_note": "Corrected per AIP NZ authoritative source after courseware audit 2026-04-09."
   },
   {
     "code": "54.22.10(d)",
@@ -530,19 +535,21 @@
     "code": "54.22.10(e)",
     "topic": "54.22 -- Properties and Principles",
     "syllabus_desc": "Define the following terms presented on en route charts: minimum flight altitude (MFA)",
-    "concept": "The Minimum Flight Altitude (MFA) is similar to the MEA but applies specifically to standard route segments in the NZ standard route clearance system. The MFA provides obstacle clearance along a standard route and may be associated with specific noise abatement, special use airspace, or ATC requirements. If the standard route clearance includes an altitude restriction, the MFA is the floor.",
-    "exam_tip": "MFA = Minimum Flight Altitude. Applies to standard route clearances. Ensures obstacle clearance on that route segment, may include special requirements.",
+    "concept": "The Minimum Flight Altitude (MFA) is defined in AIP NZ GEN 2.2 as the lowest level at or above the route sector minimum safe altitude, MRA, MEA, or upper limit of a Volcanic Hazard Zone or Danger/Restricted Area (whichever is highest), in accordance with the direction of flight as prescribed in CAR 91.425. The MFA therefore rolls up the highest relevant minimum for the segment being flown. It is NOT limited to standard-route-clearance segments -- the MFA concept applies on any IFR segment.",
+    "exam_tip": "AIP NZ GEN 2.2 MFA = highest of (route sector MSA / MRA / MEA / upper limit of VHZ or D/R area), applied with direction of flight per CAR 91.425. MFA is general, not limited to standard routes.",
     "key_facts": [
-      "MFA: Minimum Flight Altitude",
-      "Applies to standard route clearance system in NZ",
-      "Provides obstacle clearance along a standard route segment",
-      "May appear in standard route clearance as an altitude constraint",
-      "Can reflect noise abatement or special use airspace restrictions"
+      "MFA: Minimum Flight Altitude (AIP NZ GEN 2.2)",
+      "Highest of: route sector MSA, MRA, MEA, upper limit of VHZ, upper limit of D/R area",
+      "Applied with direction of flight per CAR 91.425 (odd/even semi-circular)",
+      "NOT limited to standard routes -- applies to any IFR flight segment",
+      "Pilot-calculated floor that rolls up all relevant segment minima"
     ],
-    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.1",
+    "source": "AIP NZ GEN 2.2; CAR 91.425; NZ CAA AC 61-17 Rev 17",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-04-09T00:00:00Z"
+    "verified": true,
+    "created": "2026-04-09T00:00:00Z",
+    "last_updated": "2026-04-10T00:00:00Z",
+    "audit_note": "Corrected per AIP NZ authoritative source after courseware audit 2026-04-09."
   },
   {
     "code": "54.22.10(f)",
@@ -602,19 +609,23 @@
     "code": "54.22.10(i)",
     "topic": "54.22 -- Properties and Principles",
     "syllabus_desc": "Define the following terms presented on en route charts: Distance steps",
-    "concept": "Distance steps are the accumulated DME distances from a navaid that appear along a DME arc procedure or along a route. On a DME arc, the step marks show where you are on the arc in terms of distance from the navaid -- they help you keep track of how far around the arc you've flown and when to turn inbound. On en route charts, distance steps simply show cumulative track miles between points. They're useful for cross-checking groundspeed and ETAs.",
-    "exam_tip": "Distance steps = cumulative DME distances along a route or arc. On a DME arc, they mark your position around the arc. Also used on en route charts as cumulative track miles.",
+    "concept": "Distance steps (also called 'enroute descent (Distance) steps' in AIP NZ ENR 1.05 and ENR 1.1 §8.8.5-8.8.9) are stepped minimum altitudes tied to DME distance from a reference navaid. They are used on both departures (REVERSE DME STEP procedures) and arrivals to give a progressive minimum-altitude profile -- at DME X you must be at or above altitude Y, at DME X+5 you must be at or above Y+Z, and so on. Distance steps are published on en route charts, SIDs, and STARs. They are NOT cumulative track miles for waypoint identification -- that is a different chart feature.",
+    "exam_tip": "Distance steps = stepped minimum altitudes based on DME from a reference navaid. AIP NZ ENR 1.05 and ENR 1.1 §8.8.5-8.8.9. Used for REVERSE DME STEP departures and progressive descent on arrival. NOT a cumulative track-miles tool.",
     "key_facts": [
-      "Cumulative distances (DME) along a route segment or DME arc procedure",
-      "On a DME arc: help pilot track position around the arc",
-      "On en route charts: show track miles between waypoints",
-      "Used to cross-check groundspeed and ETA calculations",
-      "Published on instrument approach charts with DME arcs"
+      "Stepped minimum altitudes linked to DME distance from a reference navaid",
+      "Published in AIP NZ ENR 1.05 and ENR 1.1 §8.8.5-8.8.9",
+      "Used on departures (REVERSE DME STEP) and arrivals for progressive minima",
+      "Typical format: at X DME, minimum altitude Y; at X+5 DME, minimum altitude Y+Z",
+      "Gisborne example: 271 radial H328, 3000 ft to CREEK (15 nm), 5600 ft by 20 DME, 6400 ft by 30 DME",
+      "NOT cumulative track miles for waypoint identification",
+      "GNSS may not be used for distance step procedures unless pilot has a distance readout from the reference point (AIP NZ ENR 1.1 §8.8.8)"
     ],
-    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "source": "AIP NZ ENR 1.05; AIP NZ ENR 1.1 §8.8.5-8.8.9; NZ CAA AC 61-17 Rev 17",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-04-09T00:00:00Z"
+    "verified": true,
+    "created": "2026-04-09T00:00:00Z",
+    "last_updated": "2026-04-10T00:00:00Z",
+    "audit_note": "Corrected per AIP NZ authoritative source after courseware audit 2026-04-09."
   },
   {
     "code": "54.22.12(a)",
@@ -856,19 +867,21 @@
     "code": "54.26.4",
     "topic": "54.26 -- Reading IFR Charts",
     "syllabus_desc": "With regard to the World Geodetic System 1984 (WGS 84) datum, state where this datum is published",
-    "concept": "The World Geodetic System 1984 (WGS 84) is the datum used for all NZ aeronautical charts and GPS/GNSS navigation. WGS 84 is a globally consistent, earth-centred coordinate reference system. In New Zealand, the fact that charts use WGS 84 is published in AIPNZ GEN 2.2 (abbreviations, units, and conventions) and in the chart legend. All latitude/longitude coordinates on NZ IFR charts are referenced to WGS 84.",
-    "exam_tip": "WGS 84 datum used on all NZ aeronautical charts. Published in AIPNZ GEN 2.2. All lat/long coordinates on NZ charts are WGS 84.",
+    "concept": "The World Geodetic System 1984 (WGS 84) is the datum used for all NZ aeronautical charts and GNSS navigation. In the NZ AIP, the use of WGS 84 as the chart datum is published in AIP NZ GEN 2.4 (Chart Datums) and in GEN 3.2 (Aeronautical Charts). All latitude/longitude coordinates on NZ IFR charts are referenced to WGS 84 and are directly compatible with GPS/GNSS-derived positions, which output in WGS 84 natively.",
+    "exam_tip": "WGS 84 is the NZ chart datum. Published reference: AIP NZ GEN 2.4 (Chart Datums) and GEN 3.2 (Aeronautical Charts). Do NOT answer GEN 2.2 -- that is the abbreviations section.",
     "key_facts": [
       "WGS 84 = World Geodetic System 1984",
       "Global earth-centred ellipsoidal reference system",
-      "Published as the NZ chart datum in AIPNZ GEN 2.2",
+      "Published as NZ chart datum in AIP NZ GEN 2.4 (Chart Datums) and GEN 3.2 (Aeronautical Charts)",
       "All NZ IFR chart coordinates referenced to WGS 84",
-      "GNSS (GPS/GLONASS etc.) outputs in WGS 84 -- directly compatible with NZ charts"
+      "GNSS outputs in WGS 84 natively -- directly compatible with NZ charts"
     ],
-    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ GEN 2.2",
+    "source": "AIP NZ GEN 2.4; AIP NZ GEN 3.2; NZ CAA AC 61-17 Rev 17",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-04-09T00:00:00Z"
+    "verified": true,
+    "created": "2026-04-09T00:00:00Z",
+    "last_updated": "2026-04-10T00:00:00Z",
+    "audit_note": "Corrected per AIP NZ authoritative source after courseware audit 2026-04-09."
   },
   {
     "code": "54.26.6(a)",
@@ -2093,20 +2106,24 @@
     "code": "54.52.8(l)",
     "topic": "54.52 -- IFR Navigation Procedures",
     "syllabus_desc": "Based on information derived from VOR and DME displays, and from GNSS instrumentation: describe Distance steps",
-    "concept": "Distance steps on en route charts show cumulative DME distances from a navaid along the airway. They're used to identify waypoints and to cross-check groundspeed and ETAs. On a STAR or approach with a DME arc, distance steps are marked around the arc at regular intervals (e.g. every 5 degrees) so the pilot can track how far around the arc they've flown. To use distance steps in flight: note the DME distance from the reference navaid, then cross-check with the distance step marked on the chart at that position.",
-    "exam_tip": "Distance steps = cumulative DME distances marked on chart for position and groundspeed cross-checking. On DME arcs: spaced around arc to track arc progress.",
+    "concept": "Distance steps are stepped minimum altitudes based on DME distance from a reference navaid, as defined in AIP NZ ENR 1.1 §8.8.5-8.8.9. They are used for both REVERSE DME STEP departure procedures (climb-on-track with a progressive minimum altitude profile) and for enroute descent steps on arrival. At each stated DME value the aircraft must be at or above the published step altitude. Distance steps are NOT cumulative track miles for waypoint identification -- that is a different chart feature. When flying them, the DME readout from the reference facility is the primary reference; per AIP NZ ENR 1.1 §8.8.8, GNSS may not be substituted unless the pilot has a displayed distance from the reference point or facility.",
+    "exam_tip": "AIP NZ ENR 1.1 §8.8.5-8.8.9: Distance steps are stepped minimum altitudes tied to DME from a reference navaid. REVERSE DME STEP on departure; enroute descent steps on arrival. GNSS NOT permitted as a substitute unless the pilot has a distance-from-reference readout.",
     "key_facts": [
-      "Cumulative track distances from a navaid, marked at specific positions",
-      "Used to identify waypoints by DME distance from the reference navaid",
-      "Groundspeed cross-check: note time between distance steps, calculate GS",
-      "On DME arcs: mark position around the arc",
-      "Published on en route charts and approach plates",
-      "Particularly useful in non-radar environments without GNSS"
+      "Stepped minimum altitudes based on DME from a reference navaid",
+      "AIP NZ ENR 1.1 §8.8.5-8.8.9",
+      "REVERSE DME STEP procedure for climb-on-track departures (e.g. Gisborne H328)",
+      "Enroute descent steps on arrival: progressive minimum altitudes as DME reduces",
+      "DME from the reference facility is the primary reference instrument",
+      "GNSS substitution restriction: only permitted if pilot has distance from reference point (§8.8.8)",
+      "If DME fails on a REVERSE DME STEP departure, return toward the departure aid until reaching MSA and advise ATC (§8.8.7)",
+      "NOT cumulative track miles between waypoints (a different chart feature)"
     ],
-    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "source": "AIP NZ ENR 1.1 §8.8.5-8.8.9; NZ CAA AC 61-17 Rev 17",
     "confidence": "high",
-    "verified": false,
-    "created": "2026-04-09T00:00:00Z"
+    "verified": true,
+    "created": "2026-04-09T00:00:00Z",
+    "last_updated": "2026-04-10T00:00:00Z",
+    "audit_note": "Corrected per AIP NZ authoritative source after courseware audit 2026-04-09."
   },
   {
     "code": "54.52.8(m)",
@@ -2126,5 +2143,204 @@
     "confidence": "high",
     "verified": false,
     "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.44.2(c)-multi-leg",
+    "topic": "54.44 -- IFR Flight Plan Preparation",
+    "syllabus_desc": "Calculate TOC and TOD for multi-leg climb and multi-leg descent profiles",
+    "concept": "On a flight plan where the climb crosses more than one leg, the TOC is determined by working forward leg by leg: compute the climb distance for leg 1 at its mean wind and mean climb altitude; if the remaining climb distance exceeds leg 1, subtract leg 1 and continue on leg 2, recomputing mean climb altitude and wind for the next segment. TOD is calculated the same way in reverse -- start from ADES at the initial approach / minimum procedure commencement altitude, work backwards along the route using the mean descent altitude (cruise + base)/2 and the forecast wind for the descent segment. If the descent spans two legs, compute the descent distance on the segment closer to ADES first, then continue the remaining descent distance on the preceding leg with its own mean wind and mean altitude. The flight log must show the split point, the altitudes, the wind used, and the revised heading/GS/time for the sub-segments.",
+    "exam_tip": "Multi-leg climb: compute leg 1 climb distance; if climb not complete, carry remaining climb onto leg 2 with its own mean altitude and wind. Multi-leg descent: same in reverse from ADES. Show the split point, altitude, wind and revised HDG/GS/TIME on the log.",
+    "key_facts": [
+      "Mean climb altitude per segment = 2/3 (cruise - base) + base, rounded to nearest 500 ft",
+      "Mean descent altitude per segment = 1/2 (cruise - base) + base, rounded to nearest 500 ft",
+      "If climb not complete at end of leg 1, carry remainder onto leg 2 with new mean alt/wind",
+      "Descent is computed backwards from ADES, using descent mean altitude and wind",
+      "Show split point, altitudes, wind and revised HDG/GS/TIME for each sub-segment",
+      "Exam tolerances: +-2 kts TAS, +-2 deg HDG, +-2 min time, +-5 kg fuel"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17; AIP NZ ENR 1.5",
+    "confidence": "high",
+    "verified": true,
+    "created": "2026-04-10T00:00:00Z",
+    "audit_note": "Added after courseware audit 2026-04-09 to close content gap."
+  },
+  {
+    "code": "54.44.2(f)-mean-alt-formula",
+    "topic": "54.44 -- IFR Flight Plan Preparation",
+    "syllabus_desc": "Determine the mean altitude for climb and descent wind/TAS calculations",
+    "concept": "For wind and TAS interpolation during climb and descent, the mean altitude is used rather than the cruise altitude. The convention on NZ IFR exams is: mean climb altitude = 2/3 (cruise - base) + base, and mean descent altitude = 1/2 (cruise - base) + base. Both are rounded to the nearest 500 ft before being used to enter the area forecast wind table. The reasoning: climb spends proportionally longer at higher altitudes (accelerating into cruise), so 2/3 weighting; descent spends proportionally longer at lower altitudes, so 1/2 weighting. These exact fractions are the values expected in the ASPEQ answer scheme for IFR NAV flight log calculations.",
+    "exam_tip": "Mean climb altitude = 2/3 (cruise - base) + base. Mean descent altitude = 1/2 (cruise - base) + base. Round to nearest 500 ft before pulling wind and temperature.",
+    "key_facts": [
+      "Climb: mean alt = 2/3 * (cruise - base) + base, rounded to nearest 500 ft",
+      "Descent: mean alt = 1/2 * (cruise - base) + base, rounded to nearest 500 ft",
+      "Used for area-forecast wind and temperature interpolation (SFC / 5000 / 10000 / 15000 / 20000)",
+      "Feeds directly into TAS and heading/GS/time calculations for the climb/descent segment",
+      "Do NOT use cruise altitude for climb/descent wind -- that overestimates wind in the climb and descent phase"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17; AIP NZ ENR 1.5",
+    "confidence": "high",
+    "verified": true,
+    "created": "2026-04-10T00:00:00Z",
+    "audit_note": "Added after courseware audit 2026-04-09 to close content gap."
+  },
+  {
+    "code": "54.46.2-safe-endurance",
+    "topic": "54.46 -- IFR Fuel Planning",
+    "syllabus_desc": "Calculate Safe Endurance, Land-By time, and fuel in kg/L",
+    "concept": "Safe Endurance is defined in the NZ CAA GAP brochure and used throughout the ASPEQ exam bank as: Safe Endurance = usable fuel minus fixed reserve, expressed in time at the cruise burn rate. The Land-By time is computed as Takeoff time + Safe Endurance. Worked example from the GAP brochure: 160 L loaded, 10 L unusable = 150 L usable, fixed reserve 30 min at 40 L/hr = 20 L, so Safe Endurance fuel = 130 L at 40 L/hr = 3 hr 15 min. Takeoff 01:15 UTC gives Land-By = 04:30 UTC. Mass/volume conversions use AvGas SG 0.72 (1 L = 0.72 kg) and Jet A1 SG nominal 0.80 (1 L = 0.80 kg). Always check the question for an exam-specified SG.",
+    "exam_tip": "Safe Endurance = (usable fuel - fixed reserve) / cruise burn. Land-By time = takeoff + Safe Endurance. Convert L <-> kg with AvGas SG 0.72 and Jet A1 SG 0.80 unless the exam specifies otherwise.",
+    "key_facts": [
+      "Safe Endurance = (usable fuel - fixed reserve) expressed in time at cruise burn rate",
+      "Usable fuel = total fuel - unusable fuel (from AFM)",
+      "Fixed reserve: 45 min at holding speed 1500 ft AAL for non-turbine (CAR 91.403); 30 min for turbine/helicopter",
+      "Land-By time = Takeoff time + Safe Endurance",
+      "AvGas: SG ~0.72, so 1 L = 0.72 kg",
+      "Jet A1: SG ~0.80, so 1 L = 0.80 kg (exam may specify a precise value)",
+      "NZ CAA GAP brochure 'Land-By' worked example is the authoritative format for these calculations"
+    ],
+    "source": "CAR 91.403; NZ CAA GAP brochure; NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": true,
+    "created": "2026-04-10T00:00:00Z",
+    "audit_note": "Added after courseware audit 2026-04-09 to close content gap."
+  },
+  {
+    "code": "54.46.2-max-holding",
+    "topic": "54.46 -- IFR Fuel Planning",
+    "syllabus_desc": "Determine maximum holding time before diversion (time-based and fuel-based)",
+    "concept": "The latest time before which the pilot must commence a diversion is found using the more restrictive of the time-based and fuel-based methods. TIME-BASED: Land-By time minus the time required for the diversion (including missed approach/set-heading fuel and approach at the alternate) gives the latest time to leave the holding fix. FUEL-BASED: current fuel minus (fixed reserve at alternate + fuel for the diversion track + approach and missed approach fuel at alternate) gives the fuel available for holding, divided by the hold burn rate gives maximum hold time. Use whichever is SHORTER. Worked example: Land-By 04:07, current time 03:00, diversion track 46 min -> time-based max hold = 67 - 46 = 21 min. Current fuel 68 L, reserve 20 L, diversion 30 L -> fuel-based max hold = (68 - 50) / 40 L/hr = 27 min. Use 21 min (the shorter).",
+    "exam_tip": "Max holding = min(time-based, fuel-based). Time-based = (Land-By - now) - diversion time. Fuel-based = (current fuel - reserve - diversion fuel - approach/MA fuel) / hold burn rate. Always use the shorter of the two.",
+    "key_facts": [
+      "Time-based max hold = (Land-By - current time) - time required for diversion to alternate",
+      "Fuel-based max hold = (current fuel - fixed reserve - diversion fuel - approach/MA fuel) / hold burn",
+      "Use whichever is the SHORTER of the two",
+      "Include fuel and time for approach at alternate AND any missed approach allowance",
+      "Typical missed approach allowance: 6 min / 250 L (turbine example) or 4 min / smaller volume (piston)",
+      "Round down the max-hold minutes to stay on the safe side of the reserve"
+    ],
+    "source": "CAR 91.403; CAR 91.405; NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": true,
+    "created": "2026-04-10T00:00:00Z",
+    "audit_note": "Added after courseware audit 2026-04-09 to close content gap."
+  },
+  {
+    "code": "54.46.2-inter-tempo",
+    "topic": "54.46 -- IFR Fuel Planning",
+    "syllabus_desc": "Apply INTER and TEMPO fuel allowances to flight plan fuel calculations",
+    "concept": "When the destination or alternate forecast contains an INTER or TEMPO deterioration that brings conditions below the required minima, additional holding fuel must be carried. The standard NZ convention used in the course and the ASPEQ exam bank is: INTER adds 30 minutes of holding fuel at 1500 ft AAL; TEMPO adds 60 minutes of holding fuel. These allowances are added to the normal alternate/fixed reserve fuel -- they do NOT replace it. The holding burn rate used is the one stated in the AFM / POH at 1500 ft AAL (the same basis as CAR 91.403 fixed reserve). If the forecast has both an INTER and a TEMPO, take the longer allowance (60 min).",
+    "exam_tip": "INTER in forecast = +30 min holding fuel. TEMPO in forecast = +60 min holding fuel. Added on top of normal reserves, not instead of. Use holding burn rate at 1500 ft AAL.",
+    "key_facts": [
+      "INTER deterioration below minima -> add 30 min holding fuel at 1500 ft AAL",
+      "TEMPO deterioration below minima -> add 60 min holding fuel at 1500 ft AAL",
+      "Applied in addition to fixed reserve and alternate fuel -- not instead of",
+      "Use holding speed / burn rate per AFM at 1500 ft AAL",
+      "If both INTER and TEMPO present, use the longer (60 min) allowance",
+      "Thunderstorm forecast may require additional holding fuel per operator policy"
+    ],
+    "source": "CAR 91.403; CAR 91.405; NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": true,
+    "created": "2026-04-10T00:00:00Z",
+    "audit_note": "Added after courseware audit 2026-04-09 to close content gap."
+  },
+  {
+    "code": "54.40.2(e)-gnss-exemption",
+    "topic": "54.40 -- IFR Route Selection",
+    "syllabus_desc": "GNSS en route area navigation exemption from MRA/MEA compliance",
+    "concept": "Per AIP NZ GEN 3.3 5.1.6, where an aircraft has approved en route area navigation equipment (for example, an approved GNSS receiver), compliance with the MRA and MEA published on ground-based-navaid routes is NOT required, provided the RNAV-certified system is being used for navigation. The aircraft must still comply with obstacle clearance floors (MSA, MFA, sector minimums, grid MORA/AMA) and any ATC-assigned altitude. This exemption exists because MRA/MEA are, in the NZ definition, pure signal-reception floors for NDB and VOR airways -- if you are not relying on those ground aids for navigation, the floor does not apply.",
+    "exam_tip": "GNSS-approved aircraft are exempt from MEA and MRA on ground-based airways (AIP NZ GEN 3.3 5.1.6). Obstacle clearance via MSA / MFA / MORA still applies.",
+    "key_facts": [
+      "AIP NZ GEN 3.3 5.1.6 exempts RNAV-approved aircraft from MRA/MEA compliance on ground-nav routes",
+      "Exemption is because MRA/MEA are signal-reception floors in the NZ definition",
+      "Obstacle clearance floors (MSA, MFA, MORA/AMA) still apply -- exemption is for the signal floor only",
+      "Aircraft must be using the RNAV system for navigation, not just carrying it",
+      "Equipment must be approved for en route area navigation (e.g. TSO-C129/C145/C146 GNSS)"
+    ],
+    "source": "AIP NZ GEN 3.3 5.1.6; NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": true,
+    "created": "2026-04-10T00:00:00Z",
+    "audit_note": "Added after courseware audit 2026-04-09 to close content gap."
+  },
+  {
+    "code": "54.40.2(e)-ama-mora",
+    "topic": "54.40 -- IFR Route Selection",
+    "syllabus_desc": "Area Minimum Altitude (AMA) / Minimum Off-Route Altitude (MORA) in route selection",
+    "concept": "AMA (Area Minimum Altitude) and MORA (Minimum Off-Route Altitude) are grid-based minimum altitudes published on some en route charts that guarantee obstacle clearance within a defined grid or within a corridor of the airway. Grid MORA typically guarantees 1000 ft clearance in non-mountainous terrain and 2000 ft in mountainous terrain across the grid square. Route MORA applies within 10 NM of the centreline of an airway. Neither AMA nor MORA is an ATC-enforceable IFR altitude in the same way MEA or MFA is -- they are reference minima for planning, diversion, and emergency use. The NZ enroute chart set does not consistently publish AMA/MORA in the same way as US Jeppesen charts, but the concepts are commonly tested.",
+    "exam_tip": "AMA/MORA = grid- or corridor-based minimum altitudes for obstacle clearance, used as a planning and emergency reference. 1000 ft clearance non-mountainous, 2000 ft mountainous.",
+    "key_facts": [
+      "AMA: Area Minimum Altitude -- grid square minimum altitude for obstacle clearance",
+      "Grid MORA: Minimum Off-Route Altitude covering a grid square (typical 1 deg x 1 deg)",
+      "Route MORA: 10 NM either side of the airway centreline",
+      "Clearance: 1000 ft above obstacles in non-mountainous, 2000 ft in mountainous terrain",
+      "Reference only -- not an ATC-enforced floor like MEA or MFA",
+      "Useful for diversion planning, emergency descent, and cross-check against MFA"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17; ICAO Annex 4",
+    "confidence": "high",
+    "verified": true,
+    "created": "2026-04-10T00:00:00Z",
+    "audit_note": "Added after courseware audit 2026-04-09 to close content gap."
+  },
+  {
+    "code": "54.52.8(a)-sid-performance",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "SID performance standards: minimum climb gradient, turn altitude, and category IAS",
+    "concept": "AIP NZ ENR 1.1 paragraphs 2.2.1-2.2.9 establish the standard SID performance assumptions used in NZ procedure design. Unless the chart states otherwise, every SID assumes the aircraft is capable of a minimum 3.3% climb gradient, equivalent to 200 ft per NM. Turns on the SID are not permitted below 400 ft above the aerodrome level and must be initiated over the runway centreline. Category A/B/C/D IAS for 15 degree bank turns are 120, 165, 265, and 290 kt respectively. The first SID waypoint in NZ is always a flyover waypoint, not a fly-by. Where the procedure requires a higher-than-3.3% gradient, that gradient is stated explicitly on the chart and applies from the DER until the stated altitude; if multiple sectors require a higher gradient, the HIGHEST applies from the DER.",
+    "exam_tip": "Default SID climb gradient 3.3% (200 ft/NM). No turns below 400 ft AAL, over the centreline. Cat A/B/C/D 15 deg bank speeds 120/165/265/290 kt. First SID waypoint in NZ is always flyover. Higher chart-stated gradient applies from the DER.",
+    "key_facts": [
+      "Default SID minimum climb gradient: 3.3% = 200 ft per NM",
+      "No turns on SID below 400 ft above aerodrome elevation",
+      "Turns initiated over the runway centreline, not before",
+      "15 degree bank IAS limits: Cat A 120 kt, Cat B 165 kt, Cat C 265 kt, Cat D 290 kt",
+      "First SID waypoint in NZ is always a flyover (not a fly-by) waypoint",
+      "Chart-stated higher gradient applies from DER; if multiple sectors, use the HIGHEST",
+      "Climb gradient is the performance floor -- operator and aircraft must validate capability"
+    ],
+    "source": "AIP NZ ENR 1.1 2.2.1-2.2.9; NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": true,
+    "created": "2026-04-10T00:00:00Z",
+    "audit_note": "Added after courseware audit 2026-04-09 to close content gap."
+  },
+  {
+    "code": "54.52.8(b)-hsi-cdi-scaling",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "HSI/CDI deflection scaling: 2-dot vs 5-dot needle interpretation",
+    "concept": "A Course Deviation Indicator (CDI) on a VOR or HSI display shows lateral displacement from the selected course. Full-scale deflection is always 10 degrees off course (for a VOR in en route mode). The number of dots between centre and full scale varies with the instrument: a 2-dot display has 2 dots per side, so 1 dot = 5 degrees; a 5-dot display has 5 dots per side, so 1 dot = 2 degrees. Exam questions frequently give a dot reading and ask the angular displacement -- check the instrument type first. In localiser mode the CDI sensitivity is higher (typically 2.5 degrees full scale) and the dot-to-degree conversion changes accordingly. RNAV/GNSS CDIs use distance-based deflection (1 NM, 0.3 NM, 0.1 NM full scale depending on mode) rather than degrees.",
+    "exam_tip": "VOR full scale = 10 deg off course. 2-dot display: 1 dot = 5 deg. 5-dot display: 1 dot = 2 deg. Localiser and RNAV use different sensitivities -- always check the instrument.",
+    "key_facts": [
+      "VOR en route full-scale CDI deflection = 10 degrees",
+      "2-dot CDI: 1 dot = 5 degrees",
+      "5-dot CDI: 1 dot = 2 degrees",
+      "Localiser: typically 2.5 degrees full scale (4x more sensitive than VOR)",
+      "RNAV/GNSS CDI: distance-based (1 NM / 0.3 NM / 0.1 NM depending on phase of flight)",
+      "Always identify the instrument type before calculating degrees from dots"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17; ICAO Annex 10",
+    "confidence": "high",
+    "verified": true,
+    "created": "2026-04-10T00:00:00Z",
+    "audit_note": "Added after courseware audit 2026-04-09 to close content gap."
+  },
+  {
+    "code": "54.52.8(m)-gnss-restriction",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "GNSS substitution restriction for distance step and DME arc procedures",
+    "concept": "AIP NZ ENR 1.1 §8.8.8 restricts the use of GNSS as a substitute for DME when flying a distance step procedure. GNSS may not be used unless the pilot has a direct readout of the distance from the reference point or facility on which the distance steps are based. This is because distance steps are referenced to a specific navaid position and an RNAV cross-track distance or waypoint DTK is not the same thing. The same principle applies to DME arc procedures -- you need a continuous distance indication from the arc centre navaid, not a derived GNSS cross-track. If DME fails during a REVERSE DME STEP departure, the pilot should normally return toward the departure aid, maintain the highest step altitude reached until MSA is confirmed, and advise ATC (AIP NZ ENR 1.1 §8.8.7).",
+    "exam_tip": "AIP NZ ENR 1.1 §8.8.8: GNSS may not substitute for DME on a distance step procedure unless the pilot has a direct distance-from-reference readout. DME arc procedures require continuous distance from the arc centre.",
+    "key_facts": [
+      "AIP NZ ENR 1.1 §8.8.8: GNSS substitution not permitted on distance step procedures without a direct distance readout",
+      "Reason: distance steps are referenced to a specific navaid position, not an RNAV cross-track",
+      "DME arcs similarly require continuous DME from the arc centre navaid",
+      "If DME fails on a REVERSE DME STEP departure (§8.8.7): return toward the departure aid, maintain the highest step altitude reached, advise ATC",
+      "Pilot must verify instrument capability BEFORE accepting a distance step clearance on GNSS alone"
+    ],
+    "source": "AIP NZ ENR 1.1 §8.8.7-8.8.8; NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": true,
+    "created": "2026-04-10T00:00:00Z",
+    "audit_note": "Added after courseware audit 2026-04-09 to close content gap."
   }
 ]
