@@ -1,0 +1,2130 @@
+[
+  {
+    "code": "54.12.2(a)",
+    "topic": "54.12 -- Altimetry",
+    "syllabus_desc": "Define: indicated altitude",
+    "concept": "Indicated altitude is the altitude displayed on your altimeter with a particular sub-scale (QNH or QFE) set. It's the raw readout before any corrections for temperature or pressure deviations from ISA. Set Christchurch QNH and the altimeter tells you your height above mean sea level -- that's your indicated altitude. Simple, direct, and the number you'll fly by most of the time.",
+    "exam_tip": "Indicated altitude = what the altimeter actually reads with a QNH or QFE set. No corrections applied.",
+    "key_facts": [
+      "The altitude shown on the altimeter with a specific pressure sub-scale set",
+      "No correction for non-ISA temperature or pressure",
+      "Used with QNH to read height above MSL at that QNH",
+      "Used with QFE to read height above aerodrome elevation"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.12.2(b)",
+    "topic": "54.12 -- Altimetry",
+    "syllabus_desc": "Define: calibrated altitude",
+    "concept": "Calibrated altitude is indicated altitude corrected for instrument error and position error (from the static system). In older aircraft handbooks you'll sometimes see this called 'rectified altitude'. In practice for NZ IFR exams it's the step between indicated and true -- you strip out the instrument/position errors but not yet the temperature correction.",
+    "exam_tip": "Calibrated altitude = indicated altitude corrected for instrument error and position (static) error. One step closer to true altitude.",
+    "key_facts": [
+      "Indicated altitude corrected for instrument error and position error",
+      "Removes errors introduced by the pitot-static system placement",
+      "Sometimes called rectified altitude in older texts",
+      "Does not correct for temperature or pressure deviation from ISA"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.12.2(c)",
+    "topic": "54.12 -- Altimetry",
+    "syllabus_desc": "Define: true altitude",
+    "concept": "True altitude is your actual height above mean sea level -- the real number. You get there by correcting calibrated altitude for the temperature of the air column below you. On a cold day (air denser than ISA), the altimeter over-reads, so true altitude is lower than indicated. 'High to low, look out below' -- below ISA temperature means the terrain is closer than your altimeter suggests. This matters enormously on non-precision approaches in cold conditions.",
+    "exam_tip": "True altitude = actual height above MSL. Cold air: true altitude is LESS than indicated (terrain closer). Hot air: true altitude is MORE than indicated. High to low, look out below.",
+    "key_facts": [
+      "The actual geometric height above mean sea level",
+      "Derived by correcting calibrated altitude for temperature deviation from ISA",
+      "Below ISA temp: true altitude < indicated altitude (under-reading -- terrain is closer)",
+      "Above ISA temp: true altitude > indicated altitude (over-reading -- terrain is further)",
+      "Critical for obstacle clearance on non-precision approaches in cold weather"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.12.2(d)",
+    "topic": "54.12 -- Altimetry",
+    "syllabus_desc": "Define: pressure altitude (PA)",
+    "concept": "Pressure altitude (PA) is the altitude indicated when your altimeter sub-scale is set to 1013.2 hPa (standard pressure). It tells you where you are in the standard atmosphere -- not relative to sea level, but relative to the ISA pressure datum. Flight levels use pressure altitude. RVSM operations, performance charts, and high-altitude operations all reference PA.",
+    "exam_tip": "Pressure altitude = altimeter reading with 1013.2 hPa set on the sub-scale. Used for flight levels and performance calculations.",
+    "key_facts": [
+      "Altitude indicated with sub-scale set to 1013.2 hPa (standard pressure)",
+      "Basis for flight levels (e.g. FL150 = 15,000 ft pressure altitude)",
+      "Used in performance calculations (density altitude, true airspeed)",
+      "All aircraft above transition altitude use pressure altitude for separation"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.12.2(e)",
+    "topic": "54.12 -- Altimetry",
+    "syllabus_desc": "Define: density altitude (DA)",
+    "concept": "Density altitude (DA) is pressure altitude corrected for temperature -- it's the altitude in the standard atmosphere that has the same air density as your current conditions. High and hot equals high density altitude, which means your aircraft thinks it's at a much higher altitude than it really is. Engine makes less power, props and wings generate less lift, wheels run longer on the takeoff roll. Density altitude doesn't appear on the altimeter -- you calculate it.",
+    "exam_tip": "Density altitude = pressure altitude corrected for temperature. High temperature = high DA. DA is what determines aircraft performance, not indicated altitude.",
+    "key_facts": [
+      "Pressure altitude corrected for non-ISA temperature",
+      "High DA: reduced engine power, reduced lift, degraded aircraft performance",
+      "ISA temperature at a given pressure altitude gives DA = PA",
+      "Hot day at high aerodrome: DA can exceed pressure altitude significantly",
+      "Not displayed on any instrument -- must be calculated"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.12.2(f)",
+    "topic": "54.12 -- Altimetry",
+    "syllabus_desc": "Define: flight level (FL)",
+    "concept": "A flight level (FL) is an expression of pressure altitude in hundreds of feet, with the altimeter set to 1013.2 hPa. FL150 = 15,000 ft pressure altitude. In New Zealand, IFR aircraft cruise at flight levels above the transition altitude of 13,000 ft. The standard pressure datum ensures that all aircraft above transition are using the same reference, so separation works. Below transition, you use QNH and measure in feet AMSL.",
+    "exam_tip": "Flight level = pressure altitude in hundreds of feet on 1013.2 hPa. FL150 = 15,000 ft on standard pressure. Used above transition altitude in NZ (13,000 ft).",
+    "key_facts": [
+      "Expressed as pressure altitude / 100 (e.g. FL150 = 15,000 ft on 1013.2 hPa)",
+      "All aircraft at same FL use same pressure datum -- provides vertical separation",
+      "NZ transition altitude: 13,000 ft AMSL",
+      "NZ transition level: FL150 (or FL160 when zone QNH is 980 hPa or below)",
+      "FL150 and FL155 must not be used as cruising levels when zone QNH is 980 hPa or less"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.12.2(g)",
+    "topic": "54.12 -- Altimetry",
+    "syllabus_desc": "Define: transition altitude",
+    "concept": "Transition altitude (TA) in New Zealand is 13,000 ft AMSL. It's the altitude at or below which vertical position is maintained by reference to QNH. Climbing through 13,000 ft, you set 1013.2 hPa. That's the trigger -- 13,000 ft up, standard pressure in. Below it, you use the local or zone QNH. Think of it as the boundary between the QNH world and the flight-level world.",
+    "exam_tip": "NZ transition altitude = 13,000 ft AMSL. At or below: use QNH. Climbing through: set 1013.2 hPa.",
+    "key_facts": [
+      "NZ transition altitude = 13,000 ft AMSL",
+      "At or below TA: maintain vertical position by reference to QNH",
+      "When climbing above 13,000 ft: set altimeter to 1013.2 hPa",
+      "Defined in AIP NZ ENR 1.7 and CAR Part 91",
+      "Expressed as an altitude (feet AMSL), not as a flight level"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.7, CAR Part 91",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.12.2(h)",
+    "topic": "54.12 -- Altimetry",
+    "syllabus_desc": "Define: transition layer",
+    "concept": "The transition layer is the airspace between the transition altitude (13,000 ft) and the transition level (FL150). It's a buffer zone -- you're either going up through it or coming down through it. You can't cruise in the transition layer unless ATC specifically authorises it (or under certain special operations conditions). When descending through FL150, you swap from 1013.2 hPa to the appropriate zone QNH.",
+    "exam_tip": "Transition layer = between 13,000 ft and FL150 in NZ. Transit only (no cruising unless ATC approves). Descending through FL150: set QNH.",
+    "key_facts": [
+      "Airspace between transition altitude (13,000 ft) and transition level (FL150)",
+      "Used for climbing and descending only -- no cruising without ATC authorisation",
+      "Exception: special activity operations with block clearance",
+      "On descent through FL150: set altimeter to zone or aerodrome QNH",
+      "On climb above 13,000 ft: set altimeter to 1013.2 hPa"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.12.2(i)",
+    "topic": "54.12 -- Altimetry",
+    "syllabus_desc": "Define: transition level",
+    "concept": "The transition level (TL) in New Zealand is normally FL150. It's the lowest flight level available for cruising above the transition layer. It's expressed as a flight level (pressure altitude) rather than an altitude. When zone QNH drops to 980 hPa or below, FL150 gets too close to 13,000 ft for safe separation -- so the TL steps up to FL160. You need to check the current zone QNH to know which TL applies.",
+    "exam_tip": "NZ transition level = FL150 normally, rises to FL160 when zone QNH is 980 hPa or less. It's the lowest available FL above the transition layer.",
+    "key_facts": [
+      "NZ transition level = FL150 (standard conditions)",
+      "When zone QNH is 980 hPa or less: transition level increases to FL160",
+      "FL150 and FL155 cannot be used as cruising levels when zone QNH is 980 hPa or less",
+      "Expressed as a flight level (on 1013.2 hPa), not as an altitude",
+      "Lowest available cruising FL above the transition layer"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.12.4",
+    "topic": "54.12 -- Altimetry",
+    "syllabus_desc": "Apply the table of IFR cruising levels below and above transition",
+    "concept": "IFR cruising levels in New Zealand are governed by the semi-circular rule in Table ENR 1.7-2. The direction of track determines which levels are available. Tracks 270 to 089 degrees magnetic: IFR aircraft use odd-thousand FLs (FL150, FL170, FL190 etc.) or odd-thousand-foot altitudes below transition. Tracks 090 to 269 degrees magnetic: even-thousand FLs (FL160, FL180, FL200 etc.) and even-thousand-foot altitudes. Remember FL155 and FL150 are excluded when zone QNH is 980 hPa or below. This table applies in the NZ FIR -- the Auckland Oceanic FIR uses a different table (ENR 1.7-1).",
+    "exam_tip": "NZ FIR IFR cruising levels: 270-089 MAG = odd-thousand FLs above transition (FL150, FL170...) or odd altitudes below. 090-269 MAG = even-thousand FLs (FL160, FL180...) or even altitudes. Memorise both tables.",
+    "key_facts": [
+      "NZ FIR Table ENR 1.7-2 specifies IFR cruising levels",
+      "Tracks 270-089 MAG: FL150, FL170, FL190, FL210, FL230... (odd thousands above transition)",
+      "Tracks 090-269 MAG: FL160, FL180, FL200, FL220, FL240... (even thousands above transition)",
+      "Below transition: odd/even thousand feet AMSL corresponding to track direction",
+      "FL150 and FL155 unavailable as cruising levels when zone QNH is 980 hPa or less",
+      "Auckland Oceanic FIR uses separate table (ENR 1.7-1) with different structure"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.7, CAR 91.425",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.12.6",
+    "topic": "54.12 -- Altimetry",
+    "syllabus_desc": "Explain how true and indicated altitudes are affected by changes in air pressure and air temperature",
+    "concept": "Your altimeter measures atmospheric pressure and converts that to altitude using the ISA model. When the actual atmosphere departs from ISA, indicated altitude diverges from true altitude. Low pressure (below standard): you're lower than the altimeter says -- 'high to low, look out below'. Low temperature: the air is denser and columns are shorter than ISA assumes, so again you're lower than the altimeter shows. High pressure or high temperature: the reverse. For NZ IFR ops, both effects can stack -- a cold, low-pressure day puts you significantly below your indicated altitude.",
+    "exam_tip": "Low pressure OR low temperature: true altitude < indicated. High pressure OR high temperature: true altitude > indicated. 'High to low, look out below.'",
+    "key_facts": [
+      "Altimeter assumes ISA conditions -- deviations cause errors",
+      "Low QNH (pressure below standard): indicated reads high, true altitude is lower",
+      "Low temperature (below ISA): air denser, true altitude less than indicated",
+      "High QNH: indicated reads low, true altitude is higher than indicated",
+      "High temperature: true altitude greater than indicated",
+      "Effects add: cold and low-pressure day = largest under-reading of true altitude"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.12.8(a)",
+    "topic": "54.12 -- Altimetry",
+    "syllabus_desc": "Explain how changes in air pressure and air temperature affect the vertical profile during a non-ILS approach",
+    "concept": "On a non-ILS approach (VOR, NDB, GNSS), the minimum altitudes (MDA/MDH) are designed for ISA conditions. When temperature is cold, the actual height above terrain at the MDA is less than the altimeter shows -- the air is more compressed, steps in the atmosphere are smaller. So flying a VORDME approach into Queenstown on a cold winter day, your 2,600 ft MDA might put you closer to the terrain than the chart assumes. Similarly, low QNH means the pressure is lower than standard, so you're physically lower than the altimeter indicates. Both effects reduce your actual terrain clearance below the nominal value.",
+    "exam_tip": "Cold temperature and/or low QNH on a non-ILS approach: actual height above terrain is LESS than indicated. Obstacle clearance is reduced. Cold = closer to the ground than you think.",
+    "key_facts": [
+      "Non-ILS (non-precision) approaches: MDA based on ISA and standard QNH",
+      "Cold air: atmosphere compressed, true altitude less than indicated at each step of the approach",
+      "Low QNH: aircraft is physically lower than altimeter indicates",
+      "Both effects reduce actual terrain clearance below the charted minimum",
+      "ILS glideslope unaffected (physical beam guidance) -- non-precision approaches are more vulnerable"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.12.8(b)",
+    "topic": "54.12 -- Altimetry",
+    "syllabus_desc": "Explain the risks associated by low temperatures and QNH errors during a non-ILS approach",
+    "concept": "The two main risks on a cold, low-QNH non-ILS approach are controlled flight into terrain (CFIT) and descending below MDA with inadequate obstacle clearance. If the QNH is incorrect or outdated, the altimeter error compounds with temperature error -- you could be well below the altitude you think you're at. Some operators apply temperature corrections to all altitude constraints below the transition altitude (following ICAO cold weather correction tables). In New Zealand, CAANZ recommends applying corrections when the outside temperature is significantly below ISA. Not doing so -- especially in places like Queenstown or Milford Sound -- is the kind of oversight that ends careers.",
+    "exam_tip": "Key risks: CFIT from reduced true terrain clearance, and error compounding if QNH is stale or wrong. Temperature correction tables exist and should be applied in cold conditions on non-precision approaches.",
+    "key_facts": [
+      "Primary risk: CFIT -- terrain closer than altimeter indicates",
+      "QNH error and temperature error are cumulative",
+      "Stale or incorrect QNH amplifies the temperature effect",
+      "Temperature correction tables (ICAO cold weather corrections) exist for non-precision approaches",
+      "Most critical at low altitudes (final approach, MDA) and near high terrain",
+      "Queenstown, Milford and similar high-terrain NZ airports particularly vulnerable"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.12.10",
+    "topic": "54.12 -- Altimetry",
+    "syllabus_desc": "Explain how true and indicated altitudes are related when using flight levels",
+    "concept": "When you're flying at a flight level (above transition altitude), both you and every other aircraft are using 1013.2 hPa. Indicated altitude (on standard pressure) equals pressure altitude. True altitude is different -- because actual temperature and pressure deviate from ISA. The altimeter doesn't know the difference between a standard day and a cold one at FL180. So at FL180 in cold air, you're physically lower than 18,000 ft MSL, but you're separated from other FL180 aircraft because they're all on the same pressure datum. Vertical separation is maintained in the FL world by using a common datum, not by knowing true altitude.",
+    "exam_tip": "At flight levels: indicated = pressure altitude (1013.2 hPa). True altitude differs from pressure altitude due to temperature. Separation is maintained via common pressure datum, not true altitude.",
+    "key_facts": [
+      "Above transition: all aircraft use 1013.2 hPa -- indicated = pressure altitude",
+      "True altitude at a given FL varies with temperature (cold = lower true altitude)",
+      "Vertical separation maintained by common pressure datum, not true altitude",
+      "True altitude may be significantly below FL in cold air masses",
+      "Terrain clearance still matters -- minimum FLs take worst-case temperature into account"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.12.12",
+    "topic": "54.12 -- Altimetry",
+    "syllabus_desc": "Explain what is meant by Reduced Vertical Separation Minimum (RVSM)",
+    "concept": "Reduced Vertical Separation Minima (RVSM) is an ICAO scheme that halves the vertical separation between aircraft between FL290 and FL410 -- from 2,000 ft to 1,000 ft. To squeeze that many flight levels into the airspace between FL290 and FL410, the altimetry systems on board must be far more accurate than standard. RVSM-approved aircraft have certified altimetry with tighter tolerances. Without approval, you can't operate in RVSM airspace.",
+    "exam_tip": "RVSM = 1,000 ft vertical separation between FL290 and FL410 (instead of the standard 2,000 ft). Requires special aircraft and operator approval.",
+    "key_facts": [
+      "RVSM reduces vertical separation from 2,000 ft to 1,000 ft",
+      "Applies between FL290 and FL410 inclusive",
+      "Doubles the number of usable cruising levels in that band",
+      "Requires certified altimetry accuracy and operational approval",
+      "Implemented globally under ICAO Doc 9574"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.8",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.12.14",
+    "topic": "54.12 -- Altimetry",
+    "syllabus_desc": "Describe the extent of RVSM airspace",
+    "concept": "In New Zealand, RVSM airspace covers both the New Zealand FIR and the Auckland Oceanic FIR. The vertical extent is FL290 to FL410 inclusive. So if you're cruising at FL350 on a trans-Tasman or trans-Pacific route, you're in RVSM airspace. Your aircraft must be RVSM approved, your crew trained, and the approval indicated in item 10 of the ICAO flight plan with the designator 'W'.",
+    "exam_tip": "NZ RVSM airspace: FL290 to FL410, in both the New Zealand FIR and Auckland Oceanic FIR. Must file 'W' in item 10 of ICAO flight plan.",
+    "key_facts": [
+      "RVSM applies: New Zealand FIR and Auckland Oceanic FIR",
+      "Vertical limits: FL290 (lower) to FL410 (upper)",
+      "ICAO flight plan: insert 'W' in item 10 if RVSM approved",
+      "Non-RVSM aircraft must include STS/NONRVSM in item 18",
+      "Non-RVSM aircraft plan to operate at or below FL280 as alternate"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.8",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.12.16",
+    "topic": "54.12 -- Altimetry",
+    "syllabus_desc": "Explain the requirements for operating in RVSM airspace",
+    "concept": "To operate in RVSM airspace you need operational and airworthiness approval from your State of Registry or State of the Operator. For NZ-registered aircraft, AC 91-4 outlines the approval process. The aircraft altimetry must meet tighter accuracy standards, autopilot altitude-hold performance must meet minimum criteria, and the crew must be trained. Once approved, file 'W' in item 10 of your ICAO flight plan. You must notify ATC immediately if RVSM equipment becomes unserviceable while in -- or within 30 minutes of entering -- RVSM airspace. If TCAS is fitted, update to TCAS Change 7 or later for optimum RVSM performance.",
+    "exam_tip": "RVSM operating requirements: approved altimetry, altitude-hold capability, trained crew, 'W' in item 10, notify ATC immediately if equipment fails. AC 91-4 is the NZ approval AC.",
+    "key_facts": [
+      "Requires operational and airworthiness approval (State of Registry or Operator)",
+      "NZ: refer to AC 91-4 for approval process",
+      "Aircraft altimetry must meet RVSM accuracy tolerances",
+      "Autopilot altitude-hold must meet minimum performance criteria",
+      "Insert 'W' in item 10 of ICAO flight plan",
+      "Notify ATC if RVSM equipment unserviceable within or up to 30 min before RVSM airspace",
+      "TCAS should be updated to Change 7 or later if installed"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.8, NZ AC 91-4",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.2",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "List the aeronautical charts used in New Zealand for operations under IFR",
+    "concept": "For IFR operations in New Zealand, the main aeronautical charts you'll use are published in AIPNZ Vol 2 (Aerodrome/FIR) and Vol 3 (Instrument Procedures). The en route charts cover airways, reporting points, airspace, minimum altitudes, and VOR/DME facilities. The approach and departure plates cover SIDs, STARs, instrument approach procedures, missed approach procedures, and visual arrivals. New Zealand charts conform to ICAO Doc 8697 (Aeronautical Chart Manual). Digital equivalents are available via Jeppesen and other providers, but the official CAANZ source is the AIPNZ.",
+    "exam_tip": "NZ IFR charts: primarily AIPNZ Vol 2 and Vol 3. En route charts, SIDs, STARs, approach plates all published there. ICAO Doc 8697 sets the standard.",
+    "key_facts": [
+      "AIPNZ Vol 2: en route charts, airspace, FIR information",
+      "AIPNZ Vol 3: instrument procedures (SIDs, STARs, approaches)",
+      "En route charts show airways, MEA, MRA, MSA, airspace classes and reporting points",
+      "Charts conform to ICAO Doc 8697 standards",
+      "WGS 84 datum used on all NZ aeronautical charts"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.4",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "Identify the information published in the legends of aeronautical charts and in the CHART Symbols section of the AIPNZ Vol 2 & 3",
+    "concept": "The legend of any aeronautical chart and the CHART Symbols section of AIPNZ Vol 2 & 3 publish the standard symbols, abbreviations, and colour codes used on NZ charts. This includes symbols for compulsory and non-compulsory reporting points, VOR/DME station symbols, airway identifiers, minimum altitudes, airways widths, controlled and uncontrolled airspace boundaries, and chart datum. Knowing how to read the legend is the starting point for chart interpretation -- if you can't decode the symbols, the rest of the chart is noise.",
+    "exam_tip": "CHART Symbols section of AIPNZ Vol 2 & 3 = definitive legend for all NZ IFR charts. Know your symbols: compulsory vs non-compulsory reporting points, airway identifiers, altitude boxes, airspace boundaries.",
+    "key_facts": [
+      "Legends published in AIPNZ Vol 2 & 3 CHART Symbols section",
+      "Covers symbols for reporting points (compulsory triangle, non-compulsory open triangle)",
+      "VOR/DME station symbols, airway identifiers (e.g. Y, A, B airways)",
+      "Minimum altitude boxes (MEA, MRA, MSA, MFA)",
+      "Airspace class designators and boundary depictions",
+      "Controlled and uncontrolled airspace colour coding"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.6",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "Explain the meaning of abbreviations and codes used in Operational Data for aerodromes in the AIPNZ",
+    "concept": "Operational Data sections for aerodromes in the AIPNZ use a set of standard abbreviations and codes -- ICAO location indicator, elevation, runway details (TORA, TODA, ASDA, LDA), navigation aid frequencies, lighting categories (HIRL, MIRL, LIRL, REIL), and aerodrome operating times. You need to be able to decode these quickly in a planning context. For example, 'EL LVPS OBST LGTS -- Elevated power supply, obstacle lights' -- that sort of thing. The AIPNZ GEN 2.2 section lists standard abbreviations used throughout.",
+    "exam_tip": "AIPNZ Operational Data abbreviations: know runway declared distances (TORA/TODA/ASDA/LDA), lighting codes, and how to find frequencies and services. GEN 2.2 = abbreviations list.",
+    "key_facts": [
+      "TORA: take-off run available; TODA: take-off distance available; ASDA: accelerate-stop distance available; LDA: landing distance available",
+      "HIRL/MIRL/LIRL: high/medium/low intensity runway lights",
+      "ICAO 4-letter location indicator (e.g. NZCH = Christchurch)",
+      "Standard abbreviations listed in GEN 2.2",
+      "Aerodrome elevation in feet AMSL",
+      "Nav aid frequencies listed in aerodrome entry or in ENR charts"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ GEN 2.2",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.8(a)",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "Explain what is meant by: ADEP",
+    "concept": "ADEP is the ICAO abbreviation for 'aerodrome of departure'. On IFR flight plans and ATC clearances, ADEP identifies the origin aerodrome using its 4-letter ICAO location indicator. For example, ADEP NZCH means departing Christchurch International.",
+    "exam_tip": "ADEP = Aerodrome of Departure. 4-letter ICAO code used on flight plans and clearances.",
+    "key_facts": [
+      "ADEP = Aerodrome of Departure",
+      "Identified by 4-letter ICAO location indicator",
+      "Used in flight plan item 13 (departure aerodrome)",
+      "Example: ADEP NZCH = departing Christchurch"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, ICAO Doc 4444",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.8(b)",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "Explain what is meant by: ADES",
+    "concept": "ADES is the ICAO abbreviation for 'aerodrome of destination'. It appears in flight plan item 16 and in ATC clearances. The ADES is the planned final destination, not an intermediate stop. If your planned destination is Queenstown, your ADES is NZQN.",
+    "exam_tip": "ADES = Aerodrome of Destination. 4-letter ICAO code. Appears in flight plan item 16.",
+    "key_facts": [
+      "ADES = Aerodrome of Destination",
+      "Identified by 4-letter ICAO location indicator",
+      "Flight plan item 16 = destination aerodrome and alternate(s)",
+      "Example: ADES NZQN = Queenstown International as destination"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, ICAO Doc 4444",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.8(c)",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "Explain what is meant by: waypoint",
+    "concept": "A waypoint is a defined geographical position used for defining a route or flight profile. Waypoints can be defined by latitude/longitude, by a VOR radial/distance, or by a named fix on a chart. On IFR routes, waypoints replace or supplement traditional nav aids as reporting points and turning points. In the GNSS era, waypoints are the backbone of PBN routes, SIDs, and STARs.",
+    "exam_tip": "Waypoint = defined geographical position. Can be lat/long, VOR radial/distance, or named fix. Used as reporting points and turning points on IFR routes.",
+    "key_facts": [
+      "A defined geographical position used to describe a route",
+      "Defined by lat/long, or as a VOR radial/distance fix",
+      "Named waypoints appear on en route charts and procedure plates",
+      "Used as compulsory or non-compulsory reporting points",
+      "Core element of RNAV/PBN routes and procedures"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, ICAO Doc 4444, ICAO Doc 9613",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.8(d)",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "Explain what is meant by: SID",
+    "concept": "A Standard Instrument Departure (SID) is a published instrument flight procedure that connects the aerodrome to the en route structure. It gives IFR departures a defined path out of the terminal area that ensures obstacle clearance and separates them from arrivals. ATC issues a SID clearance by name and any altitude amendments. If the SID includes a climb gradient, the gradient is expressed as a percentage or as a rate of climb at a specified speed. On departing Christchurch to the north, for example, you'd follow the published SID until reaching the en route joining fix.",
+    "exam_tip": "SID = Standard Instrument Departure. Published procedure from aerodrome to en route structure. Provides obstacle clearance and traffic separation. Climb gradients may be specified.",
+    "key_facts": [
+      "SID = Standard Instrument Departure",
+      "Connects aerodrome to en route structure",
+      "Published in AIPNZ Vol 3 as plates with plan view and textual instructions",
+      "Provides obstacle clearance during departure phase",
+      "May include minimum climb gradient (expressed as % or ft/nm)",
+      "ATC clears by SID name (e.g. 'Cleared NZCH via CASHMERE ONE departure')"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.8(e)",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "Explain what is meant by: STAR",
+    "concept": "A Standard Arrival Route (STAR) is the mirror of the SID -- a published procedure that connects the en route structure to the terminal area and eventually to the approach. It sequences arriving traffic into the approach environment, handles speed and altitude constraints, and provides a predictable path that ATC can sequence. ATC may issue a STAR clearance by name, and pilots are expected to comply with published altitudes and speeds unless amended.",
+    "exam_tip": "STAR = Standard Arrival Route. Connects en route structure to approach. Published altitude and speed constraints must be complied with unless ATC amends.",
+    "key_facts": [
+      "STAR = Standard Terminal Arrival Route",
+      "Published procedure from en route to terminal area",
+      "Published in AIPNZ Vol 3",
+      "Altitude and speed constraints are mandatory unless ATC amends",
+      "Facilitates traffic sequencing in terminal area",
+      "ATC clears by STAR name (e.g. 'Cleared WOODBOURNE STAR')"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.10(a)",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "Define the following terms presented on en route charts: minimum en route altitude (MEA)",
+    "concept": "The Minimum En Route Altitude (MEA) is the lowest published altitude on an airway segment that ensures both acceptable navigation signal reception (from ground-based nav aids) and obstacle clearance. Flying below the MEA on an IFR airway means you can't guarantee you're receiving the nav signal or clearing terrain. The MEA is displayed in the minimum altitude box on the en route chart alongside each airway segment.",
+    "exam_tip": "MEA = lowest IFR airway altitude that ensures nav signal reception AND obstacle clearance. Mandatory floor for IFR en route flight on that segment.",
+    "key_facts": [
+      "MEA: Minimum En Route Altitude",
+      "Ensures: acceptable navigation signal reception + obstacle clearance",
+      "Displayed in altitude box on en route chart for each airway segment",
+      "Cannot fly IFR below MEA on that airway",
+      "Based on VOR reception for VOR airways; GNSS-based routes may have different criteria"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.10(b)",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "Define the following terms presented on en route charts: minimum reception altitude (MRA)",
+    "concept": "The Minimum Reception Altitude (MRA) is the lowest altitude at which a fix intersection -- usually a VOR cross-radial -- can be established. It's not about obstacle clearance (the MEA handles that) -- it's purely about signal geometry. At low altitudes, the off-airway VOR that defines the fix may be below the radio horizon. The MRA tells you the minimum altitude to receive both signals needed for the fix.",
+    "exam_tip": "MRA = lowest altitude at which an intersecting fix (cross-radial) can be established. Purely a radio reception constraint, not obstacle clearance.",
+    "key_facts": [
+      "MRA: Minimum Reception Altitude",
+      "Lowest altitude at which an off-route VOR signal can be received to define a fix",
+      "Applies at intersections requiring two nav-aid signals",
+      "Radio horizon based, not terrain clearance based",
+      "May be higher or lower than the MEA for that segment"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.10(c)",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "Define the following terms presented on en route charts: minimum safe altitude (MSA)",
+    "concept": "The Minimum Safe Altitude (MSA) is the 25 NM sector altitude centred on a navaid (or an aerodrome reference point). It guarantees at least 1,000 ft obstacle clearance within that 25 NM radius. MSA diagrams are published for most IFR aerodromes in NZ and are found on approach plates or as separate diagrams in AIPNZ Vol 3. They divide the 25 NM circle into sectors (often four quadrants) each with its own minimum altitude. MSA is an emergency reference -- not a cruise altitude.",
+    "exam_tip": "MSA = 25 NM sector altitude, 1,000 ft obstacle clearance. Emergency reference only. Sectors usually based on compass quadrants centred on a navaid.",
+    "key_facts": [
+      "MSA: Minimum Safe Altitude",
+      "25 NM radius from navaid or aerodrome reference point",
+      "1,000 ft obstacle clearance guaranteed within sector",
+      "Divided into sectors (often quadrants) with individual altitudes",
+      "Published on approach plates and AIPNZ Vol 3 diagrams",
+      "Emergency use -- not a planned cruise altitude"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.10(d)",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "Define the following terms presented on en route charts: route operating limitations (ROL)",
+    "concept": "Route Operating Limitations (ROL) are restrictions placed on specific airway segments or routes -- they might restrict certain aircraft types, limit hours of operation, specify equipment requirements, or require ATC authorisation. ROLs appear in the AIPNZ and on en route charts as notes or symbols. Always check for ROLs when flight planning an IFR route -- an unanticipated restriction mid-route is never fun.",
+    "exam_tip": "ROL = Route Operating Limitation. Restrictions on a specific airway segment (aircraft type, hours, equipment, ATC authorisation). Check AIPNZ notes on en route charts.",
+    "key_facts": [
+      "ROL: Route Operating Limitation",
+      "Restricts use of a specific airway or route segment",
+      "May limit aircraft type, operating hours, equipage, or require prior ATC approval",
+      "Published in AIPNZ and noted on en route charts",
+      "Must be checked during IFR flight planning"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.10(e)",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "Define the following terms presented on en route charts: minimum flight altitude (MFA)",
+    "concept": "The Minimum Flight Altitude (MFA) is similar to the MEA but applies specifically to standard route segments in the NZ standard route clearance system. The MFA provides obstacle clearance along a standard route and may be associated with specific noise abatement, special use airspace, or ATC requirements. If the standard route clearance includes an altitude restriction, the MFA is the floor.",
+    "exam_tip": "MFA = Minimum Flight Altitude. Applies to standard route clearances. Ensures obstacle clearance on that route segment, may include special requirements.",
+    "key_facts": [
+      "MFA: Minimum Flight Altitude",
+      "Applies to standard route clearance system in NZ",
+      "Provides obstacle clearance along a standard route segment",
+      "May appear in standard route clearance as an altitude constraint",
+      "Can reflect noise abatement or special use airspace restrictions"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.1",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.10(f)",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "Define the following terms presented on en route charts: compulsory reporting point",
+    "concept": "A compulsory reporting point (CRP) is a position at which a pilot is required to make an ATC position report when operating on that route. On en route charts it's shown as a solid triangle (filled). At a CRP you report: callsign, position, time over, altitude, next reporting point and estimated time. Compulsory reports are required without ATC prompting -- they're part of the IFR radio protocol and keep ATC aware of your position in airspace where radar coverage may be limited.",
+    "exam_tip": "Compulsory reporting point = solid triangle symbol on chart. Must report without ATC prompting: callsign, position, time, altitude, next point and ETA.",
+    "key_facts": [
+      "Compulsory Reporting Point: pilot must report without ATC request",
+      "Symbol: solid filled triangle on en route chart",
+      "Required report content: callsign, position, time, altitude, next reporting point, ETA next point",
+      "Mandatory in all airspace where position reports are required",
+      "Critical for separation in non-radar airspace"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.1",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.10(g)",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "Define the following terms presented on en route charts: non-compulsory reporting point",
+    "concept": "A non-compulsory reporting point (NCRP) is a position where a position report is only made on request from ATC, or at the pilot's discretion. On en route charts it's shown as an open (unfilled) triangle. While not mandatory, these points are still useful references and ATC may request a report at them, particularly if they need additional traffic separation information.",
+    "exam_tip": "Non-compulsory reporting point = open (unfilled) triangle. Report only on ATC request or pilot's discretion.",
+    "key_facts": [
+      "Non-Compulsory Reporting Point: report on ATC request or pilot discretion",
+      "Symbol: open (unfilled) triangle on en route chart",
+      "ATC may request a report here for separation purposes",
+      "Pilot may self-initiate report if useful for safety",
+      "Less critical in radar-covered airspace but still charted"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.1",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.10(h)",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "Define the following terms presented on en route charts: VOR change-over point",
+    "concept": "The VOR change-over point (COP) is the point along an airway segment where a pilot is expected to transfer primary navigation reference from the VOR behind them to the VOR ahead. It's typically at the midpoint but may be shifted if signal quality, terrain, or coverage requires it. On en route charts it's marked with a 'X' symbol with the COP distances to each VOR. Flying past the COP without switching can lead to greater position error as the behind-VOR signal geometry deteriorates.",
+    "exam_tip": "VOR change-over point = where you switch from the behind VOR to the ahead VOR. Usually midpoint but may be offset. Marked 'X' with distances on chart.",
+    "key_facts": [
+      "VOR Change-over Point: transfer primary nav reference from rear to forward VOR",
+      "Marked on en route chart with 'X' symbol and distances to each VOR",
+      "Usually at midpoint of VOR-to-VOR segment but may be offset",
+      "Beyond COP: rear VOR signal geometry less accurate, forward VOR more reliable",
+      "Pilot is expected to switch without ATC instruction"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.10(i)",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "Define the following terms presented on en route charts: Distance steps",
+    "concept": "Distance steps are the accumulated DME distances from a navaid that appear along a DME arc procedure or along a route. On a DME arc, the step marks show where you are on the arc in terms of distance from the navaid -- they help you keep track of how far around the arc you've flown and when to turn inbound. On en route charts, distance steps simply show cumulative track miles between points. They're useful for cross-checking groundspeed and ETAs.",
+    "exam_tip": "Distance steps = cumulative DME distances along a route or arc. On a DME arc, they mark your position around the arc. Also used on en route charts as cumulative track miles.",
+    "key_facts": [
+      "Cumulative distances (DME) along a route segment or DME arc procedure",
+      "On a DME arc: help pilot track position around the arc",
+      "On en route charts: show track miles between waypoints",
+      "Used to cross-check groundspeed and ETA calculations",
+      "Published on instrument approach charts with DME arcs"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.12(a)",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "With regard to Standard Routes, describe in detail: the function of the routes",
+    "concept": "Standard routes in New Zealand are predefined IFR routes between aerodromes that have been designed by Airways New Zealand and published in the AIPNZ. They serve as the backbone of IFR traffic flow in NZ -- defining which airways, waypoints, altitudes, and procedures connect major aerodromes. The function is to simplify clearance delivery, reduce RT workload, and ensure that IFR traffic follows a predictable, obstacle-cleared route. Instead of spelling out the entire routing, ATC issues a standard route clearance by its short designator.",
+    "exam_tip": "Standard routes: predefined IFR routes between aerodromes, published in AIPNZ, cleared by short designator. Reduce RT workload and simplify IFR clearances.",
+    "key_facts": [
+      "Predefined IFR routes between NZ aerodromes, designed by Airways NZ",
+      "Published in AIPNZ ENR 1.1 and on en route charts",
+      "Function: simplify clearance delivery, reduce RT, ensure obstacle clearance",
+      "ATC issues clearance using the standard route designator",
+      "Pilot is responsible for knowing the full routing associated with the designator"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.1",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.12(b)",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "With regard to Standard Routes, describe in detail: the associated standard route clearance system",
+    "concept": "The standard route clearance system allows ATC to issue an entire IFR routing with a short designator rather than reading out every waypoint and altitude. Clearance format: '[callsign] cleared [ADEP] to [ADES] via [designator] departure, [standard route designator], [arrival], [FL/altitude], squawk [code]'. The pilot must know exactly what that designator means -- the full routing is published in the AIPNZ. If the clearance modifies any element of the standard route, ATC will state the amendment explicitly.",
+    "exam_tip": "Standard route clearance: ATC issues by short designator. Pilot must know the full routing. Any amendments are stated explicitly. Full routing in AIPNZ ENR 1.1.",
+    "key_facts": [
+      "ATC issues clearance by standard route designator -- short and efficient",
+      "Pilot responsibility: know the full routing published for that designator",
+      "Clearance includes: departure, standard route designator, arrival, level, squawk",
+      "Amendments to the standard route must be stated explicitly by ATC",
+      "Multiple route options may be contained in one standard route clearance"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.1",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.12(c)",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "With regard to Standard Routes, describe in detail: the manner in which standard routes are highlighted on en route charts",
+    "concept": "Standard routes are highlighted on NZ en route charts with a thicker line or highlighted/bolded airway depiction, and the standard route designator is printed alongside. The highlighting makes it easy to visually trace the standard route on the chart and cross-check your clearance. Standard route segments shown on the chart also display MEA, airway identifier, and any ROLs that apply.",
+    "exam_tip": "Standard routes on en route charts: bold/highlighted airway lines with the route designator printed alongside. Visual aid to trace your clearance on the chart.",
+    "key_facts": [
+      "Shown on en route charts with bolded or highlighted airway depiction",
+      "Standard route designator printed alongside the highlighted route",
+      "Allows visual tracing of the cleared routing",
+      "MEA and airway identifiers shown for each segment",
+      "ROLs and any restrictions also noted on the chart"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.12(d)",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "With regard to Standard Routes, describe in detail: the designator allocated to individual standard routes",
+    "concept": "Standard routes in New Zealand use a coded designator system. The designator identifies both the origin aerodrome and the destination aerodrome, and may include a number to distinguish between multiple routes between the same pair of aerodromes. For example, 'CH4' might designate a specific standard route from Christchurch, number 4. The designator is used in the ATC clearance and in the AIPNZ text.",
+    "exam_tip": "Standard route designators are coded to reflect the aerodrome pair and route number. Used in ATC clearance and AIPNZ ENR 1.1 tables.",
+    "key_facts": [
+      "Designator encodes origin/destination and route number",
+      "Used verbatim in ATC clearance",
+      "Published in AIPNZ ENR 1.1 standard route tables",
+      "Multiple designators may exist between the same city pair",
+      "Pilot must be able to decode the designator and trace the full routing"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.1",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.12(e)",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "With regard to Standard Routes, describe in detail: the documents where standard routes are published",
+    "concept": "Standard routes are published in AIPNZ ENR 1.1 (General Rules and Procedures), in the standard route clearance tables. These tables list the designator, the full routing, altitudes, and any restrictions. The routes are also depicted on NZ en route charts (AIPNZ Vol 2). Jeppesen and other chart providers also reflect standard routes, but the primary and authoritative source is the AIPNZ.",
+    "exam_tip": "Standard routes published in: AIPNZ ENR 1.1 (text tables) and AIPNZ Vol 2 en route charts (graphical). AIPNZ is the authoritative source.",
+    "key_facts": [
+      "Primary publication: AIPNZ ENR 1.1 (standard route tables)",
+      "Graphical depiction: AIPNZ Vol 2 en route charts",
+      "Third-party providers (Jeppesen etc.) also publish but AIPNZ is authoritative",
+      "Tables include: designator, full routing, MEAs, ROLs, and notes",
+      "Amended by AIRACs and NOTAMs"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.1",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.14(a)",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "With regard to uncharted routes, state: the document, and section, where the routes are published",
+    "concept": "Uncharted routes (also called random routes) in New Zealand are published in AIPNZ ENR 1.1, in the section dealing with IFR flight on uncharted routes. These are IFR flights that don't follow a published airway or standard route -- the pilot plans a direct track between waypoints. The ENR 1.1 section sets out the conditions, reporting requirements, and altitude constraints for uncharted route operations.",
+    "exam_tip": "Uncharted routes (random routes) published in AIPNZ ENR 1.1. Section on IFR flight on uncharted routes covers conditions, reporting, and altitudes.",
+    "key_facts": [
+      "Uncharted routes: IFR flights not on published airways or standard routes",
+      "Published in AIP NZ ENR 1.1 (general rules for uncharted route IFR)",
+      "Sometimes called random routes",
+      "Position reporting still required at specified intervals or waypoints",
+      "Altitude must provide obstacle clearance -- no published MEA to rely on"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.1",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.14(b)",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "With regard to uncharted routes, state: the designator allocated to the routes",
+    "concept": "Company-generated uncharted routes in New Zealand use a designator that typically includes a 'Z' prefix (e.g. Z1, Z2) or a similar code that distinguishes them from published standard route designators. The specific designator format is agreed with Airways New Zealand. Individual operators may have their own designator prefixes approved for use in ATC clearances. Pilots must be briefed on what the uncharted route designator means for their operation.",
+    "exam_tip": "Uncharted routes: typically Z-prefixed designators (e.g. Z1) or operator-specific codes agreed with Airways NZ. Not found on published charts -- operators must brief pilots.",
+    "key_facts": [
+      "Uncharted route designators: typically Z-prefix or operator-specific coding",
+      "Agreed with Airways New Zealand",
+      "Not published on standard en route charts",
+      "Operator must ensure pilots are briefed on routing",
+      "Used in ATC clearance in lieu of full waypoint description"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.1",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.22.14(c)",
+    "topic": "54.22 -- Properties and Principles",
+    "syllabus_desc": "With regard to uncharted routes, state: the meaning of chart symbols (e.g. asterisks)",
+    "concept": "On some NZ en route charts, an asterisk (*) is used to indicate that a waypoint or route point is not coincident with a named nav aid or published compulsory reporting point -- it's a company-specific or operator-defined point. When you see an asterisk on a chart next to a position, it typically means the waypoint definition is published elsewhere (not on the chart itself) or that special conditions apply. In the context of uncharted routes, asterisks may flag that a waypoint on a filed uncharted route needs to be cross-referenced from the operator's route documents.",
+    "exam_tip": "Asterisk on en route chart: the point is not a standard nav aid or published reporting point -- cross-reference operator route docs or AIPNZ notes. Look for the footnote.",
+    "key_facts": [
+      "Asterisk (*): waypoint not coincident with standard nav aid or published point",
+      "Requires cross-reference to route documentation or AIPNZ notes",
+      "Used to flag operator-defined or non-standard waypoints",
+      "Always check the chart footnote or legend for asterisk meaning",
+      "Common on company-specific routes filed as uncharted routes"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.2(a)",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Determine on appropriate en route charts: the magnetic tracks and distances of route segments",
+    "concept": "Magnetic tracks and distances of route segments are printed directly on NZ en route charts alongside each airway or direct route segment. The magnetic track is the direction you fly (in degrees magnetic) and the distance is in nautical miles. These are the two primary pieces of information you need to build a navigation plan. On airways, both directions are usually shown (e.g. 045/225 for a northeast/southwest airway). Always use the track appropriate to your direction of flight.",
+    "exam_tip": "Magnetic tracks and segment distances are published on en route charts alongside each airway segment. Use the track for your direction of travel.",
+    "key_facts": [
+      "Magnetic track (degrees M) printed alongside each airway segment on the chart",
+      "Distance in nautical miles shown for each segment",
+      "Both reciprocal directions usually shown (e.g. 045/225)",
+      "Use the track appropriate to your direction of flight",
+      "Distances are great circle distances, not rhumb line (for long segments)"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.2(b)",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Determine on appropriate en route charts: the type or class of airspace in which an IFR flight is operating",
+    "concept": "The airspace class through which your IFR route passes is shown on en route charts using the ICAO classification system (A, B, C, D, E, G). Class A is the most restrictive (all IFR, radar mandatory, ATC separation provided). New Zealand has Class A, C, D, E, and G airspace -- no Class B or F. The airspace class symbol appears in the airspace boundary or alongside the controlling authority identifier. Knowing your airspace class tells you what separation service you can expect and what communication and equipment requirements apply.",
+    "exam_tip": "Airspace class shown on en route charts. NZ has A, C, D, E, G. Class A = all IFR, full ATC separation. G = uncontrolled. Equipment and comms requirements differ by class.",
+    "key_facts": [
+      "ICAO airspace classes shown on en route charts: A, C, D, E, G in NZ",
+      "Class A: IFR only, ATC separation to all, continuous comms required",
+      "Class C: IFR and VFR, ATC separation to IFR, comms required",
+      "Class D: IFR and VFR, ATC separation to IFR, comms required",
+      "Class E: IFR and VFR, ATC separation to IFR only",
+      "Class G: uncontrolled, ATC separation not provided"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.4",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.2(c)",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Determine on appropriate en route charts: airspace boundaries",
+    "concept": "Airspace boundaries are depicted on en route charts using lateral boundary lines (often with class designators and controlling authority labels). In New Zealand, controlled airspace above transition altitude is primarily Class A. Control zones (CTZs) around aerodromes are shown with their lateral limits and vertical extents. Boundaries can be defined by latitude/longitude, by distance from a navaid, or by radial/arc. Always check that your planned route stays within or outside the correct airspace class for your operations.",
+    "exam_tip": "Airspace boundaries: depicted on chart with boundary lines, class designators, and controlling authority labels. Lateral limits may be defined by coordinates, VOR radials, or arcs.",
+    "key_facts": [
+      "Shown on chart with boundary lines and airspace class labels",
+      "Controlled airspace above transition: primarily Class A in NZ",
+      "CTZ (Control Zone) lateral limits typically distance from ARP",
+      "Boundaries defined by coordinates, VOR radials, DME arcs, or geographic features",
+      "Critical for flight planning: must remain within filed airspace class"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 2.1",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.2(d)",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Determine on appropriate en route charts: airspace vertical limits",
+    "concept": "Airspace vertical limits on NZ en route charts are expressed in feet AMSL (for altitudes below transition) or as flight levels (above transition). They're shown as the upper and lower limits of a particular airspace block, usually in the format 'base/top' -- e.g. SFC/FL245 or 3,500 ft/FL150. For controlled airspace, the vertical limits define exactly where ATC has jurisdiction and where the associated separation service applies.",
+    "exam_tip": "Vertical limits: shown as base/top on the chart. Below transition in ft AMSL, above in FLs. Example: SFC/FL245 = surface to FL245.",
+    "key_facts": [
+      "Expressed as base/top, e.g. SFC/FL150 or 3,500 ft/FL245",
+      "Below transition: altitudes in feet AMSL",
+      "Above transition: expressed as flight levels",
+      "SFC = surface (ground level)",
+      "UNL = unlimited upper limit (no ceiling)",
+      "Defines where ATC separation service applies"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 2.1",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.2(e)",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Determine on appropriate en route charts: airspace controlling authority",
+    "concept": "The controlling authority (or 'agency') for each airspace block is shown on the en route chart, usually alongside the airspace class designator or in a label box. In New Zealand, Airways NZ operates the en route and terminal ATC services. The controlling authority label identifies which ATC frequency and unit manages that airspace -- critical for knowing which agency to call for clearances and separation services.",
+    "exam_tip": "Controlling authority label on chart = ATC agency responsible for that airspace. In NZ, usually Airways NZ. Frequency published in AIPNZ or on the chart.",
+    "key_facts": [
+      "Shown on chart alongside airspace class or in label box",
+      "In NZ: primarily Airways New Zealand",
+      "Identifies which ATC unit to contact for clearances",
+      "ATC frequency for that unit published in AIPNZ or on the chart",
+      "Terminal areas may have different controlling authority to en route"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.4",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "With regard to the World Geodetic System 1984 (WGS 84) datum, state where this datum is published",
+    "concept": "The World Geodetic System 1984 (WGS 84) is the datum used for all NZ aeronautical charts and GPS/GNSS navigation. WGS 84 is a globally consistent, earth-centred coordinate reference system. In New Zealand, the fact that charts use WGS 84 is published in AIPNZ GEN 2.2 (abbreviations, units, and conventions) and in the chart legend. All latitude/longitude coordinates on NZ IFR charts are referenced to WGS 84.",
+    "exam_tip": "WGS 84 datum used on all NZ aeronautical charts. Published in AIPNZ GEN 2.2. All lat/long coordinates on NZ charts are WGS 84.",
+    "key_facts": [
+      "WGS 84 = World Geodetic System 1984",
+      "Global earth-centred ellipsoidal reference system",
+      "Published as the NZ chart datum in AIPNZ GEN 2.2",
+      "All NZ IFR chart coordinates referenced to WGS 84",
+      "GNSS (GPS/GLONASS etc.) outputs in WGS 84 -- directly compatible with NZ charts"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ GEN 2.2",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.6(a)",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Interpret information contained in VOR/DME MRA Sector (VORSEC) charts published in the AIPNZ VOL 2 & 3",
+    "concept": "VOR/DME MRA Sector (VORSEC) charts show the minimum altitudes required to receive specific VOR/DME signals in each sector around a navaid. They're divided into sectors radiating from the VOR/DME, each labelled with the altitude at which reliable reception is achievable. If you're flying en route using a VOR and you're below the VORSEC minimum for your sector, you won't get a reliable signal. VORSEC charts help you plan climbs before relying on a particular navaid for navigation.",
+    "exam_tip": "VORSEC chart: sector altitudes for reliable VOR/DME reception around a navaid. Each sector shows the minimum altitude for signal reception. Below minimum = unreliable navaid.",
+    "key_facts": [
+      "VORSEC = VOR/DME MRA Sector chart",
+      "Shows minimum altitude for reliable VOR/DME reception in each sector",
+      "Sectors radiate from the VOR/DME station",
+      "Altitude constraint is based on line-of-sight radio horizon",
+      "Published in AIPNZ Vol 3",
+      "Critical for planning when climbing or descending while using a VOR"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.6(b)",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Interpret information contained in 25 DME Minimum Sector Altitude diagrams published in the AIPNZ VOL 2 & 3",
+    "concept": "The 25 DME Minimum Sector Altitude diagram is a standard diagram centred on a navaid showing the minimum safe altitude in each sector within a 25 NM radius. It guarantees 1,000 ft of obstacle clearance and ensures reliable VOR/DME reception in each sector. The diagram is divided into sectors (usually quadrants) with each sector altitude shown. It's a primary emergency and planning tool -- if you're within 25 DME and lose situational awareness, the MSA gives you a safe altitude to target.",
+    "exam_tip": "25 DME MSA diagram: 1,000 ft obstacle clearance + navaid reception within 25 NM, in each sector. Emergency reference altitude.",
+    "key_facts": [
+      "25 NM radius from navaid, divided into sectors (usually quadrants)",
+      "Each sector: 1,000 ft obstacle clearance guaranteed",
+      "Also ensures VOR/DME reception in that sector",
+      "Published on approach plates (AIPNZ Vol 3)",
+      "Emergency reference -- not a planned cruise altitude",
+      "Pilot must know which sector they're in (relative to navaid)"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.6(c)",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Interpret information contained in Standard Instrument Departure (SID) diagrams published in the AIPNZ VOL 2 & 3",
+    "concept": "SID diagrams in the AIPNZ show the graphical route of the departure procedure including heading, turns, waypoints, crossing altitudes, and speed restrictions. The plan view (top-down) shows the lateral path. A textual description on the plate defines the procedure step by step, including initial climbing turn, fly headings, intercept radials or tracks, and join the en route structure. Minimum climb gradients (expressed as %, ft/nm or minimum climb rate at a given airspeed) are published if terrain requires a steeper than standard 200 ft/nm departure gradient.",
+    "exam_tip": "SID diagram: plan view of lateral path + text description of procedure steps. Check for minimum climb gradient requirements -- may be steeper than standard.",
+    "key_facts": [
+      "Plan view shows lateral path, waypoints, heading constraints",
+      "Textual description provides step-by-step procedure",
+      "Minimum climb gradient published if required (standard is 200 ft/nm = 3.3%)",
+      "Speed restrictions may be shown (e.g. 'maintain 210 kt or less to waypoint')",
+      "Crossing altitudes at specific waypoints shown",
+      "Published in AIPNZ Vol 3"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.6(d)",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Interpret information contained in Standard Arrival Route (STAR) charts published in the AIPNZ VOL 2 & 3",
+    "concept": "STAR charts in the AIPNZ show the published arrival route from the en route structure to the initial approach fix (IAF). The plan view shows waypoints, tracks, and any speed/altitude constraints. A STAR may serve multiple runways with a common initial track until a certain point, or may be runway-specific. Crossing altitudes ('at or above', 'at or below', or 'at') are mandatory unless amended by ATC. Speed constraints on a STAR must also be complied with as published.",
+    "exam_tip": "STAR chart: arrival route from en route to IAF. Altitude and speed constraints are mandatory (unless ATC amends). 'At', 'at or above', 'at or below' are all different -- read carefully.",
+    "key_facts": [
+      "Shows route from en route structure to Initial Approach Fix (IAF)",
+      "Plan view: waypoints, tracks, altitude constraints, speed restrictions",
+      "Altitude constraints: 'at', 'at or above', 'at or below' -- all binding unless amended",
+      "Speed constraints: comply as published unless ATC amends",
+      "May be common to multiple runways or runway-specific",
+      "Published in AIPNZ Vol 3"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.6(e)",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Interpret information contained in visual arrival charts published in the AIPNZ VOL 2 & 3",
+    "concept": "Visual arrival charts (also called visual approach charts or VAC) depict the preferred visual arrival routes into an aerodrome. They show the relationship between visual landmarks (coastlines, rivers, mountains, roads), visual reporting points (VRPs), the traffic circuit, and the runway. They're not instrument procedures -- you need VMC to fly them. But on a day IFR flight that's breaking out into VMC near the destination, a visual arrival chart helps the pilot set up visually without fumbling for landmarks.",
+    "exam_tip": "Visual arrival charts: used when transitioning from IFR to visual. Show VRPs, landmarks, circuit, runway. Require VMC -- not an instrument procedure.",
+    "key_facts": [
+      "Show visual reporting points (VRPs), landmarks, circuit, and runway layout",
+      "Require visual meteorological conditions (VMC) -- not an instrument procedure",
+      "Useful for transitioning from IFR to visual near the destination",
+      "Depict preferred arrival routes relative to identifiable terrain features",
+      "Published in AIPNZ Vol 3 for applicable aerodromes"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.6(f)",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Interpret information contained in instrument approach charts published in the AIPNZ VOL 2 & 3",
+    "concept": "Instrument approach charts contain: plan view (lateral path), profile view (vertical path), minima table (MDA/DH, visibility), and missed approach procedure. They define the procedure from the IAF through the intermediate approach, final approach, and missed approach or landing. The minima table lists MDAs or DHs for various aircraft categories (A through D) and in some cases for different equipment levels (e.g. ILS, baro-VNAV, LNAV). The missed approach instructions are mandatory if minima are not met or not visible.",
+    "exam_tip": "Instrument approach chart: plan view + profile view + minima table + missed approach. Minima vary by aircraft category (A-D) and approach type (ILS/LNAV/VNAV etc.).",
+    "key_facts": [
+      "Plan view: lateral path from IAF to runway/missed approach point",
+      "Profile view: vertical path, step-down fixes, glideslope or step altitudes",
+      "Minima table: MDA (non-precision) or DH (precision), visibility by category",
+      "Aircraft categories A/B/C/D based on approach speed (1.3 x Vso)",
+      "Missed approach procedure published -- must execute if visual ref not obtained",
+      "Published in AIPNZ Vol 3 for each instrument-equipped runway"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.6(g)",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Interpret information contained in ground movement charts published in the AIPNZ VOL 2 & 3",
+    "concept": "Ground movement charts (sometimes called aerodrome charts or taxi charts) show the layout of runways, taxiways, aprons, parking bays, and hotspots at an aerodrome. They're used for taxi planning and to support compliance with ATC ground movement instructions. In NZ, ground movement charts are particularly useful at complex aerodromes like Christchurch (NZCH) or Auckland (NZAA) where multiple runway crossings and complex taxi routes exist.",
+    "exam_tip": "Ground movement chart: aerodrome taxiway layout for taxi planning and ATC compliance. Published in AIPNZ Vol 3 for applicable aerodromes.",
+    "key_facts": [
+      "Show runways, taxiways, aprons, holding points, and hotspots",
+      "Used for taxi planning and to cross-check ATC ground movement instructions",
+      "Include runway crossing points and hotspot warnings",
+      "Published in AIPNZ Vol 3",
+      "Important at complex aerodromes (NZCH, NZAA, NZWN)"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.6(h)",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Interpret information contained in instrument T/O procedure chart - rate of climb table published in the AIPNZ VOL 2 & 3",
+    "concept": "The instrument take-off procedure chart includes a rate of climb table that shows the minimum rate of climb required at various groundspeeds to achieve the published climb gradient requirement. If you can't achieve the required rate of climb, you cannot conduct the ITO in IMC unless alternative obstacle clearance can be assured. The table translates the gradient (%) into a ROC at a given GS -- for example, 3.3% at 90 kt GS = approximately 300 ft/min. Higher groundspeed at same gradient = higher ROC required.",
+    "exam_tip": "ITO rate of climb table: converts published climb gradient (%) into required ROC at given groundspeed. If aircraft can't achieve required ROC at departure GS, cannot fly ITO in IMC.",
+    "key_facts": [
+      "Rate of climb table published on instrument T/O procedure chart",
+      "Translates gradient (%) to required ROC (ft/min) at given GS",
+      "3.3% (200 ft/nm) is the standard minimum gradient",
+      "Higher GS at same gradient requires higher ROC",
+      "If ROC unachievable: cannot fly ITO in IMC without alternative obstacle protection",
+      "Tables published in AIPNZ Vol 3 for aerodromes with ITO procedures"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.6(i)",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Interpret information contained in IFR alternate aerodrome minima table published in the AIPNZ VOL 2 & 3",
+    "concept": "The IFR alternate aerodrome minima table in the AIPNZ lists the weather minima (ceiling and visibility) required for an aerodrome to be nominated as an IFR alternate. If the forecast weather at your planned alternate doesn't meet the tabulated minima at ETA plus/minus 1 hour, you can't use it as your alternate. The table is aerodrome-specific and approach-type-specific (lower minima for ILS, higher for NDB). This is one of the first things to check in IFR fuel and alternate planning.",
+    "exam_tip": "IFR alternate minima table: ceiling + visibility required to nominate an aerodrome as alternate. Check forecast against table for ETA +/- 1 hour. Lower minima for precision approaches.",
+    "key_facts": [
+      "Lists ceiling and visibility required to nominate an aerodrome as IFR alternate",
+      "Aerodrome-specific and approach-type-specific",
+      "ILS alternate minima lower than NDB or VOR",
+      "Forecast weather at alternate must meet minima for ETA +/- 1 hour",
+      "Published in AIPNZ Vol 3",
+      "CAR Part 91 governs IFR alternate requirements"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3, CAR Part 91",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.8(a)",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Explain compliance procedures associated with VOR/DME MRA Sector (VORSEC) charts",
+    "concept": "To comply with a VORSEC chart, you must not navigate using that VOR below the published sector altitude for your sector. Before descending below the VORSEC altitude, ensure you have established the next nav source or that you're within the published reception altitude. VORSEC altitudes are not obstacle clearance altitudes -- they're reception altitudes. However, if you're below the VORSEC minimum, your VOR-based navigation is unreliable, which is an indirect safety risk.",
+    "exam_tip": "VORSEC compliance: don't use that VOR below the published sector altitude for your sector. It's a reception requirement, not obstacle clearance.",
+    "key_facts": [
+      "Must stay at or above VORSEC sector altitude for reliable VOR/DME reception",
+      "Check which sector you're in relative to the navaid",
+      "Not an obstacle clearance altitude -- don't confuse with MSA",
+      "Descend below VORSEC only when another nav source is established",
+      "Particularly relevant during descent on approach when transitioning to lower altitudes"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.8(b)",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Explain compliance procedures associated with 25 DME Minimum Sector Altitude diagrams",
+    "concept": "The 25 DME MSA diagram is a safety net. Compliance means not descending below the published MSA for your sector unless you're established on a published instrument procedure that provides lower obstacle clearance. If you lose situational awareness, the MSA gives you a safe altitude to climb to. You need to know which sector you're in (which quadrant relative to the navaid, using your DME and bearing). The 25 DME MSA is on the approach plate header -- quickly accessible during an approach brief.",
+    "exam_tip": "25 DME MSA compliance: know which sector you're in, don't descend below that sector's altitude outside of a published procedure. Emergency safety net.",
+    "key_facts": [
+      "Don't descend below MSA for your sector unless established on a published procedure",
+      "Identify your sector: which quadrant relative to the navaid using DME and bearing",
+      "MSA is published on the approach plate header for quick reference",
+      "If uncertain of position: climb to MSA immediately",
+      "Does not replace MEA for en route; applies within 25 NM of the navaid"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.8(c)",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Explain compliance procedures associated with Standard Instrument Departure (SID) diagrams",
+    "concept": "SID compliance requires flying the published procedure exactly as depicted unless ATC issues specific amendments. This means following the lateral path (headings, tracks, turning points), crossing published altitudes at the right places, and complying with speed restrictions. If a minimum climb gradient is published, you must achieve it -- if you can't, you must not depart in IMC (or must take the alternative departure procedure if published). After completing the SID, you join the en route structure at the prescribed fix or level.",
+    "exam_tip": "SID compliance: fly the procedure exactly unless ATC amends. Minimum climb gradient is mandatory. If you can't achieve it: don't depart IMC.",
+    "key_facts": [
+      "Fly lateral path exactly as published (unless ATC amends)",
+      "Comply with all crossing altitudes and speed restrictions",
+      "Minimum climb gradient is mandatory -- not optional",
+      "Cannot depart IMC if unable to achieve required climb gradient",
+      "Join en route structure at the published terminus of the SID",
+      "ATC may issue direct routings or climb amendments -- expect and be ready"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.8(d)",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Explain compliance procedures associated with Standard Arrival Route (STAR) charts",
+    "concept": "STAR compliance means flying the published lateral route to the IAF, meeting all altitude constraints, and complying with speed restrictions -- all unless ATC issues an amendment. ATC can issue 'descend now' or 'maintain higher altitude' or 'direct to [fix]' to manage traffic. You must not descend below a STAR altitude constraint without ATC authorisation. On a STAR, 'at or above' means you can be higher but not lower; 'at or below' means you can be lower but not higher; 'at' means exactly that altitude.",
+    "exam_tip": "STAR compliance: meet all altitude and speed constraints unless ATC amends. 'At or above' = not lower. 'At or below' = not higher. 'At' = exactly.",
+    "key_facts": [
+      "Fly published route to IAF, meet all altitude constraints",
+      "Speed restrictions mandatory unless ATC amends",
+      "'At or above': can be higher, cannot be lower",
+      "'At or below': can be lower, cannot be higher",
+      "'At': exactly that altitude required",
+      "ATC may issue amendments -- read back and comply"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3, AIP NZ ENR 1.1",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.8(e)",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Explain compliance procedures associated with visual arrival charts",
+    "concept": "Visual arrival chart compliance means you must have visual reference to proceed on that arrival. You cannot commence a visual arrival in IMC and 'hope' to break out -- visual arrivals require VFR conditions or at least enough VMC to navigate visually. Once cleared for a visual arrival, you're responsible for terrain and obstacle clearance using visual cues. ATC may clear you for a visual arrival from the STAR; you then proceed to the aerodrome using the VRPs shown on the chart.",
+    "exam_tip": "Visual arrival chart compliance: must be in VMC. You take terrain/obstacle responsibility. Cleared from STAR via visual arrival -- track to aerodrome using VRPs.",
+    "key_facts": [
+      "Must have VMC to conduct visual arrival",
+      "Pilot takes terrain and obstacle clearance responsibility once visual",
+      "ATC may clear from STAR onto visual arrival",
+      "Follow VRPs shown on visual arrival chart to aerodrome",
+      "Coordinate with ATC if weather deteriorates -- may need to revert to instrument approach"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.8(f)",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Explain compliance procedures associated with instrument approach charts",
+    "concept": "Instrument approach chart compliance means conducting the approach exactly as depicted: fly to the IAF, fly the procedure turn or arc if published (unless cleared straight-in), intercept the final approach track, cross step-down fixes at or above minimum altitudes, and either land or execute the missed approach if the required visual reference isn't established at MDA/DH. Never descend below MDA without the required visual reference for the runway environment. Missed approach must be initiated at the missed approach point (MAP).",
+    "exam_tip": "Instrument approach compliance: fly the procedure exactly. Never below MDA without visual reference. Execute missed approach at MAP if not visual. Follow published missed approach procedure.",
+    "key_facts": [
+      "Fly to IAF, then follow published lateral and vertical path",
+      "Cross all step-down fixes at or above published altitudes",
+      "Reach MDA or DH -- level off and assess visual reference",
+      "Visual reference required: runway environment, approach lights, threshold, PAPI etc.",
+      "If not visual at MDA/DH by MAP: initiate missed approach immediately",
+      "Follow published missed approach to specified fix/altitude"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3, CAR Part 91",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.8(g)",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Explain compliance procedures associated with ground movement charts",
+    "concept": "Ground movement chart compliance means following the chart and ATC taxi instructions precisely. Never cross a runway holding point (solid line on taxiway) without explicit ATC clearance. At night or in low visibility, taxi slowly and cross-check the chart constantly. Use the chart to anticipate turn-offs and taxiway identifiers. Hotspots (marked on the chart) are areas of increased risk of runway incursion or collision -- exercise extra vigilance at these points.",
+    "exam_tip": "Ground movement chart compliance: hold short of runway holding points unless explicitly cleared. Extra vigilance at hotspots. Use the chart to anticipate taxi routing.",
+    "key_facts": [
+      "Never cross runway holding point without explicit ATC clearance",
+      "Runway holding points: solid and dashed lines across taxiway",
+      "Hotspots marked on chart -- increased vigilance required",
+      "Use the chart to anticipate turns and identify taxiway designators",
+      "Read back all runway crossing clearances",
+      "Low visibility operations require additional caution"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3, AIP NZ ENR 1.1",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.10",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Interpret meteorological information for IFR takeoff minima",
+    "concept": "IFR takeoff minima in New Zealand are published in AIPNZ Vol 3 for each aerodrome with a published instrument departure. Meteorological minima for takeoff (visibility and cloud ceiling) are specified per runway and departure direction. If no specific minima are published, standard Part 91 minima apply. The aim is to ensure that, on a rejected takeoff, the pilot can safely return and land, and that during the climb-out on the SID, obstacle clearance is maintained. Interpret met reports (METAR) and forecasts (TAF) against the tabulated minima for your departure time.",
+    "exam_tip": "IFR takeoff minima: published in AIPNZ Vol 3 for each runway. Interpret METAR/TAF against tabulated values for departure time. No published minima = standard Part 91 apply.",
+    "key_facts": [
+      "Published in AIPNZ Vol 3 per runway/departure direction",
+      "Specify visibility and ceiling required for takeoff",
+      "Purpose: ensure RTL capability and SID obstacle clearance",
+      "Interpret METAR (actual) and TAF (forecast) against the minima",
+      "No published specific minima: refer to CAR Part 91 standard requirements",
+      "Night operations may have different (higher) minima"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3, CAR Part 91",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.12",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Interpret meteorological information for IFR approach minima",
+    "concept": "IFR approach minima are published in the minima table of each instrument approach chart. They define the Minimum Descent Altitude (MDA) for non-precision approaches or the Decision Height (DH) for precision approaches, plus the required flight visibility. Minima vary by aircraft category (A through D, based on 1.3 x Vso) and by approach type (ILS has lower minima than VOR or NDB). Interpret the TAF and forecast to determine whether the expected weather at your ETA will be at or above the published minima for your approach type and aircraft category.",
+    "exam_tip": "IFR approach minima: MDA (non-precision) or DH (precision) + visibility. Varies by aircraft category (A-D) and approach type. Check TAF for ETA +/- 1 hour.",
+    "key_facts": [
+      "Minima table on approach plate: MDA/DH and required visibility",
+      "Aircraft categories A/B/C/D based on 1.3 x Vso approach speed",
+      "Precision (ILS/RNP AR LPV): Decision Height (DH) -- must execute go-around at DH if not visual",
+      "Non-precision (VOR/NDB/GNSS LNAV): MDA -- level off and assess",
+      "Check forecast (TAF) at destination for ETA +/- 1 hour",
+      "Lower minima = more demanding approach type and/or better aircraft equipment"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3, CAR Part 91",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.14",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Explain the compliance procedures involved during precision and non-precision instrument approaches",
+    "concept": "Precision approaches (ILS, GLS, RNP AR with vertical guidance) use a Decision Height (DH) -- at DH the pilot must have the required visual reference or immediately execute a missed approach. No levelling off at DH; it's the 'go/no-go' decision point. Non-precision approaches (VOR, NDB, GNSS LNAV) use a Minimum Descent Altitude (MDA) -- the pilot descends to MDA, levels off, and continues at MDA until either obtaining the required visual reference and landing, or reaching the Missed Approach Point (MAP) and executing the missed approach. The key difference: DH is a decision point on the glidepath; MDA is a floor you hold at.",
+    "exam_tip": "Precision approach = Decision Height (DH): immediate go-around if not visual at DH. Non-precision = MDA: level off and hold until visual or MAP. Don't descend below MDA.",
+    "key_facts": [
+      "Precision: ILS, GLS, LPV -- uses Decision Height (DH)",
+      "At DH: must have required visual reference or immediately go around",
+      "No leveloff at DH on precision approach -- it's a decision point",
+      "Non-precision: VOR, NDB, LNAV -- uses Minimum Descent Altitude (MDA)",
+      "At MDA: level off, continue to MAP, land if visual or go around at MAP",
+      "Never descend below MDA on a non-precision approach"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3, CAR Part 91",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.26.16",
+    "topic": "54.26 -- Reading IFR Charts",
+    "syllabus_desc": "Describe the compliance procedures associated with published missed approaches",
+    "concept": "The missed approach procedure is published on the instrument approach chart and must be executed whenever: the required visual reference is not established by MDA/DH, or when a safe landing cannot be made after establishing visual reference. The missed approach initiates at the MAP (missed approach point) on non-precision approaches, or at DH on precision approaches. The procedure specifies an initial climbing action (climb straight ahead, or turn to a specified heading), then tracks to a missed approach fix (usually a navaid or waypoint) at a published altitude. Execute missed approach without hesitation -- a baulked approach is always the right choice when in doubt.",
+    "exam_tip": "Missed approach: mandatory if not visual at MDA/MAP or DH, or if safe landing not achievable. Follow published procedure: initial climb action + track to missed approach fix at published altitude.",
+    "key_facts": [
+      "Must execute if: not visual at MDA/DH, or safe landing not achievable",
+      "Non-precision: initiate at MAP; precision: initiate at DH",
+      "Published procedure: initial climb action (straight or turn) + track to fix",
+      "Missed approach fix with holding altitude specified",
+      "Execute without hesitation -- don't linger at MDA hoping to see the runway",
+      "Notify ATC as soon as practicable after initiating missed approach"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3, CAR Part 91",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.40.2(a)",
+    "topic": "54.40 -- IFR Route Selection",
+    "syllabus_desc": "For the preparation of a flight plan, determine: route details, including reporting points and turning points",
+    "concept": "Route details for an IFR flight plan include the full list of waypoints, airways, standard routes, departure procedures, arrival procedures, and turning points from ADEP to ADES. Each segment must be fully defined so there's no ambiguity. Reporting points (both compulsory and non-compulsory) along the route are identified so that position reports can be made at the right locations. Turning points are defined by waypoint identifiers or lat/long. On NZ airways, standard route designators replace long lists of individual waypoints.",
+    "exam_tip": "Route details = full path ADEP to ADES: airways/waypoints, SID, STAR, compulsory/non-compulsory reporting points, turning points. Must be unambiguous in the flight plan.",
+    "key_facts": [
+      "Full routing: SID, en route waypoints/airways, STAR, approach type",
+      "Each waypoint defined by name, lat/long, or radial/distance",
+      "Compulsory and non-compulsory reporting points identified",
+      "Turning points defined precisely",
+      "Standard route designators can compress many waypoints into one code",
+      "All route segments must be achievable at or above MEA"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.1",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.40.2(b)",
+    "topic": "54.40 -- IFR Route Selection",
+    "syllabus_desc": "For the preparation of a flight plan, determine: climb performance data including minimum climb gradients associated with published departure procedures",
+    "concept": "Climb performance data for IFR planning includes the aircraft's climb gradient capability and the minimum climb gradient required by the published SID. SID climb gradients are expressed as a percentage (ft per 100 ft of horizontal distance) or as ft/nm. The standard minimum is 200 ft/nm (3.3%) -- if you can't achieve this in the conditions on the day (temperature, pressure, weight), you must not depart in IMC or must take an alternative procedure. Also check whether the SID specifies a minimum climb rate at a specific speed (e.g. 'must achieve 200 ft/nm at 140 kt').",
+    "exam_tip": "SID minimum climb gradient: standard = 200 ft/nm (3.3%). If aircraft can't achieve it (weight, temperature, pressure), cannot depart IMC. Check aircraft POH for actual gradient capability.",
+    "key_facts": [
+      "Standard minimum SID climb gradient: 200 ft/nm (3.3%)",
+      "Higher gradients published where terrain requires it",
+      "Aircraft capability varies with weight, temperature, altitude, engine condition",
+      "200 ft/nm = ~325 ft/min at 90 kt GS; ~530 ft/min at 150 kt GS",
+      "Cannot depart IMC if gradient cannot be achieved",
+      "Alternative procedures (e.g. lower minima, different runway) may be published"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.40.2(c)",
+    "topic": "54.40 -- IFR Route Selection",
+    "syllabus_desc": "For the preparation of a flight plan, determine: descent performance data including rate of descent required to arrive at a position at a stipulated altitude, or to comply with published arrival procedures",
+    "concept": "Descent performance data for IFR planning means working backwards from your destination. You need to know the required rate of descent to arrive at the step-down fixes or the FAF at the published altitude, and the rate of descent needed on the final approach segment. For a 3-degree glidepath, the rule of thumb is groundspeed x 5 = approximate rate of descent in ft/min (e.g. 120 kt GS = 600 ft/min). Also account for STAR crossing altitudes -- if the STAR requires you at a specific altitude at a certain fix, calculate top of descent accordingly.",
+    "exam_tip": "Descent planning: 3-degree path rule: GS x 5 = ROD in ft/min. Plan TOD to meet STAR crossing altitudes. Account for temperature effects on final approach segment.",
+    "key_facts": [
+      "3-degree glidepath rule: GS (kt) x 5 = approximate ROD (ft/min)",
+      "Calculate TOD to meet first STAR crossing altitude constraint",
+      "Account for all STAR step-down altitudes working backwards from the IAF",
+      "Ensure ROD achievable within aircraft performance limits",
+      "Different descent rates for cruise descent vs STAR vs final approach",
+      "Temperature effects: cold air -- true altitude lower than indicated on final"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.40.2(d)",
+    "topic": "54.40 -- IFR Route Selection",
+    "syllabus_desc": "For the preparation of a flight plan, determine: fuel consumption details during climb, cruise, descent, and during diversion (if different)",
+    "concept": "Fuel consumption is not constant through a flight -- it varies with altitude, power setting, weight, and temperature. In planning, split the fuel calculation into climb, cruise, and descent phases, each with a different burn rate from the aircraft's POH. If the diversion route involves a different altitude or power setting than the cruise, calculate that separately too. The fuel log in the flight plan must track fuel burn by sector so that EFR (Estimated Fuel Remaining) at each waypoint can be cross-checked in flight.",
+    "exam_tip": "Fuel consumption planning: separate climb, cruise, descent (different burn rates). Add diversion fuel if diversion altitude/power differs. EFR must be trackable at each waypoint.",
+    "key_facts": [
+      "Different fuel burn rates: climb > cruise > descent (typically)",
+      "Get burns from aircraft POH performance charts for each phase",
+      "Diversion fuel calculated separately if power/altitude differs from cruise",
+      "Track EFR at each waypoint to detect off-plan fuel trends early",
+      "Include contingency and reserve fuel separately in the plan",
+      "Convert all fuel quantities to consistent units (litres or kg, not both)"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, CAR Part 91",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.40.2(e)",
+    "topic": "54.40 -- IFR Route Selection",
+    "syllabus_desc": "For the preparation of a flight plan, determine: cruising level(s) considering topography, navigational and meteorological considerations",
+    "concept": "Cruising level selection for IFR involves multiple constraints. The semi-circular (hemispheric) rule sets which levels are available for your track direction. MEA sets the minimum level on each airway. Topography may require higher levels near mountain ranges (e.g. Southern Alps). Meteorology affects: winds aloft (higher for tailwinds, or lower for headwinds if fuel is marginal), icing levels, turbulence, and the tops of cloud. RVSM airspace requirements kick in above FL290. Weight-limited aircraft may not be able to reach higher FLs. Balance all these to select the optimum level.",
+    "exam_tip": "Cruising level selection: hemispheric rule + MEA + terrain + met (winds, icing, turbulence, cloud tops) + RVSM if above FL290 + aircraft capability.",
+    "key_facts": [
+      "Hemispheric rule: determines available FL from the ENR 1.7 table",
+      "Must be at or above MEA on all airway segments",
+      "Terrain: Southern Alps require higher levels through that region",
+      "Winds: higher = stronger tailwinds generally (troposphere), but cold-soak on engine",
+      "Icing: avoid icing levels for non-de-iced aircraft",
+      "RVSM approval required above FL290",
+      "Aircraft weight and performance limits may cap achievable FL"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.7",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.40.2(f)",
+    "topic": "54.40 -- IFR Route Selection",
+    "syllabus_desc": "For the preparation of a flight plan, determine: ATC and Noise Abatement requirements",
+    "concept": "ATC requirements for IFR route selection include filing the flight plan in the ICAO standard format, obtaining airways clearances, complying with controlled airspace entry requirements, and meeting any mandatory filing times. Noise abatement requirements at certain NZ aerodromes restrict which SIDs can be used at night, or dictate specific power settings during departure. Check the relevant aerodrome section in AIPNZ for noise abatement procedures. Some departure routes are noise-preferred routes that must be followed.",
+    "exam_tip": "ATC route requirements: file ICAO flight plan, comply with clearance requirements. Noise abatement: check aerodrome-specific procedures in AIPNZ -- may restrict SID choice, especially at night.",
+    "key_facts": [
+      "File ICAO flight plan (form 2021 standard) with ATC",
+      "Clearance required prior to entering controlled airspace",
+      "Standard filing times: typically 30-60 min before EOBT for IFR",
+      "Noise abatement procedures published per aerodrome in AIPNZ",
+      "Noise-preferred routes may restrict available SIDs, especially at night",
+      "ATC may impose level or routing constraints for traffic management"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.1, ICAO Doc 4444",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.40.2(g)",
+    "topic": "54.40 -- IFR Route Selection",
+    "syllabus_desc": "For the preparation of a flight plan, determine: speed limitations, if applicable",
+    "concept": "Speed limitations on IFR routes can come from several sources: ATC-imposed speed restrictions for sequencing, airspace speed limits (e.g. 250 kt IAS below FL100), SID and STAR speed constraints, and aircraft structural limits (VMO). Below FL100 in NZ, 250 kt IAS is the standard limit (Part 91). SID or STAR plates may publish lower speed constraints at specific fixes (e.g. 'not above 180 kt by OTAKI'). Turbine helicopters and slower piston aircraft may not be constrained by these limits but must still comply with any published procedure speeds.",
+    "exam_tip": "Speed limits: 250 kt IAS below FL100 (CAR Part 91). Published SID/STAR constraints are mandatory. ATC may impose lower speeds for sequencing.",
+    "key_facts": [
+      "250 kt IAS below FL100: standard CAR Part 91 speed limit",
+      "SID speed constraints published on plates -- mandatory unless ATC amends",
+      "STAR speed constraints -- same: mandatory unless ATC amends",
+      "ATC may impose lower speeds for sequencing (e.g. '160 kt or less to final')",
+      "Aircraft VMO/MMO structural limits also apply",
+      "Turbine helicopters governed by their own speed limits"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, CAR Part 91.209",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.40.2(h)",
+    "topic": "54.40 -- IFR Route Selection",
+    "syllabus_desc": "For the preparation of a flight plan, determine: requirement for, and availability of, alternate(s)",
+    "concept": "Alternate requirements for IFR apply when destination weather is uncertain or the aerodrome has limitations. CAR Part 91 specifies when an IFR alternate must be nominated (generally when the destination weather forecast is below required minima for the 1-hour ETA window, or the aerodrome is limited to one approach). Once you decide you need an alternate, check: (1) that the alternate has a published instrument approach, (2) the forecast weather at the alternate meets the published IFR alternate minima for ETA +/- 1 hour, and (3) that you have enough fuel to reach the alternate plus reserves.",
+    "exam_tip": "Alternate required when: destination weather forecast below minima, or limited approach availability. Alternate must have: instrument approach, weather at or above alternate minima, fuel to reach it + reserves.",
+    "key_facts": [
+      "CAR Part 91: specifies when IFR alternate is required",
+      "Alternate must have a published instrument approach",
+      "Forecast at alternate must meet IFR alternate minima for ETA +/- 1 hour",
+      "Fuel to alternate + reserve + contingency must be carried",
+      "Alternate minima published in AIPNZ Vol 3 alternate minima table",
+      "Multiple alternates may be required for remote/single-approach aerodromes"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, CAR Part 91, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.44.2(a)",
+    "topic": "54.44 -- IFR Flight Plan Preparation",
+    "syllabus_desc": "Prepare an IFR flight plan which contains: point of departure including minimum departure altitude or departure instructions, if applicable",
+    "concept": "The point of departure in an IFR navigation flight plan log is the ADEP with its ICAO indicator, followed by the minimum departure altitude (MDA) or the departure instructions from the published SID. If the SID specifies 'climb to 5,000 ft on runway heading before turning', the departure section records that requirement so the crew knows what to do from wheels-up. If no SID is applicable, the minimum safe altitude for the first sector is used as the departure altitude.",
+    "exam_tip": "Departure: record ADEP (ICAO code) + minimum departure altitude or SID departure instructions. Sets the initial climb requirement.",
+    "key_facts": [
+      "ADEP identified by 4-letter ICAO location indicator",
+      "Minimum departure altitude: from SID or, if no SID, from MSA calculation",
+      "SID departure instructions recorded (e.g. heading, turning point, initial altitude)",
+      "Defines what the crew does from wheels-up to joining en route",
+      "Minimum departure altitude ensures obstacle clearance from start of climb"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.44.2(b)",
+    "topic": "54.44 -- IFR Flight Plan Preparation",
+    "syllabus_desc": "Prepare an IFR flight plan which contains: rate of climb required to comply with published climb gradient",
+    "concept": "If the published SID specifies a minimum climb gradient (e.g. 3.8% or 380 ft/nm), the flight plan log records the required rate of climb at your planned departure groundspeed. Convert the gradient to an ROC using: ROC (ft/min) = gradient (ft/nm) x GS (nm/min). For example, 380 ft/nm at 90 kt GS = 380 x 1.5 = 570 ft/min. If the aircraft can't achieve this ROC at the planned weight and conditions, the IFR departure cannot be conducted. This is a pre-flight calculation, not something to discover on the takeoff roll.",
+    "exam_tip": "Required ROC from gradient: ROC (ft/min) = gradient (ft/nm) x GS (nm/min). Verify achievable pre-flight. Standard minimum is 200 ft/nm. Higher if terrain demands.",
+    "key_facts": [
+      "Convert gradient: ROC (ft/min) = gradient (ft/nm) x GS (kt / 60)",
+      "200 ft/nm at 90 kt = 200 x 1.5 = 300 ft/min minimum",
+      "Higher gradients specified when terrain requires more than standard",
+      "Must confirm achievable at actual departure weight and conditions",
+      "Published on SID plate and in AIPNZ departure procedure text"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.44.2(c)",
+    "topic": "54.44 -- IFR Flight Plan Preparation",
+    "syllabus_desc": "Prepare an IFR flight plan which contains: location and altitude of top of climb and top of descent",
+    "concept": "Top of Climb (TOC) is the position and altitude at which the aircraft levels off at cruise altitude. Top of Descent (TOD) is the position at which descent must begin to arrive at the first STAR altitude constraint or the initial approach fix at the correct altitude. Both are calculated from performance data (climb/descent rates at planned speeds) and charted on the navigation log as a distance from a waypoint. TOC and TOD must be checked against terrain on the chart -- in NZ's mountainous terrain, TOC and TOD positions relative to the Southern Alps can be critical.",
+    "exam_tip": "TOC: position/altitude where cruise begins. TOD: position where descent starts to meet first STAR/approach altitude constraint. Both are calculated positions, not guesses.",
+    "key_facts": [
+      "TOC: position and altitude at end of climb phase",
+      "TOD: position at which descent commences to meet first descent constraint",
+      "Calculated from climb/descent performance data and planned speeds",
+      "Recorded in navigation log as distance from a waypoint",
+      "Critical in mountainous terrain (NZ Southern Alps) -- TOC must clear terrain",
+      "TOD planned to meet first STAR altitude -- compute backwards from the fix"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.44.2(d)",
+    "topic": "54.44 -- IFR Flight Plan Preparation",
+    "syllabus_desc": "Prepare an IFR flight plan which contains: each sector of the flight identified as From/To",
+    "concept": "Each sector of an IFR navigation log is identified as a From/To pair -- from one waypoint or fix to the next. This structures the log into discrete legs that can be tracked systematically. For example: NZCH (Christchurch) to REKIS, REKIS to BIDOL, BIDOL to NZWN (Wellington). Each From/To pair gets its own line in the nav log with track, distance, wind, TAS, heading, GS, time, and fuel. This structure allows the crew to update ETAs and EFRs incrementally and detect deviations from plan.",
+    "exam_tip": "Sectors identified as From/To pairs (e.g. NZCH to REKIS). Each sector gets its own nav log line. Systematic tracking enables early deviation detection.",
+    "key_facts": [
+      "Each sector: From waypoint / To waypoint",
+      "One nav log line per sector",
+      "Enables incremental ETA and EFR cross-checking",
+      "Waypoints may be named fixes, VOR/DME stations, lat/long positions",
+      "Includes climb, cruise, descent and diversion sectors"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.44.2(e)",
+    "topic": "54.44 -- IFR Flight Plan Preparation",
+    "syllabus_desc": "Prepare an IFR flight plan which contains: point of arrival including minimum procedure commencement altitude, if applicable",
+    "concept": "The point of arrival in the navigation log is the ADES (destination aerodrome) with its ICAO code, plus the minimum procedure commencement altitude -- the altitude at which the instrument approach procedure begins. For an ILS approach this might be the procedure altitude at the IAF or the glideslope intercept altitude. For a VOR approach it might be the altitude at the IAF. This altitude must be achievable on the STAR and must be noted in the nav log so the crew can verify they're on profile for the approach.",
+    "exam_tip": "Arrival: record ADES (ICAO code) + minimum procedure commencement altitude. This is the altitude at the IAF or start of the approach procedure.",
+    "key_facts": [
+      "ADES identified by 4-letter ICAO location indicator",
+      "Minimum procedure commencement altitude: altitude at IAF or procedure start",
+      "Ensures STAR delivers aircraft at the correct altitude to commence approach",
+      "Must be achievable from the final STAR segment",
+      "ILS: typically glideslope intercept altitude; VOR/NDB: IAF altitude"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.44.2(f)",
+    "topic": "54.44 -- IFR Flight Plan Preparation",
+    "syllabus_desc": "Prepare an IFR flight plan which contains: the altitude and time of each sector including mean climb and mean descent altitude",
+    "concept": "For each sector in the nav log, the altitude and time are recorded -- but for climb and descent sectors, a mean altitude is used (halfway between start and end altitude) for fuel and TAS calculations, since the aircraft spends equal time above and below the mean altitude. This approximation is standard practice and accurate enough for planning. The sector time is calculated from the sector distance and groundspeed. Record start altitude, end altitude, and mean altitude for each non-cruise sector.",
+    "exam_tip": "Climb/descent sectors: use mean altitude for TAS and fuel calculations (halfway between start and end altitudes). Record start altitude, end altitude, and mean altitude in the nav log.",
+    "key_facts": [
+      "Mean altitude = (start altitude + end altitude) / 2",
+      "Used for TAS calculation in climb/descent sectors (temperature varies with altitude)",
+      "Fuel burn rate from POH at mean altitude and mean OAT for that sector",
+      "Sector time from distance and mean groundspeed",
+      "Cruise sectors: single altitude used throughout",
+      "Split climb/descent: two sub-sectors if significant direction or level changes occur"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.44.2(g)",
+    "topic": "54.44 -- IFR Flight Plan Preparation",
+    "syllabus_desc": "Prepare an IFR flight plan which contains: each sector distance",
+    "concept": "Each sector distance is the track distance (in nautical miles) from the From waypoint to the To waypoint. This is read from the en route chart alongside the airway or direct segment. For DME arcs, the arc distance must be calculated using arc length = (arc angle in degrees / 360) x 2 x pi x DME radius. Sector distances are the foundation of ETA and fuel calculations -- if they're wrong, everything else is wrong too. Cross-check against chart before committing to the plan.",
+    "exam_tip": "Sector distance = track nm from From to To waypoint. Read from chart. DME arc: arc length = (angle/360) x 2 x pi x radius. Accuracy critical for ETAs and fuel.",
+    "key_facts": [
+      "Track distance in nautical miles, read from chart",
+      "DME arc sector: arc length = (arc angle / 360) x 2pi x DME radius",
+      "All distances are track distances (not great circle for shorter segments)",
+      "Source: en route chart (distance printed alongside airway segment)",
+      "Foundation of ETA and fuel calculations -- errors propagate"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.44.2(h)",
+    "topic": "54.44 -- IFR Flight Plan Preparation",
+    "syllabus_desc": "Prepare an IFR flight plan which contains: outside air temperatures for the calculation of TAS during climb, cruise and descent",
+    "concept": "Outside air temperature (OAT) is used to calculate TAS from IAS (via CAS and EAS), and to determine fuel burn from the performance charts. OAT is obtained from the forecast temperature at the planned cruising altitude (from the TAF, SIGMET, upper wind and temperature forecasts). For each sector, note the OAT at the mean altitude. In New Zealand, upper winds and temperatures are published on GRAFOR charts and available from MetService. Temperature also affects density altitude and engine performance.",
+    "exam_tip": "OAT for each sector: from upper wind and temperature forecasts (MetService GRAFOR or similar). Used for TAS calculation and fuel burn from POH performance charts.",
+    "key_facts": [
+      "OAT from forecast upper wind and temperature charts (e.g. MetService GRAFOR)",
+      "Used to convert IAS to TAS via density/pressure altitude",
+      "Used to determine fuel burn from POH performance charts",
+      "Note OAT at mean altitude for climb/descent sectors",
+      "OAT also affects engine power output and density altitude"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.44.2(i)",
+    "topic": "54.44 -- IFR Flight Plan Preparation",
+    "syllabus_desc": "Prepare an IFR flight plan which contains: the wind velocity used for climb, cruise and descent, including split climb and split descent",
+    "concept": "Wind velocity used for planning is the forecast wind at the planned cruising altitude, from a synoptic or upper-air forecast. In NZ, this comes from MetService upper wind and temperature forecasts (GRAPHORECASTor GRAFOR). For climb and descent sectors, use a mean wind between surface and cruising altitude, or split into sub-sectors. A 'split climb' or 'split descent' means the climb or descent crosses a significant wind shift, requiring the sector to be divided at the wind-shift altitude to use an appropriate wind for each sub-sector.",
+    "exam_tip": "Wind velocity from upper wind forecast (GRAFOR etc.) at cruise altitude. Split climb/descent: divide sector at significant wind shifts for accurate heading and ETA calculations.",
+    "key_facts": [
+      "Wind from MetService upper wind forecast (GRAFOR or similar)",
+      "Applied at planned cruising altitude for cruise sectors",
+      "Climb/descent: use mean wind or split the sector at wind shifts",
+      "Split climb: divide at altitude where wind changes significantly",
+      "Wind is applied in the triangle of velocity to calculate heading and GS",
+      "Always note wind as direction/speed (e.g. 270/35)"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.44.2(j)",
+    "topic": "54.44 -- IFR Flight Plan Preparation",
+    "syllabus_desc": "Prepare an IFR flight plan which contains: TAS for each sector",
+    "concept": "True airspeed (TAS) is calculated from calibrated airspeed (CAS) corrected for density altitude using the navigation computer or performance charts. For IFR planning, TAS varies with altitude and OAT -- higher altitude and lower temperature give higher TAS for the same IAS/CAS. TAS is the input to the triangle of velocity along with the wind vector to give heading and groundspeed. Record TAS for each sector in the nav log -- it changes between climb, cruise, and descent if different power settings or altitudes are used.",
+    "exam_tip": "TAS varies by sector (altitude and temperature differ). Calculate from CAS using nav computer or POH. TAS is input to triangle of velocity for heading and GS.",
+    "key_facts": [
+      "TAS = CAS corrected for density altitude",
+      "Higher altitude and lower temperature: higher TAS for same IAS/CAS",
+      "Use navigation computer (CR3 or similar) or POH performance charts",
+      "TAS varies: climb TAS differs from cruise TAS",
+      "TAS + wind vector = triangle of velocity = heading + GS",
+      "Record in nav log for each sector"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.44.2(k)",
+    "topic": "54.44 -- IFR Flight Plan Preparation",
+    "syllabus_desc": "Prepare an IFR flight plan which contains: track (degrees M) of each sector",
+    "concept": "The magnetic track for each sector is read from the en route chart alongside the airway segment (in degrees M). For direct (off-airways) routing, the true track is calculated from the coordinates and then magnetic variation is applied to get magnetic track. In New Zealand, magnetic variation varies around the country -- check the isogonic lines on the chart or the AIPNZ for local variation. Magnetic track is not the same as heading -- it's the intended direction of travel over the ground.",
+    "exam_tip": "Magnetic track = track read from chart for your direction of travel (degrees M). For off-airways: calculate true track from coordinates then apply magnetic variation.",
+    "key_facts": [
+      "Magnetic track (degrees M): read from en route chart alongside airway",
+      "For direct routing: calculate true track from coordinates, apply variation",
+      "NZ magnetic variation varies regionally -- check isogonals on chart",
+      "Magnetic track is direction of travel over ground, not heading through air",
+      "Track + wind correction = magnetic heading to fly"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.44.2(l)",
+    "topic": "54.44 -- IFR Flight Plan Preparation",
+    "syllabus_desc": "Prepare an IFR flight plan which contains: heading (degrees M), groundspeed and time for each sector",
+    "concept": "The magnetic heading (HDG) is the course to steer, derived from the triangle of velocity: TAS + wind vector = groundspeed and wind correction angle (WCA). Apply WCA to the magnetic track to get magnetic heading. Groundspeed (GS) is then used to calculate sector time (time = distance / GS). Record heading, GS, and time for each sector. In the flight deck, the heading to fly is set on the HI or DI; the groundspeed can be cross-checked against DME if available.",
+    "exam_tip": "Magnetic heading = track +/- wind correction angle. GS from triangle of velocity. Time = distance / GS. Record all three in nav log for each sector.",
+    "key_facts": [
+      "HDG = track +/- WCA (from triangle of velocity)",
+      "GS derived from TAS and wind vector",
+      "Time per sector = distance (nm) / GS (kt) x 60 = minutes",
+      "Record HDG, GS, and time for each From/To sector",
+      "Cross-check GS in flight using DME time over a known distance"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.44.2(m)",
+    "topic": "54.44 -- IFR Flight Plan Preparation",
+    "syllabus_desc": "Prepare an IFR flight plan which contains: climb, cruise and descent details of a diversion",
+    "concept": "Diversion planning in the IFR nav log mirrors the main flight plan but for the route from destination to the nominated alternate. Record the diversion track, TAS (may differ if diversion is at a different altitude or power setting), wind velocity (may differ if diverting at a lower altitude after a missed approach), heading, GS, distance, and sector time. Also calculate the fuel required for the diversion. All of this is pre-computed in the nav log so that, in the event of a missed approach at destination, the crew can immediately turn to the diversion sector and know exactly what to fly and how much fuel remains.",
+    "exam_tip": "Diversion in the nav log: same elements as main flight (track, TAS, wind, HDG, GS, distance, time, fuel) from destination to alternate. Pre-computed so no mental arithmetic needed in the cockpit during a missed approach.",
+    "key_facts": [
+      "Diversion sector: ADES to alternate, with all nav log elements calculated",
+      "TAS may differ: diversion often at lower altitude = lower TAS",
+      "Wind may differ: lower altitude post-missed-approach = different wind",
+      "Pre-compute diversion fuel: track fuel used, know fuel available for diversion",
+      "Enables immediate execution of diversion without in-cockpit calculation",
+      "Also include fuel for holding at destination before diverting if applicable"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.46.2",
+    "topic": "54.46 -- IFR Fuel Planning",
+    "syllabus_desc": "Calculate total fuel load required including provision for diversion, reserve and contingency fuel",
+    "concept": "IFR fuel planning requires calculating the total fuel to carry, which must cover four components: (1) trip fuel -- the fuel to fly from ADEP to ADES at the planned route and altitude; (2) diversion fuel -- fuel to fly from ADES to the nominated alternate, including the missed approach at destination; (3) contingency fuel -- extra fuel for uncertainties (typically 5% of trip fuel or a minimum amount per Part 91); and (4) reserve fuel -- the final fuel on landing at the alternate that must not be below the required minimum (typically 45 minutes at holding speed for piston, 30 minutes for turbine under Part 91). Total fuel = trip + diversion + contingency + reserve. If taxi fuel is significant (long taxi at a complex aerodrome), add that too. The fuel figure is then cross-checked against the aircraft's usable fuel capacity -- if it doesn't fit, the route, altitude, or alternate must change.",
+    "exam_tip": "IFR total fuel = trip + diversion + contingency (5% min) + reserve (45 min piston / 30 min turbine under NZ Part 91). Calculate each component separately. Always cross-check against usable fuel capacity.",
+    "key_facts": [
+      "Trip fuel: ADEP to ADES at planned route/level",
+      "Diversion fuel: ADES to alternate (include missed approach fuel if significant)",
+      "Contingency fuel: 5% of trip fuel minimum (or as required by operator)",
+      "Reserve fuel: 45 min holding for piston / 30 min for turbine (check CAR Part 91 for current figures)",
+      "Total fuel must not exceed usable fuel capacity",
+      "Add taxi fuel if applicable",
+      "Fuel plan drives alternate selection -- if no alternate with enough fuel, plan must change",
+      "Cross-check EFR at each waypoint during flight"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, CAR Part 91",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.2(a)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Define: drift, drift angle, drift correction",
+    "concept": "Drift is the sideways displacement of an aircraft from its intended track caused by a crosswind component. Drift angle is the angle between the aircraft's heading (direction the nose points) and the track actually made good over the ground. If you're heading 090 degrees but tracking 095 degrees, your drift is 5 degrees to the right (starboard drift). Drift correction (also called wind correction angle, WCA) is the number of degrees you offset your heading into the wind to counteract drift and fly your intended track. Point the nose upwind of the track by the drift angle.",
+    "exam_tip": "Drift = sideways displacement. Drift angle = angle between heading and track made good. Drift correction (WCA) = degrees to offset heading into wind to maintain track.",
+    "key_facts": [
+      "Drift: aircraft displaced sideways from track by crosswind",
+      "Drift angle: angle between heading and track made good",
+      "Port drift: wind from left pushes aircraft right of track",
+      "Starboard drift: wind from right pushes aircraft left of track",
+      "Drift correction (WCA): offset heading into wind by drift angle to maintain track",
+      "Drift angle and WCA are numerically equal but WCA is applied to heading"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.2(b)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Define: track error, closing angle, total correction",
+    "concept": "Track error (TE) is the angular difference between the required track and the track you're actually making. If you should be tracking 270 but your actual track over the ground is 275, you have a 5-degree track error to the right (right of track). Closing angle (CA) is the additional angle you need to apply beyond the track correction to re-intercept the required track within a specified distance (often at the next waypoint). Total correction (TC) = TE + CA. So if TE is 5 degrees and you want to close back to track in the same distance you've already flown, CA is also 5 degrees, making TC = 10 degrees to the left.",
+    "exam_tip": "TE = angular difference between required track and actual track. CA = extra angle to close back to track by a specified point. TC = TE + CA.",
+    "key_facts": [
+      "Track Error (TE): angle between required track and actual track",
+      "Left of track: TE is to the left; right of track: TE is to the right",
+      "Closing Angle (CA): additional angle to return to track by a specific point",
+      "Total Correction (TC) = TE + CA",
+      "Apply TC to current heading to regain track",
+      "Using 1 in 60 rule: TE (degrees) = distance off track (nm) / distance flown (nm) x 60"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.2(c)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Define: magnetic and true bearing",
+    "concept": "A magnetic bearing is the direction FROM or TO a point measured in degrees relative to magnetic north. A true bearing uses geographic (true) north as the reference. The difference is magnetic variation (easterly or westerly). In NZ, variation is predominantly easterly (the compass points west of true north), so to convert true to magnetic, you subtract easterly variation (or 'east is least' -- subtract the variation). To convert magnetic to true, add easterly variation ('west is best' -- add). For example, with 20 degrees east variation: true 090 = magnetic 070.",
+    "exam_tip": "'East is least, west is best': subtract easterly variation to convert true to magnetic; add easterly variation to convert magnetic to true. NZ variation is predominantly easterly.",
+    "key_facts": [
+      "Magnetic bearing: direction measured from magnetic north",
+      "True bearing: direction measured from true (geographic) north",
+      "Magnetic variation: angle between magnetic and true north",
+      "East variation: magnetic north is west of true north -- subtract from true to get magnetic",
+      "'East is least' (subtract), 'West is best' (add)",
+      "NZ: predominantly easterly variation (varies 15-25 degrees east regionally)"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.2(d)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Define: position line",
+    "concept": "A position line (PL) is a line along which the aircraft is known to be situated. A single nav aid gives you one position line -- you know you're on that radial, or at that bearing, or at that distance -- but you don't know exactly where on that line you are. A VOR gives you a radial (a position line). A DME gives you a distance circle (another type of position line). A single NDB gives you a bearing line. You need at least two position lines to establish a fix.",
+    "exam_tip": "Position line = line of known position (radial, bearing, DME arc). One PL alone is insufficient -- need minimum two PLs to fix your position.",
+    "key_facts": [
+      "A line along which the aircraft is known to be positioned",
+      "VOR: provides a radial (straight position line through the station)",
+      "DME: provides a range arc (circular position line centred on station)",
+      "NDB: provides a bearing line",
+      "Single position line: ambiguous -- aircraft is somewhere on that line",
+      "Two intersecting position lines = a fix"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.2(e)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Define: fix",
+    "concept": "A fix is a positively identified position established by the intersection of two or more position lines. The more position lines converging, the more accurate the fix. VOR + DME gives an excellent fix (radial + range = single point). VOR + VOR gives a cross-radial fix. NDB bearing + NDB bearing is a less accurate but acceptable fix in the absence of better options. GNSS gives an automatic fix from satellite geometry. In IFR navigation, fixes are taken at reporting points, before descent, and on approach to verify position.",
+    "exam_tip": "Fix = intersection of two or more position lines. VOR+DME = highly accurate (single point). VOR+VOR = cross-radial fix. More PLs = more accurate. GNSS automatically provides continuous fixes.",
+    "key_facts": [
+      "A definite known position established by two or more position lines",
+      "VOR + DME: most accurate (radial + range defines a unique point)",
+      "VOR + VOR: cross-radial fix (two straight PLs intersecting)",
+      "NDB bearing + NDB bearing: acceptable but less precise",
+      "GNSS: continuous automatic position fix",
+      "Fix accuracy depends on cut angle (90 degrees ideal; less than 30 degrees poor)"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.4",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Describe the principles involved in obtaining an accurate fix",
+    "concept": "The principles for an accurate fix include: (1) Use two or more position lines that cross at close to 90 degrees -- a shallow cut angle produces a large error zone; (2) Take simultaneous observations where possible -- sequential bearings introduce time errors; (3) Use the most accurate nav sources available (DME is more accurate than VOR bearing for range, GNSS is the most accurate); (4) Cross-check any fix against your expected position from dead reckoning -- a wildly unexpected fix suggests an error, not a miracle; (5) Position lines with significant time separation should be corrected for track and distance flown ('running fix').",
+    "exam_tip": "Accurate fix principles: cut angle close to 90 degrees, simultaneous observations, best available sources, cross-check against DR, correct sequential observations for elapsed movement (running fix).",
+    "key_facts": [
+      "Cut angle: ideally 90 degrees; <30 degrees = poor accuracy",
+      "Simultaneous observations eliminate time error",
+      "Best available sources: DME > VOR bearing for range; GNSS = highest accuracy",
+      "Cross-check against DR: unexpected fix may indicate observation error",
+      "Running fix: correct sequential observations for track and distance flown between them",
+      "More position lines = more confidence in fix"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.6(a)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Solve problems involving: the triangle of velocity",
+    "concept": "The triangle of velocity is the vector diagram that relates true airspeed (TAS), wind velocity (W/V), and groundspeed (GS). TAS is the air vector (how fast and which way the aircraft moves through the air mass). W/V is the wind vector (how fast and which way the air mass moves over the ground). GS is the ground vector (the resultant -- how fast and which way the aircraft actually moves over the ground). Solve the triangle to find any unknown: heading to fly (for a given track and W/V), GS, or drift angle. The navigation computer (CR3 or E6B) solves this graphically.",
+    "exam_tip": "Triangle of velocity: TAS vector + W/V vector = GS vector. Use the nav computer to solve for heading, GS, or drift. Components: air vector (TAS + heading), wind vector, ground vector (track + GS).",
+    "key_facts": [
+      "Three vectors: air vector (TAS + heading), wind vector (W/V), ground vector (track + GS)",
+      "Any one unknown can be solved if the other two are known",
+      "Navigation computer (CR-3/E6B) solves graphically",
+      "Drift angle (WCA) = angle between heading and track",
+      "Groundspeed affects sector times and fuel consumption"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.6(b)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Solve problems involving: the 1 in 60 rule",
+    "concept": "The 1 in 60 rule states that 1 degree of angle subtends approximately 1 nautical mile at a distance of 60 nm. This is used for mental navigation calculations. Track Error: TE (degrees) = distance off track (nm) x 60 / distance flown (nm). Closing angle: CA (degrees) = distance off track (nm) x 60 / distance to go (nm). So if you're 3 nm off track after flying 60 nm, your TE = 3 x 60/60 = 3 degrees. If you have 60 nm to go, your CA = 3 x 60/60 = 3 degrees, and TC = 6 degrees.",
+    "exam_tip": "1 in 60 rule: 1 degree = 1 nm at 60 nm. TE = (off track nm x 60) / distance flown nm. CA = (off track nm x 60) / distance to go nm. TC = TE + CA.",
+    "key_facts": [
+      "1 degree subtends approximately 1 nm at 60 nm range",
+      "TE (degrees) = (cross-track distance nm x 60) / distance flown nm",
+      "CA (degrees) = (cross-track distance nm x 60) / distance to go nm",
+      "TC = TE + CA (apply to heading in correct direction)",
+      "Quick mental maths tool -- accurate enough for airborne corrections"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.6(c)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Solve problems involving: time/speed/distance",
+    "concept": "Time, speed, and distance problems are the bread and butter of IFR navigation. The relationships: Distance = Speed x Time; Speed = Distance / Time; Time = Distance / Speed. Use consistent units -- if speed is in knots (nm/hr) and distance in nm, time comes out in hours; multiply by 60 for minutes. The navigation computer handles this directly on the inner/outer scales. Common application: given groundspeed and remaining distance, calculate ETA. Or given time flown and groundspeed, calculate distance covered.",
+    "exam_tip": "D = S x T; S = D/T; T = D/S. Speed in kt, distance in nm, time in hours (x60 for minutes). Nav computer solves directly. Cross-check ETA at each waypoint in flight.",
+    "key_facts": [
+      "D = S x T (all consistent units)",
+      "Speed in knots x time in hours = distance in nm",
+      "Time (min) = distance (nm) / GS (kt) x 60",
+      "Nav computer: align speed over 60 on inner/outer scales for direct read-off",
+      "ETA = departure time + sector times",
+      "Update ETA whenever GS changes"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.6(d)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Solve problems involving: time/fuel used/fuel consumption rate",
+    "concept": "Fuel problems follow the same structure: Fuel used = flow rate x time; flow rate = fuel used / time; time = fuel used / flow rate. Fuel flow is typically in litres per hour or kg/hr from the POH. Common problems: how long before fuel exhaustion (time = fuel remaining / flow rate), or how much fuel used in a sector (flow rate x sector time). Endurance is total usable fuel divided by fuel flow rate -- how long you can fly. Cross-check EFR against planned at every waypoint.",
+    "exam_tip": "Fuel used = flow rate x time. Endurance = usable fuel / flow rate. Fuel remaining at waypoint = fuel on board at departure minus fuel burned to that point. Cross-check EFR in flight.",
+    "key_facts": [
+      "Fuel used = flow rate x time (consistent units -- litres/hr x hours = litres)",
+      "Endurance = total usable fuel / fuel flow rate",
+      "EFR (Estimated Fuel Remaining) = initial fuel - fuel burned",
+      "Compare EFR against planned at each waypoint",
+      "If EFR is below planned: investigate -- headwind, higher than planned power",
+      "Fuel flow changes with altitude, power, and mixture setting"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.6(e)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Solve problems involving: height/time/distance/rate of climb/rate of descent",
+    "concept": "Height, time, distance, and rate of climb/descent calculations link the vertical and horizontal components of a climb or descent. If you need to descend 6,000 ft at a groundspeed of 180 kt and your aircraft descends at 1,000 ft/min, the time to descend = 6,000/1,000 = 6 minutes. Distance covered = 180 kt x (6/60) hr = 18 nm. So your TOD must be 18 nm before the target altitude. Going the other way: if you must lose 6,000 ft in 18 nm at 180 kt, your required rate of descent = 6,000 ft / (18 nm / 180 kt) = 6,000 / 0.1 hr = 60,000 ft/hr = 1,000 ft/min.",
+    "exam_tip": "Distance to descend (nm) = GS (kt) x descent time (hr). Required ROD (ft/min) = altitude to lose / time of descent. Time = distance / GS; altitude loss = ROD x time.",
+    "key_facts": [
+      "Descent time (hr) = altitude loss (ft) / ROD (ft/hr = ft/min x 60)",
+      "Distance (nm) = GS (kt) x descent time (hr)",
+      "Required ROD (ft/min) = altitude loss x GS / distance x (1/60)",
+      "For 3-degree path: ROD (ft/min) approximately GS (kt) x 5",
+      "TOD distance from target = distance covered during descent"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.6(f)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Solve problems involving: calculate the track miles flown on a segment of a DME arc",
+    "concept": "To calculate track miles flown on a segment of a DME arc, you need the arc angle flown (in degrees) and the arc radius (in nm). Arc length = (arc angle / 360) x 2 x pi x radius. Simplified: arc length (nm) = arc angle (degrees) x pi x radius / 180. For example, a 90-degree arc at 10 DME = (90/360) x 2 x pi x 10 = 0.25 x 62.83 = 15.7 nm. This tells you how many track miles you've flown on the arc, which is used for fuel calculations and ETA estimates while flying the arc.",
+    "exam_tip": "DME arc track miles = (arc angle degrees / 360) x 2 x pi x radius nm. Or: arc angle x pi x radius / 180. Know this formula for the exam.",
+    "key_facts": [
+      "Arc length (nm) = (arc angle / 360) x 2 x pi x DME radius",
+      "Simplified: arc length = arc angle x pi x radius / 180",
+      "Example: 90-degree arc at 10 DME = 15.7 nm",
+      "Used for fuel consumption on the arc and ETA at end of arc",
+      "Distance steps on the arc chart help track position during the arc"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.8(a)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Based on information derived from VOR and DME displays, and from GNSS instrumentation: describe navigation aspects associated with published departure procedures",
+    "concept": "Published departure procedures (SIDs) define the initial routing and climb profile for IFR departures. When navigating a SID using VOR/DME, you track outbound radials, intercept crossing radials to turn, and use DME to identify turning points and step-climb altitudes. With GNSS, the FMS sequences through the published SID waypoints automatically. Either way, cross-check the published ground track against displayed CDI/HSI/map to ensure you're on the correct lateral path. Any altitude crossing requirements on the SID must be met -- use vertical speed to control the profile.",
+    "exam_tip": "Departure procedure navigation: VOR track outbound radials and DME turn points; GNSS sequences waypoints via FMS. Cross-check lateral path on CDI/HSI. Meet altitude crossing requirements.",
+    "key_facts": [
+      "VOR/DME: track specified radials outbound, use DME for turn/altitude trigger points",
+      "GNSS: FMS sequences through SID waypoints if programmed correctly",
+      "Verify lateral path on CDI or HSI against chart depiction",
+      "All altitude crossing requirements on the SID are mandatory",
+      "After SID terminus: join en route structure as cleared"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.8(b)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Based on information derived from VOR and DME displays, and from GNSS instrumentation: calculate magnetic headings required to maintain or regain required magnetic tracks",
+    "concept": "To calculate the magnetic heading to maintain or regain a required magnetic track using VOR/DME information, use the triangle of velocity: apply the known wind velocity and TAS to the required track to calculate the wind correction angle. Heading = Track +/- WCA. Drift correction into the wind: if wind is from the right, add WCA to track; if wind is from the left, subtract WCA. To regain a track after drift: apply additional correction (total correction = TE + CA). With VOR, the CDI shows your lateral displacement and helps you confirm when you're back on track.",
+    "exam_tip": "Heading = track +/- WCA. Wind from right: add WCA to track. Wind from left: subtract. To regain track: apply total correction (TE + CA). Confirm on CDI when back on track.",
+    "key_facts": [
+      "HDG = track + WCA (wind from right) or track - WCA (wind from left)",
+      "WCA calculated using triangle of velocity (nav computer)",
+      "To regain track: HDG correction = TE + CA",
+      "VOR CDI confirms lateral position on the radial/track",
+      "DME confirms along-track position",
+      "Update WCA if wind changes significantly"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.8(c)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Based on information derived from VOR and DME displays, and from GNSS instrumentation: determine a position in relation to a navigation aid or aids",
+    "concept": "Determining position relative to a navigation aid using VOR/DME: the VOR gives you the radial you're on (bearing from the station), and the DME gives you slant range. Together, VOR radial + DME distance places you at a unique point -- on the specific radial at the specific distance from the VOR/DME. With two VORs, two radials give a cross-fix. With GNSS, position is continuous and automatic. To determine position: tune the VOR, centre the OBS, read the radial (TO or FROM). Combine with DME for precise fix.",
+    "exam_tip": "VOR + DME: radial (FROM reading) + DME distance = unique position fix. Two VORs: cross-radial fix. GNSS: automatic continuous fix.",
+    "key_facts": [
+      "VOR radial (FROM reading): bearing FROM the station to aircraft",
+      "DME: slant range -- uniquely defines position on that radial",
+      "VOR alone: position line (one of many points on that radial)",
+      "VOR + DME: definite fix",
+      "Cross-VOR fix: two VOR radials intersect at one point",
+      "GNSS: automatic position independent of ground-based navaids"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.8(d)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Based on information derived from VOR and DME displays, and from GNSS instrumentation: calculate magnetic tracks to specified point(s)",
+    "concept": "To calculate magnetic tracks to specified points using VOR/DME or GNSS: from your current position, draw or compute the bearing to the target point. If using VOR, tune the target VOR, rotate the OBS until you get a TO indication and zero CDI -- the OBS reading gives the magnetic track to the station (FROM aircraft). From GNSS: the FMS or CDI displays desired track to the active waypoint directly. For non-navaid waypoints, calculate the true track from coordinates (using the nav computer or mental geometry) then apply magnetic variation.",
+    "exam_tip": "VOR track to station: rotate OBS to zero CDI with TO indication -- OBS reading = magnetic track to station. GNSS: reads track to waypoint directly on FMS/CDI display.",
+    "key_facts": [
+      "VOR TO indication + zero CDI: OBS reading = magnetic track from aircraft to station",
+      "VOR FROM indication: OBS reading = magnetic track away from station",
+      "GNSS FMS: displays desired track to active waypoint directly",
+      "For non-navaid waypoints: true track from coordinates + magnetic variation = magnetic track",
+      "Magnetic track to a point = reciprocal of the bearing FROM that point"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.8(e)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Based on information derived from VOR and DME displays, and from GNSS instrumentation: calculate groundspeed",
+    "concept": "Groundspeed can be calculated using DME by timing over a known DME distance: GS (kt) = distance (nm) / time (hr). For example, if you cover 10 nm of DME in 4 minutes, GS = 10 / (4/60) = 10 x 15 = 150 kt. With GNSS, groundspeed is displayed continuously and directly. With two position fixes at known time intervals, GS = distance between fixes / time elapsed. Accurate GS is essential for updating ETAs and checking fuel consumption against plan.",
+    "exam_tip": "GS from DME: GS (kt) = nm / (time in min / 60). GNSS shows GS directly. Always update ETA and EFR when GS differs from planned.",
+    "key_facts": [
+      "GS (kt) = distance (nm) / time (hours) = nm / (min/60)",
+      "DME method: time over a known DME distance",
+      "GNSS: continuous direct readout",
+      "GS differs from TAS by the headwind or tailwind component",
+      "Update ETA if actual GS differs significantly from planned GS",
+      "GS also used to calculate required ROD for 3-degree approach"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.8(f)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Based on information derived from VOR and DME displays, and from GNSS instrumentation: calculate estimated times of arrival at destination or intermediate positions",
+    "concept": "Estimated time of arrival (ETA) at destination or intermediate positions: ETA = departure time + sum of sector times. Update the ETA continuously in flight as GS deviates from plan. ETA updates should be passed to ATC whenever the ETA changes by 3 minutes or more. For intermediate positions, calculate ETA = departure time + time elapsed to that waypoint. GNSS and FMS calculate and display ETAs automatically. Always cross-check FMS ETAs against manual estimates, especially after reprogramming.",
+    "exam_tip": "ETA = departure time + accumulated sector times. Advise ATC if ETA changes by 3 minutes or more. GNSS/FMS displays ETA but always cross-check after any reprogramming.",
+    "key_facts": [
+      "ETA = departure time + sum of sector times to that point",
+      "Update when actual GS differs from planned",
+      "Report revised ETA to ATC if change exceeds 3 minutes",
+      "GNSS/FMS: automatic ETA display -- verify after any route changes",
+      "ETA errors compound over long sectors if GS check is delayed",
+      "ETA at destination used for alternate fuel calculation"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.1",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.8(g)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Based on information derived from VOR and DME displays, and from GNSS instrumentation: determine requirements with respect TOC/TOD and rate of climb/rate of descent",
+    "concept": "Top of Climb (TOC) and Top of Descent (TOD) requirements can be derived from VOR/DME information in flight. TOC: monitor DME distance from a navaid -- when you expect to reach cruise altitude, note the DME distance and check it against plan. TOD: work out when to begin descent so that you arrive at the first STAR altitude constraint at the right level. With the 3-degree rule: distance to TOD (nm) = altitude to lose (ft) / (GS x 5 / GS) -- simplified: altitude to lose / 300 per nm at typical speeds. With GNSS/FMS: TOD is computed and displayed automatically.",
+    "exam_tip": "TOD distance from target altitude: altitude to lose (ft) divided by ROD (ft/nm). For 3-degree path: roughly altitude loss / 300 per nm at 100 kt, adjust for GS. FMS computes automatically.",
+    "key_facts": [
+      "TOC: altitude at which cruise begins -- track against DME or waypoint",
+      "TOD: point where descent starts to meet first STAR crossing altitude",
+      "3-degree descent path: ROD ft/nm = GS (kt) x 5 / 60 x 60 -- simplified to ~300 ft/nm at 100 kt",
+      "Distance to descend = altitude to lose / ROD per nm",
+      "FMS computes TOD automatically based on arrival constraints",
+      "Always cross-check FMS TOD against mental estimate"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.8(h)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Based on information derived from VOR and DME displays, and from GNSS instrumentation: position in terms of a radial and distance to or from a navigation aid",
+    "concept": "Position in terms of a radial and distance from a navigation aid is the standard IFR position reporting format. Format: '[aircraft] is [radial] radial, [distance] DME from [navaid]'. For example: 'ZK-ABC, Hamilton 085 radial, 45 DME'. The radial is the VOR bearing FROM the station to the aircraft (OBS set to TO, then add 180 for FROM radial, or just read the FROM side). DME gives the slant range. Position can also be stated as: '[distance] on the [radial]' or as a waypoint name.",
+    "exam_tip": "Position stated as: radial from the station and DME distance. Format: '[station] [xxx] radial, [nn] DME.' The radial is FROM the station.",
+    "key_facts": [
+      "Standard IFR position format: [station name] [radial] radial, [DME] DME",
+      "Radial is FROM the station (the bearing FROM the station TO the aircraft)",
+      "DME gives range (slant range -- slightly more than actual distance at low altitudes)",
+      "Can be cross-checked by tuning the relevant VOR and reading OBS with TO/FROM",
+      "Position can be reported as waypoint name when at a defined fix",
+      "Required at compulsory reporting points without ATC prompting"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ ENR 1.1",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.8(i)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Based on information derived from VOR and DME displays, and from GNSS instrumentation: calculate fuel consumption, and operational details or requirements resulting from fuel flow information",
+    "concept": "Fuel consumption monitoring in flight: compare actual fuel flow against the planned flow from the nav log. Calculate EFR at each waypoint (initial fuel minus fuel burned to that point). If EFR is below plan, you're burning more than expected -- investigate (higher power? stronger headwind? fuel mismanagement?). If significantly below plan at a critical fuel point, you may need to reconsider the alternate or direct-route to destination. Fuel flow instruments give actual consumption; compare to the POH values used in planning. Don't forget to cross-check fuel tank contents against EFR -- particularly important if one tank is running out faster than the other.",
+    "exam_tip": "Monitor EFR at each waypoint. EFR = fuel loaded - fuel burned. Compare to planned EFR. If below plan: investigate immediately. Cross-check gauges against calculated EFR.",
+    "key_facts": [
+      "EFR (Estimated Fuel Remaining) = initial fuel - fuel burned to this point",
+      "Compare EFR to planned EFR at each waypoint",
+      "Below-plan EFR: higher burn rate (higher power, headwind, fuel system issue)",
+      "Critical fuel point: if EFR drops below alternate + reserve, take action",
+      "Cross-check fuel gauges against calculated EFR -- gauges can be inaccurate",
+      "Fuel imbalance: check tank selectors and cross-feeding if one tank depletes faster"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.8(j)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Based on information derived from VOR and DME displays, and from GNSS instrumentation: describe navigation aspects associated with published arrival procedures",
+    "concept": "Navigation aspects of published arrival procedures (STARs) using VOR/DME and GNSS: STARs are defined by waypoints, radials, and DME distances. On a VOR/DME STAR, you track outbound or inbound radials and use DME to identify waypoints. On a GNSS STAR, the FMS sequences through stored waypoints. Either way, verify the lateral path on the CDI/HSI against the plate. Altitude constraints are mandatory. Speed constraints are mandatory unless ATC amends. Position reports may be required at compulsory reporting points on the STAR.",
+    "exam_tip": "STAR navigation: VOR radials + DME distance = waypoints. GNSS: FMS sequences. Verify lateral path on CDI/HSI. All altitude and speed constraints mandatory (unless ATC amends).",
+    "key_facts": [
+      "VOR/DME STAR: track inbound/outbound radials, use DME for waypoint identification",
+      "GNSS STAR: FMS sequences through stored waypoints automatically",
+      "Cross-check lateral path on CDI/HSI/map display against plate",
+      "Altitude constraints mandatory -- comply with 'at', 'at or above', 'at or below'",
+      "Speed constraints mandatory unless ATC amends",
+      "Position reports at compulsory reporting points on STAR"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.8(k)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Based on information derived from VOR and DME displays, and from GNSS instrumentation: calculate holding time over a navigation aid before diversion must be commenced",
+    "concept": "Holding time before diversion commences is calculated from the fuel remaining. Holding time available = (EFR at holding fix) minus (diversion fuel + reserve fuel) divided by holding fuel flow. Alternatively: max holding time = EFR - (fuel to alternate + fuel for approach at alternate + reserve) / holding fuel flow. Before entering the hold, calculate the fuel at which you must leave to reach the alternate with required reserves. Then monitor time in the hold and fuel -- when the threshold is reached, depart the hold and divert.",
+    "exam_tip": "Max holding time = (EFR - diversion fuel - reserve fuel) / holding fuel flow. Calculate before entering hold. Depart the hold when fuel reaches the decision threshold.",
+    "key_facts": [
+      "Calculate fuel threshold: diversion fuel + alternate approach fuel + reserve",
+      "Max holding time = (EFR - fuel threshold) / holding fuel flow rate",
+      "Declare fuel state to ATC if nearing minimum diversion fuel",
+      "Monitor time and fuel continuously in the hold",
+      "Depart hold when fuel reaches threshold -- not later",
+      "Holding fuel flow is typically slightly higher than cruise (lower altitude, circuit speeds)"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, CAR Part 91",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.8(l)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Based on information derived from VOR and DME displays, and from GNSS instrumentation: describe Distance steps",
+    "concept": "Distance steps on en route charts show cumulative DME distances from a navaid along the airway. They're used to identify waypoints and to cross-check groundspeed and ETAs. On a STAR or approach with a DME arc, distance steps are marked around the arc at regular intervals (e.g. every 5 degrees) so the pilot can track how far around the arc they've flown. To use distance steps in flight: note the DME distance from the reference navaid, then cross-check with the distance step marked on the chart at that position.",
+    "exam_tip": "Distance steps = cumulative DME distances marked on chart for position and groundspeed cross-checking. On DME arcs: spaced around arc to track arc progress.",
+    "key_facts": [
+      "Cumulative track distances from a navaid, marked at specific positions",
+      "Used to identify waypoints by DME distance from the reference navaid",
+      "Groundspeed cross-check: note time between distance steps, calculate GS",
+      "On DME arcs: mark position around the arc",
+      "Published on en route charts and approach plates",
+      "Particularly useful in non-radar environments without GNSS"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  },
+  {
+    "code": "54.52.8(m)",
+    "topic": "54.52 -- IFR Navigation Procedures",
+    "syllabus_desc": "Based on information derived from VOR and DME displays, and from GNSS instrumentation: describe a DME arc procedure",
+    "concept": "A DME arc procedure is an approach segment (or part of a STAR) flown at a constant DME distance from a collocated VOR/DME or standalone DME. To fly it: maintain the published DME distance (e.g. 10 DME) using small heading changes to keep the DME constant. Lead the turn when the aircraft is within approximately 0.5 nm of the arc. Use the VOR radials as position checks around the arc (distance steps). When the arc intersects the inbound track radial, lead the turn inbound using approximately half the bank-in angle as a lead radial. The 'lead radial' is published on the plate to help time the inbound turn.",
+    "exam_tip": "DME arc: fly at constant DME distance using small heading changes. Lead inbound turn using published lead radial. Use VOR radials as position checks around the arc.",
+    "key_facts": [
+      "Maintain constant DME distance using small heading corrections",
+      "Lead the initial roll-onto-arc by approximately 0.5 nm",
+      "VOR radials = position checks around the arc (distance steps)",
+      "Lead radial published on plate: start inbound turn when crossing the lead radial",
+      "Arc track miles: (arc angle/360) x 2 x pi x radius",
+      "DME arcs typically used on VOR/DME approach procedures to intercept final approach course"
+    ],
+    "source": "NZ CAA AC 61-17 Rev 17, AIP NZ Vol 3",
+    "confidence": "high",
+    "verified": false,
+    "created": "2026-04-09T00:00:00Z"
+  }
+]
