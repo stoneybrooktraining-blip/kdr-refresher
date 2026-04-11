@@ -646,6 +646,7 @@
     <!-- FOOTER -->
     <footer>
         <p>&copy; <script>document.write(new Date().getFullYear())</script> Stoneybrook Training &middot; <a href="https://stoneybrooktraining-blip.github.io/exam-feedback/">Question Survey</a></p>
+        <p style="font-size:11px;opacity:0.7;margin-top:8px;">Anonymous usage data is collected to improve our courses. No personal information is stored.</p>
     </footer>
 
     <script>
@@ -750,7 +751,8 @@
             detectedSubject: null,
             extractedCodes: [],
             matchedContent: [],
-            contentData: null
+            contentData: null,
+            pdfText: ''
         };
 
         // ===== UI SETUP =====
@@ -832,9 +834,12 @@
                     fullText += content.items.map(item => item.str).join(' ') + ' ';
                 }
 
+                appState.pdfText = fullText;
                 detectExamAndSubject(fullText);
                 extractCodes(fullText);
                 await loadContentData();
+                // Send anonymous analytics (non-blocking)
+                sendAnalytics(fullText);
             } catch (error) {
                 console.error('PDF processing error:', error);
                 showToast('Could not read text from PDF. Try saving/printing it differently.', true);
@@ -1380,6 +1385,65 @@
             showToast('PDF downloaded successfully!');
         }
 
+        // ===== ANONYMOUS ANALYTICS =====
+        const ANALYTICS_URL = 'PASTE_YOUR_APPS_SCRIPT_URL_HERE';
+
+        /**
+         * Generate SHA-256 hash of a string (for duplicate detection).
+         * Uses the Web Crypto API — available in all modern browsers.
+         */
+        async function sha256(message) {
+            const msgBuffer = new TextEncoder().encode(message);
+            const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        }
+
+        /**
+         * Extract Candidate ID and Exam Date from the PDF text for hashing.
+         * ASPEQ result slips contain "Candidate ID: XXXXXX" and a date.
+         */
+        function extractHashInputs(pdfText) {
+            const candidateMatch = pdfText.match(/candidate\s*(?:id|number|no\.?)\s*[:\-]?\s*(\w+)/i);
+            const dateMatch = pdfText.match(/(\d{1,2}[\/\.\-]\d{1,2}[\/\.\-]\d{2,4})/);
+            const candidateId = candidateMatch ? candidateMatch[1] : 'unknown';
+            const examDate = dateMatch ? dateMatch[1] : 'unknown';
+            return { candidateId, examDate };
+        }
+
+        /**
+         * Send anonymous analytics data. Non-blocking — failures are silent.
+         * Called after a report is successfully generated.
+         */
+        async function sendAnalytics(pdfText) {
+            if (ANALYTICS_URL === 'PASTE_YOUR_APPS_SCRIPT_URL_HERE') return; // Not configured yet
+
+            try {
+                const { candidateId, examDate } = extractHashInputs(pdfText);
+                const subject = appState.detectedSubject || 'unknown';
+                const hashInput = candidateId + '|' + subject + '|' + examDate;
+                const hash = await sha256(hashInput);
+
+                const payload = {
+                    subject: subject,
+                    examType: appState.detectedExam || 'Unknown',
+                    codes: appState.extractedCodes,
+                    hash: hash,
+                    timestamp: new Date().toISOString()
+                };
+
+                // Fire-and-forget — do not await, do not block
+                fetch(ANALYTICS_URL, {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                }).catch(() => {}); // Silently ignore any errors
+            } catch (e) {
+                // Analytics must never interfere with the student experience
+            }
+        }
+
         // ===== RESET =====
         resetBtn.addEventListener('click', resetUpload);
 
@@ -1390,7 +1454,8 @@
                 detectedSubject: null,
                 extractedCodes: [],
                 matchedContent: [],
-                contentData: null
+                contentData: null,
+                pdfText: ''
             };
             pdfFile.value = '';
             fileName.textContent = '';
